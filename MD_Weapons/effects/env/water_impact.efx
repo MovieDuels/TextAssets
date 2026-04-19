@@ -1,0 +1,230 @@
+repeatDelay				300
+
+Tail
+{
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				14 18
+
+	life				1000 1200
+
+	delay				0 300
+
+	velocity			3 -4 -4 3 4 4
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			0.3608 0.3608 0.3608
+	}
+
+	alpha
+	{
+		start			0.4
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			6 8
+		end				14 16
+		parm			50 80
+		flags			linear clamp
+	}
+
+	length
+	{
+		start			-34 -46
+		end				-120 -140
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/water_splash
+	]
+}
+
+Particle
+{
+	count				20 24
+
+	life				800 1200
+
+	velocity			100 -80 -80 175 80 80
+
+	gravity				-250 -300
+
+	rgb
+	{
+		start			0.7529 0.7529 0.7529
+	}
+
+	alpha
+	{
+		end				0
+		parm			50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0.3 1
+	}
+
+	shaders
+	[
+		gfx/misc/steam2
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/player/bodyfall_water1.mp3
+		sound/player/bodyfall_water2.mp3
+		sound/player/bodyfall_water3.mp3
+	]
+}
+
+OrientedParticle
+{
+	name				OrientedParticl
+
+	spawnFlags			orgOnCylinder
+
+	count				8 10
+
+	life				400 500
+
+	delay				500 540
+
+	cullrange			320
+
+	radius				26 56
+
+	height				0
+
+	rotation			0 360
+
+	rotationDelta		-16 16
+
+	rgb
+	{
+		start			0.1725 0.1725 0.1725 0.1922 0.2824 0.2824
+	}
+
+	alpha
+	{
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			1 2
+		end				6 8
+		flags			linear
+	}
+
+	shaders
+	[
+		wake
+	]
+}
+
+Tail
+{
+	name				Copy of Unnamed Tail 0
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				4 5
+
+	life				1000 1200
+
+	delay				0 300
+
+	origin				0 -10 -10 0 10 10
+
+	velocity			3 0 0
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			0.3608 0.3608 0.3608
+	}
+
+	alpha
+	{
+		start			0.4
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			8 10
+		end				12 14
+		parm			50 80
+		flags			linear clamp
+	}
+
+	length
+	{
+		start			-40 -50
+		end				-110 -130
+		parm			10 20
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/water_splash
+	]
+}
+
+OrientedParticle
+{
+	name				Copy of OrientedParticl
+
+	count				2 4
+
+	life				1400 1600
+
+	radius				26 56
+
+	rotationDelta		-6 6
+
+	rgb
+	{
+		start			0.1725 0.1725 0.1725 0.1922 0.2824 0.2824
+	}
+
+	alpha
+	{
+		end				0
+		parm			50 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			64 78
+		end				168 196
+		flags			linear
+	}
+
+	shaders
+	[
+		wake
+	]
+}

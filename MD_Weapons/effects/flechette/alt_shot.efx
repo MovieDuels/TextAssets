@@ -1,0 +1,44 @@
+Particle
+{
+	name				Glow
+
+	spawnFlags			rgbComponentInterpolation
+
+	rgb
+	{
+		start			0.4745 0.6588 1
+		flags			linear
+	}
+
+	size
+	{
+		start			5 9
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+Particle
+{
+	name				Shell
+
+	spawnFlags			rgbComponentInterpolation
+
+	rgb
+	{
+		flags			linear
+	}
+
+	size
+	{
+		start			3.5 3.7
+	}
+
+	shaders
+	[
+		gfx/effects/shield
+	]
+}

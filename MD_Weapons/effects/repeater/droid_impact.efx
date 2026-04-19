@@ -1,0 +1,10 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		impacts/droid_impact1
+		impacts/droid_impact2
+	]
+}

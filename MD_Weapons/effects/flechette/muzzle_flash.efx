@@ -1,0 +1,170 @@
+Line
+{
+	life		30
+	origin2	26 0 0 	32 0 0
+
+	width
+	{
+		start 	6.2 	8.5
+		end	5.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	0.5	0.6
+		end	0.35
+		flags	linear
+	}
+
+	shader
+	[
+		gfx/effects/bryarSideFlash
+	]
+}
+
+Particle
+{
+	life	75
+	origin	8 0 0
+	rotation	0	360
+
+	size
+	{
+		start 	10.0 	16.5
+		end	7.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	0.8	1.0
+		end	0.7
+		flags	linear
+	}
+
+	shader
+	[
+		gfx/effects/BRYAR_FRONTFLASH
+	]
+}
+
+Particle
+{
+	count				3 5
+
+	life				350 700
+
+	origin				6 -1 -1 10 1 1
+
+	rotation			-180 180
+
+	rotationDelta		-20 20
+
+	velocity			40 -15 -15 80 15 15
+
+	gravity				0 10
+
+	alpha
+	{
+		start			0.5 0.7
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 3
+		end				4 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/steam
+	]
+}
+
+Tail
+{
+	count				6 10
+
+	life				150 325
+
+	origin				2 -1 -1 4 1 1
+
+	velocity			140 -68 -68 250 68 68
+
+	acceleration		-10 -20 -20 10 20 20
+
+	rgb
+	{
+		start			1 0.6 0 1 1 0.102
+		end				1 0.4 0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.6 1.1
+		end				0
+		parm			60 70
+		flags			linear nonlinear
+	}
+
+	length
+	{
+		start			7 18
+		end				2 5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/bryarSideFlash
+		gfx/effects/whiteGlow
+		gfx/misc/flaretailup
+	]
+}
+
+Light
+{
+	life				200
+
+	rgb
+	{
+		start			1 0.7 0.2
+	}
+
+	size
+	{
+		start			100 150
+	}
+}
+
+Sound
+{
+	sounds
+	[
+		sound/weapons/flechette/fire.wav
+	]
+}
+
+CameraShake
+{
+	flags				usePhysics
+
+	life				100
+
+	bounce				2
+
+	radius				60
+}
+
+forcefeedback
+{
+	forces
+	[
+		fffx/weapons/flechette/fire
+	]
+}

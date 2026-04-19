@@ -1,0 +1,179 @@
+// Simple flechette impact effect
+
+// Mini-explosion made out of a couple of lines
+Line
+{
+	count 	8	14
+	life	100	200
+
+	origin2	12 -10 -10		18 10 10
+
+	width
+	{
+		start 	0.5 	1.0
+	}
+
+	alpha
+	{
+		start 	0.25 	1.0
+		end	0.0
+		flags	linear
+	}
+	
+	shader
+	[
+		gfx/misc/spark
+		gfx/misc/spark2
+	]
+}
+
+Particle
+{
+	life				50
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			2 4
+		end				6
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteflare
+	]
+}
+
+Particle
+{
+	life				80
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			1 3
+		end				4
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire_radial
+	]
+}
+
+Line
+{
+	count				9 12
+
+	life				100 200
+
+	origin2				12 -10 -10 18 10 10
+
+	alpha
+	{
+		start			0.25 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.2 0.5
+	}
+
+	shaders
+	[
+		gfx/misc/spark4
+		gfx/misc/spark2
+                gfx/misc/spark4
+	]
+}
+
+Tail
+{
+	flags				usePhysics
+
+	count				14 17
+
+	life				500 900
+
+	bounce				0.25 0.4
+
+	velocity			120 -80 -80 250 80 80
+
+	gravity				-350 -450
+
+	size
+	{
+		start			0.3 0.4
+	}
+
+	length
+	{
+		start			4 10
+		end				0.1 1
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/spark4
+		gfx/misc/spark2
+                gfx/misc/spark4
+	]
+}
+
+// Let's call another existing effect to get some smoke!
+FxRunner
+{
+	playfx
+	[
+		volumetric/black_smoke
+		volumetric/smoke
+	]
+}
+
+Decal
+{
+	count	1
+
+	size
+	{
+		start 	5.5	7.0
+	}
+
+	shader
+	[
+		gfx/damage/burnmark4
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/weapons/flechette/ricochet2.wav
+	]
+}

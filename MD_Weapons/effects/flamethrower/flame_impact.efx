@@ -1,0 +1,156 @@
+repeatDelay				100
+
+Tail
+{
+	name				Flame
+
+	spawnFlags			absoluteVel
+
+	count				0.4 0.6
+
+	life				1000 3000
+
+	origin				-30 -12 -12 10 12 7
+
+	origin2				0 -0.2 1 0 0.2 6
+
+	velocity			0 0 -1
+
+	rgb
+	{
+		start			1 1 1 1 0.8863 0.549
+	}
+
+	size
+	{
+		start			0
+		end			5 8
+		parm			1
+		flags			wave
+	}
+
+	length
+	{
+		start			0
+		end			12 20
+		parm			1
+		flags			wave
+	}
+
+	shaders
+	[
+		gfx/effects/fire_radial
+	]
+}
+
+Particle
+{
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				3 4
+
+	life				1000 3000
+
+	origin				10 10 30 -10 -10 -10
+
+	rotation			0 360
+
+	rotationDelta		        20 -20
+
+	velocity			0 -5 -5 10 50 50
+
+	gravity				20 60
+
+
+	rgb
+	{
+		start			1 1 0 0.9961 0.7098 0.1137
+		end			1 1 1 1 0 0
+		parm			50 60
+		flags			linear0.4902
+	}
+
+	alpha
+	{
+		start			0.4 0.2
+		end			0
+		parm			80 90
+		flags			linear
+	}
+
+	size
+	{
+		start			14
+		end			8 15
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire2
+		gfx/effects/fire3
+		gfx/effects/fire4
+	]
+}
+
+Particle
+{
+	name				Fire
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				4 5
+
+	life				1000 3000
+
+	delay				0 600
+
+	cullrange			1100
+
+	origin				-35 -8 -8 15 8 3
+
+	rotation			0 360
+
+	rotationDelta		        20 -20
+
+	velocity			20 -15 -15 70 15 15
+
+	rgb
+	{
+		start			1 1 1 1 0.8863 0.549
+		end			0.9922 0.3804 0.1765 0.9843 0.3412 0.1843
+		flags			linear
+	}
+
+	alpha
+	{
+		start			0
+		parm			20
+		flags			clamp
+	}
+
+	size
+	{
+		start			16 24
+		end				0
+		parm			50
+		flags			linear nonlinear
+	}
+
+	shaders
+	[
+		gfx/effects/fire2
+		gfx/effects/fire3
+		gfx/effects/fire4
+	]
+}
+
+Sound
+{
+	name				burnsound
+
+	sounds
+	[
+		sound\effects/torch_burning_lp.wav
+	]
+}

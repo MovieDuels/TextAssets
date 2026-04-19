@@ -1,0 +1,18 @@
+Decal
+{
+	rotation			-180 180
+
+	size
+	{
+		start			2 3
+	}
+
+	shaders
+	[
+		gfx/damage/projmark1
+		gfx/damage/projmark2
+		gfx/damage/projmark3
+		gfx/damage/projmark4
+		gfx/damage/shrapmark
+	]
+}

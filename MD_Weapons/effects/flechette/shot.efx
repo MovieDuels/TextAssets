@@ -1,0 +1,96 @@
+Particle
+{
+	count				1 2
+
+	life				15
+
+	velocity			40 0 0 140 0 0
+
+	rgb
+	{
+		start			0.898 0.302 0.102 1 0.8 0.302
+		end				0.4 0.102 0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 6
+	}
+
+	shaders
+	[
+		gfx/effects/burst
+		gfx/effects/flare1
+		gfx/effects/whiteGlow
+	]
+}
+
+Particle
+{
+	spawnFlags			rgbComponentInterpolation
+
+	life				12 15
+
+	rgb
+	{
+		start			0.898 0.302 0.102 1 0.8 0.302
+		end				0.4 0.102 0
+		flags			linear
+	}
+
+	size
+	{
+		start			4 5
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+Particle
+{
+	life				400 500
+
+	velocity			10 0 0 60 0 0
+
+	acceleration		0 -10 -10 0 10 10
+
+	gravity				20 50
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			3 4
+		end				6 8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/steam
+	]
+}
+
+Light
+{
+	life				2 3
+
+	rgb
+	{
+		start			0.898 0.302 0.102 1 0.8 0.302
+	}
+
+	size
+	{
+		start			20 30
+	}
+}

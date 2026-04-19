@@ -1,0 +1,38 @@
+repeatDelay				300
+
+Electricity
+{
+	flags				useModel usePhysics
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	count				1
+
+	life				625 800
+	bounce				1.2 1
+
+	alpha
+	{
+		end			0
+		parm			80
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			10 20
+		end			4
+		parm			80
+		flags			nonlinear
+	}
+
+	shaders
+	[
+		gfx/effects/yellowline
+	]
+
+	impactfx
+	[
+		env/yellow_explode
+	]
+}

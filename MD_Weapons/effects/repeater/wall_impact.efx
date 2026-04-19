@@ -1,0 +1,256 @@
+OrientedParticle
+{
+	life				300 400
+
+	cullrange			2000
+
+	alpha
+	{
+		start			0.8 1
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			1.2 2
+		end				8
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/flare
+	]
+}
+
+OrientedParticle
+{
+	life				300 400
+
+	cullrange			1000
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			random linear
+	}
+
+	size
+	{
+		start			5 7
+		end				21
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/flare
+	]
+}
+
+OrientedParticle
+{
+	count				1 2
+
+	life				300 400
+
+	cullrange			1200
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0.1
+		flags			linear
+	}
+
+	size
+	{
+		start			7 12
+	}
+
+	shaders
+	[
+		gfx/misc/flare
+	]
+}
+
+Particle
+{
+	life				70
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			6 8
+		end				12
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/embers
+	]
+}
+
+Particle
+{
+	life				90
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			3 5
+		end				7
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire_radial
+	]
+}
+
+Line
+{
+	count				5 7
+
+	life				100 200
+
+	origin2				12 -10 -10 18 10 10
+
+	alpha
+	{
+		start			0.25 1
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0.2 0.5
+	}
+
+	shaders
+	[
+		gfx/misc/spark4
+		gfx/misc/spark2
+                gfx/misc/spark4
+	]
+}
+
+Tail
+{
+	flags				usePhysics
+
+	count				7 9
+
+	life				500 900
+
+	bounce				0.25 0.4
+
+	velocity			120 -80 -80 250 80 80
+
+	gravity				-350 -450
+
+	size
+	{
+		start			0.3 0.4
+	}
+
+	length
+	{
+		start			4 10
+		end				0.1 1
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/spark
+		gfx/misc/spark2
+                gfx/misc/spark4
+	]
+}
+
+Particle
+{
+	count	18
+	delay 0	350
+
+	life	900	1700
+
+	origin	0 0 0
+
+	rotation	0	360
+
+	velocity	0 -3	-3 	10 3 3
+
+	gravity		1	60
+
+	size
+	{
+		start 	0.5 	1.0
+		end	3.0	5.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	0.2	0.3
+		end	0.0
+		flags	linear
+	}
+
+	shaders
+	[
+		gfx/misc/steam
+//		gfx/misc/steam2
+	]
+}
+
+Decal
+{
+	size
+	{
+		start			2.5 5
+	}
+
+	shaders
+	[
+		gfx/damage/burnmark4
+	]
+}
+
+Sound
+{
+	cullrange			700
+
+	sounds
+	[
+		sound/weapons/repeater/hit_wall.wav
+	]
+}

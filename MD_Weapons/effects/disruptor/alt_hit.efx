@@ -1,0 +1,22 @@
+FxRunner
+{
+	name				Wallvariants
+
+	playfx
+	[
+		impacts/flesh_impact1
+		impacts/flesh_impact2
+		impacts/impactsmall1
+		impacts/impactsmall1
+		impacts/impactsmall1
+		impacts/impactsmall2
+		impacts/impactsmall2
+		impacts/impactsmall2
+		impacts/impactsmall2
+		impacts/impactmedium1
+		impacts/impactmedium1
+		impacts/impactmedium2
+		impacts/impactmedium2
+		impacts/impactmedium3
+	]
+}
