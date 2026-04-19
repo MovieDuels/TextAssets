@@ -1,0 +1,272 @@
+//-----------------------------------------------------------------------
+// NEWGAME MENU FOR MD
+//
+//	Called from all other menus other than main menu. This has no transition in it.
+//
+//-----------------------------------------------------------------------
+{						   
+	menuDef 
+	{
+		name					"welcomeMenu"
+		fullScreen				1						// MENU_TRUE				
+		rect					0 0 640 480					// Size and position of the menu
+		visible					1						// Visible on open
+		focusColor				1 1 1 1			// Focus color for text and items
+		descX					320
+		descY					426
+		descScale				1
+		descColor				1 .682 0 .8
+		descAlignment				ITEM_ALIGN_CENTER		
+				
+		onOpen
+		{
+			exec				"soundstop"
+			exec				"music music/musicMenu/VictoryCelebration"
+			/*
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.3 0.3 0.3 0.7
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.4 0.4 0.4 0.7
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.5 0.5 0.5 0.7
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.6 0.6 0.6 0.7
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.7 0.7 0.7 0.7
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.8 0.8 0.8 0.7
+			delay				1000 ;
+			setitemcolor		nextbuttondisabled forecolor 0.9 0.9 0.9 0.7
+			delay				1000 ;
+			*/
+			show				nextbutton
+			hide				nextbuttondisabled
+			play			"sound/interface/button1.wav" ;
+		}
+
+		onESC 
+		{ 
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				background_credits
+			group				creditsvideo
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/main/creditsbk"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				151 11 341.5 115.5
+			background			"gfx/menus/main/MDLogo_Team"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo_yt
+			group				creditsvideo
+			style				WINDOW_STYLE_SHADER
+			rect				3 449 75 25
+			background			"gfx/menus/main/logo_youtube"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo_discord
+			group				creditsvideo
+			style				WINDOW_STYLE_SHADER
+			rect				70 449 83 27
+			background			"gfx/menus/main/logo_discord"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo_jkhub
+			group				creditsvideo
+			style				WINDOW_STYLE_SHADER
+			rect				148 449 38 25
+			background			"gfx/menus/main/logo_jkhub"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo_moddb
+			group				creditsvideo
+			style				WINDOW_STYLE_SHADER
+			rect				173 449 75 25
+			background			"gfx/menus/main/logo_moddb"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+//----------------------------------------------------------------------------------------------
+//	CREDITS + CHANGELOG
+//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				updateTitle
+			group				none
+			type				ITEM_TYPE_TEXT
+			rect				320 123 100 25
+			text				@MD_MENU_MAIN_NEW_UPDATE_TITLE
+			font				5
+			textscale			0.16
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			0
+			forecolor			1 1 1 0.9
+			visible				1
+			decoration
+		}
+
+
+		itemDef 
+		{
+			name				updateText
+			group				none
+			type				ITEM_TYPE_TEXTSCROLL
+			rect				0 160 640 260
+			text				@MD_MENU_CREDITS_WELCOME
+			font				5
+			textscale			0.12
+			textaligny			0
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			textalignx			0
+			forecolor			1 1 1 0.9
+			visible				1
+			lineHeight			10	
+			autowrapped
+			decoration
+		}
+
+		// NEXT button
+
+		itemDef 
+		{
+			name				nextbutton
+			group				none
+			text				@MD_MENU_MAIN_NEXT
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				490 442 100 30 
+			font				5
+			textscale			0.16
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			45
+			textaligny			4
+			forecolor			1 1 1 0.9
+			visible				0
+
+			action 
+			{ 
+				close			all ; 
+				open			creditsmenu ;
+			}
+		}
+
+		itemDef 
+		{
+			name				nextbuttondisabled
+			group				none
+			text				@MD_MENU_MAIN_NEXT
+			type				ITEM_TYPE_TEXT
+			rect				490 442 100 30 
+			font				5
+			textscale			0.16
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			45
+			textaligny			4
+			forecolor			0.2 0.2 0.2 0.7
+			visible				1
+			decoration
+			mouseEnter
+			{
+				setitemcolor	updateText forecolor 1 0 0 0.9
+				delay			500 ;
+				setitemcolor	updateText forecolor 1 1 1 0.9
+			}
+		}
+
+		itemDef 
+		{
+			name				quitgame
+			group				none
+			text				@MD_MENU_MAIN_QUIT
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				275 442 100 30
+			textaligny			4
+			font				5
+			textscale			0.16
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			45
+			forecolor			1 1 1 0.9
+			visible				1
+			mouseEnter
+			{
+			}
+
+			mouseExit
+			{
+			}
+		    action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+                exec            "seta  com_outcast 0" 
+				uiScript		Quit			
+			} 	  
+		}
+
+		itemDef 
+		{
+			name				FollowText
+			group				none
+			type				ITEM_TYPE_TEXT
+			rect				13 435 100 20
+			text				@MD_MENU_MAIN_FOLLOW_THE_MOD
+			font				5
+			textscale			0.08
+			textaligny			0
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			textalignx			0
+			forecolor			1 1 1 0.9
+			visible				1
+			decoration
+		}
+	}
+}
+

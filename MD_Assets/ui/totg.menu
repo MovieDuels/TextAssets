@@ -1,0 +1,1459 @@
+//----------------------------------------------------------------------------------------------
+//
+// TOTG MENU
+//
+//----------------------------------------------------------------------------------------------
+						   
+	menuDef 
+	{
+		name					"totgMenu"
+		fullScreen					1		
+		rect					0 0 640 480	
+		visible					1
+		focusColor					1 1 1 1
+		descX					320
+		descY					426
+		descScale					1
+		descColor					1 .682 0 .8
+		descAlignment				ITEM_ALIGN_CENTER	
+
+		fadeClamp				1.0					// sets the fadeup alpha
+		fadeCycle				25					// how often fade happens in milliseconds
+		fadeAmount				0.05				// amount to adjust alpha per cycle	
+
+		onOpen 
+		{
+			exec				"cl_noprint 1"
+			exec				"exec TOTG_DF2_Addon"
+			exec				"cl_noprint 0"
+			exec				"soundstop"
+			exec				"totgmapmusic"
+			setitemcolor		mapText backcolor 1 1 1 0
+			setitemcolor		mapText forecolor 1 1 1 0
+			hide				mapText
+			show				mapIcons
+			show				mapButtons
+			hide				mapButtonsErrors
+			setitemcolor		KelDorInfo backcolor 1 1 1 0
+			setitemcolor		KelDorInfo forecolor 1 1 1 0
+			hide				KelDorInfo
+			hide				KelDorText
+			hide				KelDorButton
+
+			transition			TFUIcon	96.5 140 0 0 80 118 33 44 20 20
+			transition			ROTEIcon 306.5 348 0 0 290 326 33 44 20 20
+			transition			S1Icon 450.5 226 0 0 434 204 33 44 20 20
+			transition			S2Icon 445.5 112 0 0 429 90 33 44 20 20
+			transition			S3Icon 296.5 45 0 0 280 23 33 44 20 20
+			transition			UnknownIcon 289.5 172 0 0 273 150 33 44 20 20
+		}							
+		onESC 
+		{ 
+			//exec				"soundstop"
+			//play				"sound/interface/esc.wav" 
+			//exec				"menumusic" 
+			//show				fadeenterbutton
+			//close				all ; 
+			//open				mdnewgameMenu ;
+		}
+
+//----------------------------------------------------------------------------------------------
+//
+//	MENU BACKGROUND
+//
+//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				map
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/mapbk"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		// Glow
+		
+		itemDef 
+		{
+			name				mapTop
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				121 -43 320 240
+			background			"gfx/menus/totg/mapP1"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				mapTopL
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 320 240
+			background			"gfx/menus/totg/mapP2"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapBottom
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/mapP3"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapMiddle
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				134 69 320 240
+			background			"gfx/menus/totg/mapP4"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapTopR
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				309 28 320 240
+			background			"gfx/menus/totg/mapP5"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapRight
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				294 115 320 240
+			background			"gfx/menus/totg/mapP6"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		// Accept
+
+		itemDef 
+		{
+			name				mapTopA
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				121 -43 320 240
+			background			"gfx/menus/totg/mapP1Accept"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapTopLA
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				-36 -9 320 240
+			background			"gfx/menus/totg/mapP2Accept"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapBottomA
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/mapP3Accept"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapMiddleA
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				134 69 320 240
+			background			"gfx/menus/totg/mapP4Accept"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapTopRA
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				309 28 320 240
+			background			"gfx/menus/totg/mapP5Accept"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapRightA
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				294 115 320 240
+			background			"gfx/menus/totg/mapP6Accept"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		// Error
+
+		itemDef 
+		{
+			name				mapTopE
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				121 -43 320 240
+			background			"gfx/menus/totg/mapP1Error"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapMiddleE
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				134 69 320 240
+			background			"gfx/menus/totg/mapP4Error"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapTopRE
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				309 28 320 240
+			background			"gfx/menus/totg/mapP5Error"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mapRightE
+			group				mapParts
+			style				WINDOW_STYLE_FILLED
+			rect				294 115 320 240
+			background			"gfx/menus/totg/mapP6Error"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		// Other
+
+		itemDef 
+		{
+			name				missionbk
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/missionbk"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				logo
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				480 412 160 52.5
+			background			"gfx/menus/main/MDLogo_TOTG"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				infoBox
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 0 0
+			background			"gfx/menus/totg/InfoBox"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		// KelDor
+
+		itemDef 
+		{
+			name				KelDor
+			group				KelDorInfo
+			style				WINDOW_STYLE_FILLED
+			rect				0 392 66 88
+			background			"gfx/menus/totg/KelDorInfo"
+			backcolor			1 1 1 0
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				KelDorInfoBox
+			group				KelDorInfo
+			style				WINDOW_STYLE_FILLED
+			rect				47 340 210 80
+			background			"gfx/menus/totg/InfoBox"
+			backcolor			1 1 1 0
+			visible				0
+			decoration
+		}
+
+		// KelDor Text
+
+		itemDef
+		{
+			name				KelDorTextWelcome
+			group				KelDorText
+			type				ITEM_TYPE_TEXTSCROLL
+			rect				45 348 220 90
+			text				@MD_MENU_MAIN_TOTG_KELDOR_WELCOME
+			font				5
+			forecolor			1 1 1 1
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-1
+			lineHeight			10
+			visible				0
+			autowrapped
+			decoration
+		}
+
+		itemDef
+		{
+			name				KelDorTextMISSING
+			group				KelDorText
+			type				ITEM_TYPE_TEXTSCROLL
+			rect				45 348 220 90
+			text				@MD_MENU_MAIN_TOTG_KELDOR_MISSING_PACK
+			font				5
+			forecolor			1 1 1 1
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-1
+			lineHeight			10
+			visible				0
+			autowrapped
+			decoration
+		}
+
+		itemDef
+		{
+			name				KelDorTextUnavailable
+			group				KelDorText
+			type				ITEM_TYPE_TEXTSCROLL
+			rect				45 348 220 90
+			text				@MD_MENU_MAIN_TOTG_KELDOR_UNAVAILABLE
+			font				5
+			forecolor			1 1 1 1
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-1
+			lineHeight			10
+			visible				0
+			autowrapped
+			decoration
+		}
+
+		itemDef 
+		{
+			name				KelDorButton
+			group				KelDorInfo
+			text				@MD_MENU_MAIN_ACKNOWLEDGE
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				160 397 90 24  
+			font				5
+			textscale			0.12
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			45
+			textaligny			4
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+
+			action 
+			{ 
+				fadeout			KelDorInfo
+				hide			KelDorText
+				hide			KelDorButton
+			}
+		}	
+
+		// Welcome
+
+		itemDef 
+		{
+			name				welcomebk
+			group				welcome
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/missionbk"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"1"
+			}
+		}
+
+		itemDef 
+		{
+			name				welcomeInfoBox
+			group				welcome
+			style				WINDOW_STYLE_FILLED
+			rect				150 50 340 380
+			background			"gfx/menus/totg/InfoBox"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"1"
+			}
+
+			mouseEnter
+			{
+				hide			mapButtons
+			}
+			mouseExit
+			{
+				hide			mapButtons
+			}
+		}
+		
+		itemDef 
+		{
+			name				welcomeBanner
+			group				welcome
+			style				WINDOW_STYLE_FILLED
+			rect				150 103 341.5 115.5
+			background			"gfx/menus/main/MDLogo_TOTG"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"1"
+			}
+		}
+
+		itemDef
+		{
+			name				welcomeText
+			group				welcome
+			type				ITEM_TYPE_TEXTSCROLL
+			style				WINDOW_STYLE_FILLED
+			rect				192 250 265 144
+			text				@MD_MENU_MAIN_TOTG_WELCOME
+			font				5
+			forecolor			1 1 1 0.9
+			textscale			0.14
+			textalign			ITEM_ALIGN_LEFT
+			textalignx			8
+			textaligny			-1
+			lineHeight			14
+			visible				1
+			autowrapped
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"1"
+			}
+
+			mouseEnter
+			{
+				hide			mapButtons
+			}
+			mouseExit
+			{
+				hide			mapButtons
+			}
+		}
+
+		itemDef 
+		{
+			name				welcomeButton
+			group				welcome
+			text				@MD_MENU_MAIN_CONTINUE
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				275 378 90 24  
+			font				5
+			textscale			0.14
+			textalign			ITEM_ALIGN_CENTER
+			textalignx			45
+			textaligny			4
+			forecolor			1 1 1 0.9
+			backcolor			0 0 0 0
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"1"
+			}	
+
+			action 
+			{ 
+				fadeout			welcome
+				hide			welcomeText
+				hide			welcomeButton
+				delay			800 ;
+				fadein			KelDorInfo
+				show			KelDorTextWelcome
+				exec			"seta g_totgfirststartup 0"
+
+				show				mapIcons
+				show				mapButtons
+				transition			TFUIcon	96.5 140 0 0 80 118 33 44 20 20
+				transition			ROTEIcon 306.5 348 0 0 290 326 33 44 20 20
+				transition			S1Icon 450.5 226 0 0 434 204 33 44 20 20
+				transition			S2Icon 445.5 112 0 0 429 90 33 44 20 20
+				transition			S3Icon 296.5 45 0 0 280 23 33 44 20 20
+				transition			UnknownIcon 289.5 172 0 0 273 150 33 44 20 20
+			}
+
+			mouseEnter
+			{
+				hide			mapButtons
+			}
+			mouseExit
+			{
+				hide			mapButtons
+			}
+		}	
+
+//----------------------------------------------------------------------------------------------
+//	ICON BUTTONS
+//----------------------------------------------------------------------------------------------
+		
+		// TFU
+		
+		itemDef 
+		{
+			name				TFUText
+			group				mapText
+			text				@MD_MENU_MAIN_TOTG_THE_FORCE_UNLEASHED
+			type				ITEM_TYPE_TEXT
+			style				WINDOW_STYLE_FILLED
+			rect				115 132 100 20  
+			font				5
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}	
+
+		itemDef 
+		{
+			name				TFUIcon
+			group				mapIcons
+			background			"gfx/menus/totg/TFU_Icon1"
+			style				WINDOW_STYLE_FILLED
+			rect				80 118 33 44
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				TFUButton
+			group				mapButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				60 98 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+
+ 			mouseEnter
+			{
+				transition			InfoBox	100 125 0 28 100 125 180 28 10 10
+				fadein				TFUText
+				setitemrect			mapTopL -36 -9 320 240
+				fadein				mapTopL
+				setitembackground	TFUIcon "gfx/menus/totg/TFU_Icon2"
+				transition2			TFUIcon	78.5 116 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 100 125 0 28 10 10
+				setitemcolor		TFUText backcolor 1 1 1 0
+				setitemcolor		TFUText forecolor 1 1 1 0
+				hide				TFUText
+				fadeout				mapTopL
+				setitembackground	TFUIcon "gfx/menus/totg/TFU_Icon1"
+				transition2			TFUIcon	80 118 33 44 10 10
+			}
+			action 
+			{ 
+				transition2			InfoBox 100 125 0 28 10 10
+				setitemcolor		TFUText backcolor 1 1 1 0
+				setitemcolor		TFUText forecolor 1 1 1 0
+				hide				TFUText
+				fadeout				mapTopL
+				setitembackground	TFUIcon "gfx/menus/totg/TFU_Icon1"
+				transition2			TFUIcon	80 118 33 44 10 10
+
+				play				"sound/md_ch/sta1.mp3" ;
+				hide				mapButtons
+				fadeout				mapTopL
+				setitemrect			mapTopLA -36 -9 320 240
+				fadein				mapTopLA
+				delay				1700 ;
+				fadein				black
+				delay				800 ;
+				setitemcolor		mapTopLA backcolor 1 1 1 0
+				setitemcolor		black backcolor 1 1 1 1
+				fadeout				black
+				exec				"soundstop"
+				exec				"music music/md_tfu/md_tfu"
+				close				all ; 
+				open				totg_tfuMenu 
+			}
+		}
+
+		// ROTE
+
+		itemDef 
+		{
+			name				ROTEText
+			group				mapText
+			text				@MD_MENU_MAIN_TOTG_RISE_OF_THE_EMPIRE
+			type				ITEM_TYPE_TEXT
+			style				WINDOW_STYLE_FILLED
+			rect				325 340 100 20  
+			font				5
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				ROTEIcon
+			group				mapIcons
+			background			"gfx/menus/totg/ROTE_Icon1"
+			style				WINDOW_STYLE_FILLED
+			rect				290 326 33 44
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				ROTEButton
+			group				mapButtons
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				270 306 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+ 
+ 			mouseEnter
+			{
+				transition			InfoBox	310 333 0 28 310 333 163 28 10 10
+				fadein				ROTEText
+				setitemrect			mapBottom 0 0 640 480
+				fadein				mapBottom
+				setitembackground	ROTEIcon "gfx/menus/totg/ROTE_Icon2"
+				transition2			ROTEIcon	288.5 324 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 310 333 0 28 10 10
+				setitemcolor		ROTEText backcolor 1 1 1 0
+				setitemcolor		ROTEText forecolor 1 1 1 0
+				hide				ROTEText
+				fadeout				mapBottom
+				setitembackground	ROTEIcon "gfx/menus/totg/ROTE_Icon1"
+				transition2			ROTEIcon 290 326 33 44 10 10
+			}
+			action 
+			{  
+				transition2			InfoBox 310 333 0 28 10 10
+				setitemcolor		ROTEText backcolor 1 1 1 0
+				setitemcolor		ROTEText forecolor 1 1 1 0
+				hide				ROTEText
+				fadeout				mapBottom
+				setitembackground	ROTEIcon "gfx/menus/totg/ROTE_Icon1"
+				transition2			ROTEIcon 290 326 33 44 10 10
+				
+				play			"sound/chars/darthvader/misc/taunt4.mp3" ;
+				hide			mapButtons
+				fadeout			mapBottom
+				setitemrect		mapBottomA 0 0 640 480
+				fadein			mapBottomA
+				delay			2200 ;
+				fadein			black
+				delay			800 ;
+				setitemcolor	mapBottomA backcolor 1 1 1 0
+				setitemcolor	black backcolor 1 1 1 1
+				fadeout			black
+				exec			"soundstop"
+				exec			"music music/missionMenu/menu_rote"
+				close			all ; 
+				open			totg_roteMenu 
+			}
+		}
+		
+		// S1
+
+		itemDef 
+		{
+			name				S1Text
+			group				mapText
+			text				@MD_MENU_MAIN_TOTG_SEASON1
+			type				ITEM_TYPE_TEXT
+			style				WINDOW_STYLE_FILLED
+			rect				469 218 100 20  
+			font				5
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				S1Icon
+			group				mapIcons
+			background			"gfx/menus/totg/S1_Icon1"
+			style				WINDOW_STYLE_FILLED
+			rect				434 204 33 44
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				S1Button
+			group				mapButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				414 184 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			com_totg_df2
+			showcvar	
+			{
+				"1"
+			}	
+
+			mouseEnter
+			{
+				transition			InfoBox	454 211 0 28 454 211 132 28 10 10
+				fadein				S1Text
+				setitemrect			mapRight 294 115 320 240
+				fadein				mapRight
+				setitembackground	S1Icon "gfx/menus/totg/S1_Icon2"
+				transition2			S1Icon	432.5 202 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 454 211 0 28 10 10
+				setitemcolor		S1Text backcolor 1 1 1 0
+				setitemcolor		S1Text forecolor 1 1 1 0
+				hide				S1Text
+				fadeout				mapRight
+				setitembackground	S1Icon "gfx/menus/totg/S1_Icon1"
+				transition2			S1Icon	434 204 33 44 10 10
+			}
+			action 
+			{  
+				transition2			InfoBox 454 211 0 28 10 10
+				setitemcolor		S1Text backcolor 1 1 1 0
+				setitemcolor		S1Text forecolor 1 1 1 0
+				hide				S1Text
+				fadeout				mapRight
+				setitembackground	S1Icon "gfx/menus/totg/S1_Icon1"
+				transition2			S1Icon	434 204 33 44 10 10
+				
+				play			"sound/interface/totg/S1" ;
+				hide			mapButtons
+				fadeout			mapRight
+				setitemrect		mapRightA 294 115 320 240
+				fadein			mapRightA
+				delay			1300 ;
+				fadein			black
+				delay			800 ;
+				setitemcolor	mapRightA backcolor 1 1 1 0
+				setitemcolor	black backcolor 1 1 1 1
+				fadeout			black
+				exec			"soundstop"
+				exec			"music music/mainMenu/sp/JKDF2_levels_music"
+				close			all ; 
+				open			totg_df2Menu 
+			}
+		}
+		
+		itemDef 
+		{
+			name				S1Button
+			group				mapButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				414 184 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			com_totg_df2
+			showcvar	
+			{
+				"0"
+			}	
+
+			mouseEnter
+			{
+				transition			InfoBox	454 211 0 28 454 211 132 28 10 10
+				fadein				S1Text
+				setitemrect			mapRight 294 115 320 240
+				fadein				mapRight
+				setitembackground	S1Icon "gfx/menus/totg/S1_Icon2"
+				transition2			S1Icon	432.5 202 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 454 211 0 28 10 10
+				setitemcolor		S1Text backcolor 1 1 1 0
+				setitemcolor		S1Text forecolor 1 1 1 0
+				hide				S1Text
+				fadeout				mapRight
+				setitembackground	S1Icon "gfx/menus/totg/S1_Icon1"
+				transition2			S1Icon	434 204 33 44 10 10
+			}
+			action 
+			{  
+				play				"sound/interface/totg/mapincomplete" 
+				fadeout				mapRight
+				setitemrect			mapRightE 294 115 320 240
+				fadein				mapRightE
+				hide				S1Button
+				show				S1ButtonError
+				setfocus			S1ButtonError
+				fadein				KelDorInfo
+				hide				KelDorText
+				show				KelDorTextMissing
+				hide				KelDorTextUnavailable
+				hide				KelDorTextWelcome
+			}
+		}
+
+		itemDef 
+		{
+			name				S1ButtonError
+			group				mapButtonsErrors
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				414 184 73 84
+			backcolor			1 1 1 0
+			visible				0
+ 
+ 			mouseEnter
+			{
+			}
+			mouseExit
+			{	
+				fadeout				mapRightE
+				hide				S1ButtonError
+				show				S1Button
+			}
+			action 
+			{ 
+			}
+		}
+
+		// S2
+
+		itemDef 
+		{
+			name				S2Text
+			group				mapText
+			text				@MD_MENU_MAIN_TOTG_SEASON2
+			type				ITEM_TYPE_TEXT
+			style				WINDOW_STYLE_FILLED
+			rect				464 104 100 20  
+			font				5
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				S2Icon
+			group				mapIcons
+			background			"gfx/menus/totg/S2_Icon1"
+			style				WINDOW_STYLE_FILLED
+			rect				429 90 33 44
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				S2Button
+			group				mapButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				409 70 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+ 
+ 			mouseEnter
+			{			
+				//transition			InfoBox	449 97 0 28 449 97 189 28 10 10
+				transition			InfoBox	449 97 0 28 449 97 130 28 10 10
+				fadein				S2Text
+				setitemrect			mapTopR 309 28 320 240
+				fadein				mapTopR
+				setitembackground	S2Icon "gfx/menus/totg/S2_Icon2"
+				transition2			S2Icon	427.5 88 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 449 99 0 28 10 10
+				setitemcolor		S2Text backcolor 1 1 1 0
+				setitemcolor		S2Text forecolor 1 1 1 0
+				hide				S2Text
+				fadeout				mapTopR
+				setitembackground	S2Icon "gfx/menus/totg/S2_Icon1"
+				transition2			S2Icon	429 90 33 44 10 10
+			}
+			action 
+			{ 
+				transition2			InfoBox 449 99 0 28 10 10
+				setitemcolor		S2Text backcolor 1 1 1 0
+				setitemcolor		S2Text forecolor 1 1 1 0
+				hide				S2Text
+				fadeout				mapTopR
+				setitembackground	S2Icon "gfx/menus/totg/S2_Icon1"
+				transition2			S2Icon	429 90 33 44 10 10
+
+				play				"sound/interface/totg/mapincomplete" 
+				fadeout				mapTopR
+				setitemrect			mapTopRE 309 28 320 240
+				fadein				mapTopRE
+				hide				S2Button
+				show				S2ButtonError
+				setfocus			S2ButtonError
+				fadein				KelDorInfo
+				show				KelDorTextUnavailable
+				hide				KelDorTextMissing
+				hide				KelDorTextWelcome
+			}
+		}
+
+		itemDef 
+		{
+			name				S2ButtonError
+			group				mapButtonsErrors
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				424 70 73 84
+			backcolor			1 1 1 0
+			visible				0
+ 
+ 			mouseEnter
+			{
+			}
+			mouseExit
+			{	
+				fadeout				mapTopRE
+				hide				S2ButtonError
+				show				S2Button
+			}
+			action 
+			{ 
+			}
+		}
+		
+		// S3
+
+		itemDef 
+		{
+			name				S3Text
+			group				mapText
+			text				@MD_MENU_MAIN_TOTG_SEASON3
+			type				ITEM_TYPE_TEXT
+			style				WINDOW_STYLE_FILLED
+			rect				315 37 100 20  
+			font				5
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				S3Icon
+			group				mapIcons
+			background			"gfx/menus/totg/S3_Icon1"
+			style				WINDOW_STYLE_FILLED
+			rect				280 23 33 44
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				S3Button
+			group				mapButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				260 3 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+ 
+ 			mouseEnter
+			{
+				//transition			InfoBox	300 30 0 28 300 30 163 28 10 10
+				transition			InfoBox	300 30 0 28 300 30 130 28 10 10
+				fadein				S3Text
+				setitemrect			mapTop 121 -43 320 240
+				fadein				mapTop
+				setitembackground	S3Icon "gfx/menus/totg/S3_Icon2"
+				transition2			S3Icon	278.5 21 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 300 30 0 28 10 10
+				setitemcolor		S3Text backcolor 1 1 1 0
+				setitemcolor		S3Text forecolor 1 1 1 0
+				hide				S3Text
+				fadeout				mapTop
+				setitembackground	S3Icon "gfx/menus/totg/S3_Icon1"
+				transition2			S3Icon	280 23 33 44 10 10
+			}
+			action 
+			{ 
+				transition2			InfoBox 300 30 0 28 10 10
+				setitemcolor		S3Text backcolor 1 1 1 0
+				setitemcolor		S3Text forecolor 1 1 1 0
+				hide				S3Text
+				fadeout				mapTop
+				setitembackground	S3Icon "gfx/menus/totg/S3_Icon1"
+				transition2			S3Icon	280 23 33 44 10 10
+
+				play				"sound/interface/totg/mapincomplete" 
+				fadeout				mapTop
+				setitemrect			mapTopE 121 -43 320 240
+				fadein				mapTopE
+				hide				S3Button
+				show				S3ButtonError
+				setfocus			S3ButtonError
+				fadein				KelDorInfo
+				show				KelDorTextUnavailable
+				hide				KelDorTextMissing
+				hide				KelDorTextWelcome
+			}
+		}
+
+		itemDef 
+		{
+			name				S3ButtonError
+			group				mapButtonsErrors
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				260 3 73 84
+			backcolor			1 1 1 0
+			visible				0
+ 
+ 			mouseEnter
+			{
+			}
+			mouseExit
+			{	
+				fadeout				mapTopE
+				hide				S3ButtonError
+				show				S3Button
+			}
+			action 
+			{ 
+			}
+		}
+		
+		// S4 UNKNOWN
+
+		itemDef 
+		{
+			name				S4Text
+			group				mapText
+			text				@MD_MENU_MAIN_TOTG_SEASON4
+			type				ITEM_TYPE_TEXT
+			style				WINDOW_STYLE_FILLED
+			rect				308 164 100 20  
+			font				5
+			textscale			0.125
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			forecolor			1 1 1 0
+			backcolor			0 0 0 0
+			visible				0
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				UnknownIcon
+			group				mapIcons
+			background			"gfx/menus/totg/Unknown_Icon"
+			style				WINDOW_STYLE_FILLED
+			rect				273 150 33 44
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+		}
+
+		itemDef 
+		{
+			name				UnknownButton
+			group				mapButtons
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				253 130 73 84
+			backcolor			1 1 1 0
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+ 
+ 			mouseEnter
+			{
+				transition			InfoBox	293 157 0 28 293 157 112 28 10 10
+				fadein				S4Text
+				setitemrect			mapMiddle 134 69 320 240
+				fadein				mapMiddle
+				transition2			UnknownIcon	271.5 148 36 48 10 10
+			}
+			mouseExit
+			{
+				transition2			InfoBox 293 157 0 28 10 10
+				setitemcolor		S4Text backcolor 1 1 1 0
+				setitemcolor		S4Text forecolor 1 1 1 0
+				hide				S4Text
+				fadeout				mapMiddle
+				transition2			UnknownIcon	273 150 33 44 10 10
+			}
+			action 
+			{ 
+				transition2			InfoBox 293 157 0 28 10 10
+				setitemcolor		S4Text backcolor 1 1 1 0
+				setitemcolor		S4Text forecolor 1 1 1 0
+				hide				S4Text
+				fadeout				mapMiddle
+				transition2			UnknownIcon	273 150 33 44 10 10
+
+				play				"sound/interface/totg/mapincomplete" 
+				fadeout				mapMiddle
+				setitemrect			mapMiddleE 134 69 320 240
+				fadein				mapMiddleE
+				hide				UnknownButton
+				show				UnknownButtonError
+				setfocus			UnknownButtonError
+				fadein				KelDorInfo
+				show				KelDorTextUnavailable
+				hide				KelDorTextMissing
+				hide				KelDorTextWelcome
+			}
+		}
+
+		itemDef 
+		{
+			name				UnknownButtonError
+			group				mapButtonsErrors
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				253 130 73 84
+			backcolor			1 1 1 0
+			visible				0
+ 
+ 			mouseEnter
+			{
+			}
+			mouseExit
+			{	
+				fadeout				mapMiddleE
+				hide				UnknownButtonError
+				show				UnknownButton
+			}
+			action 
+			{ 
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	OTHER BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------
+		
+
+		itemDef 
+		{
+			name				backbutton
+			group				mapButtons
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				255 439 130 30
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			65
+			textaligny			4
+			forecolor			1 1 1 0.9
+			visible				1
+			cvartest			g_totgfirststartup
+			showcvar	
+			{
+				"0"
+			}	
+
+			action 
+			{ 
+				exec				"soundstop"
+				play				"sound/interface/esc.wav" 
+				exec				"menumusic" 
+				//show				fadeenterbutton
+				close				all ; 
+				open				mdnewgameMenu ;
+				show				splash
+				setitemcolor		splash backcolor 1 1 1 1
+				fadeout				splash
+			}
+		}	
+
+		// Fix pop in when entering the menu the first time (using OnOpen leads to other pop ins)
+
+		itemDef 
+		{
+			name				fadeenterbutton
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				56 349 240 24
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+
+			mouseEnter
+			{
+				setitemrect			mapParts 641 0 640 480
+				fadeout				mapParts
+				hide				fadeenterbutton
+				show				splash
+				setitemcolor		splash backcolor 1 1 1 1
+				hide				mapText
+				hide				mapIcons
+				hide				mapButtons
+				delay				1000 ;
+				fadeout				splash
+				delay				500 ;
+
+				show				mapIcons
+				show				mapButtons
+				transition			TFUIcon	96.5 140 0 0 80 118 33 44 20 20
+				transition			ROTEIcon 306.5 348 0 0 290 326 33 44 20 20
+				transition			S1Icon 450.5 226 0 0 434 204 33 44 20 20
+				transition			S2Icon 445.5 112 0 0 429 90 33 44 20 20
+				transition			S3Icon 296.5 45 0 0 280 23 33 44 20 20
+				transition			UnknownIcon 289.5 172 0 0 273 150 33 44 20 20
+			}
+			mouseExit
+			{
+			}
+			action 
+			{ 
+			}
+		}
+
+		// Splash
+
+		itemDef
+		{
+			name				black
+			group				splash
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/main/black"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef
+		{
+			name				splashimage
+			group				splash
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/totgSplash"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef
+		{
+			name				splashimage
+			group				splash
+			style				WINDOW_STYLE_FILLED
+			rect				103.5 276 431.5 160.5
+			background			"gfx/menus/main/MDLogo_TOTG"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+	}
+}

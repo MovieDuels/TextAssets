@@ -1,0 +1,97 @@
+// VIDEODRIVER MENU
+{
+	menuDef 
+	{
+		name					"videodriverMenu"
+		visible					0
+		fullScreen				0								// MENU_TRUE			
+		rect					100 120 440 320
+		focusColor				1 1 1 1				// Focus color for text and items
+		outOfBoundsClick							// this closes the window if it gets a click out of the rectangle
+		descX					320
+		descY					350
+		descScale				0.7
+		descColor				1 1 1 0.9			// Focus color for text and items
+		descAlignment				ITEM_ALIGN_CENTER		
+		popup
+				
+		onOpen
+		{
+			setfocus			driver_done
+		}
+		onESC 
+		{ 
+			play				"sound/interface/esc.wav" 		
+			close				all
+			open				setupMenu
+		}
+
+		onClose
+		{
+		}
+
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+		itemDef 
+		{
+			name				driver_background
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 440 320
+			background			"gfx/menus/main/infobox"					// Frame
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				driver_done
+			group				none
+			text				@MENUS_DONE_CAPS
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				150 291 140 24
+			forecolor			1 .682 0 1
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			70
+			textaligny			0
+			font				5
+			textscale			0.15
+			forecolor			1 1 1 0.9
+			visible				1
+	  
+			action
+			{
+				close 		videodriverMenu
+			}
+		}
+
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	VIDEO DRIVER INFO
+		//
+		//----------------------------------------------------------------------------------------------
+		itemDef													// Drivers
+		{
+			name				game_version
+			group				none
+			ownerdraw			249								// UI_GLINFO
+			font				5
+			textscale			0.13
+			rect				10 2 430 280
+			forecolor			1 .682 0 1
+			style				WINDOW_STYLE_EMPTY
+			textalign			ITEM_ALIGN_LEFT
+			textaligny			14
+			visible				1
+			decoration 
+		}
+	}
+}

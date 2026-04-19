@@ -1,0 +1,480 @@
+//-----------------------------------------------------------------------
+//	CHARACTERSELECT MENU
+//
+//	Called only from main menu. Has the transition of fields from main menu 
+//	to new game menu
+//
+//-----------------------------------------------------------------------
+{
+						   
+	menuDef 
+	{
+		name					"totg_roteMenu"
+		fullScreen				1						// MENU_TRUE				
+		rect					0 0 640 480					// Size and position of the menu
+		visible					1						// Visible on open
+		focusColor				1 1 1 1						// Focus color for text and items
+		descX					320
+		descY					426
+		descScale				1
+		descColor				1 .682 0 .8
+		descAlignment			ITEM_ALIGN_CENTER		
+
+		fadeClamp				1.0					// sets the fadeup alpha
+		fadeCycle				25					// how often fade happens in milliseconds
+		fadeAmount				0.1				// amount to adjust alpha per cycle	
+
+
+		onOpen
+		{ 
+				play			"sound/interface/transition.wav" 
+				setcvar			g_spskill 1
+				setcvar			cg_crosshairForceHint 1
+				exec			"set ui_episode_credits rote"
+				setitemcolor	black2 backcolor 1 1 1 1
+				fadeout			black2
+		}
+									
+		onESC 
+		{ 	
+				setitemrect		black2	0 0 640 480
+				play			"sound/interface/esc.wav" 
+				close			all ; 
+				open			totgMenu
+		}
+
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+
+		itemDef // Need solid background for fade 
+		{
+			name				black
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/main/black"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_rote
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/mission/rote/background_rote"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_1
+			group				mods
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/mission/rote/background_rote"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_dvr
+			group				mods
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/mission/rote/rote_dvr"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_aoe
+			group				mods
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/mission/rote/rote_aoe"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_2
+			group				mods
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/mission/rote/background_rote"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_logo
+			group				logo
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/mission/rote/ROTELogo"
+			rect				56 24 246 82
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				secondpanel
+			group				newgamemenu
+			style				WINDOW_STYLE_SHADER
+			rect				7 184 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelTop"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				thirdpanel
+			group				newgamemenu
+			style				WINDOW_STYLE_SHADER
+			rect				7 212 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelMiddle"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				fourthpanel
+			group				newgamemenu
+			style				WINDOW_STYLE_SHADER
+			rect				7 240 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelMiddle"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				fifthpanel
+			group				newgamemenu
+			style				WINDOW_STYLE_SHADER
+			rect				7 268 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelBottom"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		// Menu panels
+
+		itemDef 
+		{
+			name				background_MDMenuPanelGoldTop
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				18.1 197 320 30.25
+			background			"gfx/menus/main/buttons/MDMenuPanelGoldTop"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_MDMenuPanelGoldMiddle
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				18.1 224.5 320 30.25
+			background			"gfx/menus/main/buttons/MDMenuPanelGoldMiddle"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_MDMenuPanelGoldBottom
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				18.1 252 320 30.25
+			background			"gfx/menus/main/buttons/MDMenuPanelGoldBottom"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		// Fix pop in when entering the menu the first time (using OnOpen leads to other pop ins)
+
+		itemDef 
+		{
+			name				fadeenterbutton
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480 // 270 306 73 84
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+
+			mouseEnter
+			{
+				setitemrect		mods	641 0 640 480
+				fadeout			mods
+				hide			fadeenterbutton
+			}
+			mouseExit
+			{
+			}
+			action 
+			{ 
+			}
+		}
+
+		// Fade in/out background only around buttons (not inbetween)
+
+		itemDef 
+		{
+			name				fadebutton
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				57 187 240 107
+			forecolor			1 1 1 0
+			visible				1
+			decoration
+
+			mouseEnter
+			{
+				fadeout			background_rote
+				setitemrect		mods	0 0 640 480
+			}
+			mouseExit
+			{
+				fadein			background_rote
+			}
+			action 
+			{ 
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   NEW GAME MENU specific stuff
+		//
+		//----------------------------------------------------------------------------------------------		
+		// Select Mission
+		
+		// Big button ""
+		itemDef 
+		{
+			name				oll_button
+			group				none
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				57 185 240 26
+			text				@MD_MENU_MAIN_UNAVAILABLE
+			textaligny			2.5
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			119
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter 
+			{ 
+				fadein			background_1
+				setitemrect		background_MDMenuPanelGoldTop	17.5 183 320 30.25
+				show			background_MDMenuPanelGoldTop
+			}	  	  
+			mouseExit 
+			{ 
+				fadeout			background_1
+				hide			background_MDMenuPanelGoldTop
+			}	  	  
+			action 
+			{ 
+				setitemrect			black2	641 0 640 480
+				play			"sound/interface/button1.wav" ; 
+				setitemcolor	background_1 backcolor 1 1 1 1
+				//close			all ; 
+				//open			
+			}
+		}
+
+		// Big button "DVR"
+		itemDef 
+		{
+			name				dvr_button
+			group				none
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				57 211 240 29
+			text				@MD_MENU_MAIN_DVR
+			textaligny			4.8
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			119
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter 
+			{ 
+				fadein			background_dvr
+				setitemrect		background_MDMenuPanelGoldMiddle	16.5 211 320 30.25
+				show			background_MDMenuPanelGoldMiddle
+			}	  	  
+			mouseExit 
+			{ 
+				fadeout			background_dvr
+				hide			background_MDMenuPanelGoldMiddle
+			}
+			action 
+			{ 
+				setitemrect			black2	641 0 640 480
+				play			"sound/interface/button1.wav" ; 
+				setitemcolor	background_dvr backcolor 1 1 1 1
+				close			all ; 
+				open			vrmenu
+			}
+		}
+
+		// Big button "AOE"
+		itemDef 
+		{
+			name				aoe_button
+			group				none
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				57 239 240 28
+			text				@MD_MENU_MAIN_AOE
+			textaligny			4.5
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			119
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter 
+			{ 
+				fadein			background_aoe
+				setitemrect		background_MDMenuPanelGoldMiddle	16.5 239 320 30.25
+				show			background_MDMenuPanelGoldMiddle
+			}  	  
+			mouseExit 
+			{ 
+				fadeout			background_aoe
+				hide			background_MDMenuPanelGoldMiddle
+			}
+			action 
+			{ 
+				setitemrect			black2	641 0 640 480
+				play			"sound/interface/button1.wav" ; 
+				setitemcolor	background_aoe backcolor 1 1 1 1
+				close			all ; 
+				open			aoemenu
+			}
+		}
+
+		// Big button ""
+		itemDef 
+		{
+			name				2_button
+			group				none
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				57 266 240 26
+			text				@MD_MENU_MAIN_UNAVAILABLE
+			textaligny			4.5
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			119
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter 
+			{ 
+				fadein			background_2
+				setitemrect		background_MDMenuPanelGoldBottom	17 266 320 30.25
+				show			background_MDMenuPanelGoldBottom
+			}  	  
+			mouseExit 
+			{ 
+				fadeout			background_2
+				hide			background_MDMenuPanelGoldBottom
+			}
+			action 
+			{ 
+				setitemrect			black2	641 0 640 480
+				play			"sound/interface/button1.wav" ; 
+				setitemcolor	background_2 backcolor 1 1 1 1
+				//close			all ; 
+				//open			
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	OTHER MAIN MENU BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------
+		// BACK button
+
+		itemDef 
+		{
+			name				backbutton
+			group				fade_buttons
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				255 435 130 30  
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			65
+			textaligny			8
+			forecolor			1 1 1 0.9
+			visible				1
+	  	  
+			action 
+			{ 
+				setitemrect			black2	0 0 640 480
+				play				"sound/interface/esc.wav" 
+				close				all ;
+				open				totgMenu
+			}
+		}
+
+		itemDef 
+		{
+			name				black2
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/main/black"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+	}
+}

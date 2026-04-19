@@ -1,0 +1,248 @@
+//----------------------------------------------------------------------------------------------
+//
+//	QUIT MENU
+//
+//----------------------------------------------------------------------------------------------
+{
+	menuDef 
+	{
+		name					"quitMenu"
+		visible					0
+		fullScreen				1	
+		rect					0 0 640 480
+		focusColor				1 1 1 1	
+		descX					320
+		descY					426
+		descScale				1
+		descColor				1 .682 0 .8
+		descAlignment				ITEM_ALIGN_CENTER		
+
+		onESC 
+		{ 
+			play				"sound/interface/esc.wav" 					
+			close				quitMenu ; 
+			open				main2Menu ;
+		}
+
+		onOpen 
+		{
+			setfocus			quitgame_no
+                        exec                            "seta  com_outcast 0"
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//	MENU BACKGROUND
+		//----------------------------------------------------------------------------------------------
+	
+		itemDef //Stop white flash when video loads
+		{
+			name				background_black
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/main/black"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_mainvideo
+			group				mainmenuvideo
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/mdmainmenuvideo"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_mainmenubk
+			group				mainmenu
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/main/mainmenubk"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				151 51 341.5 115.5
+			background			"gfx/menus/main/MDLogo"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				exitpanel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				151 199 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelBlueTop"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				abandonpanel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				151 227 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelMiddle"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				quitpanel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				151 254.5 341 28
+			background			"gfx/menus/main/buttons/MDMenuPanelBottom"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		// Menu Panels
+	
+		itemDef 
+		{
+			name				background_MDMenuPanelGoldMiddle
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				160.5 226 320 30.25
+			background			"gfx/menus/main/buttons/MDMenuPanelGoldMiddle"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_MDMenuPanelGoldBottom
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				161 253 320 30.25
+			background			"gfx/menus/main/buttons/MDMenuPanelGoldBottom"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+//----------------------------------------------------------------------------------------------
+//   QUIT MENU specific stuff
+//----------------------------------------------------------------------------------------------
+
+
+		itemDef 
+		{
+			name 				confirm
+			group				none
+			text                @MD_MENU_MAIN_QUIT_MOVIE_DUELS
+			rect 				201 200 240 24
+			font				5
+			textscale 			0.19
+			textalign 			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx 			119
+			textaligny	 		2
+			forecolor			1 1 1 0.9
+			visible 			1
+			decoration
+		}
+
+//----------------------------------------------------------------------------------------------
+// CONFIRM button
+//----------------------------------------------------------------------------------------------
+
+
+		itemDef 
+		{
+			name				quitgame_yes
+			group				none
+			text				@MD_MENU_MAIN_YES
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				201 228 240 24
+			textaligny			2
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			119
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter
+			{
+				show			background_MDMenuPanelGoldMiddle
+			}
+
+			mouseExit
+			{
+				hide			background_MDMenuPanelGoldMiddle
+			}
+		    action 
+			{ 
+				play			"sound/interface/button1.wav" ;
+                                exec                    "seta  com_outcast 0" 
+				uiScript		Quit			
+			} 	  
+		}
+
+//----------------------------------------------------------------------------------------------
+// CANCEL button
+//----------------------------------------------------------------------------------------------
+
+
+		itemDef 
+		{
+			name				quitgame_no
+			group				none
+			text				@MD_MENU_MAIN_NO
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				201 255 240 24
+			textaligny			2
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			119
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter
+			{
+				show			background_MDMenuPanelGoldBottom
+			}
+
+			mouseExit
+			{
+				hide			background_MDMenuPanelGoldBottom
+			}
+			action 
+			{ 
+				play			"sound/interface/esc.wav" 	
+				close			quitMenu ; 
+				open			main2Menu ;
+			} 	  
+		}
+
+	}
+}

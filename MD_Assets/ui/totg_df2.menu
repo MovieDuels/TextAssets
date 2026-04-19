@@ -1,0 +1,1352 @@
+//-----------------------------------------------------------------------
+//	CHALLENGE MAPS MENU
+//
+//	Called only from main menu. Has the transition of fields from main menu 
+//	to new game menu
+//
+//-----------------------------------------------------------------------
+{
+						   
+	menuDef 
+	{
+		name					"totg_df2Menu"
+		fullScreen				1						// MENU_TRUE				
+		rect					0 0 640 480					// Size and position of the menu
+		visible					1						// Visible on open
+		focusColor				1 1 1 1						// Focus color for text and items
+		descX					320
+		descY					381
+		descScale				0.7
+		descColor				1 1 1 0.7
+		descAlignment				ITEM_ALIGN_CENTER		
+
+		fadeClamp				1.0					// sets the fadeup alpha
+		fadeCycle				25					// how often fade happens in milliseconds
+		fadeAmount				0.05				// amount to adjust alpha per cycle	
+
+		onOpen
+		{ 
+				play				"sound/interface/transition.wav" 
+				setcvar				g_spskill 1
+				setcvar				cg_crosshairForceHint 1
+				exec				"set ui_episode_credits df2"
+				setitemcolor		black2 backcolor 1 1 1 1
+				fadeout				black2
+				setitemrect			levelselectholo 640 18 320 480
+				setitemcolor		levelselectholo backcolor 1 1 1 0
+				setitemcolor		levelselectholo forecolor 1 1 1 0
+				fadein				levelselectholo
+				setitemcolor		ch1 backcolor 1 1 1 0
+				setitemcolor		ch1 forecolor 1 1 1 0
+				setitemcolor		newgame backcolor 1 1 1 0
+				setitemcolor		newgame forecolor 1 1 1 0
+				hide				background_df2bkhol
+				hide				df2missionpanels
+				hide				df2missionpanelselect
+				hide				levelselect
+				hide				backbutton
+				hide				CycleButtons
+				show				background_df2bkkyle
+				show				df2panel
+				show				df2panel2
+				show				df2panel3
+				transition			df2panel 322 181 0 60 242 181 160 60 20 20
+				transition			df2panel2 322 234 0 60 242 234 160 60 20 20
+				transition			df2panel3 322 287 0 60 242 287 160 60 20 20
+				delay				500;
+				fadein				newgame
+		}
+									
+		onESC 
+		{ 
+				hide			newgamebackbutton
+				hide			df2panelsselect
+				setitemrect		black2	0 0 640 480
+				play			"sound/interface/esc.wav" 
+				close			all ; 
+				open			totgMenu
+		}
+
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+
+		itemDef
+		{
+			name				background_df2bkmap
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/totg/DF2Missions/df2bk"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef
+		{
+			name				background_df2bkhol
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/totg/DF2Missions/df2bkholo"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef
+		{
+			name				background_df2bkkyle
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/totg/DF2Missions/df2bkkyle"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		// holos
+		
+		itemDef 
+		{
+			name				holo_lvl1
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl1holo"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				holo_lvl2
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl2holo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				holo_lvl3
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl3holo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				holo_lvl4
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl4holo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				holo_lvl5
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl5holo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				holo_lvl6
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl6holo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				holo_lvl7
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/lvl7holo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				holo_bonus
+			group				levelselectholo
+			style				WINDOW_STYLE_FILLED
+			rect				156 18 320 480
+			background			"gfx/menus/totg/DF2Missions/bonusholo"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2logo
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				192 0 256 84.5
+			background			"gfx/menus/main/MDLogo_TOTG"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2logo
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				160 82 320 60
+			background			"gfx/menus/totg/DF2Missions/df2duels"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		// Panels
+		
+		itemDef
+		{
+			name				df2panel
+			group				df2panels
+			style				WINDOW_STYLE_SHADER
+			rect				242 181 160 60
+			background			"gfx/menus/totg/DF2Missions/df2panel"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2panel2
+			group				df2panels
+			style				WINDOW_STYLE_SHADER
+			rect				242 234 160 60
+			background			"gfx/menus/totg/DF2Missions/df2panel"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2panel3
+			group				df2panels
+			style				WINDOW_STYLE_SHADER
+			rect				242 287 160 60
+			background			"gfx/menus/totg/DF2Missions/df2panel"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2panelsselect
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 160 60
+			background			"gfx/menus/totg/DF2Missions/df2panel"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2missionpanels
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				160 403 320 30
+			background			"gfx/menus/totg/DF2Missions/df2missionpanel"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef
+		{
+			name				df2missionpanelselect
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				160 403 320 30
+			background			"gfx/menus/totg/DF2Missions/df2missionpanel"
+			forecolor			1 1 1 0.8
+			visible				0
+			decoration
+		}
+
+		// Cycle Missions Buttons
+
+		itemDef 
+		{
+			name				PrevButton1
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				setitemrect		levelselectholo 156 18 320 480
+				fadeout			holo_lvl1
+				fadein			holo_bonus
+				hide			ch1
+				show			ch8
+				show			NextButton8
+				show			PrevButton8
+				setfocus		PrevButton8
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton1
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				setitemrect		levelselectholo 156 18 320 480
+				fadeout			holo_lvl1
+				fadein			holo_lvl2
+				hide			ch1
+				show			ch2
+				show			NextButton2
+				show			PrevButton2
+				setfocus		NextButton2
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton2
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				setitemrect		levelselectholo 156 18 320 480
+				fadeout			holo_lvl2
+				fadein			holo_lvl1
+				hide			ch2
+				show			ch1
+				show			NextButton1
+				show			PrevButton1
+				setfocus		PrevButton1
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton2
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl2
+				fadein			holo_lvl3
+				hide			ch2
+				show			ch3
+				show			NextButton3
+				show			PrevButton3
+				setfocus		NextButton3
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton3
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl3
+				fadein			holo_lvl2
+				hide			ch3
+				show			ch2
+				show			NextButton2
+				show			PrevButton2
+				setfocus		PrevButton2
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton3
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl3
+				fadein			holo_lvl4
+				hide			ch3
+				show			ch4
+				show			NextButton4
+				show			PrevButton4
+				setfocus		NextButton4
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton4
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl4
+				fadein			holo_lvl3
+				hide			ch4
+				show			ch3
+				show			NextButton3
+				show			PrevButton3
+				setfocus		PrevButton3
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton4
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl4
+				fadein			holo_lvl5
+				hide			ch4
+				show			ch5
+				show			NextButton5
+				show			PrevButton5
+				setfocus		NextButton5
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton5
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl5
+				fadein			holo_lvl4
+				hide			ch5
+				show			ch4
+				show			NextButton4
+				show			PrevButton4
+				setfocus		PrevButton4
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton5
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl5
+				fadein			holo_lvl6
+				hide			ch5
+				show			ch6
+				show			NextButton6
+				show			PrevButton6
+				setfocus		NextButton6
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton6
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl6
+				fadein			holo_lvl5
+				hide			ch6
+				show			ch5
+				show			NextButton5
+				show			PrevButton5
+				setfocus		PrevButton5
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton6
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl6
+				fadein			holo_lvl7
+				hide			ch6
+				show			ch7
+				show			NextButton7
+				show			PrevButton7
+				setfocus		NextButton7
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton7
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl7
+				fadein			holo_lvl6
+				hide			ch7
+				show			ch6
+				show			NextButton6
+				show			PrevButton6
+				setfocus		PrevButton6
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton7
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_lvl7
+				fadein			holo_bonus
+				hide			ch7
+				show			ch8
+				show			NextButton8
+				show			PrevButton8
+				setfocus		NextButton8
+			}
+		}
+
+		itemDef 
+		{
+			name				PrevButton8
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				191 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				fadeout			holo_bonus
+				fadein			holo_lvl7
+				hide			ch8
+				show			ch7
+				show			NextButton7
+				show			PrevButton7
+				setfocus		PrevButton7
+			}
+		}
+
+		itemDef 
+		{
+			name				NextButton8
+			group				CycleButtons			
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_FILLED
+			rect				419 405 30 28
+			backcolor			1 1 1 0
+			visible				0
+
+ 			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				hide			CycleButtons
+				setitemrect		levelselectholo 156 18 320 480
+				fadeout			holo_bonus
+				fadein			holo_lvl1
+				hide			ch8
+				show			ch1
+				show			NextButton1
+				show			PrevButton1
+				setfocus		NextButton1
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Map List
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		// Page 1
+
+		itemDef
+		{			
+			name				ch1
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_DVL
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 0.9
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl1"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch2
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_FWTA
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl2"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch3
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_TBOTS
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl3"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch4
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_TR
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl4"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch5
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_TJB
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl5"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch6
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_TCRU
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl6"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch7
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_TFW
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl7"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		itemDef
+		{			
+			name				ch8
+			group				levelselect
+			rect				220 403 200 28
+			text				@MD_MENU_MAIN_TVS
+			descText			@MD_MENU_MAIN_BONUS_MISSION
+			type				ITEM_TYPE_BUTTON
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			4
+			textalignx			100
+			forecolor			1 1 1 1
+			visible				0
+			
+			mouseEnter 
+			{ 
+				show			df2missionpanelselect 
+			}
+			mouseExit
+			{
+				hide			df2missionpanelselect 
+			}
+			action
+			{
+				play			"sound/interface/button1.wav" ; 
+				fadein			splash
+				delay			800;
+				exec			"devmap md_df2_lvl8"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			}	
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	NEW GAME BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------	
+
+
+		itemDef 
+		{
+			name				newgameselect
+			group				newgame
+			text				@MD_MENU_MAIN_NEW_GAME
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				248 188 148 43
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			12
+			textalignx			73
+			forecolor			1 1 1 0.9
+			backcolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter
+			{
+				setitemrect		df2panelsselect	242 181 160 60
+				show			df2panelsselect
+			}
+
+			mouseExit
+			{
+				hide			df2panelsselect
+			}
+		   	action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				exec			"devmap md_df2_lvl1"
+                setcvar         helpusobi 1
+                exec            "wait 5"
+                setcvar         g_spskill 1
+				setcvar			handicap 100
+                exec			"setforceall 0"
+				exec			"cg_sfxsabers 6"
+			} 
+		}
+
+		itemDef 
+		{
+			name				newgamelevelselectbutton
+			group				newgame
+			text				@MD_MENU_MAIN_LEVEL_SELECT
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				248 240 148 43
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			12
+			textalignx			73
+			forecolor			1 1 1 0.9
+			visible				1
+
+			mouseEnter
+			{
+				setitemrect		df2panelsselect	242 234 160 60
+				show			df2panelsselect
+			}
+
+			mouseExit
+			{
+				hide			df2panelsselect
+			}
+			action 
+			{ 
+				hide			newgame
+				hide			df2panels
+				hide			df2panelsselect
+				hide			background_df2bkkyle	
+				fadeout			levelselectholo
+				show			background_df2bkhol
+				show			df2missionpanels
+				transition		df2missionpanels 320 403 0 30 160 403 320 30 20 20
+				show			backbutton
+				show			PrevButton1
+				show			NextButton1
+				setitemrect		holo_lvl1 156 18 320 480
+				fadein			holo_lvl1
+				delay			500;
+				fadein			ch1
+			} 	  
+		}
+
+		// BACK button
+
+		itemDef 
+		{
+			name				newgamebackbutton
+			group				newgame
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				248 294 148 43
+			textalign			ITEM_ALIGN_CENTER
+			font				5
+			textscale			0.19
+			textstyle			3
+			textaligny			12
+			textalignx			73
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+				setitemrect		df2panelsselect	242 287 160 60
+				show			df2panelsselect
+			}
+
+			mouseExit
+			{
+				hide			df2panelsselect
+			}
+			action 
+			{ 
+				hide			newgamebackbutton
+				hide			df2panelsselect
+				setitemrect		black2	0 0 640 480
+				play			"sound/interface/esc.wav" 
+				close			all ; 
+				open			totgMenu					
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	OTHER MAIN MENU BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------	
+
+		itemDef 
+		{
+			name				backbutton
+			group				none
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				255 439 130 30 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			65
+			textaligny			4
+			forecolor			1 1 1 0.9
+			visible				0
+
+			action 
+			{ 
+				setitemrect		black2	0 0 640 480
+				play			"sound/interface/esc.wav" 
+				close			all ; 
+				open			totgMenu
+			}
+		}
+
+		itemDef 
+		{
+			name				splash
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/totg/DF2Missions/df2splash"
+			backcolor			1 1 1 0
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				splash
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				291 111 341.5 115.5
+			background			"gfx/menus/main/MDLogo_TOTG"
+			backcolor			1 1 1 0
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				black2
+			group				none
+			style				WINDOW_STYLE_FILLED
+			rect				0 0 640 480
+			background			"gfx/menus/main/black"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+	}
+}

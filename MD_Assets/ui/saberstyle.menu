@@ -1,0 +1,439 @@
+//----------------------------------------------------------------------------------------------
+//
+// SABER STYLE MENU - called from in game - allows player to change saber fighting style
+//
+//----------------------------------------------------------------------------------------------
+{
+	menuDef 
+	{
+		name					"saberstyleMenu"
+		fullScreen				1					// MENU_TRUE				
+		rect					0 0 640 480				// Size and position of the menu
+		visible					1					// Visible on open
+		focusColor				1 1 1 1					// Focus color for text and items
+		descX					320
+		descY					426
+		descScale				1
+		descColor				1 .682 0 0
+		descAlignment				ITEM_ALIGN_CENTER
+
+		onOpen
+		{ 
+			//uiScript  			"getsabercvars"
+			uiScript  			"updatefightingstylechoices"
+			setfocus			new_fightingstyle_button
+			//uiScript  			"saber_hilt"
+			//uiScript  			"saber_color"
+			uiScript 		 	"getcharcvars"
+			uiScript 		 	"character"
+		}
+									
+		onESC 
+		{ 
+			play				"sound/interface/esc.wav" 					
+			//uiScript		 	"updatesabercvars"
+		}
+
+//----------------------------------------------------------------------------------------------
+//	MENU BACKGROUND
+//----------------------------------------------------------------------------------------------
+		itemDef 
+		{
+			name				background
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/ingame/jkasaberstylebk"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				343 0 320 480
+			background			"gfx/menus/ingame/jkasaberstylebk_panel"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+//----------------------------------------------------------------------------------------------
+//   SABER MENU specific stuff
+//----------------------------------------------------------------------------------------------
+		
+		// Screen title
+		itemDef 
+		{
+			name				title
+			group				title
+			style				WINDOW_STYLE_EMPTY
+			text				@MD_MENU_SABER_CHOOSE_A_NEW_FIGHT_FORM
+	      	rect				281 115 440 20
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_CENTER		
+			textalignx			225
+			textaligny			0	
+			forecolor			1 1 1 0.9
+			
+      		visible				1 
+      		decoration 
+		}
+
+//----------------------------------------------------------------------------------------------
+//	SABER COMBAT STYLES
+//----------------------------------------------------------------------------------------------
+		// Current fighting style
+		itemDef 
+		{
+			name				fightingstylebutton1
+			group				none
+			text				@MENUS_CURRENT_STYLE
+			descText			@MENUS_ADDFIGHTINGSTYLE
+			type				ITEM_TYPE_MULTI
+			style				WINDOW_STYLE_EMPTY
+			rect				460 190 120 24
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			textalignx			0
+			textaligny			0
+			forecolor			1 1 1 0.9
+			decoration
+			cvar				"ui_currentfightingstyle"
+			cvarStrList
+			{
+				"Fast"			"0"
+				"Medium"		"1"
+				"Strong"		"2"
+				"Dual"			"3"
+				"Staff"			"4"
+			}
+
+			visible				1			 
+		}
+
+		itemDef 
+		{
+			name				mediumicon
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				480 135 53 53
+			background			"gfx/menus/ingame/style_medium"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		itemDef 
+		{
+			name				new_fightingstyle_button
+			group				none
+			text				@MD_MENU_SABER_NEW_STYLE
+			type				ITEM_TYPE_MULTI
+			style				WINDOW_STYLE_EMPTY
+			rect				414 210 205 24
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			3
+			textalignx			0
+			textaligny			2
+			forecolor			1 1 1 0.9
+
+			//cvarTest			ui_saber_type
+			//hideCvar			{ "dual"; "staff" }
+
+			cvar				"ui_newfightingstyle"
+			cvarStrList
+			{
+				"Fast"			"0"
+				"Strong"		"2"
+			}
+
+			visible				0
+			 
+			mouseEnter 
+			{ 
+			}
+			mouseExit 
+			{ 
+			}	  	  
+			action 
+			{
+				play			"sound/interface/button1.wav" 
+			}
+		}
+		
+
+
+		itemDef 
+		{
+			name				fasticon
+			group				none
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				430 220 53 53
+			background			"gfx/menus/ingame/style_fast"
+			forecolor			1 1 1 0.7
+			visible				1
+			mouseEnter 
+			{ 
+				setitemcolor		fasticon forecolor	1 1 1 1
+			}
+			mouseExit 
+			{ 
+				setitemcolor		fasticon forecolor	1 1 1 0.7
+			}	  	  
+			action 
+			{
+				play			"sound/interface/button1.wav" 
+				setcvar			"ui_newfightingstyle" "0"
+				exec			"set ui_newfightingstyle 0"
+				setitemcolor		fasttext forecolor	1 1 1 1
+				setitemcolor		strongtext forecolor	0.5 0.5 0.5 1
+				show			continue
+			}
+		}
+
+		itemDef 
+		{
+			name				fasttext
+			group				title
+			style				WINDOW_STYLE_EMPTY
+			text				@MD_MENU_SABER_FAST
+	      	rect				457 276 50 20
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_CENTER		
+			textalignx			0
+			textaligny			0	
+			forecolor			0.5 0.5 0.5 0.9
+      		visible				1 
+      		decoration 
+		}
+
+		itemDef 
+		{
+			name				strongicon
+			group				none
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				530 220 53 53
+			background			"gfx/menus/ingame/style_strong"
+			forecolor			1 1 1 0.7
+			visible				1
+			mouseEnter 
+			{ 
+				setitemcolor		strongicon forecolor	1 1 1 1
+			}
+			mouseExit 
+			{ 
+				setitemcolor		strongicon forecolor	1 1 1 0.7
+			}	 	  
+			action 
+			{
+				play			"sound/interface/button1.wav" 
+				setcvar			"ui_newfightingstyle" "2"
+				exec			"set ui_newfightingstyle 2"
+				setitemcolor		strongtext forecolor	1 1 1 1
+				setitemcolor		fasttext forecolor	0.5 0.5 0.5 1
+				show			continue
+			}
+		}
+
+		itemDef 
+		{
+			name				strongtext
+			group				title
+			style				WINDOW_STYLE_EMPTY
+			text				@MD_MENU_SABER_STRONG
+	      	rect				557 276 50 20
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_CENTER		
+			textalignx			0
+			textaligny			0	
+			forecolor			0.5 0.5 0.5 0.9
+      		visible				1 
+      		decoration 
+		}
+
+		itemDef 
+		{
+			name				new_fightingstyle_desc
+			group				none
+			type				ITEM_TYPE_TEXTSCROLL
+			text				@MD_MENU_SABER_FAST_STYLE
+			style				WINDOW_STYLE_EMPTY
+			rect				408 295 203 80
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			textalignx			0
+			textaligny			0
+			forecolor			1 1 1 0.9		
+			cvartest			"ui_newfightingstyle"
+			showcvar
+			{
+				"0"
+			}
+			lineHeight			10
+			visible				1		 
+			autowrapped
+		}
+
+		itemDef 
+		{
+			name				new_fightingstyle_desc
+			group				none
+			type				ITEM_TYPE_TEXTSCROLL
+			text				@MD_MENU_SABER_STRONG_STYLE
+			style				WINDOW_STYLE_EMPTY
+			rect				408 295 205 80
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			textalignx			0
+			textaligny			0
+			forecolor			1 1 1 0.9			
+			cvartest			"ui_newfightingstyle"
+			showcvar
+			{
+				"2"
+			}
+
+			lineHeight			10
+			visible				1			 
+			autowrapped
+			decoration
+		}
+
+		itemDef 
+		{
+			name				new_fightingstyle_desc
+			group				none
+			type				ITEM_TYPE_TEXTSCROLL
+			text				@MD_MENU_SABER_DUAL_STYLE
+			style				WINDOW_STYLE_EMPTY
+			rect				408 295 210 80
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			textalignx			0
+			textaligny			0
+			forecolor			1 1 1 0.9			
+			cvartest			"ui_newfightingstyle"
+			showcvar
+			{
+				"3"
+			}
+
+			lineHeight			10
+			visible				1		 
+			autowrapped
+			decoration
+		}
+
+		itemDef 
+		{
+			name				new_fightingstyle_desc
+			group				none
+			type				ITEM_TYPE_TEXTSCROLL
+			text				@MD_MENU_SABER_STAFF_STYLE
+			style				WINDOW_STYLE_EMPTY
+			rect				408 295 205 80
+			font				5
+			textscale			0.11
+			textalign			ITEM_ALIGN_LEFT
+			textstyle			1
+			textalignx			0
+			textaligny			0
+			forecolor			1 1 1 0.9			
+			cvartest			"ui_newfightingstyle"
+			showcvar
+			{
+				"4"
+			}
+
+			lineHeight			10
+			visible				1		 
+			autowrapped
+			decoration
+		}
+
+//----------------------------------------------------------------------------------------------
+// PLAYERMODEL
+//----------------------------------------------------------------------------------------------
+		itemDef
+		{
+			name				character
+			group				models
+			type 				ITEM_TYPE_MODEL
+			rect				-90 -17 522 576
+			
+			model_g2anim 		"BOTH_SABERFAST_STANCE"
+			isSaber				1
+			isSaber2			1
+			isCharacter			1
+			asset_model			"ui_char_model"
+			model_angle			180
+			model_g2mins		-25 -20 -15
+			model_g2maxs		20 15 45
+			//model_rotation		50
+			model_fovx			50
+			model_fovy			50
+			visible				1
+			decoration			
+		}
+
+//----------------------------------------------------------------------------------------------
+//	CONTINUE BUTTON
+//----------------------------------------------------------------------------------------------
+		itemDef 
+		{
+			name				continue
+			group				none
+			text				@MENUS_CONTINUE
+			descText			@MENUS_NEW_MISSION_DESC
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				497 370 120 24 
+			font				5
+			textscale			0.11
+			textalignx			65
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			forecolor			1 1 1 0.9
+			visible				0
+
+			action 
+			{ 
+				//uiScript 		"updatesabercvars"
+				uiScript 		"updatefightingstyle"
+				close			all
+				setcvar			tier_storyinfo	"7"
+				setcvar			storyhead	"protocol"
+				open			ingameGotoTier
+				// HACK We're expecting to go to a mission screen from here
+				playvoice		"sound/chars/storyinfo/7.mp3"
+			}
+			mouseEnter 
+			{ 
+			}
+			mouseExit 
+			{ 
+			}	  	  
+		}
+		
+	}
+}
