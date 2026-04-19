@@ -1,0 +1,210 @@
+FxRunner
+{
+	cullrange			1000
+
+	playfx
+	[
+		blaster/sparks
+	]
+}
+
+Particle
+{
+	life				100
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			1 3
+		end				5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire_radial
+	]
+}
+
+Particle
+{
+	life				50
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			4 10
+		end				10
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteflare
+	]
+}
+
+
+OrientedParticle
+{
+	life				350 600
+
+	origin				0.5 0 0
+
+	rotation			-90 90
+
+	rgb
+	{
+		start			1 0.3 0.1
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			10 18
+		end				5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+OrientedParticle
+{
+	life				350 600
+
+	origin				0.5 0 0
+
+	rotation			-90 90
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+Particle
+{
+	count	28
+	delay 0	350
+
+	life	1200	2200
+
+	origin	0 0 0
+
+	rotation	0	360
+
+	velocity	0 -3	-3 	10 3 3
+
+	gravity		1	60
+
+	size
+	{
+		start 	0.5 	1.0
+		end	3.0	5.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	0.2	0.3
+		end	0.0
+		flags	linear
+	}
+
+	shaders
+	[
+		gfx/misc/steam
+//		gfx/misc/steam2
+	]
+}
+
+Decal
+{
+	size
+	{
+		start			9 14
+	}
+
+	shaders
+	[
+		gfx/damage/burnmark4
+	]
+}
+Sound
+{
+	cullrange			750
+
+	sounds
+	[
+		sound/weapons/impacts/bolthit1.wav
+		sound/weapons/impacts/bolthit2.wav
+		sound/weapons/impacts/bolthit3.wav
+		sound/weapons/impacts/bolthit4.wav
+		sound/weapons/impacts/bolthit5.wav
+		sound/weapons/impacts/bolthit6.wav
+		sound/weapons/impacts/bolthit7.wav
+		sound/weapons/impacts/bolthit8.wav
+		sound/weapons/impacts/bolthit9.wav
+		sound/weapons/impacts/bolthit10.wav
+		sound/weapons/impacts/bolthit11.wav
+		sound/weapons/impacts/bolthit12.wav
+		sound/weapons/impacts/bolthit13.wav
+		sound/weapons/impacts/bolthit14.wav
+		sound/weapons/impacts/bolthit15.wav
+		sound/weapons/impacts/bolthit16.wav
+		sound/weapons/impacts/bolthit17.wav
+		sound/weapons/impacts/bolthit18.wav
+		sound/weapons/impacts/bolthit19.wav
+		sound/weapons/impacts/bolthit20.wav
+		sound/weapons/impacts/bolthit21.wav
+		sound/weapons/impacts/bolthit22.wav
+		sound/weapons/impacts/bolthit23.wav
+		sound/weapons/impacts/bolthit24.wav
+		sound/weapons/impacts/bolthit25.wav
+		sound/weapons/impacts/bolthit26.wav
+		sound/weapons/impacts/bolthit27.wav
+		sound/weapons/impacts/bolthit28.wav
+		sound/weapons/impacts/bolthit29.wav
+		sound/weapons/impacts/bolthit30.wav
+	]
+}

@@ -1,0 +1,31 @@
+Decal
+{
+	rotation			360 0
+
+	size
+	{
+		start			5 6
+	}
+
+	shaders
+	[
+		gfx/blood/BloodPool_1
+		gfx/blood/BloodPool_3
+		gfx/blood/BloodPool_4
+		gfx/blood/BloodSplat_1
+		gfx/blood/BloodSplat_2
+		gfx/blood/BloodSplat_3
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/impacts/BloodSplat_1.wav
+		sound/impacts/BloodSplat_2.wav
+		sound/impacts/BloodSplat_3.wav
+		sound/impacts/BloodSplat_4.wav
+		sound/impacts/BloodSplat_5.wav
+	]
+}

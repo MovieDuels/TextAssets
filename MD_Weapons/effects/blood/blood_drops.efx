@@ -1,0 +1,48 @@
+Particle
+{
+	name				BloodMist
+
+	count				2
+
+	life				1200 1800
+
+	origin				2 0 0
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			5 -5 -5 20 5 5
+
+	gravity				1 8
+
+	rgb
+	{
+		start			0.502 0 0
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			4 5
+		end				12 16
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/exp/expa1
+		gfx/exp/expa2
+		gfx/exp/expa3
+		gfx/exp/expa4
+		gfx/exp/expa5
+	]
+}

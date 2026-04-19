@@ -1,0 +1,150 @@
+Particle
+{
+	name				Smoke
+
+	flags				useAlpha
+
+	count				100
+
+	life				700 900
+
+	delay				0 1500
+
+	rotation			0 360
+
+	velocity			25 0 0 30 0 0
+
+	acceleration		-5 -5 -5 5 5 5
+
+	gravity				30 50
+
+	alpha
+	{
+		start			0.4 0.6
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			1 3
+		end				7 9
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/black_smoke
+	]
+}
+
+Particle
+{
+	name				Sparks
+
+	flags				expensivePhysics useBBox usePhysics
+
+	spawnFlags			cheapOrgCalc rgbComponentInterpolation
+
+	count				4 8
+
+	life				1100 1300
+
+	delay				0 1500
+
+	cullrange			1100
+
+	bounce				0.25 0.4
+
+	min					-0.5 -0.5 -0.5
+
+	max					0.5 0.5 0.5
+
+	origin				0.1 0 0
+
+	rotation			-180 180
+
+	velocity			-1 -1 -1 1 1 1
+
+	gravity				-40 -60
+
+	rgb
+	{
+		start			0.9961 0.6431 0.4039 0.9922 0.5725 0.3922
+		end				0.7098 0.08627 0.01569 0.8078 0.1412 0.02353
+		flags			linear
+	}
+
+	size
+	{
+		start			0.3 0.4
+		end				0.1
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/exp01_1
+	]
+}
+
+Particle
+{
+	name				BloodMist
+
+	count				5 7
+
+	life				1200 1800
+
+	delay				0 800
+
+	origin				2 0 0
+
+	wind				10 40
+
+	rotation			-180 180
+
+	rotationDelta		-13 13
+
+	velocity			5 -5 -5 20 5 5
+
+	gravity				1 8
+
+	rgb
+	{
+		start			0.502 0 0
+	}
+
+	alpha
+	{
+		start			0.2 0.3
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			4 5
+		end				8 10
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/exp/expa1
+		gfx/exp/expa2
+		gfx/exp/expa3
+		gfx/exp/expa4
+		gfx/exp/expa5
+	]
+}
+
+Sound
+{
+	name				Sizzle
+
+	sounds
+	[
+		sound/effects/sizzle.wav
+	]
+}

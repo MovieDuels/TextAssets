@@ -1,0 +1,328 @@
+// Simple blaster impact effect
+
+// Directed spark explosion effect
+
+// Mini-explosion made out of a couple of lines
+Line
+{
+	count 	8	10
+	life	150	200
+
+	origin2	12 -10 -10		18 10 10
+
+	width
+	{
+		start 	0.25 	0.5
+	}
+
+	alpha
+	{
+		start 	0.45 	1.0
+		end	0.0
+		flags	linear
+	}
+	
+	shader
+	[
+		gfx/misc/spark
+		gfx/misc/spark2
+	]
+}
+
+// Bits that fly up and bounce off of architecture
+Tail
+{
+	count	16
+	life	700	1100
+
+	bounce	0.25	0.4
+
+	vel	180 -150 -150	300 150 150
+	gravity	-550	-650
+
+	size
+	{
+		start	0.3	0.45
+	}
+
+	length
+	{
+		start	4.0	10.0
+		end	0.1	1.0
+		flags 	linear
+	}
+
+	shader
+	[
+		gfx/misc/spark
+	]
+}
+
+FxRunner
+{
+	cullrange			1000
+
+	playfx
+	[
+		blaster/sparks
+	]
+}
+
+Particle
+{
+	life				100
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			1 3
+		end				5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire_radial
+	]
+}
+
+Particle
+{
+	life				50
+
+	origin				2 0 0
+
+	rotation			0 360
+
+	alpha
+	{
+		start			0.8 1
+		end				0.7
+		flags			linear
+	}
+
+	size
+	{
+		start			4 10
+		end				10
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteflare
+	]
+}
+
+
+OrientedParticle
+{
+	life				350 600
+
+	origin				0.5 0 0
+
+	rotation			-90 90
+
+	rgb
+	{
+		start			1 0.3 0.1
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			10 18
+		end				5
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+OrientedParticle
+{
+	life				350 600
+
+	origin				0.5 0 0
+
+	rotation			-90 90
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			2 3
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+Particle
+{
+	count	8
+	life	600	900
+
+	bounce	0.25	0.4
+
+	vel	175 -155 -155	300 155 155
+	gravity	-650	-750
+
+	size
+	{
+		start	0.4	0.65
+		end 0.0
+		flags linear
+	}
+
+	shader
+	[
+		gfx/misc/spark
+	]
+}
+
+// smokey residue
+Particle
+{
+	count		12	13
+	life		1400	2300
+
+	rotation	-180 180
+	rotationDelta	-4	4
+
+	velocity	10 -10 -10	20 10 10
+	flags		useAlpha
+
+	spawnflags	rgbComponentInterpolation
+
+
+	gravity		2	20
+
+	rgb
+	{
+		start 0 0 0		1.0 1.0 1.0
+	}
+
+	size
+	{
+		start 6.0 7.0
+		end	14.0	24.0
+		flags	linear
+	}
+
+	alpha
+	{
+		start	1.0
+		end 	0.1
+		flags	linear
+	}
+
+	shader
+	[
+		gfx/effects/alpha_smoke
+	]
+}
+
+OrientedParticle
+{
+	life	750
+
+	rgb
+	{
+		start 1.0 0.8 0.0
+		end   1.0 0.0 0.0
+		flags linear
+	}
+
+	size
+	{
+		start	6.0
+	}
+
+	alpha
+	{
+		end 0.0
+		flags linear
+	}
+
+	shader
+	[
+		gfx/effects/whiteflare
+	]
+}
+
+Decal
+{
+	count	1
+
+	size
+	{
+		start 	7.5	9.5
+	}
+
+	shader
+	[
+		gfx/damage/burnmark4
+	]
+}
+
+Sound
+{
+	sounds
+	[
+		sound/weapons/impacts/bolthit1.wav
+		sound/weapons/impacts/bolthit2.wav
+		sound/weapons/impacts/bolthit3.wav
+		sound/weapons/impacts/bolthit4.wav
+		sound/weapons/impacts/bolthit5.wav
+		sound/weapons/impacts/bolthit6.wav
+		sound/weapons/impacts/bolthit7.wav
+		sound/weapons/impacts/bolthit8.wav
+		sound/weapons/impacts/bolthit9.wav
+		sound/weapons/impacts/bolthit10.wav
+		sound/weapons/impacts/bolthit11.wav
+		sound/weapons/impacts/bolthit12.wav
+		sound/weapons/impacts/bolthit13.wav
+		sound/weapons/impacts/bolthit14.wav
+		sound/weapons/impacts/bolthit15.wav
+		sound/weapons/impacts/bolthit16.wav
+		sound/weapons/impacts/bolthit17.wav
+		sound/weapons/impacts/bolthit18.wav
+		sound/weapons/impacts/bolthit19.wav
+		sound/weapons/impacts/bolthit20.wav
+		sound/weapons/impacts/bolthit21.wav
+		sound/weapons/impacts/bolthit22.wav
+		sound/weapons/impacts/bolthit23.wav
+		sound/weapons/impacts/bolthit24.wav
+		sound/weapons/impacts/bolthit25.wav
+		sound/weapons/impacts/bolthit26.wav
+		sound/weapons/impacts/bolthit27.wav
+		sound/weapons/impacts/bolthit28.wav
+		sound/weapons/impacts/bolthit29.wav
+		sound/weapons/impacts/bolthit30.wav
+	]
+}

@@ -1,0 +1,77 @@
+Line
+{
+	name				CoreFront
+
+	flags				useAlpha
+
+	life				10
+
+	origin				10 0 0
+
+	origin2				-50 0 0
+
+	rgb
+	{
+		start			1 0.8157 0.3333
+	}
+
+	size
+	{
+		start			4
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlare
+	]
+}
+
+Line
+{
+	name				ThickGlowfront
+
+	life				10
+
+	origin				10 0 0
+
+	origin2				-50 0 0
+
+	rgb
+	{
+		start			0.007843 0.3529 1
+	}
+
+	size
+	{
+		start			7
+	}
+
+	shaders
+	[
+		gfx/effects/whiteGlow
+	]
+}
+
+Particle
+{
+	name				Filler
+
+	life				10
+
+	origin				-16 0 0
+
+	rgb
+	{
+		start			0.007843 0.3529 1
+	}
+
+	size
+	{
+		start			7
+	}
+
+	shaders
+	[
+		gfx/effects/whiteGlow
+	]
+}
