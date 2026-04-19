@@ -1,0 +1,28 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           SARISSINFO1
+LANG_ENGLISH        "Out of all the Dark Jedi I have met, Sariss is the one I can say.. I fear."
+LANG_CHINESE        "在我遇到过的所有黑暗绝地中，塞拉斯是一个让我说：我害怕的人"
+
+REFERENCE           SARISSINFO2
+LANG_ENGLISH        "Powerful, strong in both the physical and mental arenas of the Force, she is a master, a perfectionist, quiet and reserved."
+LANG_CHINESE        "她在原力的身体和精神领域都很强大，是一个大师，一个完美主义者，安静而矜持。"
+
+REFERENCE           SARISSINFO3
+LANG_ENGLISH        "This makes her a very dangerous foe."
+LANG_CHINESE        "这使她成为一个非常危险的敌人。"
+
+ENDMARKER

@@ -1,0 +1,41 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           12LAC008
+LANG_ENGLISH        "They'll work their way down towards your position."
+LANG_CHINESE        "他们会想办法朝你的位置移动。"
+
+REFERENCE           12KJO007
+LANG_ENGLISH        "Thanks, Lando."
+LANG_CHINESE        "谢谢，兰多。"
+
+REFERENCE           12LAC009
+LANG_ENGLISH        "Thanks nothing.   Jan was my friend, too.  Good luck."
+LANG_CHINESE        "这没什么。简也是我的朋友。祝你好运。"
+
+REFERENCE           12KJO009
+LANG_ENGLISH        "Meet you in the city."
+LANG_CHINESE        "待会城市里见。"
+
+REFERENCE           12KJO027
+LANG_ENGLISH        "Thanks."
+LANG_CHINESE        "谢谢。"
+
+REFERENCE           12KJO029
+LANG_ENGLISH        "Strange...he looked like a Jedi and fought like a Jedi, but his power felt so...warped."
+LANG_CHINESE        "真奇怪....他看起来像一个绝地，攻击的招式也像是个绝地，可是他的力量感觉起来很....扭曲。"
+
+REFERENCE           12KJO030
+LANG_ENGLISH        "I sense a disturbance in the Force. But there's something's strange about it."
+LANG_CHINESE        "我感觉到原力有一股扰动。可是其中还有一种奇怪的感觉。"
+
+REFERENCE           12KJO031
+LANG_ENGLISH        "A Jedi?? No, he seemed...different somehow."
+LANG_CHINESE        "一个绝地？？不对，他看起来....有一点不一样。"
+
+REFERENCE           12KJO032
+LANG_ENGLISH        "You must be the droid Lando told me about."
+LANG_CHINESE        "你一定是兰多提到的机器人了。"
+
+
+ENDMARKER

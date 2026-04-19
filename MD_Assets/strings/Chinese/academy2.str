@@ -1,0 +1,108 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           09LUK001
+LANG_ENGLISH        "I have called you all here to relay some... disturbing news.  Someone sliced into my personal records and accessed some highly sensitive data about places where I felt a strong connection to the Force. Places like Cloud City, Hoth, and Byss."
+LANG_CHINESE        "今天我把大家召集在一是，是要传达一个比较...让人困扰的消息，有人侵入了我的个人档案。\n并接触了很敏感的信息，是关于一些与原力有强大联系的地方的，比如云中城、霍斯、和比斯之类的地方。"
+
+REFERENCE           09ROP001
+NOTES               "(piping up)"
+LANG_ENGLISH        "What could they get from that, besides a tour?"
+LANG_CHINESE        "知道那个有什么用呢，除了能去旅游外？"
+
+REFERENCE           09KYK001
+NOTES               "(glaring at Rosh)"
+LANG_ENGLISH        "Something nasty."
+LANG_CHINESE        "用来干猥琐的事。"
+
+REFERENCE           09LUK002
+LANG_ENGLISH        "I believe that the scepter Jaden saw was somehow used to drain the residual Force power from the Massassi Temple."
+LANG_CHINESE        "我相信杰登那天看到的权杖是用来吸取马萨西神庙你残余的原力的。"
+
+REFERENCE           09JE1001
+LANG_ENGLISH        "Drain the Force?  How can anyone do that?"
+LANG_CHINESE        "吸取原力？有谁有这个本事啊？"
+
+REFERENCE           09LUK003
+LANG_ENGLISH        "I'm not sure.  But I've learned from the Jedi Holocron that devices were created in the past that could absorb and store Force energy."
+LANG_CHINESE        "我还不清楚，但是我从绝地全息仪中了解到，过去制造过一些装置，可以吸收并储存原力。"
+
+REFERENCE           09KYK002
+LANG_ENGLISH        "Those people Jaden saw may have discovered some way to harvest Force power with that scepter."
+LANG_CHINESE        "杰登看到的那帮人可能发现了用那权杖吸收原力的方法。"
+
+REFERENCE           09LUK004
+LANG_ENGLISH        "Which could be dangerous indeed."
+LANG_CHINESE        "这样一来就危险了。"
+
+REFERENCE           09JAK001
+NOTES               "(speaks up)"
+LANG_ENGLISH        "So what are we going to do?"
+LANG_CHINESE        "那么我们要怎么办？"
+
+REFERENCE           09LUK005
+LANG_ENGLISH        "We'll have to investigate any locations from my records.  That includes all of you students.  Corran, you're going to Wayland.  Kyle, I need you to look at the Valley of the Jedi..."
+LANG_CHINESE        "我们得调查我档案里的所有这些地点，你们学生也要去。克然，你去维兰德，凯尔，我派你去绝地之谷看看。"
+
+REFERENCE           09ROP002
+NOTES               "(turning towards Jaden)"
+LANG_ENGLISH        "Finally, some real action!"
+LANG_CHINESE        "终于有实战任务了！"
+
+REFERENCE           09JAK002
+NOTES               "(seems worried)"
+LANG_ENGLISH        "Why would they be stealing Force power?"
+LANG_CHINESE        "他们偷原力干嘛呢？"
+
+REFERENCE           09ROP003
+NOTES               "(shrugs, doesn't care)"
+LANG_ENGLISH        "I don't know.  You worry too much, Jaden.  I bet that these cult guys can't take on a Jedi."
+LANG_CHINESE        "不清楚诶、你担心的太多了、我肯定那些邪教徒是打不过绝地的。"
+
+REFERENCE           09JAK003
+LANG_ENGLISH        "Well, we're not Jedi yet.  We're just students."
+LANG_CHINESE        "呃，我们还不是绝地，只是学生罢了。"
+
+REFERENCE           09KYK003
+LANG_ENGLISH        "You may be 'just' students, but you're both well on your way.  Don't rush it."
+LANG_CHINESE        "你们或许“只是”学生而已，但是你们进展的都不错，不要太心急了。"
+
+REFERENCE           09LUK006
+LANG_ENGLISH        "Jaden, I'm sending you to Hoth, where I had a vision of Obi-Wan Kenobi.  I imagine there is a pretty strong aura there."
+LANG_CHINESE        "杰登，我派你去霍斯，我曾在那里见过欧比旺-科诺比的幻象，我觉得那里的原力应该很强大。"
+
+REFERENCE           09LUK007
+NOTES               "(To Rosh:)"
+LANG_ENGLISH        "Rosh, I'm sending you to the remains of the planet Byss.  It's very remote, so I doubt the Cult has been there.  Don't stay too long; the Imperial Remnant may still be operating in the area."
+LANG_CHINESE        "洛西，你去比斯星球的残骸。地方很远，所以估计邪教徒还没去过。\n别逗留太久，帝国军残余势力可能依然在那里附近活动。"
+
+REFERENCE           09ROP004
+NOTES               "(cockily)"
+LANG_ENGLISH        "No problem."
+LANG_CHINESE        "没问题。"
+
+REFERENCE           09LUK008
+LANG_ENGLISH        "That's everyone then.  May the Force be with all of you."
+LANG_CHINESE        "那就这样了，原力与你们同在。"
+
+REFERENCE           09ROP005
+NOTES               "(joking)"
+LANG_ENGLISH        "Good luck. Call me if you need any help."
+LANG_CHINESE        "祝你好运啦，有事call我。"
+
+
+ENDMARKER
+
+

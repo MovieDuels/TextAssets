@@ -1,0 +1,152 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           21KJO007
+LANG_ENGLISH        "Jan!"
+LANG_CHINESE        "简！"
+
+REFERENCE           21JAO001
+LANG_ENGLISH        "Well, you certainly took your sweet time..."
+LANG_CHINESE        "好吧，你确实度过了甜蜜的时光..."
+
+REFERENCE           21JAO003
+LANG_ENGLISH        "H-hey!  It's okay.  I'm happy to see you, too..."
+LANG_CHINESE        "嘿-嘿！ 没事的。我也很高兴见到..."
+
+REFERENCE           21KJO008
+LANG_ENGLISH        "I, I thought you were dead!"
+LANG_CHINESE        "我，我以为你死了。"
+
+REFERENCE           21JAO004
+LANG_ENGLISH        "Dead?  No.  In pain, yes.  Desann and his thugs must've burned out a half-dozen interrogation Droids trying to get me to crack."
+LANG_CHINESE        "死了？不。痛苦中，是的。迪桑和他的暴徒一定烧毁了六架审讯机器人，试图让我破解。"
+
+REFERENCE           21KJO009
+LANG_ENGLISH        "They wanted to know about the Valley of the Jedi, right?"
+LANG_CHINESE        "他们想知道绝地谷的情况，对吧？"
+
+REFERENCE           21JAO005
+LANG_ENGLISH        "For the first few hours.  Then they just dropped the subject, and started asking me about the layout of the Jedi Academy.
+LANG_CHINESE        "最初的几个小时。然后他们放弃了这个话题，开始问我绝地学院的布局。"
+
+REFERENCE           21KJO010
+LANG_ENGLISH        "The Jedi Academy?"
+LANG_CHINESE        "绝地学院？"
+
+REFERENCE           21JAO006
+LANG_ENGLISH        "Yeah. Desann seemed obsessed with it."
+LANG_CHINESE        "是啊。迪桑似乎对此着迷。"
+
+REFERENCE           21KJO011
+LANG_ENGLISH        "Oh no."
+LANG_CHINESE        "哦，不。"
+
+REFERENCE           21JAO007
+LANG_ENGLISH        "What?"
+LANG_CHINESE        "什么？"
+
+REFERENCE           21IO1001
+LANG_ENGLISH        "All crew members prepare to drop out of hyperspace."
+LANG_CHINESE        "所有机组人员都准备退出超空间"
+
+REFERENCE           21KJO012
+LANG_ENGLISH        "Quick， grab something."
+LANG_CHINESE        "快一点，找个东西抓紧！"
+
+REFERENCE           21KJO013
+LANG_ENGLISH        "I've got a bad feeling about this."
+LANG_CHINESE        "我有一种不好的感觉。"
+
+REFERENCE           21KJO014
+LANG_ENGLISH        "I think I know where we're going."
+LANG_CHINESE        "我想我知道我们要飞去哪里了。"
+
+REFERENCE           21WEA006
+LANG_ENGLISH        "Rogue Leader, the Remnant ship has returned to normal space, and is nearing its apparent target...Yavin-4?"
+LANG_CHINESE        "侠盗领队，帝国船只已经回到正常空间了，而且正在接近他们的目标....雅汶四号卫星？"
+
+REFERENCE           21JAO008
+LANG_ENGLISH        "Kyle, what's going on?"
+LANG_CHINESE        "凯尔，发生了什么？"
+
+REFERENCE           21KJO015
+LANG_ENGLISH        "I think Desann's invading the Jedi Academy!  We've got to destroy the Doomgiver's shields before he can deploy his troops!"
+LANG_CHINESE        "我想迪桑要进攻绝地学院！我们必须在他部署他的士兵之前先把末日杀手号的护盾摧毁掉！"
+
+REFERENCE           21JAO009
+LANG_ENGLISH        "I think I know where it is.  Let's go!"
+LANG_CHINESE        "我想我知道护盾在哪里。我们走！"
+
+REFERENCE           21JAO010
+LANG_ENGLISH        "I'm pretty sure the shield generators are through there."
+LANG_CHINESE        "我很确定这里是去护盾发生器的路。"
+
+REFERENCE           21KJO016
+LANG_ENGLISH        "I know.  You get an escape pod ready and wait for me.  This shouldn't take long."
+LANG_CHINESE        "我知道。你去把准备好逃生舱並且在那里等我。我应该不会用掉太长的时间。"
+
+REFERENCE           21KJO017
+LANG_ENGLISH        "I'm on it."
+LANG_CHINESE        "我正在办。"
+
+REFERENCE           21JAO011
+LANG_ENGLISH        "Don't do something stupid like die on me."
+LANG_CHINESE        "別做傻事，尤其別去找死。"
+
+REFERENCE           21KJO018
+LANG_ENGLISH        "And put you through the same misery I've been through?  Not on your life."
+LANG_CHINESE        "然后让你忍受我经历过的那些煎熬？绝对不可能。"
+
+REFERENCE           22IW2001
+LANG_ENGLISH        "He shut the bay doors!"
+LANG_CHINESE        "他把停机坪的门关起來了！"
+
+REFERENCE           22IW1001
+LANG_ENGLISH        "Get them open, quick!"
+LANG_CHINESE        "把门打开，快一点！"
+
+REFERENCE           22JAO003
+LANG_ENGLISH        "I'll make sure the way is clear to the escape pods. You take care of those shields!"
+LANG_CHINESE        "我会负责清出一条到逃生舱的路。你去解決那些护盾！"
+
+REFERENCE           22KJO014
+LANG_ENGLISH        "This shouldn't take too long. I'll see you soon."
+LANG_CHINESE        "这应该花不了多少时间。待会见。"
+
+REFERENCE           22KJO001
+LANG_ENGLISH        "Someone could do some damage if a gun like this got into the wrong hands. Heh heh."
+LANG_CHINESE        "这种枪如果落到坏人手里可是会造成重大伤亡的。嘿嘿嘿。"
+
+REFERENCE           22KJO006
+LANG_ENGLISH        "Force wall. Without it, the vaccuum would suck everything out of here. Hmmm."
+LANG_CHINESE        "立场墙。沒有这面墙，这里的每一样东都会被真空吸出去。嗯。"
+
+REFERENCE           22KJO007
+LANG_ENGLISH        "It's locked. There must be another way in."
+LANG_CHINESE        "这道门锁住了。一定还有別条进去的路。"
+
+REFERENCE           22KJO008
+LANG_ENGLISH        "Lets see 'em fly through that!"
+LANG_CHINESE        "看看他门从那里飞出去！"
+
+REFERENCE           22KJO011
+LANG_ENGLISH        "Another one? What can I shoot with this?"
+LANG_CHINESE        "另一个？我能用这个射什么？"
+
+REFERENCE           22KJO012
+LANG_ENGLISH        "I can't just walk out into the vaccuum of space."
+LANG_CHINESE        "我不能就这样走到真空里面去。"
+
+REFERENCE           22KJO013
+LANG_ENGLISH        "I don't suppose he'll open the doors for me if I just ask nicely."
+LANG_CHINESE        "我不认为我客气的拜托他，他就会帮我开门。"
+
+REFERENCE           22JAO001
+LANG_ENGLISH        "Dual switches. We're going to have to work together to get out of here."
+LANG_CHINESE        "双重开关。我们必须一起行动才能离开这里。"
+
+REFERENCE           22JAO002
+LANG_ENGLISH        "Hold the switch down, Kyle!"
+LANG_CHINESE        "按住开关，凯尔！"
+
+ENDMARKER

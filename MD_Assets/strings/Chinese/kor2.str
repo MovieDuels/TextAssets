@@ -1,0 +1,344 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           29JAK001
+NOTES               "Light Side"
+LANG_ENGLISH        "Tavion!  This stops here!"
+LANG_CHINESE        "泰薇恩！到此为止了！"
+
+REFERENCE           29TAA001
+NOTES               "Light Side"
+LANG_ENGLISH        "Ah, Kyle's 'good' student.  You're too late.  Soon, Marka Ragnos will return and obliterate the Jedi.  The Sith shall rule again!"
+LANG_CHINESE        "啊，这不是凯尔的乖‘徒弟’嘛。你来晚咯。再过一会儿玛卡 拉格诺斯就会醒来，\n并毁灭你们绝地。西斯就要复兴了！"
+
+REFERENCE           29JAK002
+NOTES               "Light Side"
+LANG_ENGLISH        "You're delusional.  Kyle told me all about you.  How you went crawling away after he defeated you."
+LANG_CHINESE        "你少妄想了。凯尔把你的一切都告诉了我。他告诉我他打败你后你是怎么连滚带爬的逃走的。"
+
+REFERENCE           29TAA002
+NOTES               "(enraged)  Light Side"
+LANG_ENGLISH        "Silence, whelp!"
+LANG_CHINESE        "闭嘴，小崽子！"
+
+REFERENCE           29TAA003
+NOTES               "Light Side"
+LANG_ENGLISH        "I will make Kyle Katarn's failure complete.  My victory, Rosh's corruption, and now your death will drive him to the dark side."
+LANG_CHINESE        "我会让凯尔败得彻彻底底。我的胜利，洛西的堕落，以及你的死会把他逼入黑暗面的。"
+
+REFERENCE           29JAK003
+NOTES               "Light Side"
+LANG_ENGLISH        "Never!"
+LANG_CHINESE        "休想！"
+
+REFERENCE           29TAA004
+NOTES               "(weakly, beaten) Light Side"
+LANG_ENGLISH        "I will... not cower as I did before Katarn."
+LANG_CHINESE        "我不会再像以前在克塔恩面前那样畏缩了！"
+
+REFERENCE           29MAR001
+NOTES               "Light Side"
+LANG_ENGLISH        "I shall not be denied!"
+LANG_CHINESE        "我的强大不容否认！"
+
+REFERENCE           29JAK004
+NOTES               "Light Side"
+LANG_ENGLISH        "By the Force!"
+LANG_CHINESE        "我的老天！"
+
+REFERENCE           29TAA005
+NOTES               "Light Side"
+LANG_ENGLISH        "Marka Ragnos!"
+LANG_CHINESE        "玛卡 拉格诺斯！"
+
+REFERENCE           29MAR002
+NOTES               "Light Side"
+LANG_ENGLISH        "A mere Jedi child will not undo my return!"
+LANG_CHINESE        "区区一个绝地毛孩儿不可能阻挠我的回归！"
+
+REFERENCE           29JAK005
+NOTES               "(firmly) Light Side"
+LANG_ENGLISH        "That's Jedi KNIGHT, Ragnos."
+LANG_CHINESE        "拉格诺斯你听好，我是绝地‘武士’。"
+
+REFERENCE           29MAR003
+NOTES               "(venomously) Light Side"
+LANG_ENGLISH        "You will kneel before me, Jedi."
+LANG_CHINESE        "向我俯首称臣吧，绝地。"
+
+REFERENCE           29MAR004
+NOTES               "(screaming in impotent rage) Light Side"
+LANG_ENGLISH        "No!!!  This is impossible!!!  I will return, Jedi!  One day I shall return and annihilate you all!"
+LANG_CHINESE        "不！！不可能！！我会再回来的，绝地！总有一天我会回来把你们全都毁灭！"
+
+REFERENCE           29JAK006
+NOTES               "Light Side"
+LANG_ENGLISH        "It's over.  Ragnos will not be resurrected.  The scepter is destroyed."
+LANG_CHINESE        "结束了，拉格诺斯活不起来了。权杖也被毁了。"
+
+REFERENCE           29KYK001
+NOTES               "Light Side"
+LANG_ENGLISH        "And Tavion?"
+LANG_CHINESE        "泰薇恩呢？"
+
+REFERENCE           29JAK007
+NOTES               "Light Side"
+LANG_ENGLISH        "Dead.  Ragnos had possessed her.  Her body couldn't withstand the corruption.  When I destroyed the scepter and Ragnos left her body, there was nothing left."
+LANG_CHINESE        "死了。拉格诺斯占据了她的身体。她的血肉之躯承受不了如此大的侵蚀。\n我毁掉权杖，并打败他后，拉格诺斯离开了她的身体，什么也没留下。"
+
+REFERENCE           29LUK001
+NOTES               "Light Side"
+LANG_ENGLISH        "Jaden, you did more than we could have ever hoped.  You have become a true Jedi."
+LANG_CHINESE        "杰登，你完成的成就连我们都惊叹不已。你已经是真正的绝地了。"
+
+REFERENCE           29JAK008
+NOTES               "Light Side"
+LANG_ENGLISH        "Thank you, Master Skywalker.  But I couldn't have done it without Kyle."
+LANG_CHINESE        "您过奖了，天行者大师。不过要是没有凯尔，我也没办法做出什么像样的事来。"
+
+REFERENCE           29KYK002
+NOTES               "Light Side"
+LANG_ENGLISH        "Don't get all mushy on me, kid.  C'mon, let's get outta here."
+LANG_CHINESE        "小子啊，你和我还客套啥呢。来，我们走吧。"
+
+REFERENCE           29LUK002
+NOTES               "Light Side"
+LANG_ENGLISH        "I've heard from the New Republic.  The Imperials supporting the Disciples of Ragnos have been defeated and the remaining cultists have been rounded up.  It seems they lost their powers when the scepter was destroyed."
+LANG_CHINESE        "我从新共和国得到消息说，支持拉格诺斯信徒的帝国军实力已经被击溃，\n残留的教徒也已被围捕。好像当权杖一毁，他们也就失去了力量。"
+
+REFERENCE           29JAK009
+NOTES               "Light Side"
+LANG_ENGLISH        "I hope that's the last we see of them."
+LANG_CHINESE        "希望以后不用再见到他们了。"
+
+REFERENCE           29KYK003
+NOTES               "Light Side"
+LANG_ENGLISH        "If there's one thing I've learned, it's never say never."
+LANG_CHINESE        "这次下来要说我学到了什么的话，就是永不放弃。"
+
+REFERENCE           29LUK003
+NOTES               "Light Side"
+LANG_ENGLISH        "Rosh, I hope your experience has taught you the patience and humility that may one day turn you into a great Jedi. "
+LANG_CHINESE        "洛西，我希望你吸取这次的教训，学会耐心与谦逊，或许有一天你也能成为一名伟大的绝地。"
+
+REFERENCE           29ROP001
+NOTES               "Light Side"
+LANG_ENGLISH        "Yes Master Skywalker, thank you."
+LANG_CHINESE        "您教训的是，天行者大师。谢谢您。"
+
+REFERENCE           29LUK004
+NOTES               "Light Side"
+LANG_ENGLISH        "Jaden, you fought bravely, resisted the dark side, and saved another Jedi from certain death.  You will be a valuable member of the Jedi Order."
+LANG_CHINESE        "杰登，你这次作战英勇，奋力抵抗黑暗面的侵蚀，而且还把一名绝地从\n死亡的命运中拯救了回来。你真是绝地武士团中的一名不可多得的人才。"
+
+REFERENCE           29KYK004
+NOTES               "Light Side"
+LANG_ENGLISH        "You deserve it, Jaden. You're the best student I've ever trained and a terrific Jedi. "
+LANG_CHINESE        "你当之无愧，杰登。你是我训练过的学生中最出色的一个，也是绝地武士中的佼佼者。"
+
+REFERENCE           29JAK010
+NOTES               "(beaming with pride) Light Side"
+LANG_ENGLISH        "Thank you both."
+LANG_CHINESE        "谢谢你们两位。"
+
+REFERENCE           29KYK005
+NOTES               "Light Side"
+LANG_ENGLISH        "There's still a galaxy full of trouble out there, are you ready for another mission?"
+LANG_CHINESE        "这个星系里仍然麻烦不断。你准备好执行下一个任务了吗？"
+
+REFERENCE           29JAK011
+NOTES               "Light Side"
+LANG_ENGLISH        "As luck would have it, I am."
+LANG_CHINESE        "运气不错，我还真准备好了"
+
+REFERENCE           29JAK012
+NOTES               "(threateningly) Dark Side"
+LANG_ENGLISH        "Tavion!  Give me the scepter."
+LANG_CHINESE        "泰薇恩！把权杖给我。"
+
+REFERENCE           29TAA006
+NOTES               "Dark Side"
+LANG_ENGLISH        "Ah, Kyle's 'good' student.  Or is it?   I sense the dark side in you.  Are you here to witness the resurrection?"
+LANG_CHINESE        "啊，凯尔的‘乖’徒弟。还是我搞错了？我感觉到你体内的黑暗面了。\n你来这里是不是想亲眼见证拉格诺斯的复活呢？"
+
+REFERENCE           29JAK013
+NOTES               "Dark Side"
+LANG_ENGLISH        "No, I'm here to kill you, something that my old Master couldn't do."
+LANG_CHINESE        "错，我来是做我原来的师父没能做成的事，把你杀了。"
+
+REFERENCE           29TAA007
+NOTES               "Dark Side"
+LANG_ENGLISH        "With Ragnos reborn, the Jedi will be wiped out and we can serve him as he rules the galaxy."
+LANG_CHINESE        "拉格诺斯一活，他必定会把那些绝地杀个精光，到时候他统治星系，我们可以一起为他效力。"
+
+REFERENCE           29JAK014
+NOTES               "Dark Side"
+LANG_ENGLISH        "I will no longer 'serve' anyone.   I will have the scepter and its power for myself. Now give it to me."
+LANG_CHINESE        "我不再会为任何人‘效力’。我要把这个权杖连同里面的力量都占为己有。现在，乖乖把它交给我。"
+
+REFERENCE           29TAA008
+NOTES               "(laughs) Dark Side"
+LANG_ENGLISH        "Impudent whelp, I will enjoy slaying you!"
+LANG_CHINESE        "你这小崽子还真是无礼。我会好好把你折磨死的！"
+
+REFERENCE           29TAA009
+NOTES               "(weakly, beaten) Dark Side"
+LANG_ENGLISH        "I will.. not cower as I did before Katarn.  Finish it.  Kill me!"
+LANG_CHINESE        "我不会...像那时屈服于凯尔那样屈服你。了结这一切，把我结果了吧！"
+
+REFERENCE           29KYK006
+NOTES               "(shouting at him) Dark Side"
+LANG_ENGLISH        "Jaden, stop!"
+LANG_CHINESE        "杰登，住手！"
+
+REFERENCE           29JAK015
+NOTES               "Dark Side"
+LANG_ENGLISH        "Don't get in my way, Kyle.  "
+LANG_CHINESE        "别来碍事，凯尔。"
+
+REFERENCE           29KYK007
+NOTES               "Dark Side"
+LANG_ENGLISH        "Jaden, I know you're angry, but it's not too late to renounce the dark side.  Tavion and her cult has been stopped, we can end this here!"
+LANG_CHINESE        "杰登，我知道你怒火中烧，但现在回头还不晚。泰薇恩和她的教徒已经无法再作恶，这一切可以就这么结束了！"
+
+REFERENCE           29JAK016
+NOTES               "(fiendishly) Dark Side"
+LANG_ENGLISH        "Oh, no... this is just the beginning."
+LANG_CHINESE        "呵，没这么简单...这一切才刚刚开始。"
+
+REFERENCE           29KYK008
+NOTES               "Dark Side"
+LANG_ENGLISH        "Jaden, the lure of the dark side is strong, but it will ultimately destroy you!  Fight it!  Rosh resisted it, you can, too!"
+LANG_CHINESE        "杰登，黑暗面的诱惑是很难挡，但是最终黑暗面会把你毁掉的！洛西抵抗住了，你一点也行的！"
+
+REFERENCE           29JAK017
+NOTES               "Dark Side"
+LANG_ENGLISH        "Rosh was weak!  He was too afraid to grasp the true power of the dark side!"
+LANG_CHINESE        "洛西那个废物！他是怕的不敢伸出手去握住黑暗面强大的力量。"
+
+REFERENCE           29KYK009
+NOTES               "Dark Side"
+LANG_ENGLISH        "I can't let you do this, Jaden..."
+LANG_CHINESE        "我不允许你这么做，杰登..."
+
+REFERENCE           29JAK018
+NOTES               "(taunting him) Dark Side"
+LANG_ENGLISH        "Then stop me, Master."
+LANG_CHINESE        "那么就来阻止我试试看啊，师父。"
+
+REFERENCE           29LUK005
+NOTES               "Dark Side"
+LANG_ENGLISH        "Kyle!  What happened here?"
+LANG_CHINESE        "凯尔！这里怎么了？"
+
+REFERENCE           MR_29KYK010
+NOTES               "Dark Side"
+LANG_ENGLISH        "Jaden... has turned to the dark side.  And he's taken the scepter."
+LANG_CHINESE        "杰登...堕入了黑暗面。他还拿到了权杖了。"
+
+REFERENCE           MS_29KYK010
+NOTES               "Dark Side"
+LANG_ENGLISH        "Jaden... has turned to the dark side.  And she's taken the scepter."
+LANG_CHINESE        "杰登...堕入了黑暗面，她还拿到了权杖、"
+
+REFERENCE           29LUK006
+NOTES               "Dark Side"
+LANG_ENGLISH        "And Rosh?"
+LANG_CHINESE        "洛西呢？"
+
+REFERENCE           MR_29KYK012
+NOTES               "Dark Side"
+LANG_ENGLISH        "Dead.  Jaden killed him.  He felt betrayed by Rosh and the anger was too strong for him to control."
+LANG_CHINESE        "死了。杰登把他杀了。他觉得洛西背叛了他，心头的怒火已经大到超出了他的控制。"
+
+REFERENCE           MS_29KYK012
+NOTES               "Dark Side"
+LANG_ENGLISH        "Dead.  Jaden killed him.  She felt betrayed by Rosh and the anger was too strong for her to control."
+LANG_CHINESE        "死了。杰登把他杀了。她觉得洛西背叛了她，心头的怒火已经大到超出了他的控制。"
+
+REFERENCE           MR_29LUK007
+NOTES               "(looking over) Dark Side"
+LANG_ENGLISH        "I... misjudged him.  I'm sorry, Kyle."
+LANG_CHINESE        "看来我还是看错他了。我很抱歉，凯尔。"
+
+REFERENCE           MS_29LUK007
+NOTES               "Dark Side"
+LANG_ENGLISH        "I... misjudged her.  I'm sorry, Kyle."
+LANG_CHINESE        "看来我还是看错她了。我很抱歉，凯尔。"
+
+REFERENCE           29KYK014
+NOTES               "Dark Side"
+LANG_ENGLISH        "I've failed both my students, Luke.  Maybe I shouldn't be teaching at the Academy.  It's not like I've been the perfect Jedi, myself."
+LANG_CHINESE        "我把两个徒弟都辜负了，卢克。或许我不应该呆在学院里训练学生。我自己都没做得尽善尽美。"
+
+REFERENCE           29LUK009
+NOTES               "Dark Side"
+LANG_ENGLISH        "No Kyle.  Yoda and Ben were both great teachers, yet even they lost students."
+LANG_CHINESE        "不是的，凯尔。尤达和本都是伟大的老师，但他们都失去过徒弟。"
+
+REFERENCE           MR_29LUK010
+NOTES               "(closes eyes) Dark Side"
+LANG_ENGLISH        "I can still sense good in him."
+LANG_CHINESE        "我依然能感受到他内心的善意。"
+
+REFERENCE           MS_29LUK010
+NOTES               "(closes eyes) Dark Side"
+LANG_ENGLISH        "I can still sense good in her."
+LANG_CHINESE        "我依然能感受到她内心的善意。"
+
+REFERENCE           29LUK012
+NOTES               "Dark Side"
+LANG_ENGLISH        "There's always hope, Kyle, remember that."
+LANG_CHINESE        "总是有希望的，记住这点。"
+
+REFERENCE           29KYK015
+NOTES               "Dark Side"
+LANG_ENGLISH        "You may be right."
+LANG_CHINESE        "或许你是对的。"
+
+REFERENCE           29KYK016
+NOTES               "Dark Side"
+LANG_ENGLISH        "Well, at least Tavion and her cult have been stopped.  Ragnos won't be coming back."
+LANG_CHINESE        "嗯，至少我们阻止了泰薇恩和他的教徒。拉格诺斯没法复活了。"
+
+REFERENCE           29LUK013
+NOTES               "Dark Side"
+LANG_ENGLISH        "But the scepter is too powerful.  We must find Jaden and destroy it."
+LANG_CHINESE        "但是那权杖太过强大了。我们必须找到杰登，毁掉权杖。"
+
+REFERENCE           29KYK017
+NOTES               "Dark Side"
+LANG_ENGLISH        "I'll take care of it.  As my student, Jaden is my responsibility. I'm taking a leave of absence from the Academy for a while.  If I find Jaden, I'll let you know."
+LANG_CHINESE        "我会处理此事的。杰登是我学生，我要对他负责。我要离开学院\n一段日子。如果我找到他的下落，我会告诉你的。"
+
+REFERENCE           29LUK014
+NOTES               "Dark Side"
+LANG_ENGLISH        "Be careful.  If there's anything I can do to help..."
+LANG_CHINESE        "保重。如果有什么我能帮的上忙的..."
+
+REFERENCE           29KYK018
+NOTES               "Dark Side"
+LANG_ENGLISH        "I will."
+LANG_CHINESE        "我会的。"
+
+REFERENCE           29LUK015
+NOTES               "Dark Side"
+LANG_ENGLISH        "And may the Force be with you, Kyle."
+LANG_CHINESE        "原力与你同在，凯尔。"
+
+
+ENDMARKER
+
+

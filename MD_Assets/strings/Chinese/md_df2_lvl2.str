@@ -1,0 +1,32 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           YUNINFO1
+LANG_ENGLISH        "Yun: A young and willing Dark Jedi, the newest addition to the cause."
+LANG_CHINESE        "一个年轻且意志坚定的黑暗绝地，是加入事业的最新成员"
+
+REFERENCE           YUNINFO2
+LANG_ENGLISH        "Brash and eager, he is ready to prove himself to his master at any cost."
+LANG_CHINESE        "傲慢和渴望，他准备不惜一切代价向他的主人证明自己。"
+
+REFERENCE           YUNINFO3
+LANG_ENGLISH        "This young man grew up knowing only the Dark Side, and has never seen the Light Side and it's power."
+LANG_CHINESE        "这个年轻人从小只知道黑暗面，从未见过光明面及其力量。"
+
+REFERENCE           YUNINFO4
+LANG_ENGLISH        "These elements make him a dangerous and unpredictable foe."
+LANG_CHINESE        "这些因素使他成为一个危险且不可预测的敌人。"
+
+ENDMARKER

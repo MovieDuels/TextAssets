@@ -1,0 +1,36 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           PICGORCINFO1
+LANG_ENGLISH        "It is a mystery why one would call Gorc and Pic twins."
+LANG_CHINESE        "为什么人们会称戈尔克和皮克为双胞胎是一个谜。"
+
+REFERENCE           PICGORCINFO2
+LANG_ENGLISH        "Even though one is a miniature version of the other, they look nothing alike."
+LANG_CHINESE        "尽管一个是另一个的微型版本，但它们看起来一点都不像。"
+
+REFERENCE           PICGORCINFO3
+LANG_ENGLISH        "They also don't battle alike. Pic is the energy, and Gorc the counter."
+LANG_CHINESE        "他们的战斗也不相同。皮克是依靠能量，戈尔克依靠反击。"
+
+REFERENCE           PICGORCINFO4
+LANG_ENGLISH        "They are the clashing balance of opposites, one the voice, the other the body."
+LANG_CHINESE        "他们正在冲击对立的平衡，一个是声音，另一个是身体"
+
+REFERENCE           PICGORCINFO5
+LANG_ENGLISH        "This combination.. is deadly."
+LANG_CHINESE        "这个组合..是致命的"
+
+ENDMARKER

@@ -1,0 +1,40 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           CLO1
+LANG_ENGLISH        "Master Yoda, all forward positions are advancing."
+LANG_CHINESE        "尤达大师，各路前锋部队都在向前突进"
+
+REFERENCE           CLO2
+LANG_ENGLISH        "Yes, sir. Move all quadrants to sector 5-1-5!"
+LANG_CHINESE        "是，长官。所有火力集中到5-1-5区域"
+
+REFERENCE           CLO3
+LANG_ENGLISH        "The droid army is in full retreat."
+LANG_CHINESE        "机器人军队已经全线撤退"
+
+REFERENCE           YOD1
+LANG_ENGLISH        "Very good. Very good."
+LANG_CHINESE        "很好，很好"
+
+REFERENCE           YOD2
+LANG_ENGLISH        "Concentrate all your fire, on the nearest starship!"
+LANG_CHINESE        "集中所有火力攻击最近的那艘星舰"
+
+REFERENCE           YOD3
+LANG_ENGLISH        "Well done, Commander. Bring me a ship."
+LANG_CHINESE        "干的好，指挥官，给我调一艘飞船来"
+
+ENDMARKER

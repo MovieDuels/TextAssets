@@ -1,0 +1,104 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           03KJO007
+LANG_ENGLISH        "All right, I'm clear."
+LANG_CHINESE        "好了，我出来了。"
+
+REFERENCE           03JAO005
+LANG_ENGLISH        "Good, the colony should be a few clicks out.  I'll scout things out from the air, while you head into the mine.  Give me a shout when you find out what's going on."
+LANG_CHINESE        "很好，那个殖民地应该就在几公里外。我会先从空中侦察一遍，你先进矿坑。你发现任何东西再通知我一声。"
+
+REFERENCE           03KJO008
+LANG_ENGLISH        "Will do."
+LANG_CHINESE        "遵命。"
+
+REFERENCE           03JAO006
+LANG_ENGLISH        "Watch yourself, Kyle."
+LANG_CHINESE        "小心点，凯尔"
+
+REFERENCE           03KJO010
+LANG_ENGLISH        "What's this...? Looks like the Remnant have created a slave labor camp."
+LANG_CHINESE        "这是什么...? 看来帝国建造了一所奴隶劳改营。"
+
+REFERENCE           03KJO011
+LANG_ENGLISH        "And they're using the colonists!!!"
+LANG_CHINESE        "并且他们正在利用这里的居民!!!"
+
+REFERENCE           03KJO012
+LANG_ENGLISH        "Mon Mothma was right, Jan.  Remnant troops are crawling all over this place, and they've taken prisoners."
+LANG_CHINESE        "蒙 莫斯玛是对的，简。这里到处都是帝国士兵，而且他们正在四处抓人。"
+
+REFERENCE           03JAO007
+LANG_ENGLISH        "Well, that should bring the Republic running.  I'll alert the fleet and pick you up."
+LANG_CHINESE        "好了，这应该可以提供新共和国足够的证据展开行动了。我先呼叫舰队再去接你。"
+
+REFERENCE           03KJO013
+LANG_ENGLISH        "Go ahead and call in the reinforcements, but I've got a mine to blow up and prisoners to rescue."
+LANG_CHINESE        "你去呼叫援军吧，可是我还有一些囚犯要救和一个矿场要炸。"
+
+REFERENCE           03JAO008
+LANG_ENGLISH        "Are you trying to justify your fee?"
+LANG_CHINESE        "你觉得酬劳太多了是不是？"
+
+REFERENCE           03KJO014
+LANG_ENGLISH        "Be ready for a quick pickup; I've got a feeling that things are about to get pretty nasty around here."
+LANG_CHINESE        "准备好随时来接我；我觉得这里的情况会变得很糟糕。"
+
+REFERENCE           03JAO009
+LANG_ENGLISH        "Who needs the Valley of the Jedi when you're already gifted with such amazing intuitive powers?"
+LANG_CHINESE        "有你那神奇的直觉，谁还要去绝地谷呀？"
+
+REFERENCE           03KJO015
+LANG_ENGLISH        "Just be ready to pick me up."
+LANG_CHINESE        "准备好来接我就是了"
+
+REFERENCE           03JAO010
+LANG_ENGLISH        "As you wish, oh Jedi Master."
+LANG_CHINESE        "如你所愿，伟大的绝地大师。"
+
+REFERENCE           03KJO016
+LANG_ENGLISH        "Isn't it a little crazy to be doing this during one of Artus's famous meteor storms?"
+LANG_CHINESE        "在阿图斯星著名的陨石暴期间这样做不是有点疯狂吗？"
+
+REFERENCE           03KJO017
+LANG_ENGLISH        "This meteor storm gives us great cover. Everything's closed up. They'll never see us coming."
+LANG_CHINESE        "这些陨石暴正好提供我们绝佳的掩护。所有东西都关起来了。他们绝对看不到我们来了。"
+
+REFERENCE           03JAO011
+LANG_ENGLISH        "Yeah, We should be so lucky."
+LANG_CHINESE        "是哦，我们还真是幸运。"
+
+REFERENCE           03JAO013
+LANG_ENGLISH        "The remnant usually has pretty tight security. Make sure you search any officers for key cards."
+LANG_CHINESE        "帝国向来都有很周密的安全措施。你最好记得在那些军官身上找找看有没有钥匙。"
+
+REFERENCE           03KJO018
+LANG_ENGLISH        "Thanks for the reminder."
+LANG_CHINESE        "谢谢提醒。"
+
+REFERENCE           03KJO022
+LANG_ENGLISH        "Jan, this place is about to fall apart. If I don't find a way out, you'll have to get help."
+LANG_CHINESE        "简，这个地方快要塌了。如果我找不到出路，你得去找人帮忙"
+
+REFERENCE           03JAO014
+LANG_ENGLISH        "Just get out of there, Kyle!"
+LANG_CHINESE        "快出来就是了，凯尔！"
+
+REFERENCE           03IO1001
+LANG_ENGLISH        "Get security!"
+LANG_CHINESE        "找守卫来！"
+
+REFERENCE           03KJO019
+LANG_ENGLISH        "Looks like the tram station, but no tram car. Wonder where this leads?"
+LANG_CHINESE        "这里看上去像一个矿车站，"
+
+REFERENCE           03KJO020
+LANG_ENGLISH        "What was that?"
+LANG_CHINESE        "那是什么？"
+
+REFERENCE           03KJO021
+LANG_ENGLISH        "I have a bad feeling about this."
+LANG_CHINESE        "我有一种不好的感觉。"
+
+ENDMARKER

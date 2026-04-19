@@ -1,0 +1,32 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           DOK4
+LANG_ENGLISH        "Master Windu.. You have fought gallantly. Worthy of recognition in the archives of the Jedi Order. Now, it is finished. Surrender.. And your lives will be spared."
+LANG_CHINESE        "温杜大师…你们的战斗很精彩…值得载入绝地武士的史册之中.现在…它已经结束了.投降吧…我会放你们一条生路"
+
+REFERENCE           DOK5
+LANG_ENGLISH        "Then.. I'm sorry, old friend."
+LANG_CHINESE        "那样的话…我很遗憾，老朋友"
+
+REFERENCE           PAD1
+LANG_ENGLISH        "Look!"
+LANG_CHINESE        "看！"
+
+REFERENCE           WIN3
+LANG_ENGLISH        "We will not be hostages to be bartered, Dooku!"
+LANG_CHINESE        "我们不会成为你们用来交换的人质，杜库！"
+
+ENDMARKER

@@ -1,0 +1,84 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLE1
+LANG_ENGLISH        "I should congratulate you. Reaching the heart of the temple is not an easy journey."
+LANG_CHINESE        "我应该恭喜你。到达圣殿的中心并不是轻松的旅途"
+
+REFERENCE           KYLE2
+LANG_ENGLISH        "By finding me, you have chosen your destiny. You have travelled far, now take the final step, on the path that lies before you."
+LANG_CHINESE        "通过寻找我，你选择了你的命运。你已经走了很远，现在，走下最后一步，路就在你的面前"
+
+REFERENCE           KYLE3
+LANG_ENGLISH        "Join me, and together we will restore the Sith to it's former glory."
+LANG_CHINESE        "加入我，然后我们一起重建西斯的光辉"
+
+REFERENCE           KYLE4
+LANG_ENGLISH        "There is no conflict, only resolve."
+LANG_CHINESE        "没有冲突，只有解决。"
+
+REFERENCE           KYLE5
+LANG_ENGLISH        "The path of your destiny is now set, and you have but two choices."
+LANG_CHINESE        "你的命运之路已经确定，现在你有两个选择"
+
+REFERENCE           KYLE6
+LANG_ENGLISH        "Cross the bridge before you and join me, or maintain your pitiful faith in the force by stepping off into oblivion and death."
+LANG_CHINESE        "在加入我之前跨过桥，或者，通过你那可怜的信念步入死亡和湮灭"
+
+REFERENCE           KYLE7
+LANG_ENGLISH        "Impressive! Now test yourself against ME!"
+LANG_CHINESE        "真是令人印象深刻！现在对抗我是对你自己的考验"
+
+REFERENCE           KYLE7B
+LANG_ENGLISH        "I know your intentions are to save me Mara, but it's far too late now."
+LANG_CHINESE        "玛拉，我知道你的意图是救我，但是已经太晚了"
+
+REFERENCE           KYLE8
+LANG_ENGLISH        "You are foolish and for that, you will die!"
+LANG_CHINESE        "你真是愚蠢，因此，你将会死亡"
+
+REFERENCE           KYLE9
+LANG_ENGLISH        "I can't.. Nooooo! I won't do this."
+LANG_CHINESE        "我不能。。。不！我不会这样做"
+
+REFERENCE           KYLE10
+LANG_ENGLISH        "This is not the way, it asks too much of me! I can't kill my friends and allies."
+LANG_CHINESE        "不是这样的，这对我要求太高了！我不能杀了维达朋友和盟友"
+
+REFERENCE           KYLE11
+LANG_ENGLISH        "I was deluded too easily.. I thought I could control the power, instead I lost myself to it. I've failed."
+LANG_CHINESE        "我太容易上当了。。我以为我能控制住力量，结果我迷失了方向。我失败了。"
+
+REFERENCE           KYLE12
+LANG_ENGLISH        "So now I suppose you are the teacher and I am the student."
+LANG_CHINESE        "所以现在我想你是老师，我是学生。"
+
+REFERENCE           MARA1
+LANG_ENGLISH        "No, that will never happen! I will kill you if I must, but I sense that you will not make that necessary."
+LANG_CHINESE        "不，那永远不会发生！如果必须的话，我会杀了你，但我感觉到你没有必要这么做。"
+
+REFERENCE           MARA2
+LANG_ENGLISH        "No, you can't. Trust in your feelings."
+LANG_CHINESE        "不，你做不到。相信你的感觉"
+
+REFERENCE           MARA3
+LANG_ENGLISH        "You haven't failed, Kyle."
+LANG_CHINESE        "你还没有失败，凯尔"
+
+REFERENCE           MARA4
+LANG_ENGLISH        "You should be so lucky. Come on, let's go home."
+LANG_CHINESE        "你真是幸运。来吧，回去了"
+
+ENDMARKER

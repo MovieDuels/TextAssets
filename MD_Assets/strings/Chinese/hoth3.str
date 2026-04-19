@@ -1,0 +1,119 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           10SO1001
+NOTES               "(use for snowtrooper)"
+LANG_ENGLISH        "Anything to report?"
+LANG_CHINESE        "有什么要报告呢吗？"
+
+REFERENCE           10ST1001
+NOTES               "(use for snowtrooper)"
+LANG_ENGLISH        "No, sir."
+LANG_CHINESE        "没有，长官。"
+
+REFERENCE           10SO1002
+NOTES               "(nods)  (use for snowtrooper)"
+LANG_ENGLISH        "Keep sharp.  We've lost contact with the perimeter patrols.  Could be the storm... or Wampas.  You don't want one of those things surprising you."
+LANG_CHINESE        "别放松警惕，我们和周围岗哨失去联系了。可能是天气缘故，也有可能..\n是雪怪。你不会想要和那些家伙打个照面吧。"
+
+
+REFERENCE           10ST2001
+NOTES               "(use for snowtrooper)"
+LANG_ENGLISH        "I'm glad we're guarding this hole and not the command center."
+LANG_CHINESE        "我很高兴我们看守的是这个洞穴，而不是指挥中心。"
+
+REFERENCE           10ST1002
+NOTES               "(use for snowtrooper)"
+LANG_ENGLISH        "Why?  It's probably nice and warm in there."
+LANG_CHINESE        "干嘛这么说？说不定那里干净整洁又暖和呢？"
+
+REFERENCE           10ST2002
+NOTES               "(use for snowtrooper)"
+LANG_ENGLISH        "I don't want to be anywhere near those Sith fanatics. They give me the creeps."
+LANG_CHINESE        "我可不想和那些西斯狂热者呆得太近，那帮人把我吓个半死。"
+
+REFERENCE           10ST1003
+NOTES               "(use for snowtrooper)"
+LANG_ENGLISH        "Yeah, I know what you mean."
+LANG_CHINESE        "呃，我知道你的意思。"
+
+REFERENCE           10JAK001
+LANG_ENGLISH        "I wonder if there's anything useful in here..."
+LANG_CHINESE        "那里有没有什么有用的东西啊..."
+
+REFERENCE           10JAK002
+LANG_ENGLISH        "Hmmph, won't be getting in this way.  There's got to be another way."
+LANG_CHINESE        "呃，这里走不通。肯定还有路。"
+
+REFERENCE           10CU1001
+NOTES               "(talking into comlink)"
+LANG_ENGLISH        "Command Center to Alora."
+LANG_CHINESE        "指挥中心呼叫阿萝拉。"
+
+REFERENCE           10ALO001
+NOTES               "(via comm)"
+LANG_ENGLISH        "Alora here."
+LANG_CHINESE        "阿萝拉收到。"
+
+REFERENCE           10CU1002
+NOTES               "(talking into comlink"
+LANG_ENGLISH        "We've just finished downloading the data.  The Rebels must have erased everything during the evacuation.  Luckily for us, the computer kept logging their flight information."
+LANG_CHINESE        "我们刚刚下载完数据,反抗军肯定在撤退时把数据都删了。\n幸运的是，电脑一直在记录他们的飞行路线信息。"
+
+REFERENCE           10ALO002
+NOTES               "(via comm)"
+LANG_ENGLISH        "And...?"
+LANG_CHINESE        "然后呢？"
+
+REFERENCE           10CU1003
+NOTES               "(talking into comlink"
+LANG_ENGLISH        "And we found Rogue Leader's flight trajectory when he left Hoth.  From it, we've been able to determine that Skywalker went to Dagobah."
+LANG_CHINESE        "我们发现了侠盗中队队长离开霍斯时的飞行路线，从中我们发现天行者去了达戈巴星。"
+
+REFERENCE           10ALO003
+NOTES               "(via comm)"
+LANG_ENGLISH        "Dagobah?  That sneaky little Jedi."
+LANG_CHINESE        "达戈巴？这个猥琐的小绝地。"
+
+REFERENCE           10JAK003
+LANG_ENGLISH        "This isn't good.  I'd better find this Alora."
+LANG_CHINESE        "这个不妙。我最好把这个阿萝拉揪出来。"
+
+REFERENCE           10ALO004
+LANG_ENGLISH        "Yes, Master.  Dagobah.  Skywalker didn't mention it in his journals; he must have been trying to protect something."
+LANG_CHINESE        "是的，师父。达戈巴。天行者没有在日记里提到；他肯定想保护什么东西。"
+
+REFERENCE           10TAA001
+NOTES               "(pleased) HOLO or via comm"
+LANG_ENGLISH        "Well done, my apprentice.  Meet me there."
+LANG_CHINESE        "干得好，徒弟。我们在那里见吧。"
+
+REFERENCE           10ALO005
+LANG_ENGLISH        "Ah.  You must be the saber-wielding troublemaker who neutralized our perimeter guard.  Are the Jedi stretched so thin that Skywalker sends children to battle the Disciples of Ragnos?"
+LANG_CHINESE        "啊，你肯定是那个手持光剑的捣蛋鬼，还把我们部署在边界的守卫给拆了。\n你们绝地是不是混不下去了，天行者居然派了你这么个小毛孩子来和我们拉格诺斯的信徒作对？"
+
+REFERENCE           10ALO006
+NOTES               "(Pause)"
+LANG_ENGLISH        "We'll meet again, whelp."
+LANG_CHINESE        "小崽子啊，我们还会见面的。"
+
+REFERENCE           10JAK004
+LANG_ENGLISH        "I can't wait."
+LANG_CHINESE        "我期待的不得了呢。"
+
+
+ENDMARKER
+
+

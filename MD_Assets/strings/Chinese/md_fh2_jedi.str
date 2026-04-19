@@ -1,0 +1,28 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KET1
+LANG_ENGLISH        "My son.."
+LANG_CHINESE        "我的儿子。。"
+
+REFERENCE           KET2
+LANG_ENGLISH        "Vader was right about one thing. You now control your own destiny. The Dark Side is strong in you, but you can still be saved. The blood of a true Jedi, my blood, flows through you."
+LANG_CHINESE        "维达有一点是对的。你现在该掌握自己的命运了。你身上黑暗的力量很强大，但是你仍然可以被拯救。真绝地的血液，我的血液，流淌在你的身体里"
+
+REFERENCE           KET3
+LANG_ENGLISH        "But you must face the Jedi Trials. Look within yourself. You will know what to do."
+LANG_CHINESE        "但是你必须面对绝地的试炼。看看你自己，你会知道怎么做的"
+
+ENDMARKER

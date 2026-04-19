@@ -1,0 +1,36 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           MAWINFO1
+LANG_ENGLISH        "To the one called Maw:"
+LANG_CHINESE        "这位称为Maw"
+
+REFERENCE           MAWINFO2
+LANG_ENGLISH        "A bitter individual that loathes all, and holds loyalty to few."
+LANG_CHINESE        "一个怨恨所有人，忠于少数人的愤愤不平的人。"
+
+REFERENCE           MAWINFO3
+LANG_ENGLISH        "A strong and formidable foe."
+LANG_CHINESE        "强大而可怕的敌人。"
+
+REFERENCE           MAWINFO4
+LANG_ENGLISH        "For every cord of muscle, there is hatred."
+LANG_CHINESE        "每一根肌肉都有仇恨。"
+
+REFERENCE           MAWINFO5
+LANG_ENGLISH        "It is this hate that keeps his aging body strong."
+LANG_CHINESE        "正是这种仇恨让他日渐衰老的身体变得强壮。"
+
+ENDMARKER

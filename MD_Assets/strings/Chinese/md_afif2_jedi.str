@@ -1,0 +1,76 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "You underestimate my power!"
+LANG_CHINESE        "你低估了我的实力！"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "Anakin: I should have known the Jedi were plotting to take over."
+LANG_CHINESE        "我早该知道绝地武士在策反了"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "Anakin: From my point of view, the Jedi are evil!"
+LANG_CHINESE        "从我的角度来说，绝地武士才是邪恶的"
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Anakin: This is the end for you, my Master."
+LANG_CHINESE        "今天是你的末日，我的老师"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "I HATE YOU!"
+LANG_CHINESE        "我恨你！"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "It's over, Anakin!\nI have the high ground."
+LANG_CHINESE        "战斗结束了，安纳金，我占据了高地"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Don't try it!"
+LANG_CHINESE        "不要尝试"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Obi-Wan: I have failed you, Anakin. I have failed you."
+LANG_CHINESE        "我让你失望了，安纳金。我让你失望了"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Obi-Wan: Anakin, Chancellor Palpatine is evil!"
+LANG_CHINESE        "安纳金，帕尔帕丁议长是邪恶的"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "Obi-Wan: Well, then you are lost!"
+LANG_CHINESE        "那么你的确迷失了"
+
+REFERENCE           OBI6
+LANG_ENGLISH        "You were the Chosen One!"
+LANG_CHINESE        "你是被选中的那个人！"
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "It was said that you would destroy the Sith, not join them!"
+LANG_CHINESE        "预言说你会消灭西斯，而不是加入他们！"
+
+REFERENCE           OBI6C
+LANG_ENGLISH        "Bring balance to the Force,\nnot leave it in darkness!"
+LANG_CHINESE        "给原力以平衡，不是将它领入黑暗！"
+
+REFERENCE           OBI7
+LANG_ENGLISH        "You were my brother, Anakin."
+LANG_CHINESE        "你曾经是我的兄弟，安纳金"
+
+REFERENCE           OBI7B
+LANG_ENGLISH        "I loved you."
+LANG_CHINESE        "我曾那么关心你"
+
+ENDMARKER

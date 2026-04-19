@@ -1,0 +1,44 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "R2, stay with the ship."
+LANG_CHINESE        "R2…呆在飞船这儿"
+
+REFERENCE           GUN1
+LANG_ENGLISH        "The plan has gone as you had promised, my lord."
+LANG_CHINESE        "计划如你所预料的正在顺利进行，我的主人"
+
+REFERENCE           GUN2
+LANG_ENGLISH        "Welcome, Lord Vader. We've been expecting you."
+LANG_CHINESE        "欢迎，维德勋爵，恭候大驾已多时"
+
+REFERENCE           GUN3
+LANG_ENGLISH        "Gunray: The war is over! Lord Sidious promised us peace! We only want-"
+LANG_CHINESE        "战争结束了！西迪厄斯大人保证给我们和平的，我们只想要…"
+
+REFERENCE           SID1
+LANG_ENGLISH        "You have done well, Viceroy."
+LANG_CHINESE        "干的不错，总督"
+
+REFERENCE           SID1B
+LANG_ENGLISH        "When my new apprentice Darth Vader arrives,"
+LANG_CHINESE        "我的新徒弟，达斯·维德到了以后"
+
+REFERENCE           SID1C
+LANG_ENGLISH        "he will take care of you."
+LANG_CHINESE        "他会关照你们的"
+
+ENDMARKER

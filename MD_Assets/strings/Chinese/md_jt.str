@@ -1,0 +1,56 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           J6
+LANG_ENGLISH        "Oh no. I sense the Dark side. I can't let you pass!"
+LANG_CHINESE        "哦不 我感到了黑暗面 我不会让你过去的"
+
+REFERENCE           W3
+LANG_ENGLISH        "In the name of the Republic and the Jedi Council, you're under arrest!"
+LANG_CHINESE        "以银河共和国参议院的名义，你被逮了，议长"
+
+REFERENCE           YOU1
+LANG_ENGLISH        "Master Skywalker, there are too many of them. What are we going to do?"
+LANG_CHINESE        "天行者大师，敌人太多了，我们该怎么办?"
+
+REFERENCE           SHA1
+LANG_ENGLISH        "Anakin, why are you doing this?"
+LANG_CHINESE        "安纳金，你为什么要这样做?"
+
+REFERENCE           SHA2
+LANG_ENGLISH        "We accepted you into the Jedi Council, and now you betray us?"
+LANG_CHINESE        "我们接纳你进入绝地委员会,如今你却要背叛我们？"
+
+REFERENCE           SHA3
+LANG_ENGLISH        "How low must a person fall to become a killer of defenseless children?"
+LANG_CHINESE        "一个人要堕落到何种地步，才会去杀害手无寸铁的孩子？"
+
+REFERENCE           SHA4
+LANG_ENGLISH        "The Republic? Or Palpatine? He has twisted your pain into chains. You call this freedom?"
+LANG_CHINESE        "为了共和国？还是为了帕尔帕廷？他将你的痛苦扭曲成了枷锁，你管这叫自由？"
+
+REFERENCE           ANI7
+LANG_ENGLISH        "The Jedi betrayed the Republic. You've blinded yourself to the truth, Master Ti. The Order is finished."
+LANG_CHINESE        "绝地背叛了共和国。你对自己蒙蔽了真相，蒂大师。武士团已经完了"
+
+REFERENCE           ANI8
+LANG_ENGLISH        "The Chancellor showed me what the Council never would. The Jedi are traitors and I will not allow you to stand in the way."
+LANG_CHINESE        "议长向我揭示了委员会永远不会让我看到的东西。绝地是叛徒，我绝不会让你们挡路。"
+
+REFERENCE           SIN1
+LANG_ENGLISH        "Do not take another step to the dark side!"
+LANG_CHINESE        "不要再向黑暗面迈进一步了！"
+
+ENDMARKER

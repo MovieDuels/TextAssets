@@ -1,0 +1,32 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           JERECINFO1
+LANG_ENGLISH        "His heavy brow overshadows the empty recesses that normally embrace eyes."
+LANG_CHINESE        "他沉重的眉毛遮住了通常包裹住眼睛的空洞凹陷。"
+
+REFERENCE           JERECINFO2
+LANG_ENGLISH        "Jerec has the uncanny power to absorb and overshadow one's connection to the Force..."
+LANG_CHINESE        "杰瑞克有一种不可思议的力量，可以吸收并掩盖一个人与原力的联系。。。"
+
+REFERENCE           JERECINFO3
+LANG_ENGLISH        "Like a dark cloud."
+LANG_CHINESE        "像一朵乌云"
+
+REFERENCE           JERECINFO4
+LANG_ENGLISH        "A deep, empowering grasp of your will is what you need."
+LANG_CHINESE        "你需要的是对自己意志的深刻而有力的把握。"
+
+ENDMARKER

@@ -1,0 +1,228 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           AHSOKA1
+LANG_ENGLISH        "Master?"
+LANG_CHINESE        "师父？"
+
+REFERENCE           AHSOKA2
+LANG_ENGLISH        "Anakin."
+LANG_CHINESE        "安纳金"
+
+REFERENCE           AHSOKA3
+LANG_ENGLISH        "You look the same."
+LANG_CHINESE        "你一点都没变"
+
+REFERENCE           AHSOKA4
+LANG_ENGLISH        "Well, that happens."
+LANG_CHINESE        "不可避免"
+
+REFERENCE           AHSOKA5
+LANG_ENGLISH        "Actually what happened?"
+LANG_CHINESE        "到底怎么回事？"
+
+REFERENCE           AHSOKA6
+LANG_ENGLISH        "I don't remember."
+LANG_CHINESE        "我想不起来了"
+
+REFERENCE           AHSOKA7
+LANG_ENGLISH        "Baylan Skoll."
+LANG_CHINESE        "贝兰·斯科尔"
+
+REFERENCE           AHSOKA8
+LANG_ENGLISH        "Why?"
+LANG_CHINESE        "为什么这么说？"
+
+REFERENCE           AHSOKA9
+LANG_ENGLISH        "Chance?"
+LANG_CHINESE        "有机会"
+
+REFERENCE           AHSOKA10
+LANG_ENGLISH        "Tell me what's going on."
+LANG_CHINESE        "告诉我是怎么回事"
+
+REFERENCE           AHSOKA11
+LANG_ENGLISH        "It's a little late for that."
+LANG_CHINESE        "为时已晚"
+
+REFERENCE           AHSOKA12
+LANG_ENGLISH        "All right. What's the lesson, Master?"
+LANG_CHINESE        "行吧，学什么，师父"
+
+REFERENCE           AHSOKA13
+LANG_ENGLISH        "I won't fight you."
+LANG_CHINESE        "我不会和你打的"
+
+REFERENCE           AHSOKA14
+LANG_ENGLISH        "Looks like you don't have that much to offer."
+LANG_CHINESE        "看来你已经倾囊相授了"
+
+REFERENCE           AHSOKA15
+LANG_ENGLISH        "[ Groaning ]"
+LANG_CHINESE        "#SAME"
+
+REFERENCE           AHSOKA16
+LANG_ENGLISH        "I choose to live!"
+LANG_CHINESE        "我选择活下去"
+
+REFERENCE           AHSOKA17
+LANG_ENGLISH        "This was the Siege of Mandalore. We've parted ways by now."
+LANG_CHINESE        "这是曼达洛围攻战。们从此分道扬镳"
+
+REFERENCE           AHSOKA18
+LANG_ENGLISH        "It was."
+LANG_CHINESE        "确实"
+
+REFERENCE           AHSOKA19
+LANG_ENGLISH        "Is that all?"
+LANG_CHINESE        这就没了吗？"
+
+REFERENCE           AHSOKA20
+LANG_ENGLISH        "But my part of that legacy is death and war."
+LANG_CHINESE        "但是传承中我的部分是死亡与战争"
+
+REFERENCE           AHSOKA21
+LANG_ENGLISH        "You are more Anakin.. but more powerful and dangerous than anyone realised."
+LANG_CHINESE        "你确实不止于此,安纳金。。。但比任何人想到的都更加强大与危险"
+
+REFERENCE           AHSOKA22
+LANG_ENGLISH        "If I'm everything you are.."
+LANG_CHINESE        "如果我是你所成为的一切。。"
+
+REFERENCE           AHSOKA23
+LANG_ENGLISH        "Don't say that!"
+LANG_CHINESE        "别这么说！"
+
+REFERENCE           AHSOKA24
+LANG_ENGLISH        "No!"
+LANG_CHINESE        "不！"
+
+REFERENCE           AHSOKA25
+LANG_ENGLISH        "[ Groaning ]"
+LANG_CHINESE        "#SAME"
+
+REFERENCE           ANAKIN1
+LANG_ENGLISH        "Hello, Snips."
+LANG_CHINESE        "你好啊,小鬼头"
+
+REFERENCE           ANAKIN2，
+LANG_ENGLISH        "I didn't expect to see you so soon."
+LANG_CHINESE        "我没料到会这么快看到你"
+
+REFERENCE           ANAKIN3
+LANG_ENGLISH        "You look old."
+LANG_CHINESE        "你显老了"
+
+REFERENCE           ANAKIN4
+LANG_ENGLISH        "You lost a fight!"
+LANG_CHINESE        "你打输了！"
+
+REFERENCE           ANAKIN5
+LANG_ENGLISH        "Trust me.. you lost."
+LANG_CHINESE        "相信我。。你输了"
+
+REFERENCE           ANAKIN6
+LANG_ENGLISH        "So you do remember."
+LANG_CHINESE        "你记得嘛"
+
+REFERENCE           ANAKIN7
+LANG_ENGLISH        "That's good."
+LANG_CHINESE        "很好"
+
+REFERENCE           ANAKIN8
+LANG_ENGLISH        "It means you still have a chance."
+LANG_CHINESE        "意思是你还有机会"
+
+REFERENCE           ANAKIN9
+LANG_ENGLISH        "To live.."
+LANG_CHINESE        "活下去。。"
+
+REFERENCE           ANAKIN10
+LANG_ENGLISH        "I'm here to finish your training."
+LANG_CHINESE        "我是来完成你的训练的"
+
+REFERENCE           ANAKIN11
+LANG_ENGLISH        "One is never too old to learn, Snips."
+LANG_CHINESE        "活到老学到老，小鬼头"
+
+REFERENCE           ANAKIN12
+LANG_ENGLISH        "Live.. or die!"
+LANG_CHINESE        "生。。或死"
+
+REFERENCE           ANAKIN13
+LANG_ENGLISH        "I've heard that before."
+LANG_CHINESE        "我听过这句话"
+
+REFERENCE           ANAKIN14
+LANG_ENGLISH        "I haven't thaught you everything yet!"
+LANG_CHINESE        "我还有所保留呢！"
+
+REFERENCE           ANAKIN15
+LANG_ENGLISH        "You lack conviction!"
+LANG_CHINESE        "你缺少信念"
+
+REFERENCE           ANAKIN16
+LANG_ENGLISH        "Time to die!"
+LANG_CHINESE        "死期已至"
+
+REFERENCE           ANAKIN17
+LANG_ENGLISH        "There's hope for you yet."
+LANG_CHINESE        "你还有希望"
+
+REFERENCE           ANAKIN18
+LANG_ENGLISH        "I don't know this battle."
+LANG_CHINESE        "我不知道这场战役"
+
+REFERENCE           ANAKIN19
+LANG_ENGLISH        "Looks intense."
+LANG_CHINESE        "看起来很激烈"
+
+REFERENCE           ANAKIN20
+LANG_ENGLISH        "You did well."
+LANG_CHINESE        "你做得好"
+
+REFERENCE           ANAKIN21
+LANG_ENGLISH        "You're a warrior now, as I trained you to be."
+LANG_CHINESE        "如我训练的一样，你是位战士了"
+
+REFERENCE           ANAKIN22
+LANG_ENGLISH        "Ahsoka, within you will be everything I am. All the knowledge I possess. Just as I inherited knowledge from my master and he from his. You're part of a legacy."
+LANG_CHINESE        "阿索卡，你会成为我所成为过的一切。我所拥有的所有知识，正如我从我的师父传承知识，以及他和他的师父一样，你成了传承的一部分"
+
+REFERENCE           ANAKIN23
+LANG_ENGLISH        "But you're more than that, cause I'm more than that."
+LANG_CHINESE        "但你不止于此，因为我也不止于此"
+
+REFERENCE           ANAKIN24
+LANG_ENGLISH        "Is that what this is about?"
+LANG_CHINESE        "就是为了这个吗"
+
+REFERENCE           ANAKIN25
+LANG_ENGLISH        "You've learned nothing!"
+LANG_CHINESE        "你什么也没学到"
+
+REFERENCE           ANAKIN26
+LANG_ENGLISH        "Back to the beginning."
+LANG_CHINESE        "从头再来"
+
+REFERENCE           ANAKIN27
+LANG_ENGLISH        "I gave you a choice.. Live.. or die!"
+LANG_CHINESE        "我给了你选择。。活着。。还是死亡"
+
+REFERENCE           ANAKIN28
+LANG_ENGLISH        "Incorrect."
+LANG_CHINESE        "不对"
+
+ENDMARKER

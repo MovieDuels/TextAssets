@@ -1,0 +1,1217 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Movie Duels Menus"
+
+//----------------------------------------------------------
+//	-- CONTENTS/HEADINGS: --
+//
+//	- MAIN MENUS: -
+//	h1: OLD REPUBLIC
+//	h2: SITH EMPIRE
+//	h3: REPUBLIC
+//	h4: SEPARATIST
+//	h5: REBELS
+//	h6: EMPIRE
+//	h7: RESISTANCE
+//	h8: FIRST ORDER
+//
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	h1: OLD REPUBLIC
+//----------------------------------------------------------
+
+REFERENCE           BASTILA_SHAN
+LANG_ENGLISH        "A powerful Jedi from the Old Republic era, Bastila Shan was renowned for her rare Battle Meditation ability, which could sway the outcome of entire wars. Trained in the ways of the Force from a young age, she played a pivotal role in the Jedi Civil War, struggling with her connection to Darth Revan·and the dark side within herself."
+LANG_CHINESE        "巴斯蒂拉.尚是旧共和国时代一位实力强劲的绝地武士，因身负罕见的战斗冥想能力而声名远扬 —— 这项能力足以左右整场战争的胜负走向。她自幼便接受原力之道的训练，在绝地内战中扮演了关键角色，却也因与达斯?瑞文之间的羁绊，以及自身内心潜藏的黑暗面而深陷挣扎。" 
+
+REFERENCE 			REPUBLIC_TROOPER
+LANG_ENGLISH 		"A soldier of the Galactic Republic, Republic Troopers fought across the galaxy during the Jedi Civil War. Trained for versatility and discipline, they formed the backbone of Republic ground forces against the Sith."
+LANG_CHINESE        "共和国士兵是银河共和国的作战部队，在绝地内战期间转战银河各地。他们接受多面手战术与纪律性训练，是共和国对抗西斯的地面部队中坚力量。" 
+
+REFERENCE 			TRASK_ULGO
+LANG_ENGLISH 		"A Republic soldier aboard the Endar Spire, Trask Ulgo aided a Force-sensitive ally during Darth Malak's attack. He sacrificed his life to ensure their escape, helping set the Jedi Civil War in motion."
+LANG_CHINESE        "特拉斯克·乌尔戈是 “恩达螺旋号” 巡洋舰上的一名共和国士兵。在达斯?马拉克发动的突袭中，他协助了一位拥有原力天赋的同伴。为掩护对方成功撤离，他壮烈牺牲，而这一事件也成为了点燃绝地内战的导火索之一。" 
+
+REFERENCE 			REPUBLIC_OFFICER
+LANG_ENGLISH 		"A commissioned leader within the Republic military, Republic Officers oversaw fleets and armies during the Old Republic's wars. They coordinated closely with Jedi commanders to counter Sith expansion."
+LANG_CHINESE        "共和国军官是银河共和国军方体系内的授衔指挥官，在旧共和国历次战争期间执掌舰队与陆军的作战指挥。他们与绝地指挥官紧密协作，共同抵御西斯势力的扩张蚕食。" 
+
+REFERENCE 			MEETRA_SURIK
+LANG_ENGLISH 		"Known as the Jedi Exile, Meetra Surik was a former Jedi Knight who cut herself off from the Force after the Mandalorian Wars. She later reclaimed her power and confronted the Sith Triumvirate, shaping the fate of the Republic."
+LANG_CHINESE        "米特拉.苏里克被世人称为绝地放逐者，她曾是一名绝地武士，在曼达洛战争结束后切断了自己与原力的联系。后来她重拾自身力量，挺身对抗西斯三巨头，就此改写了共和国的命运走向。" 
+
+REFERENCE 			JOLEE_BINDO
+LANG_ENGLISH 		"A reclusive Jedi living on Kashyyyk, Jolee Bindo rejected rigid Jedi doctrine in favor of personal experience. Cynical yet insightful, he aided the Republic during the Jedi Civil War."
+LANG_CHINESE        "乔利·宾多是一位隐居在卡西克星球的绝地武士，他摒弃了刻板严苛的绝地教条，更崇尚以亲身历练感悟原力。他性情愤世嫉俗，却又洞察世事，在绝地内战期间曾出手协助共和国一方。" 
+
+REFERENCE 			JEDI_WARRIOR
+LANG_ENGLISH 		"A battle-oriented member of the Jedi Order, Jedi Warriors served on the front lines of the Old Republic's conflicts. They relied on martial skill and the Force to oppose Sith and Mandalorian enemies."
+LANG_CHINESE        "绝地战士是绝地武士团中一支以战斗为导向的力量，活跃于旧共和国历次战争的前线战场。他们凭借精湛的武技与强大的原力，对抗西斯与曼达洛人的敌人。" 
+
+REFERENCE 			CARTH_ONASI
+LANG_ENGLISH 		"A decorated Republic pilot and officer, Carth Onasi fought throughout the Jedi Civil War. Though shaped by betrayal and loss, he remained steadfast in his loyalty to the Republic."
+LANG_CHINESE        "卡思.奥纳西是一位功勋卓著的共和国飞行员兼军官，全程参与了绝地内战的征战。尽管饱经背叛与失去的伤痛，他对共和国的忠诚却始终坚定不移。" 
+
+REFERENCE 			CANDEROUS_ORDO
+LANG_ENGLISH 		"A seasoned Mandalorian warrior, Canderous Ordo fought in the Mandalorian Wars and later allied with the Republic. Fierce and honor-bound, he sought to preserve Mandalorian strength through survival."
+LANG_CHINESE        "坎德鲁斯·奥多是一名身经百战的曼达洛战士，曾参与曼达洛战争，后与共和国结为盟友。他勇猛善战且恪守荣誉，一心以存续之道守护曼达洛人的战力传承。" 
+
+REFERENCE 			ATTON_RAND
+LANG_ENGLISH 		"A former Republic pilot with a hidden past, Atton Rand traveled with the Jedi Exile after the Jedi Purge. Concealing Force sensitivity, he struggled with guilt and the path to redemption."
+LANG_CHINESE        "阿顿·兰德曾是一名共和国飞行员，有着不为人知的过往。绝地大清洗之后，他与绝地放逐者结伴同行。他一直隐藏着自己的原力天赋，在愧疚的煎熬与寻求救赎的道路上苦苦挣扎。" 
+
+REFERENCE 			ATRIS
+LANG_ENGLISH 		"A Jedi historian and Council member, Atris survived the Purge by retreating to Telos. Her rigid devotion to Jedi ideals gradually drew her toward the dark side."
+LANG_CHINESE        "阿特丽丝是一名绝地历史学家，同时也是绝地委员会成员。为躲避绝地大清洗，她退守至泰洛斯星球得以幸存。她对绝地理念有着近乎偏执的执念，这份执念最终渐渐将她引向了黑暗面。" 
+
+REFERENCE 			JEDI_KOTOR
+LANG_ENGLISH 		"Jedi of the Old Republic era defended the galaxy during the Mandalorian Wars and Jedi Civil War. Their choices and sacrifices shaped the balance between the Republic and the Sith."
+LANG_CHINESE        "旧共和国时代的绝地武士，在曼达洛战争与绝地内战期间挺身守护银河。他们的抉择与牺牲，深刻左右了共和国与西斯之间的力量平衡。" 
+
+REFERENCE 			VROOK_LAMAR
+LANG_ENGLISH 		"A stern Jedi Master on the Dantooine Council, Vrook Lamar was known for his uncompromising views. He survived the Purge but remained deeply critical of the Jedi Exile."
+LANG_CHINESE        "弗鲁克·拉马尔是丹图因绝地委员会中一位作风严厉的绝地大师，他以毫不妥协的立场著称。弗鲁克在绝地大清洗中幸存下来，却始终对绝地放逐者抱有强烈的质疑态度。" 
+
+REFERENCE 			ZHAR_LESTIN
+LANG_ENGLISH 		"A Twi'lek Jedi Master on the Dantooine Council, Zhar Lestin oversaw Jedi training during the Jedi Civil War. He opposed the Sith while struggling with the Order's decline."
+LANG_CHINESE        "扎尔·莱斯廷是丹图因绝地委员会中的一位提列克族绝地大师，在绝地内战期间负责主持绝地武士的训练工作。他一边挺身对抗西斯势力，一边又为绝地武士团的日渐衰落而心力交瘁。" 
+
+REFERENCE 			DORAK
+LANG_ENGLISH 		"A Jedi archivist stationed on Dantooine, Dorak specialized in ancient Sith history. His knowledge provided critical insight during the Jedi Civil War."
+LANG_CHINESE        "多拉克是一名驻守在丹图因的绝地档案管理员，他专攻古老的西斯历史研究。在绝地内战期间，他的学识为战局提供了至关重要的参考依据。" 
+
+REFERENCE 			KREIA
+LANG_ENGLISH 		"A former Jedi Master and mentor to the Jedi Exile, Kreia was a complex and manipulative Force-user shaped by betrayal and loss. Rejecting both Jedi and Sith dogma, she sought to challenge the Force's control over destiny and the galaxy."
+LANG_CHINESE        "克雷娅曾是一名绝地大师，也是绝地放逐者的导师。她是一位性格复杂、精于操控的原力使用者，一生被背叛与失去的伤痛所裹挟。她摒弃绝地与西斯的双重教条，一心想要挑战原力对命运与银河的操控。" 
+
+REFERENCE 			JUHANI
+LANG_ENGLISH 		"A Cathar Jedi Knight, Juhani struggled with her anger and briefly fell to the dark side before finding redemption. During the Jedi Civil War, she fought alongside Revan, proving her loyalty to the Jedi and the Republic."
+LANG_CHINESE        "朱哈尼是一名卡瑟族绝地武士，她始终被内心的怒火所困扰，甚至曾短暂堕入黑暗面，最终才得以重获救赎。在绝地内战期间，她与瑞文并肩作战，以此证明了自己对绝地武士团与共和国的忠诚。" 
+
+REFERENCE 			KAO_CEN_DARACH
+LANG_ENGLISH 		"A revered Jedi Master of the Old Republic, Kao Cen Darach was known for his skill with a double-bladed lightsaber. He defended his Padawan Satele Shan from a Sith attack, sacrificing his life in the struggle."
+LANG_CHINESE        "高·森·达拉赫是旧共和国时代一位德高望重的绝地大师，他以擅使双刃光剑的绝技闻名于世。在一场西斯发动的突袭中，他为保护自己的学徒莎蒂尔?尚挺身而出，最终在激战中壮烈牺牲。" 
+
+REFERENCE 			VEN_ZALLOW
+LANG_ENGLISH 		"A courageous Jedi Knight, Ven Zallow helped defend the Jedi Temple during the Sith assault on Coruscant. His stand against overwhelming odds became a symbol of Jedi resistance in the Great Galactic War."
+LANG_CHINESE        "温·扎洛是一名英勇无畏的绝地武士。在西斯大军突袭科洛桑的战役中，他参与了绝地圣殿的保卫战。面对敌众我寡的绝境，他仍死守阵地，其奋战之举也成为了银河大战期间绝地抵抗力量的精神象征。" 
+
+REFERENCE 			REPUBLIC_TROOPER_KOTOR
+LANG_ENGLISH 		"A disciplined soldier of the Galactic Republic, Republic Troopers fought Sith forces throughout the Jedi Civil War. Equipped for adaptability, they supported Jedi commanders in battles across contested worlds."
+LANG_CHINESE        "共和国士兵是银河共和国军纪严明的作战部队，在绝地内战期间与西斯势力持续作战。他们配备的装备具备高度适应性，在各交战星球的战场上支援绝地指挥官。" 
+
+REFERENCE 			BAO_DUR
+LANG_ENGLISH 		"A Zabrak engineer and Republic veteran, Bao-Dur served under the Jedi Exile during the Mandalorian Wars. Haunted by his role in deploying the Mass Shadow Generator, he later aided in rebuilding the Jedi."
+LANG_CHINESE        "鲍尔·杜尔是一名扎布拉克族工程师，同时也是身经百战的共和国老兵。曼达洛战争期间，他曾在绝地放逐者麾下效力。因亲手部署质量阴影发生器的经历，他终生日夜饱受煎熬，后来则投身于绝地武士团的重建事业之中。" 
+
+REFERENCE 			VANDAR_TOKARE
+LANG_ENGLISH 		"A small but powerful Jedi Master, Vandar Tokare served on the Jedi Council during the Jedi Civil War. Known for his wisdom and foresight, he guided the Order through one of its darkest periods."
+LANG_CHINESE        "万达尔.托卡雷是一位身形矮小却实力强大的绝地大师，在绝地内战期间任职于绝地委员会。他以超凡的智慧与远见著称，引领绝地武士团走过了其历史上最为黑暗的一段时期。" 
+
+//----------------------------------------------------------
+// 	h2: SITH EMPIRE
+//----------------------------------------------------------
+
+REFERENCE           DARTH_REVAN
+LANG_ENGLISH        "Once a charismatic Jedi Knight and hero of the Mandalorian Wars, Revan fell to the dark side and led a Sith armada against the Republic. Betrayed and nearly destroyed, he was redeemed and reprogrammed by the Jedi Council. Revan's legacy shaped the fate of the galaxy for generations, as both savior and destroyer."
+LANG_CHINESE        "瑞文曾是一位极具人格魅力的绝地武士，亦是曼达洛战争中的英雄。后来他堕入黑暗面，率领西斯舰队向共和国挥师进犯。在遭遇背叛、濒死之际，他被绝地委员会救赎，过往记忆也被彻底抹去。作为兼具救世者与毁灭者双重身份的传奇人物，瑞文的遗产影响了银河数代人的命运走向" 
+
+REFERENCE 			DARTH_MALGUS
+LANG_ENGLISH 		"A powerful Sith Lord of the Old Republic era, Darth Malgus was a ruthless warrior who led the assault on the Jedi Temple during the Great Galactic War. Rejecting weakness and tradition alike, he sought to reshape the Sith through strength and domination."
+LANG_CHINESE        "达斯·马尔格斯是旧共和国时代一位实力强横的西斯尊主，他生性残暴、骁勇善战，在银河大战期间亲自率军发起了对绝地圣殿的猛攻。他既鄙夷软弱无能之辈，也唾弃僵化守旧的传统，一心要凭借绝对的力量与统治力，重塑西斯的秩序" 
+
+REFERENCE 			DARTH_MALAK
+LANG_ENGLISH 		"Once a Jedi Knight named Alek, Darth Malak became the apprentice of Darth Revan and a leading Sith Lord of the Jedi Civil War. After betraying his master, he ruled through fear until his defeat by Revan restored balance to the Republic."
+LANG_CHINESE        "达斯·马拉克曾是名为亚历克的绝地武士，后来成为达斯.瑞文的学徒，亦是绝地内战时期地位显赫的西斯尊主。他背叛自己的师父后，以恐惧统治银河，直至被瑞文击败，共和国的秩序才得以恢复" 
+
+REFERENCE 			DARTH_SION
+LANG_ENGLISH 		"A member of the Sith Triumvirate, Darth Sion was a dark side warrior who held his shattered body together through pain and hatred. He relentlessly hunted the surviving Jedi after the Purge, embodying the Sith philosophy of endurance through suffering."
+LANG_CHINESE        "达斯·赛恩是西斯三巨头之一，这位黑暗面武士凭借痛苦与憎恨的力量，将自己支离破碎的躯体强行维系在一起。绝地大清洗之后，他对幸存的绝地展开了毫不留情的追杀，是西斯 “以苦难淬炼忍耐力” 这一信条的绝佳化身。" 
+
+REFERENCE 			DARTH_TRAYA
+LANG_ENGLISH 		"Known as Kreia, Darth Traya was a former Jedi Master who became a Sith Lord seeking to end the Force's influence on the galaxy. As the architect of the Sith Triumvirate, she manipulated events from the shadows to test and reshape her disciples."
+LANG_CHINESE        "克雷娅，即达斯·特拉娅，曾是一名绝地大师，后来堕落为西斯尊主，一心想要终结原力对银河的操控。作为西斯三巨头的缔造者，她藏身幕后操纵各方局势，以此试炼并重塑自己的门徒。" 
+
+REFERENCE 			DARTH_NIHILUS
+LANG_ENGLISH 		"A Sith Lord born from the devastation of the Mandalorian Wars, Darth Nihilus survived by consuming the Force itself. His insatiable hunger destroyed entire worlds, marking him as one of the most catastrophic threats of the Old Republic era."
+LANG_CHINESE        "达斯·奈亚利斯是一名诞生于曼达洛战争浩劫之中的西斯尊主，他依靠吞噬原力本身得以存活。其永无止境的饥饿吞噬了一个个完整的星球，使他成为旧共和国时代最具毁灭性的威胁之一。" 
+
+REFERENCE 			LORD_SCOURGE
+LANG_ENGLISH 		"A Sith Lord of the Old Republic, Lord Scourge served the Sith Emperor as his Wrath, enforcing his will through strength and assassination. Granted extended life through the dark side, he later betrayed the Empire to oppose the Emperor's return."
+LANG_CHINESE        "斯考奇尊主是旧共和国时代的一名西斯尊主，他以西斯之怒的身份效忠于西斯皇帝，凭借武力与暗杀手段贯彻皇帝的意志。他借由黑暗面的力量获得了悠长的寿命，后来却选择背叛帝国，挺身反抗皇帝的复辟。" 
+
+REFERENCE 			SITH_ERADICATOR
+LANG_ENGLISH 		"An elite Sith enforcer trained for destruction, Sith Eradicators wielded heavy armor and devastating Force power. They were deployed to crush Jedi resistance and dominate battlefields during the Old Republic's wars."
+LANG_CHINESE        "西斯根除者是为毁灭而生的精锐西斯执行者，身披重型护甲，掌握着极具破坏力的原力。在旧共和国的历次战争中，他们被派往战场，专门用于粉碎绝地的抵抗力量、掌控战局。" 
+
+REFERENCE 			DARTH_BANDON
+LANG_ENGLISH 		"A Dark Jedi turned Sith apprentice, Darth Bandon served Darth Malak during the Jedi Civil War. Arrogant and aggressive, he pursued the Jedi relentlessly until his defeat revealed his lack of true mastery."
+LANG_CHINESE        "西斯根除者是为毁灭而生的精锐西斯执行者，身披重型护甲，掌握着极具破坏力的原力。在旧共和国的历次战争中，他们被派往战场，专门用于粉碎绝地的抵抗力量、掌控战局。" 
+
+REFERENCE 			DARTH_BANE
+LANG_ENGLISH 		"A Sith Lord who rose after the fall of the Sith Empire, Darth Bane reshaped the dark side through the Rule of Two. By limiting the Sith to master and apprentice, he ensured their survival through secrecy and power."
+LANG_CHINESE        "达斯·班登曾是一名堕入黑暗面的绝地，后来成为西斯学徒，于绝地内战期间效忠于达斯.马拉克。他生性傲慢、好勇斗狠，对绝地展开了锲而不舍的追杀，直至战败才暴露其并未真正掌握黑暗面力量的事实。" 
+
+REFERENCE 			SITH_TROOPER_KOTOR
+LANG_ENGLISH 		"A heavily armored soldier of the Sith Empire, Sith Troopers enforced Malak's rule during the Jedi Civil War. Fanatically loyal and well-equipped, they formed the core of Sith ground forces."
+LANG_CHINESE        "西斯士兵是西斯帝国麾下身披重型护甲的作战部队，在绝地内战期间负责镇压反抗、贯彻达斯.马拉克的统治意志。他们秉持着狂热的忠诚，且装备精良，是西斯地面部队的核心战力。" 
+
+REFERENCE 			NEO_CRUSADER
+LANG_ENGLISH 		"A Mandalorian warrior of the Neo-Crusaders, these soldiers led the assault against the Republic during the Mandalorian Wars. Their advanced armor and discipline made them a formidable galactic threat."
+LANG_CHINESE        "新十字军曼达洛战士是曼达洛新十字军的作战成员，在曼达洛战争期间率先向共和国发起猛攻。他们身披先进护甲，军纪严明，是足以威胁整个银河的强悍战力。" 
+
+REFERENCE 			CALO_NORD
+LANG_ENGLISH 		"A cold and methodical bounty hunter, Calo Nord was employed by Davik Kang and later the Sith. Known for his patience and deadly efficiency, he relentlessly pursued his assigned targets."
+LANG_CHINESE        "卡洛·诺德是一名冷酷且行事缜密的赏金猎人，最初受雇于戴维克.康，后来转而为西斯效力。他以极强的耐心与致命的效率闻名，会对指派的目标展开锲而不舍的追杀。" 
+
+REFERENCE 			HK47
+LANG_ENGLISH 		"An assassin droid constructed by Darth Revan, HK-47 was programmed for efficiency, loyalty, and lethal sarcasm. He accompanied Revan and later the Jedi Exile, offering combat support and dark humor."
+LANG_CHINESE        "HK-47是由达斯.瑞文制造的刺客机器人，其程序被设定为追求高效、忠诚，且自带刻薄毒辣的嘲讽属性。它曾追随瑞文，后来又伴随绝地放逐者行动，既提供战斗支援，也时常吐出充满黑色幽默的言辞。" 
+
+REFERENCE 			DAVIK_KANG
+LANG_ENGLISH 		"A powerful crime lord on Taris, Davik Kang controlled the planet's underworld during the Jedi Civil War. His influence ended abruptly when he was killed during a Republic escape from the city."
+LANG_CHINESE        "戴维克·康是塔里斯星球上势力庞大的黑道霸主，在绝地内战期间掌控着这颗星球的地下世界。他的统治生涯戛然而止 —— 在共和国军队从星球城市撤离的行动中，戴维克.康被杀身亡。" 
+
+REFERENCE 			MANDALORE_ULTIMATE
+LANG_ENGLISH 		"The supreme leader of the Mandalorian Neo-Crusaders, Mandalore the Ultimate led the invasion of the Republic. His defeat by Revan marked the turning point of the Mandalorian Wars."
+LANG_CHINESE        "终极曼达洛是曼达洛新十字军的最高领袖，正是他率军入侵共和国。他被瑞文击败一事，成为了曼达洛战争的转折点" 
+
+REFERENCE 			VISAS_MARR
+LANG_ENGLISH 		"A Miraluka Force-user and servant of Darth Nihilus, Visas Marr was the sole survivor of Katarr. Bound by guilt and loyalty, she later joined the Jedi Exile in opposing her former master."
+LANG_CHINESE        "维萨斯·马尔是一名米卢卡族原力使用者，亦是达斯.奈亚利斯的仆从，同时也是卡塔星的唯一幸存者。她被愧疚与忠诚的枷锁束缚，后来却选择加入绝地放逐者的阵营，共同反抗自己昔日的主人" 
+
+REFERENCE 			DARK_JEDI
+LANG_ENGLISH 		"Former Jedi who fell to the dark side, Dark Jedi served Sith Lords during the Old Republic's conflicts. They wielded corrupted teachings of the Force to hunt their former allies."
+LANG_CHINESE        "堕入黑暗面的前绝地武士被称为黑暗绝地，他们在旧共和国的历次战乱中效忠于西斯尊主。这些人奉行堕落的原力教义，专门猎杀昔日的绝地同袍。" 
+
+REFERENCE 			DARTH_VINDICAN
+LANG_ENGLISH 		"A Sith Lord during the Great Galactic War, Darth Vindican trained apprentices in the ruthless traditions of the Sith. His ambition reflected the constant struggle for power within the Sith hierarchy."
+LANG_CHINESE        "银河大战时期的西斯尊主，达斯·温迪坎向来以西斯残酷传统训练学徒，其野心正是西斯等级体系内永无休止的权力之争的写照。" 
+
+REFERENCE 			EMPEROR_VALKORION
+LANG_ENGLISH 		"The immortal Sith Emperor of Zakuul and the Sith Empire, Valkorion sought absolute control over the galaxy. Sustained by countless lifetimes, he manipulated wars and bloodlines to serve his vision."
+LANG_CHINESE        "扎库尔与西斯帝国的不朽西斯皇帝，瓦尔科里翁一心谋求对银河的绝对掌控。凭借无数个世代的存续，他操纵战争与血脉传承，只为达成自己的野心。" 
+
+REFERENCE 			ARCANN
+LANG_ENGLISH 		"The son of Emperor Valkorion, Arcann was a powerful Force-wielder who ruled the Eternal Empire through conquest. Consumed by anger and betrayal, his reign brought devastation to the galaxy."
+LANG_CHINESE        "瓦尔科里翁皇帝之子，阿卡恩是一位实力强劲的原力使用者，他以征服手段统治着永恒帝国。满腔怒火与背叛之恨裹挟着他，其统治令银河陷入一片浩劫。" 
+
+REFERENCE 			THEXAN
+LANG_ENGLISH 		"Twin brother to Arcann, Thexan was a noble and disciplined warrior of Zakuul. His death at Valkorion's command deeply shaped Arcann's descent into darkness."
+LANG_CHINESE        "阿卡恩的孪生弟弟，塞克桑是扎库尔一名秉性高尚、严于律己的战士。他奉瓦尔科里翁之命殒命，这件事深刻地促成了阿卡恩的堕入黑暗。" 
+
+REFERENCE 			SITH_KOTOR
+LANG_ENGLISH 		"Sith of the Old Republic era waged war against the Jedi and the Republic through conquest and deception. Their conflicts defined the galaxy during the Jedi Civil War and beyond."
+LANG_CHINESE        "旧共和国时代的西斯，以征服与欺诈为手段向绝地及共和国开战。他们挑起的战火，不仅左右了绝地内战时期的银河格局，其影响更延续至此后的漫长岁月。" 
+
+REFERENCE 			JORAK_ULN
+LANG_ENGLISH 		"An ancient Jedi Master driven mad by forbidden knowledge, Jorak Uln resided among the ruins of Korriban. Obsessed with Sith secrets, he tested Force-sensitives and served as a grim warning of the dangers of unchecked curiosity."
+LANG_CHINESE        "一位因禁忌知识而陷入疯狂的远古绝地大师，乔拉克.乌尔恩隐居于科里班的废墟之中。他痴迷于西斯的秘密，不断试炼原力敏感者，俨然成为一则严苛的警示 —— 昭示着不受节制的求知欲所潜藏的巨大危险。" 
+
+REFERENCE 			SAUL_KARATH
+LANG_ENGLISH 		"A former Republic admiral, Saul Karath defected to the Sith and became one of Darth Malak's chief commanders. His betrayal and strategic brilliance made him a deadly adversary during the Jedi Civil War."
+LANG_CHINESE        "曾为共和国海军上将的索尔.卡拉思，叛投西斯后成为达斯.马拉克麾下的核心指挥官之一。他的背信弃义与卓越的战略才能，使其在绝地内战期间成为一名令人生畏的劲敌。" 
+
+REFERENCE 			SITH_OFFICER
+LANG_ENGLISH 		"An authority figure within the Sith military, Sith Officers commanded fleets and garrisons under Malak's rule. Ruthless and ambitious, they enforced Sith dominance through fear and discipline."
+LANG_CHINESE        "西斯军官是西斯军中的掌权者，在马拉克治下统领舰队与驻防部队。他们冷酷无情、野心勃勃，以恐惧与铁腕纪律维系西斯的统治霸权。" 
+
+REFERENCE 			UTHAR_WYNN
+LANG_ENGLISH 		"A Sith Lord and overseer of the Korriban Academy, Uthar Wynn trained apprentices in the brutal ways of the Sith. His teachings emphasized ambition and betrayal, reflecting Sith philosophy in its purest form."
+LANG_CHINESE        "西斯尊主，亦是科里班学院的督学，乌萨.温以西斯的残酷之道训练学徒。他的教义极度推崇野心与背叛，堪称西斯理念最纯粹的体现。" 
+
+REFERENCE 			YUTHURA_BAN
+LANG_ENGLISH 		"A former slave who rose through the Sith ranks, Yuthura Ban became a prominent student at the Korriban Academy. Her ambition and inner conflict made her a pivotal figure whose fate could turn toward redemption or darkness."
+LANG_CHINESE        "曾为奴隶却在西斯阶层中步步晋升，尤苏拉.班成了科里班学院中一名出类拔萃的学徒。她心怀野望却又深陷内心矛盾，这让她成为一名关键人物，其命运既可走向救赎，亦可能堕入黑暗。" 
+
+REFERENCE 			IMPERIAL_TROOPER_KOTOR
+LANG_ENGLISH 		"Imperial Troopers were the infantry units of the reconstituted Sith Empire's army. They served as the primary ground forces in Imperial campaigns of conquest, defending Sith holdings during the Great Galactic War and the Cold War."
+LANG_CHINESE        "帝国士兵是重组西斯帝国陆军的步兵单位。他们是帝国征服战役中的主力地面部队，在银河大战与冷战期间负责守卫西斯的占领疆域。" 
+
+//----------------------------------------------------------
+// 	h3: REPUBLIC
+//----------------------------------------------------------
+
+REFERENCE           AAYLA_SECURA
+LANG_ENGLISH        "A Twi'lek Jedi Knight from Ryloth, Aayla Secura was known for her agility, lightsaber mastery, and calm presence in battle. She fought with distinction during the Clone Wars as a General of the Republic, serving on the front lines until her death during the execution of Order 66."
+LANG_CHINESE        "来自赖洛思的提列克族绝地武士，艾拉·塞库拉素以身手敏捷、精通光剑格斗，以及在战场上的沉着冷静闻名。克隆人战争期间，她作为共和国将军立下赫赫战功，始终奋战在前线，直至 66 号指令执行时殒命。" 
+
+REFERENCE           ADI_GALLIA
+LANG_ENGLISH        "A respected Jedi Master and member of the High Council, Adi Gallia was known for her diplomatic skill and combat prowess. She served as a General during the Clone Wars and frequently undertook covert missions. Gallia met her end at the hands of Darth Maul, defending the Republic with unwavering resolve."
+LANG_CHINESE        "一位德高望重的绝地大师，同时也是绝地高级委员会成员，阿迪·加利亚素以出色的外交手腕与强悍的战斗实力闻名。克隆人战争期间，她担任共和国将军一职，还经常执行秘密任务。加利亚怀着坚定不移的决心捍卫共和国，最终殒命于达斯·摩尔之手。" 
+
+REFERENCE           AGEN_KOLAR
+LANG_ENGLISH        "A skilled Zabrak Jedi Master, Agen Kolar served on the Jedi High Council during the final years of the Republic. Known for his lightsaber mastery and courage, he was one of the Jedi who confronted Chancellor Palpatine, only to be swiftly struck down by Darth Sidious."
+LANG_CHINESE        "一名技艺精湛的扎布拉克族绝地大师，阿金·科拉在共和国末年任职于绝地高级委员会。他素以精通光剑格斗与过人勇气闻名，是前去对峙帕尔帕廷议长的绝地武士之一，最终却被达斯·西迪厄斯迅速斩杀。" 
+
+REFERENCE           AHSOKA_TANO
+LANG_ENGLISH        "Discovered by Plo Koon and trained by Anakin Skywalker, Ahsoka Tano was a Togruta Padawan who fought bravely in the Clone Wars. Disillusioned with the Jedi Order, she walked away from it and later became a key figure in the early Rebellion, surviving Order 66 and confronting both Darth Vader and the Empire."
+LANG_CHINESE        "被普罗·孔发掘、由阿纳金·天行者授业的阿索卡·塔诺，是一位在克隆人战争中英勇作战的托格鲁塔族学徒。她因对绝地武士团彻底幻灭而选择离开，之后成为早期义军的关键人物 —— 不仅在 66 号指令的清洗中幸存，更直面过达斯·维达与银河帝国的威胁。" 
+
+REFERENCE           ANAKIN_SKYWALKER
+LANG_ENGLISH        "Discovered by Qui-Gon Jinn on Tatooine, Anakin was prophesied to bring balance to the Force. As a Jedi General, he fought valiantly in the Clone Wars, but manipulation by Darth Sidious led him to destroy the Jedi and become the Sith Lord, Darth Vader."
+LANG_CHINESE        "在塔图因被奎-冈·金发掘的阿纳金，身负为原力带来平衡的预言。身为绝地将军的他在克隆人战争中英勇作战，却因遭达斯·西迪厄斯操纵，最终覆灭绝地武士团，堕落为西斯尊主达斯·维达。" 
+
+REFERENCE           BARRISS_OFFEE
+LANG_ENGLISH        "Trained under Luminara Unduli, Barriss Offee was a Mirialan Jedi who served as a healer and fighter during the Clone Wars. Disillusioned by the Jedi Order's role in the war, she orchestrated a bombing of the Jedi Temple and was ultimately captured and imprisoned for treason."
+LANG_CHINESE        "在卢米娜拉·昂杜利门下受训的巴丽丝·奥菲，是一名米里亚拉人绝地。克隆人战争期间，她兼具医者与战士的双重身份。因对绝地武士团在战争中扮演的角色彻底幻灭，她策划了绝地圣殿爆炸案，最终因叛国罪被捕入狱。" 
+
+REFERENCE           BOLLA_ROPAL
+LANG_ENGLISH        "A Rodian Jedi Master, Bolla Ropal was the keeper of the Kyber memory crystal, which contained the identities of Force-sensitive children across the galaxy. He was captured and tortured by Cad Bane during the Clone Wars and died rather than betray the secrets of the Jedi."
+LANG_CHINESE        "一名罗迪亚人绝地大师，博拉·罗帕尔是凯伯记忆水晶的守护者，这块水晶中记录着全银河原力敏感者幼童的身份信息。克隆人战争期间，他被凯德·贝恩俘获并遭受酷刑，最终宁死也未泄露绝地的秘密。" 
+
+REFERENCE           BOSS
+LANG_ENGLISH        "Designated RC-1138, 'Boss' was the leader of Delta Squad, an elite unit of clone commandos. Calm under pressure and a natural leader, Boss led his team through some of the most dangerous missions of the Clone Wars, demonstrating tactical brilliance and unshakable loyalty."
+LANG_CHINESE        "编号RC-1138的 “老大”，是精锐克隆突击队德尔塔小队的队长。他临危不乱，是天生的领袖，带领小队执行了克隆人战争期间数项最凶险的任务，尽显卓越战术素养与坚定不移的忠诚。" 
+
+REFERENCE           BULTAR_SWAN
+LANG_ENGLISH        "A human Jedi Knight known for her discipline and devotion, Bultar Swan survived many battles during the Clone Wars. Trained by Plo Koon, she was one of the few survivors of Order 66 and later joined a group of Jedi seeking justice, only to be slain by Darth Vader."
+LANG_CHINESE        "一名以严于律己、信念坚定著称的人类绝地武士，布尔塔·斯旺在克隆人战争的诸多战役中死里逃生。她师从普罗·孔，是 66 号指令的少数幸存者之一，此后加入了一支绝地正义小队，最终却殒命于达斯·维达之手。" 
+
+REFERENCE           CAPTAIN_REX
+LANG_ENGLISH        "Known by his designation CT-7567, Captain Rex served under Anakin Skywalker and Ahsoka Tano during the Clone Wars. A loyal and skilled leader, he resisted the effects of Order 66 thanks to the removal of his inhibitor chip and later fought against the Empire alongside the early Rebellion."
+LANG_CHINESE        "编号CT-7567的雷克斯上尉，在克隆人战争期间效力于阿纳金·天行者与阿索卡·塔诺麾下。他既是忠诚可靠的优秀指挥官，又因摘除了抑制芯片而抵御住 66 号指令的影响，此后便加入早期义军阵营，并肩对抗银河帝国。" 
+
+REFERENCE           CIN_DRALLIG
+LANG_ENGLISH        "The head of lightsaber combat training at the Jedi Temple, Cin Drallig was a legendary swordmaster. He trained countless Jedi in the art of defense and dueling, and was among the last defenders of the Temple during Anakin Skywalker's brutal attack."
+LANG_CHINESE        "绝地圣殿光剑格斗训练总教习，辛·德拉利格是一位传奇剑术大师。他曾传授无数绝地防身与决斗之术，在阿纳金·天行者发动残酷袭击时，更是圣殿最后的守护者之一。" 
+
+REFERENCE           CLONE_TROOPER
+LANG_ENGLISH        "Engineered from the DNA of Jango Fett, clone troopers were created to serve the Galactic Republic in the Clone Wars. Trained from birth to fight, they formed the backbone of the Republic's military and were ultimately used to carry out Order 66 against the Jedi."
+LANG_CHINESE        "以詹戈·费特的基因培育而成的克隆人士兵，被造来在克隆人战争中效命于银河共和国。他们自出生起便接受战斗训练，构成了共和国军队的中坚力量，最终却被用来执行针对绝地的 66 号指令。" 
+
+REFERENCE           COLEMAN_TREBOR
+LANG_ENGLISH        "A Vurk Jedi Master and member of the High Council, Coleman Trebor was known for his wisdom and calm demeanor. He attempted to confront Count Dooku during the Battle of Geonosis but was quickly killed by Jango Fett while trying to protect the Jedi."
+LANG_CHINESE        "一名沃尔克族绝地大师，同时也是绝地高级委员会成员，科尔曼·特雷博素以睿智沉稳的风范闻名。吉奥诺西斯战役期间，他试图对峙杜库伯爵，却在挺身保护绝地的过程中被詹戈·费特迅速击杀。" 
+
+REFERENCE           COMMANDER_CODY
+LANG_ENGLISH        "Designated CC-2224, Commander Cody was a senior clone officer who served under Obi-Wan Kenobi during the Clone Wars. Known for his discipline and tactical reliability, he carried out Order 66 without hesitation, remaining loyal to the Republic as it became the Empire."
+LANG_CHINESE        "编号CC-2224的科迪指挥官，是克隆人战争期间效力于欧比-旺·克诺比麾下的资深克隆军官。他素以军纪严明、战术可靠著称，在 66 号指令下达时毫不犹豫地执行了命令，即便共和国蜕变为帝国，也始终对其保持忠诚。" 
+
+REFERENCE           COMMANDER_FOX
+LANG_ENGLISH        "CC-1010, known as Commander Fox, led the Coruscant Guard tasked with protecting the capital and enforcing security on Coruscant. Zealous in carrying out his orders, Fox was responsible for several arrests during the Clone Wars, including that of Ahsoka Tano. He was later killed by Darth Vader."
+LANG_CHINESE        "编号CC-1010的福克斯指挥官，执掌负责保卫首都、维护科洛桑治安的科洛桑卫队。他执行命令极为狂热，克隆人战争期间经手过数起逮捕行动，其中就包括逮捕阿索卡·塔诺。他最终殒命于达斯·维达之手。" 
+
+REFERENCE           COMMANDER_NEYO
+LANG_ENGLISH        "Commander Neyo, designated CC-8826, was a clone officer known for his quiet demeanor and efficiency. He led the 91st Reconnaissance Corps and executed Jedi Master Stass Allie during Order 66 without hesitation, embodying the cold obedience of the clones in the Empire's rise."
+LANG_CHINESE        "编号CC-8826的内约指挥官，是一名以沉默寡言、高效干练著称的克隆军官。他率领第九十一侦察军团，在 66 号指令下达时毫不犹豫地处决了绝地大师斯塔丝·艾列，是克隆人在帝国崛起过程中冷酷服从性的典型写照。" 
+
+REFERENCE           COMMANDER_VAUGHN
+LANG_ENGLISH        "Commander Vaughn served under Ahsoka Tano in the 332nd Company during the Siege of Mandalore. Loyal and competent, he fought with distinction during the final days of the Clone Wars and was killed during the execution of Order 66 while trying to locate Ahsoka."
+LANG_CHINESE        "沃恩指挥官在曼达洛围攻战期间，于第三百三十二连队效力于阿索卡·塔诺麾下。他忠诚可靠、能力出众，在克隆人战争的末期战役中战功卓著，最终在执行 66 号指令期间，因搜寻阿索卡而殒命。" 
+
+REFERENCE           DEPA_BILLABA
+LANG_ENGLISH        "A former Padawan of Mace Windu, Depa Billaba became a Jedi Master and served on the High Council. She fought in the Clone Wars and mentored Caleb Dume, who would later become Kanan Jarrus. She gave her life during Order 66 to ensure her Padawan's escape."
+LANG_CHINESE        "曾是梅斯·温杜学徒的德帕·比拉巴，后来晋升为绝地大师并进入绝地高级委员会。她投身克隆人战争，还收凯勒布·杜梅为徒————这名学徒日后以卡南·贾勒斯的身份闻名。66 号指令执行期间，她为掩护自己的学徒逃脱而牺牲。" 
+
+REFERENCE           EEKAR_OKI
+LANG_ENGLISH        "A Nautolan Jedi Knight, Eekar Oki served during the Clone Wars and fought in several key battles. Little is known about his ultimate fate, but he stood among the many Jedi who defended the Republic until the rise of the Empire."
+LANG_CHINESE        "一名诺托兰人绝地武士，伊卡尔·奥基在克隆人战争期间服役，参与过数场关键战役。关于他最终的命运，目前尚无太多记载，但他无疑是众多在帝国崛起前为保卫共和国而战的绝地之一。" 
+
+REFERENCE           EETH_KOTH
+LANG_ENGLISH        "A Zabrak Jedi Master and member of the Jedi High Council, Eeth Koth survived many battles during the Clone Wars. After being presumed dead, he left the Order and started a new life, only to be tracked down and killed by Darth Vader during the Jedi Purge."
+LANG_CHINESE        "一名扎布拉克族绝地大师，同时也是绝地高级委员会成员，伊斯·寇斯在克隆人战争的诸多战役中死里逃生。他曾被认定阵亡，之后便脱离绝地武士团开始了全新生活，却在绝地大清洗期间被达斯·维达寻获并杀害。" 
+
+REFERENCE           EVEN_PIELL
+LANG_ENGLISH        "A Lannik Jedi Master with a fierce temperament, Even Piell served on the Jedi Council and was known for his bravery. He played a critical role in the Citadel mission during the Clone Wars, sacrificing his life to protect vital Republic intelligence from falling into enemy hands."
+LANG_CHINESE        "一名性情刚烈的兰尼克人绝地大师，埃文·皮尔不仅任职于绝地委员会，更以勇武之名著称。克隆人战争期间，他在堡垒任务中扮演了关键角色，为防止共和国的核心情报落入敌手，最终壮烈牺牲。" 
+
+REFERENCE           FI_EK_SIRCH
+LANG_ENGLISH        "A Nikto Jedi Knight, Fi-Ek Sirch was skilled with the lightsaber and served during the Clone Wars. He participated in the Battle of Geonosis and stood with the Jedi until his death during the Purge."
+LANG_CHINESE        "一名尼克托人绝地武士，菲·埃克·瑟奇精通光剑格斗之术，于克隆人战争期间服役。他参与了吉奥诺西斯战役，始终与绝地武士团并肩作战，最终在绝地大清洗中殒命。" 
+
+REFERENCE           FIVES
+LANG_ENGLISH        "Designated CT-5555, 'Fives' was an ARC Trooper known for his courage and determination to uncover the truth behind the inhibitor chips implanted in clones. His relentless pursuit of the conspiracy led to his tragic death, but his actions planted the seeds of doubt that would later save others."
+LANG_CHINESE        "编号CT-5555的 “五号”，是一名以勇气过人、执意揭露克隆人体内抑制芯片真相而闻名的高级侦察突击士兵。他对这一阴谋的执着追查最终酿成了自己的悲剧性死亡，但他的行动埋下了怀疑的种子，而这颗种子日后拯救了许多人。" 
+
+REFERENCE           FIXER
+LANG_ENGLISH        "RC-1140, known as 'Fixer', was the technical expert of Delta Squad. Calm, methodical, and precise, Fixer excelled at slicing systems and demolitions, playing a crucial role in many of the squad's high-risk Clone Wars missions."
+LANG_CHINESE        "编号RC-1140的 “修理师”，是德尔塔小队的技术专家。他沉着冷静、条理分明、严谨细致，擅长破解系统与爆破作业，在小队克隆人战争期间的多项高风险任务中扮演了关键角色。" 
+
+REFERENCE           FOUL_MOUDAMA
+LANG_ENGLISH        "A Talz Jedi Knight known for his towering strength and loyalty, Foul Moudama served in the Clone Wars and fought valiantly to protect Chancellor Palpatine during the Battle of Coruscant. He was ultimately slain by General Grievous in a desperate defense."
+LANG_CHINESE        "一名以魁梧的力量与忠诚著称的塔尔兹人绝地武士，福尔·穆达马在克隆人战争期间服役，于科洛桑战役中奋勇保卫帕尔帕廷议长。最终，他在一场殊死抵抗中被格里弗斯将军斩杀。" 
+
+REFERENCE           GREGOR
+LANG_ENGLISH        "Clone Commando CC-5576-39, or 'Gregor', was presumed dead after a crash on Sarrish but later resurfaced with memory loss. Regaining his identity, he returned to the fight against the Empire and eventually joined the Rebellion alongside Rex and Wolffe."
+LANG_CHINESE        "克隆突击队士兵CC-5576-39，代号 “格雷戈尔”，在萨里什星球的一场坠机事故后被认定阵亡，却在多年后带着失忆症再度现身。他重拾身份后，重返对抗帝国的战场，最终与雷克斯、沃尔夫并肩加入了义军同盟。" 
+
+REFERENCE           GUNGAN_WARRIOR
+LANG_ENGLISH        "Proud and loyal defenders of Naboo, Gungan warriors fought with traditional energy shields and electropoles. Their bravery during the Battle of Naboo helped repel the Trade Federation, earning them newfound respect among their allies."
+LANG_CHINESE        "冈根战士是纳布星球引以为傲的忠诚守护者，他们惯用传统的能量护盾与电杖作战。在纳布战役中，冈根战士凭借英勇作战击退了贸易联盟，也因此在盟友间赢得了全新的尊重。" 
+
+REFERENCE           HALSEY
+LANG_ENGLISH        "A human Jedi Knight, Halsey served during the Clone Wars and was known for his devotion to the Jedi Code. He was killed alongside his Padawan Knox during an ambush by Savage Opress on Devaron, a brutal reminder of the growing threat of the dark side."
+LANG_CHINESE        "一名恪守绝地信条的人类绝地武士，哈尔西于克隆人战争期间服役。他与自己的学徒诺克斯在德瓦隆星球遭到萨瓦奇·奥普雷斯的伏击，双双殒命 —— 这场惨剧也成为黑暗面威胁日益加剧的残酷佐证。" 
+
+REFERENCE           IMA_GUN_DI
+LANG_ENGLISH        "A Kajain'sa'Nikto Jedi Master, Ima-Gun Di fought bravely during the Clone Wars. He made a heroic last stand on Ryloth to protect Twi'lek refugees, sacrificing his life so they could escape, exemplifying the Jedi ideal of selfless service."
+LANG_CHINESE        "一名卡贾因萨尼克托人绝地大师，伊玛·冈·迪在克隆人战争期间英勇作战。他在赖洛思星球为保护提列克难民，打响了一场壮烈的最后一战，以牺牲自己的生命换来了难民的逃脱，是绝地无私奉献信条的绝佳典范。" 
+
+REFERENCE           J_OOPI_SHE
+LANG_ENGLISH        "An eccentric and ancient Jedi Master, J'oopi She was known more for his wisdom and humor than combat skills. Despite his age and eccentricity, he remained loyal to the Jedi Code, though his fate following the Clone Wars remains uncertain."
+LANG_CHINESE        "一位性情古怪的上古绝地大师，乔皮·希的智慧与风趣远比他的战斗技巧更为人熟知。尽管年事已高、行为乖张，他始终恪守绝地信条，但在克隆人战争结束后的最终命运，至今仍是谜团。" 
+
+REFERENCE           JAR_JAR_BINKS
+LANG_ENGLISH        "A clumsy but well-meaning Gungan from Naboo, Jar Jar Binks played an unexpected role in galactic events. His actions in the Senate helped grant emergency powers to Chancellor Palpatine, unknowingly aiding in the rise of the Empire."
+LANG_CHINESE        "一名出身纳布、笨手笨脚却心地善良的冈根人，加·加·宾克斯在银河重大事件中扮演了出人意料的角色。他在议会中的举措促成帕尔帕廷议长获得紧急权力，却也在无意间为帝国的崛起铺平了道路。" 
+
+REFERENCE           JEDI_MASTER
+LANG_ENGLISH        "Jedi Masters were seasoned Force users recognized for their wisdom, leadership, and mastery of the Jedi arts. Often serving on the High Council or as battlefield generals, they upheld the Jedi Code and mentored younger generations of Jedi."
+LANG_CHINESE        "绝地大师是经验丰富的原力使用者，他们凭借智慧、领导力与绝地武学造诣获得认可。这些大师常任职于绝地高级委员会，或在战场担任将军，既恪守绝地信条，也肩负着指导新一代绝地武士的使命。" 
+
+REFERENCE           JEDI_VETERAN
+LANG_ENGLISH        "Hardened by years of conflict, Jedi Veterans were experienced warriors who had survived countless battles during the Clone Wars. Their combat skills and strategic knowledge made them invaluable leaders and defenders of the Republic."
+LANG_CHINESE        "经连年战火磨砺的绝地老兵，是在克隆人战争无数战役中幸存的经验丰富的战士。他们精湛的战斗技巧与深厚的战略素养，使其成为共和国不可或缺的领袖与守护者。" 
+
+REFERENCE           JEDI_KNIGHT
+LANG_ENGLISH        "Jedi Knights were fully trained members of the Jedi Order, often tasked with peacekeeping missions and battlefield leadership. Having passed the Trials, they served as guardians of the Republic and protectors of the innocent across the galaxy."
+LANG_CHINESE        "绝地武士是完成全部训练的绝地武士团成员，常被委以维和任务与战场指挥职责。他们通过各项试炼后，便以银河共和国的守护者与全银河无辜者的庇护者身份践行使命。" 
+
+REFERENCE           JEDI_PADAWAN
+LANG_ENGLISH        "Padawans were Jedi apprentices undergoing one-on-one training under a Jedi Knight or Master. Carrying training braids and bound by the Jedi Code, they aspired to earn the rank of Knight through courage, discipline, and mastery of the Force."
+LANG_CHINESE        "绝地学徒是在绝地武士或大师门下接受一对一指导的学员。他们留着代表身份的训练辫，恪守绝地信条，立志凭借勇气、自律与原力造诣，晋升为绝地武士。" 
+
+REFERENCE           JEDI_BRUTE
+LANG_ENGLISH        "Jedi Brutes were powerful Force-wielders who relied more on raw strength and aggression than finesse. Though rare within the Order, these warriors were often deployed in the thick of battle, using their might to turn the tide in desperate situations."
+LANG_CHINESE        "绝地悍勇战士是实力强劲的原力使用者，他们更倚重纯粹的力量与进攻性，而非技巧精妙的战法。这类战士在绝地武士团中十分罕见，但常被派往战场最激烈的前线，凭借自身强悍的战力，在绝境中扭转战局。" 
+
+REFERENCE           JEDI_TEMPLE_GUARD
+LANG_ENGLISH        "Anonymous and stoic, Jedi Temple Guards were elite Jedi Knights sworn to defend the Jedi Temple on Coruscant. Clad in ceremonial robes and wielding double-bladed yellow lightsabers, they upheld peace and order within the temple, embodying absolute dedication to the Jedi Order."
+LANG_CHINESE        "绝地圣殿守卫是一群身份隐秘、神情冷峻的精英绝地武士，他们宣誓誓死保卫位于科洛桑的绝地圣殿。这些守卫身着典礼长袍，手持黄色双刃光剑，维护圣殿内部的和平与秩序，是对绝地武士团绝对忠诚的化身。" 
+
+REFERENCE           JOCASTA_NU
+LANG_ENGLISH        "The chief librarian of the Jedi Archives, Jocasta Nu was a guardian of knowledge and history within the Jedi Temple. After surviving the initial Jedi Purge, she attempted to preserve the Jedi legacy but was ultimately tracked down and killed by Darth Vader."
+LANG_CHINESE        "乔卡丝塔·纽是绝地档案馆的馆长，也是绝地圣殿内知识与历史的守护者。她在绝地大清洗初期死里逃生后，仍试图守护绝地的传承，最终却被达斯·维达寻获并杀害。" 
+
+REFERENCE           KELLERAN_BEQ
+LANG_ENGLISH        "Known as the 'Sabered Hand', Jedi Master Kelleran Beq was a highly skilled duelist and protector of younglings. He played a crucial role in rescuing Grogu from the Jedi Temple during Order 66, ensuring the child's survival amidst chaos."
+LANG_CHINESE        "被称为 “持剑之手”的绝地大师凯勒兰·贝克，是一名技艺精湛的决斗者，同时也是幼徒的守护者。在66 号指令执行期间，他在绝地圣殿营救了古古，于一片混乱之中确保了这名幼徒的生还。" 
+
+REFERENCE           KI_ADI_MUNDI
+LANG_ENGLISH        "A Cerean Jedi Master and member of the High Council, Ki-Adi Mundi was a prominent figure in the Clone Wars, known for his intellect and military leadership. He led troops on Mygeeto, where he was betrayed and killed during the execution of Order 66."
+LANG_CHINESE        "基·阿迪·芒迪是一名塞瑞安人绝地大师，同时也是绝地最高委员会成员。他是克隆人战争中的知名人物，以过人的智慧和出色的军事领导力著称。他曾在麦基托星球率领部队作战，却在 66 号指令执行期间遭到背叛，不幸殒命。" 
+
+REFERENCE           KIT_FISTO
+LANG_ENGLISH        "A Nautolan Jedi Master from Glee Anselm, Kit Fisto was known for his friendly nature and skill in underwater combat. A veteran of many battles in the Clone Wars, he fell in battle alongside fellow Jedi while attempting to arrest Darth Sidious."
+LANG_CHINESE        "基特·菲斯托是一名来自格里·安塞尔姆的诺托兰人绝地大师，他性情友善，擅长水下作战。作为克隆人战争中身经百战的老兵，他在与其他绝地一同尝试逮捕达斯·西迪厄斯的行动中阵亡。" 
+
+REFERENCE           KNOX
+LANG_ENGLISH        "Padawan to Jedi Knight Halsey, Knox was a young human Jedi in training during the Clone Wars. He was killed alongside his master during a surprise attack by Savage Opress on Devaron, a tragic end for a promising learner."
+LANG_CHINESE        "诺克斯是绝地武士哈尔西的学徒，克隆人战争期间，他还是一名正在受训的年轻人类绝地。在德瓦隆星球，萨维奇·奥普雷斯发动突然袭击，诺克斯与师父一同殒命，这位前途无量的学徒就此迎来了悲惨的结局。" 
+
+REFERENCE           KOFFI_ARANA
+LANG_ENGLISH        "Once a respected Jedi Knight, Koffi Arana became disillusioned with the Jedi Council and went rogue during the Clone Wars. Taking justice into his own hands, he attempted to assassinate Darth Vader but was ultimately defeated and killed in the confrontation."
+LANG_CHINESE        "科菲·阿拉纳曾是一名受人尊敬的绝地武士，克隆人战争期间，他对绝地委员会彻底幻灭，选择叛离组织。他决意自行裁决正义，试图刺杀达斯·维达，最终却在这场对决中落败身亡。" 
+
+REFERENCE           LUMINARA_UNDULI
+LANG_ENGLISH        "A calm and disciplined Jedi Master from Mirial, Luminara Unduli served as a General during the Clone Wars and was a mentor to Barriss Offee. She was ultimately captured and executed by the Empire, her image later used in a cruel trap to lure surviving Jedi."
+LANG_CHINESE        "卢米娜拉·昂杜利是一名来自米里亚尔星球的绝地大师，性格沉稳、律己严明。克隆人战争期间，她担任绝地将军一职，同时也是巴丽丝·奥菲的导师。她最终被银河帝国俘虏并处决，其形象后来还被用于一个残忍的陷阱，用以诱捕幸存的绝地武士。" 
+
+REFERENCE           MA_KIS_SHAALAS
+LANG_ENGLISH        "A muscular Nikto Jedi Master, Ma'kis'shaalas was renowned for his raw strength and bravery in battle. He fought in the Battle of Geonosis and was a loyal defender of the Jedi Order, eventually perishing during the Clone Wars."
+LANG_CHINESE        "马基斯·沙拉拉斯是一名身材魁梧的尼克托人绝地大师，他凭借与生俱来的蛮力和战场上的无畏勇气而声名远扬。他参与了吉奥诺西斯战役，是绝地武士团的忠实捍卫者，最终在克隆人战争期间殒命。" 
+
+REFERENCE           MACE_WINDU
+LANG_ENGLISH        "A revered Jedi Master and champion of the Order, Mace Windu was known for his mastery of Form VII lightsaber combat and his unwavering sense of justice. He led many missions during the Clone Wars and nearly defeated Darth Sidious before being betrayed by Anakin Skywalker."
+LANG_CHINESE        "梅斯·温杜是一位德高望重的绝地大师，同时也是绝地武士团的中流砥柱。他精通第七型光剑剑法，秉持着坚定不移的正义感。克隆人战争期间，他率领队伍执行过无数次任务，曾在对决中险些击败达斯·西迪厄斯，却最终遭到阿纳金·天行者的背叛。" 
+
+REFERENCE           MICAH_GIIETT
+LANG_ENGLISH        "A wise and level-headed Jedi Master, Micah Giiett was a member of the Jedi Council known for his strategic thinking and sense of humor. He gave his life during a mission to Nar Shaddaa, sacrificing himself so his team could escape."
+LANG_CHINESE        "迈卡·吉耶特是一位睿智沉稳的绝地大师，身为绝地委员会成员，他以出色的战略思维和风趣的性格著称。在一次前往纳尔沙达的任务中，他为掩护队友撤离而牺牲。" 
+
+REFERENCE           NAHDAR_VEBB
+LANG_ENGLISH        "A Mon Calamari Jedi Knight and former Padawan of Kit Fisto, Nahdar Vebb was courageous but impulsive. Recently knighted during the Clone Wars, he was killed by General Grievous while letting emotion cloud his judgment, revealing the dangers of straying from Jedi discipline."
+LANG_CHINESE        "纳达尔·韦布是一名蒙卡拉马里人绝地武士，曾是基特·菲斯托的学徒。他勇气可嘉，却性格冲动。克隆人战争期间，他刚晋升为绝地武士不久，便因情绪干扰了判断力，在与格里弗斯将军的对决中殒命，这也印证了背离绝地戒律的巨大危险。" 
+
+REFERENCE           OBI_WAN_KENOBI
+LANG_ENGLISH        "A noble Jedi Master and skilled negotiator, Obi-Wan Kenobi served as a General in the Clone Wars and trained Anakin Skywalker. After surviving the Jedi Purge, he watched over Luke from exile on Tatooine under the name 'Ben', eventually guiding him toward the path of a Jedi."
+LANG_CHINESE        "欧比·旺·克诺比是一位品格高尚的绝地大师，同时也是一名老练的谈判者。克隆人战争期间，他担任绝地将军，还曾担任阿纳金·天行者的导师。在绝地大清洗中幸存后，他化名 “本”，在塔图因星球隐姓埋名，暗中守护卢克，最终指引他踏上了绝地武士之路。" 
+
+REFERENCE           OPPO_RANCISIS
+LANG_ENGLISH        "A wise and strategic Thisspiasian Jedi Master, Oppo Rancisis was a long-serving member of the Jedi High Council. Renowned for his battlefield tactics and mastery of Malacia, he played a key leadership role in the Clone Wars before being slain during the Jedi Purge."
+LANG_CHINESE        "奥波·兰齐西斯是一位睿智且极具谋略的西斯皮亚斯人绝地大师，同时也是任职多年的绝地最高委员会成员。他凭借出色的战场战术造诣，以及对马拉西亚剑法的精湛掌握而声名远扬，在克隆人战争中扮演了关键的领导角色，最终于绝地大清洗期间殒命。" 
+
+REFERENCE           PABLO_JILL
+LANG_ENGLISH        "An Ongree Jedi Knight from the Outer Rim, Pablo-Jill was known for his agility and lightsaber prowess. He represented the Jedi Order in various diplomatic missions and fought in the Battle of Geonosis, later perishing during the Clone Wars."
+LANG_CHINESE        "帕布罗·吉尔是一名来自外环星域的翁格里人绝地武士，以敏捷的身手和精湛的光剑技艺闻名。他代表绝地武士团执行过诸多外交任务，还参与了吉奥诺西斯战役，最终在克隆人战争期间殒命。" 
+
+REFERENCE           PADME_AMIDALA
+LANG_ENGLISH        "Queen turned Senator of Naboo, Padmé Amidala was a fierce advocate for diplomacy and democracy. Secretly married to Anakin Skywalker, she worked to preserve peace during the Clone Wars and died heartbroken after his fall, giving birth to Luke and Leia Skywalker."
+LANG_CHINESE        "帕德梅·阿米达拉曾是纳布女王，后转任纳布星议员，她是外交与民主的坚定拥护者。她与阿纳金·天行者秘密成婚，在克隆人战争期间竭力维护和平。最终，她因目睹阿纳金堕落而心碎离世，临终前诞下了卢克与莱娅 天行者兄妹。" 
+
+REFERENCE           PLO_KOON
+LANG_ENGLISH        "A Kel Dor Jedi Master from Dorin, Plo Koon was a wise and respected member of the Jedi High Council. Known for discovering Ahsoka Tano and his strong sense of justice, he served as a General in the Clone Wars until he was killed in his starfighter during Order 66."
+LANG_CHINESE        "普罗·孔是一名来自多林星球的凯尔·多尔人绝地大师，同时也是德高望重的绝地最高委员会成员。他因发掘出阿索卡·塔诺，以及秉持着强烈的正义感而为人熟知。克隆人战争期间，他担任绝地将军，最终在 66 号指令执行过程中，于自己的星际战斗机内殒命。" 
+
+REFERENCE           PONG_KRELL
+LANG_ENGLISH        "A Besalisk Jedi General, Pong Krell was known for his brutal tactics and disdain for clones. During the Umbara campaign, he betrayed the Republic, seeking power with the Sith. His treason was uncovered by his own troops, who executed him for his crimes."
+LANG_CHINESE        "庞·克雷尔是一名贝萨利斯克人绝地将军，他以残酷的战术和对克隆人的鄙夷而臭名昭著。在昂巴拉战役期间，他背叛了银河共和国，转而投靠西斯以谋求权力。他的叛国行径最终被麾下的克隆士兵揭发，并被依法处决。" 
+
+REFERENCE           QUE_MARS_REDATH_GOM
+LANG_ENGLISH        "A hulking Weequay Jedi Knight, Que-Mars Redath-Gom was a quiet yet imposing presence among the Jedi ranks. He fought in the Battle of Geonosis and served during the Clone Wars, ultimately falling during the dark times that followed."
+LANG_CHINESE        "奎·马斯·雷达思·戈姆是一名身形魁梧的威奎人绝地武士，在绝地队伍中，他沉默寡言，却自带令人敬畏的气场。他参与了吉奥诺西斯战役，在克隆人战争期间效力，最终在紧随其后的黑暗时代殒命。" 
+
+REFERENCE           QUI_GON_JINN
+LANG_ENGLISH        "A maverick Jedi Master, Qui-Gon Jinn often followed the will of the Force over the directives of the Jedi Council. He discovered Anakin Skywalker on Tatooine, believing him to be the Chosen One, and was slain by Darth Maul on Naboo. His belief in the Living Force left a lasting legacy."
+LANG_CHINESE        "奎·冈·金是一位特立独行的绝地大师，他常常更遵从原力的意志，而非绝地委员会的指令。他在塔图因星球发现了阿纳金·天行者，并认定对方就是天选之子，最终却在纳布星球死于达斯·摩尔之手。他所秉持的生命原力理念，留下了深远的影响。" 
+
+REFERENCE           QUINLAN_VOS
+LANG_ENGLISH        "A Kiffar Jedi Master known for his undercover work and psychometric abilities, Quinlan Vos often walked the line between light and dark. He was sent to assassinate Count Dooku but fell in love with Asajj Ventress and struggled with his identity, ultimately returning to the light."
+LANG_CHINESE        "昆兰·沃斯是一名基法人绝地大师，以卧底行动能力和心灵回溯天赋闻名。他时常游走于光明与黑暗的边缘，曾被派去刺杀杜库伯爵，却与阿萨吉·文崔斯坠入爱河，并深陷身份认同的挣扎，最终他选择回归光明阵营。" 
+
+REFERENCE           REPUBLIC_COMMANDO
+LANG_ENGLISH        "Republic Commandos were elite clone soldiers trained for high-risk missions behind enemy lines. Equipped with advanced armor and specialized gear, they operated in tight squads like Delta and Omega, handling infiltration, sabotage, and frontline assault with ruthless efficiency."
+LANG_CHINESE        "银河共和国突击队是为执行敌后高风险任务而训练的精英克隆士兵。他们配备先进的装甲与特种装备，以德尔塔小队、欧米茄小队这类精干编制行动，凭借冷酷高效的作风，完成渗透、破坏与前线突击等各类任务。" 
+
+REFERENCE           SAESEE_TIIN
+LANG_ENGLISH        "A powerful telepath and pilot, Saesee Tiin was an Iktotchi Jedi Master who served on the High Council. He fought valiantly during the Clone Wars and joined the mission to arrest Darth Sidious, where he was quickly struck down by the Sith Lord."
+LANG_CHINESE        "赛西·廷是一名实力强劲的心灵感应者兼飞行员，身为伊克托奇人绝地大师的他，同时也是绝地最高委员会成员。他在克隆人战争期间作战英勇，还参与了逮捕达斯·西迪厄斯的行动，却在这场任务中被这位西斯尊主迅速击杀。" 
+
+REFERENCE           SARISSA_JENG
+LANG_ENGLISH        "A skilled Jedi Knight and martial artist, Sarissa Jeng fought in the Battle of Geonosis with a unique and aggressive fighting style. Though little is known about her missions during the Clone Wars, she stood among the many Jedi who gave their lives in service to the Republic."
+LANG_CHINESE        "萨丽萨·詹是一名技艺精湛的绝地武士兼武术家，她以独特凌厉的战斗风格参与了吉奥诺西斯战役。尽管关于她在克隆人战争期间执行的任务记载寥寥，但她仍是众多为银河共和国献身的绝地武士之一。" 
+
+REFERENCE           SATINE_KRYZE
+LANG_ENGLISH        "Duchess of Mandalore and leader of the pacifist New Mandalorians, Satine Kryze was a strong-willed idealist. She shared a complicated past and unspoken love with Obi-Wan Kenobi. Her assassination during the Clone Wars marked a tragic blow to Mandalore's future."
+LANG_CHINESE        "莎廷·克里兹是曼达洛女公爵，同时也是奉行和平主义的新曼达洛人领袖，她是一位意志坚定的理想主义者。她与欧比·旺·克诺比有着一段错综复杂的过往，二人心中深藏着未曾宣之于口的情愫。克隆人战争期间，莎廷遇刺身亡，这一悲剧也成为了曼达洛未来发展道路上的沉重一击。" 
+
+REFERENCE           SCORCH
+LANG_ENGLISH        "RC-1262, nicknamed 'Scorch', was the explosives expert of Delta Squad. Known for his humor and technical skill, he fought in some of the Clone Wars' most dangerous operations and later became entangled in Imperial programs targeting rogue clones."
+LANG_CHINESE        "RC-1262，代号 “斯科奇”，是德尔塔小队的爆破专家。他以风趣的性格和顶尖的技术能力著称，参与过克隆人战争中数场最凶险的行动，后来又被卷入帝国针对叛逃克隆兵的相关计划里。"
+ 
+
+REFERENCE           SEV
+LANG_ENGLISH        "RC-1207, or 'Sev', was Delta Squad's sniper and a fierce warrior with a grim sense of humor. During a mission on Kashyyyk, Sev was separated from his squad and declared missing in action, with his ultimate fate left unknown."
+LANG_CHINESE        "RC-1207，代号 “塞夫”，是德尔塔小队的狙击手，同时也是一名作风凶悍、带着黑色幽默感的战士。在卡西克星球的一次任务中，塞夫与小队失散，被认定为战斗失踪人员，他的最终下落自此成谜。" 
+
+REFERENCE           SHAAK_TI
+LANG_ENGLISH        "A Togruta Jedi Master from Shili, Shaak Ti was a calm and contemplative figure who played key roles in battles across the Clone Wars. She oversaw the training of clones on Kamino and met her end during the Jedi Purge, with varying accounts of her final moments."
+LANG_CHINESE        "莎克·提是一名来自希利星球的托格鲁塔人绝地大师，性格沉静内敛、善于深思。她在克隆人战争的多场战役中发挥了关键作用，曾负责监管卡米诺星球的克隆士兵训练工作，最终在绝地大清洗期间殒命，关于她临终时刻的记载则说法不一。" 
+
+REFERENCE           SHAKKRA_KIEN
+LANG_ENGLISH        "A lesser-known but skilled Jedi Knight, Shakkra Kien served during the Clone Wars. Though records of her exploits are sparse, she was among the many Jedi who fought valiantly to defend the Republic during its darkest days."
+LANG_CHINESE        "沙克拉·基恩是一位名气不大但身手精湛的绝地武士，曾于克隆人战争期间服役。尽管关于她战功的记载十分稀少，但她仍是众多在共和国最黑暗的岁月里，为捍卫国家而英勇奋战的绝地武士之一。" 
+
+REFERENCE           SORA_BULQ
+LANG_ENGLISH        "A Weequay Jedi Master and expert in lightsaber combat, Sora Bulq trained many Jedi in Form VII. Disillusioned with the Jedi Council, he fell to the dark side and aligned with Count Dooku, becoming a leader in the Separatist cause before being killed by Quinlan Vos."
+LANG_CHINESE        "索拉·布尔克是一名威奎人绝地大师，同时也是光剑格斗领域的专家，曾向众多绝地传授第七型光剑剑法。他因对绝地委员会彻底失望而堕入黑暗面，投靠了杜库伯爵，成为分离势力的核心领袖之一，最终死于昆兰·沃斯之手。" 
+
+REFERENCE           SERRA_KETO
+LANG_ENGLISH        "A promising human Jedi Knight trained under Cin Drallig, Serra Keto was known for her fierce spirit and dual lightsaber technique. She defended the Jedi Temple during Anakin Skywalker's assault but was ultimately slain in battle."
+LANG_CHINESE        "塞拉·凯托是一名极具潜力的人类绝地武士，师从辛·德拉利格，她以勇猛果敢的战斗意志和双手光剑战法闻名。在阿纳金·天行者率军猛攻绝地圣殿时，她挺身而出守卫圣殿，最终壮烈牺牲。" 
+
+REFERENCE           STASS_ALLIE
+LANG_ENGLISH        "A Tholothian Jedi Master and cousin of Adi Gallia, Stass Allie served on the Jedi Council and fought in the Clone Wars. While on a mission to Saleucami, she was killed when her clone troopers turned on her during the execution of Order 66."
+LANG_CHINESE        "斯塔丝·艾列是一名索洛西亚人绝地大师，同时也是阿迪·加利亚的表妹。她任职于绝地委员会，全程参与克隆人战争。在萨卢卡迈星球执行任务期间，66 号指令发布，麾下克隆士兵倒戈相向，斯塔丝·艾列也因此殒命。" 
+
+REFERENCE           TARADOS_GON
+LANG_ENGLISH        "A Klatooinian Jedi Master, Tarados Gon was a skilled warrior who fought in the Battle of Geonosis. Loyal and brave, he served in the early Clone Wars and died in combat, one of many Jedi lost in the conflict's opening battles."
+LANG_CHINESE        "塔拉多斯·贡是一名克拉图因人绝地大师，也是一名身手不凡的战士，曾参与吉奥诺西斯战役。他忠诚勇猛，在克隆人战争初期投身战场，最终阵亡于战事之中，成为这场战争开局阶段牺牲的众多绝地之一。" 
+
+REFERENCE           TERA_SINUBE
+LANG_ENGLISH        "An ancient Cosian Jedi Master, Tera Sinube was a patient teacher and keeper of the Jedi Archives. He guided younglings in wisdom and justice, aiding Ahsoka Tano in recovering her lightsaber. He was eventually captured and killed during the rise of the Empire."
+LANG_CHINESE        "泰拉·辛努贝是一位年迈的科西亚人绝地大师，他既是一位极具耐心的导师，也是绝地档案馆的守护者。他以智慧与正义引导绝地幼徒成长，还曾协助阿索卡·塔诺寻回光剑。在银河帝国崛起的动荡岁月里，他最终遭人俘获并被杀害。" 
+
+REFERENCE           THONGLA_JUR
+LANG_ENGLISH        "A heroic Jedi Knight of the Clone Wars, Thongla Jur fought with valor in defense of the Republic. Though little is recorded about his deeds, his legacy endures among the fallen defenders of peace during the Jedi Purge."
+LANG_CHINESE        "通拉·朱尔是一名活跃于克隆人战争时期的英勇绝地武士，他为保卫银河共和国而奋勇作战。尽管关于他事迹的记载十分有限，但他的英名仍在绝地大清洗中那些为和平献身的守护者之列流传。" 
+
+REFERENCE           TIPLAR
+LANG_ENGLISH        "A Mikkian Jedi General, Tiplar served alongside her twin sister Tiplee during the Clone Wars. She was killed suddenly by clone trooper Tup due to a malfunctioning inhibitor chip, a grim foreshadowing of the tragedy of Order 66."
+LANG_CHINESE        "蒂普拉是一名米基恩人绝地将军，在克隆人战争期间与她的双胞胎妹妹蒂普利并肩作战。她因克隆士兵图普体内的抑制芯片发生故障，遭对方突然杀害 —— 这一事件，也成为了 66 号指令悲剧的不祥预兆。" 
+
+REFERENCE           TIPLEE
+LANG_ENGLISH        "Tiplee, twin sister of Tiplar, was a Mikkian Jedi Master who served in several major Clone Wars battles. After her sister's death, she continued fighting for the Republic and was later slain by Count Dooku during a confrontation with the Sith Lord."
+LANG_CHINESE        "蒂普利是米基恩人绝地大师，同时也是蒂普拉的双胞胎妹妹，她参与了克隆人战争期间的数场重大战役。在姐姐不幸遇难后，她依旧坚守阵线、为共和国奋战，最终却在与西斯尊主杜库伯爵的正面交锋中，惨遭对方杀害。" 
+
+REFERENCE           TSUI_CHOI
+LANG_ENGLISH        "A diminutive Aleena Jedi Master, Tsui Choi was known for his incredible agility and strength in the Force. Surviving the initial Jedi Purge, he continued to resist the Empire before being killed by Darth Vader during a final stand."
+LANG_CHINESE        "楚伊·乔伊是一名身形矮小的阿利恩人绝地大师，他以超乎常人的敏捷身手和强大的原力造诣闻名。他在绝地大清洗的首轮攻势中幸存下来，此后一直坚持对抗银河帝国，最终在一场殊死抵抗战中，被达斯·维达击杀。" 
+
+REFERENCE           YADDLE
+LANG_ENGLISH        "A member of the same mysterious species as Yoda, Yaddle was a wise and gentle Jedi Master who served on the High Council. Known for her deep knowledge of the Force and compassion, she later stepped down from the Council and died confronting Count Dooku during the rise of the Sith."
+LANG_CHINESE        "亚德尔是与尤达同属一个神秘种族的绝地大师，她睿智而温和，曾任职于绝地最高委员会。亚德尔凭借深厚的原力学识与悲悯之心为人所知，后来她主动从委员会卸任，最终在西斯崛起的时期，为阻拦杜库伯爵而殒命。" 
+
+REFERENCE           YARAEL_POOF
+LANG_ENGLISH        "A Quermian Jedi Master, Yarael Poof was known for his powerful mind tricks and diplomatic abilities. He served on the Jedi High Council during the final days of the Republic but died before the Clone Wars while preventing a catastrophic attack on Coruscant."
+LANG_CHINESE        "亚雷尔·普夫是一名奎尔米亚人绝地大师，他以强大的控心术与出色的外交才能闻名。在共和国末期，他曾任职于绝地最高委员会，却在克隆人战争爆发前，为阻止一场针对科洛桑的毁灭性袭击而牺牲。" 
+
+REFERENCE           YODA
+LANG_ENGLISH        "One of the most powerful and revered Jedi Masters in galactic history, Yoda served the Order for over 800 years. Wise, patient, and deeply attuned to the Force, he led the Jedi through the Clone Wars and into exile after their fall, guiding future generations from the shadows."
+LANG_CHINESE        "尤达是银河历史上最强大、最受尊崇的绝地大师之一，他为绝地武士团效力超过 800 年。他睿智沉稳、极富耐心，与原力有着极为深厚的联结，不仅带领绝地武士团走过克隆人战争的烽火岁月，还在武士团覆灭后选择流亡，于暗处指引着新一代的希望。" 
+
+REFERENCE           YOUNGLING
+LANG_ENGLISH        "Force-sensitive children undergoing early training in the Jedi Temple. Guided by Masters in lightsaber combat and the Force, many younglings perished during Order 66, victims of the Empire's brutal purge."
+LANG_CHINESE        "绝地幼徒指的是在绝地圣殿接受早期训练的原力敏感儿童。他们在绝地大师的指导下学习光剑格斗与原力运用，然而在 66 号指令执行期间，绝大多数幼徒都惨死于帝国的残酷清洗，成为这场浩劫的牺牲品。" 
+
+REFERENCE           ZETT_JUKASSA
+LANG_ENGLISH        "A young Jedi Padawan trained in the Jedi Temple, Zett Jukassa fought bravely during the assault on the Temple led by Anakin Skywalker. Despite his youth, he attempted to protect escaping Jedi and civilians, but was killed by clone troopers during Order 66."
+LANG_CHINESE        "泽特·朱卡萨是一名在绝地圣殿受训的年轻绝地学徒。在阿纳金·天行者率军猛攻圣殿时，他挺身而出、英勇作战。尽管年纪尚轻，他仍竭力保护逃亡的绝地武士与平民，最终却在 66 号指令的执行过程中，惨死于克隆士兵的枪口之下。" 
+
+REFERENCE 			FALON_GREY
+LANG_ENGLISH 		"A former Jedi Knight of the Old Republic era, Falon Grey left the Order to serve the Galactic Republic as a covert agent. Skilled in diplomacy and strategy, he worked behind the scenes during the Republic-Sith conflict, proving that the Force could be wielded without allegiance to the Jedi."
+LANG_CHINESE        "法隆·格雷是旧共和国时代的前绝地武士，他选择脱离武士团，以秘密特工的身份效力于银河共和国。他精通外交与谋略，在共和国与西斯的战争期间于幕后开展行动，用实际行动证明：即便不效忠于绝地武士团，也能运用原力守护大义。" 
+
+REFERENCE 			DEATH_WATCH
+LANG_ENGLISH 		"A militant Mandalorian faction, Death Watch opposed the pacifist New Mandalorians and sought to restore Mandalore's warrior traditions. Active during the final years of the Republic, they allied with Sith and criminal forces, plunging Mandalore into chaos and civil war."
+LANG_CHINESE        "死神卫是曼达洛人的一个激进武装派系，他们强烈反对奉行和平主义的新曼达洛人政权，一心想要恢复曼达洛人尚武好战的传统。在共和国末期，死神卫积极活动，甚至与西斯及各类犯罪势力结盟，最终将曼达洛星球拖入内乱与战火的深渊。" 
+
+//----------------------------------------------------------
+// 	h4: SEPARATIST
+//----------------------------------------------------------
+
+REFERENCE           ASAJJ_VENTRESS
+LANG_ENGLISH        "A Dathomirian Nightsister and former Jedi Padawan, Asajj Ventress became a deadly Sith assassin under Count Dooku. Betrayed by her master, she sought her own path, working as a bounty hunter and ultimately sacrificing herself to save Quinlan Vos, seeking redemption in her final act."
+LANG_CHINESE        "达斯米尔暗夜姐妹、前绝地学徒阿萨吉·文崔斯，曾在杜库伯爵麾下成为一名令人生畏的西斯刺客。遭师父背叛后，她踏上了属于自己的道路，以赏金猎人的身份闯荡银河，最终为拯救昆兰·沃斯牺牲了自己，在生命的最后一刻实现了救赎。" 
+
+REFERENCE           B1_BATTLE_DROID
+LANG_ENGLISH        "Mass-produced by the Separatists, B1 Battle Droids formed the bulk of the droid army. Easily manufactured and expendable, they were known for their poor aim and comic incompetence, but their sheer numbers made them a constant threat during the Clone Wars."
+LANG_CHINESE        "B1 战斗机器人由分离势力量产而成，构成了机器人军队的主力。这类机器人造价低廉、可随意损耗，不仅以射击精准度低下、行事笨拙滑稽闻名，其庞大的数量更让它们在克隆人战争期间成为了一股始终挥之不去的威胁。" 
+
+REFERENCE           B2_SUPER_BATTLE_DROID
+LANG_ENGLISH        "An upgraded model of the B1, B2 Super Battle Droids were bulkier, stronger, and lacked the need for external command units. Heavily armored and equipped with wrist blasters, they posed a greater challenge to Republic forces throughout the Clone Wars."
+LANG_CHINESE        "作为 B1 战斗机器人的升级型号，B2 超级战斗机器人体型更为魁梧、战力更强，且无需依赖外部指挥单元即可作战。它们身披厚重装甲，腕部搭载爆能武器，在整场克隆人战争期间，对共和国部队构成了远胜以往的严峻挑战。" 
+
+REFERENCE           CAD_BANE
+LANG_ENGLISH        "A ruthless Duros bounty hunter, Cad Bane was one of the galaxy's deadliest mercenaries during the Clone Wars. Known for his cunning, gadgets, and fearlessness, he worked for major clients including the Separatists and Jabba the Hutt, often outwitting Jedi and clones alike."
+LANG_CHINESE        "凯德·贝恩是一名冷酷无情的杜罗族赏金猎人，也是克隆人战争时期银河系最致命的佣兵之一。他以狡诈多谋、擅用各类装备以及无所畏惧的作风著称，曾为分离势力、赫特人贾巴等一众重量级雇主效力，屡屡智胜绝地武士与克隆人士兵。" 
+
+REFERENCE           CLONE_ASSASSIN
+LANG_ENGLISH        "Clone Assassins were elite operatives bred for secrecy and silent execution. Used by the Republic and later the Empire, they were deployed in covert operations and Jedi purges, operating without question and eliminating targets with lethal efficiency."
+LANG_CHINESE        "克隆人刺客是为隐秘行动与无声处决而培育的精锐特工。他们曾效力于银河共和国，后又为银河帝国所用，被派往各类秘密行动与绝地大清洗任务中，执行命令从无迟疑，猎杀目标精准狠辣。" 
+
+REFERENCE           COUNT_DOOKU
+LANG_ENGLISH        "Once a respected Jedi Master, Count Dooku fell to the dark side and became Darth Tyranus, apprentice to Darth Sidious. He led the Separatist Alliance during the Clone Wars, orchestrating chaos across the galaxy. His death at Anakin's hands marked a turning point in the Sith's rise."
+LANG_CHINESE        "杜库伯爵曾是一位受人敬仰的绝地大师，后堕入黑暗面，成为达斯·西迪厄斯的学徒，尊号达斯·泰拉纳斯。克隆人战争期间，他领导分离势力同盟，在银河系中一手策划了无数动乱。最终死于阿纳金之手，而他的殒命也成为西斯崛起之路的关键转折点。" 
+
+REFERENCE           DARTH_MAUL
+LANG_ENGLISH        "A Zabrak warrior trained by Darth Sidious, Darth Maul was thought killed after his duel with Obi-Wan Kenobi. Surviving through hatred, he returned with vengeance, forming criminal empires and waging war against Jedi and Sith alike, seeking revenge until his final confrontation with Kenobi."
+LANG_CHINESE        "达斯·摩尔是一名经达斯·西迪厄斯亲手调教的扎布拉克族战士，在与欧比旺·克诺比的决斗后，世人皆以为他已殒命。他凭借恨意苟活下来，携复仇烈焰卷土重来，一手建立起庞大的犯罪帝国，向绝地与西斯两大阵营同时宣战，终其一生都在追寻复仇，直至与克诺比迎来宿命般的最终对决。" 
+
+REFERENCE           DARTH_PLAGUESIS
+LANG_ENGLISH        "A Sith Lord obsessed with immortality, Darth Plagueis was the master of Darth Sidious. His deep knowledge of the dark side allowed him to manipulate life and death, but his ambition blinded him to betrayal—he was ultimately murdered in his sleep by his own apprentice."
+LANG_CHINESE        "达斯·普雷格斯是一位痴迷于永生之术的西斯尊主，同时也是达斯·西迪厄斯的师父。他凭借对黑暗面的深刻参悟，得以操控生死法则，可这份野心却令他对背叛毫无防备 —— 最终，他在睡梦中死于自己学徒之手。" 
+
+REFERENCE           DARTH_SIDIOUS
+LANG_ENGLISH        "Born as Sheev Palpatine on Naboo, Darth Sidious was a Sith Lord who manipulated his way to power as Supreme Chancellor of the Republic. Operating in secret for decades, he orchestrated the fall of the Jedi, the rise of the Galactic Empire, and ruled the galaxy as Emperor with dark mastery over the Force."
+LANG_CHINESE        "达斯·西迪厄斯本名希夫·帕尔帕廷，生于纳布星球。身为西斯尊主的他步步为营，篡取权力登上银河共和国最高议长之位。他蛰伏幕后数十年，一手策划了绝地武士团的覆灭与银河帝国的崛起，最终以皇帝之名统治银河系，手握黑暗原力，权倾一方。" 
+
+REFERENCE           DROIDEKA
+LANG_ENGLISH        "Also known as Destroyer Droids, Droidekas were deadly rolling machines equipped with twin blasters and personal energy shields. Used by the Separatists, they were formidable foes, capable of overwhelming Jedi and clone squads with sheer firepower and defense."
+LANG_CHINESE        "被称为毁灭者机器人的机器人三联体，是配备双联爆能枪与单兵能量护盾的致命滚动机甲。它们为分离势力所用，是令人生畏的敌手，仅凭强横的火力与防御，便能压制绝地武士与克隆人小队。" 
+
+REFERENCE           DURGE
+LANG_ENGLISH        "A nearly indestructible Gen'Dai bounty hunter, Durge fought for the Separatists during the Clone Wars. Possessing regenerative abilities and centuries of combat experience, he harbored a deep hatred for Mandalorians and clashed with Jedi in brutal encounters."
+LANG_CHINESE        "德奇是一名近乎不死之身的根代族赏金猎人，克隆人战争期间为分离势力效力。他拥有强悍的再生能力，更积攒了长达数百年的战斗经验，内心深处对曼达洛人恨之入骨，曾多次与绝地武士展开惨烈厮杀。" 
+
+REFERENCE           EMBO
+LANG_ENGLISH        "A Kyuzo bounty hunter known for his stoic demeanor and lethal skill, Embo was among the most respected hunters of the Clone Wars. Using his wide-brimmed hat as a shield and weapon, he served various clients, often guided by his own sense of honor."
+LANG_CHINESE        "恩博是一名以冷峻作风与致命身手闻名的奎佐族赏金猎人，位列克隆人战争时期最受敬畏的猎手之林。他将宽檐帽既当作防具又当作武器，曾效力于各路雇主，行事却始终恪守着自己的一套荣誉准则。" 
+
+REFERENCE           GENERAL_GRIEVOUS
+LANG_ENGLISH        "A fearsome cyborg and Supreme Commander of the Separatist droid army, General Grievous was trained in lightsaber combat by Count Dooku. He collected the sabers of fallen Jedi and was infamous for his brutality across the Clone Wars. He was ultimately defeated by Obi-Wan Kenobi on Utapau."
+LANG_CHINESE        "格里弗斯将军是一名令人闻风丧胆的生化人，同时也是分离势力机器人军队的最高指挥官，其光剑格斗之术由杜库伯爵亲授。他嗜好收集殒命绝地的光剑，在克隆人战争期间，残暴之名响彻银河。最终，他于尤塔帕星球被欧比旺·克诺比击败。" 
+
+REFERENCE           HONDO_OHNAKA
+LANG_ENGLISH        "A charismatic Weequay pirate, Hondo Ohnaka led the Ohnaka Gang on Florrum. Known for his wit, unpredictability, and opportunism, he often clashed with Jedi and Sith alike but occasionally aided them when it suited him. Despite his greed, he had a peculiar code of honor."
+LANG_CHINESE        "汉多·奥纳卡是一位极具人格魅力的威奎人海盗，在弗洛拉姆星球统领着奥纳卡匪帮。他以机智狡黠、行事诡谲以及十足的投机主义作风闻名，时常与绝地、西斯两派发生冲突，却又会在利益相符时出手相助。虽满身贪婪本性，他却有着一套与众不同的荣誉准则。" 
+
+REFERENCE           JANGO_FETT
+LANG_ENGLISH        "A legendary Mandalorian bounty hunter, Jango Fett was chosen as the genetic template for the Republic's clone army. He demanded an unaltered clone as payment—his 'son', Boba Fett. Jango was killed in battle by Mace Windu during the First Battle of Geonosis."
+LANG_CHINESE        "詹戈·费特是一名传奇的曼达洛赏金猎人，被选为银河共和国克隆人军队的基因模板。他提出要一名未经改造的克隆体作为报酬 —— 这名克隆人便是他的 “儿子” 波巴·费特。詹戈最终在吉奥诺西斯战役中死于梅斯·温杜之手。" 
+
+REFERENCE           LORD_VADER
+LANG_ENGLISH        "Once the Jedi Knight Anakin Skywalker, Lord Vader became the enforcer of the Galactic Empire after pledging himself to Darth Sidious. As a Sith Lord, he hunted down surviving Jedi and crushed resistance across the galaxy, becoming a symbol of fear and oppression."
+LANG_CHINESE        "曾是绝地武士阿纳金·天行者的维达尊主，在效忠于达斯·西迪厄斯后，成为银河帝国的铁血执行者。身为西斯尊主的他，倾力追杀幸存的绝地武士，镇压银河系各处的反抗势力，最终化作恐惧与压迫的象征。" 
+
+REFERENCE           MAGNAGUARD
+LANG_ENGLISH        "IG-100 MagnaGuards were advanced droids employed by General Grievous. Programmed to duel Jedi, they wielded electrostaffs capable of blocking lightsabers. These relentless bodyguards could continue fighting even after losing limbs or sustaining heavy damage."
+LANG_CHINESE        "IG-100 万磁卫是格里弗斯将军麾下的先进机器人。它们被专门编程以应对绝地武士的决斗，手持可格挡光剑的电杖作战。这些悍不畏死的护卫即便断肢残躯、身负重创，仍能继续战斗。" 
+
+REFERENCE           MOTHER_TALZIN
+LANG_ENGLISH        "Matriarch of the Nightsisters, Mother Talzin was a powerful dark side sorceress from Dathomir. She wielded ancient magicks and manipulated galactic events from the shadows. A rival of Darth Sidious, she sought vengeance through her son, Savage Opress, and fell in a clash with the Sith."
+LANG_CHINESE        "暗夜姐妹氏族的女族长塔尔津主母，是一名来自达斯米尔星球的强大黑暗面女巫。她执掌古老巫术，于幕后操纵银河系的风云变幻。作为达斯·西迪厄斯的宿敌，她借由儿子萨维奇·奥普雷斯展开复仇大计，最终在一场与西斯的死斗中殒命。" 
+
+REFERENCE           NEIMOIDIAN_GUARD
+LANG_ENGLISH        "The Neimoidian Guard served as the armed security force of the Trade Federation. Armed with blaster rifles and clad in distinctive armor, they protected key leaders like Nute Gunray and enforced order aboard Federation vessels and installations."
+LANG_CHINESE        "内莫伊迪亚护卫队是贸易联邦的武装安保力量。他们配备爆能步枪，身着辨识度极高的专属装甲，既要护卫纽特·冈雷等核心高层，也要在联邦的各类舰船与设施内维持秩序。" 
+
+REFERENCE           NEIMOIDIAN_BRUTE
+LANG_ENGLISH        "Larger and more physically imposing than standard Neimoidians, Neimoidian Brutes served as enforcers and shock troopers for the Trade Federation. Rarely seen in command roles, they were employed for intimidation and brute strength during military operations."
+LANG_CHINESE        "内莫伊迪亚蛮兵体型比普通内莫伊迪亚人更高大壮硕，是贸易联邦的打手兼突击兵。他们极少担任指挥职务，主要在军事行动中凭借威慑力与蛮力发挥作用。" 
+
+REFERENCE           NUTE_GUNRAY
+LANG_ENGLISH        "Viceroy of the Trade Federation, Nute Gunray played a pivotal role in the rise of the Separatists. Ambitious and cowardly, he conspired with Darth Sidious in the blockade of Naboo and remained a puppet leader throughout the Clone Wars. He was executed by Darth Vader on Mustafar."
+LANG_CHINESE        "贸易联邦总督纽特·冈雷，在分离势力崛起的过程中扮演了关键角色。他野心勃勃却又生性怯懦，曾与达斯·西迪厄斯合谋封锁纳布星球，且在整场克隆人战争期间都只是个傀儡领袖。最终，他于穆斯塔法星球被达斯·维达处决。" 
+
+REFERENCE           SAVAGE_OPRESS
+LANG_ENGLISH        "A Dathomirian Zabrak transformed by dark magicks, Savage Opress was the brother of Darth Maul and apprentice to Count Dooku. Empowered by Mother Talzin, he turned against his master and waged war alongside Maul. His strength was immense, but he ultimately fell to Darth Sidious."
+LANG_CHINESE        "萨维奇·奥普雷斯是一名经黑暗巫术改造的达斯米尔扎布拉克人，身为达斯·摩尔的胞弟、杜库伯爵的学徒。他借由塔尔津主母的力量获得强化，随后叛离师门，与兄长摩尔联手征战。萨维奇·奥普雷斯拥有强横无匹的力量，最终却殒命于达斯·西迪厄斯之手。" 
+
+REFERENCE           SHU_MAI
+LANG_ENGLISH        "President of the Commerce Guild, Shu Mai was a Separatist leader who supported Count Dooku during the Clone Wars. Focused on profit and industry, she provided resources and troops for the war effort. She was executed by Darth Vader during the purge of the Separatist Council."
+LANG_CHINESE        "商业行会主席舒·迈是分离势力的领袖之一，于克隆人战争期间效忠于杜库伯爵。她一门心思追逐利益与工业扩张，为战事提供了大量资源与兵力。最终，在分离势力委员会大清洗行动中，她被达斯·维达处决。" 
+
+REFERENCE           TUSKAN_RAIDER
+LANG_ENGLISH        "Also known as Sand People, Tusken Raiders were nomadic warriors native to Tatooine. Fiercely territorial and hostile to outsiders, they lived in clans and upheld ancient traditions. Feared by settlers, they played a tragic role in shaping Anakin Skywalker's destiny."
+LANG_CHINESE        "塔斯肯袭击者又称沙人，是塔图因星球的土著游牧战士。他们领地意识极强，对外来者充满敌意，以部族为单位聚居，恪守着古老的传统。这群人令移民者闻风丧胆，更在阿纳金·天行者的命运轨迹中，留下了充满悲剧色彩的一笔。" 
+
+REFERENCE           WAT_TAMBOR
+LANG_ENGLISH        "Foreman of the Techno Union, Wat Tambor supplied the Separatists with advanced weaponry and droids. Encased in a pressurized suit, he oversaw brutal experiments and occupations during the Clone Wars. Like his fellow council members, he was executed on Mustafar by Darth Vader."
+LANG_CHINESE        "技术联盟总监沃特·坦博，为分离势力供应先进的武器装备与机器人部队。他终日身着加压防护服行动，在克隆人战争期间主导了无数残酷的实验与占领行动。最终，他与其他委员会成员一样，于穆斯塔法星球被达斯·维达处决。" 
+
+REFERENCE 			DEATH_WATCH_MAUL
+LANG_ENGLISH 		"Following the rise of Darth Maul, a faction of Death Watch pledged loyalty to the former Sith Lord after his seizure of Mandalore. These Mandalorians served as enforcers of Maul's rule, helping to overthrow Duchess Satine and install him as ruler before the group fractured amid internal betrayal and civil war."
+LANG_CHINESE        "达斯·摩尔崛起之后，死神卫的一支派系在这名前西斯尊主夺取曼达洛星权后宣誓效忠。这群曼达洛人充当了摩尔统治的执行者，协助他推翻莎廷女公爵的政权，拥立其登上统治者之位；后来该派系因内部背叛与内战爆发而分崩离析。" 
+
+REFERENCE 			PRE_VIZSLA
+LANG_ENGLISH 		"A Mandalorian warlord and leader of Death Watch, Pre Vizsla wielded the Darksaber in his campaign to reclaim Mandalore's warrior legacy. He allied with Darth Maul to overthrow the New Mandalorians, only to be challenged and slain by Maul in single combat, losing both leadership and the Darksaber."
+LANG_CHINESE        "死神卫领袖、曼达洛军阀普雷·维兹拉，执掌暗剑投身光复曼达洛武士传统的大业。他曾与达斯·摩尔结盟，联手推翻新曼达洛人政权，最终却在一场一对一决斗中遭摩尔挑战并殒命，不仅失去了领袖之位，暗剑也落入敌手。" 
+
+//----------------------------------------------------------
+// 	h5: REBELS
+//----------------------------------------------------------
+
+REFERENCE           A_SHARAD_HETT  
+LANG_ENGLISH        "A Jedi Knight raised among Tusken Raiders, A'Sharad Hett survived the Clone Wars and the Jedi Purge. Struggling with identity and loss, he later fell to the dark side and became Darth Krayt, founding the One Sith and seeking to reshape the galaxy under his rule."
+LANG_CHINESE        "在塔斯肯袭击者族群中长大的绝地武士阿沙拉德·赫特，熬过了克隆人战争与绝地大清洗。他深陷身份认同的挣扎与失去至亲的痛苦，最终堕入黑暗面，化身达斯·克雷伊，创立 “单一西斯” 教派，妄图以一己之力重塑银河系的统治秩序。" 
+
+REFERENCE           ADMIRAL_ACKBAR  
+LANG_ENGLISH        "A brilliant tactician of the Mon Calamari species, Admiral Ackbar led the Rebel fleet in many key battles, including the pivotal assault on the second Death Star. Known for his strategic genius and iconic warning, he remained a loyal defender of the New Republic until his death in the war against the First Order."
+LANG_CHINESE        "蒙卡拉马里族的天才战术家阿克巴上将，指挥义军舰队打赢了多场关键战役，其中就包括那场至关重要的二号死星突袭战。他凭借超凡的战略天赋与那句标志性的警示语闻名银河，始终是新共和国的忠诚捍卫者，直至在抵抗第一秩序的战争中陨落。" 
+
+REFERENCE           BAIL_ORGANA  
+LANG_ENGLISH        "Senator of Alderaan and a founding member of the Rebel Alliance, Bail Organa worked covertly to oppose the Empire. A close ally to the Jedi, he adopted Leia as his daughter and helped lay the foundation for future resistance. He perished when Alderaan was destroyed by the Death Star."
+LANG_CHINESE        "奥德朗议员、义军同盟创始成员之一贝尔·奥加纳，曾秘密开展反抗帝国的行动。他是绝地武士的亲密盟友，收养莱娅为女，并为日后抵抗力量的建立奠定了基础。奥德朗被死星摧毁时，他也一同殒命。" 
+
+REFERENCE           BAZE_MALBUS  
+LANG_ENGLISH        "A hardened warrior and protector of Jedha's sacred traditions, Baze Malbus once served as a Guardian of the Whills. Though disillusioned with faith, he remained loyal to his friend Chirrut ?mwe and fought bravely during the mission to steal the Death Star plans on Scarif."
+LANG_CHINESE        "杰达神圣传统的捍卫者与身经百战的战士巴兹·马尔巴斯，曾是威尔卫士的一员。尽管早已对信仰心灰意冷，但他始终忠于挚友奇鲁特·伊姆韦，并在斯卡里夫窃取死星蓝图的行动中英勇作战。" 
+
+REFERENCE           BEN_KENOBI  
+LANG_ENGLISH        "Once known as Obi-Wan Kenobi, the Jedi Master took the name 'Ben' while hiding on Tatooine. Watching over Luke Skywalker from afar, he lived in exile until called to action. Though burdened by past failures, he guided the next generation with wisdom and sacrifice."
+LANG_CHINESE        "这位绝地大师曾名为欧比旺·克诺比，藏身塔图因期间改用化名 “本”。他常年在流放中遥护卢克·天行者，直至重披战袍投身战场。尽管为过往的失败所困扰，他仍以智慧与牺牲，为新一代指引了前路。" 
+
+REFERENCE           BESPIN_SECURITY  
+LANG_ENGLISH        "Bespin Security forces served under Lando Calrissian to maintain order in Cloud City. Equipped with blasters and distinctive uniforms, they helped protect the city's operations and were drawn into the conflict during the Empire's occupation of the gas mining facility."
+LANG_CHINESE        "贝斯平安全部队隶属于兰多·卡瑞辛，负责维护云城的秩序稳定。这支部队配备爆能枪与辨识度极高的制服，不仅保障云城各项运作的正常开展，更在帝国占领这座气体采矿设施期间，被卷入了战火纷争。" 
+
+REFERENCE           BODHI_ROOK  
+LANG_ENGLISH        "An Imperial cargo pilot who defected to the Rebellion, Bodhi Rook was instrumental in delivering the message from Galen Erso that revealed the Death Star's weakness. Despite his fear, he found courage and gave his life during the mission to secure the plans on Scarif."
+LANG_CHINESE        "波迪·鲁克本是一名帝国货运飞行员，后叛逃至义军同盟。他亲手传递了盖伦·厄索发来的情报，这份情报揭露了死星的致命弱点。尽管内心满怀恐惧，但他最终鼓起勇气，在斯卡里夫夺取死星蓝图的行动中献出了生命。" 
+
+REFERENCE           C3PO  
+LANG_ENGLISH        "A protocol droid fluent in over six million forms of communication, C-3PO was built by Anakin Skywalker and became a constant companion to the Skywalker family. Often anxious yet loyal, he played key roles in diplomatic missions and galactic conflicts across decades."
+LANG_CHINESE        "C-3PO 是一台精通超六百万种交流方式的礼仪机器人，由阿纳金·天行者亲手制造，此后便一直陪伴在天行者家族左右。它虽时常焦虑不安，却始终忠心耿耿，数十年来在各类外交任务与银河战事中都发挥了关键作用。" 
+
+REFERENCE           CADE_SKYWALKER  
+LANG_ENGLISH        "A descendant of Luke Skywalker, Cade was a rogue Force-sensitive who turned away from the Jedi Order after trauma and loss. Becoming a bounty hunter and self-medicating his pain, he eventually embraced his destiny to confront the Sith and redeem the Skywalker legacy in a dark era."
+LANG_CHINESE        "凯德是卢克·天行者的后裔，这名叛逆的原力敏感者在经历创伤与失去后，背离了绝地武士团。他沦为赏金猎人，靠药物麻痹痛苦，最终在那个黑暗的时代正视了自己的宿命 —— 对抗西斯，救赎天行者家族的荣光。" 
+
+REFERENCE           CAL_KESTIS  
+LANG_ENGLISH        "A Jedi Padawan who survived Order 66, Cal Kestis lived in hiding until events forced him to confront the Empire. With the help of allies, he sought to restore the Jedi Order, battling Inquisitors and uncovering ancient secrets while resisting the darkness within himself."
+LANG_CHINESE        "卡尔·凯斯提斯是一名在 66 号指令中幸存的绝地学徒，他一直隐姓埋名度日，直至一系列事件迫使他直面银河帝国。在盟友的帮助下，他一边对抗审判官、发掘古老的秘密，一边抵抗着内心的黑暗，致力于复兴绝地武士团。" 
+
+REFERENCE           CALEB_DUME  
+LANG_ENGLISH        "Once a Jedi Padawan, Caleb Dume survived the Purge and assumed the name Kanan Jarrus. Hiding his identity for years, he eventually joined the Rebellion and trained Ezra Bridger, sacrificing himself in the fight for Lothal and leaving a legacy of hope and mentorship."
+LANG_CHINESE        "凯勒布·杜梅曾是一名绝地学徒，在绝地大清洗中幸存后，他化名卡南·贾勒斯隐匿身份。多年来他一直隐藏真实身份，最终加入义军同盟，并收埃兹拉·布里杰为徒。他在保卫洛塔尔的战斗中牺牲，留下了充满希望与传承精神的不朽遗产。" 
+
+REFERENCE           CAPTAIN_REX_OT  
+LANG_ENGLISH        "A respected clone trooper and leader of the 501st Legion, Captain Rex fought alongside Anakin Skywalker and Ahsoka Tano during the Clone Wars. He removed his control chip to resist Order 66 and later joined the Rebellion, continuing to fight for freedom in the galaxy."
+LANG_CHINESE        "雷克斯上尉是一名受人敬重的克隆人士兵，同时也是 501 军团的指挥官。克隆人战争期间，他与阿纳金·天行者、阿索卡·塔诺并肩作战。他摘除了体内的控制芯片，以此抵抗 66 号指令，之后加入义军同盟，继续为银河的自由而战。" 
+
+REFERENCE           CASSIAN_ANDOR  
+LANG_ENGLISH        "A seasoned intelligence officer and spy, Cassian Andor served the Rebellion with unwavering dedication. Shaped by years of covert warfare, he played a pivotal role in obtaining the Death Star plans. His early sacrifices laid the groundwork for future victories against the Empire."
+LANG_CHINESE        "卡西安·安多是一名经验丰富的情报官员与间谍，他怀着坚定不移的信念效力于义军同盟。 长年的秘密行动塑造了他的行事风格，他在夺取死星蓝图的行动中扮演了关键角色，早年做出的诸多牺牲更为义军日后对抗帝国的胜利奠定了基础。" 
+
+REFERENCE           CHEWBACCA  
+LANG_ENGLISH        "A towering Wookiee from Kashyyyk, Chewbacca was Han Solo's loyal co-pilot and a hero of the Rebellion. Brave, strong, and deeply honorable, he fought against tyranny from the Clone Wars through the Resistance, becoming a beloved figure across the galaxy."
+LANG_CHINESE        "丘巴卡是一名来自卡希克星球的高大伍基人，他既是汉·索罗忠心耿耿的副驾驶，也是义军同盟的英雄。 他勇猛强悍、恪守荣誉，从克隆人战争到抵抗组织时代始终奋战在反抗暴政的前线，最终成为全银河都爱戴的传奇人物。" 
+
+REFERENCE           CHIRRUT_IMWE  
+LANG_ENGLISH        "A blind warrior-monk from Jedha, Chirrut ?mwe was deeply devoted to the Force despite not being a Jedi. With extraordinary combat skills and unshakable faith, he aided the Rogue One team on Scarif, sacrificing himself to help transmit the Death Star plans."
+LANG_CHINESE        "奇鲁特·伊姆韦是一名来自杰达的盲眼武僧，尽管并非绝地武士，却对原力怀有无比虔诚的信仰。 他凭借超凡的格斗技巧与坚定不移的信念，在斯卡里夫协助了侠盗一号小队，最终为帮助传输死星蓝图献出了生命。" 
+
+REFERENCE           EZRA_BRIDGER  
+LANG_ENGLISH        "A Force-sensitive orphan from Lothal, Ezra Bridger joined the Ghost crew and trained under Kanan Jarrus. He matured into a skilled Jedi and leader, ultimately sacrificing himself by disappearing into hyperspace with Grand Admiral Thrawn to save his planet from Imperial occupation."
+LANG_CHINESE        "埃兹拉·布里杰是一名来自洛塔尔的原力敏感孤儿，他加入了 “幽灵号” 船员小队，并在卡南·贾勒斯的指导下接受训练。 他逐渐成长为一名技艺娴熟的绝地武士与领袖，最终为了将母星从帝国的占领下解救出来，选择与索龙元帅一同消失在超空间之中，献出了自己的生命。" 
+
+REFERENCE           GALEN_MAREK  
+LANG_ENGLISH        "Codenamed Starkiller, Galen Marek was the secret apprentice of Darth Vader, trained to hunt Jedi. Struggling with his identity, he turned against the Empire and helped ignite the Rebel Alliance. His power and redemption left a lasting legacy in the fight for freedom."
+LANG_CHINESE        "加伦·马雷克的代号为弑星者，他曾是达斯·维达的秘密学徒，受训的目标是猎杀绝地武士。 他在身份认同的挣扎中觉醒，最终倒戈反抗帝国，并为义军同盟的崛起点燃了火种。他的强大力量与自我救赎，在这场为自由而战的银河史诗中留下了不可磨灭的印记。" 
+
+REFERENCE           GNK_DROID  
+LANG_ENGLISH        "Known colloquially as 'Gonk droids', GNK power droids served as portable energy units across the galaxy. Though slow-moving and simple, their reliability made them a common sight in military and industrial environments, silently powering critical systems."
+LANG_CHINESE        "俗称 “冈克机器人” 的 GNK 动力机器人，是遍布全银河的便携式能量单元。 这类机器人行动迟缓、构造简单，但其极高的可靠性让它们成为军事与工业场景里的常客，默默为各类关键系统提供能源支持。" 
+
+REFERENCE           HAN_SOLO  
+LANG_ENGLISH        "Once a smuggler and rogue, Han Solo became a hero of the Rebel Alliance. Known for his quick wit and flying skills, he piloted the Millennium Falcon through countless battles. Though reluctant at first, his loyalty and bravery helped turn the tide against the Empire."
+LANG_CHINESE        "汉·索罗曾是一名走私犯兼独行浪子，后来成为了义军同盟的英雄。 他以机敏的头脑与精湛的飞行技术闻名，驾驶 “千年隼号” 参与了无数场战役。尽管最初对反抗事业心存抵触，但他的忠诚与勇敢最终为义军扭转了对抗帝国的战局。" 
+
+REFERENCE           HERA_SYNDULLA  
+LANG_ENGLISH        "A skilled pilot and leader from Ryloth, Hera Syndulla captained the Ghost and fought tirelessly for the Rebellion. Known for her tactical brilliance and strong moral compass, she played a key role in forming the Rebel Alliance and later became a general in the New Republic."
+LANG_CHINESE        "赫拉·辛杜拉是一名来自赖洛思的技艺精湛的飞行员与领袖，她担任 “幽灵号” 舰长，为义军同盟的事业不懈奋战。 她以出色的战术头脑与坚定的道德准则闻名，不仅在义军同盟的组建过程中发挥了关键作用，后来更成为新共和国的一名将军。" 
+
+REFERENCE           JAN_ORS  
+LANG_ENGLISH        "An elite operative for the Rebel Alliance, Jan Ors worked alongside Kyle Katarn on high-risk missions. Skilled in infiltration and combat, she provided critical intelligence and support in the early days of the Rebellion, helping secure vital victories against the Empire."
+LANG_CHINESE        "简·奥斯是义军同盟的精锐特工，她与凯尔·卡塔恩搭档执行各类高风险任务。 她精通潜入渗透与战斗技巧，在义军同盟草创初期提供了至关重要的情报与支援，助力同盟拿下了多场对抗帝国的关键胜利。" 
+
+REFERENCE           JARO_TAPAL  
+LANG_ENGLISH        "A Lasat Jedi Master and mentor to Cal Kestis, Jaro Tapal was a fierce and disciplined warrior during the Clone Wars. He died defending his Padawan during Order 66, instilling in Cal the strength to survive and eventually confront the Empire."
+LANG_CHINESE        "贾罗·塔帕尔是一名拉斯塔族绝地大师，同时也是卡尔·凯斯提斯的导师。 克隆人战争期间，他是一名勇猛善战、纪律严明的战士。66 号指令下达时，他为保护自己的学徒牺牲，这份牺牲也赋予了卡尔活下去并最终直面帝国的力量。" 
+
+REFERENCE           JEDI_MASTER  
+LANG_ENGLISH        "Jedi Masters represented the highest rank within the Jedi Order, known for their wisdom, mastery of the Force, and leadership. Many sat on the Jedi High Council, shaping galactic policy and mentoring the next generation of Jedi in the pursuit of peace."
+LANG_CHINESE        "绝地大师是绝地武士团中的最高等级，他们以渊博的智慧、精湛的原力造诣与卓越的领导能力闻名。 许多绝地大师跻身绝地最高委员会，不仅参与制定影响银河的政策，更以培育新一代绝地为己任，矢志不渝地守护着银河的和平。" 
+
+REFERENCE           JEDI_TRAINER  
+LANG_ENGLISH        "Jedi Trainers guided younglings and Padawans in their early development, instructing them in lightsaber techniques, Force control, and Jedi philosophy. Their teachings were foundational to the Order, instilling discipline and purpose in future Jedi."
+LANG_CHINESE        "绝地教官负责指导幼徒与学徒的早期成长，传授他们光剑技巧、原力掌控之道以及绝地理念。 他们的教导是绝地武士团的立团之本，为未来的绝地武士注入了纪律意识与使命信念。" 
+
+REFERENCE           JYN_ERSO  
+LANG_ENGLISH        "The daughter of Imperial scientist Galen Erso, Jyn became a reluctant hero of the Rebellion. Hardened by a life of loss and secrecy, she led the Rogue One mission to steal the Death Star plans, giving her life so the Rebellion could strike a decisive blow."
+LANG_CHINESE        "琴是帝国科学家盖伦·厄索的女儿，后来成为了义军同盟中一名并非自愿的英雄。 坎坷流离、充满失去与隐秘的人生让她性格坚韧，她率领侠盗一号小队执行盗取死星蓝图的任务，最终献出生命，为义军同盟对帝国的致命一击铺平了道路。" 
+
+REFERENCE           K2SO  
+LANG_ENGLISH        "A reprogrammed Imperial security droid, K-2SO served the Rebellion with dry wit and unwavering loyalty. Partnered with Cassian Andor, he played a crucial role in the mission to Scarif, sacrificing himself to ensure the success of the Death Star data transmission."
+LANG_CHINESE        "K-2SO 是一台被重新编程的帝国安保机器人，它以冷面幽默的行事风格与坚定不移的忠诚效力于义军同盟。 它与卡西安·安多搭档行动，在斯卡里夫任务中扮演了至关重要的角色，最终为确保死星数据成功传输而牺牲。" 
+
+REFERENCE           KANAN_JARRUS  
+LANG_ENGLISH        "Born Caleb Dume, Kanan Jarrus survived Order 66 and hid his Jedi identity for years. He later joined the Ghost crew and trained Ezra Bridger, rediscovering his purpose. Kanan ultimately sacrificed himself to save his family, cementing his legacy in the Rebellion."
+LANG_CHINESE        "卡南·贾勒斯原名凯勒布·杜梅，他在 66 号指令中幸存，并隐匿绝地身份多年。 后来他加入 “幽灵号” 船员小队，收埃兹拉·布里杰为徒，也在这个过程中重新寻回了自身的使命。卡南最终为拯救身边的家人般的伙伴牺牲，成为了义军同盟历史中一座不朽的丰碑。" 
+
+REFERENCE           KENTO_MAREK  
+LANG_ENGLISH        "A former Jedi Knight, Kento Marek went into hiding after Order 66. He was eventually found and killed by Darth Vader, who then took his son, Galen Marek, as his secret apprentice. Kento's death set the stage for Starkiller's conflicted destiny."
+LANG_CHINESE        "肯托·马雷克曾是一名绝地武士，66 号指令后便选择隐姓埋名。 他最终被达斯·维达寻获并杀害，维达随后将他的儿子加伦·马雷克收为秘密学徒。肯托的死，为弑星者充满矛盾的宿命埋下了伏笔。" 
+
+REFERENCE           KOTAS_MILITIA  
+LANG_ENGLISH        "Formed by General Rahm Kota, this militia was composed of seasoned fighters unaffiliated with the Clone Army. Loyal to the Jedi cause, they resisted Imperial rule and provided critical support during early uprisings against the Empire."
+LANG_CHINESE        "这支民兵部队由拉姆·科塔将军组建，成员均为不隶属于克隆人军队的经验丰富的战士。他们忠于绝地的事业，不仅奋起反抗帝国的统治，更在对抗帝国的早期起义行动中提供了至关重要的支援。" 
+
+REFERENCE           KYLE_KATARN  
+LANG_ENGLISH        "A former Imperial officer turned mercenary, Kyle Katarn discovered his Force sensitivity and became a Jedi. He was instrumental in recovering the Death Star plans and later trained new Jedi while confronting the dark side within himself and the galaxy."
+LANG_CHINESE        "凯尔·卡塔恩曾是一名帝国军官，后来转行成为雇佣兵，之后他发现了自身的原力天赋并成为一名绝地武士。 他在夺回死星蓝图的行动中起到了关键作用，此后一边培养新一代绝地武士，一边对抗自身与银河中潜藏的黑暗面。" 
+
+REFERENCE           LANDO_CALRISSIAN  
+LANG_ENGLISH        "A charismatic gambler, smuggler, and entrepreneur, Lando Calrissian became a hero of the Rebellion after helping save Cloud City and destroy the second Death Star. Known for his charm and style, he remained a key figure in the galaxy's fight for freedom."
+LANG_CHINESE        "兰多·卡瑞辛是一位极具个人魅力的赌徒、走私犯与企业家，在协助拯救云城、摧毁第二颗死星后，他成为了义军同盟的英雄。 他以风流倜傥的行事风格闻名银河，此后也一直是这场银河自由之战中的核心人物。" 
+
+REFERENCE           LEIA_ORGANA  
+LANG_ENGLISH        "Princess of Alderaan, senator, and Rebel leader, Leia Organa was a fierce and compassionate warrior. Trained briefly as a Jedi and strong in the Force, she played a vital role in defeating both the Empire and the First Order, preserving hope across generations."
+LANG_CHINESE        "莱娅·奥加纳是奥德朗星球的公主、议员，同时也是义军领袖，她是一位勇猛而富有同情心的战士。 她曾接受过短暂的绝地训练，拥有强大的原力天赋，不仅在击败银河帝国的战争中扮演了关键角色，更在对抗第一秩序的战斗里延续使命，为一代代银河子民守护着希望的火种。" 
+
+REFERENCE           LUKE_SKYWALKER  
+LANG_ENGLISH        "A farm boy from Tatooine, Luke Skywalker rose to become one of the most legendary Jedi. Trained by Obi-Wan and Yoda, he redeemed his father and helped defeat the Emperor. He later sought to rebuild the Jedi Order and guide the next generation of Force users."
+LANG_CHINESE        "塔图因的农家少年卢克·天行者，成长为银河系最富传奇色彩的绝地武士之一。他先后师从欧比旺与尤达，不仅救赎了自己的父亲，更助力义军击败了皇帝。多年后，他立志重建绝地武士团，引领新一代原力敏感者踏上征途。" 
+
+REFERENCE           MARA_JADE  
+LANG_ENGLISH        "Once an Emperor's Hand, Mara Jade was a deadly assassin loyal to Palpatine. After the Empire's fall, she reformed and became a Jedi Master, eventually marrying Luke Skywalker. Her journey from darkness to light made her a complex and powerful figure in Jedi history."
+LANG_CHINESE        "曾是皇帝之手的玛拉·杰德，本是效忠于帕尔帕廷的致命刺客。帝国覆灭后，她弃暗投明，成长为一名绝地大师，最终与卢克·天行者结为连理。她从黑暗走向光明的蜕变之路，令其成为绝地历史上一位复杂而强大的传奇人物。" 
+
+REFERENCE           MON_MOTHMA  
+LANG_ENGLISH        "A respected senator and fierce critic of the Emperor, Mon Mothma became the political leader of the Rebel Alliance. She organized resistance efforts and later served as Chancellor of the New Republic, dedicating her life to democracy and peace in the galaxy."
+LANG_CHINESE        "蒙·莫思马曾是德高望重的议员，也是抨击皇帝的强硬人士，后来成为义军同盟的政治领袖。她一手组织起反抗行动，在帝国倒台后出任新共和国议长，终其一生都在为银河系的民主与和平而奋斗。" 
+
+REFERENCE           NIEN_NUNB  
+LANG_ENGLISH        "A skilled Sullustan pilot, Nien Nunb co-piloted the Millennium Falcon alongside Lando Calrissian during the Battle of Endor. He continued to serve the New Republic and Resistance, fighting bravely in key battles against the Empire and First Order."
+LANG_CHINESE        "纽恩·农布是一名技艺精湛的萨卢斯特人飞行员，在恩多战役期间，他与兰多·卡瑞辛搭档，共同驾驶千年隼号参战。此后，他始终效忠于新共和国与抵抗组织，在对抗帝国和第一秩序的多场关键战役中奋勇作战。" 
+
+REFERENCE           QU_RAHN  
+LANG_ENGLISH        "A wise Jedi Master who survived the Purge, Qu Rahn guided Kyle Katarn from beyond the grave. A student of the living Force, he fought against the dark side in his final years and left behind knowledge vital to the rebirth of the Jedi Order."
+LANG_CHINESE        "奎·拉恩是一位在大清洗中幸存的睿智绝地大师，他在身故后仍指引着凯尔·卡塔恩前行。作为原力生命学派的追随者，他晚年始终与黑暗面抗争，并为绝地武士团的复兴留下了至关重要的知识遗产。" 
+
+REFERENCE           R2D2  
+LANG_ENGLISH        "An astromech droid with unmatched bravery and loyalty, R2-D2 served Padmé Amidala, Anakin Skywalker, and later the Rebel Alliance. From carrying secret plans to repairing starships mid-battle, his actions shaped the course of galactic history across eras."
+LANG_CHINESE        "作为一台勇气与忠诚无可匹敌的宇航技工机器人，R2-D2 先后侍奉过帕德梅·阿米达拉、阿纳金·天行者，以及后来的义军同盟。从传递机密蓝图到在战火中抢修星际飞船，它的种种行动贯穿数个时代，深刻影响了银河系的历史走向。" 
+
+REFERENCE           RAHM_KOTA  
+LANG_ENGLISH        "A battle-hardened Jedi General, Rahm Kota refused to use clone troopers, which spared him from Order 66. After surviving an attack by Darth Vader's apprentice, he became a mentor to Galen Marek, reigniting his faith in the Force and the fight against the Empire."
+LANG_CHINESE        "拉姆·科塔是一位身经百战的绝地将军，他拒绝使用克隆人士兵，这也让他得以在66 号指令的清洗中幸免于难。在死里逃生（袭击者为达斯·维达的学徒）后，他成为了盖伦·马雷克的导师，重拾对原力的信仰，继续投身于反抗帝国的战斗之中。" 
+
+REFERENCE           REBEL_ALLIANCE_TROOPER  
+LANG_ENGLISH        "Soldiers of the Rebel Alliance came from diverse backgrounds to resist Imperial tyranny. Armed with blasters and resolve, these troopers fought bravely on battlefronts such as Scarif, Hoth, and Endor, sacrificing much for the hope of a free galaxy."
+LANG_CHINESE        "义军同盟的士兵们出身各异，却因反抗帝国暴政的共同目标走到一起。他们手持爆能枪，心怀坚定信念，在斯卡里夫、霍斯、恩多等诸多战场浴血奋战，为银河系重获自由的希望，付出了巨大的牺牲。" 
+
+REFERENCE           REBEL_ALLIANCE_PILOT  
+LANG_ENGLISH        "Pilots of the Rebel Alliance flew starfighters in critical missions against the Empire. Skilled and courageous, they engaged in battles such as Yavin and Endor, delivering decisive blows with unmatched determination and sacrifice."
+LANG_CHINESE        "义军同盟的飞行员驾驶星际战斗机，执行对抗帝国的关键任务。他们技艺娴熟且英勇无畏，在雅文、恩多等战役中投身激战，凭借无可匹敌的决心与牺牲精神，打出了一场场决定性的重击。" 
+
+REFERENCE           ROSH_PENIN  
+LANG_ENGLISH        "A Jedi student at Luke Skywalker's academy, Rosh Penin struggled with his training and emotions. His wavering loyalty led him to briefly serve the dark side, but he ultimately sought redemption and rejoined the fight against the Sith."
+LANG_CHINESE        "罗什·佩宁曾是卢克·天行者学院的一名绝地学徒，他在修行与情绪的双重困境中苦苦挣扎。摇摆不定的忠诚让他一度投身黑暗面，但最终他选择踏上救赎之路，重新加入对抗西斯的战斗。" 
+
+REFERENCE           SABINE_WREN  
+LANG_ENGLISH        "A Mandalorian warrior and graffiti artist, Sabine Wren was a former Imperial cadet who joined the Ghost crew. Skilled with explosives and lightsabers, she helped liberate Lothal and later searched the galaxy for Ezra Bridger alongside Ahsoka Tano."
+LANG_CHINESE        "萨宾·雷是一名曼达洛战士，同时也是一名涂鸦艺术家。她曾是帝国军校学员，后来加入了幽灵小队。她精通爆破与光剑技法，不仅助力解放了洛塔星球，此后还与阿索卡·塔诺一同在银河系中搜寻埃兹拉·布里杰的踪迹。" 
+
+REFERENCE           YUN  
+LANG_ENGLISH        "A Dark Jedi in the service of Jerec, Yun displayed compassion despite his allegiance. After being defeated by Kyle Katarn, he chose to aid the Jedi at the cost of his own life, proving that even those who fall can find redemption."
+LANG_CHINESE        "云是效力于杰雷克的一名黑暗绝地，尽管身处邪途，内心却尚存怜悯之心。在被凯尔·卡塔恩击败后，他选择牺牲自己、援助绝地，以此证明：即便是坠入黑暗之人，亦能寻得救赎之路。" 
+
+REFERENCE 			CORRAN_HORN
+LANG_ENGLISH 		"A Corellian pilot turned Jedi Knight, Corran Horn served with Rogue Squadron before discovering his connection to the Force. Trained during the New Republic era, he became known for his unconventional Force abilities, later helping to rebuild the Jedi Order under Luke Skywalker."	
+LANG_CHINESE        "科兰·霍恩本是一名科雷利亚飞行员，后成为绝地武士。他在发现自身与原力的联结前，曾效力于侠盗中队。他于新共和国时期接受绝地训练，凭借不拘一格的原力能力声名远扬，后来还协助卢克·天行者重建了绝地武士团。" 
+
+REFERENCE 			TOBIAS_BECKETT
+LANG_ENGLISH 		"A seasoned mercenary and thief, Tobias Beckett survived by trusting no one but his crew. Operating on the fringes of the growing rebellion, he embodied the harsh reality of life under Imperial rule, where loyalty was often fatal."
+LANG_CHINESE        "托比亚斯·贝克特是一名老练的佣兵兼窃贼，他的生存之道便是只信任自己的小队成员。他在义军势力逐渐壮大的时代背景下游走于法外之地，其人生轨迹恰恰印证了帝国统治下的残酷现实 —— 忠诚往往意味着致命的代价。" 
+
+REFERENCE 			JO_NA_NAWOOD
+LANG_ENGLISH 		"An Aldhani chieftain, Jo Na Nawood led the Dhanis while preserving their cultural traditions under Imperial occupation. His quiet resistance reflected the slow erosion of local autonomy as the Empire tightened its control."
+LANG_CHINESE        "乔·纳·纳伍德是一名阿尔德哈尼人酋长，在帝国占领期间，他领导着达尼斯部族，同时竭力守护部族的文化传统。他发起的无声抵抗，恰恰映照出帝国铁腕管控下，地方自治权被逐步蚕食的残酷现实。" 
+
+REFERENCE 			LUTHEN_RAEL
+LANG_ENGLISH 		"A covert revolutionary operating under multiple identities, Luthen Rael orchestrated rebel activity against the Galactic Empire from the shadows. Willing to sacrifice morality and lives alike, he became a key architect of the early Rebellion."
+LANG_CHINESE        "卢森·雷尔是一名隐匿于多重身份之下的秘密革命者，他在暗中策划统筹对抗银河帝国的起义行动。为了大业，他不惜舍弃道义、牺牲生命，最终成为早期义军同盟的核心缔造者之一。" 
+
+//----------------------------------------------------------
+// 	h6: EMPIRE
+//----------------------------------------------------------
+
+REFERENCE           ALORA  
+LANG_ENGLISH        "An ambitious Dark Side apprentice, Alora trained under Tavion during the rise of the Disciples of Ragnos. Skilled and ruthless, she sought power at any cost, ultimately clashing with Jedi Knight Jaden Korr in her pursuit of ancient Sith strength."
+LANG_CHINESE        "阿洛拉是一名野心勃勃的黑暗面学徒，在拉格诺斯信徒崛起之际拜入塔维昂门下。她身手狠辣、冷酷无情，为攫取权力不择手段，最终为争夺古老的西斯力量，与绝地武士杰登·科尔爆发激战。" 
+
+REFERENCE           BAYLAN_SKOLL  
+LANG_ENGLISH        "A former Jedi turned mercenary, Baylan Skoll survived the Purge and grew disillusioned with the Jedi Order. As a Force-wielder with a mysterious agenda, he sought a new balance beyond light and dark, forging his own path amidst a galaxy in turmoil."
+LANG_CHINESE        "贝兰·斯科尔曾是一名绝地，后沦为佣兵。他在大清洗中幸存下来，却对绝地武士团彻底幻灭。作为一名身怀神秘目的的原力使用者，他试图追寻一条超越光明与黑暗的全新平衡之路，在动荡的银河系中走出了属于自己的独特轨迹。" 
+
+REFERENCE           BOBA_FETT  
+LANG_ENGLISH        "The unaltered clone of Jango Fett, Boba Fett became one of the galaxy's most feared bounty hunters. Surviving the Sarlacc, he reclaimed his armor and forged a new legacy on Tatooine, balancing ruthless efficiency with a newfound sense of honor."
+LANG_CHINESE        "作为詹戈·费特未经改造的克隆体，波巴·费特成长为银河系最令人闻风丧胆的赏金猎人之一。从沙拉克口中死里逃生后，他夺回了属于自己的盔甲，并在塔图因开创了全新的传奇 —— 行事依旧冷酷果决，却也多了一份新生的荣誉感。" 
+
+REFERENCE           BOC  
+LANG_ENGLISH        "A deranged Dark Jedi serving under Jerec, Boc was known for his manic behavior and dual lightsaber combat. Despite his erratic nature, he posed a deadly threat to Kyle Katarn before ultimately falling in battle during the fight for the Valley of the Jedi."
+LANG_CHINESE        "博克是效忠于杰雷克的一名精神错乱的黑暗绝地，他以癫狂乖戾的行径和双手光剑战法闻名。尽管性情反复无常，他却曾对凯尔·卡塔恩构成致命威胁，最终在争夺绝地之谷的战役中殒命。" 
+
+REFERENCE           BOSSK  
+LANG_ENGLISH        "A Trandoshan bounty hunter with a hatred for Wookiees, Bossk was feared across the galaxy for his brutal tactics. Frequently seen working alongside the galaxy's most notorious hunters, he pursued high-value targets during the Clone Wars and Galactic Civil War."
+LANG_CHINESE        "博斯克是一名痛恨伍基人的特兰多沙人赏金猎人，其残酷的手段令他在银河系恶名昭彰。他常与银河系最臭名昭著的同行们联手行动，在克隆人战争与银河内战期间，一直追猎各类高价值目标。" 
+
+REFERENCE           DEATH_TROOPER  
+LANG_ENGLISH        "Elite soldiers of the Empire, Death Troopers were deployed for high-level missions, serving as bodyguards and enforcers for Imperial officers like Director Krennic. Clad in black armor and equipped with advanced gear, they struck fear into Rebel forces."
+LANG_CHINESE        "帝国的精锐士兵 ——死亡士兵，专为执行高级任务而部署，既是奥森·克伦尼克等帝国军官的贴身保镖，也是他们手中的铁血执行者。他们身着黑色装甲，配备尖端装备，令义军部队闻风丧胆。" 
+
+REFERENCE           DARK_TROOPER  
+LANG_ENGLISH        "Dark Troopers were advanced battle droids developed by the Empire, equipped with heavy armor and powerful weaponry. Designed to overwhelm infantry with brute force, they represented the pinnacle of Imperial military engineering in their era."
+LANG_CHINESE        "黑暗士兵是帝国研发的先进战斗机器人，身披重型装甲，搭载威力强大的武器。它们专为以蛮力压制敌方步兵而设计，堪称其所处时代里帝国军事工程技术的巅峰之作。" 
+
+REFERENCE           DARTH_DESOLOUS  
+LANG_ENGLISH        "Once a Jedi, Darth Desolous turned to the dark side and raised a brutal army against the Jedi Order. A master of melee combat and strategy, he was ultimately defeated, but his memory endured as a deadly holographic opponent in Sith training programs."
+LANG_CHINESE        "达斯·德索勒斯曾是一名绝地，后投身黑暗面，组建起一支残暴的军队对抗绝地武士团。他精于近战格斗与战略部署，最终兵败陨落，但他的形象却以致命全息对手的形式留存于西斯训练项目中，供后人研习。" 
+
+REFERENCE           DARTH_KRAYT  
+LANG_ENGLISH        "Born A'Sharad Hett, a former Jedi and Tusken Raider, he became Darth Krayt after embracing the dark side. Founder of the One Sith, he sought to reshape the galaxy under his rule, blending ancient Sith traditions with new philosophies of control."
+LANG_CHINESE        "原名阿沙拉德·黑特，曾是一名绝地武士，同时也是塔斯肯袭击者的一员。他投身黑暗面后化名为达斯·克雷特，一手创立了 “一西斯” 组织。他试图以铁腕统治重塑银河系，将古老的西斯传统与全新的控制理念融为一体。" 
+
+REFERENCE           DARTH_PHOBOS  
+LANG_ENGLISH        "A seductive and manipulative Sith Lord, Darth Phobos thrived on fear and deception. Though long dead, her terrifying presence lived on through Sith training simulations, challenging apprentices with illusions and psychological warfare."
+LANG_CHINESE        "达斯·福波斯是一位极具魅惑力且擅长操控人心的西斯尊主，她凭借恐惧与欺诈之道立足。尽管早已殒命，但她骇人的形象仍留存于西斯训练模拟程序中，以幻象与心理战考验着每一位西斯学徒。" 
+
+REFERENCE           DARTH_TALON  
+LANG_ENGLISH        "A loyal servant of Darth Krayt, Darth Talon was a skilled and deadly Sith assassin. Recognizable by her red skin and black tattoos, she enforced Krayt's will across the galaxy and became a symbol of fear during the rise of the One Sith."
+LANG_CHINESE        "达斯·塔隆是达斯·克雷特的忠实仆从，同时也是一名身手卓绝、致命狠辣的西斯刺客。她标志性的红色皮肤与黑色纹身辨识度极高，在 “一西斯” 崛起的过程中，于银河系各处贯彻克雷特的意志，成为了令人恐惧的象征。" 
+
+REFERENCE           DARTH_VADER  
+LANG_ENGLISH        "Once Anakin Skywalker, a Jedi Knight and hero of the Clone Wars, he was seduced by the dark side and became Darth Vader. As the Emperor's enforcer, he hunted down Jedi and crushed rebellion, until the love for his son brought about his redemption."
+LANG_CHINESE        "原名阿纳金·天行者，曾是一名绝地武士，也是克隆人战争中的英雄。他被黑暗面引诱堕落，化身为达斯·维达。作为皇帝的执行者，他四处猎杀绝地、镇压叛乱，直至对儿子的爱唤醒了内心的良知，最终得以救赎。" 
+
+REFERENCE           DESANN  
+LANG_ENGLISH        "A former Jedi who embraced the dark side, Desann became a formidable Sith aligned with the Empire Reborn. Towering in stature and power, he sought to recreate the Sith's strength through dark experiments, clashing with Kyle Katarn in a decisive duel."
+LANG_CHINESE        "德桑曾是一名绝地，后投身黑暗面，成为效力于重生帝国的强大西斯。他身形高大、力量惊人，试图通过黑暗实验重塑西斯的力量，最终与凯尔·卡塔恩展开了一场决定性的决斗。" 
+
+REFERENCE           DIRECTOR_ORSON_KRENNIC  
+LANG_ENGLISH        "Director Orson Krennic was the ruthless Imperial officer overseeing the Death Star project. Ambitious and cunning, he sought to secure power within the Empire by ensuring the superweapon's completion, clashing with both Rebels and rival Imperial leaders."
+LANG_CHINESE        "奥森·克伦尼克总监是冷酷无情的帝国军官，全权负责死星项目的推进。他野心勃勃、心机深沉，一心想通过确保这一超级武器的完工，在帝国内部巩固自身权势，为此不惜与义军以及帝国的政敌们针锋相对。" 
+
+REFERENCE           EMPEROR_PALPATINE  
+LANG_ENGLISH        "Also known as Darth Sidious, Emperor Palpatine was the dark mastermind behind the fall of the Republic. Manipulating political and Sith power, he ruled the galaxy with fear and tyranny until his final defeat by Luke Skywalker and Anakin's redemption."
+LANG_CHINESE        "他亦被称为达斯·西迪厄斯，皇帝帕尔帕廷正是导致共和国覆灭的幕后黑手。他一手操控政治权谋与西斯力量，以恐惧与暴政统治银河系，直至在卢克·天行者与阿纳金的救赎之力下迎来最终败亡。" 
+
+REFERENCE           GALAK_FYYAR  
+LANG_ENGLISH        "A mercenary and bounty hunter, Galak Fyyar was known for his relentless pursuit of targets and allegiance to dark forces. His violent nature made him a feared figure in the Outer Rim, frequently crossing paths with Jedi and criminals alike."
+LANG_CHINESE        "加拉克·菲亚尔是一名佣兵兼赏金猎人，向来以对目标的锲而不舍，以及对黑暗势力的效忠而闻名。他生性残暴，是外环星域人人忌惮的狠角色，频繁与各路英雄豪杰及不法之徒产生交集。" 
+
+REFERENCE           GAMORREAN_GUARD  
+LANG_ENGLISH        "Brutish and loyal, Gamorrean Guards served as fearsome enforcers within the criminal underworld and Imperial facilities. Their raw strength and intimidating presence made them formidable bodyguards, especially in Jabba the Hutt's palace."
+LANG_CHINESE        "加莫人卫兵生性野蛮且忠诚不二，是黑道与帝国设施中令人闻风丧胆的执行者。他们凭借天生的蛮力与骇人的威慑力，成为了极具威胁的保镖，这一点在赫特人贾巴的宫殿里体现得尤为明显。" 
+
+REFERENCE           GORC  
+LANG_ENGLISH        "Gorc was a Force-sensitive Gamorrean who served Jabba the Hutt before being betrayed to the Galactic Empire and mutated into Sithspawn. He formed a Force-linked bond with Pic, and together they were known as the 'Brothers of the Sith', serving the Dark Jedi Inquisitor Jerec. Gorc was killed in 5 ABY by Kyle Katarn."
+LANG_CHINESE        "戈尔克是一名拥有原力天赋的加莫人，起初效力于赫特人贾巴，后遭背叛落入银河帝国手中，被改造为西斯造物。他与皮克之间建立了一条原力联结纽带，二人并称 西斯兄弟，效忠于黑暗绝地审判官杰雷克。戈尔克最终于雅文战役后 5 年，被凯尔·卡塔恩击杀。" 
+
+REFERENCE           GRAND_ADMIRAL_THRAWN  
+LANG_ENGLISH        "A brilliant strategist and tactician, Grand Admiral Thrawn was one of the Empire's most feared commanders. Known for his calm demeanor and understanding of art, he used intellect and cunning to challenge the Rebel Alliance at every turn."
+LANG_CHINESE        "索龙元帅是一位才华横溢的战略家与战术家，亦是帝国最为令人忌惮的指挥官之一。他以沉着冷静的行事风格，以及对艺术的独到见解而闻名，凭借超凡智谋与诡诈手段，在每一次交锋中都令义军同盟疲于应对。" 
+
+REFERENCE           GRAND_MOFF_TARKIN  
+LANG_ENGLISH        "Governor of the Outer Rim and overseer of the Death Star, Grand Moff Tarkin was a ruthless Imperial leader. His doctrine of fear and decisive actions shaped the Empire's military strategy until his demise during the Battle of Yavin."
+LANG_CHINESE        "塔金大区总督身兼外环星域管理者与死星总监两职，是一名冷酷无情的帝国领袖。他所奉行的恐惧统治理念与雷厉风行的行事作风，深刻塑造了帝国的军事战略，直至其在雅文战役中殒命。" 
+
+REFERENCE           GREEDO  
+LANG_ENGLISH        "A Rodian bounty hunter notorious for his encounter with Han Solo in the Mos Eisley Cantina. Greedo's eagerness and reputation for taking dangerous jobs made him a persistent threat to smugglers and criminals in the galaxy."
+LANG_CHINESE        "格里多是一名罗迪亚族赏金猎人，因在莫斯艾斯利小酒馆与汉·索罗的对峙事件而声名狼藉。他行事急躁，且向来以承接高危任务著称，是银河系走私者与不法之徒需要时刻提防的威胁。" 
+
+REFERENCE           HAZARDTROOPER  
+LANG_ENGLISH        "Elite Imperial infantry trained for hazardous environments, Hazardtroopers operated in extreme conditions with specialized gear. Their expertise in survival and combat made them key assets during high-risk missions for the Empire."
+LANG_CHINESE        "环境突击兵是帝国为应对高危环境而训练的精锐步兵，配备专业装备执行极端条件下的任务。他们兼具强悍的生存能力与战斗素养，是帝国高风险行动中的核心战力。" 
+
+REFERENCE           IMPERIAL_ROYAL_GUARD  
+LANG_ENGLISH        "Clad in striking red armor, the Imperial Royal Guards were elite protectors of Emperor Palpatine. Silent and deadly, their presence symbolized the Emperor's absolute power and they were trained in advanced combat and Force defense techniques."
+LANG_CHINESE        "帝国皇家卫队身着醒目的红色盔甲，是帕尔帕廷皇帝的精锐护卫。他们沉默而致命，其存在象征着皇帝的绝对权力，并且接受过高级战斗和原力防御技巧的训练。" 
+
+REFERENCE           IMPERIAL_SHADOW_GUARD  
+LANG_ENGLISH        "A secretive division of Imperial operatives, the Shadow Guard specialized in covert missions and assassinations. Their skills in stealth and infiltration made them invaluable tools of the Emperor's will across the galaxy."
+LANG_CHINESE        "暗影卫队是帝国麾下一支隐秘的特工部队，专攻秘密任务与刺杀行动。他们精通潜行渗透之术，是帕尔帕廷皇帝在银河系贯彻意志的无价利器。" 
+
+REFERENCE           IMPERIAL_WORKER  
+LANG_ENGLISH        "Imperial Workers maintained and operated the vast machinery of the Empire, from starship construction to base operations. Though often overlooked, their labor was essential to the efficiency and power of the Imperial war machine."
+LANG_CHINESE        "帝国工人负责维护与运作帝国庞大的机械设施，工作范畴上至星际飞船建造，下至军事基地日常运维。尽管他们的身影时常被忽略，但正是这份劳动，构成了帝国战争机器高效运转、威慑四方的核心支柱。" 
+
+REFERENCE           JEREC  
+LANG_ENGLISH        "Jerec was a powerful Miraluka Jedi Master and archaeologist who fell to the dark side and became a feared Imperial Inquisitor. Obsessed with Sith lore and the Valley of the Jedi, he sought ultimate power and to overthrow Palpatine and Vader. After the Emperor's death, Jerec briefly achieved immense power from the Valley but was ultimately defeated and killed by Kyle Katarn."
+LANG_CHINESE        "杰雷克曾是一位实力强大的米拉卢卡人绝地大师兼考古学家，后堕入黑暗面，成为令人闻风丧胆的帝国裁判官。他痴迷于西斯典籍与绝地之谷，一心渴求无上力量，妄图推翻帕尔帕廷与维达。皇帝驾崩后，杰雷克一度从绝地之谷中攫取了巨大力量，但最终还是被凯尔·卡塔恩击败并斩杀。" 
+
+REFERENCE           MAW  
+LANG_ENGLISH        "Maw was a Boltrunian Jedi who fell to the dark side and served Inquisitor Jerec in the search for the Valley of the Jedi. After losing his legs in a confrontation with Jedi Master Qu Rahn, he survived using a repulsorlift and became known as the 'Half-Man'. Maw was ultimately defeated and killed by Kyle Katarn on Ruusan."
+LANG_CHINESE        "莫夫曾是一名博尔特鲁尼亚人绝地，后堕入黑暗面，追随裁判官杰雷克一同搜寻绝地之谷。在与绝地大师奎·拉恩的一场交锋中，他失去了双腿，依靠反重力悬浮装置活了下来，并由此得名 “半人”。最终，莫夫在鲁桑星球被凯尔·卡塔恩击败并斩杀。" 
+
+REFERENCE           MOFF_GIDEON  
+LANG_ENGLISH        "A ruthless Imperial officer, Moff Gideon rose to power in the remnants of the Empire. Skilled in strategy and combat, he wields the Darksaber and commands elite forces, seeking to restore Imperial dominance amid the galaxy's chaos."
+LANG_CHINESE        "吉迪恩总督是一名冷酷无情的帝国军官，在帝国残余势力中一步步攫取权力。他精通战略与格斗，手握暗剑、统率精锐部队，一心要在银河乱世之中重振帝国的霸主地位。" 
+
+REFERENCE           PIC  
+LANG_ENGLISH        "Picaroon C. Boodle, known as Pic, was a mutated Kowakian monkey-lizard and one of Inquisitor Jerec's Dark Jedi, bonded through the Force with his 'brother' Gorc. Enhanced by Imperial experiments, the pair became a deadly combination of speed and strength. After Gorc was killed by Kyle Katarn in 5 ABY, Pic attacked in a rage and was also slain."
+LANG_CHINESE        "皮卡伦·C·布德尔，人称皮卡，是一名发生变异的科瓦基猴子蜥，同时也是裁判官杰雷克麾下的一名黑暗绝地。他与 “兄弟” 戈克通过原力相连，二人经帝国实验改造后，成为一对兼具速度与力量的致命搭档。雅文战役后 5 年，戈克被凯尔·卡塔恩击杀，皮卡盛怒之下发起猛攻，最终也命丧其手。" 
+
+REFERENCE           REBORN  
+LANG_ENGLISH        "The Reborn were the deadly force of the Dark Jedi. They were the result of the fulfillment of the dream of artificially transferring the Force to individuals and a tool of Lord Hethrir's grand plan to restore the ideals of Emperor Palpatine, the ways of the Sith, and the Galactic Empire itself. They served under Desann and were later used by his apprentice, Tavion."
+LANG_CHINESE        "重生者是一支由黑暗绝地组成的致命武装力量。他们是 “人工将原力移植给凡人” 这一构想成真的产物，也是赫思领主宏大计划的工具 —— 后者意图光复帕尔帕廷皇帝的理念、西斯之道，乃至重建银河帝国。重生者起初效忠于德桑，后来又为其学徒塔维昂所用。" 
+
+REFERENCE           PURGE_TROOPER  
+LANG_ENGLISH        "Elite Imperial soldiers trained specifically to hunt down and eliminate surviving Jedi after Order 66. Equipped with advanced armor and weapons, Purge Troopers are relentless and feared across the galaxy."
+LANG_CHINESE        "这是一批专为 66 号指令后追捕并肃清幸存绝地而训练的帝国精锐士兵。清洗兵配备先进装甲与武器，行事冷酷无情，令整个银河为之忌惮。" 
+
+REFERENCE           RAX_JORIS  
+LANG_ENGLISH        "Rax Joris was a corrupt Imperial Remnant prison warden on Dosuun who cruelly hunted escaped prisoners for sport. In 14 ABY, he captured Jedi Jaden Korr and attempted the same game, taunting and attacking him with a concussion rifle. Joris was ultimately defeated by Korr, who reclaimed his lightsaber."
+LANG_CHINESE        "拉克斯·乔里斯是多苏恩星球上一名腐败的帝国残余狱卒长，他以猎杀越狱囚犯为乐，手段残忍。雅文战役后 14 年，他俘获了绝地杰登·科尔，故技重施对其展开猎杀，还手持震荡步枪不断嘲讽、攻击对方。最终乔里斯被科尔击败，后者也夺回了自己的光剑。" 
+
+REFERENCE           ROCKETTROOPER  
+LANG_ENGLISH        "Specialized Imperial infantry equipped with jetpacks and heavy weaponry, Rockettroopers excelled in rapid assault and battlefield disruption. Their mobility and firepower made them formidable enemies in open combat."
+LANG_CHINESE        "火箭兵是一类配备喷气背包与重武器的帝国特种步兵，擅长快速突袭与扰乱战场阵型。凭借出众的机动性与强大火力，他们在开阔战场中成为令人生畏的劲敌。" 
+
+REFERENCE           ROYAL_COMBAT_GUARD  
+LANG_ENGLISH        "Elite warriors trained to protect Imperial royalty and key leaders. Wearing imposing armor and wielding advanced weapons, the Royal Combat Guards combine martial prowess with unwavering loyalty to the Empire."
+LANG_CHINESE        "皇家战斗卫队是一支受训专职保护帝国皇室成员与核心领袖的精锐部队。他们身披威严铠甲，手持先进武器，兼具精湛的格斗技艺与对帝国矢志不渝的忠诚。" 
+
+REFERENCE           SABER_TRAINING_DROID  
+LANG_ENGLISH        "Automated droids designed to help Jedi apprentices practice lightsaber combat. Equipped with sensors and adaptive programming, these droids simulate various fighting styles to hone the skills of Jedi trainees."
+LANG_CHINESE        "这是一类专为辅助绝地学徒训练光剑格斗而设计的自动化机器人。它们搭载各类传感器与自适应程序，能够模拟多种战斗风格，以此锤炼绝地受训者的实战技巧。" 
+
+REFERENCE           FORCE_TRAINING_DROID  
+LANG_ENGLISH        "Droids created to assist Force-sensitive students in developing their abilities. These training units provide challenges and feedback tailored to the user's skill level, accelerating mastery of Force powers."
+LANG_CHINESE        "这是一类专为辅助原力敏感者学员锻炼自身能力而制造的机器人。这些训练机型能根据使用者的能力水平，量身定制训练挑战并给出反馈，以此加速学员对原力技能的掌握。" 
+
+REFERENCE           SABOTEUR  
+LANG_ENGLISH        "Imperial Saboteurs were elite Imperial Remnant soldiers trained in stealth, sabotage, and demolitions. Equipped with advanced weapons and stealth field generators, they could operate nearly invisibly behind enemy lines. During the Galactic Civil War, they conducted missions across the galaxy and sometimes worked alongside stormtroopers for the Disciples of Ragnos."
+LANG_CHINESE        "帝国破坏者是一支受训于潜行、破坏与爆破战术的帝国残余精锐部队。他们配备先进武器与隐形力场发生器，能在敌后近乎隐匿地开展行动。银河内战期间，这支队伍在全银河范围内执行任务，有时还会与冲锋队员协同作战，效力于拉格诺斯信徒会。" 
+
+REFERENCE           SARISS  
+LANG_ENGLISH        "Sariss, known as the 'Prophetess', was a Force-sensitive Human and one of Jerec's seven Dark Jedi seeking the Valley of the Jedi after the Empire's fall. Daughter of Imperial Warlord Cronal, she was trained in the Dark Side by the Prophets on Dromund Kaas and completed her apprenticeship under Jerec, becoming one of his most loyal followers."
+LANG_CHINESE        "萨丽丝，人称 “女先知”，是一名拥有原力天赋的人类，同时也是帝国覆灭后，杰雷克麾下追寻绝地之谷的七名黑暗绝地之一。她是帝国军阀克罗纳尔的女儿，曾在德罗蒙德·卡斯星球接受先知组织的黑暗面训练，最终在杰雷克门下完成学徒修行，成为其最忠心的追随者之一。" 
+
+REFERENCE           SHIN_HATI  
+LANG_ENGLISH        "Shin Hati was a Force-sensitive human and apprentice of Baylan Skoll, working with Morgan Elsbeth to track down Grand Admiral Thrawn. She dueled Sabine Wren and later confronted Ahsoka Tano while attempting to secure a Nightsister star map. She traveled to Peridea but was defeated and left to flee alone."
+LANG_CHINESE        "辛·哈蒂是一名拥有原力天赋的人类，同时也是贝兰·斯科尔的学徒。她效力于摩根·埃尔贝斯，参与搜寻索龙元帅的行动。她曾与莎宾·雷恩展开光剑对决，后又在争夺暗夜姐妹星图的行动中与阿索卡·塔诺正面交锋。她随队前往佩雷迪亚星球，最终战败，被迫孤身逃亡。" 
+
+REFERENCE           STARKILLER  
+LANG_ENGLISH        "Born Galen Marek, Starkiller was Darth Vader's secret apprentice trained in the dark side. Torn between loyalty and redemption, his powerful Force abilities shaped key events in the battle between Sith and Jedi."
+LANG_CHINESE        "弑星者原名盖伦·马雷克，是达斯·维达秘密培养的一名黑暗面学徒。他在忠诚与救赎之间挣扎徘徊，其强大的原力能力，深刻影响了西斯与绝地战争中的诸多关键事件。" 
+
+REFERENCE           STORMTROOPER  
+LANG_ENGLISH        "The backbone of the Imperial military, Stormtroopers enforce the Empire's will across the galaxy. Clad in iconic white armor, they maintain order through intimidation and combat, often facing off against Rebel forces."
+LANG_CHINESE        "冲锋队员是帝国军队的中坚力量，在全银河范围内贯彻帝国的意志。他们身着标志性的白色盔甲，以威慑与战斗的手段维持秩序，常年与义军部队对峙交锋。" 
+
+REFERENCE           TARON_MALICOS  
+LANG_ENGLISH        "Taron Malicos was a Jedi Master who fell to the dark side after surviving Order 66 and leading Dathomir's Nightbrothers. He tried to deceive Merrin and turn Cal Kestis to the dark side but was ultimately defeated and killed by Kestis and Merrin."
+LANG_CHINESE        "塔伦·马利科斯曾是一名绝地大师，在 66 号指令中幸存后，他堕入黑暗面，还成为了达索米尔暗夜兄弟会的领袖。他试图欺骗梅林，同时诱使卡尔·凯斯提斯投向黑暗面，最终却被凯斯提斯与梅林联手击败并斩杀。" 
+
+REFERENCE           TAVION_AXMIS  
+LANG_ENGLISH        "Tavion Axmis was a Human Dark Jedi and apprentice of Desann who sought the Valley of the Jedi and later led the Disciples of Ragnos. She turned Rosh Penin to the dark side and attempted to resurrect Marka Ragnos on Korriban. Axmis was ultimately killed when Jaden Korr defeated Ragnos, whose spirit had taken over her body."
+LANG_CHINESE        "塔维昂·阿克西斯是一名人类黑暗绝地，同时也是德桑的学徒。她曾参与追寻绝地之谷的行动，后来成为拉格诺斯信徒会的领袖。她诱使罗什·佩宁堕入黑暗面，还试图在科里班星球复活马卡·拉格诺斯。最终，杰登·科尔击败了附身于她体内的拉格诺斯之魂，塔维昂也随之殒命。" 
+
+REFERENCE           THE_GRAND_INQUISITOR  
+LANG_ENGLISH        "Once a Jedi Temple Guard, the Grand Inquisitor turned Sith hunter led the Empire's efforts to eradicate Jedi survivors. His cunning and lightsaber skills made him a feared enforcer of Imperial will."
+LANG_CHINESE        "大裁判官曾是一名绝地圣殿守卫，后叛变为西斯猎手，主导帝国肃清绝地幸存者的行动。他心机深沉、光剑技艺精湛，是令人生畏的帝国意志执行者。" 
+
+REFERENCE           THE_EIGHTH_BROTHER  
+LANG_ENGLISH        "The Eighth Brother was a Force-sensitive Terrelian Inquisitor who hunted the Rebellion and the Spectres. He died on Malachor while attempting to escape after Kanan Jarrus damaged his lightsaber."
+LANG_CHINESE        "八弟是一名拥有原力天赋的特雷利安族裁判官，专门猎杀义军同盟与幽灵小队。在马拉乔星球，他的光剑被卡南·贾勒斯损毁，试图逃亡时殒命于此。" 
+
+REFERENCE           THE_FIFTH_BROTHER  
+LANG_ENGLISH        "The Fifth Brother was a male Inquisitor of the Empire who hunted the Rebellion and Jedi under Darth Vader's orders. He participated in missions against Eeth Koth, Nari, and the Spectres, and was ultimately killed by Maul on Malachor."
+LANG_CHINESE        "五弟是一名效忠于帝国的男性裁判官，奉达斯·维达之命猎杀义军同盟与绝地幸存者。他参与过针对伊思·科思、纳里以及幽灵小队的行动，最终在马拉乔星球死于摩尔之手。" 
+
+REFERENCE           THE_NINTH_SISTER  
+LANG_ENGLISH        "The Ninth Sister, formerly Jedi Masana Tide, was a Force-sensitive Dowutin Inquisitor who fell to the dark side after being captured and tortured by the Empire. Trained by the Grand Inquisitor and Darth Vader, she hunted Jedi including Ferren Barr and Cal Kestis. She was ultimately killed by Kestis on Coruscant in 9 BBY."
+LANG_CHINESE        "九姐曾是名为玛萨娜·泰德的绝地武士，她是一名拥有原力天赋的多乌丁族裁判官，在被帝国俘获并遭受酷刑折磨后堕入黑暗面。她先后接受过大裁判官与达斯·维达的训练，奉命猎杀包括费伦·巴尔与卡尔·凯斯提斯在内的绝地幸存者。雅文战役前 9 年，她在科洛桑星球被卡尔·凯斯提斯击杀。" 
+
+REFERENCE           THE_SECOND_SISTER  
+LANG_ENGLISH        "The Second Sister, formerly Trilla Suduri, fell to the dark side after being captured and tortured by the Empire. She became a ruthless Inquisitor, hunting Jedi fugitives like Cal Kestis across the galaxy. After being defeated by Kestis on Nur, she was executed by Vader, leaving a lasting impact on both Kestis and her former master, Cere Junda."
+LANG_CHINESE        "二姐曾名为特里拉·苏杜里，在被帝国俘获并遭受酷刑折磨后堕入黑暗面。她化身冷酷无情的裁判官，在全银河范围内猎杀卡尔·凯斯提斯等绝地逃犯。后来她在努尔星球被卡尔·凯斯提斯击败，随即遭达斯·维达处决，她的结局对卡尔·凯斯提斯及其前师父塞雷·琼达都产生了深远影响。" 
+
+REFERENCE           THE_SEVENTH_SISTER  
+LANG_ENGLISH        "The Seventh Sister was a Mirialan Inquisitor of the Empire who hunted Jedi and sought to replace the Grand Inquisitor. She clashed with the Spectres across multiple missions but was ultimately killed by Maul on Malachor."
+LANG_CHINESE        "七妹是一名效忠于帝国的米里亚尔人裁判官，她一边猎杀绝地幸存者，一边图谋取代大裁判官的位置。她在多场任务中与幽灵小队交锋，最终于马拉乔星球死于摩尔之手。" 
+
+REFERENCE           THE_THIRD_SISTER  
+LANG_ENGLISH        "Reva Sevander, also known as the Third Sister, was driven by revenge against Darth Vader for the Jedi Purge. She hunted Obi-Wan Kenobi and Princess Leia, while secretly seeking to kill Vader. After failing to assassinate him and being confronted by Kenobi, she abandoned her quest for vengeance and ultimately chose to let go of her past."
+LANG_CHINESE        "瑞瓦·塞万德，亦称三姐，因绝地大清洗一事对达斯·维达怀恨在心，复仇的执念驱使着她的一切行动。她奉命追捕欧比旺·克诺比与莱娅公主，背地里却一心想要刺杀维达。刺杀行动失败后，她又与欧比旺正面对峙，最终放下了复仇的执念，选择与自己的过去和解。" 
+
+REFERENCE           VIZAM  
+LANG_ENGLISH        "Vizam was a Kajain'sa'Nikto who served as weapons master for Jabba the Hutt. He oversaw palace security, witnessed key events like the rancor pit and Leia’s infiltration, and participated in the transport of prisoners to the Sarlacc. Vizam was ultimately killed by Luke Skywalker aboard Jabba's sail barge."
+LANG_CHINESE        "维扎姆是一名卡贾因萨尼克托人，担任赫特人贾巴的武器大师。他负责守卫宫殿安全，亲历了兰克斗兽坑、莱娅潜入宫殿等关键事件，还参与过将囚犯押送至沙拉克巨坑的行动。最终，维扎姆在贾巴的风帆游艇上死于卢克·天行者之手。" 
+
+REFERENCE           WEEQUAY  
+LANG_ENGLISH        "A species known for their toughness and warrior culture, Weequays often served as mercenaries, guards, and pirates. Their rugged appearance and fierce loyalty made them common figures in the galaxy's underworld."
+LANG_CHINESE        "威奎人是一个以坚韧和战士文化著称的种族，他们经常充当雇佣兵、保镖和海盗。" 
+
+REFERENCE 			DAGAN_GERA
+LANG_ENGLISH 		"A Jedi Knight of the High Republic era, Dagan Gera was a gifted warrior who became consumed by bitterness after the loss of Tanalorr. Preserved in stasis for centuries, he awakened to a changed galaxy and ultimately fell to the dark side, clashing with Cal Kestis in a failed bid to reclaim his lost vision."
+LANG_CHINESE        "达冈·盖拉是一名高共和国时代的绝地武士，这位天赋异禀的战士在失去塔纳洛尔之后，内心被怨恨彻底吞噬。他在静止舱中被封存了数百年，苏醒时面对的已是一个全然改变的银河系，最终堕入黑暗面。他为夺回自己执念中的愿景与卡尔·凯斯提斯多次交锋，终以失败告终。" 
+
+//----------------------------------------------------------
+// 	h7: RESISTANCE
+//----------------------------------------------------------
+
+REFERENCE           BLACK_KRRSTANTAN  
+LANG_ENGLISH        "A fearsome Wookiee bounty hunter and former gladiator, Black Krrsantan worked for the Hutt Cartel and later aligned with Boba Fett. Known for his brutal strength and combat prowess, he earned a reputation across the galaxy as a relentless and intimidating enforcer."
+LANG_CHINESE        "布莱克·克斯桑坦是一名令人生畏的伍基人赏金猎人，也曾当过角斗士。他曾效力于赫特卡特尔，后来与波巴·费特结盟。凭借凶悍的蛮力与高超的格斗技艺，他在全银河系都闯出了名号，成为一名冷酷无情、令人闻风丧胆的执行者。" 
+
+REFERENCE           BO_KATAN_KRYZE  
+LANG_ENGLISH        "A proud Mandalorian warrior and former member of Death Watch, Bo-Katan sought to restore Mandalore's honor. Wielding the Darksaber and leading the Nite Owls, she played a key role in both resisting Imperial rule and supporting Din Djarin in the fight for Mandalorian unity."
+LANG_CHINESE        "博·卡坦是一名骄傲的曼达洛战士，也曾是死神卫的成员，她一心想要恢复曼达洛的荣耀。她手握暗剑、率领暗夜鸮部队，在反抗帝国统治的斗争中发挥了关键作用，后来又协助丁·贾林为实现曼达洛人的团结而战。" 
+
+REFERENCE           CARA_DUNE  
+LANG_ENGLISH        "A former Rebel shock trooper from Alderaan, Cara Dune became a marshal of the New Republic. Skilled in combat and fiercely loyal, she aided Din Djarin on several missions, using her military experience to fight remnants of the Empire and uphold justice on the Outer Rim."
+LANG_CHINESE        "卡拉·杜恩是一名出身奥德朗的前义军突击队员，后来成为新共和国的执法官。她精通格斗、忠诚可靠，曾多次协助丁·贾林执行任务，凭借自身的军事经验对抗帝国残余势力，在外环星域维护正义。" 
+
+REFERENCE           DIN_DJARIN  
+LANG_ENGLISH        "A Mandalorian foundling raised in the creed of the Children of the Watch, Din Djarin worked as a bounty hunter before becoming the protector of Grogu. His journey led him across the galaxy, forging alliances and ultimately taking part in the fight to restore Mandalore."
+LANG_CHINESE        "丁·贾林是一名在守望之子教派信条下长大的曼达洛弃婴，他曾以赏金猎人的身份闯荡江湖，后来成为古古的守护者。他的征途遍及整个银河系，在此过程中缔结了诸多同盟，最终投身于光复曼达洛的战斗之中。" 
+
+REFERENCE           FENNEC_SHAND  
+LANG_ENGLISH        "An elite mercenary and assassin, Fennec Shand earned her reputation through ruthless efficiency and sharp tactics. After being saved by Boba Fett, she pledged her loyalty to him and became his trusted partner in governing the criminal underworld of Tatooine."
+LANG_CHINESE        "芬内克·尚德是一名顶尖雇佣兵兼刺客，凭借冷酷高效的作风与精明的战术手段闯出名望。在被波巴·费特救下性命后，她宣誓效忠对方，继而成为其心腹搭档，联手治理塔图因星球的黑道地下秩序。" 
+
+REFERENCE           FINN  
+LANG_ENGLISH        "Originally designated FN-2187, Finn was a First Order stormtrooper who defected after witnessing their cruelty. Joining the Resistance, he fought bravely in key battles and discovered his own sensitivity to the Force, seeking to find his place in the galaxy."
+LANG_CHINESE        "芬恩的编号原为 FN-2187，他曾是一名第一秩序冲锋队员，在目睹其暴行后选择叛逃。加入抵抗组织后，他在多场关键战役中英勇作战，还觉醒了自身的原力感应能力，从此踏上了寻找自己在银河系中归属的旅程。" 
+
+REFERENCE           GREEF_KARGA  
+LANG_ENGLISH        "Once a guild magistrate on Nevarro, Greef Karga led bounty hunters and oversaw contracts. After aligning with Din Djarin, he transitioned into a leadership role, helping stabilize Nevarro and defend it from Imperial remnants and lawlessness."
+LANG_CHINESE        "格里夫·卡尔加曾是内瓦罗星球的公会执法官，负责统领赏金猎人并管理任务契约。在与丁·贾林结盟后，他转型成为一名领导者，协助稳定内瓦罗的局势，抵御帝国残余势力的侵袭与星球上的不法乱象。" 
+
+REFERENCE           GROGU  
+LANG_ENGLISH        "A mysterious young being strong in the Force, Grogu was rescued from the Jedi Temple during Order 66. Raised in secrecy, he was eventually protected by Din Djarin, with whom he formed a deep bond. Trained briefly by Luke Skywalker, Grogu chose to return to the Mandalorian's side."
+LANG_CHINESE        "古古是一名身世成谜、原力造诣深厚的幼崽，在 66 号指令执行期间从绝地圣殿中被救出。他一直过着隐姓埋名的生活，后来得到丁·贾林的守护，二人缔结了深厚的羁绊。尽管曾短暂师从卢克·天行者，但古古最终还是选择回到这位曼达洛人的身边。" 
+
+REFERENCE           KUIIL  
+LANG_ENGLISH        "A wise and humble Ugnaught, Kuiil was a former Imperial indentured servant who earned his freedom. Living in solitude on Arvala-7, he helped Din Djarin care for Grogu and restore IG-11. He was known for his calm wisdom and the iconic phrase, 'I have spoken'."
+LANG_CHINESE        "奎伊尔是一名睿智谦逊的乌格瑙特人，曾是帝国的契约奴仆，后来凭借自己的努力重获自由。他在阿瓦拉·7 星球过着独居生活，不仅协助丁·贾林照料古古，还参与修复了 IG-11。奎伊尔以沉稳的智慧和标志性台词 “我意已决” 闻名。" 
+
+REFERENCE           LUKE_SKYWALKER_SEQUEL  
+LANG_ENGLISH        "Years after the fall of the Empire, Luke Skywalker became a legend and sought to rebuild the Jedi Order. Haunted by failure after Ben Solo's fall, he exiled himself on Ahch-To. Ultimately, he returned in spirit, guiding the next generation and confronting his past with redemption."
+LANG_CHINESE        "帝国覆灭多年后，卢克·天行者已然成为传奇，他立志重建绝地武士团。然而，本·索洛堕入黑暗面的悲剧令他深陷失败的愧疚，最终自我放逐于阿奇托星球。在人生的终章，他以英灵之姿归来，指引新一代的绝地传人，直面自己的过往并完成了自我救赎。" 
+
+REFERENCE           NEW_REPUBLIC_SOLDIER  
+LANG_ENGLISH        "Soldiers of the New Republic defended the galaxy in the wake of the Empire's collapse. Often stationed in remote sectors, they patrolled trade routes, responded to unrest, and symbolized the fragile hope of galactic peace in a time of rising threats."
+LANG_CHINESE        "帝国覆灭后，新共和国士兵肩负起了守卫银河系的重任。他们常年驻守在偏远星域，巡逻贸易航线、应对各类动乱，在威胁悄然抬头的时代，成为了银河系脆弱和平的象征。" 
+
+REFERENCE           NEW_REPUBLIC_SECURITY_DROID  
+LANG_ENGLISH        "Tasked with enforcing law and order, New Republic security droids provided support aboard prison ships and outposts. Equipped with powerful weapons and durable chassis, they ensured compliance among prisoners and maintained security in volatile regions of the galaxy."
+LANG_CHINESE        "新共和国治安机器人的职责是维护法律与秩序，它们在监狱船与前哨基地执行支援任务。这些机器人配备了威力强劲的武器与坚固耐用的机身，既能确保囚犯安分守己，也能在银河系局势动荡的区域维持安全稳定。" 
+
+REFERENCE           PAZ_VIZSLA  
+LANG_ENGLISH        "A heavily armed Mandalorian warrior and member of the Tribe, Paz Vizsla was a descendant of the legendary Tarre Vizsla. Fiercely loyal to Mandalorian tradition, he clashed with Din Djarin over the Darksaber but ultimately sacrificed himself defending fellow Mandalorians from Imperial forces."
+LANG_CHINESE        "帕兹·维兹拉是一名全副武装的曼达洛战士，同时也是部族的一员，他是传奇人物塔雷·维兹拉的后裔。他对曼达洛传统抱有无比坚定的忠诚，曾因暗剑的归属权与丁·贾林产生冲突，但最终为保护同族曼达洛人免遭帝国军队屠戮，献出了自己的生命。" 
+
+REFERENCE           POE_DAMERON  
+LANG_ENGLISH        "A daring pilot and commander in the Resistance, Poe Dameron was known for his exceptional flying skills and bold leadership. Loyal to General Leia Organa, he played a key role in battles against the First Order and helped rally the galaxy during the final conflict on Exegol."
+LANG_CHINESE        "波·达默龙是抵抗组织中一名英勇无畏的飞行员兼指挥官，凭借超凡的飞行技术与果敢的领导作风闻名。他对莱娅·奥加纳将军忠心耿耿，在对抗第一秩序的历次战役中发挥关键作用，还在厄西戈的最终决战里协助团结全银河系的反抗力量。" 
+
+REFERENCE           REY  
+LANG_ENGLISH        "An orphaned scavenger from Jakku, Rey discovered her powerful connection to the Force and trained as a Jedi under Leia Organa. Confronting her lineage as the granddaughter of Emperor Palpatine, she rejected the Sith and embraced the legacy of the Jedi, taking the name Skywalker."
+LANG_CHINESE        "蕾伊是一名出身贾库星球的孤儿拾荒者，她觉醒了自身与原力的强大联结，并师从莱娅·奥加纳，踏上绝地武士的修行之路。当得知自己是帕尔帕廷皇帝的孙女这一身世后，她毅然摒弃西斯的传承，拥抱绝地的荣光，最终以 “天行者” 为姓氏，续写传奇。" 
+
+REFERENCE           ROSE_TICO  
+LANG_ENGLISH        "A maintenance worker turned Resistance fighter, Rose Tico was driven by the loss of her sister during the war. Courageous and compassionate, she aided Finn and helped expose corruption within the galaxy, fighting for those who could not defend themselves."
+LANG_CHINESE        "罗丝·蒂科本是一名维修工，后来投身抵抗组织成为战士，姐姐在战争中的牺牲是她投身抗争的动力源泉。她既勇敢无畏又心怀悲悯，不仅协助芬恩开展行动，还助力揭发了银河系内的贪腐黑幕，始终为那些无力自保的人挺身而出。" 
+
+REFERENCE           THE_ARMORER  
+LANG_ENGLISH        "A mysterious and revered leader among the Children of the Watch, the Armorer upheld ancient Mandalorian customs. Skilled in forging beskar and offering spiritual guidance, she helped Din Djarin and others rediscover their heritage. Her words and actions shaped the path of Mandalore's future."
+LANG_CHINESE        "锻造师是守望之子教派中一位神秘而受人尊崇的领袖，她恪守着古老的曼达洛传统。她精通贝斯卡钢锻造之术，同时还肩负着为族人指引精神方向的重任，协助丁·贾林及其他曼达洛人重拾自身的文化传承。她的一言一行，深刻影响着曼达洛的未来走向。" 
+
+REFERENCE 			RESISTANCE_TROOPER
+LANG_ENGLISH 		"A volunteer soldier of the Resistance, Resistance Troopers fought to oppose the First Order's expansion. Poorly supplied but determined, they carried on the legacy of the Rebel Alliance in the fight for freedom."
+LANG_CHINESE        "抵抗组织士兵是志愿加入抵抗组织的战士，他们投身战场，全力阻止第一秩序的扩张步伐。尽管补给匮乏，但他们意志坚定，继承了义军同盟的精神遗产，为自由而战。" 
+
+//----------------------------------------------------------
+// 	h8: FIRST ORDER
+//----------------------------------------------------------
+
+REFERENCE           ARMITAGE_HUX
+LANG_ENGLISH        "General Armitage Hux was a ruthless officer of the First Order, known for his fanatical loyalty and ambition. He oversaw the development of Starkiller Base and played a key role in enforcing the regime's military dominance, though internal rivalries ultimately led to his downfall."
+LANG_CHINESE        "阿米蒂奇·赫克斯将军是第一秩序的一名冷酷军官，以狂热的忠诚心与勃勃野心著称。他主导了弑星者基地的研发工作，在巩固该政权军事霸权的过程中发挥了关键作用，然而最终却因阵营内部的权力倾轧走向覆灭。" 
+
+REFERENCE           CAPTAIN_PHASMA
+LANG_ENGLISH        "Clad in chromium armor and commanding the First Order's stormtroopers, Captain Phasma was a formidable and disciplined leader. Trained in combat and unwavering in duty, she enforced order with brutal efficiency before meeting her end in battle against the Resistance."
+LANG_CHINESE        "法斯马队长身披铬合金盔甲，统领着第一秩序的冲锋队员，是一位令人生畏且军纪严明的指挥官。她精通格斗之术，对职责的坚守毫不动摇，向来以冷酷高效的手段维持秩序，最终在与抵抗组织的交战中殒命。" 
+
+REFERENCE           EMPEROR_PALPATINE_SEQUEL
+LANG_ENGLISH        "Sheev Palpatine, also known as Darth Sidious, survived the fall of the Empire through dark Sith rituals. Operating from the shadows on Exegol, he manipulated events to reclaim power as the Final Order's leader, seeking to dominate the galaxy once more before being finally destroyed by Rey."
+LANG_CHINESE        "希夫·帕尔帕廷，亦名达斯·西迪厄斯，凭借西斯黑暗仪式在帝国覆灭后死里逃生。他藏身于厄西戈的暗影之中操纵局势，以最终秩序领袖的身份重掌大权，企图再度称霸银河系，最终却命丧蕾伊之手。" 
+
+REFERENCE           KYLO_REN
+LANG_ENGLISH        "Born Ben Solo, son of Leia Organa and Han Solo, Kylo Ren fell to the dark side under Snoke's influence. As a leader of the First Order and master of the Knights of Ren, he waged war against the Resistance before ultimately seeking redemption and sacrificing himself to save Rey."
+LANG_CHINESE        "本·索洛是莱娅·奥加纳与汉·索洛之子，他在斯诺克的蛊惑下堕入黑暗面，化身凯洛·伦。作为第一秩序的领袖与伦武士团的宗主，他曾率军向抵抗组织发动战争，最终却选择踏上救赎之路，为拯救蕾伊献出了生命。" 
+
+REFERENCE           PRAETORIAN_GUARD
+LANG_ENGLISH        "Elite protectors of Supreme Leader Snoke, the Praetorian Guards wielded specialized melee weapons and wore crimson armor. Trained to fight even Force-wielders, they were fiercely loyal and fought to the death defending Snoke, ultimately perishing in a clash with Kylo Ren and Rey."
+LANG_CHINESE        "近卫兵是最高领袖斯诺克麾下的精锐护卫，他们手持特制近战武器，身披猩红战甲。这些卫士接受过对抗原力使用者的专项训练，对斯诺克忠心耿耿，曾为保护领袖战至最后一息，最终在与凯洛·伦和蕾伊的激战中全军覆没。" 
+
+REFERENCE           REN
+LANG_ENGLISH        "The original master of the Knights of Ren, Ren was a dark side warrior who led the group before Kylo Ren. Wielding a red-bladed lightsaber and enforcing the group's brutal code, he fell in combat to Ben Solo, who claimed leadership and the mantle of 'Ren' for himself."
+LANG_CHINESE        "伦是伦武士团的初代宗主，身为一名黑暗面武士，他在凯洛·伦之前执掌该组织。他手持一柄红刃光剑，以残酷的准则统御武士团，最终在与本·索洛的决斗中落败殒命，后者就此夺取领袖之位，并承袭了 “伦” 的名号。" 
+
+REFERENCE           STORMTROOPER_FIRST_ORDER
+LANG_ENGLISH        "First Order stormtroopers were trained from childhood to obey without question. Clad in updated white armor and deployed in overwhelming numbers, they served as the primary enforcers of the regime, striking fear into Resistance forces and civilians alike."
+LANG_CHINESE        "第一秩序冲锋队员自幼年起便接受训练，奉守绝对服从的准则。他们身着升级款白色盔甲，以压倒性兵力投入战场，既是该政权的主力镇压部队，也令抵抗组织战士与平民闻风丧胆。" 
+
+REFERENCE           RIOT_STORMTROOPER_FIRST_ORDER
+LANG_ENGLISH        "Specialized for crowd control and close-quarters combat, Riot Stormtroopers were equipped with electrobatons and heavy shields. They were deployed during uprisings and protests, famously clashing with Finn during the Battle of Takodana."
+LANG_CHINESE        "镇暴冲锋队员是专攻人群管控与近距离作战的特化兵种，配备电击警棍与重型护盾。他们被投用于镇压起义与抗议活动，最为人熟知的战绩便是在塔科达纳战役中与芬恩的交锋。" 
+
+REFERENCE           SITH_TROOPER
+LANG_ENGLISH        "Sith Troopers were elite soldiers of the Final Order, clad in crimson armor and loyal to Emperor Palpatine. Secretly bred and trained on Exegol, they represented the culmination of Sith military might and were deployed during the Emperor's final bid for galactic domination."
+LANG_CHINESE        "西斯士兵是最终秩序的精锐部队，身披猩红战甲，效忠于帕尔帕廷皇帝。他们在厄西戈星球接受秘密培育与训练，堪称西斯军事力量的巅峰之作，被投用于皇帝争夺银河系霸权的最后一战。" 
+
+REFERENCE           SUPREME_LEADER_SNOKE
+LANG_ENGLISH        "A dark side puppet created by Emperor Palpatine, Supreme Leader Snoke commanded the First Order and corrupted Ben Solo into Kylo Ren. Though immensely powerful in the Force, he was ultimately betrayed and killed by his apprentice during a pivotal moment of conflict."
+LANG_CHINESE        "最高领袖斯诺克是帕尔帕廷皇帝制造的黑暗面傀儡，他执掌第一秩序，并诱使本·索洛堕落为凯洛·伦。尽管斯诺克拥有极强的原力造诣，却在一场关键冲突中遭到自己学徒的背叛与杀害。" 
+
+ENDMARKER
+

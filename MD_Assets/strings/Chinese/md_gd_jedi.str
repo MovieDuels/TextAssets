@@ -1,0 +1,156 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           OBI6
+LANG_ENGLISH        "Do you believe what Count Dooku said about Sidious controlling the Senate?"
+LANG_CHINESE        "你相信杜库伯爵所说的关于西迪斯控制了参议院的事情吗？"
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "It doesn't feel right."
+LANG_CHINESE        "感觉好像不太可能"
+
+REFERENCE           OBI7
+LANG_ENGLISH        "On his way to Naboo. Escorting Senator Amidala home.."
+LANG_CHINESE        "他到纳布星去了，护送阿米达拉参议院回国"
+
+REFERENCE           OBI7B
+LANG_ENGLISH        "I have to admit that without the Clones, it would not have been a victory."
+LANG_CHINESE        "我不得不承认如果没有克隆人军队,我们不可能取得胜利"
+
+REFERENCE           WIN1
+LANG_ENGLISH        "It is done, then."
+LANG_CHINESE        "如此一来，一切已经决定了"
+
+REFERENCE           WIN2
+LANG_ENGLISH        "Nevertheless, I feel we should keep a closer eye on the Senate."
+LANG_CHINESE        "尽管如此…我觉得还是应该严密的监视参议院的动向"
+
+REFERENCE           WIN3
+LANG_ENGLISH        "Where is your apprentice?"
+LANG_CHINESE        "你的徒弟在哪里？"
+
+REFERENCE           YOD4
+LANG_ENGLISH        "Joined the Dark Side, Dooku has. Mmm."
+LANG_CHINESE        "杜库已经加入了黑暗的一方"
+
+REFERENCE           YOD4B
+LANG_ENGLISH        "Lies, deceit, creating mistrust are his ways now."
+LANG_CHINESE        "谎言，欺骗…并制造猜疑已经成为了他所使用的伎俩"
+
+REFERENCE           YOD5
+LANG_ENGLISH        "I agree."
+LANG_CHINESE        "我同意"
+
+REFERENCE           YOD6
+LANG_ENGLISH        "Victory?"
+LANG_CHINESE        "胜利？"
+
+REFERENCE           YOD6B
+LANG_ENGLISH        "Victory, you say?"
+LANG_CHINESE        "你是说胜利吗？"
+
+REFERENCE           YOD6C
+LANG_ENGLISH        "Master Obi-Wan, not victory."
+LANG_CHINESE        "欧比旺大师，这不是胜利"
+
+REFERENCE           YOD6D
+LANG_ENGLISH        "The shroud of the Dark Side has fallen."
+LANG_CHINESE        "黑暗势力的阴影已经笼罩了过来"
+
+REFERENCE           YOD6E
+LANG_ENGLISH        "Begun, the Clone War has."
+LANG_CHINESE        "克隆人战争已经开始"
+
+REFERENCE           ANI1
+LANG_ENGLISH        "You're gonna pay for all the Jedi that you killed today, Dooku!"
+LANG_CHINESE        "你会为你今天所杀的绝地武士付出代价，杜库"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "No, I'm taking him now!"
+LANG_CHINESE        "我现在就来解决他！"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "I am a slow learner."
+LANG_CHINESE        "我是个不吸取教训的人"
+
+REFERENCE           DOK1
+LANG_ENGLISH        "As you see, my Jedi powers are far beyond yours. Now.. Back down!"
+LANG_CHINESE        "就像你所见到的那样，我的绝地武士力量远胜于你们,趁现在… 快回去吧"
+
+REFERENCE           DOK2
+LANG_ENGLISH        "Master Kenobi, you disappoint me. Yoda holds you in such high esteem."
+LANG_CHINESE        "肯诺比大师，你真是让我失望了。尤达大师是如此的欣赏你"
+
+REFERENCE           DOK2B
+LANG_ENGLISH        "Surely you can do better?!"
+LANG_CHINESE        "你肯定应该能做的更好的"
+
+REFERENCE           DOK3
+LANG_ENGLISH        "Dooku: Brave of you, boy."
+LANG_CHINESE        "勇气可嘉，孩子"
+
+REFERENCE           DOK3B
+LANG_ENGLISH        "Dooku: But I would have thought you had learned your lesson."
+LANG_CHINESE        "杜库：但是我以为你刚才应该已经吸取教训了"
+
+REFERENCE           DOK4
+LANG_ENGLISH        "Master Yoda!"
+LANG_CHINESE        "尤达大师"
+
+REFERENCE           DOK5
+LANG_ENGLISH        "You have interfered with our affairs, for the last time!"
+LANG_CHINESE        "这将是你最后一次的阻碍我的行动"
+
+REFERENCE           DOK6
+LANG_ENGLISH        "It is obvious that this contest cannot be decided by our knowledge of the Force."
+LANG_CHINESE        "很明显我们之间战斗的胜负不是…由对原力知识的多少来决定的…"
+
+REFERENCE           DOK6B
+LANG_ENGLISH        "But by our skills with a lightsaber."
+LANG_CHINESE        "而是由我们剑术的高下来决定"
+
+REFERENCE           DOK7
+LANG_ENGLISH        "This is just the beginning!"
+LANG_CHINESE        "这才刚开始"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "We'll take him together. You'll go in slowly, on the left.."
+LANG_CHINESE        "我现在就来解决他！"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "No, Anakin! No! No!"
+LANG_CHINESE        "不，安纳金，不！不！"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "I don't think so."
+LANG_CHINESE        "我不这么认为"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Anakin!"
+LANG_CHINESE        "安纳金！"
+
+REFERENCE           YOD1
+LANG_ENGLISH        "Count Dooku."
+LANG_CHINESE        "杜库伯爵"
+
+REFERENCE           YOD2
+LANG_ENGLISH        "Fought well you have, my old Padawan."
+LANG_CHINESE        "你的剑术不赖，我的老徒弟"
+
+REFERENCE           YOD3
+LANG_ENGLISH        "Much to learn, you still have."
+LANG_CHINESE        "你还有许多要学的"
+
+ENDMARKER

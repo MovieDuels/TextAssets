@@ -1,0 +1,670 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "in game text for saber styles"
+
+
+//----------------------------------------------------------
+// 			SABER MENUS
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	h1: COMMON
+//----------------------------------------------------------
+
+
+REFERENCE           FAST_STYLE
+LANG_ENGLISH        "Fast and efficient, but with limited range. Short, quick motions allow for multiple attacks but with minimum damage. This style can be chained indefinitely. It utilizes a defensive stance in which the Jedi holds their saber across their front in a ready position to fend off attacks or make quick jabs. Represented by a blue bar on the right side of the HUD."
+LANG_CHINESE        "快速并且有效，但是是用范围有限。快，迅速的动作能在短时间内发出多次攻击，但是伤害是最小的。这种剑式可以进行无限的连击。它利用绝地将剑握持在身前的防御姿态来抵御攻击或做出快速的攻击。在右下方的HUD上显示为蓝色的条"
+
+REFERENCE           MEDIUM_STYLE
+LANG_ENGLISH        "An intermediate style between the fast and the strong styles, the medium style is based on a perfect equilibrium between speed and power. Users of the medium style would typically utilize a neutral stance, the lightsaber being held in medium position in front of the user ready for both defensive and offensive maneuvers. Represented by a yellow bar on the right side of the HUD."
+LANG_CHINESE        "这是一种介于强力和迅捷之间折中的剑式，折中式是基于力量和速度之间完美平衡的剑式。折中式的使用者，利用自然的姿态，将光剑握持在身体前方的正中央来同时准备防守和进攻的动作。在右下方的HUD上显示为黄色的条"
+
+REFERENCE           STRONG_STYLE
+LANG_ENGLISH        "Uses powerful strikes to batter through defenses. This style incorporates great range and power, but often leaves the Jedi open for counter attack. It utilizes a powerful, aggressive stance in which the Jedi holds their saber high and back, ready to go into a heavy swing. Represented by a red bar on the right side of the HUD."
+LANG_CHINESE        "使用强力的打击可以更有效的突破防御。这种剑式具有出色的攻击范围和伤害，但是经常让绝地面临反击的状态。它使用一种看起来有力且具有攻击性的姿态，使用者将光剑握持在身体后上方，准备随时做出强力的斩击。在右下方的HUD上显示为红色的条"
+
+REFERENCE           DUAL_STYLE
+LANG_ENGLISH        "This style incorporates the use of a second Lightsaber, allowing for stronger offensive capability with shared traits of the Fast style, such as faster attacks and indefinite chaining, while negating it's damage and defense drawbacks with the second Blade. Users of the dual style would typically position their lightsabers to their left and right, ready for both defensive and offensive maneuvers. Represented by an orange bar on the right side of the HUD."
+LANG_CHINESE        "这种剑式结合了第二把光剑的使用，能够进行结合了迅捷式风格强力的进攻，比如更快的攻击和无限的连击，同时利用第二把剑抵消了攻击和防御不可兼得的缺点。双剑剑式的使用者通常会将光剑放在左右两侧，为防御和进攻动作做好准备。在右下方的HUD上显示为橙色的条"
+
+REFERENCE           STAFF_STYLE
+LANG_ENGLISH        "This style incorporates a Lightsaber with two Blades, allowing for stronger offensive capability with shared traits of the Fast style, such as faster attacks and indefinite chaining, while negating it's damage and defense drawbacks with the second Blade. Users of the staff style would typically utilize a neutral stance, the lightsaber being held in front of the user ready for both defensive and offensive maneuvers. Represented by a green bar on the right side of the HUD."
+LANG_CHINESE        "这种剑式使用了一种带有两个剑刃的光剑，能够进行结合了迅捷式风格强力的进攻，比如更快的攻击和无限的连击，同时利用第二把剑抵消了攻击和防御不可兼得的缺点。光杖剑式的使用者使用自然的姿态，光剑被握持在身体的前面，为防御和进攻动作做好准备。在右下方的HUD上显示为绿色的条"
+
+REFERENCE           DESANN_STYLE
+LANG_ENGLISH        "An alteration of the Strong style, this form only utilizes one-hand for fighting, allowing for faster attacks than the Strong style, while sharing it's powerful, defense-shattering strikes & specialized moves. It also shares traits with the Fast style, primarily it's Lunge attack and indefinite chaining. Represented by a purple bar on the right side of the HUD."
+LANG_CHINESE        "一种强力式的变体，这种风格只用单手战斗，能够做到保持有力的同时，进行比强力式更快的攻击，能够破坏防御的打击和特殊的动作。它还具有迅捷式的特征，主要是刺击和无限连击。在右下方的HUD上显示为紫色的条"
+
+REFERENCE           TAVION_STYLE
+LANG_ENGLISH        "An alteration of the Fast style, this form only utilizes one-hand for fighting, allowing for much quicker attacks than the Fast style, while sharing the flip-slash DFA of the Medium style, although lacking the Fast Style's Lunge attack. Represented by a cyan bar on the right side of the HUD."
+LANG_CHINESE        "一种迅捷式的变体，这种风格只用单手战斗，能有比迅捷式更快的进攻，同时也享有折中式的断空斩，尽管没有迅捷式的挑刺。在右下方的HUD上显示为青色的条"
+
+REFERENCE           LIGHTSABER_CREATION
+LANG_ENGLISH	    "LIGHTSABER CREATION"
+LANG_CHINESE        "光剑打造"
+
+REFERENCE           LIGHTSABER_STYLE
+LANG_ENGLISH	    "LIGHTSABER STYLE:"
+LANG_CHINESE        "剑式"
+
+REFERENCE           LIGHTSABER_STYLE_DESC
+LANG_ENGLISH	    "Use Ingame Saber Menu To Give Saber Style"
+LANG_CHINESE        "使用游戏中光剑菜单来设置剑式"
+
+REFERENCE           EXPAND_DUAL
+LANG_ENGLISH	    "Expand Dual"
+LANG_CHINESE        "双剑拓展"
+
+REFERENCE           EXPAND
+LANG_ENGLISH	    "Expand"
+LANG_CHINESE        "拓展"
+
+REFERENCE           RED
+LANG_ENGLISH	    "Red:"
+LANG_CHINESE        "红"
+
+REFERENCE           GREEN
+LANG_ENGLISH	    "Green:"
+LANG_CHINESE        "绿"
+
+REFERENCE           BLUE
+LANG_ENGLISH	    "Blue:"
+LANG_CHINESE        "蓝"
+
+REFERENCE           SABER_BLADE
+LANG_ENGLISH	    "Saber Blade:"
+LANG_CHINESE        "剑刃"
+
+REFERENCE           SABER
+LANG_ENGLISH	    "SABER"
+LANG_CHINESE        "剑"
+
+REFERENCE           HILT
+LANG_ENGLISH	    "HILT"
+LANG_CHINESE        "剑柄"
+
+REFERENCE           CRYSTAL
+LANG_ENGLISH	    "CRYSTAL"
+LANG_CHINESE        "水晶"
+
+REFERENCE           COLOR
+LANG_ENGLISH	    "COLOR"
+LANG_CHINESE        "颜色"
+
+REFERENCE           SINGLE
+LANG_ENGLISH	    "SINGLE"
+LANG_CHINESE        "单手"
+
+REFERENCE           DUAL
+LANG_ENGLISH	    "DUAL"
+LANG_CHINESE        "双剑"
+
+REFERENCE           FAST_STANCE
+LANG_ENGLISH	    "Fast"
+LANG_CHINESE        "迅捷式"
+
+REFERENCE           MEDIUM_STANCE
+LANG_ENGLISH	    "Medium"
+LANG_CHINESE        "折中式"
+
+REFERENCE           STRONG_STANCE
+LANG_ENGLISH	    "Strong"
+LANG_CHINESE        "强力式"
+
+REFERENCE           DUAL_STANCE
+LANG_ENGLISH	    "Dual"
+LANG_CHINESE        "双剑式"
+
+REFERENCE           STAFF_STANCE
+LANG_ENGLISH	    "Staff"
+LANG_CHINESE        "光杖式"
+
+REFERENCE           DESANN_STANCE
+LANG_ENGLISH	    "Desann"
+LANG_CHINESE        "迪桑式"
+
+REFERENCE           TAVION_STANCE
+LANG_ENGLISH	    "Tavion"
+LANG_CHINESE        "特维安式"
+
+REFERENCE           GIVE_FAST_STYLE
+LANG_ENGLISH	    "Give Fast Style"
+LANG_CHINESE        "给与迅捷式"
+
+REFERENCE           GIVE_MEDIUM_STYLE
+LANG_ENGLISH	    "Give Medium Style"
+LANG_CHINESE        "给予折中式"
+
+REFERENCE           GIVE_STRONG_STYLE
+LANG_ENGLISH	    "Give Strong Style"
+LANG_CHINESE        "给予强力式"
+
+REFERENCE           GIVE_DUAL_STYLE
+LANG_ENGLISH	    "Give Dual Style"
+LANG_CHINESE        "给予双剑式"
+
+REFERENCE           GIVE_STAFF_STYLE
+LANG_ENGLISH	    "Give Staff Style"
+LANG_CHINESE        "给予光杖式"
+
+REFERENCE           GIVE_DESANN_STYLE
+LANG_ENGLISH	    "Give Desann Style"
+LANG_CHINESE        "给予迪桑式"
+
+REFERENCE           GIVE_TAVION_STYLE
+LANG_ENGLISH	    "Give Tavion Style"
+LANG_CHINESE        "给予塔维昂式"
+
+REFERENCE           SFX_SABERS
+LANG_ENGLISH        "SFX Sabers:"
+LANG_CHINESE        "光剑特效"
+
+REFERENCE           SFX_SABERS_DESC
+LANG_ENGLISH        "Switch On / Off enhanced lightsaber effects"
+LANG_CHINESE        "开启或关闭光剑的效果"
+
+REFERENCE           SFX_GLOW
+LANG_ENGLISH        "Glow:"
+LANG_CHINESE        "发光"
+
+REFERENCE           SFX_GLOW_DESC
+LANG_ENGLISH        "Customize the intensity of lightsaber glow"
+LANG_CHINESE        "自定义光剑发光的亮度"
+
+REFERENCE           SFX_CORE
+LANG_ENGLISH        "Core:"
+LANG_CHINESE        "核心"
+
+REFERENCE           SFX_CORE_DESC
+LANG_ENGLISH        "Customize the size of lightsaber core"
+LANG_CHINESE        "自定义光剑的核心尺寸"
+
+REFERENCE           CHOOSE_A_NEW_FIGHT_FORM
+LANG_ENGLISH        "CHOOSE A NEW FIGHT FORM"
+LANG_CHINESE        "选择一种新的剑式"
+
+REFERENCE           NEW_STYLE
+LANG_ENGLISH        "NEW STYLE:"
+LANG_CHINESE        "新剑式"
+
+REFERENCE           FAST
+LANG_ENGLISH        "FAST"
+LANG_CHINESE        "迅捷式"
+
+REFERENCE           STRONG
+LANG_ENGLISH        "STRONG"
+LANG_CHINESE        "强力式"
+
+REFERENCE           SINGLE_HILTS
+LANG_ENGLISH        "Single Hilts"
+LANG_CHINESE        "单手剑剑柄"
+
+REFERENCE           DUAL_HILTS
+LANG_ENGLISH        "Dual Hilts"
+LANG_CHINESE        "双剑剑柄"
+
+REFERENCE           STAFF_HILTS
+LANG_ENGLISH        "Staff Hilts"
+LANG_CHINESE        "光杖剑柄"
+
+
+//----------------------------------------------------------
+// 	h2: SABER HILTS
+//----------------------------------------------------------
+
+REFERENCE           AAYLA
+LANG_ENGLISH        "Aayla Secura"
+LANG_CHINESE        "艾拉·赛库拉"
+
+REFERENCE           ADI
+LANG_ENGLISH        "Adi Gallia"
+LANG_CHINESE        "阿迪·加利亚"
+
+REFERENCE           AHSOKA
+LANG_ENGLISH        "Ahsoka Tano [TCW]"
+LANG_CHINESE        "阿索卡·塔诺[克隆战争]"
+
+REFERENCE           AHSOKA_SHORT
+LANG_ENGLISH        "Ahsoka Tano - Shoto [TCW]"
+LANG_CHINESE        "阿索卡·塔诺（短剑）[克隆战争]"
+
+REFERENCE           AHSOKA_REBELS
+LANG_ENGLISH        "Ahsoka Tano [Rebels]"
+LANG_CHINESE        "阿索卡·塔诺[义军崛起]"
+
+REFERENCE           AHSOKA_REBELS_SHORT
+LANG_ENGLISH        "Ahsoka Tano - Shoto [Rebels]"
+LANG_CHINESE        "阿索卡·塔诺（短剑）[义军崛起]"
+
+REFERENCE           ANAKIN_EP2
+LANG_ENGLISH        "Anakin Skywalker [Ep. II]"
+LANG_CHINESE        "安纳金·天行者[EP2]"
+
+REFERENCE           ANAKIN_EP3
+LANG_ENGLISH        "Anakin Skywalker [Ep. III]"
+LANG_CHINESE        "安纳金·天行者[EP3]"
+
+REFERENCE           ASHARAD
+LANG_ENGLISH        "A'Sharad Hett"
+LANG_CHINESE        "阿沙拉德·赫特"
+
+REFERENCE           ASHARAD_ALT
+LANG_ENGLISH        "A'Sharad Hett - Alternate"
+LANG_CHINESE        "阿沙拉德·赫特[变体]"
+
+REFERENCE           VENTRESS_CW
+LANG_ENGLISH        "Asajj Ventress [CW]"
+LANG_CHINESE        "阿萨吉·文崔斯[CloneWars动画]"
+
+REFERENCE           VENTRESS_TCW
+LANG_ENGLISH        "Asajj Ventress [TCW]"
+LANG_CHINESE        "阿萨吉·文崔斯[TheCloneWars动画]"
+
+REFERENCE           VENTRESS_STAFF
+LANG_ENGLISH        "Asajj Ventress [Staff]"
+LANG_CHINESE        "阿萨吉·文崔斯[光杖]"
+
+REFERENCE           BARRISS
+LANG_ENGLISH        "Barriss Offee"
+LANG_CHINESE        "巴丽斯·奥菲"
+
+REFERENCE           BASTILA
+LANG_ENGLISH        "Bastila Shan"
+LANG_CHINESE        "巴斯蒂拉·尚"
+
+REFERENCE           BAYLAN
+LANG_ENGLISH        "Baylan Skoll"
+LANG_CHINESE        "贝兰·斯科尔"
+
+REFERENCE           BOC
+LANG_ENGLISH        "Boc Aseca"
+LANG_CHINESE        "博克·阿塞卡"
+
+REFERENCE           CAL_KESTIS
+LANG_ENGLISH        "Cal Kestis"
+LANG_CHINESE        "卡尔·凯斯提斯"
+
+REFERENCE           COLEMAN
+LANG_ENGLISH        "Coleman Trebor"
+LANG_CHINESE        "科勒曼·塔博"
+
+REFERENCE           COUNT_DOOKU
+LANG_ENGLISH        "Count Dooku"
+LANG_CHINESE        "杜库伯爵"
+
+REFERENCE           COUNT_DOOKU_TFU
+LANG_ENGLISH        "Count Dooku - Straight [TFU]"
+LANG_CHINESE        "杜库伯爵 - 直柄[原力释放]"
+
+REFERENCE           DARKSABER_TCW
+LANG_ENGLISH        "Darksaber [TCW]"
+LANG_CHINESE        "暗剑[TheCloneWars动画]"
+
+REFERENCE           DARKSABER_REBELS
+LANG_ENGLISH        "Darksaber [Rebels]"
+LANG_CHINESE        "暗剑[义军崛起]"
+
+REFERENCE           DARKSABER_TM
+LANG_ENGLISH        "Darksaber [TM]"
+LANG_CHINESE        "暗剑[曼达洛人]"
+
+REFERENCE           D_DESOLOUS
+LANG_ENGLISH        "Darth Desolous [TFU]"
+LANG_CHINESE        "达斯·德瑟勒斯 [原力释放]"
+
+REFERENCE           D_MAUL
+LANG_ENGLISH        "Darth Maul [Damaged]"
+LANG_CHINESE        "达斯·摩尔[损坏]"
+
+REFERENCE           D_MAUL_STAFF
+LANG_ENGLISH        "Darth Maul"
+LANG_CHINESE        "达斯·摩尔"
+
+REFERENCE           D_MAUL_TCW
+LANG_ENGLISH        "Darth Maul [TCW]"
+LANG_CHINESE        "达斯·摩尔[TheCloneWars动画]"
+
+REFERENCE           D_MAUL_REBELS
+LANG_ENGLISH        "Maul [Rebels]"
+
+REFERENCE           D_PHOBOS
+LANG_ENGLISH        "Darth Phobos [TFU]"
+LANG_CHINESE        "达斯·福博斯 [原力释放]"
+
+REFERENCE           D_SIDIOUS
+LANG_ENGLISH        "Darth Sidious"
+LANG_CHINESE        "达斯·西迪厄斯"
+
+REFERENCE           D_SIDIOUS_ALT
+LANG_ENGLISH        "Darth Sidious - Backup"
+LANG_CHINESE        "达斯·西迪厄斯 - 备份"
+
+REFERENCE           D_VADER_EP3
+LANG_ENGLISH        "Darth Vader [Ep.III]"
+LANG_CHINESE        "达斯·维达[EP3]"
+
+REFERENCE           D_VADER_EP4
+LANG_ENGLISH        "Darth Vader [Ep.IV]"
+LANG_CHINESE        "达斯·维达[EP4]"
+
+REFERENCE           D_VADER_EP5
+LANG_ENGLISH        "Darth Vader [Ep.V]"
+LANG_CHINESE        "达斯·维达[EP5]"
+
+REFERENCE           D_VADER_EP6
+LANG_ENGLISH        "Darth Vader [Ep.VI]"
+LANG_CHINESE        "达斯·维达[EP6]"
+
+REFERENCE           DEPA
+LANG_ENGLISH        "Depa Billaba"
+LANG_CHINESE        "德帕·比拉巴"
+
+REFERENCE           DESANN
+LANG_ENGLISH        "Desann"
+LANG_CHINESE        "迪桑"
+
+REFERENCE           ELECTROSTAFF
+LANG_ENGLISH        "Electrostaff"
+LANG_CHINESE        "电杖"
+
+REFERENCE           EVEN
+LANG_ENGLISH        "Even Piell"
+LANG_CHINESE        "伊文·皮耶尔"
+
+REFERENCE           EZRA
+LANG_ENGLISH        "Ezra Bridger"
+LANG_CHINESE        "埃兹拉·布里杰"
+
+REFERENCE           EZRA_S3
+LANG_ENGLISH        "Ezra Bridger [Jedi]"
+LANG_CHINESE        "埃兹拉·布里杰[绝地]"
+
+REFERENCE           GALEN_MAREK
+LANG_ENGLISH        "Galen Marek [TFU2]"
+LANG_CHINESE        "盖伦·马雷克[原力释放2]"
+
+REFERENCE           GALEN_MAREK_ALT
+LANG_ENGLISH        "Galen Marek - Promotional [TFU2]"
+LANG_CHINESE        "盖伦·马雷克 升级 [原力释放2]"
+REFERENCE           GALEN_MAREK_CJR
+LANG_ENGLISH        "Galen Marek [Jedi]"
+LANG_CHINESE        "盖伦·马雷克[绝地]"
+
+REFERENCE           GORC
+LANG_ENGLISH        "Gorc"
+LANG_CHINESE        "戈克"
+
+REFERENCE           GRANDINQUISITOR
+LANG_ENGLISH        "Grand Inquisitor"
+LANG_CHINESE        "帝国裁判官"
+
+REFERENCE           GRANDINQUISITOR_OWK
+LANG_ENGLISH        "Grand Inquisitor [OWK]"
+LANG_CHINESE        "帝国裁判官[欧比-旺·克诺比]"
+
+REFERENCE           FIFTHBROTHER
+LANG_ENGLISH        "Fifth Brother"
+LANG_CHINESE        "五哥"
+
+REFERENCE           SEVENTHSISTER
+LANG_ENGLISH        "Seventh Sister"
+LANG_CHINESE        "七妹"
+
+REFERENCE           EIGHTHBROTHER
+LANG_ENGLISH        "Eighth Brother"
+LANG_CHINESE        "八弟"
+
+REFERENCE           INQUISITOR_STAFF
+LANG_ENGLISH        "Grand Inquisitor"
+LANG_CHINESE        "帝国裁判官"
+
+REFERENCE           JT_GUARD
+LANG_ENGLISH        "Jedi Temple Guard"
+LANG_CHINESE        "绝地圣殿守卫"
+
+REFERENCE           JEREC
+LANG_ENGLISH        "Jerec"
+LANG_CHINESE        "杰瑞克"
+
+REFERENCE           KANAN
+LANG_ENGLISH        "Kanan Jarrus"
+LANG_CHINESE        "凯南·贾勒斯"
+
+REFERENCE           KI_ADI
+LANG_ENGLISH        "Ki-Adi Mundi"
+LANG_CHINESE        "基-阿迪·芒迪"
+
+REFERENCE           KIT
+LANG_ENGLISH        "Kit Fisto"
+LANG_CHINESE        "基特·菲斯托"
+
+REFERENCE           KYLE
+LANG_ENGLISH        "Kyle Katarn"
+LANG_CHINESE        "凯尔·卡塔恩"
+
+REFERENCE           KYLO
+LANG_ENGLISH        "Kylo Ren"
+LANG_CHINESE        "凯洛·伦"
+
+REFERENCE           LEIA_EP9
+LANG_ENGLISH        "Leia Organa"
+LANG_CHINESE        "莱雅·奥嘉纳"
+
+REFERENCE           LUKE_EP4
+LANG_ENGLISH        "Luke Skywalker [Ep. IV]"
+LANG_CHINESE        "卢克·天行者[EP4]"
+
+REFERENCE           LUKE_EP5
+LANG_ENGLISH        "Luke Skywalker [Ep. V]"
+LANG_CHINESE        "卢克·天行者[EP5]"
+
+REFERENCE           LUKE_EP6
+LANG_ENGLISH        "Luke Skywalker [Ep. VI]"
+LANG_CHINESE        "卢克·天行者[EP6]"
+
+REFERENCE           LUMINARA
+LANG_ENGLISH        "Luminara Unduli"
+LANG_CHINESE        "卢米娜拉·昂杜利"
+
+REFERENCE           MACE_EP1
+LANG_ENGLISH        "Mace Windu [Ep. I]"
+LANG_CHINESE        "梅斯·温度[EP1]"
+
+REFERENCE           MACE
+LANG_ENGLISH        "Mace Windu [Ep. II-III]"
+LANG_CHINESE        "梅斯·温度[EP2-3]"
+
+REFERENCE           MARA
+LANG_ENGLISH        "Mara Jade"
+LANG_CHINESE        "玛拉·杰德"
+
+REFERENCE           MARA_MOTS
+LANG_ENGLISH        "Mara Jade [MOTS]"
+LANG_CHINESE        "玛拉·杰德[西斯之谜]"
+
+REFERENCE           MAW
+LANG_ENGLISH        "Maw"
+LANG_CHINESE        "莫"
+
+REFERENCE           OBI_EP1
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. I-II]"
+LANG_CHINESE        "欧比-旺·克诺比[EP1-2]"
+
+REFERENCE           OBI_EP3
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. III]"
+LANG_CHINESE        "欧比-旺·克诺比[EP3]"
+
+REFERENCE           OBI_OWK
+LANG_ENGLISH        "Obi-Wan Kenobi [OWK]"
+LANG_CHINESE        "欧比-旺·克诺比[欧比-旺·克诺比]"
+
+REFERENCE           OBI_EP4
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. IV]"
+LANG_CHINESE        "欧比-旺·克诺比[EP4]"
+
+REFERENCE           OPPO
+LANG_ENGLISH        "Oppo Rancisis"
+LANG_CHINESE        "欧泊·蓝思希斯"
+
+REFERENCE           PIC
+LANG_ENGLISH        "Pic"
+LANG_CHINESE        "皮克"
+
+REFERENCE           PLO
+LANG_ENGLISH        "Plo Koon"
+LANG_CHINESE        "普洛·孔"
+
+REFERENCE           QUI
+LANG_ENGLISH        "Qui-Gon Jinn"
+LANG_CHINESE        "奎-刚·金"
+
+REFERENCE           QUINLAN
+LANG_ENGLISH        "Quinlan Vos"
+LANG_CHINESE        "昆兰·沃斯"
+
+REFERENCE           RAHN
+LANG_ENGLISH        "Qu Rahn"
+LANG_CHINESE        "库·拉恩"
+
+REFERENCE           KOTA
+LANG_ENGLISH        "Rahm Kota"
+LANG_CHINESE        "拉姆·科塔"
+
+REFERENCE           REY_EP7
+LANG_ENGLISH        "Rey [Ep.VII]"
+LANG_CHINESE        "蕾伊[EP7]"
+
+REFERENCE           REY_EP8
+LANG_ENGLISH        "Rey [Ep.VIII]"
+LANG_CHINESE        "蕾伊[EP8]"
+
+REFERENCE           REY_EP9
+LANG_ENGLISH        "Rey [Ep.IX]"
+LANG_CHINESE        "蕾伊[EP9]"
+
+REFERENCE           REY2_EP9
+LANG_ENGLISH        "Rey Skywalker [Ep.IX]"
+LANG_CHINESE        "蕾伊·帕尔帕廷[EP9]"
+
+REFERENCE           REY_DARKFOLD_EP9
+LANG_ENGLISH        "Rey Palpatine - Folded [Ep.IX]"
+LANG_CHINESE        "蕾伊·帕尔帕廷 - 折叠[EP9]"
+
+REFERENCE           REVAN
+LANG_ENGLISH        "Revan"
+LANG_CHINESE        "瑞文"
+
+REFERENCE           REY_DARKSTAFF_EP9
+LANG_ENGLISH        "Rey Palpatine [Ep.IX]"
+LANG_CHINESE        "蕾伊·帕尔帕廷[EP9]"
+
+REFERENCE           RIG_NEMA
+LANG_ENGLISH        "Rig Nema"
+LANG_CHINESE        "拉格·尼玛"
+
+REFERENCE           SAESSEE
+LANG_ENGLISH        "Saessee Tiin"
+LANG_CHINESE        "塞西·廷"
+
+REFERENCE           SAVAGE
+LANG_ENGLISH        "Savage Opress"
+LANG_CHINESE        "萨瓦奇·奥普雷斯"
+
+REFERENCE           SARISS
+LANG_ENGLISH        "Sariss"
+LANG_CHINESE        "萨丽斯"
+
+REFERENCE           SECONDSISTER
+LANG_ENGLISH        "Second Sister"
+LANG_CHINESE        "二姐"
+
+REFERENCE           SHIN
+LANG_ENGLISH        "Shin Hati"
+LANG_CHINESE        "欣·哈蒂"
+
+REFERENCE           STALKER
+LANG_ENGLISH        "Sith Stalker"
+LANG_CHINESE        "西斯潜行者"
+
+REFERENCE           STALKER2
+LANG_ENGLISH        "Sith Stalker - Alternate"
+LANG_CHINESE        "西斯潜行者 - 变体"
+
+REFERENCE           STARKILLER
+LANG_ENGLISH        "Starkiller"
+LANG_CHINESE        "弑星者"
+
+REFERENCE           SHAAK
+LANG_ENGLISH        "Shaak Ti"
+LANG_CHINESE        "莎克·蒂"
+
+REFERENCE           STINGER
+LANG_ENGLISH        "Stinger"
+LANG_CHINESE        "#same"
+
+REFERENCE           TARON
+LANG_ENGLISH        "Taron Malicos"
+LANG_CHINESE        "塔龙·马利科斯"
+
+REFERENCE           TAVION
+LANG_ENGLISH        "Tavion Axmis"
+LANG_CHINESE        "塔维昂·阿克斯米斯"
+
+REFERENCE           YARAEL
+LANG_ENGLISH        "Yarael Poof"
+LANG_CHINESE        "亚雷尔·普夫"
+
+REFERENCE           YODA
+LANG_ENGLISH        "Yoda"
+LANG_CHINESE        "尤达"
+
+REFERENCE           YUN
+LANG_ENGLISH        "Yun"
+LANG_CHINESE        "云"
+
+REFERENCE           MALGUS
+LANG_ENGLISH        "Darth Malgus"
+LANG_CHINESE        "达斯·马尔格斯"
+
+REFERENCE           MALAK
+LANG_ENGLISH        "Darth Malak"
+LANG_CHINESE        "达斯·马拉克"
+
+REFERENCE           NIHILUS
+LANG_ENGLISH        "Darth Nihilus"
+LANG_CHINESE        "达斯·奈亚利斯"
+
+REFERENCE           BANE
+LANG_ENGLISH        "Darth Bane"
+LANG_CHINESE        "达斯·贝恩"
+
+REFERENCE           JOLEE
+LANG_ENGLISH        "Jolee"
+LANG_CHINESE        "乔利"
+
+REFERENCE           DAGAN
+LANG_ENGLISH        "Dagan Gera"
+LANG_CHINESE        "达甘·格拉	"
+
+REFERENCE           DAGAN_STAFF
+LANG_ENGLISH        "Dagan Gera Staff"
+LANG_CHINESE        "达甘·格拉 杖"
+
+ENDMARKER
+
+
+
+
+

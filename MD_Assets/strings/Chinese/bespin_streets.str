@@ -1,0 +1,69 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           13BE1001
+LANG_ENGLISH        "You must be Katarn. Lando sent us to help. We've got teams trying to take back this sector of the city, but's it's no small task. The place is swarming with Reelo's thugs. Our men will help you wherever they can. Good luck!"
+LANG_CHINESE        "你一定就是卡塔恩了。兰多派我们来帮你。我们有一组人正在尝试夺回这个区域，可是这可不是一件简单的差事。这个地方到处都是里洛的手下。我们的人会尽力帮助你的。祝你好运！"
+
+REFERENCE           13KJO002
+LANG_ENGLISH        "Thanks! You too."
+LANG_CHINESE        "谢谢！你也一样。"
+
+REFERENCE           13BE2001
+LANG_ENGLISH        "I'll stay here and see if I can keep them off your back."
+LANG_CHINESE        "我会守在这里以免他们从背后突袭你。"
+
+REFERENCE           13ST2001
+LANG_ENGLISH        "Let's go. We're pulling out."
+LANG_CHINESE        "走吧，我们要离开了。"
+
+REFERENCE           13RO2001
+LANG_ENGLISH        "( What about us? )"
+LANG_CHINESE        "（那我们呢？）"
+
+REFERENCE           13ST2002
+LANG_ENGLISH        "You're on your own."
+LANG_CHINESE        "你们得靠自己了。"
+
+REFERENCE           13KJO001
+LANG_ENGLISH        "Droid access panel. And my little friend is scrap. Guess I won't be getting in here."
+LANG_CHINESE        "机器人存取终端面板。可是我的小朋友已经变成破铜烂铁了。看来我是进不去了。"
+
+REFERENCE           13BE1002
+LANG_ENGLISH        "Don't shoot! We're on your side."
+LANG_CHINESE        "別开枪！我们在同一方。"
+
+REFERENCE           13BE1003
+LANG_ENGLISH        "We're with you, Commander! Lead the way!"
+LANG_CHINESE        "我们跟你走，指挥官！带路把！"
+
+REFERENCE           13BE2002
+LANG_ENGLISH        "What are you doing?"
+LANG_CHINESE        "你在做什么？"
+
+REFERENCE           13BE2003
+LANG_ENGLISH        "He's a traitor. Blast him!"
+LANG_CHINESE        "他是个叛徒。杀了他！"
+
+REFERENCE           13BE2004
+LANG_ENGLISH        "This area seems secure, sir. Follow us."
+LANG_CHINESE        "这个地方应该安全了。跟着我们走。"
+
+REFERENCE           13KJO003
+LANG_ENGLISH        "Stormtroopers?!"
+LANG_CHINESE        "暴风兵？！"
+
+REFERENCE           13KJO004
+LANG_ENGLISH        "Imperials?!"
+LANG_CHINESE        "帝国士兵？！"
+
+REFERENCE           13KJO005
+LANG_ENGLISH        "The Remnant is here?!"
+LANG_CHINESE        "这里有帝国部队？！"
+
+REFERENCE           13KJO006
+LANG_ENGLISH        "What's the Remnant doing here?!"
+LANG_CHINESE        "帝国在这里做什么？！"
+
+
+ENDMARKER

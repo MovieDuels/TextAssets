@@ -1,0 +1,44 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           OBI1
+LANG_ENGLISH        "No!"
+LANG_CHINESE        "不！"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "No."
+LANG_CHINESE        "不"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "Yes, Master."
+LANG_CHINESE        "是的，师父"
+
+REFERENCE           QUI1
+LANG_ENGLISH        "[ Muttering ]\nNo, it- it's too late. It's-"
+LANG_CHINESE        "不，已经太晚了"
+
+REFERENCE           QUI2
+LANG_ENGLISH        "Obi-Wan. Promise..\npromise me you will train the boy."
+LANG_CHINESE        "欧比-旺，答应我\n答应我训练这个孩子"
+
+REFERENCE           QUI3
+LANG_ENGLISH        "He is the chosen one. He... will bring balance."
+LANG_CHINESE        "他是被选中的。他。。。会带来平衡"
+
+REFERENCE           QUI4
+LANG_ENGLISH        "Train him."
+LANG_CHINESE        "训练他"
+
+ENDMARKER

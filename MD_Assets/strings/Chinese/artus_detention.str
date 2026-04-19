@@ -1,0 +1,48 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           04IO1001
+LANG_ENGLISH        "Don't shoot!"
+LANG_CHINESE        "别开枪!"
+
+REFERENCE           04IO1002
+LANG_ENGLISH        "Hold your fire!"
+LANG_CHINESE        "停火!"
+
+REFERENCE           04KJO001
+LANG_ENGLISH        "Get up! You're going to help me release some prisoners."
+LANG_CHINESE        "起来! 你得帮我释放一些犯人。"
+
+REFERENCE           04IO1003
+LANG_ENGLISH        "You won't get away with this, rebel scum."
+LANG_CHINESE        "你逃不掉的，叛军混蛋。"
+
+REFERENCE           04KJO002
+LANG_ENGLISH        "I think I already have."
+LANG_CHINESE        "我认为我已经成功逃掉了。"
+
+REFERENCE           04KJO003
+LANG_ENGLISH        "Alright, move!"
+LANG_CHINESE        "好了，快走！"
+
+REFERENCE           04KJO004
+LANG_ENGLISH        "Get going."
+LANG_CHINESE        "向前走。"
+
+REFERENCE           04KJO005
+LANG_ENGLISH        "Let's move!"
+LANG_CHINESE        "走了！"
+
+REFERENCE           04IO1004
+LANG_ENGLISH        "Enough of this charade!"
+LANG_CHINESE        "少废话!"
+
+REFERENCE           04KJO006
+LANG_ENGLISH        "I thought I'd seen the last of these things."
+LANG_CHINESE        "我认为我已经受够这种这种事了。"
+
+REFERENCE           04PR2001
+LANG_ENGLISH        "Thanks for getting us out of there, Commander! Doesn't look like we're out of this yet, though.  Thought we were home free, but the main doors are locked. We found some weapons in here, but got pinned down in the docking bay. Only the Base Commander has clearance to access the door controls. If you can locate him and ""persuade"" him to open the doors, we might have a chance. We'll hold them off as long as we can. But you better hurry!"
+LANG_CHINESE        "谢谢你救了我们，指挥官！可是我们还没有真正脱离苦海。虽然我们可以自由行动了，可是大门还是锁着的。我们在这里找到一些武器，但我们被困在机库里。只有基地的指挥官拥有控制门的权限。如果你可以找到他并且「说服」他打开门，我们或许还有机会。我们会尽力牵制住他们。可是你最好动作快一点！"
+
+ENDMARKER

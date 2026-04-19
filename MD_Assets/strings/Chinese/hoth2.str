@@ -1,0 +1,96 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           09JAK004
+LANG_ENGLISH        "Hmmm.  Nothing.  Is Master Skywalker wrong about this place?"
+LANG_CHINESE        "呃...什么都没。天行者大师是不是搞错了！"
+
+REFERENCE           09JAK005
+NOTES               "(sees something in the distance)"
+LANG_ENGLISH        "What's that?"
+LANG_CHINESE        "那个是什么？"
+
+REFERENCE           09JAK006
+LANG_ENGLISH        "Guess I'd better check it out."
+LANG_CHINESE        "我最好还是去看看。"
+
+REFERENCE           09JAK007
+NOTES               "(looks around)"
+LANG_ENGLISH        "I can probably cover more distance with one of those tauntauns."
+LANG_CHINESE        "我去弄个驼驼骑，能跑的快些。"
+
+REFERENCE           09JAK008
+NOTES               "(catches a tauntaun)"
+LANG_ENGLISH        "Gotcha!"
+LANG_CHINESE        "就你了！"
+
+REFERENCE           09JAK009
+LANG_ENGLISH        "Imperials?  Here?  Maybe Master Luke was right after all."
+LANG_CHINESE        "帝国军？在这里？天行者大师没弄错也说不定。"
+
+REFERENCE           09JAK010
+NOTES               "(leaving his tauntaun)"
+LANG_ENGLISH        "Thanks for the ride."
+LANG_CHINESE        "多谢载我一程。"
+
+REFERENCE           09JAK011
+NOTES               "(to wampa)"
+LANG_ENGLISH        "I don't want to hurt you!"
+LANG_CHINESE        "我没恶意哦！"
+
+REFERENCE           09JAK012
+NOTES               "(freezing)"
+LANG_ENGLISH        "So... cold."
+LANG_CHINESE        "好...冷。"
+
+REFERENCE           09JAK013
+NOTES               "(freezing)"
+LANG_ENGLISH        "I'm... freezing."
+LANG_CHINESE        "冻死我了..."
+
+REFERENCE           09JAK014
+NOTES               "(freezes to death)"
+LANG_ENGLISH        "Got t-to get..."
+LANG_CHINESE        "必须得赶去..."
+
+REFERENCE           09JAK015
+LANG_ENGLISH        "There... Echo Base!"
+LANG_CHINESE        "艾科基地，在那里！"
+
+REFERENCE           09JAK016
+LANG_ENGLISH        "Doesn't look like they got in from here.  Must be another way in."
+LANG_CHINESE        "看来他们不是从这儿进的，肯定还有进去的路。"
+
+REFERENCE           09JAK017
+LANG_ENGLISH        "This isn't what it looked like in the holovids.  The weather here must be fierce!"
+LANG_CHINESE        "这个和全息影像里的很不一样啊。这里天气一定很要命。"
+
+REFERENCE           09JAK018
+LANG_ENGLISH        "This entrance is blocked, too.  How did they get in?"
+LANG_CHINESE        "这个门也锁住了，他们又是怎么进来的呢？"
+
+REFERENCE           09JAK019
+NOTES               "(looking around)"
+LANG_ENGLISH        "I guess I should keep following the beacons."
+LANG_CHINESE        "看来还得跟着灯标走。"
+
+REFERENCE           09JAK020
+LANG_ENGLISH        "Why would they be guarding this pile of junk?"
+LANG_CHINESE        "他们守着这个垃圾堆干嘛呢？"
+
+
+ENDMARKER
+
+

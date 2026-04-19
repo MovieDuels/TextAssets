@@ -1,0 +1,2313 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+//----------------------------------------------------------
+// 		CHARACTERS/NPCS MENUS
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	PREQUELS 1
+//----------------------------------------------------------
+
+REFERENCE           YODA
+LANG_ENGLISH        "Master Yoda"
+LANG_CHINESE        "尤达大师"
+
+REFERENCE           YODA_EP2
+LANG_ENGLISH        "Yoda [Episode I-II]"
+LANG_CHINESE        "尤达[EP1-2]"
+
+REFERENCE           YODA_EP3
+LANG_ENGLISH        "Yoda [Episode III]"
+LANG_CHINESE        "尤达[EP3]"
+
+REFERENCE           YODA_HR
+LANG_ENGLISH        "Yoda [High Republic]"
+LANG_CHINESE        "尤达[共和国巅峰]"
+
+REFERENCE           YODA_CW
+LANG_ENGLISH        "Yoda [Clone Wars]"
+LANG_CHINESE        "尤达[克隆战争]"
+
+REFERENCE           YODA_GHOST
+LANG_ENGLISH        "Yoda [Force Ghost]"
+LANG_CHINESE        "尤达[英灵]"
+
+REFERENCE           MACE
+LANG_ENGLISH        "Mace Windu"
+LANG_CHINESE        "梅斯·温度"
+
+REFERENCE           MACE_ROBE
+LANG_ENGLISH        "Mace Windu [Robed]"
+LANG_CHINESE        "梅斯·温度[长袍]"
+
+REFERENCE           MACE_HOOD
+LANG_ENGLISH        "Mace Windu [Hooded]"
+LANG_CHINESE        "梅斯·温度[兜帽]"
+
+REFERENCE           MACE_GHOST
+LANG_ENGLISH        "Mace Windu [Force Ghost]"
+LANG_CHINESE        "梅斯·温度[英灵]"
+
+REFERENCE           OBI
+LANG_ENGLISH        "Obi-Wan Kenobi"
+LANG_CHINESE        "欧比-旺·克诺比"
+
+REFERENCE           OBI_EP1
+LANG_ENGLISH        "Obi-Wan [Episode I]"
+LANG_CHINESE        "欧比-旺[EP1]"
+
+REFERENCE           OBI_EP1_ROBE
+LANG_ENGLISH        "Obi-Wan [Episode I - Robed]"
+LANG_CHINESE        "欧比-旺[EP1-长袍]"
+
+REFERENCE           OBI_EP1_HOOD
+LANG_ENGLISH        "Obi-Wan [Episode I - Hooded]"
+LANG_CHINESE        "欧比-旺[EP1-兜帽]"
+
+REFERENCE           OBI_EP2
+LANG_ENGLISH        "Obi-Wan [Episode II]"
+LANG_CHINESE        "欧比-旺[EP2]"
+
+REFERENCE           OBI_EP2_ROBE
+LANG_ENGLISH        "Obi-Wan [Episode II - Robed]"
+LANG_CHINESE        "欧比-旺[EP2-长袍]"
+
+REFERENCE           OBI_EP2_HOOD
+LANG_ENGLISH        "Obi-Wan [Episode II - Hooded]"
+LANG_CHINESE        "欧比-旺[EP2-兜帽]"
+
+REFERENCE           OBI_EP3
+LANG_ENGLISH        "Obi-Wan [Episode III]"
+LANG_CHINESE        "欧比-旺[EP3]"
+
+REFERENCE           OBI_EP3_ROBE
+LANG_ENGLISH        "Obi-Wan [Episode III - Robed]"
+LANG_CHINESE        "欧比-旺[EP3-长袍]"
+
+REFERENCE           OBI_EP3_HOOD
+LANG_ENGLISH        "Obi-Wan [Episode III - Hooded]"
+LANG_CHINESE        "欧比-旺[EP3-兜帽]"
+
+REFERENCE           OBI_EP3_MUS
+LANG_ENGLISH        "Obi-Wan [Episode III - Mustafar Worn]"
+LANG_CHINESE        "欧比-旺[EP3-穆斯塔法战损]"
+
+REFERENCE           ANAKIN
+LANG_ENGLISH        "Anakin Skywalker"
+LANG_CHINESE        "安纳金·天行者"
+
+REFERENCE           ANAKIN_EP2
+LANG_ENGLISH        "Anakin [Episode II]"
+LANG_CHINESE        "安纳金[EP2]"
+
+REFERENCE           ANAKIN_EP2_ROBE
+LANG_ENGLISH        "Anakin [Episode II - Robed]"
+LANG_CHINESE        "安纳金[Ep2-长袍]"
+
+REFERENCE           ANAKIN_EP2_DUAL
+LANG_ENGLISH        "Anakin [Episode II - Dual Lightsabers]"
+LANG_CHINESE        "安纳金[EP2-双剑]"
+
+REFERENCE           ANAKIN_EP3
+LANG_ENGLISH        "Anakin [Episode III]"
+LANG_CHINESE        "安纳金[EP3]"
+
+REFERENCE           ANAKIN_EP3_ROBE
+LANG_ENGLISH        "Anakin [Episode III - Robed]"
+LANG_CHINESE        "安纳金[EP3-长袍]"
+
+REFERENCE           ANAKIN_EP3_HOOD
+LANG_ENGLISH        "Anakin [Episode III - Hooded]"
+LANG_CHINESE        "安纳金[EP3-兜帽]"
+
+REFERENCE           QUI
+LANG_ENGLISH        "Qui-Gon Jinn"
+LANG_CHINESE        "奎-刚·金"
+
+REFERENCE           QUI_ROBE
+LANG_ENGLISH        "Qui-Gon [Robed]"
+LANG_CHINESE        "奎-刚[长袍]"
+
+REFERENCE           QUI_PONCHO
+LANG_ENGLISH        "Qui-Gon [Poncho]"
+LANG_CHINESE        "奎-刚[斗篷]"
+
+REFERENCE           QUI_GHOST
+LANG_ENGLISH        "Qui-Gon [Force Ghost]"
+LANG_CHINESE        "奎-刚[英灵]"
+
+REFERENCE           KIT
+LANG_ENGLISH        "Kit Fisto"
+LANG_CHINESE        "基特·菲斯托"
+
+REFERENCE           KIT_ROBE
+LANG_ENGLISH        "Kit Fisto [Robed]"
+LANG_CHINESE        "基特·菲斯托[长袍]"
+
+REFERENCE           CIN
+LANG_ENGLISH        "Cin Drallig"
+LANG_CHINESE        "辛·德拉利格"
+
+REFERENCE           CIN_LEGENDS
+LANG_ENGLISH        "Cin Drallig [Legends]"
+LANG_CHINESE        "辛·德拉利格[传说]"
+
+REFERENCE           SAESEE
+LANG_ENGLISH        "Saesee Tiin"
+LANG_CHINESE        "塞西·廷"
+
+REFERENCE           SAESEE_ROBE
+LANG_ENGLISH        "Saesee Tiin [Robed]"
+LANG_CHINESE        "塞西·廷[长袍]"
+
+REFERENCE           KI
+LANG_ENGLISH        "Ki-Adi Mundi"
+LANG_CHINESE        "基-阿迪·芒迪"
+
+REFERENCE           DEPA
+LANG_ENGLISH        "Depa Billaba"
+LANG_CHINESE        "德帕·比拉巴"
+
+REFERENCE           AAYLA
+LANG_ENGLISH        "Aayla Secura"
+LANG_CHINESE        "艾拉·赛库拉"
+
+REFERENCE           LUMINARA
+LANG_ENGLISH        "Luminara Unduli"
+LANG_CHINESE        "卢米娜拉·昂杜利"
+
+REFERENCE           PLO
+LANG_ENGLISH        "Plo Koon"
+LANG_CHINESE        "普洛·孔"
+
+REFERENCE           PLO_JPB
+LANG_ENGLISH        "Plo Koon [Jedi Power Battles]"
+LANG_CHINESE        "普洛·孔[游戏：绝地力量战斗]"
+
+REFERENCE           SHAAK
+LANG_ENGLISH        "Shaak Ti"
+LANG_CHINESE        "莎克·蒂"
+
+REFERENCE           ADI
+LANG_ENGLISH        "Adi Gallia"
+LANG_CHINESE        "阿迪·加利亚"
+
+REFERENCE           YARAEL
+LANG_ENGLISH        "Yarael Poof"
+LANG_CHINESE        "亚雷尔·普夫"
+
+REFERENCE           YADDLE
+LANG_ENGLISH        "Yaddle"
+LANG_CHINESE        "娅德尔"
+
+REFERENCE           COLEMAN
+LANG_ENGLISH        "Coleman Trebor"
+LANG_CHINESE        "科勒曼·塔博"
+
+//----------------------------------------------------------
+// 	PREQUELS 2
+//----------------------------------------------------------
+
+REFERENCE           JOCASTA
+LANG_ENGLISH        "Jocasta Nu"
+LANG_CHINESE        "乔卡丝塔·纽"
+
+REFERENCE           BULTAR
+LANG_ENGLISH        "Bultar Swan"
+LANG_CHINESE        "芭尔塔·斯旺"
+
+REFERENCE           BULTAR_ROBE
+LANG_ENGLISH        "Bultar Swan [Robed]"
+LANG_CHINESE        "芭尔塔·斯旺[长袍]"
+
+REFERENCE           AGEN
+LANG_ENGLISH        "Agen Kolar"
+LANG_CHINESE        "阿根·科拉尔"
+
+REFERENCE           AGEN_ROBE
+LANG_ENGLISH        "Agen Kolar [Robed]"
+LANG_CHINESE        "阿根·科拉尔[长袍]"
+
+REFERENCE           BARRISS
+LANG_ENGLISH        "Barriss Offee"
+LANG_CHINESE        "巴丽斯·奥菲"
+
+REFERENCE           BARRISS_ROBE
+LANG_ENGLISH        "Barriss Offee [Robed]"
+LANG_CHINESE        "巴丽斯·奥菲[长袍]"
+
+REFERENCE           PABLO
+LANG_ENGLISH        "Pablo Jill"
+LANG_CHINESE        "帕布洛-吉尔"
+
+REFERENCE           SORA
+LANG_ENGLISH        "Sora Bulq"
+LANG_CHINESE        "索拉·巴尔克"
+
+REFERENCE           SERRA
+LANG_ENGLISH        "Serra Keto"
+LANG_CHINESE        "塞拉·凯托"
+
+REFERENCE           STASS_ALLIE
+LANG_ENGLISH        "Stass Allie"
+LANG_CHINESE        "斯塔丝·阿利"
+
+REFERENCE           STASS_ALLIE_ROBE
+LANG_ENGLISH        "Stass Allie [Robed]"
+LANG_CHINESE        "斯塔丝·阿利[长袍]"
+
+REFERENCE           TARADOS
+LANG_ENGLISH        "Tarados Gon"
+LANG_CHINESE        "塔拉多斯·贡"
+
+REFERENCE           JEDI_PREQ
+LANG_ENGLISH        "Jedi Order [Prequel Era]"
+LANG_CHINESE        "绝地武士团[前传时代]"
+
+REFERENCE           MAKIS
+LANG_ENGLISH        "Ma'kis'shaalas"
+LANG_CHINESE        "马基斯沙拉斯"
+
+REFERENCE           MAKIS_ROBE
+LANG_ENGLISH        "Ma'kis'shaalas [Robed]"
+LANG_CHINESE        "马基斯沙拉斯[长袍]"
+
+REFERENCE           SARISSA_JENG
+LANG_ENGLISH        "Sarissa Jeng"
+LANG_CHINESE        "萨丽萨·杰恩"
+
+REFERENCE           KOFFI_ARANA
+LANG_ENGLISH        "Koffi Arana"
+LANG_CHINESE        "科菲·阿拉纳"
+
+REFERENCE           JOOPI_SHE
+LANG_ENGLISH        "J'oopi She"
+LANG_CHINESE        "乔皮·谢"
+
+REFERENCE           MICAH_GIIETT
+LANG_ENGLISH        "Micah Giiett"
+LANG_CHINESE        "米卡·吉耶特"
+
+REFERENCE           TSUI_CHOI
+LANG_ENGLISH        "Tsui Choi"
+LANG_CHINESE        "苏伊·崔"
+
+REFERENCE           REDATH_GOM
+LANG_ENGLISH        "Que-Mars Redath-Gom"
+LANG_CHINESE        "奎-马尔斯·雷达斯-戈姆"
+
+REFERENCE           ZETT_JUKASSA
+LANG_ENGLISH        "Zett Jukassa"
+LANG_CHINESE        "泽特·朱卡萨"
+
+REFERENCE           SIRCH
+LANG_ENGLISH        "Fi-Ek Sirch"
+LANG_CHINESE        "菲-埃克·西尔奇"
+
+REFERENCE           KELLERAN
+LANG_ENGLISH        "Kelleran Beq"
+LANG_CHINESE        "凯勒兰·贝克"
+
+REFERENCE           KELLERAN_DUAL
+LANG_ENGLISH        "Kelleran Beq [Dual Lightsabers]"
+LANG_CHINESE        "凯勒兰·贝克 [双剑]"
+
+REFERENCE           JEDI
+LANG_ENGLISH        "Jedi [Episodes I-III]"
+LANG_CHINESE        "绝地[EP1-3]"
+
+REFERENCE           JEDI_PADAWAN
+LANG_ENGLISH        "Jedi Padawan"
+LANG_CHINESE        "绝地学徒"
+
+REFERENCE           JEDI_KNIGHT
+LANG_ENGLISH        "Jedi Knight"
+LANG_CHINESE        "绝地武士"
+
+REFERENCE           JEDI_KNIGHT_DUAL
+LANG_ENGLISH        "Jedi Knight [Dual Lightsabers]"
+LANG_CHINESE        "绝地武士[双剑]"
+
+REFERENCE           JEDI_VETERAN
+LANG_ENGLISH        "Jedi Veteran"
+LANG_CHINESE        "资深绝地"
+
+REFERENCE           JEDI_MASTER
+LANG_ENGLISH        "Jedi Master"
+LANG_CHINESE        "绝地大师"
+
+REFERENCE           JEDI_BRUTE
+LANG_ENGLISH        "Jedi Brute"
+LANG_CHINESE        "暴力绝地"
+
+REFERENCE           YOUNGLINGS
+LANG_ENGLISH        "Younglings"
+LANG_CHINESE        "幼徒"
+
+REFERENCE           YOUNGLING
+LANG_ENGLISH        "Youngling"
+LANG_CHINESE        "幼徒"
+
+REFERENCE           FOUL
+LANG_ENGLISH        "Foul Moudama"
+LANG_CHINESE        "福尔·莫达马"
+
+REFERENCE           PADME
+LANG_ENGLISH        "Padme Amidala"
+LANG_CHINESE        "帕德梅·阿米达拉"
+
+REFERENCE           PADME_QUEEN
+LANG_ENGLISH        "Queen Amidala"
+LANG_CHINESE        "阿米达拉女王"
+
+REFERENCE           PADME_GEONOSIS
+LANG_ENGLISH        "Padme [Geonosis]"
+LANG_CHINESE        "帕德梅[吉奥诺西斯]"
+
+REFERENCE           PADME_PREGNANT
+LANG_ENGLISH        "Padme [Pregnant]"
+LANG_CHINESE        "帕德梅[怀孕]"
+
+REFERENCE           JARJAR
+LANG_ENGLISH        "Jar Jar Binks"
+LANG_CHINESE        "加·加·宾克斯"
+
+REFERENCE           GUNGAN
+LANG_ENGLISH        "Gungan Warrior"
+LANG_CHINESE        "刚根人战士"
+
+REFERENCE           CLONE_COMMANDERS
+LANG_ENGLISH        "Clone Commanders"
+LANG_CHINESE        "克隆人指挥官"
+
+REFERENCE           CODY
+LANG_ENGLISH        "Commander Cody"
+LANG_CHINESE        "科迪指挥官"
+
+REFERENCE           REX
+LANG_ENGLISH        "Captain Rex"
+LANG_CHINESE        "雷克斯上尉"
+
+REFERENCE           FOX
+LANG_ENGLISH        "Commander Fox"
+LANG_CHINESE        "神狐指挥官"
+
+REFERENCE           FIVES
+LANG_ENGLISH        "Fives"
+LANG_CHINESE        "5号"
+
+REFERENCE           NEYO
+LANG_ENGLISH        "Commander Neyo"
+LANG_CHINESE        "尼约指挥官"
+
+REFERENCE           VAUGHN
+LANG_ENGLISH        "Commander Vaughn"
+LANG_CHINESE        "沃恩指挥官"
+
+REFERENCE           CLONES
+LANG_ENGLISH        "Clone Troopers"
+LANG_CHINESE        "克隆人士兵"
+
+REFERENCE           CLONE_EP2
+LANG_ENGLISH        "Clone Trooper [Phase 1]"
+LANG_CHINESE        "克隆人士兵[一型盔甲]"
+
+REFERENCE           CLONE_212
+LANG_ENGLISH        "Clone Trooper [212th Battalion]"
+LANG_CHINESE        "克隆人士兵[212攻击营]"
+
+REFERENCE           CLONE_PARA_212
+LANG_ENGLISH        "Clone Paratrooper [212th Battalion]"
+LANG_CHINESE        "克隆人伞兵[212攻击营]"
+
+REFERENCE           CLONE_13
+LANG_ENGLISH        "Clone Trooper [13th Battalion]"
+LANG_CHINESE        "克隆人士兵[13攻击营]"
+
+REFERENCE           CLONE_SNIPER
+LANG_ENGLISH        "Clone Sharpshooter"
+LANG_CHINESE        "克隆人狙击手"
+
+REFERENCE           CLONE_501
+LANG_ENGLISH        "Clone Trooper [501st Legion]"
+LANG_CHINESE        "克隆人士兵[501军团]"
+
+REFERENCE           CLONE_COMMANDER_501
+LANG_ENGLISH        "Clone Commander [501st Legion]"
+LANG_CHINESE        "克隆人指挥官[501军团]"
+
+REFERENCE           CLONE_SHOCK
+LANG_ENGLISH        "Clone Shock Trooper"
+LANG_CHINESE        "克隆人突击士兵"
+
+REFERENCE           DEVISS
+LANG_ENGLISH        "Commander Deviss"
+LANG_CHINESE        "德维斯指挥官"
+
+REFERENCE           CLONE_HEAVY
+LANG_ENGLISH        "Clone Heavy Trooper"
+LANG_CHINESE        "克隆人重装士兵"
+
+REFERENCE           CLONE_332
+LANG_ENGLISH        "Clone Trooper [332nd Company]"
+LANG_CHINESE        "克隆人士兵[332营]"
+
+REFERENCE           CLONE_327
+LANG_ENGLISH        "Clone Trooper [327th Star Corps]"
+LANG_CHINESE        "克隆人士兵[327星际军]"
+
+REFERENCE           CLONE_SHADOW
+LANG_ENGLISH        "Clone Shadow Trooper"
+LANG_CHINESE        "克隆人暗影士兵"
+
+REFERENCE           CLONE_MARINE
+LANG_ENGLISH        "Galactic Marine [21st Nova Corps]"
+LANG_CHINESE        "银河陆战队[第21新星军]"
+
+REFERENCE           TI
+LANG_ENGLISH        "Ti'Ori"
+LANG_CHINESE        "提·奥日"
+
+REFERENCE           CLONE_CRC
+LANG_ENGLISH        "Clone Republic Commandos"
+LANG_CHINESE        "克隆人突击队"
+
+REFERENCE           CLONE_RC
+LANG_ENGLISH        "Republic Commando"
+LANG_CHINESE        "共和国突击队"
+
+REFERENCE           CLONE_RC2
+LANG_ENGLISH        "Republic Commando [Night Ops Armor]"
+LANG_CHINESE        "共和国突击队[夜战装备]"
+
+REFERENCE           CLONE_BOSS
+LANG_ENGLISH        "Boss"
+LANG_CHINESE        "#same"
+
+REFERENCE           CLONE_FIXER
+LANG_ENGLISH        "Fixer"
+LANG_CHINESE        "#same"
+
+REFERENCE           CLONE_SCORCH
+LANG_ENGLISH        "Scorch"
+LANG_CHINESE        "#same"
+
+REFERENCE           CLONE_SEV
+LANG_ENGLISH        "Sev"
+LANG_CHINESE        "#same"
+
+REFERENCE           CLONE_GREGOR
+LANG_ENGLISH        "Gregor"
+LANG_CHINESE        "格雷戈尔"
+
+//----------------------------------------------------------
+// 	h1: PREQUELS 3
+//----------------------------------------------------------
+
+REFERENCE           SIDIOUS
+LANG_ENGLISH        "Darth Sidious"
+LANG_CHINESE        "达斯·西迪厄斯"
+
+REFERENCE           SHEEV
+LANG_ENGLISH        "Sheev Palpatine"
+LANG_CHINESE        "希夫·帕尔帕廷"
+
+REFERENCE           SIDIOUS_EP1
+LANG_ENGLISH        "Darth Sidious [EPI - EPII]"
+LANG_CHINESE        "达斯·西迪厄斯[EP1-2]"
+
+REFERENCE           SIDIOUS_EP3
+LANG_ENGLISH        "Darth Sidious [Episode III]"
+LANG_CHINESE        "达斯·西迪厄斯[EP3]"
+
+REFERENCE           SIDIOUS_SENATE
+LANG_ENGLISH        "Darth Sidious [Emperor]"
+LANG_CHINESE        "达斯·西迪厄斯[皇帝]"
+
+REFERENCE           SIDIOUS_EP3_ROBED
+LANG_ENGLISH        "Darth Sidious [Episode III - Robed]"
+LANG_CHINESE        "达斯·西迪厄斯[EP3-长袍]"
+
+REFERENCE           VADER_LORD
+LANG_ENGLISH        "Lord Vader"
+LANG_CHINESE        "维达勋爵"
+
+REFERENCE           VADER_LORD_MUS
+LANG_ENGLISH        "Lord Vader [Mustafar]"
+LANG_CHINESE        "维达勋爵[穆斯塔法]"
+
+REFERENCE           DOOKU
+LANG_ENGLISH        "Count Dooku"
+LANG_CHINESE        "杜库伯爵"
+
+REFERENCE           MAUL
+LANG_ENGLISH        "Darth Maul"
+LANG_CHINESE        "达斯·摩尔"
+
+REFERENCE           MAUL_ROBE
+LANG_ENGLISH        "Darth Maul [Robed]"
+LANG_CHINESE        "达斯·摩尔[长袍]"
+
+REFERENCE           MAUL_HOOD
+LANG_ENGLISH        "Darth Maul [Hood]"
+LANG_CHINESE        "达斯·摩尔[兜帽]"
+
+REFERENCE           MAUL_WARRIOR
+LANG_ENGLISH        "Darth Maul [Warrior]"
+LANG_CHINESE        "达斯·摩尔[武士]"
+
+REFERENCE           GRIEVOUS
+LANG_ENGLISH        "General Grievous"
+LANG_CHINESE        "格里弗斯将军"
+
+REFERENCE           GRIEVOUS_ARMS
+LANG_ENGLISH        "General Grievous [Four Arms]"
+LANG_CHINESE        "格里弗斯将军[4手臂]"
+
+REFERENCE           GRIEVOUS_CAPE
+LANG_ENGLISH        "General Grievous [Robed]"
+LANG_CHINESE        "格里弗斯将军[长袍]"
+
+REFERENCE           MAGNA
+LANG_ENGLISH        "Magnaguard"
+LANG_CHINESE        "电磁守卫机器人"
+
+REFERENCE           JANGO
+LANG_ENGLISH        "Jango Fett"
+LANG_CHINESE        "詹戈·费特"
+
+REFERENCE           JANGO_GEONOSIS
+LANG_ENGLISH        "Jango Fett [Geonosis]"
+LANG_CHINESE        "詹戈·费特[吉奥诺西斯]"
+
+REFERENCE           JANGO_DUAL
+LANG_ENGLISH        "Jango Fett [Dual Pistols]"
+LANG_CHINESE        "詹戈·费特[双枪]"
+
+REFERENCE           CLONE_ASSASSIN
+LANG_ENGLISH        "Clone Assassin"
+LANG_CHINESE        "克隆人刺客"
+
+REFERENCE           TUSKENS
+LANG_ENGLISH        "Tusken Raiders"
+LANG_CHINESE        "塔斯肯袭击者"
+
+REFERENCE           TUSKEN
+LANG_ENGLISH        "Tusken Raider"
+LANG_CHINESE        "塔斯肯袭击者"
+
+REFERENCE           TUSKEN_SNIPER
+LANG_ENGLISH        "Tusken Sniper"
+LANG_CHINESE        "塔斯肯狙击手"
+
+REFERENCE           TUSKEN_CHIEFTAIN
+LANG_ENGLISH        "Tusken Chieftain"
+LANG_CHINESE        "塔斯肯首领"
+
+REFERENCE           NEIMOIDIAN_GUARDS
+LANG_ENGLISH        "Neimoidian Guards"
+LANG_CHINESE        "内莫伊迪亚守卫"
+
+REFERENCE           NEIMOIDIAN_GUARD
+LANG_ENGLISH        "Neimoidian Guard"
+LANG_CHINESE        "内莫伊迪亚守卫"
+
+REFERENCE           NEIMOIDIAN_BRUTE
+LANG_ENGLISH        "Neimoidian Brute"
+LANG_CHINESE        "内莫伊迪亚暴徒"
+
+REFERENCE           NUTE
+LANG_ENGLISH        "Nute Gunray"
+LANG_CHINESE        "纽特·冈雷"
+
+REFERENCE           SHU
+LANG_ENGLISH        "Shu Mai"
+LANG_CHINESE        "#same"
+
+REFERENCE           WAT
+LANG_ENGLISH        "Wat Tambor"
+LANG_CHINESE        "沃特·坦伯"
+
+REFERENCE           BDS
+LANG_ENGLISH        "B1 Battle Droids"
+LANG_CHINESE        "B1战斗机器人"
+
+REFERENCE           BD
+LANG_ENGLISH        "B1 Battle Droid"
+LANG_CHINESE        "B1战斗机器人"
+
+REFERENCE           BD_SECURITY
+LANG_ENGLISH        "B1 Battle Droid [Security]"
+LANG_CHINESE        "B1战斗机器人[保安]"
+
+REFERENCE           BD_PILOT
+LANG_ENGLISH        "B1 Battle Droid [Pilot]"
+LANG_CHINESE        "B1战斗机器人[飞行员]"
+
+REFERENCE           BD_COMMANDER
+LANG_ENGLISH        "B1 Battle Droid [Commander]"
+LANG_CHINESE        "B1战斗机器人[指挥官]"
+
+REFERENCE           BD_SNIPER
+LANG_ENGLISH        "B1 Battle Droid [Sniper]"
+LANG_CHINESE        "B1战斗机器人[狙击手]"
+
+REFERENCE           BD_GEONOSIS
+LANG_ENGLISH        "B1 Battle Droid [Geonosis]"
+LANG_CHINESE        "B1战斗机器人[吉奥诺西斯]"
+
+REFERENCE           SBD
+LANG_ENGLISH        "B2 Super Battle Droid"
+LANG_CHINESE        "B2超级战斗机器人"
+
+REFERENCE           DEKA
+LANG_ENGLISH        "Droideka"
+LANG_CHINESE        "毁灭者机器人"
+
+//----------------------------------------------------------
+// 	CLONE WARS 1
+//----------------------------------------------------------
+
+REFERENCE           OBI_GENERAL
+LANG_ENGLISH        "Obi-Wan Kenobi [TCW - General]"
+LANG_CHINESE        "欧比-旺·克诺比[TCW-将军]"
+
+REFERENCE           OBI_CW
+LANG_ENGLISH        "Obi-Wan Kenobi [CW - General]"
+LANG_CHINESE        "欧比-旺·克诺比[CW-将军]"
+
+REFERENCE           ANAKIN_GENERAL
+LANG_ENGLISH        "Anakin Skywalker [TCW - General]"
+LANG_CHINESE        "安纳金·天行者[TCW-将军]"
+
+REFERENCE           ANAKIN_CW
+LANG_ENGLISH        "Anakin Skywalker [CW - General]"
+LANG_CHINESE        "安纳金·天行者[CW-将军]"
+
+REFERENCE           ANAKIN_CW_NELVAAN
+LANG_ENGLISH        "Anakin Skywalker [CW - Nelvaan Trials]"
+LANG_CHINESE        "安纳金·天行者[CW-内尔万试炼]"
+
+REFERENCE           AHSOKA
+LANG_ENGLISH        "Ahsoka Tano"
+LANG_CHINESE        "阿索卡·塔诺"
+
+REFERENCE           AHSOKA_ADVISOR
+LANG_ENGLISH        "Ahsoka Tano [Mandalore]"
+LANG_CHINESE        "阿索卡·塔诺[曼达洛人]"
+
+REFERENCE           PLO_GENERAL
+LANG_ENGLISH        "Plo Koon [General]"
+LANG_CHINESE        "普洛·孔[将军]"
+
+REFERENCE           MACE_GENERAL
+LANG_ENGLISH        "Mace Windu [TCW - General]"
+LANG_CHINESE        "梅斯·温度[TCW-将军]"
+
+REFERENCE           MACE_CW
+LANG_ENGLISH        "Mace Windu [CW - General]"
+LANG_CHINESE        "梅斯·温度[CW-将军]"
+
+REFERENCE           MACE_TOTJ
+LANG_ENGLISH        "Mace Windu [Tales of the Jedi]"
+LANG_CHINESE        "梅斯·温度[绝地传奇]"
+
+REFERENCE           KIT_GENERAL
+LANG_ENGLISH        "Kit Fisto [General]"
+LANG_CHINESE        "基特·菲斯托[将军]"
+
+REFERENCE           KIT_NOSHIRT
+LANG_ENGLISH        "Kit Fisto [Shirtless]"
+LANG_CHINESE        "基特·菲斯托[赤膊]"
+
+REFERENCE           ADI_GENERAL
+LANG_ENGLISH        "Adi Gallia [General]"
+LANG_CHINESE        "阿迪·加利亚[将军]"
+
+REFERENCE           EETH_GENERAL
+LANG_ENGLISH        "Eeth Koth [General]"
+LANG_CHINESE        "伊思·科思[将军]"
+
+REFERENCE           EVEN
+LANG_ENGLISH        "Even Piell"
+LANG_CHINESE        "伊文·皮耶尔"
+
+REFERENCE           QUINLAN
+LANG_ENGLISH        "Quinlan Vos"
+LANG_CHINESE        "昆兰·沃斯"
+
+REFERENCE           CIN_TCW
+LANG_ENGLISH        "Cin Drallig [TCW]"
+LANG_CHINESE        "辛·德拉利格[TCW]"
+
+REFERENCE           PONG
+LANG_ENGLISH        "Pong Krell"
+LANG_CHINESE        "庞·克雷尔"
+
+REFERENCE           TIPLEE
+LANG_ENGLISH        "Tiplee"
+LANG_CHINESE        "蒂普莉"
+
+REFERENCE           TIPLAR
+LANG_ENGLISH        "Tiplar"
+LANG_CHINESE        "蒂普拉"
+
+REFERENCE           JT_GUARDS
+LANG_ENGLISH        "Jedi Temple Guards"
+LANG_CHINESE        "绝地圣殿守卫"
+
+REFERENCE           JT_GUARD
+LANG_ENGLISH        "Jedi Temple Guard"
+LANG_CHINESE        "绝地圣殿守卫"
+
+REFERENCE           SHAKKRA
+LANG_ENGLISH        "Shakkra Kien"
+LANG_CHINESE        "沙拉克·契恩"
+
+REFERENCE           SATINE
+LANG_ENGLISH        "Satine Kryze"
+LANG_CHINESE        "莎廷·克里兹"
+
+REFERENCE           DEPA_TCW
+LANG_ENGLISH        "Depa Billaba [TCW]"
+LANG_CHINESE        "德琶·比拉巴[TCW]"
+
+REFERENCE           DEPA_TCW_ROBE
+LANG_ENGLISH        "Depa Billaba [TCW - Robed]"
+LANG_CHINESE        "德琶·比拉巴[TCW-长袍]"
+
+REFERENCE           DEPA_TCW_HOOD
+LANG_ENGLISH        "Depa Billaba [TCW - Hooded]"
+LANG_CHINESE        "德琶·比拉巴[TCW-兜帽]"
+
+REFERENCE           JEDI_TCW
+LANG_ENGLISH        "Jedi Order [TCW Era]"
+LANG_CHINESE        "绝地武士团[克隆战争时代]"
+
+REFERENCE           TERA_SINUBE
+LANG_ENGLISH        "Tera Sinube"
+LANG_CHINESE        "泰拉·西努贝"
+
+REFERENCE           THONGLA_JUR
+LANG_ENGLISH        "Thongla Jur"
+LANG_CHINESE        "通拉·朱尔"
+
+REFERENCE           OPPO_RANCISIS
+LANG_ENGLISH        "Oppo Rancisis"
+LANG_CHINESE        "奥波·兰西西斯"
+
+REFERENCE           HALSEY
+LANG_ENGLISH        "Halsey"
+LANG_CHINESE        "哈尔西"
+
+REFERENCE           KNOX
+LANG_ENGLISH        "Knox"
+LANG_CHINESE        "诺克斯"
+
+REFERENCE           BOLLA_ROPAL
+LANG_ENGLISH        "Bolla Ropal"
+LANG_CHINESE        "波拉·罗帕尔"
+
+REFERENCE           IMA_GUN_DI
+LANG_ENGLISH        "Ima-Gun Di"
+LANG_CHINESE        "艾马-冈·殆"
+
+REFERENCE           NAHDAR_VEBB
+LANG_ENGLISH        "Nahdar Vebb"
+LANG_CHINESE        "纳德尔·韦布"
+
+REFERENCE           NAHDAR_VEBB_ROBE
+LANG_ENGLISH        "Nahdar Vebb [Robed]"
+LANG_CHINESE        "纳德尔·韦布[兜帽]"
+
+REFERENCE           EEKAR_OKI
+LANG_ENGLISH        "Eekar Oki"
+LANG_CHINESE        "伊卡尔·奥基"
+
+//----------------------------------------------------------
+// 	CLONE WARS 2
+//----------------------------------------------------------
+
+REFERENCE           SIDIOUS_TCW
+LANG_ENGLISH        "Darth Sidious [TCW]"
+LANG_CHINESE        "达斯·西迪厄斯[TCW]"
+
+REFERENCE           DOOKU_TCW
+LANG_ENGLISH        "Count Dooku [TCW]"
+LANG_CHINESE        "杜库伯爵[TCW]"
+
+REFERENCE           DOOKU_TCW_ROBE
+LANG_ENGLISH        "Dooku [TCW - Robed]"
+LANG_CHINESE        "杜库[TCW-兜帽]"
+
+REFERENCE           DOOKU_TOTJ
+LANG_ENGLISH        "Dooku [Tales of the Jedi]"
+LANG_CHINESE        "杜库[绝地传奇]"
+
+REFERENCE           MAUL_TCW
+LANG_ENGLISH        "Darth Maul [TCW]"
+LANG_CHINESE        "达斯·摩尔[TCW]"
+
+REFERENCE           MAUL_TCW_LEGS
+LANG_ENGLISH        "Maul [TCW - Reborn]"
+LANG_CHINESE        "达斯·摩尔[TCW-重生]"
+
+REFERENCE           MAUL_TCW_DARK
+LANG_ENGLISH        "Maul [TCW - Darksaber]"
+LANG_CHINESE        "摩尔[TCW-暗剑]"
+
+REFERENCE           MAUL_TCW_STAFF
+LANG_ENGLISH        "Maul [TCW - Staff]"
+LANG_CHINESE        "摩尔[TCW-光杖]"
+
+REFERENCE           SAVAGE
+LANG_ENGLISH        "Savage Opress"
+LANG_CHINESE        "萨瓦奇·奥普雷斯"
+
+REFERENCE           ASAJJ
+LANG_ENGLISH        "Asajj Ventress"
+LANG_CHINESE        "阿萨吉·文崔斯"
+
+REFERENCE           ASAJJ_STAFF
+LANG_ENGLISH        "Asajj Ventress [Staff]"
+LANG_CHINESE        "阿萨吉·文崔斯[光杖]"
+
+REFERENCE           ASAJJ_NIGHT
+LANG_ENGLISH        "Asajj [Nightsister]"
+LANG_CHINESE        "阿萨吉·文崔斯[暗夜姐妹]"
+
+REFERENCE           ASAJJ_BH
+LANG_ENGLISH        "Asajj [Bounty Hunter]"
+LANG_CHINESE        "阿萨吉[赏金猎人]"
+
+REFERENCE           ASAJJ_DISGUISE
+LANG_ENGLISH        "Asajj [Disguised]"
+LANG_CHINESE        "阿萨吉[伪装]"
+
+REFERENCE           TALZIN
+LANG_ENGLISH        "Mother Talzin"
+LANG_CHINESE        "塔尔津主母"
+
+REFERENCE           MAGNA_TCW
+LANG_ENGLISH        "Magnaguard TCW [Dooku's Bodyguard]"
+LANG_CHINESE        "马戈纳机器人护卫 TCW [杜库的亲卫队]"
+
+REFERENCE           HONDO
+LANG_ENGLISH        "Hondo Ohnaka"
+LANG_CHINESE        "杭多·奥纳卡"
+
+REFERENCE           CAD
+LANG_ENGLISH        "Cad Bane"
+LANG_CHINESE        "凯德·贝恩"
+
+REFERENCE           EMBO
+LANG_ENGLISH        "Embo"
+LANG_CHINESE        "恩伯"
+
+REFERENCE           DURGE
+LANG_ENGLISH        "Durge"
+LANG_CHINESE        "德奇"
+
+REFERENCE           DURGE_JET
+LANG_ENGLISH        "Durge [Jetpack]"
+LANG_CHINESE        "德奇[飞行背包]"
+
+//----------------------------------------------------------
+// 	ORIGINAL TRILOGY 1
+//----------------------------------------------------------
+
+REFERENCE           BEN
+LANG_ENGLISH        "Ben Kenobi"
+LANG_CHINESE        "本·克诺比"
+
+REFERENCE           BEN_ROBE
+LANG_ENGLISH        "Ben [Robed]"
+LANG_CHINESE        "本[长袍]"
+
+REFERENCE           BEN_HOOD
+LANG_ENGLISH        "Ben [Hooded]"
+LANG_CHINESE        "本[兜帽]"
+
+REFERENCE           OBI_EXILE
+LANG_ENGLISH        "Obi-Wan [Exiled]"
+LANG_CHINESE        "欧比-旺[流亡]"
+
+REFERENCE           BEN_GHOST
+LANG_ENGLISH        "Ben [Force Ghost]"
+LANG_CHINESE        "本[英灵]"
+
+REFERENCE           KENOBI
+LANG_ENGLISH        "Obi-Wan [Jabiim]"
+LANG_CHINESE        "欧比-旺[贾毕姆]"
+
+REFERENCE           KENOBI_ROBE
+LANG_ENGLISH        "Obi-Wan [Jabiim - Robed]"
+LANG_CHINESE        "欧比-旺[贾毕姆-长袍]"
+
+REFERENCE           KENOBI_PREANH
+LANG_ENGLISH        "Obi-Wan [Pre-ANH]"
+LANG_CHINESE        "欧比-旺[新希望之前]"
+
+REFERENCE           KENOBI_PREANH_DESERT
+LANG_ENGLISH        "Obi-Wan [Pre-ANH - Desert]"
+LANG_CHINESE        "欧比-旺[新希望之前-沙漠]"
+
+REFERENCE           LUKE
+LANG_ENGLISH        "Luke Skywalker"
+LANG_CHINESE        "卢克·天行者"
+
+REFERENCE           LUKE_ANH
+LANG_ENGLISH        "Luke Skywalker [A New Hope]"
+LANG_CHINESE        "卢克·天行者[新希望]"
+
+REFERENCE           LUKE_FARM
+LANG_ENGLISH        "Luke [Farm Boy]"
+LANG_CHINESE        "卢克[农场小子]"
+
+REFERENCE           LUKE_YAVIN
+LANG_ENGLISH        "Luke [Yavin Ceremony]"
+LANG_CHINESE        "卢克[雅汶庆典]"
+
+REFERENCE           LUKE_ESB
+LANG_ENGLISH        "Luke Skywalker [The Empire Strikes Back]"
+LANG_CHINESE        "卢克·天行者[帝国反击战]"
+
+REFERENCE           LUKE_HOTH
+LANG_ENGLISH        "Luke [Hoth]"
+LANG_CHINESE        "卢克[霍斯]"
+
+REFERENCE           LUKE_PILOT
+LANG_ENGLISH        "Luke [Pilot]"
+LANG_CHINESE        "卢克[飞行员]"
+
+REFERENCE           LUKE_DAGO
+LANG_ENGLISH        "Luke [Dagobah]"
+LANG_CHINESE        "卢克[达可巴]"
+
+REFERENCE           LUKE_DAGO_BACKPACK
+LANG_ENGLISH        "Luke [Dagobah - Yoda In Backpack]"
+LANG_CHINESE        "卢克[达可巴-尤达在背上]"
+
+REFERENCE           LUKE_BESPIN
+LANG_ENGLISH        "Luke [Bespin]"
+LANG_CHINESE        "卢克[贝斯坪]"
+
+REFERENCE           LUKE_ROTJ
+LANG_ENGLISH        "Luke Skywalker [Return of the Jedi]"
+LANG_CHINESE        "卢克·天行者[绝地归来]"
+
+REFERENCE           LUKE_ROTJ_HOOD
+LANG_ENGLISH        "Luke [Jedi - Hooded]"
+LANG_CHINESE        "卢克[绝地-兜帽]"
+
+REFERENCE           LUKE_ROTJ_ROBE
+LANG_ENGLISH        "Luke [Jedi - Robed]"
+LANG_CHINESE        "卢克[绝地-长袍]"
+
+REFERENCE           LUKE_ROTJ_TUNIC
+LANG_ENGLISH        "Luke [Jedi - Tunic]"
+LANG_CHINESE        "卢克[绝地-正装]"
+
+REFERENCE           LUKE_ENDOR
+LANG_ENGLISH        "Luke [Endor Camouflage]"
+LANG_CHINESE        "卢克[恩多-迷彩服]"
+
+REFERENCE           LUKE_ENDOR2
+LANG_ENGLISH        "Luke [Endor Camo, Helmetless]"
+LANG_CHINESE        "卢克[恩多迷彩，无头盔]"
+
+REFERENCE           LUKE_JEDI
+LANG_ENGLISH        "Luke [Jedi Knight]"
+LANG_CHINESE        "卢克[绝地武士]"
+
+REFERENCE           LUKE_JEDI_FLAP
+LANG_ENGLISH        "Luke [Jedi - Exposed Flap]"
+LANG_CHINESE        "卢克[绝地-暴露]"
+
+REFERENCE           LEIA
+LANG_ENGLISH        "Leia Organa"
+LANG_CHINESE        "莱雅·奥嘉纳"
+
+REFERENCE           LEIA_PRINCESS
+LANG_ENGLISH        "Princess Leia"
+LANG_CHINESE        "莱雅公主"
+
+REFERENCE           LEIA_HOTH
+LANG_ENGLISH        "Leia [Hoth]"
+LANG_CHINESE        "莱雅[霍斯]"
+
+REFERENCE           LEIA_BESPIN
+LANG_ENGLISH        "Leia [Bespin]"
+LANG_CHINESE        "莱雅[贝斯坪]"
+
+REFERENCE           LEIA_SLAVE
+LANG_ENGLISH        "Leia [Jabba's Slave]"
+LANG_CHINESE        "莱雅[贾巴奴隶装]"
+
+REFERENCE           LEIA_ENDOR
+LANG_ENGLISH        "Leia [Endor]"
+LANG_CHINESE        "莱雅[恩多]"
+
+REFERENCE           LEIA_PONCHO
+LANG_ENGLISH        "Leia [Endor - Poncho]"
+LANG_CHINESE        "莱雅[恩多-斗篷]"
+
+REFERENCE           HAN
+LANG_ENGLISH        "Han Solo"
+LANG_CHINESE        "汉·索罗"
+
+REFERENCE           HAN_ESB
+LANG_ENGLISH        "Han [Empire Strikes Back]"
+LANG_CHINESE        "汉[帝国反击战]"
+
+REFERENCE           HAN_ROTJ
+LANG_ENGLISH        "Han [Return of the Jedi]"
+LANG_CHINESE        "汉[绝地归来]"
+
+REFERENCE           HAN_YOUNG
+LANG_ENGLISH        "Han [Young]"
+LANG_CHINESE        "汉[年轻]"
+
+REFERENCE           CHEWIE
+LANG_ENGLISH        "Chewbacca"
+LANG_CHINESE        "楚巴卡"
+
+REFERENCE           CHEWIE_BESPIN
+LANG_ENGLISH        "Chewbacca [Bespin]"
+LANG_CHINESE        "楚巴卡[贝斯坪]"
+
+REFERENCE           DROIDS
+LANG_ENGLISH        "Droids"
+LANG_CHINESE        "机器人"
+
+REFERENCE           R2D2
+LANG_ENGLISH        "R2-D2"
+LANG_CHINESE        "#same"
+
+REFERENCE           C3PO
+LANG_ENGLISH        "C-3PO"
+LANG_CHINESE        "#same"
+
+REFERENCE           GONK
+LANG_ENGLISH        "GNK Droid"
+LANG_CHINESE        "贡克机器人"
+
+REFERENCE           LANDO
+LANG_ENGLISH        "Lando Calrissian"
+LANG_CHINESE        "兰多·卡瑞辛"
+
+REFERENCE           LANDO_BESPIN
+LANG_ENGLISH        "Lando [Bespin Administrator]"
+LANG_CHINESE        "兰多[贝斯坪管理者]"
+
+REFERENCE           LANDO_GENERAL
+LANG_ENGLISH        "Lando [Alliance General]"
+LANG_CHINESE        "兰多[义军同盟将军]"
+
+REFERENCE           LANDO_GUARD
+LANG_ENGLISH        "Lando [Jabba's Palace Disguise]"
+LANG_CHINESE        "兰多[贾巴宫殿伪装]"
+
+REFERENCE           NIEN
+LANG_ENGLISH        "Nien Nunb"
+LANG_CHINESE        "尼恩·农布"
+
+REFERENCE           BAIL
+LANG_ENGLISH        "Bail Organa"
+LANG_CHINESE        "贝尔·奥嘉纳"
+
+REFERENCE           MON
+LANG_ENGLISH        "Mon Mothma"
+LANG_CHINESE        "蒙·莫斯马"
+
+REFERENCE           MON_YOUNG
+LANG_ENGLISH        "Mon Mothma [Young]"
+LANG_CHINESE        "蒙·莫斯马[年轻]"
+
+REFERENCE           ACKBAR
+LANG_ENGLISH        "Admiral Ackbar"
+LANG_CHINESE        "阿克巴上将"
+
+REFERENCE           REBELS
+LANG_ENGLISH        "Rebel Alliance Personnel"
+LANG_CHINESE        "义军同盟人员"
+
+REFERENCE           REBEL
+LANG_ENGLISH        "Rebel Alliance Trooper"
+LANG_CHINESE        "义军同盟士兵"
+
+REFERENCE           MILITIA
+LANG_ENGLISH        "Kota's Militia [Saboteur]"
+LANG_CHINESE        "科塔的军队[破坏者]"
+
+REFERENCE           MILITIA_TROOP
+LANG_ENGLISH        "Kota's Militia [Trooper]"
+LANG_CHINESE        "科塔的军队[士兵]"
+
+REFERENCE           REBEL_PILOT
+LANG_ENGLISH        "Rebel Alliance Pilot"
+LANG_CHINESE        "义军同盟飞行员"
+
+REFERENCE           BESPIN_COP
+LANG_ENGLISH        "Bespin Security"
+LANG_CHINESE        "贝斯坪保安"
+
+REFERENCE           ROGUE_ONE
+LANG_ENGLISH        "Rogue One"
+LANG_CHINESE        "侠盗一号"
+
+REFERENCE           JYN
+LANG_ENGLISH        "Jyn Erso"
+LANG_CHINESE        "琴·厄索"
+
+REFERENCE           CASSIAN
+LANG_ENGLISH        "Cassian Andor"
+LANG_CHINESE        "卡西安·安多"
+
+REFERENCE           CASSIAN_PARKA
+LANG_ENGLISH        "Cassian [Parka Jacket]"
+LANG_CHINESE        "卡西安[夹克大衣]"
+
+REFERENCE           CASSIAN_VEST
+LANG_ENGLISH        "Cassian [Protective Vest]"
+LANG_CHINESE        "卡西安[防护背心]"
+
+REFERENCE           CASSIAN_SCARIF
+LANG_ENGLISH        "Cassian [Scarif]"
+LANG_CHINESE        "卡西安[斯卡里夫]"
+
+REFERENCE           BODHI
+LANG_ENGLISH        "Bodhi Rook"
+LANG_CHINESE        "菩提·鲁克"
+
+REFERENCE           CHIRRUT
+LANG_ENGLISH        "Chirrut Imwe"
+LANG_CHINESE        "奇鲁·英威"
+
+REFERENCE           BAZE
+LANG_ENGLISH        "Baze Malbus"
+LANG_CHINESE        "贝兹·巴尔马斯"
+
+REFERENCE           K2SO
+LANG_ENGLISH        "K-2SO"
+LANG_CHINESE        "#same"
+
+REFERENCE           CAL
+LANG_ENGLISH        "Cal Kestis"
+LANG_CHINESE        "卡尔·凯斯提斯"
+
+REFERENCE           CAL_PONCHO
+LANG_ENGLISH        "Cal [Poncho]"
+LANG_CHINESE        "卡尔[斗篷]"
+
+REFERENCE           CAL_STAFF
+LANG_ENGLISH        "Cal [Staff]"
+LANG_CHINESE        "卡尔[光杖]"
+
+REFERENCE           CAL_JEDI
+LANG_ENGLISH        "Cal [Padawan]"
+LANG_CHINESE        "卡尔[学徒]"
+
+REFERENCE           CAL_SURVIVOR
+LANG_ENGLISH        "Cal [Jedi: Survivor]"
+LANG_CHINESE        "卡尔[绝地:幸存者]"
+
+REFERENCE           CAL_INQUISITOR
+LANG_ENGLISH        "Inquisitor Kestis"
+LANG_CHINESE        "裁判官凯斯提斯"
+
+REFERENCE           JARO_TAPAL
+LANG_ENGLISH        "Jaro Tapal"
+LANG_CHINESE        "杰罗·塔帕尔"
+
+//----------------------------------------------------------
+// 	ORIGINAL TRILOGY 2
+//----------------------------------------------------------
+
+REFERENCE           VADER
+LANG_ENGLISH        "Darth Vader"
+LANG_CHINESE        "达斯·维达"
+
+REFERENCE           VADER_EP3
+LANG_ENGLISH        "Darth Vader [Episode III]"
+LANG_CHINESE        "达斯·维达[EP3]"
+
+REFERENCE           VADER_DAMAGED
+LANG_ENGLISH        "Darth Vader [Battle Damaged]"
+LANG_CHINESE        "达斯·维达[战损]"
+
+REFERENCE           VADER_EP4
+LANG_ENGLISH        "Darth Vader [Episode IV]"
+LANG_CHINESE        "达斯·维达[EP4]"
+
+REFERENCE           VADER_EP5
+LANG_ENGLISH        "Darth Vader [Episode V-VI]"
+LANG_CHINESE        "达斯·维达[EP5-6]"
+
+REFERENCE           EMPEROR
+LANG_ENGLISH        "Emperor Palpatine"
+LANG_CHINESE        "帕尔帕廷皇帝"
+
+REFERENCE           EMPEROR_SABER
+LANG_ENGLISH        "Emperor Palpatine [Lightsaber]"
+LANG_CHINESE        "帕尔帕廷皇帝[光剑]"
+
+REFERENCE           IMP_GUARDS
+LANG_ENGLISH        "Imperial Guards"
+LANG_CHINESE        "帝国守卫"
+
+REFERENCE           ROYAL_GUARD
+LANG_ENGLISH        "Imperial Royal Guard"
+LANG_CHINESE        "帝国皇家守卫"
+
+REFERENCE           SHADOW_GUARD
+LANG_ENGLISH        "Imperial Shadow Guard"
+LANG_CHINESE        "帝国暗影卫兵"
+
+REFERENCE           ROYAL_GUARD_COMBAT
+LANG_ENGLISH        "Royal Combat Guard"
+LANG_CHINESE        "帝国皇家禁卫军"
+
+REFERENCE           TARKIN
+LANG_ENGLISH        "Grand Moff Tarkin"
+LANG_CHINESE        "高级星区总督塔金"
+
+REFERENCE           BOBA
+LANG_ENGLISH        "Boba Fett"
+LANG_CHINESE        "波巴·费特"
+
+REFERENCE           BOBA_EP5
+LANG_ENGLISH        "Boba Fett [The Empire Strikes Back]"
+LANG_CHINESE        "波巴·费特[帝国反击战]"
+
+REFERENCE           BOBA_EP6
+LANG_ENGLISH        "Boba Fett [Return of the Jedi]"
+LANG_CHINESE        "波巴·费特[绝地归来]"
+
+REFERENCE           IMPERIALS
+LANG_ENGLISH        "Imperial Army"
+LANG_CHINESE        "帝国军队"
+
+REFERENCE           STORMTROOP
+LANG_ENGLISH        "Stormtrooper"
+LANG_CHINESE        "冲锋队"
+
+REFERENCE           STORM_OFFICER
+LANG_ENGLISH        "Stormtrooper [Officer]"
+LANG_CHINESE        "冲锋队[军官]"
+
+REFERENCE           SCOUTTROOP
+LANG_ENGLISH        "Scout Trooper"
+LANG_CHINESE        "侦察兵"
+
+REFERENCE           SCOUTTROOP_COMMANDER
+LANG_ENGLISH        "Scout Trooper Commander"
+LANG_CHINESE        "侦察兵指挥官"
+
+REFERENCE           SHOCKTROOP
+LANG_ENGLISH        "Shock Trooper"
+LANG_CHINESE        "突击兵"
+
+REFERENCE           SHOCK_COMMANDER
+LANG_ENGLISH        "Shock Trooper Commander"
+LANG_CHINESE        "突击兵指挥官"
+
+REFERENCE           STORM_501
+LANG_ENGLISH        "Stormtrooper [Vader's Fist]"
+LANG_CHINESE        "冲锋队[维达之拳]"
+
+REFERENCE           STORM_501_OFFICER
+LANG_ENGLISH        "Stormtrooper [Officer - Vader's Fist]"
+LANG_CHINESE        "冲锋队[军官-维达之拳]"
+
+REFERENCE           SHADOWTROOP
+LANG_ENGLISH        "Shadow Trooper"
+LANG_CHINESE        "暗影士兵"
+
+REFERENCE           EVOTROOP
+LANG_ENGLISH        "Imperial EVO Trooper"
+LANG_CHINESE        "帝国EVO士兵"
+
+REFERENCE           EVO_SHADOW
+LANG_ENGLISH        "Shadow EVO Trooper"
+LANG_CHINESE        "EVO暗影士兵"
+
+REFERENCE           JUMPTROOP
+LANG_ENGLISH        "Imperial Jumptrooper"
+LANG_CHINESE        "帝国飞行士兵"
+
+REFERENCE           BOSSK
+LANG_ENGLISH        "Bossk"
+LANG_CHINESE        "博斯克"
+
+REFERENCE           GREEDO
+LANG_ENGLISH        "Greedo"
+LANG_CHINESE        "格里多"
+
+REFERENCE           JABBA_GUARDS
+LANG_ENGLISH        "Jabba's Henchmen"
+LANG_CHINESE        "贾巴的心腹"
+
+REFERENCE           GAMORREAN
+LANG_ENGLISH        "Gamorrean Guard"
+LANG_CHINESE        "加莫人护卫"
+
+REFERENCE           VIZAM
+LANG_ENGLISH        "Vizam"
+LANG_CHINESE        "维扎姆"
+
+REFERENCE           WEEQUAY_STAFF
+LANG_ENGLISH        "Weequay [Staff]"
+LANG_CHINESE        "威奎人[杖]"
+
+REFERENCE           WEEQUAY_AXE
+LANG_ENGLISH        "Weequay [Axe]"
+LANG_CHINESE        "威奎人[斧]"
+
+REFERENCE           WEEQUAY_GUNNER
+LANG_ENGLISH        "Weequay [Gunner]"
+LANG_CHINESE        "威奎人[枪]"
+
+REFERENCE           KRENNIC
+LANG_ENGLISH        "Director Orson Krennic"
+LANG_CHINESE        "奥森·克伦尼克总监"
+
+REFERENCE           DEATHTROOP
+LANG_ENGLISH        "Death Trooper"
+LANG_CHINESE        "死亡士兵"
+
+REFERENCE           DEATH_COMMANDER
+LANG_ENGLISH        "Death Trooper [Commander]"
+LANG_CHINESE        "死亡士兵[指挥官]"
+
+REFERENCE           SHORETROOP
+LANG_ENGLISH        "Shoretrooper"
+LANG_CHINESE        "海岸士兵"
+
+REFERENCE           SHORE_ELITE
+LANG_ENGLISH        "Shoretrooper Elite"
+LANG_CHINESE        "海岸部队 精英"
+
+REFERENCE           TANKTROOP
+LANG_ENGLISH        "Tank Trooper"
+LANG_CHINESE        "坦克兵"
+
+REFERENCE           SECONDSISTER
+LANG_ENGLISH        "Second Sister"
+LANG_CHINESE        "二姐"
+
+REFERENCE           NINTHSISTER
+LANG_ENGLISH        "Ninth Sister"
+LANG_CHINESE        "九妹"
+
+REFERENCE           REVA
+LANG_ENGLISH        "Third Sister / Reva Sevander"
+LANG_CHINESE        "三姐/瑞瓦·塞万德"
+
+REFERENCE           MALICOS
+LANG_ENGLISH        "Taron Malicos"
+LANG_CHINESE        "塔龙·马利科斯"
+
+REFERENCE           PURGETROOP
+LANG_ENGLISH        "Purge Trooper"
+LANG_CHINESE        "清洗士兵"
+
+REFERENCE           PURGE_COMMANDER
+LANG_ENGLISH        "Purge Trooper [Commander]"
+LANG_CHINESE        "清洗士兵[指挥官]"
+
+REFERENCE           ATST
+LANG_ENGLISH        "All Terrain Scout Transport [AT-ST]"
+LANG_CHINESE        "AT-ST"
+
+//----------------------------------------------------------
+// 	REBELS
+//----------------------------------------------------------
+
+REFERENCE           KANAN
+LANG_ENGLISH        "Kanan Jarrus"
+LANG_CHINESE        "凯南·贾勒斯"
+
+REFERENCE           KANAN_BLIND
+LANG_ENGLISH        "Kanan Jarrus [Blind]"
+LANG_CHINESE        "凯南·贾勒斯[盲人]"
+
+REFERENCE           CALEB
+LANG_ENGLISH        "Caleb Dume"
+LANG_CHINESE        "凯莱布·杜姆"
+
+REFERENCE           CALEB_ROBE
+LANG_ENGLISH        "Caleb Dume [Robed]"
+LANG_CHINESE        "凯莱布·杜姆[长袍]"
+
+REFERENCE           CALEB_HOOD
+LANG_ENGLISH        "Caleb Dume [Hooded]"
+LANG_CHINESE        "凯莱布·杜姆[兜帽]"
+
+REFERENCE           EZRA
+LANG_ENGLISH        "Ezra Bridger"
+LANG_CHINESE        "埃兹拉·布里杰"
+
+REFERENCE           EZRA_S1
+LANG_ENGLISH        "Ezra Bridger [Seasons 1-2]"
+LANG_CHINESE        "埃兹拉·布里杰[S1-2]"
+
+REFERENCE           EZRA_S3
+LANG_ENGLISH        "Ezra Bridger [Seasons 3-4]"
+LANG_CHINESE        "埃兹拉·布里杰[S3-4]"
+
+REFERENCE           SABINE
+LANG_ENGLISH        "Sabine Wren"
+LANG_CHINESE        "萨宾·雷恩"
+
+REFERENCE           HERA
+LANG_ENGLISH        "Hera Syndulla"
+LANG_CHINESE        "赫拉·辛杜拉"
+
+REFERENCE           AHSOKA_REBELS
+LANG_ENGLISH        "Ahsoka Tano [Rebels]"
+LANG_CHINESE        "阿索卡·塔诺[义军崛起]"
+
+REFERENCE           REX_OLD
+LANG_ENGLISH        "Captain Rex [Old]"
+LANG_CHINESE        "雷克斯上尉[老年]"
+
+REFERENCE           REX_ENDOR
+LANG_ENGLISH        "Captain Rex [Endor - Old]"
+LANG_CHINESE        "雷克斯[恩多-老年]"
+
+REFERENCE           THRAWN
+LANG_ENGLISH        "Grand Admiral Thrawn"
+LANG_CHINESE        "索隆元帅"
+
+REFERENCE           GRAND_INQUISITOR
+LANG_ENGLISH        "The Grand Inquisitor"
+LANG_CHINESE        "帝国裁判官"
+
+REFERENCE           SEVENTHSISTER
+LANG_ENGLISH        "The Seventh Sister"
+LANG_CHINESE        "七妹"
+
+REFERENCE           FIFTHBROTHER
+LANG_ENGLISH        "The Fifth Brother"
+LANG_CHINESE        "五哥"
+
+REFERENCE           EIGHTHBROTHER
+LANG_ENGLISH        "The Eighth Brother"
+LANG_CHINESE        "八弟"
+
+REFERENCE           MAUL_REBELS
+LANG_ENGLISH        "Maul [Rebels]"
+LANG_CHINESE        "摩尔[义军崛起]"
+
+REFERENCE           MAUL_REBELS_HOOD
+LANG_ENGLISH        "Maul [Hooded]"
+LANG_CHINESE        "摩尔[兜帽]"
+
+REFERENCE           MAUL_REBELS_COWEL
+LANG_ENGLISH        "Maul [Cowel]"
+LANG_CHINESE        "摩尔[斗篷]"
+
+REFERENCE           MAUL_REBELS_SHIRTLESS
+LANG_ENGLISH        "Maul [Coweless]"
+LANG_CHINESE        "摩尔[无斗篷]"
+
+REFERENCE           MAUL_REBELS_DESERT
+LANG_ENGLISH        "Maul [Tatooine]"
+LANG_CHINESE        "摩尔[塔图因]"
+
+REFERENCE           MAUL_REBELS_TWINSUNS
+LANG_ENGLISH        "Maul [Twin Suns Duel]"
+LANG_CHINESE        "塔图因[双子落日对决]"
+
+//----------------------------------------------------------
+// 	SEQUELS 1
+//----------------------------------------------------------
+
+REFERENCE           DIN
+LANG_ENGLISH        "Din Djarin"
+LANG_CHINESE        "丁·贾林"
+
+REFERENCE           DIN_S3
+LANG_ENGLISH        "Din Djarin [Jetpack]"
+LANG_CHINESE        "丁·贾林 [飞行背包]"
+
+REFERENCE           GROGU
+LANG_ENGLISH        "Grogu"
+LANG_CHINESE        "古古"
+
+REFERENCE           GREEF
+LANG_ENGLISH        "Greef Karga"
+LANG_CHINESE        "格里夫·卡加"
+
+REFERENCE           CARA
+LANG_ENGLISH        "Cara Dune"
+LANG_CHINESE        "卡拉·杜恩"
+
+REFERENCE           KUIIL
+LANG_ENGLISH        "Kuiil"
+LANG_CHINESE        "库伊尔"
+
+REFERENCE           NRP
+LANG_ENGLISH        "New Republic Personnel"
+LANG_CHINESE        "新共和国人员"
+
+REFERENCE           NRS
+LANG_ENGLISH        "New Republic Soldier"
+LANG_CHINESE        "新共和国士兵"
+
+REFERENCE           NRSD
+LANG_ENGLISH        "New Republic Security Droid"
+LANG_CHINESE        "新共和国安保机器人"
+
+REFERENCE           AHSOKA_TM
+LANG_ENGLISH        "Ahsoka Tano [The Mandalorian]"
+LANG_CHINESE        "阿索卡·塔诺[曼达洛人]"
+
+REFERENCE           LUKE_TM
+LANG_ENGLISH        "Luke Skywalker [Post-ROTJ]"
+LANG_CHINESE        "卢克·天行者[绝地归来后]"
+
+REFERENCE           LUKE_BF2
+LANG_ENGLISH        "Luke [Battlefront 2, 2017]"
+LANG_CHINESE        "卢克·天行者[前线2，2017版]"
+
+REFERENCE           LUKE_TM_HOOD
+LANG_ENGLISH        "Luke [Jedi Master - Hooded]"
+LANG_CHINESE        "卢克[绝地大师-兜帽]"
+
+REFERENCE           LUKE_TM_ROBE
+LANG_ENGLISH        "Luke [Jedi Master - Robed]"
+LANG_CHINESE        "卢克[绝地大师-长袍]"
+
+REFERENCE           LUKE_TBOBF
+LANG_ENGLISH        "Luke [Jedi Master]"
+LANG_CHINESE        "卢克[绝地大师]"
+
+REFERENCE           LUKE_TROKR
+LANG_ENGLISH        "Luke [Jedi Master - TROKR]"
+LANG_CHINESE        "卢克[绝地大师]"
+
+REFERENCE           BOBA_TM
+LANG_ENGLISH        "Boba Fett [TM & TBOBF]"
+LANG_CHINESE        "波巴·费特[曼达洛人及波巴费特之书]"
+
+REFERENCE           BOBA_WORN
+LANG_ENGLISH        "Boba [Worn Armor]"
+LANG_CHINESE        "波巴[穿着盔甲]"
+
+REFERENCE           BOBA_WORN_NOHELMET
+LANG_ENGLISH        "Boba [Worn Armor - No Helmet]"
+LANG_CHINESE        "波巴[穿着盔甲-无头盔]"
+
+REFERENCE           BOBA_REARMORED
+LANG_ENGLISH        "Boba Fett [Re-armored]"
+LANG_CHINESE        "波巴·费特[重新着甲]"
+
+REFERENCE           BOBA_REARMORED_NH
+LANG_ENGLISH        "Boba Fett [Re-armored - No Helmet]"
+LANG_CHINESE        "波巴·费特[重新着甲-无头盔]"
+
+REFERENCE           FENNEC
+LANG_ENGLISH        "Fennec Shand"
+LANG_CHINESE        "芬内克·尚德"
+
+REFERENCE           FENNEC_NOHELMET
+LANG_ENGLISH        "Fennec Shand [No Helmet]"
+LANG_CHINESE        "芬内克·尚德[无头盔]"
+
+REFERENCE           KRRSANTAN
+LANG_ENGLISH        "Black Krrsantan"
+LANG_CHINESE        "布莱克·克尔坦桑"
+
+REFERENCE           BOKATAN
+LANG_ENGLISH        "Bo-Katan Kryze"
+LANG_CHINESE        "博-卡坦·克里兹	"
+
+REFERENCE           BOKATAN_NOHELMET
+LANG_ENGLISH        "Bo-Katan Kryze [No Helmet]"
+LANG_CHINESE        "博-卡坦·克里兹	[无头盔]"
+
+REFERENCE           MANDO_CLANS
+LANG_ENGLISH        "Mandalorian Clans"
+LANG_CHINESE        "曼达洛族人"
+
+REFERENCE           ARMORER
+LANG_ENGLISH        "The Armorer"
+LANG_CHINESE        "盔甲匠"
+
+REFERENCE           ARMORER_JETPACK
+LANG_ENGLISH        "The Armorer [Jetpack]"
+LANG_CHINESE        "盔甲匠 [飞行背包]"
+
+REFERENCE           PAZ_VIZSLA
+LANG_ENGLISH        "Paz Vizsla"
+LANG_CHINESE        "帕兹·维兹拉"
+
+REFERENCE           LUKE_OLD
+LANG_ENGLISH        "Luke Skywalker [Old]"
+LANG_CHINESE        "卢克·天行者[老年]"
+
+REFERENCE           LUKE_ACHTO_ROBE
+LANG_ENGLISH        "Luke Skywalker [Ach-to - Robed]"
+LANG_CHINESE        "卢克·天行者[阿托奇-长袍]"
+
+REFERENCE           LUKE_ACHTO_HOOD
+LANG_ENGLISH        "Luke Skywalker [Ach-to - Hooded]"
+LANG_CHINESE        "卢克·天行者[阿托奇-兜帽]"
+
+REFERENCE           LUKE_CRAIT
+LANG_ENGLISH        "Luke Skywalker [Crait Illusion]"
+LANG_CHINESE        "卢克·天行者[克瑞特幻像]"
+
+REFERENCE           REY
+LANG_ENGLISH        "Rey"
+LANG_CHINESE        "蕾伊"
+
+REFERENCE           REY_EP7
+LANG_ENGLISH        "Rey [Jakku]"
+LANG_CHINESE        "蕾伊[贾库]"
+
+REFERENCE           REY_RESISTANCE
+LANG_ENGLISH        "Rey [Resistance Scout]"
+LANG_CHINESE        "蕾伊[抵抗组织侦察兵]"
+
+REFERENCE           REY_EP8
+LANG_ENGLISH        "Rey [Grey Jedi Wrap]"
+LANG_CHINESE        "蕾伊[灰色绝地袍]"
+
+REFERENCE           REY_EP9
+LANG_ENGLISH        "Rey [White Jedi Wrap]"
+LANG_CHINESE        "蕾伊[白色绝地袍]"
+
+REFERENCE           REY_EP9_HOOD
+LANG_ENGLISH        "Rey [White Jedi Wrap - Hooded]"
+LANG_CHINESE        "蕾伊[白色绝地袍-兜帽]"
+
+REFERENCE           REY_SKYWALKER
+LANG_ENGLISH        "Rey Skywalker"
+LANG_CHINESE        "蕾伊·帕尔帕廷"
+
+REFERENCE           FINN
+LANG_ENGLISH        "Finn"
+LANG_CHINESE        "芬恩"
+
+REFERENCE           POE
+LANG_ENGLISH        "Poe Dameron"
+LANG_CHINESE        "波·达墨龙"
+
+REFERENCE           POE_PILOT
+LANG_ENGLISH        "Poe Dameron [Pilot]"
+LANG_CHINESE        "波·达墨龙[飞行员]"
+
+REFERENCE           POE_PILOT_HELM
+LANG_ENGLISH        "Poe Dameron [Pilot - Helmet]"
+LANG_CHINESE        "波·达墨龙[飞行员-戴头盔]"
+
+REFERENCE           POE_OFFICER
+LANG_ENGLISH        "Poe Dameron [Officer]"
+LANG_CHINESE        "波·达墨龙[军官]"
+
+REFERENCE           ROSE
+LANG_ENGLISH        "Rose Tico"
+LANG_CHINESE        "萝丝·提克"
+
+//----------------------------------------------------------
+// 	SEQUELS 2
+//----------------------------------------------------------
+
+REFERENCE           GIDEON
+LANG_ENGLISH        "Moff Gideon"
+LANG_CHINESE        "吉迪恩总督"
+
+REFERENCE           DARKTROOPER_TM
+LANG_ENGLISH        "Dark Trooper [The Mandalorian]"
+LANG_CHINESE        "黑暗士兵[曼达洛人]"
+
+REFERENCE           BAYLAN
+LANG_ENGLISH        "Baylan Skoll"
+LANG_CHINESE        "贝兰·斯科尔"
+
+REFERENCE           BAYLAN_ROBE
+LANG_ENGLISH        "Baylan Skoll [Robed]"
+LANG_CHINESE        "贝兰·斯科尔 [长袍]"
+
+REFERENCE           BAYLAN_HOOD
+LANG_ENGLISH        "Baylan Skoll [Hooded]"
+LANG_CHINESE        "贝兰·斯科尔 [兜帽]"
+
+REFERENCE           SHIN
+LANG_ENGLISH        "Shin Hati"
+LANG_CHINESE        "欣·哈蒂"
+
+REFERENCE           SHIN_ROBE
+LANG_ENGLISH        "Shin Hati [Robed]"
+LANG_CHINESE        "欣·哈蒂 [长袍]"
+
+REFERENCE           SHIN_HOOD
+LANG_ENGLISH        "Shin Hati [Hooded]"
+LANG_CHINESE        "欣·哈蒂 [兜帽]"
+
+REFERENCE           KYLO
+LANG_ENGLISH        "Kylo Ren"
+LANG_CHINESE        "凯洛·伦"
+
+REFERENCE           KYLO_EP7_NOHELMET
+LANG_ENGLISH        "Kylo Ren [TFA - No Helmet]"
+LANG_CHINESE        "凯洛·伦[原力觉醒-无头盔]"
+
+REFERENCE           KYLO_EP7_HELMET
+LANG_ENGLISH        "Kylo Ren [TFA - Helmet]"
+LANG_CHINESE        "凯洛·伦[原力觉醒-带头盔]"
+
+REFERENCE           KYLO_EP7_HOOD
+LANG_ENGLISH        "Kylo Ren [TFA - Hooded]"
+LANG_CHINESE        "凯洛·伦[原力觉醒-兜帽]"
+
+REFERENCE           KYLO_EP8_NOHELMET
+LANG_ENGLISH        "Kylo Ren [TLJ - No Helmet]"
+LANG_CHINESE        "凯洛·伦[最后的绝地武士-无头盔]"
+
+REFERENCE           KYLO_EP8_HELMET
+LANG_ENGLISH        "Kylo Ren [TLJ - Helmet]"
+LANG_CHINESE        "凯洛·伦[最后的绝地武士-带头盔]"
+
+REFERENCE           KYLO_EP8_ROBE
+LANG_ENGLISH        "Kylo Ren [TLJ - Robed]"
+LANG_CHINESE        "凯洛·伦[最后的绝地武士-长袍]"
+
+REFERENCE           KYLO_EP8_SHIRTLESS
+LANG_ENGLISH        "Kylo Ren [TLJ - Shirtless]"
+LANG_CHINESE        "凯洛·伦[最后的绝地武士-无上衣]"
+
+REFERENCE           KYLO_EP9_ROBE
+LANG_ENGLISH        "Kylo Ren [TROS - Robed]"
+LANG_CHINESE        "凯洛·伦[天行者崛起-长袍]"
+
+REFERENCE           KYLO_EP9_HELMET
+LANG_ENGLISH        "Kylo Ren [TROS - Helmet]"
+LANG_CHINESE        "凯洛·伦[天行者崛起-带头盔]"
+
+REFERENCE           KYLO_EP9_HOOD
+LANG_ENGLISH        "Kylo Ren [TROS - Hooded]"
+LANG_CHINESE        "凯洛·伦[天行者崛起-兜帽]"
+
+REFERENCE           BEN_SOLO
+LANG_ENGLISH        "Ben Solo [TROS - Redeemed]"
+LANG_CHINESE        "本·索罗[天行者崛起-救赎]"
+
+REFERENCE           HUX
+LANG_ENGLISH        "Armitage Hux"
+LANG_CHINESE        "阿米蒂奇·赫克斯"
+
+REFERENCE           HUX_COAT
+LANG_ENGLISH        "Armitage Hux [Coat]"
+LANG_CHINESE        "阿米蒂奇·赫克斯[外套]"
+
+REFERENCE           HUX_COAT_HAT
+LANG_ENGLISH        "Armitage Hux [Coat & Hat]"
+LANG_CHINESE        "阿米蒂奇·赫克斯[外套&帽子]"
+
+REFERENCE           PHASMA
+LANG_ENGLISH        "Captain Phasma"
+LANG_CHINESE        "法斯玛队长"
+
+REFERENCE           SNOKE
+LANG_ENGLISH        "Supreme Leader Snoke"
+LANG_CHINESE        "最高领袖斯诺克"
+
+REFERENCE           SHEEV_EP9
+LANG_ENGLISH        "Emperor Palpatine [Clone]"
+LANG_CHINESE        "帕尔帕廷皇帝[克隆体]"
+
+REFERENCE           SHEEV_EP9_BLIND
+LANG_ENGLISH        "Emperor Palpatine [Clone - Blind]"
+LANG_CHINESE        "帕尔帕廷皇帝[克隆体-失明]"
+
+REFERENCE           SHEEV_EP9_REBORN
+LANG_ENGLISH        "Emperor Palpatine [Clone - Reborn]"
+LANG_CHINESE        "帕尔帕廷皇帝[克隆体-重生]"
+
+REFERENCE           PRAETORIANS
+LANG_ENGLISH        "Praetorian Guards"
+LANG_CHINESE        "禁卫队"
+
+REFERENCE           PRAETORIAN_LANCE
+LANG_ENGLISH        "Praetorian Guard [Lance]"
+LANG_CHINESE        "禁卫队[长枪]"
+
+REFERENCE           PRAETORIAN_AXE
+LANG_ENGLISH        "Praetorian Guard [Axe]"
+LANG_CHINESE        "禁卫队[斧]"
+
+REFERENCE           PRAETORIAN_SWORD
+LANG_ENGLISH        "Praetorian Guard [Sword]"
+LANG_CHINESE        "禁卫队[剑]"
+
+REFERENCE           PRAETORIAN_VIBROAXE
+LANG_ENGLISH        "Praetorian Guard [Vibroaxe]"
+LANG_CHINESE        "禁卫队[鞭子]"
+
+REFERENCE           PRAETORIAN_VIBROSTAFF
+LANG_ENGLISH        "Praetorian Guard [Vibrostaff]"
+LANG_CHINESE        "禁卫队[鞭杖]"
+
+REFERENCE           STORMTROOPERS_FO
+LANG_ENGLISH        "Stormtroopers [First Order]"
+LANG_CHINESE        "冲锋队[第一秩序]"
+
+REFERENCE           STORMTROOPER_FO
+LANG_ENGLISH        "Stormtrooper [First Order]"
+LANG_CHINESE        "冲锋队[第一秩序]"
+
+REFERENCE           STORM_OFFICER_FO
+LANG_ENGLISH        "Stormtrooper [Officer - First Order]"
+LANG_CHINESE        "冲锋队[军官-第一秩序]"
+
+REFERENCE           STORM_RIOT_FO
+LANG_ENGLISH        "Riot Stormtrooper [First Order]"
+LANG_CHINESE        "防爆冲锋队[第一秩序]"
+
+REFERENCE           SITHTROOPER_EP9
+LANG_ENGLISH        "Sith Trooper [Final Order]"
+LANG_CHINESE        "西斯士兵[最终秩序]"
+
+REFERENCE           SITH_COMMANDER_EP9
+LANG_ENGLISH        "Sith Trooper [Commander - Final Order]"
+LANG_CHINESE        "西斯士兵[指挥官-最终秩序]"
+
+REFERENCE           REN
+LANG_ENGLISH        "Ren"
+LANG_CHINESE        "伦"
+
+
+//----------------------------------------------------------
+// 	LEGENDS 1
+//----------------------------------------------------------
+
+REFERENCE           KYLE
+LANG_ENGLISH        "Kyle Katarn"
+LANG_CHINESE        "凯尔·卡塔恩"
+
+REFERENCE           KYLE_MERC
+LANG_ENGLISH        "Kyle Katarn [Mercenary]"
+LANG_CHINESE        "凯尔·卡塔恩[雇佣兵]"
+
+REFERENCE           KYLE_DF2_COAT
+LANG_ENGLISH        "Kyle Katarn [Dark Forces 2 - Coat]"
+LANG_CHINESE        "凯尔·卡塔恩[黑暗力量2-外套]"
+
+REFERENCE           KYLE_DF2
+LANG_ENGLISH        "Kyle Katarn [Dark Forces 2]"
+LANG_CHINESE        "凯尔·卡塔恩[黑暗力量2]"
+
+REFERENCE           KYLE_MOTS
+LANG_ENGLISH        "Kyle Katarn [Mysteries of the Sith]"
+LANG_CHINESE        "凯尔·卡塔恩[西斯之谜]"
+
+REFERENCE           KYLE_JK2
+LANG_ENGLISH        "Kyle Katarn [Jedi Outcast / Academy]"
+LANG_CHINESE        "凯尔·卡塔恩[绝地放逐/绝地学院]"
+
+REFERENCE           KYLE_ALT
+LANG_ENGLISH        "Kyle Katarn [Dark]"
+LANG_CHINESE        "凯尔·卡塔恩[黑暗面]"
+
+REFERENCE           KYLE_STEALTH
+LANG_ENGLISH        "Kyle Katarn [Stealth Jedi Gear]"
+LANG_CHINESE        "凯尔·卡塔恩[绝地隐身套装]"
+
+REFERENCE           KYLE_MASTER
+LANG_ENGLISH        "Kyle Katarn [Jedi Master]"
+LANG_CHINESE        "凯尔·卡塔恩[绝地大师]"
+
+REFERENCE           KYLE_EMPEROR
+LANG_ENGLISH        "Emperor Katarn"
+LANG_CHINESE        "卡塔恩皇帝"
+
+REFERENCE           KYLE_DF2_INGAME
+LANG_ENGLISH        "Kyle Katarn [DF2 In-Game]"
+LANG_CHINESE        "凯尔·卡塔恩[黑暗力量2]"
+
+REFERENCE           KYLE_OFFICER
+LANG_ENGLISH        "Kyle Katarn [Imperial Officer]"
+LANG_CHINESE        "凯尔·卡塔恩[帝国军官]"
+
+REFERENCE           KYLE_DF2_LOWPOLY
+LANG_ENGLISH        "Kyle Katarn [1997 Low-Poly]"
+LANG_CHINESE        "凯尔·卡塔恩[1997扁平化]"
+
+REFERENCE           KYLE_OLD
+LANG_ENGLISH        "Kyle Katarn [Old]"
+LANG_CHINESE        "凯尔·卡塔恩[老年]"
+
+REFERENCE           JAN
+LANG_ENGLISH        "Jan Ors"
+LANG_CHINESE        "简·奥斯"
+
+REFERENCE           JAN_DF2
+LANG_ENGLISH        "Jan Ors [Dark Forces 2]"
+LANG_CHINESE        "简·奥斯[黑暗力量2]"
+
+REFERENCE           MARA
+LANG_ENGLISH        "Mara Jade"
+LANG_CHINESE        "玛拉·杰德"
+
+REFERENCE           MARA_MOTS
+LANG_ENGLISH        "Mara Jade [Mysteries of the Sith]"
+LANG_CHINESE        "玛拉·杰德[西斯之谜]"
+
+REFERENCE           QU
+LANG_ENGLISH        "Qu Rahn"
+LANG_CHINESE        "曲·兰"
+
+REFERENCE           YUN
+LANG_ENGLISH        "Yun"
+LANG_CHINESE        "云"
+
+REFERENCE           NJO
+LANG_ENGLISH        "New Jedi Order"
+LANG_CHINESE        "新绝地武士团"
+
+REFERENCE           LUKE_GM
+LANG_ENGLISH        "Luke [Grand Master]"
+LANG_CHINESE        "卢克 [大师]"
+
+REFERENCE           JEDI
+LANG_ENGLISH        "Jedi"
+LANG_CHINESE        "绝地"
+
+REFERENCE           JEDI2
+LANG_ENGLISH        "Jedi 2"
+LANG_CHINESE        "绝地2"
+
+REFERENCE           JEDIMASTER
+LANG_ENGLISH        "Jedi Master"
+LANG_CHINESE        "绝地大师"
+
+REFERENCE           JEDITRAINER
+LANG_ENGLISH        "Jedi Trainer"
+LANG_CHINESE        "绝地大师"
+
+REFERENCE           ROSH
+LANG_ENGLISH        "Rosh Penin"
+LANG_CHINESE        "洛西·佩尼"
+
+REFERENCE           JEREC
+LANG_ENGLISH        "Jerec"
+LANG_CHINESE        "杰瑞克"
+
+REFERENCE           JEREC_NOCAPE
+LANG_ENGLISH        "Jerec [No Cape]"
+LANG_CHINESE        "杰瑞克[No Cape]"
+
+REFERENCE           JEREC_CLASSIC
+LANG_ENGLISH        "Jerec [DF2 In-Game]"
+LANG_CHINESE        "杰瑞克[黑暗力量2]"
+
+REFERENCE           JEREC_LOWPOLY
+LANG_ENGLISH        "Jerec [1997 Low Poly]"
+LANG_CHINESE        "杰瑞克[1997扁平化]"
+
+REFERENCE           SARISS
+LANG_ENGLISH        "Sariss"
+LANG_CHINESE        "萨丽斯"
+
+REFERENCE           SARISS_CLOAK
+LANG_ENGLISH        "Sariss [Cloaked]"
+LANG_CHINESE        "萨丽斯"
+
+REFERENCE           BOC 
+LANG_ENGLISH        "Boc"
+LANG_CHINESE        "博克"
+
+REFERENCE           MAW
+LANG_ENGLISH        "Maw"
+LANG_CHINESE        "莫"
+
+REFERENCE           MAW_HALF
+LANG_ENGLISH        "Maw [Dismembered]"
+LANG_CHINESE        "莫"
+
+REFERENCE           PIC
+LANG_ENGLISH        "Pic"
+LANG_CHINESE        "皮克"
+
+REFERENCE           GORC
+LANG_ENGLISH        "Gorc"
+LANG_CHINESE        "戈克"
+
+REFERENCE           DESANN
+LANG_ENGLISH        "Desann"
+LANG_CHINESE        "迪桑"
+
+REFERENCE           DESANN_CAPE
+LANG_ENGLISH        "Lord Desann"
+LANG_CHINESE        "迪桑勋爵"
+
+REFERENCE           TAVION
+LANG_ENGLISH        "Tavion Axmis"
+LANG_CHINESE        "塔维昂·阿克斯米斯"
+
+REFERENCE           TAVION_JKA
+LANG_ENGLISH        "Tavion [Cult of Ragnos]"
+LANG_CHINESE        "塔维昂[拉格诺丝邪教]"
+
+REFERENCE           TAVION_JKA_SCEPTER
+LANG_ENGLISH        "Tavion [Ragnos' ScEPter]"
+LANG_CHINESE        "塔维昂[拉格诺丝权杖]"
+
+REFERENCE           TAVION_ALT
+LANG_ENGLISH        "Tavion [Alternate]"
+LANG_CHINESE        "塔维昂[变体]"
+
+REFERENCE           ALORA
+LANG_ENGLISH        "Alora"
+LANG_CHINESE        "阿萝拉"
+
+REFERENCE           REBORN
+LANG_ENGLISH        "Reborn"
+LANG_CHINESE        "重生士兵"
+
+REFERENCE           REBORN_FORCE
+LANG_ENGLISH        "Reborn [Force User]"
+LANG_CHINESE        "重生士兵[原力使用者]"
+
+REFERENCE           REBORN_ACROBAT
+LANG_ENGLISH        "Reborn [Acrobat]"
+LANG_CHINESE        "重生士兵[打手]"
+
+REFERENCE           REBORN_FENCER
+LANG_ENGLISH        "Reborn [Fencer]"
+LANG_CHINESE        "重生士兵[击剑手]"
+
+REFERENCE           REBORN_BOSS
+LANG_ENGLISH        "Reborn [Boss]"
+LANG_CHINESE        "重生士兵[队长]"
+
+REFERENCE           REBORN_DUAL
+LANG_ENGLISH        "Reborn [Dual Lightsabers]"
+LANG_CHINESE        "重生士兵[双剑]"
+
+REFERENCE           REBORN_STAFF
+LANG_ENGLISH        "Reborn [Lightsaber Staff]"
+LANG_CHINESE        "重生士兵[光杖]"
+
+REFERENCE           REBORN_MASTER
+LANG_ENGLISH        "Reborn [Master]"
+LANG_CHINESE        "重生士兵[大师]"
+
+REFERENCE           REMNANT
+LANG_ENGLISH        "Imperial Remnant"
+LANG_CHINESE        "帝国残余"
+
+REFERENCE           GALAK
+LANG_ENGLISH        "Galak Fyyar"
+LANG_CHINESE        "加拉克·费亚尔"
+
+REFERENCE           SHADOWTROOPER
+LANG_ENGLISH        "Reborn Shadowtrooper"
+LANG_CHINESE        "重生暗影士兵"
+
+REFERENCE           SWAMPTROOPER
+LANG_ENGLISH        "Swamptrooper"
+LANG_CHINESE        "沼泽士兵"
+
+REFERENCE           IMPWORKER
+LANG_ENGLISH        "Imperial Worker"
+LANG_CHINESE        "帝国工人"
+
+REFERENCE           RAX
+LANG_ENGLISH        "Rax Joris"
+LANG_CHINESE        "拉克斯·乔里斯"
+
+REFERENCE           SABOTEUR
+LANG_ENGLISH        "Saboteur"
+LANG_CHINESE        "破坏者"
+
+REFERENCE           ROCKETTROOPER
+LANG_ENGLISH        "Rockettrooper"
+LANG_CHINESE        "火箭士兵"
+
+REFERENCE           HAZARDTROOPER
+LANG_ENGLISH        "Hazardtrooper"
+LANG_CHINESE        "哈扎德士兵"
+
+//----------------------------------------------------------
+// 	LEGENDS 2
+//----------------------------------------------------------
+
+REFERENCE           GALEN
+LANG_ENGLISH        "Galen Marek"
+LANG_CHINESE        "盖伦·马雷克"
+
+REFERENCE           GALEN_ADVENTURE
+LANG_ENGLISH        "Galen [Jedi Adventure Robes]"
+LANG_CHINESE        "盖伦[绝地冒险长袍]"
+
+REFERENCE           GALEN_TEMPLE
+LANG_ENGLISH        "Galen [Temple Exploration Gear]"
+LANG_CHINESE        "盖伦[圣殿探索套装]"
+
+REFERENCE           GALEN_CORELLIAN
+LANG_ENGLISH        "Galen [Corellian Flight Suit]"
+LANG_CHINESE        "盖伦 [科雷利亚飞行服]"
+
+REFERENCE           GALEN_CEREMONIAL
+LANG_ENGLISH        "Galen [Ceremonial Jedi Robes]"
+LANG_CHINESE        "盖伦[绝地礼服]"
+
+REFERENCE           GALEN_KAMINO
+LANG_ENGLISH        "Galen [Test Subject Garments]"
+LANG_CHINESE        "盖伦 [测试对象服装]"
+
+REFERENCE           GALEN_TIE
+LANG_ENGLISH        "Galen [Tie Flightsuit]"
+LANG_CHINESE        "盖伦 [TIE战机飞行服]"
+
+REFERENCE           GALEN_ARENA
+LANG_ENGLISH        "Galen [Arena Combat Gear]"
+LANG_CHINESE        "盖伦 [竞技场格斗甲]"
+
+REFERENCE           GALEN_HERO
+LANG_ENGLISH        "Galen [Hero's Armor]"
+LANG_CHINESE        "盖伦 [英雄装]"
+
+REFERENCE           STARKILLER
+LANG_ENGLISH        "Starkiller"
+LANG_CHINESE        "弑星者"
+
+REFERENCE           SITHSTALKER
+LANG_ENGLISH        "Starkiller [Sith Stalker Armor]"
+LANG_CHINESE        "弑星者[西斯潜行者装甲]"
+
+REFERENCE           LORD_STARKILLER
+LANG_ENGLISH        "Lord Starkiller"
+LANG_CHINESE        "弑星者尊主"
+
+REFERENCE           LORD_STARKILLER_DESERT
+LANG_ENGLISH        "Lord Starkiller [Tatooine]"
+LANG_CHINESE        "弑星者尊主[塔图因]"
+
+REFERENCE           STARKILLER_JHUNTER
+LANG_ENGLISH        "Starkiller [Jedi Hunter]"
+LANG_CHINESE        "弑星者 [绝地猎手]"
+
+REFERENCE           RAHM
+LANG_ENGLISH        "Rahm Kota"
+LANG_CHINESE        "拉姆·科塔"
+
+REFERENCE           RAHM_DRUNK
+LANG_ENGLISH        "Rahm Kota [Drunken]"
+LANG_CHINESE        "拉姆·科塔[醉鬼]"
+
+REFERENCE           RAHM_ALLIANCE
+LANG_ENGLISH        "Rahm Kota [Alliance General]"
+LANG_CHINESE        "拉姆·科塔[义军同盟将军]"
+
+REFERENCE           SHAAK_TFU
+LANG_ENGLISH        "Shaak Ti [Exiled - Felucia]"
+LANG_CHINESE        "莎克·蒂[流亡-费卢西亚]"
+
+REFERENCE           KENTO
+LANG_ENGLISH        "Kento Marek"
+LANG_CHINESE        "肯托·马雷克"
+
+REFERENCE           KENTO_KROME
+LANG_ENGLISH        "Kento Marek [Alternate Design]"
+LANG_CHINESE        "肯托·马雷克[备用设计]"
+
+REFERENCE           PHOBOS
+LANG_ENGLISH        "Darth Phobos"
+LANG_CHINESE        "达斯·福博斯"
+
+REFERENCE           DESOLOUS
+LANG_ENGLISH        "Darth Desolous"
+LANG_CHINESE        "达斯·代斯勒斯"
+
+REFERENCE           TRAININGDROIDS_TFU
+LANG_ENGLISH        "Jedi Training Droids [TFU]"
+LANG_CHINESE        "绝地训练机器人[原力释放]"
+
+REFERENCE           TRAININGDROID_SABER
+LANG_ENGLISH        "Saber Training Droid"
+LANG_CHINESE        "剑术训练机器人"
+
+REFERENCE           TRAININGDROID_FORCE
+LANG_ENGLISH        "Force Training Droid"
+LANG_CHINESE        "原力训练机器人"
+
+REFERENCE           ASHARAD
+LANG_ENGLISH        "A'Sharad Hett"
+LANG_CHINESE        "阿沙拉德·赫特"
+
+REFERENCE           ASHARAD_TUSKEN
+LANG_ENGLISH        "A'Sharad Hett [Tusken Mask]"
+LANG_CHINESE        "阿沙拉德·赫特[塔斯肯面具]"
+
+REFERENCE           MAUL_CYBER
+LANG_ENGLISH        "Darth Maul [Old Wounds]"
+LANG_CHINESE        "达斯·摩尔[旧伤]"
+
+REFERENCE           MAUL_CYBER_ROBE
+LANG_ENGLISH        "Darth Maul [Robed - Old Wounds]"
+LANG_CHINESE        "达斯·摩尔[长袍-旧伤]"
+
+REFERENCE           MAUL_CYBER_HOOD
+LANG_ENGLISH        "Darth Maul [Hooded - Old Wounds]"
+LANG_CHINESE        "达斯·摩尔[兜帽-旧伤]"
+
+REFERENCE           PLAGUEIS
+LANG_ENGLISH        "Darth Plagueis [The Wise]"
+LANG_CHINESE        "达斯·普雷格斯[智者]"
+
+REFERENCE           REVAN
+LANG_ENGLISH        "Darth Revan"
+LANG_CHINESE        "达斯·瑞文"
+
+REFERENCE           REVAN_DUAL
+LANG_ENGLISH        "Darth Revan [Dual Lightsabers]"
+LANG_CHINESE        "达斯·瑞文[双剑]"
+
+REFERENCE           REVAN_JEDI
+LANG_ENGLISH        "Revan [Redeemed Jedi]"
+LANG_CHINESE        "瑞文[救赎绝地]"
+
+REFERENCE           BASTILA
+LANG_ENGLISH        "Bastila Shan"
+LANG_CHINESE        "巴斯蒂拉·尚"
+
+REFERENCE           KRAYT
+LANG_ENGLISH        "Darth Krayt [Emperor]"
+LANG_CHINESE        "达斯·克雷特[皇帝]"
+
+REFERENCE           KRAYT_REBORN
+LANG_ENGLISH        "Darth Krayt [Reborn]"
+LANG_CHINESE        "达斯·克雷特[重生]"
+
+REFERENCE           TALON
+LANG_ENGLISH        "Darth Talon"
+LANG_CHINESE        "达斯·塔隆"
+
+REFERENCE           CADE
+LANG_ENGLISH        "Cade Skywalker"
+LANG_CHINESE        "凯德·天行者"
+
+
+ENDMARKER
+
+
+

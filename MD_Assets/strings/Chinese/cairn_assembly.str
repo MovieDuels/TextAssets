@@ -1,0 +1,52 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           17KJO001
+LANG_ENGLISH        "Those look like some kind of assault ships. And they seem to be packing them for a little trip."
+LANG_CHINESE        "那些看起来像是一些攻击舰。而且看起来他们正在做出发前的准备。"
+
+REFERENCE           17KJO002
+LANG_ENGLISH        "There's got to be some way out of here."
+LANG_CHINESE        "一定有办法可以离开这里。"
+
+REFERENCE           17KJO003
+LANG_ENGLISH        "Not very subtle. But it seems to have gotten the job done."
+LANG_CHINESE        "不是很高明。不过看起来目标达成了。"
+
+REFERENCE           17IW2002
+LANG_ENGLISH        "I can't move."
+LANG_CHINESE        "我没办法移动了。"
+
+REFERENCE           17IW2003
+LANG_ENGLISH        "Everything's electrified!"
+LANG_CHINESE        "所有东西都通电了。"
+
+REFERENCE           17IW2004
+LANG_ENGLISH        "Someone get to a power terminal."
+LANG_CHINESE        "找个人去控制电源开关。"
+
+REFERENCE           17KJO004
+LANG_ENGLISH        "Better be careful where I step here."
+LANG_CHINESE        "我在这里走路脚步最好小心点。"
+
+REFERENCE           17KJO005
+LANG_ENGLISH        "The exit's blocked by the current."
+LANG_CHINESE        "出口被这道气流挡住了。"
+
+REFERENCE           17IO1002
+LANG_ENGLISH        "TK664, what is your status?"
+LANG_CHINESE        "TK664，回报你的状况。"
+
+REFERENCE           17IO1003
+LANG_ENGLISH        "TK664! Report!"
+LANG_CHINESE        "TK664！报告！"
+
+REFERENCE           17GAF001
+LANG_ENGLISH        "He's caused enough trouble already. Hunt him down and eliminate him, or your master will hear of my disappointment."
+LANG_CHINESE        "他惹出来的麻烦够多了。找到他并处掉他，不然我会把我的不满告诉你的长官。"
+
+REFERENCE           17IO1004
+LANG_ENGLISH        "Continue with your work. This intrusion will not delay our agenda."
+LANG_CHINESE        "继续你们的工作。这个入侵事件不会拖慢我们的计划。"
+
+ENDMARKER

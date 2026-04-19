@@ -1,0 +1,204 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           02KJO004
+LANG_ENGLISH        "Jan?  I've found an exit."
+LANG_CHINESE        "简？我找到出口了。"
+
+REFERENCE           02JAO003
+LANG_ENGLISH        "Good.  Grab some of those crystals and get yourself out of there.  This place is giving me the creeps."
+LANG_CHINESE        "太好了。拿一些水晶然后离开那里。我觉得这个地方怪怪的。"
+
+REFERENCE           02GAF001
+LANG_ENGLISH        "Lord Desann, this is Admiral Fyyar."
+LANG_CHINESE        "迪桑尊主，我是飞亚上将。"
+
+REFERENCE           02DES001
+LANG_ENGLISH        "Ah, Admiral Fyyar.  How go our experiments?"
+LANG_CHINESE        "啊，飞亚上将。你的实验进行的怎么样了？"
+
+REFERENCE           02GAF002
+LANG_ENGLISH        "As of this moment, they're not going at all.  The testing facility on Kejim has been neutralized by a pair of New Republic mercenaries, and they've taken some of the crystals."
+LANG_CHINESE        "就目前来说，完全没有任何进展。凯金上的实验设施被两个新共和国的佣兵摧毁了，他们还拿走了那些水晶。"
+
+REFERENCE           02DES002
+LANG_ENGLISH        "Mercenaries? Who?"
+LANG_CHINESE        "佣兵？是谁？"
+
+REFERENCE           02GAF003
+LANG_ENGLISH        "Judging by their ship and the conversations our cameras picked up, I believe it was the pilot Jan Ors, and her mercenary partner, Kyle Katarn."
+LANG_CHINESE        "从他们的船和我们监视系统录下来的对话研判，我相信他们是飞行员简 欧斯，和他的佣兵同伴凯尔 卡塔恩。"
+
+REFERENCE           02DES003
+LANG_ENGLISH        "Katarn, eh?  Hmm.  This "setback" could prove to be the answer to all our problems."
+LANG_CHINESE        "卡塔恩是吧？嗯。这次的「挫败」可能正好为我们的问题提供了解答。"
+
+REFERENCE           02KJO001
+LANG_ENGLISH        "Looks like another level here, Jan. I'm going to check it out."
+LANG_CHINESE        "看起来又是另一层楼，简。我去检查一下。"
+
+REFERENCE           02JAO001
+LANG_ENGLISH        "Want me to come down there?"
+LANG_CHINESE        "需要我下去那里吗？"
+
+REFERENCE           02KJO002
+LANG_ENGLISH        "No, stay with the ship. I'll call you if I run into trouble."
+LANG_CHINESE        "不用了，你留在船上。如果我遇到麻烦，我会通知你的。"
+
+REFERENCE           02JAO002
+LANG_ENGLISH        "Be careful, Kyle."
+LANG_CHINESE        "小心一点，凯尔。"
+
+REFERENCE           02KJO003
+LANG_ENGLISH        "Hey...it's me!"
+LANG_CHINESE        "嘿....是我！"
+
+REFERENCE           02IO2001
+LANG_ENGLISH        "Fire!"
+LANG_CHINESE        "开火！"
+
+REFERENCE           02KJO005
+LANG_ENGLISH        "Looks pretty cold in there."
+LANG_CHINESE        "看来这里很冷"
+
+REFERENCE           02KJO006
+LANG_ENGLISH        "Geez, it's freezing in here!"
+LANG_CHINESE        "天呀，这里真冷！"
+
+REFERENCE           02ST1001
+LANG_ENGLISH        "Here he comes!"
+LANG_CHINESE        "他来了！"
+
+REFERENCE           02ST1002
+LANG_ENGLISH        "Get clear!"
+LANG_CHINESE        "闪开！"
+
+REFERENCE           02ST1003
+LANG_ENGLISH        "Watch the mines!"
+LANG_CHINESE        "小心地雷！"
+
+REFERENCE           02ST1004
+LANG_ENGLISH        "Run!"
+LANG_CHINESE        "快跑！"
+
+REFERENCE           02KJO007
+LANG_ENGLISH        "It's locked."
+LANG_CHINESE        "门锁住了。"
+
+REFERENCE           02KJO008
+LANG_ENGLISH        "It's sealed."
+LANG_CHINESE        "门锁死了。"
+
+REFERENCE           02KJO009
+LANG_ENGLISH        "I'll have to find another way to open this."
+LANG_CHINESE        "我必须想办法打开这道门。"
+
+REFERENCE           02KJO010
+LANG_ENGLISH        "I'll never get this open."
+LANG_CHINESE        "我永远都别想打开这道门。"
+
+REFERENCE           02KJO011
+LANG_ENGLISH        "Let's see what this little guy can do."
+LANG_CHINESE        "来看看这个小家伙有什么能耐。"
+
+REFERENCE           02KJO012
+LANG_ENGLISH        "This should be interesting."
+LANG_CHINESE        "这应该会很有趣。"
+
+REFERENCE           02KJO013
+LANG_ENGLISH        "No way I can survive in there."
+LANG_CHINESE        "我不可能活着走出那里的。"
+
+REFERENCE           02KJO014
+LANG_ENGLISH        "Maybe if I can shut off the power to that thing."
+LANG_CHINESE        "或许我可以关掉那东西的能源。"
+
+REFERENCE           02KJO015
+LANG_ENGLISH        "It's powered down"
+LANG_CHINESE        "关掉它的能源了。"
+
+REFERENCE           02KJO016
+LANG_ENGLISH        "It's off line."
+LANG_CHINESE        "关掉它了。"
+
+REFERENCE           02KJO017
+LANG_ENGLISH        "I need to power this up first."
+LANG_CHINESE        "我必须先打开这个东西。"
+
+REFERENCE           02KJO018
+LANG_ENGLISH        "Jan, I found a way out. Meet you up top."
+LANG_CHINESE        "简，我找到出去的路了。在上面和你会合。"
+
+REFERENCE           03MOM001
+LANG_ENGLISH        "... I'm afraid we haven't been able to decode any more of that transmission."
+LANG_CHINESE        "....关于那则通信，恐怕我们没有办法再解译出更多资讯了。"
+
+REFERENCE           03KJO001
+LANG_ENGLISH        "Good.  If I've put the Valley of the Jedi behind me, so can the rest of the galaxy."
+LANG_CHINESE        "很好。如果我可以不去想绝地谷那个地方，银河系里的所有人当然也都可以。"
+
+REFERENCE           03JAO001
+LANG_ENGLISH        "So, what were the Remnant doing in that lab?"
+LANG_CHINESE        "那么，那些帝国的人在那个实验室做什么？"
+
+REFERENCE           03MOM002
+LANG_ENGLISH        "Our scientists believe that they were trying to artificially infuse the powers of the Force into living subjects.  Those crystals you're holding are very much like those found in a Jedi's lightsaber."
+LANG_CHINESE        "我们的科学家相信他们想用人工的方式把原力的能量注入有生命的物体里面。你们找到的那些水晶很像那些放在绝地的光剑中的水晶。"
+
+REFERENCE           03KJO002
+LANG_ENGLISH        "Spast!"
+LANG_CHINESE        "啐！"
+
+REFERENCE           03JAO002
+LANG_ENGLISH        "But that's impossible, isn't it?  You can't just give people the Force with a machine, right?"
+LANG_CHINESE        "可是那是不可能的，不是吗？我们不能光用一台机器就可以帮人注入原力，对吧？"
+
+REFERENCE           03MOM003
+LANG_ENGLISH        "Everything we know about the Force tells us that such devices are nothing but the fevered dreams of fools and madmen, Jan.  But try telling that to those poor beings you found in that laboratory."
+LANG_CHINESE        "所有我们对原力的知识都告诉我们这种仪器只不过是一群疯子和傻瓜的痴心妄想。可是你要怎么对你们在实验室里找到的那些可怜的人解释。"
+
+REFERENCE           03KJO003
+LANG_ENGLISH        "Who were they?"
+LANG_CHINESE        "他们是谁？"
+
+REFERENCE           03MOM004
+LANG_ENGLISH        "Colonists from Artus Prime, a remote mining world on the far reaches of the New Republic's influence."
+LANG_CHINESE        "亚多主星的居民，那个世界以采矿维生，远离新共和的影响范围。"
+
+REFERENCE           03KJO004
+LANG_ENGLISH        "Let me guess: crystal mining?"
+LANG_CHINESE        "让我猜猜看：开采水晶？"
+
+REFERENCE           03MOM005
+LANG_ENGLISH        "Yes. We lost contact with them shortly before receiving the transmission from Kejim. Now we fear that the colony has been captured by the Remnant."
+LANG_CHINESE        "是的。在我们拦截到那则通信之前不久，我们才和他们失去联络。我们害怕整个殖民地都已经被帝国占领了。"
+
+REFERENCE           03JAO003
+LANG_ENGLISH        "Or worse."
+LANG_CHINESE        "或许更糟。"
+
+REFERENCE           03MOM006
+LANG_ENGLISH        "Indeed.  Without knowing the full extent of the Remnant's plans, or the colonists' plight, the New Republic is uneasy about sending in a full liberation force, so--"
+LANG_CHINESE        "的确。没有完全掌控帝国的计划，或是不了解那些居民的困难，新共和很难派出一支部队去支持，所以--"
+
+REFERENCE           03KJO005
+LANG_ENGLISH        "So you'd like us to sneak in, assess the situation, and call in the fleet if necessary?"
+LANG_CHINESE        "所以你要我们渗透进去，评价完整的情况，如果需要的话再呼叫整个舰队？"
+
+REFERENCE           03MOM007
+LANG_ENGLISH        "Yes."
+LANG_CHINESE        "没错。"
+
+REFERENCE           03KJO006
+LANG_ENGLISH        "You know I don't like messing with this Force business anymore."
+LANG_CHINESE        "你知道我不想再和原力这档事扯上任何关系。"
+
+REFERENCE           03MOM008
+LANG_ENGLISH        "We'll double your usual fee."
+LANG_CHINESE        "我们会付两倍的酬劳。"
+
+REFERENCE           03JAO004
+LANG_ENGLISH        "We'll take it."
+LANG_CHINESE        "我们接了。"
+
+ENDMARKER

@@ -1,0 +1,32 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           14KJO001
+LANG_ENGLISH        "What the...?"
+LANG_CHINESE        "这是。。？"
+
+REFERENCE           25JAO001A
+LANG_ENGLISH        "If we get out of this alive, remind me never to do that again."
+LANG_CHINESE        "如果我们活着离开这里，提醒我永远不要再这样做了。"
+
+REFERENCE           DETECTED1
+LANG_ENGLISH        "Uh-oh..."
+LANG_CHINESE        "#same"
+
+REFERENCE           IO_GIVEUP
+LANG_ENGLISH        "Give up, rebel!"
+LANG_CHINESE        "投降吧，叛军！"
+
+REFERENCE           03KJO014
+LANG_ENGLISH        "Be ready for a quick pickup. I抳e got a feeling things are about to get pretty nasty around here."
+LANG_CHINESE        "准备好拿完东西就走，我感到这周围的事情会变得糟糕"
+
+REFERENCE           03JAO005A
+LANG_ENGLISH        "Give me a shout when you find out what抯 going on."
+LANG_CHINESE        "找到有什么正在进行中的东西后叫我一声"
+
+REFERENCE           03KJO008
+LANG_ENGLISH        "Will do."
+LANG_CHINESE        "好的"
+
+ENDMARKER

@@ -1,0 +1,1110 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+//----------------------------------------------------------
+// 		SETTING/CONTROLS MENU
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	h1: SETTINGS
+//----------------------------------------------------------
+
+REFERENCE           SETUP_OPTIONS
+LANG_ENGLISH        "SETUP OPTIONS"
+LANG_CHINESE        "设置选项"
+
+REFERENCE           GAMEPLAY_OPTIONS
+LANG_ENGLISH        "GAMEPLAY"
+LANG_CHINESE        "游戏玩法"
+
+REFERENCE           COMBAT_OPTIONS
+LANG_ENGLISH        "COMBAT"
+LANG_CHINESE        "格斗"
+
+REFERENCE           INTERFACE_OPTIONS
+LANG_ENGLISH        "USER INTERFACE"
+LANG_CHINESE        "界面"
+
+REFERENCE           REND2
+LANG_ENGLISH        "REND2"
+LANG_CHINESE        "#SAME"
+
+REFERENCE           CUSTOM_RESOLUTION
+LANG_ENGLISH        "Custom Resolution:"
+LANG_CHINESE        "自定义分辨率"
+
+REFERENCE           CUSTOM_WIDTH_DESC
+LANG_ENGLISH        "Set custom resolution width"
+LANG_CHINESE        "设置自定义分辨率宽度"
+
+REFERENCE           CUSTOM_HEIGHT_DESC
+LANG_ENGLISH        "Set custom resolution height"
+LANG_CHINESE        "设置自定义分辨率高度"
+
+REFERENCE           WIDESCREEN_FOV
+LANG_ENGLISH        "Widescreen FOV:"
+LANG_CHINESE        "设置屏幕视场角（FOV）："
+
+REFERENCE           WIDESCREEN_FOV_DESC
+LANG_ENGLISH        "Adjust the Field of View for 16:9 and above resolutions."
+LANG_CHINESE        "为16：9或更高分辨率适配视场角（FOV）"
+
+REFERENCE           WIDESCREEN_HUD
+LANG_ENGLISH        "Widescreen HUD:"
+LANG_CHINESE        "屏幕抬头显示器（HUD）："
+
+REFERENCE           WIDESCREEN_HUD_DESC
+LANG_ENGLISH        "Adjust the Hud for 16:9 and above resolutions."
+LANG_CHINESE        "为16：9或更高分辨率适配抬头显示器（HUD）"
+
+REFERENCE           CINEMATIC_BARS
+LANG_ENGLISH        "Cinematic Bars:"
+LANG_CHINESE        "电影黑框："
+
+
+REFERENCE           CINEMATIC_BARS_DESC
+LANG_ENGLISH        "Hide the black bars during cutscenes, useful when playing in widescreen."
+LANG_CHINESE        "当播放过场动画的时候，隐藏黑边，这对宽屏很有用"
+
+REFERENCE           SHADOWS_PROJECTED 
+LANG_ENGLISH        "Projected"
+LANG_CHINESE        "投影"
+
+REFERENCE           BODY_MARKS
+LANG_ENGLISH        "Body Marks:"
+LANG_CHINESE        "身体印记："
+
+REFERENCE           BODY_MARKS_DESC
+LANG_ENGLISH        "Toggle to display scorch marks on bodies."
+LANG_CHINESE        "切换显示或隐藏身体上的灼伤痕迹"
+
+REFERENCE           FAST_SKY
+LANG_ENGLISH        "Fast Sky:"
+LANG_CHINESE        "动态天空："
+
+REFERENCE           FAST_SKY_DESC
+LANG_ENGLISH        "Enables / disables sky."
+LANG_CHINESE        "开启/关闭动态天空。"
+
+REFERENCE           FOG_LEVEL
+LANG_ENGLISH        "Fog Level:"
+LANG_CHINESE        "雾等级："
+
+REFERENCE           FOG_LEVEL_DESC
+LANG_ENGLISH        "Set level of fog to appear on maps."
+LANG_CHINESE        "设置地图上雾的显示等级。"
+
+REFERENCE           ENHANCED
+LANG_ENGLISH        "Enhanced"
+LANG_CHINESE        "增强"
+
+
+REFERENCE           DRAW_FPS
+LANG_ENGLISH        "Draw FPS:"
+LANG_CHINESE        "显示FPS：
+
+REFERENCE           DRAW_FPS_DESC
+LANG_ENGLISH        "Toggle to show or hide FPS counter."
+LANG_CHINESE        "切换显示或隐藏FPS计数器"
+
+REFERENCE           CURSOR
+LANG_ENGLISH        "Cursor:"
+LANG_CHINESE        "光标："
+
+REFERENCE           CURSOR_DESC
+LANG_ENGLISH        "Changes the cursor image."
+LANG_CHINESE        "改变光标样式"
+
+REFERENCE           WEAPON_DISMEMBERMENT
+LANG_ENGLISH        "Weapon Dismemberment:"
+LANG_CHINESE        "断肢效果："
+
+REFERENCE           WEAPON_DISMEMBERMENT_DESC
+LANG_ENGLISH        "Enables / disables weapon dismemberment."
+LANG_CHINESE        "开启/关闭断肢效果"
+
+REFERENCE           SABER_REALISTIC
+LANG_ENGLISH        "Saber Damage:"
+LANG_CHINESE        "光剑伤害："
+
+REFERENCE           SABER_REALISTIC_DESC
+LANG_ENGLISH        "Set the damage level dealt by lightsabers."
+LANG_CHINESE        "设置光剑造成的伤害等级"
+
+REFERENCE           SABER_LOCK_BREAK
+LANG_ENGLISH        "Saber Lock Executions:"
+LANG_CHINESE        "拼剑处决："
+
+REFERENCE           SABER_LOCK_BREAK_DESC
+LANG_ENGLISH        "Enables possible deadly follow-up attacks upon winning a saber lock."
+LANG_CHINESE        "在赢得拼剑后可以发动可能致命的后续攻击1："
+
+REFERENCE           SABER_LOCK
+LANG_ENGLISH        "Saberlock:"
+LANG_CHINESE        "拼剑："
+
+REFERENCE           SABER_LOCK_DESC
+LANG_ENGLISH        "Select how often saber-lock occurs."
+LANG_CHINESE        "选择拼剑发生的频率"
+
+REFERENCE           NEVER
+LANG_ENGLISH        "Never"
+LANG_CHINESE        "从不"
+
+REFERENCE           RARELY
+LANG_ENGLISH        "Rarely"
+LANG_CHINESE        "很少"
+
+REFERENCE           SOMETIMES
+LANG_ENGLISH        "Sometimes"
+LANG_CHINESE        "时不时"
+
+REFERENCE           OFTEN
+LANG_ENGLISH        "Often"
+LANG_CHINESE        "经常"
+
+REFERENCE           CORPSE_REMOVAL
+LANG_ENGLISH        "Corpse Removal Time:"
+LANG_CHINESE        "尸体移除时间："
+
+REFERENCE           CORPSE_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which corpses will disappear."
+LANG_CHINESE        "设置尸体经过多久后消失"
+
+REFERENCE           WEAPON_REMOVAL
+LANG_ENGLISH        "Weapon Removal Time:"
+LANG_CHINESE        "武器移除时间："
+
+REFERENCE           WEAPON_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which weapons will disappear."
+LANG_CHINESE        "设置武器经过多久后消失"
+
+REFERENCE           10SEC
+LANG_ENGLISH        "10 seconds"
+LANG_CHINESE        "10秒"
+
+REFERENCE           30SEC
+LANG_ENGLISH        "30 seconds"
+LANG_CHINESE        "30秒"
+
+REFERENCE           1MIN
+LANG_ENGLISH        "1 minute"
+LANG_CHINESE        "1分钟"
+
+REFERENCE           2MIN
+LANG_ENGLISH        "2 minutes"
+LANG_CHINESE        "2分钟"
+
+REFERENCE           5MIN
+LANG_ENGLISH        "5 minutes"
+LANG_CHINESE        "5分钟"
+
+REFERENCE           BLOOD
+LANG_ENGLISH        "Blood:"
+LANG_CHINESE        "溅血："
+
+REFERENCE           BLOOD_DESC
+LANG_ENGLISH        "Toggle blood effects."
+LANG_CHINESE        "切换溅血特效"
+
+REFERENCE           WEATHER
+LANG_ENGLISH        "Weather:"
+LANG_CHINESE        "天气："
+
+REFERENCE           WEATHER_DESC
+LANG_ENGLISH        "Set the weather in the map."
+LANG_CHINESE        "设置地图中的天气"
+
+REFERENCE           CLEAR
+LANG_ENGLISH        "Clear"
+LANG_CHINESE        "晴天"
+
+REFERENCE           SNOW
+LANG_ENGLISH        "Snow" 
+LANG_CHINESE        "下雪"
+
+REFERENCE           RAIN
+LANG_ENGLISH        "Rain"
+LANG_CHINESE        "下雨"
+
+REFERENCE           LAVA
+LANG_ENGLISH        "Lava"
+LANG_CHINESE        "岩浆喷发"
+
+REFERENCE           SANDSTORM
+LANG_ENGLISH        "Sandstorm"
+LANG_CHINESE        "沙尘暴"
+
+REFERENCE           HEAVY_RAIN_FOG
+LANG_ENGLISH        "Heavy Rain Fog"
+LANG_CHINESE        "大雨雾"
+
+REFERENCE           FOG
+LANG_ENGLISH        "Fog"
+LANG_CHINESE        "雾"
+
+REFERENCE           ACID_RAIN
+LANG_ENGLISH        "Acid Rain"
+LANG_CHINESE        "酸雨"
+
+REFERENCE           WIND
+LANG_ENGLISH        "Wind"
+LANG_CHINESE        "风"
+
+REFERENCE           SPACEDUST
+LANG_ENGLISH        "Spacedust"
+LANG_CHINESE        "太空尘"
+
+REFERENCE           PUSH_EFFECT
+LANG_ENGLISH        "Force Push Effect:"
+LANG_CHINESE        "原力推效果："
+
+REFERENCE           PUSH_EFFECT_DESC
+LANG_ENGLISH        "Set the effect used for force push."
+LANG_CHINESE        "设置使用原力推的效果"
+
+REFERENCE           PUSH_EFFECT_JKA
+LANG_ENGLISH        "JKA"
+LANG_CHINESE        "绝地学院（JKA）模式"
+
+REFERENCE           PUSH_EFFECT_JKO
+LANG_ENGLISH        "JKO"
+LANG_CHINESE        "绝地放逐（JKO）模式"
+
+REFERENCE           PUSH_EFFECT_NONE
+LANG_ENGLISH        "None"
+LANG_CHINESE        "无"
+
+REFERENCE           SABER_LOCK_CAM
+LANG_ENGLISH        "Saber Lock Camera:"
+LANG_CHINESE        "拼剑镜头："
+
+REFERENCE           SABER_LOCK_CAM_DESC
+LANG_ENGLISH        "Set camera to be cinematic during a saber lock."
+LANG_CHINESE        "在拼剑时将摄像机设置为电影模式。"
+
+REFERENCE           LANGUAGE
+LANG_ENGLISH        "Language"
+LANG_CHINESE        "语言"
+
+REFERENCE           LANGUAGE_DESC
+LANG_ENGLISH        "Set the language used in the mod."
+LANG_CHINESE        "设置在这个mod中使用的语言"
+
+REFERENCE           LANG_DEUTSCH
+LANG_ENGLISH        "Deutsch"
+LANG_CHINESE        "德语"
+
+REFERENCE           LANG_ESPANYOL
+LANG_ENGLISH        "Espańol"
+LANG_CHINESE        "西班牙语"
+
+REFERENCE           LANG_CZECH
+LANG_ENGLISH        "Czech"
+LANG_CHINESE        "捷克语"
+
+REFERENCE           LANG_CHINESE
+LANG_ENGLISH        "Chinese Simplified"
+LANG_CHINESE        "简体中文"
+
+
+REFERENCE           SABER_IMPACT
+LANG_ENGLISH        "Saber Combat Mode:"
+LANG_CHINESE        "光剑格斗模式："
+
+REFERENCE           SABER_IMPACT_DESC
+LANG_ENGLISH        "Activate Manual Saber Blocking Mode. See the Controls menu to use Manual Block."
+LANG_CHINESE        "激活手动光剑格挡模式。请去看“控制”菜单使用手动格挡
+
+REFERENCE           JKA_MODE
+LANG_ENGLISH        "JKA Mode"
+LANG_CHINESE        "绝地学院（JKA）模式"
+
+REFERENCE           MD_MODE
+LANG_ENGLISH        "MD Mode"
+LANG_CHINESE        "电影对决（MD）模式"  
+
+REFERENCE           MDA_MODE
+LANG_ENGLISH        "MD Advanced Mode"
+LANG_CHINESE        "电影对决高级（MDA）模式"
+
+REFERENCE           HUD_MODE
+LANG_ENGLISH        "Hud Mode:"
+LANG_CHINESE        "HUD模式："
+
+REFERENCE           HUD_MODE_DESC
+LANG_ENGLISH        "Set the heads-up display."
+LANG_CHINESE        "设置抬头显示器（HUD）"
+
+REFERENCE           MD_CLASSIC
+LANG_ENGLISH        "MD Classic"
+LANG_CHINESE        "#same"
+
+
+REFERENCE           MD_MODERN
+LANG_ENGLISH        "MD Modern"
+LANG_CHINESE        "#same"
+
+REFERENCE           MD_JO
+LANG_ENGLISH        "JKII Remastered"
+LANG_CHINESE        "#same"
+
+REFERENCE           MD_VINTAGE
+LANG_ENGLISH        "MD Vintage"
+LANG_CHINESE        "#same"
+
+REFERENCE           MD_HUD_VERTICAL
+LANG_ENGLISH        "MD Vertical"
+LANG_CHINESE        "#same"
+
+REFERENCE           MD_HUD_HORIZONTAL
+LANG_ENGLISH        "MD Horizontal"
+LANG_CHINESE        "#same"
+
+REFERENCE           SHOW_SELECTION_BAR
+LANG_ENGLISH        "Show Selection Bar:"
+LANG_CHINESE        "显示选择栏："
+
+REFERENCE           SHOW_SELECTION_BAR_DESC
+LANG_ENGLISH        "Show selection bar when cycling through inventory, weapons or force powers."
+LANG_CHINESE        "循环浏览物品、武器或原力技能时显示选择栏"
+
+REFERENCE           SHOW_RADAR
+LANG_ENGLISH        "Show Radar:"
+LANG_CHINESE        "显示雷达："
+
+REFERENCE           SHOW_RADAR_DESC
+LANG_ENGLISH        "Show Radar to identify objects and models on map."
+LANG_CHINESE        "在地图上显示已知的目标或模型"
+
+REFERENCE           SHOW_HEALTH_BAR
+LANG_ENGLISH        "Show health Bar:"
+LANG_CHINESE        "显示生命条："
+
+REFERENCE           SHOW_HEALTH_BAR_DESC
+LANG_ENGLISH        "Show health meter above all characters."
+LANG_CHINESE        "在所有角色头上显示生命条"
+
+REFERENCE           SHOW_BLOCKPOINT_BAR
+LANG_ENGLISH        "Show Block Point Bar:"
+LANG_CHINESE        "显示格挡点条："
+
+REFERENCE           SHOW_BLOCKPOINT_BAR_DESC
+LANG_ENGLISH        "Show Block Point Meter above all Saber Users (MD/MDA Mode only)."
+LANG_CHINESE        "在所有光剑使用者头上显示格挡点条（仅限于MD/MDA模式）"
+
+REFERENCE           SHOW_STAMINA_BAR
+LANG_ENGLISH        "Show Stamina Bar:"
+LANG_CHINESE        "显示体力条："
+
+REFERENCE           SHOW_STAMINA_BAR_DESC
+LANG_ENGLISH        "Show Stamina Meter above all Saber Users (MD/MDA Mode only)."
+LANG_CHINESE        "在所有光剑使用者头上显示体力条（仅限于MD/MDA模式）"
+
+REFERENCE           UNBLOCKABLE_ATTACK_WARNING
+LANG_ENGLISH        "Unblockable Attack Warning:"
+LANG_CHINESE        "无法格挡攻击警告："
+
+REFERENCE           UNBLOCKABLE_ATTACK_WARNING_DESC
+LANG_ENGLISH        "Makes NPCs appear red when they perform an unblockable attack."
+LANG_CHINESE        "使得NPC在发动无法进行格挡的攻击时变红"
+
+REFERENCE           LEDGE_GRAB
+LANG_ENGLISH        "Ledge Grab:"
+LANG_CHINESE        "抓组边缘："
+
+REFERENCE           LEDGE_GRAB_DESC
+LANG_ENGLISH        "Sets whether your character will grab onto ledges to climb."
+LANG_CHINESE        "设置你的角色是否可以通过抓住墙壁边缘来进行攀爬"
+
+REFERENCE           AUTO_PICK_UP
+LANG_ENGLISH        "Auto Item Pick Up:"
+LANG_CHINESE        "自动拾起物品"
+
+REFERENCE           AUTO_PICK_UP_DESC
+LANG_ENGLISH        "Automatically pick up items when walked over or look and press the USE key."
+LANG_CHINESE        "当经过或者是看到时自动拾起物品，并按下“使用"键"
+
+REFERENCE           SABER_RETURN
+LANG_ENGLISH        "Saber Throw Return:"
+LANG_CHINESE        "光剑投掷返回："
+
+REFERENCE           SABER_RETURN_DESC
+LANG_ENGLISH        "Sets whether the lightsaber will return after hitting a wall during a saber throw."
+LANG_CHINESE        "设置光剑在投掷时击中墙壁后是否会返回"
+
+REFERENCE           SABER_BOUNCE_ON_WALLS
+LANG_ENGLISH        "Saber Wall Bounce:"
+LANG_CHINESE        "光剑撞墙反弹："
+
+REFERENCE           SABER_BOUNCE_ON_WALLS_DESC
+LANG_ENGLISH        "Sets whether the lightsaber will bounce off walls upon impact."
+LANG_CHINESE        "设置光剑在撞击时是否会从墙壁反弹。"
+
+REFERENCE           SABERTHROW_TYPE
+LANG_ENGLISH        "Saberthrow Type:"
+LANG_CHINESE        "光剑投掷类型："
+
+REFERENCE           SABERTHROW_TYPE_DESC
+LANG_ENGLISH        "Switches between horizontal (base JKA) or vertical saber throw."
+LANG_CHINESE        "在水平(基础 JKA)或垂直光剑投掷之间切换"
+
+REFERENCE           VERTICAL
+LANG_ENGLISH        "Vertical"
+LANG_CHINESE        "垂直"
+
+REFERENCE           HORIZONTAL
+LANG_ENGLISH        "Horizontal"
+LANG_CHINESE        "水平"
+
+REFERENCE           GUNNER_BASH
+LANG_ENGLISH        "Gunner Melee:"
+LANG_CHINESE        "枪手肉搏："
+
+REFERENCE           GUNNER_BASH_DESC
+LANG_ENGLISH        "Sets whether powerful characters with blasters can melee the player."
+LANG_CHINESE        "设置拥有爆能枪的强大角色是否可以近战攻击玩家"
+
+REFERENCE           MDA_SLOWMO
+LANG_ENGLISH        "Perfect Block Slowmo Action:"
+LANG_CHINESE        "完美格挡慢动作"
+
+REFERENCE           MDA_SLOWMO_DESC
+LANG_ENGLISH        "MD/MDA Mode only. Activates a slow motion effect when performing a perfect block."
+LANG_CHINESE        "仅限于MD/MDA模式。当出现完美格挡时，就会触发慢动作回放"
+
+REFERENCE           IGNITION_TWIRL
+LANG_ENGLISH        "Saber Ignition Twirl:"
+LANG_CHINESE        "光剑点亮旋转："
+
+REFERENCE           IGNITION_TWIRL_DESC
+LANG_ENGLISH        "Do the saber on/off animation."
+LANG_CHINESE        "做光剑点亮的动作"
+
+REFERENCE           SINGLE_IGNITION_SPEED
+LANG_ENGLISH        "Single Saber Ignition Speed:"
+LANG_CHINESE        "单光剑点亮速度："
+
+REFERENCE           SINGLE_IGNITION_SPEED_DESC
+LANG_ENGLISH        "How fast the lightsaber ignites."
+LANG_CHINESE        "设置光剑点亮的速度"
+
+REFERENCE           SLOW
+LANG_ENGLISH        "Slow"
+LANG_CHINESE        "慢"
+
+REFERENCE           VERY_FAST
+LANG_ENGLISH        "Very Fast"
+LANG_CHINESE        "非常快"
+
+REFERENCE           INSTANT
+LANG_ENGLISH        "Instant"
+LANG_CHINESE        "立刻"
+
+REFERENCE           STAFF_IGNITION_SPEED
+LANG_ENGLISH        "Staff Saber Ignition Speed:"
+LANG_CHINESE        "光杖点亮速度："
+
+REFERENCE           STAFF_IGNITION_SPEED_DESC
+LANG_ENGLISH        "How fast the Staff lightsaber ignites."
+LANG_CHINESE        "设置光杖点亮的速度"
+
+REFERENCE           SABER_STANCE
+LANG_ENGLISH        "Cosmetic Saber Stance:"
+LANG_CHINESE        "光剑起手式："
+
+REFERENCE           SABER_STANCE_DESC
+LANG_ENGLISH        "Use unique character stances (some stances may make you vulnerable)."
+LANG_CHINESE        "使用角色独特的起手式（一些姿势可能会使你变得脆弱）"
+
+
+REFERENCE           SABER_ATTACK_SPEED
+LANG_ENGLISH        "Saber Attack Speed:"
+LANG_CHINESE        "光剑攻击速度："
+
+REFERENCE           SABER_ATTACK_SPEED_DESC
+LANG_ENGLISH        "MD Mode slightly reduces saber swing speeds to increase blocking reaction time."
+LANG_CHINESE        "MD模式略微降低光剑挥舞速度，以增加格挡反应时间。"
+
+REFERENCE           SABER_DAMAGE_SYSTEM
+LANG_ENGLISH        "Saber Damage System:"
+LANG_CHINESE        "光剑伤害"
+
+REFERENCE           SABER_DAMAGE_SYSTEM_DESC
+LANG_ENGLISH        "Set the system used to calculate saber damage."
+LANG_CHINESE        "设置系统所使用的光剑伤害"
+
+REFERENCE           SLOWMO_SELECTION
+LANG_ENGLISH        "Slowmo Selection:"
+LANG_CHINESE        "慢放选择镜头"
+
+REFERENCE           SLOWMO_SELECTION_DESC
+LANG_ENGLISH        "Slows down time when scrolling between weapons, items or force powers."
+LANG_CHINESE        "在切换武器，物品，原力技能的时候放慢镜头"
+
+REFERENCE           AUTO_HEALTH_REGEN
+LANG_ENGLISH        "Auto-Health Regeneration:"
+LANG_CHINESE        "自动恢复生命："
+
+REFERENCE           AUTO_HEALTH_REGEN_DESC
+LANG_ENGLISH        "Set if your character will automatically replenish health (users with FP_HEAL 3)."
+LANG_CHINESE        "设置您的角色是否会自动补充生命值(拥有 FP_HEAL 3 的用户)"
+
+REFERENCE           PLAYER_HEALTH_SYNC
+LANG_ENGLISH        "Default Health:"
+LANG_CHINESE        "默认生命值"
+
+REFERENCE           PLAYER_HEALTH_SYNC_DESC
+LANG_ENGLISH        "Use the default 100 health or the health of the selected character."
+LANG_CHINESE        "使用默认的100生命值或者是所选择的角色的（本身的）生命值"
+
+REFERENCE           ADVANCED_LOD
+LANG_ENGLISH        "Advanced LOD:"
+LANG_CHINESE        "高级LOD："
+
+REFERENCE           ADVANCED_LOD_DESC
+LANG_ENGLISH        "Increases level of detail."
+LANG_CHINESE        "增加细节层次"
+
+REFERENCE           AMD_FIX
+LANG_ENGLISH        "AMD GPU Support:"
+LANG_CHINESE        "AMD GPU支持："
+
+REFERENCE           AMD_FIX_DESC
+LANG_ENGLISH        "Enables OpenGL support for AMD graphic cards."
+LANG_CHINESE        "为AMD GPU启用OpenGL支持"
+
+REFERENCE           ROLL_SOUND
+LANG_ENGLISH        "Roll Sound:"
+LANG_CHINESE        "翻滚声："
+
+REFERENCE           ROLL_SOUND_DESC
+LANG_ENGLISH        "Sets whether roll sounds are played."
+LANG_CHINESE        设置是否播放翻滚声"
+
+REFERENCE           JUMP_SOUND
+LANG_ENGLISH        "Jump Sound:"
+LANG_CHINESE        "跳跃声："
+
+REFERENCE           JUMP_SOUND_DESC
+LANG_ENGLISH        "Sets whether jump sounds are played."
+LANG_CHINESE        "设置是否播放跳跃声"
+
+REFERENCE           PLAY_ALL
+LANG_ENGLISH        "Play All"
+LANG_CHINESE        "播放所有"
+
+REFERENCE           OTHER_PLAYERS_ONLY
+LANG_ENGLISH        "Other Players Only"
+LANG_CHINESE        "只播放其他玩家的声音"
+
+REFERENCE           PLAYER_ONLY
+LANG_ENGLISH        "Player Only"
+LANG_CHINESE        "仅玩家"
+
+REFERENCE           RENDERER_REND2
+LANG_ENGLISH        "Rend2 (Beta):"
+LANG_CHINESE        "#SAME"
+
+REFERENCE           RENDERER_REND2_DESC
+LANG_ENGLISH        "Introduces new rendering techniques, improving visuals and performance."
+LANG_CHINESE        "引入了新的渲染技术，提高了视觉效果和性能。"
+
+REFERENCE           ANTIALIASING
+LANG_ENGLISH        "Antialiasing:"
+LANG_CHINESE        "抗锯齿："
+
+REFERENCE           ANTIALIASING_DESC
+LANG_ENGLISH        "Antialiasing."
+LANG_CHINESE        "抗锯齿"
+
+REFERENCE           HDR
+LANG_ENGLISH        "HDR:"
+LANG_CHINESE        "HDR（高动态范围）："
+
+REFERENCE           HDR_DESC
+LANG_ENGLISH        "Rendering in HDR (High Dynamic Range) Colorspace."
+LANG_CHINESE        "在 HDR（高动态范围）色域中渲染"
+
+REFERENCE           TONEMAPPING
+LANG_ENGLISH        "Tonemapping:"
+LANG_CHINESE        "色调映射："
+
+REFERENCE           TONEMAPPING_DESC
+LANG_ENGLISH        "Enables tonemapping."
+LANG_CHINESE        "启用色调映射"
+
+REFERENCE           AUTOEXPOSURE
+LANG_ENGLISH        "Autoexposure:"
+LANG_CHINESE        "自动曝光："
+
+REFERENCE           AUTOEXPOSURE_DESC
+LANG_ENGLISH        "Enables automatic exposure based on scene brightness."
+LANG_CHINESE        "根据场景亮度启用自动曝光"
+
+REFERENCE           HDR_LIGHTING_SUPPORT
+LANG_ENGLISH        "HDR Lighting Support:"
+LANG_CHINESE        "HDR 光照支持："
+
+REFERENCE           HDR_LIGHTING_SUPPORT_DESC
+LANG_ENGLISH        "Loads HDR lighting data (Requires rend2 lighting data)."
+LANG_CHINESE        "加载 HDR 光照数据(需要 rend2 光照数据)"
+
+REFERENCE           DELUXEMAPPING
+LANG_ENGLISH        "Deluxemapping:"
+LANG_CHINESE        "豪华映射："
+
+REFERENCE           DELUXEMAPPING_DESC
+LANG_ENGLISH        "Enables normalmapping and specularmapping on static geometry."
+LANG_CHINESE        "在静态几何体上启用法线贴图和高光贴图"
+
+REFERENCE           DELUXEMAPPING_SPECULAR
+LANG_ENGLISH        "Deluxemap Specular:"
+LANG_CHINESE        "豪华贴图高光："
+
+REFERENCE           DELUXEMAPPING_SPECULAR_DESC
+LANG_ENGLISH        "Scale the specular response from deluxemaps."
+LANG_CHINESE        "从豪华贴图调整高光响应"
+
+REFERENCE           CUBEMAPPING
+LANG_ENGLISH        "Cubemapping:"
+LANG_CHINESE        "立方体贴图："
+
+REFERENCE           CUBEMAPPING_DESC
+LANG_ENGLISH        "Render cubemaps for reflections."
+LANG_CHINESE        "为反射渲染立方体贴图"
+
+REFERENCE           CUBEMAPPING_BOUNCES
+LANG_ENGLISH        "Cubemapping Bounces:"
+LANG_CHINESE        "立方体贴图反弹："
+
+REFERENCE           CUBEMAPPING_BOUNCES_DESC
+LANG_ENGLISH        "How many reflection bounces to render in cubemaps."
+LANG_CHINESE        "在立方体贴图中渲染多少次反射反弹"
+
+REFERENCE           PARALLAX_OCCLUSION_MAPPING
+LANG_ENGLISH        "Parallax Occlusion Mapping:"
+LANG_CHINESE        "视差遮挡映射："
+
+REFERENCE           PARALLAX_OCCLUSION_MAPPING_DESC
+LANG_ENGLISH        "Parallax Occlusion Mapping (Requires rend2 materials)."
+LANG_CHINESE        "视差遮挡映射(需要 rend2 材质)"
+
+REFERENCE           GENERATE_NORMALMAPS
+LANG_ENGLISH        "Generate Normalmaps:"
+LANG_CHINESE        "生成法线贴图："
+
+REFERENCE           GENERATE_NORMALMAPS_DESC
+LANG_ENGLISH        "Generate normalmaps from diffuse textures."
+LANG_CHINESE        从漫反射贴图生成法线贴图"
+
+REFERENCE           SSAO
+LANG_ENGLISH        "SSAO:"
+LANG_CHINESE        "屏幕空间环境光遮蔽："
+
+REFERENCE           SSAO_DESC
+LANG_ENGLISH        "Enables Screenspace ambient occlusion."
+LANG_CHINESE        "启用屏幕空间环境光遮蔽"
+
+REFERENCE           DYNAMIC_GLOW_BLOOM
+LANG_ENGLISH        "Bloom:"
+LANG_CHINESE        "泛光："
+
+REFERENCE           DYNAMIC_GLOW_BLOOM_DESC
+LANG_ENGLISH        "Scale a bloom effect on top of dynamic glow."
+LANG_CHINESE        "在动态光晕上叠加调节辉光效果"
+
+REFERENCE           MSAA
+LANG_ENGLISH        "MSAA:"
+LANG_CHINESE        "#same"
+
+REFERENCE           MSAA_DESC
+LANG_ENGLISH        "Enables MSAA antialiasing (SMAA should not be used at the same time)."
+LANG_CHINESE        "启用 MSAA 抗锯齿(不应同时使用 SMAA)"
+
+REFERENCE           SMAA
+LANG_ENGLISH        "SMAA:"
+LANG_CHINESE        "SMAA:"
+
+REFERENCE           SMAA_DESC
+LANG_ENGLISH        "Enables SMAA antialiasing (MSAA should not be used at the same time)."
+LANG_CHINESE        "启用 SMAA 抗锯齿(不应同时使用 MSAA)"
+
+REFERENCE           SMAA_QUALITY
+LANG_ENGLISH        "SMAA Quality:"
+LANG_CHINESE        "SMAA质量："
+
+REFERENCE           SMAA_QUALITY_DESC
+LANG_ENGLISH        "Set SMAA quality."
+LANG_CHINESE        "设置SMAA质量"
+
+REFERENCE           VOLUMETRIC_FOG
+LANG_ENGLISH        "Volumetric Fog:"
+LANG_CHINESE        "体积雾："
+
+REFERENCE           VOLUMETRIC_FOG_DESC
+LANG_ENGLISH        "Enables lightgrid lighting on fog volumes."
+LANG_CHINESE        "在雾体上启用 Lightgrid 光照"
+
+REFERENCE           DYNAMIC_LIGHTS
+LANG_ENGLISH        "Dynamic Lights:"
+LANG_CHINESE        "动态光照："
+
+REFERENCE           DYNAMIC_LIGHTS_DESC
+LANG_ENGLISH        "Change how dynamic lights look."
+LANG_CHINESE        "修改动态光照的效果"
+
+REFERENCE           DYNAMIC_LIGHTS_ON
+LANG_ENGLISH        "On - No Shadows"
+LANG_CHINESE        "开启 - 无阴影"
+
+REFERENCE           DYNAMIC_LIGHTS_ON2
+LANG_ENGLISH        "On - With Shadows"
+LANG_CHINESE        "开启 - 有阴影"
+
+REFERENCE           CAMERA_EXPOSURE
+LANG_ENGLISH        "Camera Exposure:"
+LANG_CHINESE        "相机曝光："
+
+REFERENCE           CAMERA_EXPOSURE_DESC
+LANG_ENGLISH        "Alter brightness."
+LANG_CHINESE        "调整亮度"
+
+REFERENCE           FORCE_SUN
+LANG_ENGLISH        "Force Sun:"
+LANG_CHINESE        "强制阳光："
+
+REFERENCE           FORCE_SUN_DESC
+LANG_ENGLISH        "Enables sunlight and real-time cascaded shadows (Disable volumetric shadows)."
+LANG_CHINESE        "启用阳光和实时级联阴影（禁用体积阴影）"
+
+
+//----------------------------------------------------------
+// 	h2: CONTROLS
+//----------------------------------------------------------
+
+REFERENCE           CONFIGURE_CONTROLS
+LANG_ENGLISH        "CONFIGURE CONTROLS"
+LANG_CHINESE        "控制选项"
+
+REFERENCE           MANUAL_BLOCK
+LANG_ENGLISH        "Manual Block:"
+LANG_CHINESE        "手动格挡："
+
+REFERENCE           MANUAL_BLOCK_DESC
+LANG_ENGLISH        "MD/MDA Mode only. Hold with attack to control direction. Hold when running to sprint."
+LANG_CHINESE        "仅限于MD/MDA模式。按住来控制攻击的方向。在奔跑的时候按住来冲刺"
+
+REFERENCE           KICK
+LANG_ENGLISH        "Kick:"
+LANG_CHINESE        "踢："
+
+REFERENCE           KICK_DESC
+LANG_ENGLISH        "Kick with a weapon in hand."
+LANG_CHINESE        "当武器在手的时候踢人"
+
+REFERENCE           SABERDOWN
+LANG_ENGLISH        "Saber On / Off:"
+LANG_CHINESE        "光剑开关："
+
+REFERENCE           SABERDOWN_DESC
+LANG_ENGLISH        "Activates/deactivates a lightsaber."
+LANG_CHINESE        "点亮/关闭光剑"
+
+REFERENCE           SINGLE_DUAL_PISTOLS
+LANG_ENGLISH        "Single/Dual Pistols:"
+LANG_CHINESE        "单/双手持枪："
+
+REFERENCE           SINGLE_DUAL_PISTOLS_DESC
+LANG_ENGLISH        "Change between single and dual pistols. Re-equip pistol to take effect."
+LANG_CHINESE        "在单手和双手持枪间切换。需要手枪才能生效"
+
+REFERENCE           RELOAD_WEAPON
+LANG_ENGLISH        "Saber On/Off & Weapon Reload:"
+LANG_CHINESE        "光剑 开/关 与 武器重新装填："
+
+REFERENCE           RELOAD_WEAPON_DESC
+LANG_ENGLISH        "Turns on/off lightsaber, reloads weapon, and recharges when weapon overheats."
+LANG_CHINESE        " 打开/关闭光剑,装填武器,并且过热时将会重新充能"
+
+REFERENCE           USES_FORCE_DESTRUCTION_ABILITY
+LANG_ENGLISH        "Uses Force Destruction Ability."
+LANG_CHINESE        "使用原力摧毁技能"
+
+REFERENCE           USES_FORCE_STASIS_ABILITY
+LANG_ENGLISH        "Uses Force Stasis Ability."
+LANG_CHINESE        "使用原力停滞技能"
+
+REFERENCE           USES_FORCE_DEADLYSIGHT_ABILITY
+LANG_ENGLISH        "Uses Force Deadly Sight Ability."
+LANG_CHINESE        "使用致命视线技能"
+
+REFERENCE           USES_FORCE_FEAR_ABILITY
+LANG_ENGLISH        "Uses Force Fear Ability."
+LANG_CHINESE        "使用原力恐惧技能："
+
+REFERENCE           USES_FORCE_JUDGEMENT_ABILITY
+LANG_ENGLISH        "Uses Force Judgement Ability."
+LANG_CHINESE        "使用原力审判技能"
+
+REFERENCE           USES_FORCE_REPULSE_ABILITY
+LANG_ENGLISH        "Uses Force Repulse Ability."
+LANG_CHINESE        "使用原力击退技能"
+
+REFERENCE           USES_FORCE_GRASP_ABILITY
+LANG_ENGLISH        "Uses Force Grasp Ability."
+LANG_CHINESE        "使用原力锁喉技能"
+
+REFERENCE           USES_FORCE_BLAST_ABILITY
+LANG_ENGLISH        "Uses Force Blast Ability."
+LANG_CHINESE        "使用原力冲击波技能"
+
+REFERENCE           USES_FORCE_PROJECTION_ABILITY
+LANG_ENGLISH        "Uses Force Projection Ability."
+LANG_CHINESE        "使用原力防护技能"
+
+REFERENCE           SABER_MENU
+LANG_ENGLISH        "Saber Menu:"
+LANG_CHINESE        "光剑菜单："
+
+REFERENCE           SABER_MENU_DESC
+LANG_ENGLISH        "Opens saber customization menu."
+LANG_CHINESE        "打开光剑自定义菜单"
+
+REFERENCE           CHARACTER_MENU
+LANG_ENGLISH        "Character Menu:"
+LANG_CHINESE        "角色菜单："
+
+REFERENCE           CHARACTER_MENU_DESC
+LANG_ENGLISH        "Opens character menu."
+LANG_CHINESE        "打开角色菜单"
+
+REFERENCE           NPC_SPAWN_MENU
+LANG_ENGLISH        "NPC Spawn Menu:"
+LANG_CHINESE        "NPC生成菜单："
+
+REFERENCE           NPC_SPAWN_MENU_DESC
+LANG_ENGLISH        "Opens NPC spawn menu."
+LANG_CHINESE        "打开NPC生成菜单"
+
+REFERENCE           NPC_COMMANDS_MENU
+LANG_ENGLISH        "NPC Commands Menu:"
+LANG_CHINESE        "NPC指令菜单："
+
+REFERENCE           NPC_COMMANDS_MENU_DESC
+LANG_ENGLISH        "Opens NPC Commands menu."
+LANG_CHINESE        "打开NPC指令菜单"
+
+REFERENCE           NPC_SPAWN_RECENT
+LANG_ENGLISH        "NPC Spawn Recent:"
+LANG_CHINESE        "生成最近的NPC："
+
+
+REFERENCE           NPC_SPAWN_RECENT_DESC
+LANG_ENGLISH        "Spawns The Last Spawned NPC."
+LANG_CHINESE        "生成上一次生成的NPC"
+
+REFERENCE           NPC_RECENT_COMMAND
+LANG_ENGLISH        "NPC Recent Command:"
+LANG_CHINESE        "最近NPC指令"
+
+REFERENCE           NPC_RECENT_COMMAND_DESC
+LANG_ENGLISH        "Executes The Last Used NPC Command On The Currently Selected NPC."
+LANG_CHINESE        "在当前选定的NPC上执行上一个使用过的NPC指令"
+
+REFERENCE           FREEZE_NPCS
+LANG_ENGLISH        "Freeze NPCs:"
+LANG_CHINESE        "冻结NPC："
+
+REFERENCE           FREEZE_NPCS_DESC
+LANG_ENGLISH        "Toggles NPC freeze."
+LANG_CHINESE        "切换NPC冻结状态"
+
+REFERENCE           WALK_RUN
+LANG_ENGLISH        "Always Run Toggle:"
+LANG_CHINESE        "一直奔跑状态切换："
+
+REFERENCE           WALK_RUN_DESC
+LANG_ENGLISH        "Toggle between always walking and running."
+LANG_CHINESE        "在一直奔跑和一直走路间切换"
+
+REFERENCE           SURRENDER
+LANG_ENGLISH        "Surrender:"
+LANG_CHINESE        "投降："
+
+REFERENCE           SURRENDER_DESC
+LANG_ENGLISH        "Hold for 2 Seconds to Surrender to enemies."
+LANG_CHINESE        "按住两秒后向敌人投降"
+
+REFERENCE           COMBAT_STANCE
+LANG_ENGLISH        "Combat Stance:"
+LANG_CHINESE        "战斗姿态："
+
+REFERENCE           COMBAT_STANCE_DESC
+LANG_ENGLISH        "Triggers your character to go into a ready stance."
+LANG_CHINESE        "让你的角色切换到准备战斗的姿态"
+
+REFERENCE           WEAPON_WHEEL
+LANG_ENGLISH        "Weapon Wheel:"
+LANG_CHINESE        "武器轮盘："
+
+REFERENCE           WEAPON_WHEEL_DESC
+LANG_ENGLISH        "Opens the weapon wheel to equip a weapon."
+LANG_CHINESE        "打开武器轮盘以装备武器"
+
+REFERENCE           FORCE_WHEEL
+LANG_ENGLISH        "Force Power Wheel:"
+LANG_CHINESE        "原力轮盘："
+
+REFERENCE           FORCE_WHEEL_DESC
+LANG_ENGLISH        "Opens the force power wheel to equip a force power."
+LANG_CHINESE        "打开原力轮盘以装备原力"
+
+//----------------------------------------------------------
+// 	h3: MULTIPLAYER SETTINGS & CONTROLS
+//----------------------------------------------------------
+
+REFERENCE           AWARD_SOUNDS
+LANG_ENGLISH        "Award Sounds:"
+LANG_CHINESE        "奖励音效："
+
+REFERENCE           AWARD_SOUNDS_DESC
+LANG_ENGLISH        "Enables award sounds."
+LANG_CHINESE        "启用奖励音效"
+
+REFERENCE           DRAW_TIMER
+LANG_ENGLISH        "Draw Timer:"
+LANG_CHINESE        "显示时间："
+
+REFERENCE           DRAW_TIMER_DESC
+LANG_ENGLISH        "Draws game timer."
+LANG_CHINESE        "限制游戏时间"
+
+REFERENCE	    LAGOMETER
+LANG_ENGLISH	    "Display Lag Meter:"
+LANG_CHINESE        "显示延迟计："
+
+REFERENCE	    LAGOMETER_DESC
+LANG_ENGLISH	    "Displays lag meter."
+LANG_CHINESE        "显示延迟计"
+
+REFERENCE           3RD_PERSON_INVERT_GUNS
+LANG_ENGLISH        "3rd Person Invert Guns:"
+LANG_CHINESE        "第三人称反转枪械："
+
+REFERENCE           3RD_PERSON_INVERT_GUNS_DESC
+LANG_ENGLISH        "Determines how the current third/first person setting affects guns."
+LANG_CHINESE        "确定当前第三人称/第一人称设置如何影响枪械"
+
+REFERENCE	    TRUEINVERTSABER
+LANG_ENGLISH	    "3rd Person Invert:"
+LANG_CHINESE        "第三人称反转："
+
+REFERENCE	    TRUEINVERTSABER_DESC
+LANG_ENGLISH	    "Determines how the current third/first person setting affects sabers, melee and guns."
+LANG_CHINESE        "确定当前第三/第一人称设置如何影响光剑、近战武器和枪械"
+
+REFERENCE	    TRUEINVERTSABERSAME
+LANG_ENGLISH	    "All Same"
+LANG_CHINESE        "全部趋同"
+
+REFERENCE	    TRUEINVERTSABERINVERT 
+LANG_ENGLISH	    "Saber/Melee Inverted"
+LANG_CHINESE        "光剑/近战反转"
+
+REFERENCE	    TRUEINVERTSABERALWAYSTHIRDPERSON
+LANG_ENGLISH	    "Sabers/Melee Always 3rd Person"
+LANG_CHINESE        "总是在第三人称进行光剑/近战"
+
+REFERENCE           DEATH_FX
+LANG_ENGLISH        "Death FX:"
+LANG_CHINESE        "死亡效果："
+
+REFERENCE           DEATH_FX_DESC
+LANG_ENGLISH        "Enables effect to play on death."
+LANG_CHINESE        "开启玩家死亡效果:"
+
+REFERENCE           FRIENDLY_FIRE
+LANG_ENGLISH        "Friendly Fire:"
+LANG_CHINESE        "队友伤害："
+
+REFERENCE           FRIENDLY_FIRE_DESC
+LANG_ENGLISH        "Allows teammates to take damage."
+LANG_CHINESE        "允许队友伤害："
+
+REFERENCE           PRIVATE_DUELS
+LANG_ENGLISH        "Private Duels:"
+LANG_CHINESE        "私下决斗："
+
+REFERENCE           PRIVATE_DUELS_DESC
+LANG_ENGLISH        "Enables private duels."
+LANG_CHINESE        "允许私下决斗"
+
+REFERENCE           MULTIPLE
+LANG_ENGLISH        "Multiple"
+LANG_CHINESE        "#same"
+
+REFERENCE           BOT_DUELS
+LANG_ENGLISH        "Bot Duels:"
+LANG_CHINESE        "Bot决斗："
+
+REFERENCE           BOT_DUELS_DESC
+LANG_ENGLISH        "Allows bots to accept duels."
+LANG_CHINESE        "允许Bot接受决斗"
+
+REFERENCE           DRAW_NAMES
+LANG_ENGLISH        "Draw Enemy Names:"
+LANG_CHINESE        "显示敌人名字："
+
+REFERENCE           DRAW_NAMES_DESC
+LANG_ENGLISH        "Sets whether player's/bot's names will appear when highlighted in the crosshair."
+LANG_CHINESE        "设置当准星锁定时是否显示玩家/Bot的名字"
+
+REFERENCE           GRAPPLING_HOOK
+LANG_ENGLISH        "Grappling Hook:"
+LANG_CHINESE        "抓钩："
+
+REFERENCE           GRAPPLING_HOOK_DESC
+LANG_ENGLISH        "Fire Grappling Hook."
+LANG_CHINESE        "发射抓钩"
+
+REFERENCE           DASH
+LANG_ENGLISH        "Dash:"
+LANG_CHINESE        "冲刺："
+
+REFERENCE           DASH_DESC
+LANG_ENGLISH        "Perform a speed Dash manover."
+LANG_CHINESE        "执行冲刺动作"
+
+REFERENCE           RECORD_DEMO
+LANG_ENGLISH        "Record Demo:"
+LANG_CHINESE        "录制Demo："
+
+REFERENCE           RECORD_DEMO_DESC
+LANG_ENGLISH        "Start a new demo recording."
+LANG_CHINESE        "开始录制新的Demo"
+
+REFERENCE           STOP_RECORDING
+LANG_ENGLISH        "Stop Recording:"
+LANG_CHINESE        "停止录制："
+
+REFERENCE           STOP_RECORDING_DESC
+LANG_ENGLISH        "Stop recording demo."
+LANG_CHINESE        "停止录制Demo"
+
+ENDMARKER
+
+
+

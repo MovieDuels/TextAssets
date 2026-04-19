@@ -1,0 +1,104 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "No!"
+LANG_CHINESE        "不！"
+
+REFERENCE           LUKE3
+LANG_ENGLISH        "I'll never join you!"
+LANG_CHINESE        "我不会加入你的！"
+
+REFERENCE           LUKE4
+LANG_ENGLISH        "He told me enough!"
+LANG_CHINESE        "他告诉我很多了"
+
+REFERENCE           LUKE5
+LANG_ENGLISH        "He told me you killed him."
+LANG_CHINESE        "他对我说是你杀了他"
+
+REFERENCE           LUKE6
+LANG_ENGLISH        "No. No. That's not true! That's impossible!"
+LANG_CHINESE        "不，不，这不是真的！这不可能！"
+
+REFERENCE           LUKE7
+LANG_ENGLISH        "No! No! No!"
+LANG_CHINESE        "不！不！不！"
+
+REFERENCE           VADER1
+LANG_ENGLISH        "The Force is with you, young Skywalker. But you are not a Jedi yet."
+LANG_CHINESE        "原力与你同在，年轻的天行者。但是你还不是一名绝地武士"
+
+REFERENCE           VADER2
+LANG_ENGLISH        "You have learned much, young one.\nYou'll find I'm full of surprises."
+LANG_CHINESE        "你学到了不少啊，年轻人\n我让你吃惊的地方还多着呢"
+
+REFERENCE           VADER3
+LANG_ENGLISH        "Your destiny lies with me, Skywalker. Obi-Wan knew this to be true."
+LANG_CHINESE        "你的命运注定是和我在一起，年轻的天行者。欧比·旺早就知道这将会成为现实的"
+
+REFERENCE           VADER4
+LANG_ENGLISH        "All to easy."
+LANG_CHINESE        "太容易了"
+
+REFERENCE           VADER5
+LANG_ENGLISH        "Perhaps you are not as strong as the Emperor thought."
+LANG_CHINESE        "也许你不如皇帝陛下想像的那么强大"
+
+REFERENCE           VADER6
+LANG_ENGLISH        "Impressive... most impressive."
+LANG_CHINESE        "真令人感动。。。太令人感动了"
+
+REFERENCE           VADER7
+LANG_ENGLISH        "Obi-Wan has taught you well. You have controlled your fear..."
+LANG_CHINESE        "欧比·旺把你教的不错啊，你已经控制了你的恐惧。。。"
+
+REFERENCE           VADER8
+LANG_ENGLISH        "Now release your anger. Only your hatred can destroy me."
+LANG_CHINESE        "现在释放你的愤怒吧。只有你的仇恨才能摧毁我"
+
+REFERENCE           VADER9
+LANG_ENGLISH        "You are beaten. It is useless to resist. Don't let yourself be destroyed as Obi-Wan did."
+LANG_CHINESE        "你已经失败了。抵抗是没有意义的。不要让你像欧比·旺一样被摧毁"
+
+REFERENCE           VADER11
+LANG_ENGLISH        "There is no escape.  Don't make me destroy you."
+LANG_CHINESE        "这没有出路的。别逼我杀掉你"
+
+REFERENCE           VADER12
+LANG_ENGLISH        "You do not yet realize your importance. You have only begun to discover your power. Join me and I will complete your training.  With our combined strength, we can end this destructive conflict and bring order to the galaxy."
+LANG_CHINESE        "你还不知道你的重要性  你只是刚开始了解你的力量  加入我吧  我会完成你的训练。\n而我们合力。。。就可以结束这些破坏性的冲突  给银河带来秩序"
+
+REFERENCE           VADER13
+LANG_ENGLISH        "If you only knew the power of the  dark side. Obi-Wan never told you what happened to your father."
+LANG_CHINESE        "要是你知道了黑暗之路的力量的话  你会的。欧比·旺从来没有告诉过你你父亲怎么样了吧"
+
+REFERENCE           VADER14
+LANG_ENGLISH        "No. I am your father."
+LANG_CHINESE        "我就是你的父亲"
+
+REFERENCE           VADER15
+LANG_ENGLISH        "Search your feelings. You know it to be true."
+LANG_CHINESE        "问问你的感觉  你会知道这是真的"
+
+REFERENCE           VADER16
+LANG_ENGLISH        "Luke.  You can destroy the Emperor. He has foreseen this. It is your destiny. Join me, and together we can rule the galaxy as father and son."
+LANG_CHINESE        "卢克 你可以杀死皇帝  他已经预见到这个了。加入我吧 我们父子一起统治这个银河"
+
+REFERENCE           VADER17
+LANG_ENGLISH        "Come with me. It is the only way."
+LANG_CHINESE        "跟我来 这是唯一的路"
+
+ENDMARKER

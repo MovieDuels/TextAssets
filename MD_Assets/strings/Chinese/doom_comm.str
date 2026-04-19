@@ -1,0 +1,140 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           15LUK014
+LANG_ENGLISH        "Kyle!  Are you there?"
+LANG_CHINESE        "凯尔！你在吗？"   
+
+REFERENCE           15KJO015
+LANG_ENGLISH        "Yeah.  I thought you said not to fight Desann alone."
+LANG_CHINESE        "是啊。我以为你说过不要单独挑战迪桑的。"
+
+REFERENCE           15LUK015
+LANG_ENGLISH        "I didn't have a choice; I never even felt him coming.  He's escaped onto a ship."
+LANG_CHINESE        "我没有选择; 我甚至没有感觉到他接近。他逃到一艘船上了。"
+
+REFERENCE           15KJO016
+LANG_ENGLISH        "I know. I'm on it."
+LANG_CHINESE        ""我知道。我就在那艘船上。
+
+REFERENCE           15LUK016
+LANG_ENGLISH        "We need to destroy the ship before Desann and his army reaches its target...whatever it is.  Try to find the ship's communication center, and use its sensor array to contact Rogue Squadron.  I'll keep trying..."
+LANG_CHINESE        "我们必须在迪桑和他的军队到达他们的目的地之前摧毀他们....不管他们要去哪里。想办法找到那艘船的通讯中心，用那旁的侦测阵列联络侠盗中队。我会继续...."
+
+REFERENCE           15KJO017
+LANG_ENGLISH        "Luke?"
+LANG_CHINESE        "卢克？"
+
+REFERENCE           15LUK017
+LANG_ENGLISH        "...Force...you."
+LANG_CHINESE        "...原力...你。"
+
+REFERENCE           21KJO001
+LANG_ENGLISH        "Now, where would I put a communications center on a tub like this?"
+LANG_CHINESE        "好了，如果是我的话，我会把通訊中心设在哪里？"
+
+REFERENCE           21WEA001
+LANG_ENGLISH        "...Leader...Katarn...Rogue Leader to Kyle Katarn..."
+LANG_CHINESE        "....领队....卡塔恩....侠盗领队呼叫卡塔恩...."
+
+REFERENCE           21KJO002
+LANG_ENGLISH        "Rogue Leader, this is Kyle Katarn."
+LANG_CHINESE        "侠盗领队，我是凯尔 卡塔恩。"
+
+REFERENCE           21WEA002
+LANG_ENGLISH        "Katarn, good to hear your voice.  We've locked onto your signal, and are in pursuit.  That's one whaladon of a ship you've hooked, Kyle."
+LANG_CHINESE        "卡塔恩，很高兴听到你的声音。我们锁定你的讯号了，正在跟踪你们。你钓上的目标还真不是普通的大呢，凯尔。"
+
+REFERENCE           21KJO003
+LANG_ENGLISH        "Can you bring her down?"
+LANG_CHINESE        "你们有办法停下这艘船吗？"
+
+REFERENCE           21WEA003
+LANG_ENGLISH        "Maybe, but I'd feel a lot better about our chances if somebody on the inside were working to disable the ship's shield array."
+LANG_CHINESE        "有可能，但是如果某个船上的人负责解決掉那艘船的护盾阵列，我们的工作会轻松很多。"
+
+REFERENCE           21KJO004
+LANG_ENGLISH        "I'll see what I can about those shields, but I've got some unfinished business here."
+LANG_CHINESE        "我会想办法解決那些护盾的，可是我在这里还有一些事要办。"
+
+REFERENCE           21WEA004
+LANG_ENGLISH        "Understood.  Once you get the shields down, make sure you get out of there in a hurry, because there's not going to be much left of this ship once we're done with her."
+LANG_CHINESE        "了解。当你降下那艘船的护盾之后，你一定要尽快离开那里，因为我们的工作结束以后，那艘船大概不会剩下什么东西了。"
+
+REFERENCE           21KJO005
+LANG_ENGLISH        "Don't waste any time on my account."
+LANG_CHINESE        "你们不用为了等我而浪费时间。"
+
+REFERENCE           21WEA005
+LANG_ENGLISH        "Good luck, Kyle.  Rogue Leader out."
+LANG_CHINESE        "祝你好运，凯尔。侠盗领队通话结束。"
+
+REFERENCE           21KJO006
+LANG_ENGLISH        "Got it!  And on the way to the shields too!"
+LANG_CHINESE        "收到！我这就去解决护盾！"
+
+REFERENCE           21ST1001
+LANG_ENGLISH        "Hey! What's that droid doing?"
+LANG_CHINESE        "嘿！那个机器人在做什么？"
+
+REFERENCE           21ST2001
+LANG_ENGLISH        "It must be malfunctioning."
+LANG_CHINESE        "它一定是故障了。"
+
+REFERENCE           21ST1002
+LANG_ENGLISH        "Shut it down."
+LANG_CHINESE        "关了它。"
+
+REFERENCE           21ST2002
+LANG_ENGLISH        "How am I supposed to do that?"
+LANG_CHINESE        "我要怎么关了它？"
+
+REFERENCE           21ST1003
+LANG_ENGLISH        "Just shoot it. We have more."
+LANG_CHINESE        "射它就是了。我们还有很多机器人。"
+
+REFERENCE           21KJO025
+LANG_ENGLISH        "Droid access panels. Where's an R5 when you need it?"
+LANG_CHINESE        "机器人存取终端面板。为什么在需要 R5 机器人的时候一定找不到它们？"
+
+REFERENCE           21KJO026
+LANG_ENGLISH        "These are droid control consoles."
+LANG_CHINESE        "这是个机器人控制台。"
+
+REFERENCE           21KJO027
+LANG_ENGLISH        "Ok, let's see how good I am as an R5."
+LANG_CHINESE        "好了，来看看我当个 R5 的表现如何。"
+
+REFERENCE           21KJO028
+LANG_ENGLISH        "Looks like they use a tram system to get around. This must be one big ship."
+LANG_CHINESE        "看起来他们是利用交通车系统在移动。这一定是一艘大船。"
+
+REFERENCE           21KJO029
+LANG_ENGLISH        "Communications array control. I'm in the right place. Now I just need to set up a link to reach Rogue Squadron."
+LANG_CHINESE        "通讯阵列控制中心。我找到真确的地方了。现在我只需要建立和侠盗中队之间的通讯就行了。"
+
+REFERENCE           21KJO030
+LANG_ENGLISH        "I may need to get right into the array and set things manually. I wonder if that's safe?"
+LANG_CHINESE        "我可能得进去阵列里面手动设定。不知道这么做安不安全？"
+
+REFERENCE           21KJO031
+LANG_ENGLISH        "The whole thing's set up like some kind of code."
+LANG_CHINESE        "这整个东西看起来像是某种密码。"
+
+REFERENCE           21KJO033
+LANG_ENGLISH        "That should do it. C'mon Rogues! I hope you're listnening."
+LANG_CHINESE        "这样应该可以了。快点，侠盗们！我希望你们正在收听广播。"
+
+REFERENCE           15KJO012
+LANG_ENGLISH        "Great."
+LANG_CHINESE        "太棒了。"
+
+REFERENCE           22PRO001
+LANG_ENGLISH        "R5 unit. Transmit your clearance code."
+LANG_CHINESE        " R5 机器人。传送你的通行码。"
+
+REFERENCE           22PRO002
+LANG_ENGLISH        "This R5 unit is under unauthorized control."
+LANG_CHINESE        "这个 R5 机器人受到未经授权的控制。"
+
+ENDMARKER

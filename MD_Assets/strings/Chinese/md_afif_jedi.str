@@ -1,0 +1,260 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "I saw your ship."
+LANG_CHINESE        "我看到了你的飞船"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "What are you doing out here?"
+LANG_CHINESE        "你来这干吗？"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "What things?"
+LANG_CHINESE        "什么事？"
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Obi-Wan is trying to turn you against me."
+LANG_CHINESE        "欧比旺是想让你对付我"
+
+REFERENCE           ANI5
+LANG_ENGLISH        "Us?"
+LANG_CHINESE        "我们？"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "Love won't save you, Padme.\nOnly my new powers can do that."
+LANG_CHINESE        "爱救不了你，帕德美"
+
+REFERENCE           ANI7
+LANG_ENGLISH        "I won't lose you the way I lost my mother."
+LANG_CHINESE        "我不会像失去我母亲一样失去你的"
+
+REFERENCE           ANI7B
+LANG_ENGLISH        "I am becoming more powerful than any Jedi has ever dreamed of."
+LANG_CHINESE        "我现在比任何绝地武士所梦想过的都要强大"
+
+REFERENCE           ANI7C
+LANG_ENGLISH        "And I'm doing it for you.\nTo protect you."
+LANG_CHINESE        "我这么做是为了你，为了保护你"
+
+REFERENCE           ANI8
+LANG_ENGLISH        "Don't you see?"
+LANG_CHINESE        "你没看出来么？"
+
+REFERENCE           ANI8B
+LANG_ENGLISH        "We don't have to run away anymore."
+LANG_CHINESE        "我们不需要再逃避了"
+
+REFERENCE           ANI8C
+LANG_ENGLISH        "I have brought peace to the Republic."
+LANG_CHINESE        "我给共和国带来了和平"
+
+REFERENCE           ANI8D
+LANG_ENGLISH        "I am more powerful than the Chancellor.\nI- I can over-throw him."
+LANG_CHINESE        "我比议长更有力量.\n我可以推翻他"
+
+REFERENCE           ANI8E
+LANG_ENGLISH        "And together, you and I can rule the galaxy,\nmake things the way we want them to be!"
+LANG_CHINESE        "然后我们就可以一起控制整个星系了，\n我们想怎样就怎样"
+
+REFERENCE           ANI9
+LANG_ENGLISH        "I don't want to hear any more about Obi-Wan."
+LANG_CHINESE        "我不想再听到欧比旺的事"
+
+REFERENCE           ANI9B
+LANG_ENGLISH        "The Jedi turned against me.\nDon't you turn against me."
+LANG_CHINESE        "绝地武士背叛了我，\n你不可以背叛我"
+
+REFERENCE           ANI10
+LANG_ENGLISH        "Because of Obi-Wan?"
+LANG_CHINESE        "是因为欧比旺？"
+
+REFERENCE           ANI11
+LANG_ENGLISH        "Liar!"
+LANG_CHINESE        "骗子！"
+
+REFERENCE           ANI12
+LANG_ENGLISH        "You're with him!\nYou brought him here to kill me!"
+LANG_CHINESE        "你是和他一伙的，\n你把他带过来杀我的"
+
+REFERENCE           ANI13
+LANG_ENGLISH        "You turned her against me!"
+LANG_CHINESE        "你唆使她背叛了我"
+
+REFERENCE           ANI14
+LANG_ENGLISH        "You will not take her from me!"
+LANG_CHINESE        "你不能把她从我身边夺走"
+
+REFERENCE           ANI15
+LANG_ENGLISH        "Don't lecture me, Obi-Wan."
+LANG_CHINESE        "别和我讲道理，欧比旺"
+
+REFERENCE           ANI15B
+LANG_ENGLISH        "I see through the lies of the Jedi."
+LANG_CHINESE        "我看透了绝地武士的谎言"
+
+REFERENCE           ANI15C
+LANG_ENGLISH        "I do not fear the Dark Side,\nas you do."
+LANG_CHINESE        "我不像你那么惧怕黑暗势力"
+
+REFERENCE           ANI15D
+LANG_ENGLISH        "I have brought peace, freedom, justice,\nand security to my new empire."
+LANG_CHINESE        "我给新的帝国带来了和平,自由，正义\n和安全"
+
+REFERENCE           ANI16
+LANG_ENGLISH        "Don't make me kill you."
+LANG_CHINESE        "别逼我杀了你"
+
+REFERENCE           ANI17
+LANG_ENGLISH        "If you're not with me,"
+LANG_CHINESE        "如果你的立场和我不同"
+
+REFERENCE           ANI17B
+LANG_ENGLISH        "then you're my enemy."
+LANG_CHINESE        "那你就是我的敌人"
+
+REFERENCE           ANI18
+LANG_ENGLISH        "You will try."
+LANG_CHINESE        "你可以试试"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "Let her go, Anakin."
+LANG_CHINESE        "放开她，阿纳金"
+
+REFERENCE           OBI1B
+LANG_ENGLISH        "Let her go."
+LANG_CHINESE        "放开她"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "You have done that yourself!"
+LANG_CHINESE        "是你自作自受"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Your anger and your lust for power have already done that."
+LANG_CHINESE        "你的愤怒和对权力的渴望已经迫使她离开你了"
+
+REFERENCE           OBI3B
+LANG_ENGLISH        "You have allowed this Dark Lord to twist your mind, until now-"
+LANG_CHINESE        "你让这黑暗的邪王吞噬你的思想"
+
+REFERENCE           OBI3C
+LANG_ENGLISH        "until now you have become the very thing you swore to destroy."
+LANG_CHINESE        "直到现在你变成了你曾发誓要消灭的人"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Your new empire?"
+LANG_CHINESE        "你的新帝国？"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "Anakin, my allegiance is to the Republic, to democracy!"
+LANG_CHINESE        "阿纳金，我只对共和国制度效忠，忠于民主！"
+
+REFERENCE           OBI6
+LANG_ENGLISH        "Only a Sith deals in absolutes."
+LANG_CHINESE        "只有西斯的思维才这么极端"
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "I will do what I must."
+LANG_CHINESE        "我得履新职责了"
+
+REFERENCE           PAD1
+LANG_ENGLISH        "I was so worried about you.\n..Obi-Wan.. told me terrible things!"
+LANG_CHINESE        "我好担心你啊.\n欧比旺告诉了我一些可怕的事"
+
+REFERENCE           PAD2
+LANG_ENGLISH        "He said you've turned to the dark side."
+LANG_CHINESE        "他说你投靠了黑暗势力"
+
+REFERENCE           PAD2B
+LANG_ENGLISH        "That you..."
+LANG_CHINESE        "并且你…"
+
+REFERENCE           PAD2C
+LANG_ENGLISH        "killed younglings!"
+LANG_CHINESE        "还杀死了幼徒"
+
+REFERENCE           PAD3
+LANG_ENGLISH        "He cares about us."
+LANG_CHINESE        "他是关心我们的"
+
+REFERENCE           PAD4
+LANG_ENGLISH        "He knows."
+LANG_CHINESE        "他知道了"
+
+REFERENCE           PAD4B
+LANG_ENGLISH        "He wants to help you."
+LANG_CHINESE        "他想帮你"
+
+REFERENCE           PAD4D
+LANG_ENGLISH        "Anakin, all I want is your love."
+LANG_CHINESE        "阿纳金，我要的只是你的爱"
+
+REFERENCE           PAD5
+LANG_ENGLISH        "At what cost?\nYou're a good person. Don't do this."
+LANG_CHINESE        "你是个好人，别这么做"
+
+REFERENCE           PAD6
+LANG_ENGLISH        "Come away with me."
+LANG_CHINESE        "和我一起走吧"
+
+REFERENCE           PAD6B
+LANG_ENGLISH        "Help me raise our child.\nLeave everything else behind while we still can."
+LANG_CHINESE        "和我一起把孩子养大.\n"
+
+REFERENCE           PAD7
+LANG_ENGLISH        "I don't believe what I'm hearing."
+LANG_CHINESE        "你没看出来么？我们不需要再逃避了"
+
+REFERENCE           PAD7B
+LANG_ENGLISH        "Obi-Wan was right! You've changed."
+LANG_CHINESE        "欧比旺没错，你变了"
+
+REFERENCE           PAD8
+LANG_ENGLISH        "I don't know you, anymore."
+LANG_CHINESE        "我不认得你了"
+
+REFERENCE           PAD8B
+LANG_ENGLISH        "Anakin, you're breaking my heart.."
+LANG_CHINESE        "阿纳金...你伤透了我的心"
+
+REFERENCE           PAD8C
+LANG_ENGLISH        "You're going down a path I can't follow."
+LANG_CHINESE        "你走的这条路我跟不上"
+
+REFERENCE           PAD9
+LANG_ENGLISH        "Because of what you've done. What you plan to do."
+LANG_CHINESE        "是因为你所做的一切。你的计划"
+
+REFERENCE           PAD9B
+LANG_ENGLISH        "Stop! Stop now, come back!\nI love you!"
+LANG_CHINESE        "现在停手，回头吧。\n我爱你！"
+
+REFERENCE           PAD10
+LANG_ENGLISH        "No!"
+LANG_CHINESE        "不！"
+
+REFERENCE           PAD11
+LANG_ENGLISH        "No!"
+LANG_CHINESE        "不！"
+
+REFERENCE           PAD11B
+LANG_ENGLISH        "..Anakin.."
+LANG_CHINESE        "安纳金"
+
+REFERENCE           3PO1
+LANG_ENGLISH        "Hush! Not so loud."
+LANG_CHINESE        "嘘！不要那么大声"
+
+ENDMARKER

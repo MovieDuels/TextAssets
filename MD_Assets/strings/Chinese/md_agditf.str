@@ -1,0 +1,62 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           VAD1
+LANG_ENGLISH        "What is thy bidding, my master?"
+LANG_CHINESE        "有什么事吗，我的主人?"
+
+REFERENCE           VAD2
+LANG_ENGLISH        "I have felt it."
+LANG_CHINESE        "我感觉到了"
+
+REFERENCE           VAD3
+LANG_ENGLISH        "How is that possible?"
+LANG_CHINESE        "这个可能吗?"
+
+REFERENCE           VAD4
+LANG_ENGLISH        "He's just a boy.\nObi-Wan can no longer help him."
+LANG_CHINESE        "他只是一个孩子\欧比-旺帮不了他什么"
+
+REFERENCE           VAD5
+LANG_ENGLISH        "If he could be turned,\nhe would become a powerful ally."
+LANG_CHINESE        "如果能想办法让他转变\n他会成为一个强大的盟友的"
+
+REFERENCE           VAD6
+LANG_ENGLISH        "He will join us or die, master."
+LANG_CHINESE        "他要么加入我们，要么就去死，主人"
+
+REFERENCE           PAL1
+LANG_ENGLISH        "There is a great disturbance in the Force."
+LANG_CHINESE        "原力中有一股很大的波动"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "We have a new enemy, the young rebel who destroyed the Death Star.\nI have no doubt this boy is the offspring of Anakin Skywalker."
+LANG_CHINESE        "我们有新的敌人了，那个毁灭死星的年轻的叛军"
+
+REFERENCE           PAL3
+LANG_ENGLISH        "Search your feelings, Lord Vader.\nYou will know it to be true. He could destroy us."
+LANG_CHINESE        "自己感觉一下吧，维达勋爵\n你会知道这是真的。他可能会毁灭我们"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "The Force is strong with him.\nThe Son of Skywalker must not become a Jedi."
+LANG_CHINESE        "他身上的原力很强大\n天行者的儿子决不能成为一个绝地武士"
+
+REFERENCE           PAL5
+LANG_ENGLISH        "Yes... He would be a great.. asset.\nCan it be done?"
+LANG_CHINESE        "是的。。。他是一大笔财富\n能搞定他吗？"
+
+
+
+ENDMARKER

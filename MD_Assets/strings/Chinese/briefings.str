@@ -1,0 +1,213 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+REFERENCE           T1_SOUR
+LANG_CHINESE        "我们收到的消息说拉格诺斯的信徒正在设法雇佣一些佣兵和走私犯子运一批货。如果我们能与其中一个佣兵团接触，也许就能找到这些信徒们的基地所在地。我们知道其中一个走私集团设在莫斯 埃斯利，去那里查查看。"
+
+REFERENCE           T1_SURPRISE
+LANG_CHINESE        "塔图因星的一个湿地农场主最近在酒吧里无意中听到一群走私贩谈到一个西斯邪教，并用R5机器人记录下了谈话内容。不幸的是这个农场主后怕了，在离开星球前把机器人卖给了一些爪哇人。我们必须在爪哇人抹去机器人记忆前把机器人弄到手。你去找到那些爪哇人，把机器人买下来，然后返回学院。"
+
+REFERENCE           T1_FATAL
+LANG_CHINESE        "巴库拉星球的官员们请求我们的帮助。有一个不明团体控制了山里的发电站。他们们派了一队人去调查，但是音讯全无。他们关心两样事情，第一，不管是谁占领了发电站，赶跑他们。第二，也是更重要的一点，就是是不能让发电站遭到破坏。那个发电站建在一座休眠火山之上，万一发电站被毁，火山一碰发，一座人口稠密的城市就玩完了。这些巴库拉人想要有人渗透进电站并且阻挠那帮人的计划。"
+
+REFERENCE           T1_DANGER
+LANG_CHINESE        "学院收到了由一艘坠落在布兰吉尔星上商船发出的求救信号。他们超空间航行时半路碰上了一艘星际巡洋舰，结果硬是被拽出了超空间。帝国军显然不想让人知道行踪，要杀他们灭口，于是就向他们开火。商人们设法在附近一个无人居住的星球上迫降，并请求救援。"
+
+REFERENCE           T1_RAIL
+LANG_CHINESE        "我们从克罗利亚星的克罗内特城收到了无数有关拉格诺斯信徒活动的报告。但是，还不清楚究竟是不是那些西斯邪教徒，因为当地人很可能在听说了霍罗内特的事后变得疑神疑鬼。赶去克罗内特一探究竟。"
+
+REFERENCE           T2_TRIP
+LANG_CHINESE        "宗居5号星的一个太空港工人可能有消息能证明邪教与帝国残余势力有联系。他现在藏在离佐隆赫德三公里的废弃的哨站。与那个工人碰头，看看他知道些什么。"
+
+REFERENCE           T2_DPRED
+LANG_CHINESE        "新共和国的情报人员截获了来自多森星球的信息，他们怀疑信息是一名邪教成员从那儿的基地发出的。由于外围星域的那块地方还没有共和国的舰队驻守，他们想让我们前去调查。"
+
+REFERENCE           T2_RANCOR
+LANG_CHINESE        "我们收到纳克里塔星矿工工会的消息，说很多他们的长老被当地赫特人犯罪团伙头目抓住关了起来了。长老们原本是去和那赫特人谈一个协议的，结果一去不返。而那个黑帮老大却声称没人去过他那里。"
+
+REFERENCE           T2_ROGUE
+LANG_CHINESE        "我们收到匿名消息，说最近大批暗杀型机器人涌进了黑市。这种机器人已经禁止使用很多年了，所以共和国的公司都不生产。我们怀疑是科洛桑星球上一个小混混级别的黑帮老大 拉尼克 拉克托在生产这些机器人。把拉克托抓来，就知道工厂在哪儿了。"
+
+REFERENCE           T2_WEDGE
+LANG_CHINESE        "新共和国情报人员最近在克里'多尔星发现了一个帝国的提班纳气体开采平台。如果共和国可以夺取那里的控制权，对帝国残余势力将是一次沉重的打击。为此侠盗中队 的威吉 安提尔斯将军想出了一个大胆的计划，就他和一名地上人员两人，把整个设施占领。他相信只有一名绝地才能够胜任地面部分的任务。"
+
+REFERENCE           T3_BYSS
+LANG_CHINESE        "由于洛西没能完成他在比斯的任务，我们仍需要确定特维安有没有从星球残骸中吸走原力。皇帝曾经在那里呆过很久，所以那里原力的量应该非常巨大。如果已经被她吸走，那么现在特维安有多么强大就可想而知了。"
+
+REFERENCE           T3_RIFT
+LANG_CHINESE        "我们收到牵德利兰星人的消息，说一群邪教徒闯入了一座古绝地武士的墓穴。赶赶快前去阻止他们吸取原力。"
+
+REFERENCE           T3_STAMP
+LANG_CHINESE        "我们从一位货船船长得到消息称，在塔纳布星的太空港出现了很多邪教徒。去那里调查一下他们在那里干什么。"
+
+REFERENCE           T3_HEVIL
+LANG_CHINESE        "我们驻地的绝地学者提欧尼最近从绝地全系仪中发现了一颗名叫亚拉拉的星球。那里的居民曾经过着与世无争的生活，不过他们也还未开化，无法融入星际社会中去。为此绝地大师布罗登 克尔 维多克斯利用那个星球的能量制造了一个掩藏装置，是整个星球隐藏起来。但现在又有其他人发现了这个星球。去亚拉拉星，查查是不是有人去过。如果隐藏装置有被盗窃的危险，就毁掉它，以免落入坏人之手。"
+
+REFERENCE           T3_BOUNTY
+LANG_CHINESE        "信息指出在欧德 曼特尔星的废墟中藏着大量的旧武器。摧毁它们，以免武器落入坏人之手。从反抗军的记录来看，城里应该有7处武器埋藏点。"
+
+REFERENCE           YAVIN2
+LANG_CHINESE        "与洛西一起去训练场地向凯尔 克塔恩报到，并开始原力训练。"
+
+REFERENCE           ACADEMY2
+LANG_CHINESE        "天行者大师已经把所有没任务的绝地召回绝地学院"
+
+REFERENCE           HOTH2
+LANG_CHINESE        "在霍斯的荒原上调查卢克看到欧比旺幻象的地点，来判断拉格诺斯邪教徒有没来过。"
+
+REFERENCE           HOTH3
+LANG_CHINESE        "调查帝国残余部队在艾科基地里干什么。"
+
+REFERENCE           ACADEMY3
+LANG_CHINESE        "回到学院并把在霍斯的发现报告给卢克."
+
+REFERENCE           ACADEMY4
+LANG_CHINESE        "天行者大师已把所有没有任务的绝地召回绝地学院，传达有关拉格诺斯信徒的重要信息。"
+
+REFERENCE           VJUN1
+LANG_CHINESE        "天行者大师已经把绝地派往各个原力活动频繁的地点，希望能把拉格诺斯的教徒逮个正着。随凯尔 克塔恩大师一起去达斯 维德在弗郡星的堡垒，阻止教徒们吸走原力。"
+
+REFERENCE           VJUN2
+LANG_CHINESE        "想办法通过巴斯特堡的下层结构，并找到堡垒的入口。"
+
+REFERENCE           VJUN3
+LANG_CHINESE        "进入维达的城堡并且阻止教徒吸走原力。想办法与后面的凯尔碰头。"
+
+REFERENCE           ACADEMY5
+LANG_CHINESE        "回到学院并把在弗郡的发现报告给卢克."
+
+REFERENCE           ACADEMY6
+LANG_CHINESE        "天行者大师已把所有绝地召回绝地学院。他已经制定好了阻止拉格诺斯信徒的计划."
+
+REFERENCE           TASPIR1
+LANG_CHINESE        "想办法进入在塔斯帕尔3号星上的邪教设施，并找到洛西 佩宁。"
+
+REFERENCE           TASPIR2
+LANG_CHINESE        "在邪教设施里寻找凯尔和洛西."
+
+REFERENCE           KOR1
+LANG_CHINESE        "前往科里班星，在拉格诺斯的墓穴中对抗特维安"
+
+REFERENCE           KOR2
+LANG_CHINESE        "进入拉格诺斯的墓穴，与特维安交锋。\n\n"
+
+REFERENCE           KEJIM_POST
+LANG_ENGLISH        "The New Republic has detected Imperial Remnant activity on Kejim. Mon Mothma has asked you and Jan to investigate."
+LANG_CHINESE        "新共和国再克吉姆上发现了帝国残余活动。蒙 莫斯马请求你和珍前往调查"
+
+REFERENCE           KEJIM_BASE
+LANG_ENGLISH        "Investigate the base and discover what the Imperials are up to on Kejim."
+LANG_CHINESE        "调查这座基地并发现帝国正在克吉姆上做什么"
+
+REFERENCE           ARTUS_MINE
+LANG_ENGLISH        "The Imperial Remnant have been abducting colonists from the remote mining world of Artus Prime for use in their experiments. Investigate the full extent of their activities, and call in the New Republic fleet to assist if necessary."
+LANG_CHINESE        "帝国残余绑架了来自矿产世界阿图斯主星的殖民者来用于他们的实验。调查他们活动的程度，有必要的情况下，可以呼叫新共和国舰队前来支援"
+
+REFERENCE           ARTUS_DETENTION
+LANG_ENGLISH        "Make your way through the facility. Free any prisoners you discover."
+LANG_CHINESE        "找到穿过工厂的路，释放你发现的犯人"
+
+REFERENCE           ARTUS_TOPSIDE
+LANG_ENGLISH        "The New Republic fleet has been called in to evacuate the prisoners. Disable the external defenses, then rendezvous with Jan and the Raven's Claw."
+LANG_CHINESE        "新共和国舰队已经被呼叫过来对囚犯进行撤离。瘫痪那些外部防御设施，然后和珍在乌鸦之爪号上会合"
+
+REFERENCE           VALLEY
+LANG_ENGLISH        "With Jan dead, you will need the Force on your side to be able to avenge her. Return to the Valley of the Jedi, and use it's power to regain your connection to the Force."
+LANG_CHINESE        "随着珍的死亡，你将会需要原力去为她复仇。返回绝地谷，使用它的力量来重新恢复你和原力的联系"
+
+REFERENCE           YAVIN_TEMPLE
+LANG_ENGLISH        "Meet with Luke Skywalker to retrieve your lightsaber."
+LANG_CHINESE        "会见卢克 天行者以取回你的光剑"
+
+REFERENCE           YAVIN_TRIAL
+LANG_ENGLISH        "Complete the Jedi trials and retrieve your lightsaber."
+LANG_CHINESE        "完成绝地试炼并取回光剑"
+
+REFERENCE           NS_STREETS
+LANG_ENGLISH        "Luke Skywalker has provided you with a lead on Desann, linking him to the crime lord Reelo Baruk. Travel to Nar Shaddaa and track down Baruk for information."
+LANG_CHINESE        "卢克 天行者已经想你提供了关于迪桑的线索，他与犯罪头子里洛 巴克有联系。去到纳沙达，并追踪巴克以获取情报"
+
+REFERENCE           NS_HIDEOUT
+LANG_ENGLISH        "You've gained access to Reelo Baruk's hideout. Find Baruk and obtain any information he has on Desann's whereabouts."
+LANG_CHINESE        "你已经获得了进入里洛 巴克藏身处的权限。找到巴克，得到关于迪桑下落的信息"
+
+REFERENCE           NS_STARPAD
+LANG_ENGLISH        "Lando Calrissian was captured by Baruk while investigating Imperial Remnant activity on Bespin. Make your way to Lando's ship, the Lady Luck, to escape from Nar Shaddaa."
+LANG_CHINESE        "兰多 卡瑞辛在调查帝国残余在贝斯坪上的活动时被巴克抓住了。找到前往兰多飞船的路，幸运女神号，以逃离纳沙达"
+
+REFERENCE           BESPIN_UNDERCITY
+LANG_ENGLISH        "Lando has informed you that Desann has recently been active on Bespin. Infiltrate the city through the lower levels, while looking for him or evidence of his whereabouts."
+LANG_CHINESE        "兰多告诉你迪桑最近在贝斯坪有活动。从城市低层渗透进去，找到他或者是找到他下落的证据"
+
+REFERENCE           BESPIN_STREETS
+LANG_ENGLISH        "Make your way through the city of Bespin while searching for Desann. Assist local security in repelling hostile forces from the area."
+LANG_CHINESE        "在搜索迪桑的时候找到穿过贝斯坪城市的路。协助本地的安保以击退敌对势力"
+
+REFERENCE           BESPIN_PLATFORM
+LANG_ENGLISH        "Search Bespin for Desann or information on his whereabouts."
+LANG_CHINESE        "在贝斯坪上搜寻迪桑或者找到有关他的信息"
+
+REFERENCE           CAIRN_BAY
+LANG_ENGLISH        "Tavion has revealed that Jan is still alive and being held by the Imperial Remnant on Galak's ship, the Doomgiver. Take Tavion's hauler to the Cairn Installation and look for the Doomgiver."
+LANG_CHINESE        "特维安透露出珍仍然活着，并且被关押在帝国残余加拉克的船——末日双手号上。带上特维安的拖船前往石碑装载区并寻找末日杀手号"
+
+REFERENCE           CAIRN_ASSEMBLY
+LANG_ENGLISH        "Make your way through the Cairn Installation towards the Doomgiver."
+LANG_CHINESE        "找到前往凯恩装载区的路"
+
+REFERENCE           CAIRN_REACTOR
+LANG_ENGLISH        "Proceed through the reactor core towards the Doomgiver."
+LANG_CHINESE        "穿过前往末日杀手号的反应堆核心"
+
+REFERENCE           CAIRN_DOCK1
+LANG_ENGLISH        "Search for Galak's ship, the Doomgiver. Avoid detection by Imperial troops."
+LANG_CHINESE        "寻找加拉克的船——末日杀手号，避免被帝国士兵发现"
+
+REFERENCE           DOOM_COMM
+LANG_ENGLISH        "The Doomgiver has left Cairn and is heading for an unknown destination. Contact Rogue Squadron to warn them, then search for Jan."
+LANG_CHINESE        "末日杀手号已经离开凯恩，并前往了未知区域。联系侠盗中队以警告他们，然后寻找珍"
+
+REFERENCE           DOOM_DETENTION
+LANG_ENGLISH        "Proceed towards the ship's brig to look for Jan."
+LANG_CHINESE        "前往船的禁闭室来找到珍"
+
+REFERENCE           DOOM_SHIELDS
+LANG_ENGLISH        "The Doomgiver has reached Yavin IV to launch an assault on the Jedi Academy. Locate and disable the Doomgiver's shield array, then escape the ship before Rogue Squadron destroys it."
+LANG_CHINESE        "末日杀手号已经抵达了雅汶4号准备对绝地学院进行攻击。找到并瘫痪末日杀手号的护盾，然后在侠盗中队摧毁它之前逃离"
+
+REFERENCE           YAVIN_SWAMP
+LANG_ENGLISH        "The Doomgiver has been destroyed, but several of Desann's troops have managed to land on Yavin IV. Make your way to the Jedi Academy before they are overrun."
+LANG_CHINESE        "末日杀手号已经坠毁了，但是一些迪桑的士兵已经被部署着陆到雅汶4号上了。在他们变得更多之前找到前往绝地学院的路"
+
+REFERENCE           YAVIN_CANYON
+LANG_ENGLISH        "Proceed though the swamps of Yavin IV to the Jedi Academy. Eliminate any Imperial troops you encounter en route."
+LANG_CHINESE        "穿过雅汶4号的沼泽地以到达学院。清除你途中遇到的帝国士兵"
+
+REFERENCE           YAVIN_COURTYARD
+LANG_ENGLISH        "The Academy is under attack from Desann's Reborn and Shadowtroopers. Help the Jedi defend the Academy, then search for Desann."
+LANG_CHINESE        "绝地学院正在遭受到迪桑的重生士兵和暗影士兵的攻击。帮助绝地武士保卫学院，然后搜寻迪桑"
+
+REFERENCE           YAVIN_FINAL
+LANG_ENGLISH        "Confront and defeat Desann."
+LANG_CHINESE        "面对并击败迪桑"
+
+REFERENCE           JODEMO
+LANG_ENGLISH        "Investigate the Imperial base with Jan."
+LANG_CHINESE        "和珍一起调查帝国基地"
+
+
+ENDMARKER
+
+

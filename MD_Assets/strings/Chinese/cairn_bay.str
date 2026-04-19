@@ -1,0 +1,116 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           15IO2001
+LANG_ENGLISH        "Automated transport one-dash-one-three-eighth on final approach to Cairn installation.  Cortosis removal unit please stand by to board transport ship."
+LANG_CHINESE        "自动运输船以一比一，八分之三的速度正在进行停靠凯恩设施的最后降落程序。可托西斯搬运单位请准备登上运输船。"
+
+REFERENCE           15SO2001
+LANG_ENGLISH        "Affirmative sir.  Cortosis removal team standing by."
+LANG_CHINESE        "遵命，长官。可托西斯搬运小队命中。"
+
+REFERENCE           15KJO001
+LANG_ENGLISH        "Hmmm.  This may require some stealth."
+LANG_CHINESE        "嗯。这可能需要一些隐蔽。"
+
+REFERENCE           15LUK001
+LANG_ENGLISH        "Kyle!"
+LANG_CHINESE        "凯尔！"
+
+REFERENCE           15KJO002
+LANG_ENGLISH        "Skywalker!  What are you doing here?"
+LANG_CHINESE        "天行者！你在这里做什么？"
+
+REFERENCE           15LUK002
+LANG_ENGLISH        "Lando told me where you were going."
+LANG_CHINESE        "兰多告诉我你要到这里来。"
+
+REFERENCE           15KJO003
+LANG_ENGLISH        "Then why aren't you at the Valley of the Jedi?"
+LANG_CHINESE        "那你怎么没有去绝地谷？"
+
+REFERENCE           15LUK003
+LANG_ENGLISH        "I went to the Valley right after you left Yavin-4, Kyle.  Desann--"
+LANG_CHINESE        "我在你离开雅汶四号后马上就去了，凯尔。迪桑--"
+
+REFERENCE           15KJO004
+LANG_ENGLISH        "Followed me, I know.  Does this mean we have a new Emperor on our hands?  "
+LANG_CHINESE        "在跟踪我，我知道。这表示我们有一个新皇帝要对付了吗？"
+
+REFERENCE           15LUK004
+LANG_ENGLISH        "It may be worse than that.  Remember those experiments on Kejim, with the Artusian crystals?   With the Valley of the Jedi's power coursing through those crystals, Desann has succeeded in infusing his troops with the power of the Force!"
+LANG_CHINESE        "可能比那更糟。你记得那些在凯金上的实验吗，用到亚多水晶的那些？透过那些水晶转移绝地谷的力量，迪桑成功的赋予他的士兵原力的力量！"
+
+REFERENCE           15KJO005
+LANG_ENGLISH        "Aw, sithspit... I think I ran into one of them on Bespin.  Are they still in the Valley?"
+LANG_CHINESE        "啊，该死....我想我在贝斯平遇到过一个。他们还在绝地谷吗？"
+
+REFERENCE           15LUK005
+LANG_ENGLISH        "Not anymore.  I managed to scatter Desann and his Reborn troops, and Rogue Squadron chased away their ships.  For now the Valley's effectively sealed off, but we have no idea how many troops Desann managed to empower before we got there.  It could be dozens...but it could be thousands."
+LANG_CHINESE        "他们离开了。我想办法打散了迪桑和他的重生战士，侠盗中队则驱离了他们的船舰。现在绝地谷已经被封闭了，可是我们不知道在我们赶到之前迪桑制造了多少个士兵。可能只有几十个....可是也可能有几千个。"
+
+REFERENCE           15KJO007
+LANG_ENGLISH        "And all of them will have Force powers...?"
+LANG_CHINESE        "这些人都拥有原力...？"
+
+REFERENCE           15LUK006
+LANG_ENGLISH        "Yes, but we've got an advantage due to our training and...discipline."
+LANG_CHINESE        "是的，可是我们的优势是我们的训练和....纪律。"
+
+REFERENCE           15KJO008
+LANG_ENGLISH        "And what?"
+LANG_CHINESE        "还有呢？"
+
+REFERENCE           15LUK007
+LANG_ENGLISH        "Look out!"
+LANG_CHINESE        "小心！"
+
+REFERENCE           15LUK008
+LANG_ENGLISH        "Something's changed in you.  You seem less...angry."
+LANG_CHINESE        "你变了。你看起来不再那么....愤怒。"
+
+REFERENCE           15KJO009
+LANG_ENGLISH        "Maybe.  There's a chance Jan may still be alive on the Doomgiver."
+LANG_CHINESE        "或许吧。简有可能还活着，而且被关在末日杀手号上。"
+
+REFERENCE           15LUK009
+LANG_ENGLISH        "Sometimes even a small hope is enough to defeat the Dark Side, Kyle."
+LANG_CHINESE        "有时候即使是最微小的希望也足以击退黑暗面，凯尔。"
+
+REFERENCE           15KJO010
+LANG_ENGLISH        "Listen, Skywalker, there's even more to this than you think.  Desann's working with a Remnant scientist named Galak Fyyar.  They're smuggling something called "Cortosis" here from Bespin."
+LANG_CHINESE        "听着，天行者，这件事没有你想的那么简单。迪桑和一个帝国的科学家加拉克．飞亚合作。他们从贝斯平走私了一些叫做「可托西斯」的东西。"
+
+REFERENCE           15LUK010
+LANG_ENGLISH        "Damn.  That's not good."
+LANG_CHINESE        "可恶。真是糟糕。"
+
+REFERENCE           15KJO011
+LANG_ENGLISH        "Why?"
+LANG_CHINESE        "怎么了？"
+
+REFERENCE           15LUK011
+LANG_ENGLISH        "Well, Cortosis is a rare mineral that resists lightsabers."
+LANG_CHINESE        "嗯，可托西斯这种稀有的矿物可以抵挡光剑。"
+
+REFERENCE           15KJO012
+LANG_ENGLISH        "Great."
+LANG_CHINESE        "太棒了"
+
+REFERENCE           15LUK012
+LANG_ENGLISH        "I'll try and find out what they're doing with the Cortosis; you find the Doomgiver.  If you run into Desann, don't try to take him on alone; now that he's been through the Valley of the Jedi, he'll be more powerful than ever."
+LANG_CHINESE        "我会去试着找出他们拿可托西斯做什么；你去找出末日杀手号。如果你碰到迪桑，千万不要单独面对；去过绝地谷之后，他的力量会远比以前强大。"
+
+REFERENCE           15KJO013
+LANG_ENGLISH        "Don't worry; I'm not totally crazy."
+LANG_CHINESE        "别担心，我还没疯到那种地步。"
+
+REFERENCE           15LUK013
+LANG_ENGLISH        "May the Force be With You, Kyle."
+LANG_CHINESE        "愿原力与你同在，凯尔！"
+
+REFERENCE           15KJO014
+LANG_ENGLISH        "Yeah, you too, Luke"
+LANG_CHINESE        "是啊，你也是，卢克"
+
+ENDMARKER

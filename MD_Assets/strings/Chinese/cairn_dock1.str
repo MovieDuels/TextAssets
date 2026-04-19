@@ -1,0 +1,76 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           16ST3001
+LANG_ENGLISH        "Must be another power failure."
+LANG_CHINESE        "一定又是能源系统故障了."
+
+REFERENCE           16ST1001
+LANG_ENGLISH        "Hold your positions."
+LANG_CHINESE        "守在你自己的岗位上。"
+
+REFERENCE           16ST3002
+LANG_ENGLISH        "Systems will be back on line."
+LANG_CHINESE        "系统等一下就会恢复了。"
+
+REFERENCE           16KJO001
+LANG_ENGLISH        "The weak minded are easily influenced by the Force."
+LANG_CHINESE        "懦弱的心灵很容易受到远离影响。"
+
+REFERENCE           16KJO002
+LANG_ENGLISH        "There're too many of them. I'll never get through this using firepower."
+LANG_CHINESE        "他们人太多了。我绝对没有办法使用火力通过。"
+
+REFERENCE           16KJO003
+LANG_ENGLISH        "I better think of a way to get through without being noticed."
+LANG_CHINESE        "我最好想办法通过這这里而且不会引起他们的注意。"
+
+REFERENCE           16KJO004A
+LANG_ENGLISH        "I need to distract these guys"
+LANG_CHINESE        "我需要转移这个人的注意力"
+
+REFERENCE           16KJO004B
+LANG_ENGLISH        "I need to distract this guy."
+LANG_CHINESE        "我需要转移这个人的注意力。"
+
+REFERENCE           16KJO005
+LANG_ENGLISH        "I think a distraction is in order. "
+LANG_CHINESE        "我想让他们分心的计划已经安排好了。"
+
+REFERENCE           16KJO006
+LANG_ENGLISH        "Stealth may be a wiser choice here. "
+LANG_CHINESE        "秘密行动应该是个比较聪明的选择。"
+
+REFERENCE           16KJO007
+LANG_ENGLISH        "I better try not to attract too much attention."
+LANG_CHINESE        "我最好不要吸引太多的目光。"
+
+REFERENCE           16KJO008
+LANG_ENGLISH        "What was I thinking? I should have used the Force!"
+LANG_CHINESE        "我在想什么？我应该使用原力的！"
+
+REFERENCE           16KJO009
+LANG_ENGLISH        "There were too many. I never should have tried to shoot my way through."
+LANG_CHINESE        "他们人太多了。我不该冒然硬闯。"
+
+REFERENCE           16KJO010
+LANG_ENGLISH        "This is an alarm control. I Don't want anyone turning this on."
+LANG_CHINESE        "这是个报警控制器。我可不希望有人启动这东西。"
+
+REFERENCE           16KJO011
+LANG_ENGLISH        "There's an alarm control.  Don't want anyone getting near that."
+LANG_CHINESE        "哪里有一个警报控制器。最好不要有人靠近哪里。"
+
+REFERENCE           03KJO002
+LANG_ENGLISH        "Spast!"
+LANG_CHINESE        "过去!"
+
+REFERENCE           20KJO001
+LANG_ENGLISH        "That's Luke! And Desann!"
+LANG_CHINESE        "那是卢克！和迪桑!"
+
+REFERENCE           20KJO002
+LANG_ENGLISH        "What the?! We're moving!"
+LANG_CHINESE        "什么？！我们要走了！"
+
+ENDMARKER

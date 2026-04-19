@@ -1,0 +1,84 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "Did you come back to say you forgive me?"
+LANG_CHINESE        "你是来告诉我，你原谅我了吗"
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "To save my soul?"
+LANG_CHINESE        "你要拯救我的灵魂吗"
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "I'm sure you are!"
+LANG_CHINESE        "你当然对不起我"
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "The Resistance is dead."
+LANG_CHINESE        "抵抗组织已经被消灭"
+
+REFERENCE           KYLO5
+LANG_ENGLISH        "The war is over."
+LANG_CHINESE        "战争结束了"
+
+REFERENCE           KYLO6
+LANG_ENGLISH        "And when I kill you, I will have killed the last Jedi."
+LANG_CHINESE        "等我杀了你，我就杀了最后的绝地武士"
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "I'll destroy her, and you, and all of it."
+LANG_CHINESE        "我会毁灭她，还有你，毁灭这一切"
+
+REFERENCE           KYLO8
+LANG_ENGLISH        "No."
+LANG_CHINESE        "不"
+
+REFERENCE           KYLO9
+LANG_ENGLISH        "No!!!"
+LANG_CHINESE        "不！！！"
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "No."
+LANG_CHINESE        "不"
+
+REFERENCE           LUKE2
+LANG_ENGLISH        "I failed you, Ben."
+LANG_CHINESE        "我辜负了你，本"
+
+REFERENCE           LUKE3
+LANG_ENGLISH        "I'm Sorry."
+LANG_CHINESE        "对不起"
+
+REFERENCE           LUKE4
+LANG_ENGLISH        "Amazing. Every word of what you just said was wrong."
+LANG_CHINESE        "刚刚你所说的每一句话，都是错误的"
+
+REFERENCE           LUKE5
+LANG_ENGLISH        "The Rebellion is reborn today. The war is just beginning."
+LANG_CHINESE        "起义军在今日得到了重生"
+
+REFERENCE           LUKE6
+LANG_ENGLISH        "And I will not be the last Jedi."
+LANG_CHINESE        "我也不会是最后的绝地武士"
+
+REFERENCE           LUKE7
+LANG_ENGLISH        "No. Strike me down in anger and I'll always be with you. Just like your father."
+LANG_CHINESE        ""即便你愤怒地向我挥刀，我也会一直在你身边
+
+REFERENCE           LUKE8
+LANG_ENGLISH        "See you around, kid."
+LANG_CHINESE        "后会有期，孩子"
+
+ENDMARKER

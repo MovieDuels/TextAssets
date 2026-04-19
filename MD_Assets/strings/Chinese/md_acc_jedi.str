@@ -1,0 +1,56 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           FINN1
+LANG_ENGLISH        "The Falcon's this way."
+LANG_CHINESE        "千年隼在这边"
+
+REFERENCE           FINN2
+LANG_ENGLISH        "Rey! Rey! Rey... Rey... Oh no. Oh no no no..."
+LANG_CHINESE        "蕾伊！蕾伊！蕾伊！不，不要啊"
+
+REFERENCE           FINN3
+LANG_ENGLISH        "Come get it."
+LANG_CHINESE        "过来拿啊"
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "We're not done yet."
+LANG_CHINESE        "我们还没玩完呢"
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "It's just us now. Han Solo can't save you."
+LANG_CHINESE        "现在只有我们了。汉·索洛救不了你"
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "TRAITOR!"
+LANG_CHINESE        "叛徒"
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "That lightsaber. It belongs to me!"
+LANG_CHINESE        "那把光剑。属于我"
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "You need a teacher! I can show you the ways of the Force!"
+LANG_CHINESE        "你需要一名老师！我可以教你使用原力！"
+
+REFERENCE           REY1
+LANG_ENGLISH        "You're a monster!"
+LANG_CHINESE        "你是个怪物！"
+
+REFERENCE           REY2
+LANG_ENGLISH        "The Force."
+LANG_CHINESE        "原力"
+
+ENDMARKER

@@ -1,0 +1,144 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           14KJO001
+LANG_ENGLISH        "What the...?"
+LANG_CHINESE        "什么....？"
+
+REFERENCE           14KJO002
+LANG_ENGLISH        "Lando!"
+LANG_CHINESE        "兰多！"
+
+REFERENCE           12TAA001
+LANG_ENGLISH        "Ah, the prodigal Jedi.  Have you come seeking vengeance?  That's not very Jedi-like."
+LANG_CHINESE        "啊，著名的绝地浪子。你是来复仇的吗？这可不是绝地该有的作为哟。"
+
+REFERENCE           12KJO010
+LANG_ENGLISH        "Where's your Master, apprentice?"
+LANG_CHINESE        "你的师傅呢，小学徒？"
+
+REFERENCE           12TAA002
+LANG_ENGLISH        "Desann sends his regards, but is far too busy in the Valley of the Jedi to personally dispose of his pawns."
+LANG_CHINESE        "迪桑要问候你，但他在绝地谷太忙了，无法亲自处理他的棋子。"
+
+REFERENCE           12KJO011
+LANG_ENGLISH        "What?!"
+LANG_CHINESE        "什么？！"
+
+REFERENCE           12TAA003
+LANG_ENGLISH        "You still don't know, do you?  Desann followed you to the Valley of the Jedi.  Even now, hundreds of Desann's loyal followers are drinking deeply from the Valley's power, becoming Reborn in the glory of the Force.  And we owe it all to you."
+LANG_CHINESE        "你还不知道吧？迪桑跟随你到绝地谷。就是现在，成千上百个迪桑忠诚的追随者正在吸取绝地谷的力量，转变为光荣的原力重生战士。所有这一切都拜你所赐。"
+
+REFERENCE           12KJO012
+LANG_ENGLISH        "Then...you killed Jan..."
+LANG_CHINESE        "那么...你们杀了简..."
+
+REFERENCE           12TAA004
+LANG_ENGLISH        "That's right.  We killed your woman to make you angry; angry enough to cast aside your promises and rashly seek out the power of the Valley.  Just think of it: her death and your failure will be celebrated for eons to come as the events that brought about the Era of Desann.  Congratulations."
+LANG_CHINESE        "没错。我们杀了你的女人以激怒你；让你愤怒到不顾自己的承诺，鲁莽的去找绝地谷的力量。想想看：她的死和你的失败将会被当成开创迪桑世纪的绊脚石而传颂千古。恭喜你呀。"
+
+REFERENCE           12KJO013
+LANG_ENGLISH        "Stop...talking!"
+LANG_CHINESE        "别...再说了"
+
+REFERENCE           12TAA005
+LANG_ENGLISH        "D-d-don't!  M-m-mercy!"
+LANG_CHINESE        "不--要！饶--了--我！"
+
+REFERENCE           12KJO014
+LANG_ENGLISH        "The kind of mercy you showed Jan?"
+LANG_CHINESE        "像你们饶了简一样？"
+
+REFERENCE           12TAA006
+LANG_ENGLISH        "She lives!  I can tell you where she is!"
+LANG_CHINESE        "她还活着！我可以告诉你她在哪？"
+
+REFERENCE           12KJO015
+LANG_ENGLISH        "Liar!  I saw her die!"
+LANG_CHINESE        "骗子！我亲眼看到她死了！"
+
+REFERENCE           12TAA007
+LANG_ENGLISH        "Th-think!  What did you really see?  What did you really hear?  Do you believe we'd risk killing one of the only two people who knew the location of the Valley of the Jedi?"
+LANG_CHINESE        "想--想看！你到底看到了什么？又听到了什么？你认为我们会冒险杀了仅有的两个知道绝地谷位置的人之一吗？"
+
+REFERENCE           12KJO016
+LANG_ENGLISH        "Where is she?"
+LANG_CHINESE        "她在哪？"
+
+REFERENCE           12TAA008
+LANG_ENGLISH        "That...(cough)... hauler...will take you to our base in the Lenico Belt.  That's where Galak's ship, the Doomgiver, is docked; it's also where he's keeping your woman for further interrogations."
+LANG_CHINESE        "那艘....(咳嗽)...准备起飞的....货船....会带你到我们位于雷尼克星环的基地。加拉克的船，末日杀手号，就停在那里；你的女人也被他关在那里等待进一步拷问。"
+
+REFERENCE           12KJO017
+LANG_ENGLISH        "Why should I believe you?"
+LANG_CHINESE        "我凭什么应该相信你？"
+
+REFERENCE           12TAA009
+LANG_ENGLISH        "Because...I'm not brave  enough...to die."
+LANG_CHINESE        "因为....我没有勇气....面对死亡。"
+
+REFERENCE           12KJO018
+LANG_ENGLISH        "Ahhh...Get out of my sight."
+LANG_CHINESE        "啊...滚开我的视线内。"
+
+REFERENCE           12TAA010
+LANG_ENGLISH        "What?"
+LANG_CHINESE        "什么？"
+
+REFERENCE           12KJO019
+LANG_ENGLISH        "You heard me.  Go, and pray that I find your Master before he finds you."
+LANG_CHINESE        "你听到我的话了。去吧，并且祈祷我在你的师傅找到你之前先找到她。"
+
+REFERENCE           12KJO020
+LANG_ENGLISH        "Thanks for the help, Lando, but I thought you were going to be working with the security forces."
+LANG_CHINESE        "谢谢你的帮忙，兰多，可是我以为你是要去帮保安部队的忙。"
+
+REFERENCE           12KJO021
+LANG_ENGLISH        "Thanks for the help Lando"
+LANG_CHINESE        "谢谢你的帮助，兰多。"
+
+REFERENCE           12LAC010
+LANG_ENGLISH        "I was, but I got a better idea.  What are you doing in that hauler?"
+LANG_CHINESE        "我是呀，可是我有个更好的计划。你在那艘货船里干什么？"
+
+REFERENCE           12LAC011
+LANG_ENGLISH        "Thanks for helping me clear these gangsters out of Bespin.  What are you doing in that hauler?"
+LANG_CHINESE        "写你帮我把那些罪犯清出贝斯平。你在那艘货船里干什么？"
+
+REFERENCE           12KJO022
+LANG_ENGLISH        "I'm heading for the Lenico Belt."
+LANG_CHINESE        "我要去雷尼克环星。"
+
+REFERENCE           12LAC012
+LANG_ENGLISH        "Lenico?  What's Desann doing in that deserted wastespace of asteroids?"
+LANG_CHINESE        "雷尼克？迪桑在那个落后贫乏的小行星带里做什么？"
+
+REFERENCE           12KJO023
+LANG_ENGLISH        "I don't know, but I'm going to find out.  Jan may be there."
+LANG_CHINESE        "我不知道，可是我要去那找一找。简可能在那里。"
+
+REFERENCE           12LAC013
+LANG_ENGLISH        "Jan's alive?"
+LANG_CHINESE        "简还活着？"
+
+REFERENCE           12KJO024
+LANG_ENGLISH        "Maybe.  I don't know.  Listen, you've got to find Skywalker, and tell him that the Valley of the Jedi's been invaded."
+LANG_CHINESE        "可能吧。我不清楚。听着，你必须联络到天行者，告诉他绝地谷被入侵了。"
+
+REFERENCE           12LAC014
+LANG_ENGLISH        "What?  What's the Valley got to do with all this?"
+LANG_CHINESE        "什么？绝地谷和这件事有什么关系？"
+
+REFERENCE           12KJO025
+LANG_ENGLISH        "Just tell him!"
+LANG_CHINESE        "告诉他就是了！"
+
+REFERENCE           12LAC015
+LANG_ENGLISH        "Okay.  I don't understand half of it, but okay.  May the Force be with you, Kyle."
+LANG_CHINESE        "好好好。我根本不懂你在说什么，不过我答应你。愿原力与你同在，凯尔。"
+
+REFERENCE           12KJO026
+LANG_ENGLISH        "We'll see..."
+LANG_CHINESE        "走着瞧...."
+
+ENDMARKER

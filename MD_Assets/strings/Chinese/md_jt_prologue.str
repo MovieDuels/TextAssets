@@ -1,0 +1,92 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "I agree."
+LANG_CHINESE        "我同意"
+
+REFERENCE           ANI1B
+LANG_ENGLISH        "The Council's next move, will be against the Senate."
+LANG_CHINESE        "绝地委员会下一步就会推翻参议院"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "I understand, Master."
+LANG_CHINESE        "我明白，师父"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "What about the other Jedi spread across the galaxy?"
+LANG_CHINESE        "那其他分散在星系间的绝地武士怎么办？"
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Because the Council did not trust you, my young apprentice.."
+LANG_CHINESE        "我年轻的徒弟，因为绝地委员会不信任你"
+
+REFERENCE           PAL1B
+LANG_ENGLISH        "I believe you are the only Jedi with no knowledge of this plot."
+LANG_CHINESE        "所以我相信你是唯一对他们的阴谋毫不知情的绝地武士"
+
+REFERENCE           PAL1C
+LANG_ENGLISH        "When the Jedi learn what has transpired here, they will kill us, along with all the Senators."
+LANG_CHINESE        "如果那些绝地武士知道了他们的阴谋已经败露，他们会杀掉我们，连同所有的参议员一起"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "Every single Jedi, including your friend, Obi-Wan Kenobi.. is now an enemy of the Republic."
+LANG_CHINESE        "每一名绝地武士，包括你的好友欧比-旺·肯诺比。。现在都是共和国的敌人"
+
+REFERENCE           PAL3
+LANG_ENGLISH         "We must move quickly. The Jedi are relentless. If they are not all destroyed, it will be civil war, without end."
+LANG_CHINESE        "我们得赶快行动。这些绝地武士冷酷无情。如果不将他们赶尽杀绝，恐怕这场内战永无止息"
+
+REFERENCE           PAL3B
+LANG_ENGLISH         "First, I want you to go to the Jedi Temple. We will catch them off balance."
+LANG_CHINESE        "首先，我要你去绝地圣殿。我们要攻他们一个措手不及。"
+
+REFERENCE           PAL3C
+LANG_ENGLISH         "Do what must be done, Lord Vader. Do not hesitate. Show no mercy."
+LANG_CHINESE        "去做该做的事吧，维德勋爵。不要犹豫不决，不要心慈手软"
+
+REFERENCE           PAL3D
+LANG_ENGLISH         "Only then, will you be strong enough with the Dark Side, to save Padme."
+LANG_CHINESE        "只有那样你才会有足够强大的黑暗原力，以拯救帕德美"
+
+REFERENCE           PAL4
+LANG_ENGLISH         "Their betrayal will be dealt with."
+LANG_CHINESE        "他们的背叛行为会得到处置"
+
+REFERENCE           PAL4B
+LANG_ENGLISH         "After you have killed all the Jedi in the Temple, go to the Mustafar system. Wipe out Viceroy Gunray and the other Separatist leaders."
+LANG_CHINESE        "在你干掉圣殿里的绝地武士后，赶到穆斯塔法星系，杀掉刚雷总督和其他分裂分子的首领"
+
+REFERENCE           PAL4C
+LANG_ENGLISH         "Once more, the Sith will rule the galaxy!"
+LANG_CHINESE        "西斯将再一次一统整个星系"
+
+REFERENCE           PAL4D
+LANG_ENGLISH         "And.. we shall have.. peace."
+LANG_CHINESE        "同时，我们将会得到和平"
+
+REFERENCE           PAL5
+LANG_ENGLISH         "The time has come."
+LANG_CHINESE        "时机成熟了"
+
+REFERENCE           PAL5B
+LANG_ENGLISH         "Execute Order Sixty-Six."
+LANG_CHINESE        "执行66号令"
+
+REFERENCE           COD1
+LANG_ENGLISH        "Yes, my lord."
+LANG_CHINESE        "是的，陛下"
+
+ENDMARKER

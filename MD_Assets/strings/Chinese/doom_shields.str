@@ -1,0 +1,84 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           21GAF001
+LANG_ENGLISH        "Ah, Captain Katarn.  What a pleasure it is to finally meet you face-to-face.  "
+LANG_CHINESE        "啊，卡塔恩队长。我真是高兴终于有机会亲眼见到你。"
+
+REFERENCE           21KJO019
+LANG_ENGLISH        "The pleasure's all yours, I'm sure."
+LANG_CHINESE        "我很确定只有你会觉得高兴。"
+
+REFERENCE           21GAF002
+LANG_ENGLISH        "The Ors woman thinks quite highly of you, did you know that?  She must have whimpered your name on at least seventeen different occasions over the last few days."
+LANG_CHINESE        "那个叫简的女人对你的评价很高，你知道吗？在过去这几天里，她暗地里把你的名字说了至少十七遍以上。"
+
+REFERENCE           21KJO020
+LANG_ENGLISH        "Is that supposed to make me angry?  I'm past that, Galak."
+LANG_CHINESE        "你是在试着激怒我吗？我已经度过那个阶段了，加拉克。"
+
+REFERENCE           21GAF003
+LANG_ENGLISH        "Oh, really.  Then what if I tell you that, even as we speak, Desann is descending on the Jedi Academy with thousands of his Force-enhanced, lightsaber-resistant warriors, eliminating the scourge of the Jedi for ALL TIME!"
+LANG_CHINESE        "哦，真的吗。那如果我告诉你，就在我们说话的同时，迪桑正率领着上千个经过原力加強，不怕光剑的战士降落到雅汶四号卫星上面，准备一劳永逸的杀死所有绝地呢！"
+
+REFERENCE           21KJO021
+LANG_ENGLISH        "I'd say you're insane."
+LANG_CHINESE        "我的第一个反应是你疯了。"
+
+REFERENCE           21GAF004
+LANG_ENGLISH        "Insane?  Then what about this?"
+LANG_CHINESE        "疯了？那么这该怎么解释？"
+
+REFERENCE           21IO2001
+LANG_ENGLISH        "Strike Force 1 to Doomgiver: Eastward assault on Academy grounds proceeding as planned..."
+LANG_CHINESE        "第一特遣队报告末日杀手号：绝地学院东侧的攻击正按照计划进行...."
+
+REFERENCE           21IO1002
+LANG_ENGLISH        "Strike Force 2 to Doomgiver: Establishing beachhead outside main entrance..."
+LANG_CHINESE        "第二特遣队报告末日杀手号：正在主要入口外面建设前进阵地...."
+
+REFERENCE           21SO1001
+LANG_ENGLISH        "Strike Force 3 to Doomgiver: Reborn troops advancing on northern perimeter..."
+LANG_CHINESE        "第三特遣队报告末日杀手号：重生战士正在向北方的防御措施挺进...."
+
+REFERENCE           21GAF005
+LANG_ENGLISH        "Within hours, Desann will have eradicated those annoying Jedi, clearing the way for my ascent as the leader of the New Empire!  I, Galak Fyyar the First, the genius who conceived of the Shadow Armor, will rule the galaxy with a Cortosis fist!  Worlds will tremble, stars will shudder -"
+LANG_CHINESE        "再过几个小时，迪桑就会根除那些讨厌的绝地，为我成为新帝国的领导者清出一条路！我，加拉克．飞亚一世，设计出暗影盔甲的天才，将会以我的铁拳统治这个银河！世界将会被我撼动，星辰将会为我颤抖--"
+
+REFERENCE           21KJO022
+LANG_ENGLISH        "Your shields will fall."
+LANG_CHINESE        "你的护盾会被破坏的。"
+
+REFERENCE           21GAF006
+LANG_ENGLISH        "Raaaaaar!"
+LANG_CHINESE        "啊....！"
+
+REFERENCE           21WEA007
+LANG_ENGLISH        "Kyle, this is Rogue Leader.  We're about to make our final run, so you'd better get yourself out of there, NOW!"
+LANG_CHINESE        "凯尔，我是侠盗领队。我们准备进行最后的进攻行动了，所以你最好现在就离开那里！"
+
+REFERENCE           21KJO023
+LANG_ENGLISH        "I was just thinking the same thing."
+LANG_CHINESE        "我正好想到同一个主意。"
+
+REFERENCE           21JAO012
+LANG_ENGLISH        "C'mon, this place is falling apart!"
+LANG_CHINESE        "快点，这个地方要塌了！"
+
+REFERENCE           21KJO024
+LANG_ENGLISH        "Couldn't happen to a nicer ship, either."
+LANG_CHINESE        "也不可能变成更好的一艘船了。"
+
+REFERENCE           23KJO001
+LANG_ENGLISH        "I smell fuel."
+LANG_CHINESE        "有燃料的味道。"
+
+REFERENCE           23KJO002
+LANG_ENGLISH        "This is it! The shield generator. Hang in there Rogues, things are about to get easier."
+LANG_CHINESE        "这就是了！护盾发生器。再撑一下，侠盗中队，我来帮你们减轻一点负担。"
+
+REFERENCE           23KJO007
+LANG_ENGLISH        "C'mon ship.... hold together a little longer"
+LANG_CHINESE        "加油，宝贝....再撑久一点。"
+
+ENDMARKER

@@ -1,0 +1,448 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           01JAO001
+LANG_ENGLISH        "Preparing for final approach. Whatever's causing those transmissions, it's not showing up on any of the sensors.  This Imperial outpost looks as abandoned as reported."
+LANG_CHINESE        "准备降落程序。不管是什么东西在发射那些信号，侦测器上都没有它的踪迹。看起来和报告中说的一样，这个帝国前哨站已经荒废很久了。"
+
+REFERENCE           01KJO001
+LANG_ENGLISH        "It's as dead as the rest of Kejim.  Mon Mothma must be getting paranoid.  She never used to send pros like us out on blue milk runs like this."
+LANG_CHINESE        "这个哨站和凯金行星一样荒凉。蒙 莫斯玛一定又太多虑了。她以前从来不曾派我们这种专家出这种小儿科任务的。"
+
+REFERENCE           01MOM001
+LANG_ENGLISH        "Kyle, Jan.  Greetings."
+LANG_CHINESE        "凯尔，简。你们好。"
+
+REFERENCE           01JAO002
+LANG_ENGLISH        "Mon Mothma.  Kyle was just talking about you."
+LANG_CHINESE        "蒙 莫斯玛。凯尔正好说到你呢。"
+
+REFERENCE           01MOM002
+LANG_ENGLISH        "No doubt.  I bring troubling information about your mission on Kejim."
+LANG_CHINESE        "我想也是。关于你们在凯金的任务，我这里有一些不太好的消息。"
+
+REFERENCE           01KJO002
+LANG_ENGLISH        "I hate it when you say "troubling.""
+LANG_CHINESE        "我讨厌听到你说「不太好」这三个字。"
+
+REFERENCE           01MOM003
+LANG_ENGLISH        "We've managed to decode a small fraction of the transmission we intercepted earlier, and, well, listen for yourselves..."
+LANG_CHINESE        "我们设法破解了一些我们早先拦截到的通信。里面说，这样吧，你们自己听听看...."
+
+REFERENCE           01IO1001
+LANG_ENGLISH        "Admiral Fyyar: in.............. Shadow ..............................................................................................................................., we may have to .................. Valley of the Jedi ............. Reborn ........."
+LANG_CHINESE        "飞亚上将：暗影......初步....................................................................................................我们可能............绝地谷............重生....."
+
+REFERENCE           01JAO003
+LANG_ENGLISH        "The Valley of the Jedi?"
+LANG_CHINESE        "绝地谷？"
+
+REFERENCE           01KJO003
+LANG_ENGLISH        "Reborn?"
+LANG_CHINESE        "重生？"
+
+REFERENCE           01MOM004
+LANG_ENGLISH        "We believe this transmission was intended for Galak Fyyar, the suspected leader of the Remnant forces in that sector.  It's probably nothing more than a couple of soldiers telling tales around the glowlamp, but as you are the only survivors of the Valley of the Jedi incident, I thought it only fair to warn you that this mission may be more dangerous than we originally anticipated.  Your objectives, however, remain the same: Find out what you can, clear out any Remnant forces you encounter, and may the Force be With You."
+LANG_CHINESE        "我们相信这则信息是要送给加拉克 飞亚的，我们怀疑他控制着这个星区的帝国军队。这整件事可能只是几个帝国士兵想像出来的童话故事，但是既然你们是绝地谷事件中仅存的幸存者，警告你们这个任务可能比我们原先估计的更加危险，我想对你们比较公平。但是，你们的任务目标并没有改变：找出所有相关的情报，清除所有你们遇到的帝国部队，还有，愿原力与你们同在。"
+
+REFERENCE           01JAO004
+LANG_ENGLISH        "So much for the blue milk run."
+LANG_CHINESE        "小儿科任务罢了。"
+
+REFERENCE           01KJO012
+LANG_ENGLISH        "Did that do it?"
+LANG_CHINESE        "这样可以了吗？"
+
+REFERENCE           01JAO023
+LANG_ENGLISH        "No, but you managed to get everyone's attention."
+LANG_CHINESE        "不行，不过你引起所有人的注意了。"
+
+REFERENCE           01KJO018
+LANG_ENGLISH        "Jan, I'm going to need your help. There's an access terminal here but it's encoded."
+LANG_CHINESE        "简，我需要你的帮助。这里有一个终端机，可是它有密码保护。"
+
+REFERENCE           01JAO039
+LANG_ENGLISH        "I'm on my way."
+LANG_CHINESE        "我这就过去。"
+
+REFERENCE           01JAO040
+LANG_ENGLISH        "Kyle! I'm pinned down. Get back here and give me a hand."
+LANG_CHINESE        "凯尔！我被困住了。快回来这里帮我。"
+
+REFERENCE           01KJO019
+LANG_ENGLISH        "Hang on, Jan!"
+LANG_CHINESE        "坚持住，简！"
+
+REFERENCE           01IO2001
+LANG_ENGLISH        "Please proceed with your transmission, Admiral Fyyar."
+LANG_CHINESE        "请开始你的通信，飞亚上将。"
+
+REFERENCE           01GAF001
+LANG_ENGLISH        "Convey my dissatisfaction with Commander Stavan on his performance. Inform him that he has been removed from command and will be reassigned. That is all."
+LANG_CHINESE        "转告史达文指挥官，我对他的表现非常不满意。跟他说他的职位被解除了，叫他等候调职。就这样。"
+
+REFERENCE           01IO2002
+LANG_ENGLISH        "We'll send the message immediately."
+LANG_CHINESE        "我们马上就送出这个信息。"
+
+REFERENCE           01JAO066
+LANG_ENGLISH        "Let's go, Kyle!"
+LANG_CHINESE        "我们走，凯尔！"
+
+REFERENCE           01KJO027
+LANG_ENGLISH        "Not yet!"
+LANG_CHINESE        "还不行！"
+
+REFERENCE           01KJO029
+LANG_ENGLISH        "Jan, prep the ship for takeoff. I just want to check out one last area."
+LANG_CHINESE        "简，你先去准备起飞。我想再检查最后一个地方。"
+
+REFERENCE           01JAO067
+LANG_ENGLISH        "Great!"
+LANG_CHINESE        "太好了！"
+
+REFERENCE           01JAO068
+LANG_ENGLISH        "Nice work!"
+LANG_CHINESE        "干得好！"
+
+REFERENCE           01JAO069
+LANG_ENGLISH        "Meet you at the ship."
+LANG_CHINESE        "我在船上等你。"
+
+REFERENCE           01JAO005
+LANG_ENGLISH        "Blasters aren't going to do much good against that."
+LANG_CHINESE        "对付那种东西爆能枪没有多大用处。"
+
+REFERENCE           01JAO006
+LANG_ENGLISH        "The door is locked."
+LANG_CHINESE        "这道门是锁着的。"
+
+REFERENCE           01JAO007
+LANG_ENGLISH        "Shhh"
+LANG_CHINESE        "嘘"
+
+REFERENCE           01JAO008
+LANG_ENGLISH        "I think I saw someone."
+LANG_CHINESE        "我想我看到有人来了。"
+
+REFERENCE           01JAO009
+LANG_ENGLISH        "What's that?"
+LANG_CHINESE        "那是什么？"
+
+REFERENCE           01JAO010
+LANG_ENGLISH        "Better keep it down."
+LANG_CHINESE        "最好小声一点。"
+
+REFERENCE           01JAO011
+LANG_ENGLISH        "Maybe we can get in without being noticed."
+LANG_CHINESE        "或许我们可以潜入那里。"
+
+REFERENCE           01JAO012
+LANG_ENGLISH        "Kyle!"
+LANG_CHINESE        "凯尔！"
+
+REFERENCE           01JAO013
+LANG_ENGLISH        "Help me!"
+LANG_CHINESE        "救我！"
+
+REFERENCE           01JAO014
+LANG_ENGLISH        "I could use some help!"
+LANG_CHINESE        "我需要一些帮助！"
+
+REFERENCE           01JAO015
+LANG_ENGLISH        "What are you waiting for?"
+LANG_CHINESE        "你在等什么？"
+
+REFERENCE           01JAO016
+LANG_ENGLISH        "I hate to rush you Kyle, but we do have a mission to perform here."
+LANG_CHINESE        "我不想催你，凯尔，可是我们在這裡可是有任务要办的。"
+
+REFERENCE           01JAO017
+LANG_ENGLISH        "What are you doing?"
+LANG_CHINESE        "你在做什么？"
+
+REFERENCE           01JAO018
+LANG_ENGLISH        "Whose side are you on?"
+LANG_CHINESE        "你是哪一边的"
+
+REFERENCE           01JAO019
+LANG_ENGLISH        "You traitor!"
+LANG_CHINESE        "你这个叛徒！"
+
+REFERENCE           01JAO020
+LANG_ENGLISH        "Troopers!"
+LANG_CHINESE        "士兵！"
+
+REFERENCE           01JAO021
+LANG_ENGLISH        "We've got company."
+LANG_CHINESE        "有人来了。"
+
+REFERENCE           01JAO022
+LANG_ENGLISH        "Look out!"
+LANG_CHINESE        "小心！"
+
+REFERENCE           01KJO005
+LANG_ENGLISH        "The blasters are offline. I need to get them powered up."
+LANG_CHINESE        "这些炮塔被关掉了。我必须启动它们。"
+
+REFERENCE           01KJO006
+LANG_ENGLISH        "Jan!"
+LANG_CHINESE        "简!"
+
+REFERENCE           01KJO007
+LANG_ENGLISH        "Look out!"
+LANG_CHINESE        "小心"
+
+REFERENCE           01KJO008
+LANG_ENGLISH        "Over there!"
+LANG_CHINESE        "在那里！"
+
+REFERENCE           01KJO009
+LANG_ENGLISH        "Behind you!"
+LANG_CHINESE        "在你后面！"
+
+REFERENCE           01KJO010
+LANG_ENGLISH        "Stay here, Jan."
+LANG_CHINESE        "呆在这里，简。"
+
+REFERENCE           01KJO011
+LANG_ENGLISH        "I'll see if I can find a way to get the door open."
+LANG_CHINESE        "我去看看我有没有办法打开这道门。"
+
+REFERENCE           01PRO001
+LANG_ENGLISH        "Perimeter defenses online."
+LANG_CHINESE        "周边防御系统启动。"
+
+REFERENCE           01JAO024
+LANG_ENGLISH        "Very subtle, Kyle."
+LANG_CHINESE        "有一套，凯尔。"
+
+REFERENCE           01JAO025
+LANG_ENGLISH        "Well, that's one way to do it."
+LANG_CHINESE        "也好，这也是一种办法。"
+
+REFERENCE           01JAO026
+LANG_ENGLISH        "You did it!"
+LANG_CHINESE        "你做到了！"
+
+REFERENCE           01IO1002
+LANG_ENGLISH        "Keep an eye out for those Rebels."
+LANG_CHINESE        "注意那些叛军。"
+
+REFERENCE           01JAO027
+LANG_ENGLISH        "Ok, I'll wait here. Don't take all day."
+LANG_CHINESE        "好的，我在这里等。别花太多时间。"
+
+REFERENCE           01KJO013
+LANG_ENGLISH        "Wait here, Jan."
+LANG_CHINESE        "在这等，简。"
+
+REFERENCE           01KJO014
+LANG_ENGLISH        "Cover our back."
+LANG_CHINESE        "掩护我们。"
+
+REFERENCE           01JAO028
+LANG_ENGLISH        "Now this looks interesting."
+LANG_CHINESE        "这还真是有趣。"
+
+REFERENCE           01JAO029
+LANG_ENGLISH        "I think this is a primary control console."
+LANG_CHINESE        "想这是主要控制台"
+
+REFERENCE           01JAO030
+LANG_ENGLISH        "I think I'll hang out here a while and see what kind of trouble I can cause."
+LANG_CHINESE        "我想我就在這裡待一下，看看我可以惹出什麼麻煩。"
+
+REFERENCE           01JAO031
+LANG_ENGLISH        "I need some time here to see what I can dig up."
+LANG_CHINESE        "我需要一些時間看看我可以翻出什麼資料。"
+
+REFERENCE           01JAO032
+LANG_ENGLISH        "How's it going?"
+LANG_CHINESE        "你那边怎么样了？"
+
+REFERENCE           01JAO033
+LANG_ENGLISH        "Are you ok?"
+LANG_CHINESE        "你还好吗？"
+
+REFERENCE           01KJO015
+LANG_ENGLISH        "Great"
+LANG_CHINESE        "太好了"
+
+REFERENCE           01KJO016
+LANG_ENGLISH        "Fine."
+LANG_CHINESE        "还好。"
+
+REFERENCE           01KJO017
+LANG_ENGLISH        "I'm ok."
+LANG_CHINESE        "我很好。"
+
+REFERENCE           01JAO034
+LANG_ENGLISH        "Kyle. The schematics show that the base is divided into 3 sections."
+LANG_CHINESE        "凯尔。这些蓝图显示这个基地被分成三个区域。"
+
+REFERENCE           01SO2001A
+LANG_ENGLISH        "Open the door!"
+LANG_CHINESE        "打开这道门！"
+
+REFERENCE           01SO1001
+LANG_ENGLISH        "Get reinforcements!"
+LANG_CHINESE        "去找支援！"
+
+REFERENCE           01JAO035
+LANG_ENGLISH        "I'm getting some good stuff, Kyle."
+LANG_CHINESE        "我找到一些好东西了，凯尔。"
+
+REFERENCE           01JAO036
+LANG_ENGLISH        "I'm busy, Kyle."
+LANG_CHINESE        "我在忙，凯尔。"
+
+REFERENCE           01JAO037
+LANG_ENGLISH        "I'm going to keep at this and see what I can find out."
+LANG_CHINESE        "我要留在这里，看看我能找到什么。"
+
+REFERENCE           01JAO038
+LANG_ENGLISH        "I'll join you later, Kyle."
+LANG_CHINESE        "我等一下再去找你，凯尔。"
+
+REFERENCE           01JAO041
+LANG_ENGLISH        "Kyle! Where are you? I can't hold out much longer."
+LANG_CHINESE        "凯尔！你在哪里？我快抵挡不下去了。"
+
+REFERENCE           01JAO042
+LANG_ENGLISH        "Hurry up, Kyle!"
+LANG_CHINESE        "快点，凯尔！"
+
+REFERENCE           01JAO043
+LANG_ENGLISH        "Took you long enough!"
+LANG_CHINESE        "你花的时间还真久！"
+
+REFERENCE           01JAO044
+LANG_ENGLISH        "Thanks, Kyle!"
+LANG_CHINESE        "谢了，凯尔！"
+
+REFERENCE           01JAO045
+LANG_ENGLISH        "Now, to break that code. Lead the way."
+LANG_CHINESE        "我们现在就去破解密码。带路吧。"
+
+REFERENCE           01JAO046
+LANG_ENGLISH        "Got it!"
+LANG_CHINESE        "成了！"
+
+REFERENCE           01JAO047
+LANG_ENGLISH        "Piece of cake."
+LANG_CHINESE        "小意思。"
+
+REFERENCE           01JAO048
+LANG_ENGLISH        "That should get you where you need to go."
+LANG_CHINESE        "这应该可以让你去你要去的地方了。"
+
+REFERENCE           01JAO049
+LANG_ENGLISH        "What would you do without me?"
+LANG_CHINESE        "没有我你该怎么办？"
+
+REFERENCE           01JAO050
+LANG_ENGLISH        "Nice shooting, Kyle."
+LANG_CHINESE        "射的好，凯尔。"
+
+REFERENCE           01JAO051
+LANG_ENGLISH        "Are we good, or what?"
+LANG_CHINESE        "我们真是太棒了！"
+
+REFERENCE           01JAO052
+LANG_ENGLISH        "That was close!"
+LANG_CHINESE        "真是差一点！"
+
+REFERENCE           01JAO053
+LANG_ENGLISH        "Hey! Where are you going?"
+LANG_CHINESE        "嘿！你要去哪里？"
+
+REFERENCE           01JAO054
+LANG_ENGLISH        "This way Kyle."
+LANG_CHINESE        "这边凯尔"
+
+REFERENCE           01JAO055
+LANG_ENGLISH        "Aren't you going with me?"
+LANG_CHINESE        "你不跟我走吗？"
+
+REFERENCE           01JAO056
+LANG_ENGLISH        "What? Am I supposed to do this alone?"
+LANG_CHINESE        "什么？我得自己去做这件事？"
+
+REFERENCE           01JAO057
+LANG_ENGLISH        "That's the wrong way!"
+LANG_CHINESE        "这条路是错的！"
+
+REFERENCE           01JAO058
+LANG_ENGLISH        "Kyle, are you ok?"
+LANG_CHINESE        "凯尔，你还好吗？"
+
+REFERENCE           01JAO059A
+LANG_ENGLISH        "What was that?"
+LANG_CHINESE        "那是什么？"
+
+REFERENCE           01JAO059B
+LANG_ENGLISH        "What would you do without me?"
+LANG_CHINESE        "你没有我该怎么办？"
+
+REFERENCE           01JAO059C
+LANG_ENGLISH        "Nice shooting, Kyle."
+LANG_CHINESE        "射的好，凯尔。"
+
+REFERENCE           01KJO020
+LANG_ENGLISH        "Just taking care of business."
+LANG_CHINESE        "我只是在解决一些事情。"
+
+REFERENCE           01KJO021
+LANG_ENGLISH        "Just another day at work, Jan."
+LANG_CHINESE        "只是另一个平凡的日子而已，简。"
+
+REFERENCE           01KJO022
+LANG_ENGLISH        "No problem."
+LANG_CHINESE        "没问题。"
+
+REFERENCE           01ST1001
+LANG_ENGLISH        "Wait, don't shoot!"
+LANG_CHINESE        "等一下，別开枪！"
+
+REFERENCE           01ST2001
+LANG_ENGLISH        "Watch your fire! Those are fuel valves."
+LANG_CHINESE        "別乱射！那些是燃料阀。"
+
+REFERENCE           01KJO023
+LANG_ENGLISH        "Each of these terminals are securely locked."
+LANG_CHINESE        "这里的每一个终端机都有安全防护。"
+
+REFERENCE           01KJO024
+LANG_ENGLISH        "Looks like an Imperial code."
+LANG_CHINESE        "看起来像是帝国密码。"
+
+REFERENCE           01KJO025
+LANG_ENGLISH        "I found another code."
+LANG_CHINESE        "我找到另外一个密码了。"
+
+REFERENCE           01KJO026
+LANG_ENGLISH        "I found the last code!"
+LANG_CHINESE        "我找到最后一个密码了。"
+
+REFERENCE           01JAO063
+LANG_ENGLISH        "Hurry up, Kyle!"
+LANG_CHINESE        "快点，凯尔！"
+
+REFERENCE           01JAO064
+LANG_ENGLISH        "What's taking so long?"
+LANG_CHINESE        "什么事拖了这么久？"
+
+REFERENCE           01JAO065
+LANG_ENGLISH        "We're going to have company!"
+LANG_CHINESE        "我们有同伴了！"
+
+REFERENCE           01KJO028
+LANG_ENGLISH        "I'm working on it."
+LANG_CHINESE        "我正在解決。"
+
+REFERENCE           01KJO030
+LANG_ENGLISH        "All right! Now let's see what's so important."
+LANG_CHINESE        "好了！现在来看看什么东西这么重要。"
+
+ENDMARKER

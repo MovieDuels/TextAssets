@@ -1,0 +1,93 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           26LUK001
+LANG_ENGLISH        "The time has come to put an end to the Disciples of Ragnos. I believe that Tavion is storing Force power in the scepter for one purpose, to resurrect Marka Ragnos.  "
+LANG_CHINESE        "现在是时候了结拉格诺斯的信徒了，我认为泰薇恩用权杖储存原力的目的是，复活玛卡-拉格诺斯。"
+
+REFERENCE           26JAK001
+LANG_ENGLISH        "Is that possible?"
+LANG_CHINESE        "这个可能吗？"
+
+REFERENCE           26LUK002
+LANG_ENGLISH        "The Force holds a great many secrets.  It may be possible that, if a high enough concentration of Force energy is infused into a body, the cells might regenerate, bringing the person back to life."
+LANG_CHINESE        "原力中有数不清的秘密，当原力聚集度足够高时，将其注入身体中，细胞会再生，也许真能将人起死回生。"
+
+REFERENCE           26JAK002
+LANG_ENGLISH        "We have to stop them!"
+LANG_CHINESE        "我们得阻止他们！"
+
+REFERENCE           26KYK001
+LANG_ENGLISH        "No kiddin'.  So we're going to Korriban, huh?  Not exactly a vacation spot."
+LANG_CHINESE        "说正经的，我们就是要去科瑞班咯？那里可不是度假的好地方。"
+
+REFERENCE           26JAK003
+LANG_ENGLISH        "Korriban?  Never heard of it."
+LANG_CHINESE        "科瑞班？没听说过。"
+
+REFERENCE           26KYK002
+LANG_ENGLISH        "It's the burial place of a whole bunch of Sith lords."
+LANG_CHINESE        "那里是很多西斯大君的坟墓。"
+
+REFERENCE           26LUK003
+LANG_ENGLISH        "If Ragnos is resurrected, there's no telling what he might be able to do.  It will take all of our strength to stop him.  "
+LANG_CHINESE        "如果拉格诺斯复活了，真的很难说他将做出什么来。我们想阻止他必须全力以赴了。"
+
+REFERENCE           26KYK003
+LANG_ENGLISH        "We're not heading to Korriban just yet.  I just received a distress signal from Rosh."
+LANG_CHINESE        "我们现在还不急着去科瑞班，我刚刚收到了洛西的求救信号。"
+
+REFERENCE           26JAK004
+LANG_ENGLISH        "Rosh?  Where is he?"
+LANG_CHINESE        "洛西？他在哪儿？"
+
+REFERENCE           26KYK004
+LANG_ENGLISH        "He's being held captive on Taspir III.  It's an Imperial controlled planet, a real paradise."
+LANG_CHINESE        "他被囚禁在塔斯派尔3号星上。这个星球在帝国军的掌控之下，是个名副其实的天堂。"
+
+REFERENCE           26JAK005
+LANG_ENGLISH        "How did he get a message out?"
+LANG_CHINESE        "他是怎么把消息发出来的？"
+
+REFERENCE           26KYK005
+LANG_ENGLISH        "I don't know.  But we can't leave him there."
+LANG_CHINESE        "不清楚，但是我们不能把他丢在那里不管。"
+
+REFERENCE           26JAK006
+LANG_ENGLISH        "Rosh could still belong to the dark side.  It could be a trap."
+LANG_CHINESE        "洛西可能还是一个黑暗绝地，这可能是个陷阱。"
+
+REFERENCE           26KYK006
+LANG_ENGLISH        "It could be.  But I'm not willing to let him die there if it isn't."
+LANG_CHINESE        "是有这种可能，但如果不是的话，我不想让他死在那里。"
+
+REFERENCE           26JAK007
+LANG_ENGLISH        "Kyle, what about Ragnos?  We have to go to Korriban."
+LANG_CHINESE        "凯尔，拉格诺斯怎么办，我们得赶去科瑞班。"
+
+REFERENCE           26KYK007
+NOTES               "(insistent)"
+LANG_ENGLISH        "If we're lucky, we'll catch up with everyone else before the fireworks start.  If you don't want to help me..."
+LANG_CHINESE        "幸运的话我们能在演出开始前赶上其他人，如果你不想和我来的话就.."
+
+REFERENCE           26JAK008
+NOTES               "(resigned) )"
+LANG_ENGLISH        "No. I'm coming."
+LANG_CHINESE        "不，我和你去。"
+
+
+ENDMARKER
+
+
