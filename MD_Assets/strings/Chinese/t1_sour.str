@@ -1,0 +1,127 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           07KYK001
+LANG_ENGLISH        "This one sounds like it could be nasty, so I'll be going with you. You'll find some of the galaxy's worst lowlifes on Tatooine."
+LANG_CHINESE        "这个任务听起来很棘手，我和你一起去。在塔土音你会目睹全星系最底层人们的生活。"
+
+REFERENCE           07KYK002
+LANG_ENGLISH        "Well I'll be, the Millenium Falcon!"
+LANG_CHINESE        "我的乖乖，这不是千年隼吗？"
+
+REFERENCE           07KYK003
+LANG_ENGLISH        "Han? Chewie? Anybody here?"
+LANG_CHINESE        "韩？楚伊？你们在不？"
+
+REFERENCE           07KYK004
+NOTES               "(pause, shrug)"
+LANG_ENGLISH        "I guess they're out."
+LANG_CHINESE        "看来不在。"
+
+REFERENCE           07KYK005
+LANG_ENGLISH        "Luke's info was good.  These are definitely freelance cargo ships."
+LANG_CHINESE        "卢克消息没错。这些都是自由职业者的货船。"
+
+REFERENCE           07KYK006
+LANG_ENGLISH        "I've got a bad feeling about this.  Listen.  Stay here and guard the entrance to the docking bay.  If anyone tries to enter or leave, detain them.  I'll head over to the Krayt Cantina and ask around. I know some people there."
+LANG_CHINESE        "我感觉不太妙。听着，你呆在这里看着停靠站的入口。如果有人想进出，\n拖住他们。我去克莱特酒吧探探情况。我在那里认识点人的。"
+
+REFERENCE           07JAK001
+NOTES               "(sputtering and intimidated)"
+LANG_ENGLISH        "A Jedi?  Me?  No, not yet. I'm one of Kyle Katarn's students."
+LANG_CHINESE        "绝地？我？不，还不是呢。我是凯尔克塔恩的一个学生。"
+
+REFERENCE           07JAK002
+LANG_ENGLISH        "He's talking to some locals.  We're investigating a cult that's been cropping up everywhere. You must be Chewbacca. Why are you here?"
+LANG_CHINESE        "他在和本地人聊呢。我们正在调查一个最近开始到处活动的邪教。\n你肯定是秋巴卡了。你在这里干嘛呢？"
+
+REFERENCE           07JAK003
+NOTES               "(starstruck)"
+LANG_ENGLISH        "Leia Organa? Wow... it must be important business."
+LANG_CHINESE        "莱雅 欧加纳？哇喔。。。肯定是什么了不得的事情。"
+
+REFERENCE           07JAK004
+LANG_ENGLISH        "We can't get to the ships!  The whole place is locked down!"
+LANG_CHINESE        "我们没法回飞船上去了！这个地方被封锁了！"
+
+REFERENCE           07JAK005
+LANG_ENGLISH        "Good idea, we won't be such easy targets inside!"
+LANG_CHINESE        "好主意，在里面我们就不会是活靶子了。"
+
+REFERENCE           07JAK006
+LANG_ENGLISH        "Locked. Maybe one of those guys has a keycard."
+LANG_CHINESE        "上锁了。或许这些人中有人带着钥匙卡。"
+
+REFERENCE           07JAK007
+LANG_ENGLISH        "We need more cover! Let's get back to our ship!"
+LANG_CHINESE        "我们需要更多掩护！回船上去"
+
+REFERENCE           07JAK008
+LANG_ENGLISH        "I'll disengage the tractor beams if you think you can hold these guys!"
+LANG_CHINESE        "我去关掉牵引光束，如果你能拖住这些家伙的话。"
+
+REFERENCE           07JAK009
+LANG_ENGLISH        "Okay, that's it for the Raven's Claw, now for the Falcon."
+LANG_CHINESE        "行了，鸦爪号搞定了，现在去看看隼号。"
+
+REFERENCE           07JAK010
+LANG_ENGLISH        "Okay, that's it for the Falcon, now for the Raven's Claw."
+LANG_CHINESE        "好了，隼号搞定了，现在去看看鸦爪号。"
+
+REFERENCE           07JAK011
+NOTES               "(into comlink)"
+LANG_ENGLISH        "The tractor beams are down Chewbacca, I'm on my way."
+LANG_CHINESE        "牵引光束已经关闭，楚巴卡，我来了。"
+
+REFERENCE           07KYK007
+NOTES               "(somewhat sarcastically)"
+LANG_ENGLISH        "Did I miss something?"
+LANG_CHINESE        "我是不是错过了什么好事？"
+
+REFERENCE           07KYK008
+LANG_ENGLISH        "Good to see you, too, Chewie!"
+LANG_CHINESE        "见到你我也很高兴，秋依！"
+
+REFERENCE           07KYK009
+NOTES               "(pause, looks around)"
+LANG_ENGLISH        "Guess these mercs didn't want us here."
+LANG_CHINESE        "看来这些佣兵不想我们在这里出现啊。"
+
+REFERENCE           07KYK010
+LANG_ENGLISH        "Heh, that's high praise, coming from a Wookiee."
+LANG_CHINESE        "嘿，在伍基族里那可是高度赞扬的意思啊。"
+
+REFERENCE           07JAK012
+NOTES               "( a little embarrassed)"
+LANG_ENGLISH        "Thanks... I think."
+LANG_CHINESE        "呃。。。谢了。"
+
+REFERENCE           07KYK011
+NOTES               "(looks around)"
+LANG_ENGLISH        "These mercs aren't cheap; someone in this Cult must have a lot of credits. Or worse, it's backed by the Remnant. Listen, we gotta get back to Luke and tell him what's going on. Can you tell Leia about the Cult?"
+LANG_CHINESE        "这些佣兵佣金可不便宜；邪教内部肯定有人非常有钱。或者更糟，背后主使是帝国残余军。\n听着，我们回去把情况报告给卢克。你把邪教的事告诉莉亚好吗？"
+
+REFERENCE           07JAK013
+LANG_ENGLISH        "If he hadn't shown up when he did, I'd have been in a whole lot of trouble."
+LANG_CHINESE        "要是没有他我就麻烦了。"
+
+REFERENCE           07KYK012
+LANG_ENGLISH        "Yeah, well, the way Chewie tells it, you held your own.  Nice work."
+LANG_CHINESE        "是啊，按照楚伊的话说，你得靠自己。干得不错。"
+
+
+ENDMARKER
+
+

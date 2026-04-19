@@ -1,0 +1,36 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           QUI1
+LANG_ENGLISH        "[Qui-Gon's Voice]\nAnakin! Anakin! No-o-o!"
+LANG_CHINESE        "[奎刚的声音]\n安纳金！安纳金！不！！"
+
+REFERENCE           WIN1
+LANG_ENGLISH        "What is it?"
+LANG_CHINESE        "这是什么？"
+
+REFERENCE           YOD1
+LANG_ENGLISH        "Pain, suffering, death, I feel."
+LANG_CHINESE        "我感受到了，痛苦，苦难，死亡"
+
+REFERENCE           YOD2
+LANG_ENGLISH        "..Something terrible has happened."
+LANG_CHINESE        "糟糕的事情正在发生"
+
+REFERENCE           YOD3
+LANG_ENGLISH        "Young Skywalker is in pain. Terrible pain!"
+LANG_CHINESE        "年轻的天行者身处于水深火热中"
+
+ENDMARKER

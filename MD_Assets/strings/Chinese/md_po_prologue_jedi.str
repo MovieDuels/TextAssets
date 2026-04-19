@@ -1,0 +1,174 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+
+REFERENCE           PROLOGUE_ANI1
+LANG_ENGLISH        "Chancellor."
+LANG_CHINESE        "议长"
+
+REFERENCE           PROLOGUE_ANI1B
+LANG_ENGLISH        "We've just received a report from Master Kenobi.\nHe has engaged General Grievous."
+LANG_CHINESE        "我们刚收到克诺比大师发来的报告\n他已和格菲将军交战了"
+
+REFERENCE           PROLOGUE_ANI2
+LANG_ENGLISH        "I should be there with him."
+LANG_CHINESE        "我应该到那里和他并肩战斗"
+
+REFERENCE           PROLOGUE_ANI3
+LANG_ENGLISH        "I wish I knew."
+LANG_CHINESE        "我希望自己知道原因"
+
+REFERENCE           PROLOGUE_ANI3B
+LANG_ENGLISH        "More and more I get the feeling that..\nI'm being excluded from the Council."
+LANG_CHINESE        "我越来越觉得自己\n被排斥在绝地长老会之外"
+
+REFERENCE           PROLOGUE_ANI3C
+LANG_ENGLISH        "I know there are things about the Force that they're not telling me."
+LANG_CHINESE        "我知道他们没有把有些关于原力的知识告诉我"
+
+REFERENCE           PROLOGUE_ANI4
+LANG_ENGLISH        "How do you know the ways of the Force?"
+LANG_CHINESE        "你怎么会知道使用原力的方法？"
+
+REFERENCE           PROLOGUE_ANI5
+LANG_ENGLISH        "You know the dark side?"
+LANG_CHINESE        "你了解黑暗原力？"
+
+REFERENCE           PROLOGUE_ANI6
+LANG_ENGLISH        "What did you say?"
+LANG_CHINESE        "你说什么？"
+
+REFERENCE           PROLOGUE_ANI7
+LANG_ENGLISH        "You're the Sith Lord."
+LANG_CHINESE        "你是西斯尊主！"
+
+REFERENCE           PROLOGUE_ANI8
+LANG_ENGLISH        "I would certainly like to."
+LANG_CHINESE        "我当然会这样做"
+
+REFERENCE           PROLOGUE_ANI9
+LANG_ENGLISH        "I'm going to turn you over to the Jedi Council."
+LANG_CHINESE        "我要把你交给绝地委员会"
+
+REFERENCE           PROLOGUE_ANI10
+LANG_ENGLISH        "I will quickly discover the truth of all this."
+LANG_CHINESE        "我很快就会发现这一切的真相"
+
+REFERENCE           PROLOGUE_PAL1
+LANG_ENGLISH        "We can only hope that Master Kenobi is up to the challenge."
+LANG_CHINESE        "我们只能希望肯诺比大师能够应付这次挑战"
+
+REFERENCE           PROLOGUE_PAL2
+LANG_ENGLISH        "It's upsetting to me to see that the Council doesn't seem to fully appreciate your talents."
+LANG_CHINESE        "看起来绝地委员会并不完全认同你的才能，这让我很难过"
+
+REFERENCE           PROLOGUE_PAL2B
+LANG_ENGLISH        "Don't you wonder why they won't make you a Jedi Master?"
+LANG_CHINESE        "你难道不想知道他们为何不让你成为绝地大师吗？"
+
+REFERENCE           PROLOGUE_PAL3
+LANG_ENGLISH        "They don't trust you, Anakin."
+LANG_CHINESE        "他们不信任你，安纳金"
+
+REFERENCE           PROLOGUE_PAL3B
+LANG_ENGLISH        "They see your future. They know your power will be too strong to control.\nYou must break through the fog of lies the Jedi have created around you."
+LANG_CHINESE        "他们看到了你的未来。他们知道你的力量会超越他们的控制"
+
+REFERENCE           PROLOGUE_PAL3C
+LANG_ENGLISH        "Let me help you to know the subtleties of the Force."
+LANG_CHINESE        "让我帮助你了解原力的奥妙"
+
+REFERENCE           PROLOGUE_PAL4
+LANG_ENGLISH        "My mentor taught me everything about the Force."
+LANG_CHINESE        "我师父教会了我所有关于原力的知识"
+
+REFERENCE           PROLOGUE_PAL4B
+LANG_ENGLISH        "Even the nature of the dark side."
+LANG_CHINESE        "甚至包括黑暗原力的本质"
+
+REFERENCE           PROLOGUE_PAL5
+LANG_ENGLISH        "Anakin,"
+LANG_CHINESE        "安纳金"
+
+REFERENCE           PROLOGUE_PAL5B
+LANG_ENGLISH        "if one is to understand the great mystery, one must study all it's aspects, not just the dogmatic, narrow view of the Jedi."
+LANG_CHINESE        "如果一个人想要通晓原力的奥妙，就必须研究其方方面面，而不仅仅是绝地武士那些狭隘的教条"
+
+REFERENCE           PROLOGUE_PAL5C
+LANG_ENGLISH        "If you wish to become a complete and wise leader, you must embrace a larger view of the Force."
+LANG_CHINESE        "如果你想成为一位睿智、十足的领袖人物，你必须更多的去了解原力"
+
+REFERENCE           PROLOGUE_PAL5D
+LANG_ENGLISH        "Be careful of the Jedi, Anakin."
+LANG_CHINESE        "小心那些绝地武士，安纳金"
+
+REFERENCE           PROLOGUE_PAL5E
+LANG_ENGLISH        "Only through me can you achieve a power greater than any Jedi."
+LANG_CHINESE        "只有通过我你才能获得比绝地武士更强大的力量"
+
+REFERENCE           PROLOGUE_PAL5F
+LANG_ENGLISH        "Learn to know the dark side of the Force, and you will be able to save your wife.. from certain death."
+LANG_CHINESE        "学会了使用黑暗原力，你就可以把你的妻子，从死亡的命运中解救出来"
+
+REFERENCE           PROLOGUE_PAL6
+LANG_ENGLISH        "Use my knowledge, I beg you."
+LANG_CHINESE        "希望你能运用我的知识"
+
+REFERENCE           PROLOGUE_PAL7
+LANG_ENGLISH        "I know what's been troubling you.\nListen to me."
+LANG_CHINESE        "我知道是什么困扰着你\n听我说"
+
+REFERENCE           PROLOGUE_PAL7B
+LANG_ENGLISH        "Don't continue to be a pawn of the Jedi Council."
+LANG_CHINESE        "别再继续当绝地长老会手中的小卒子"
+
+REFERENCE           PROLOGUE_PAL7C
+LANG_ENGLISH        "Ever since I've known you, you've been searching for a life greater than that of an ordinary Jedi.\nA life of significance, of conscience."
+LANG_CHINESE        "从我认识你起，你就在追寻一种比寻常绝地武士更为伟大的人生,\n一种具有重要意义的人生,一种道德的人生"
+
+REFERENCE           PROLOGUE_PAL7D
+LANG_ENGLISH        "Are you going to kill me?"
+LANG_CHINESE        "你想要杀我吗？"
+
+REFERENCE           PROLOGUE_PAL8
+LANG_ENGLISH        "I know you would."
+LANG_CHINESE        "我知道你会"
+
+REFERENCE           PROLOGUE_PAL8B
+LANG_ENGLISH        "I can feel your anger.\nIt gives you focus, makes you stronger."
+LANG_CHINESE        "我能感受到你的愤怒\n它使你全神贯注,使你更加强大"
+
+REFERENCE           PROLOGUE_PAL9
+LANG_ENGLISH        "Of course. You should."
+LANG_CHINESE        "当然你该这么做"
+
+REFERENCE           PROLOGUE_PAL9B
+LANG_ENGLISH        "But you're not sure of their intentions, are you?"
+LANG_CHINESE        "但是你并不清楚他们的目的，对吧？"
+
+REFERENCE           PROLOGUE_PAL10
+LANG_ENGLISH        "You have great wisdom, Anakin."
+LANG_CHINESE        "你很聪明，安纳金"
+
+REFERENCE           PROLOGUE_PAL10B
+LANG_ENGLISH        "Know the power of the dark side."
+LANG_CHINESE        "来了解黑暗原力吧"
+
+REFERENCE           PROLOGUE_PAL10C
+LANG_ENGLISH        "Power to save Padme."
+LANG_CHINESE        "这是一种可以拯救帕德美的力量"
+
+
+ENDMARKER

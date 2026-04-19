@@ -1,0 +1,58 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           25JAK001
+NOTES               "(to himself)"
+LANG_ENGLISH        "Well, this is where the captain saw the cultists...  It doesn't look like-"
+LANG_CHINESE        "嗯，队长就是在这里看到邪教徒的...看起来不像是-"
+
+REFERENCE           25JAK002
+NOTES               "(alarmed)"
+LANG_ENGLISH        "That's not good!"
+LANG_CHINESE        "情况不妙！"
+
+REFERENCE           25JAK003
+NOTES               "re: te"
+LANG_ENGLISH        "Maybe those fuel tanks will slow it down!"
+LANG_CHINESE        "也许燃料罐能让它放慢些脚步！"
+
+REFERENCE           25JAK004
+NOTES               "(re: the rancor"
+LANG_ENGLISH        "What did I ever do to him?!"
+LANG_CHINESE        "我又能怎么样呢？！"
+
+REFERENCE           25JAK005
+NOTES               "(re: the rancor"
+LANG_ENGLISH        "I can't stop it!"
+LANG_CHINESE        "我没法阻止那怪兽！"
+
+REFERENCE           25JAK006
+NOTES               "(to himself)"
+LANG_ENGLISH        "Maybe I can trap it between those containers and the door..."
+LANG_CHINESE        "或许我可以把它困在集装箱与门之间..."
+
+REFERENCE           25JAK007
+NOTES               "(shrugs, pleasantly surprised, like that was easy)"
+LANG_ENGLISH        "That'll work, too."
+LANG_CHINESE        "这个也管用了。"
+
+REFERENCE           25KYK001
+LANG_ENGLISH        "Stay alert on this one.  If there are Disciples of Ragnos at Tanaab, they probably aren't just passing through."
+LANG_CHINESE        "保持警惕。如果拉格诺斯的信徒出现在塔纳布，他们很可能不是经过此地这么简单。"
+
+
+ENDMARKER
+
+

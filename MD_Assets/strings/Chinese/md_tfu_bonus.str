@@ -1,0 +1,77 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KOT1
+LANG_ENGLISH        "He's beaten. Let it go!"
+LANG_CHINESE        "他已经被打败了。放过他吧"
+
+REFERENCE           KOT2
+LANG_ENGLISH        "Maybe so. But if you strike him down in anger, you'll be right back where you began."
+LANG_CHINESE        "也许是这样。但是如果你在愤怒中将他击倒，你立马就会回到最初那样"
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Yes! Kill him! He was weak, broken! Kill him and you take your rightful place at my side!"
+LANG_CHINESE        "好！杀了他！他很虚弱，满身伤痕！杀了他，你就在我这里得到你应得的地位！"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "You have restored peace and justice to the Galaxy."
+LANG_CHINESE        "你已经将和平和正义重新带回了银河系"
+
+REFERENCE           PAL3
+LANG_ENGLISH        "You were destined to destroy me. Do it! Give in to your hatred!"
+LANG_CHINESE        "你注定要杀了我。快！沉浸在你的仇恨中吧！"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "Then he is now more powerful than ever."
+LANG_CHINESE        "他比之前任何时候都更加强大"
+
+REFERENCE           STA1
+LANG_ENGLISH        "You have nothing left to teach me!"
+LANG_CHINESE        "你没有要教给我的东西了"
+
+REFERENCE           STA2
+LANG_ENGLISH        "What is thy bidding, my Master?"
+LANG_CHINESE        "你的代价是什么？我的师父"
+
+REFERENCE           STA3
+LANG_ENGLISH        "It's a trick. He's stronger than you know. And he deserves to die for what he's done to me."
+LANG_CHINESE        "这是一场骗局。他比你所知道的要强大。他也应该因为对我所作的一切而死"
+
+REFERENCE           STA4
+LANG_ENGLISH        "Get Bail and the others out of here. I'll be right behind you."
+LANG_CHINESE        "去到贝尔议员和其他人那里，我马上会赶过去的"
+
+REFERENCE           STA5
+LANG_ENGLISH        "Go! Hurry! Protect the Senators!"
+LANG_CHINESE        "快走！快！保护议员！"
+
+REFERENCE           VAD1
+LANG_ENGLISH        "I've trained you well, but you still have much to learn."
+LANG_CHINESE        "我将你训练得很好，但是你仍然有很多东西要学习"
+
+REFERENCE           VAD2
+LANG_ENGLISH        "This was your destiny. To bring the Emperor's enemies together. And die here alone."
+LANG_CHINESE        "这是你的命运.将皇帝的敌人一起带到这里。然后在这里独自死去"
+
+REFERENCE           VAD4
+LANG_ENGLISH        "There will be another."
+LANG_CHINESE        "将会有下一个人"
+
+REFERENCE           VAD5
+LANG_ENGLISH        "He is dead."
+LANG_CHINESE        "他死了"
+
+
+ENDMARKER

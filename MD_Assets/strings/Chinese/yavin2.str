@@ -1,0 +1,223 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           02KYK001
+NOTES               "in a by the book tone"
+LANG_ENGLISH        "Ahem. This is one of the many training grounds here at the Academy. I'm going to put you two in separate courses. When you're ready, Jaden, go through that door."
+LANG_CHINESE        "咳咳。这里是学院里的训练场地之一。我准备让你们分开训练。你准备好后就进那个门"
+
+REFERENCE           02KYK002
+NOTES               "to Rosh"
+LANG_ENGLISH        "Rosh, follow me."
+LANG_CHINESE        "洛西，你跟我来"
+
+REFERENCE           02KYK003
+LANG_ENGLISH        "This course will familiarize you with your core Force abilities. These are powers that every Force user has. As you progress in your training, you will learn new abilities. Both the light and dark sides will be open to you. Remember, abilities are not inherently good or evil. It's how you use them. Every Jedi is naturally stronger in different areas of the Force, and it will be up to you to decide what to focus on."
+LANG_CHINESE        "今天的课程会带你们熟悉核心原力技能，这些是每个原力使用者都会的东西。\n随着你们训练不断深化，你们会学到新的技能。光明和黑暗原力都会向你们开放。\n记住，技能本身并无正邪之分，只是看你怎么用罢了。\n每个绝地武士天生擅长的原力领域各不相同，主修什么得你们自己决定"
+
+REFERENCE           02KYK004
+LANG_ENGLISH        "Alright, let's get started.  In the next area, you'll find some training remotes. These will help you learn how to handle a lightsaber. Ready?"
+LANG_CHINESE        "行，我们开始吧。在下个场地，你们会遇到一些训练用遥控机器人。\n主要帮你们训练光剑的运用。准备好了吗"
+
+REFERENCE           02ROP001
+NOTES               "(O.S.)"
+LANG_ENGLISH        "Ready!"
+LANG_CHINESE        "好了"
+
+REFERENCE           02JAK001
+LANG_ENGLISH        "Ready."
+LANG_CHINESE        "好了"
+
+REFERENCE           02KYK005
+LANG_ENGLISH        "Here come the remotes!"
+LANG_CHINESE        "来了"
+
+REFERENCE           02ROP002
+NOTES               "(O.S.)"
+LANG_ENGLISH        "Done!"
+LANG_CHINESE        "搞定了"
+
+REFERENCE           02KYK006
+NOTES               "looking over the wall"
+LANG_ENGLISH        "Nice work, Rosh."
+LANG_CHINESE        "不错啊，洛西"
+
+REFERENCE           02KYK007
+NOTES               "(to Jaden)"
+LANG_ENGLISH        "You did well too, Jaden."
+LANG_CHINESE        "你也不差，杰登"
+
+REFERENCE           02KYK008
+NOTES               "(to both of them)"
+LANG_ENGLISH        "Your lightsaber is an invaluable tool. Even when inactive, it can defuse a potentially volatile situation. Trust me on that. As you train, you'll learn additional fighting styles. Changing styles during combat can surprise your opponent, allowing you to gain the upper hand."
+LANG_CHINESE        "你们手里的光剑实在太有用了。就算挂在腰间，有时候也能稳定存在潜在危险的局势。\n不骗你们。随着训练的深入，你们会学到更多光剑的剑式。在战斗中多种剑式混用能让你占据上风，杀对手个措手不及"
+
+REFERENCE           02KYK009
+LANG_ENGLISH        "From here on out, we'll talk via comlink in each area. Let's move on."
+LANG_CHINESE        "从这里开始，我们用对讲机联络。走吧"
+
+REFERENCE           02KYK010
+NOTES               "(via comm)"
+LANG_ENGLISH        "Okay, Jaden.  You need to use the Force to jump across the ravine.  It shouldn't be a problem.  If you fall, jump back up to the bridge and try again."
+LANG_CHINESE        "好，杰登，这里你得用原力跳过这个断桥。应该不成问题。如果你掉下去了，上桥再试一次"
+
+REFERENCE           02KYK011
+NOTES               "(via comm)"
+LANG_ENGLISH        "You'll have to use Push to get out of here and into the next area."
+LANG_CHINESE        "要到下个场地，你得“推"出一条路"
+
+REFERENCE           02KYK012
+NOTES               "(via comm)"
+LANG_ENGLISH        "Remember: you can sense objects that can be affected by your powers.  Examine the area and see if anything stands out..."
+LANG_CHINESE        "记住，你能感觉到那些能受你原力影响的物体。仔细查看这个地方，看看有没什么特别的东西"
+
+REFERENCE           02ROP003
+NOTES               "(laughing)"
+LANG_ENGLISH        "Hey Jaden!  This should keep you busy 'til I finish the course!"
+LANG_CHINESE        "嘿，杰登，等你搞定了这家伙时我应该已经完成训练了吧"
+
+REFERENCE           02KYK013
+NOTES               "(via comm)"
+LANG_ENGLISH        "What took you so long, Jaden?"
+LANG_CHINESE        "什么事耽搁了这么久"
+
+REFERENCE           02JAK002
+NOTES               "(grimacing)"
+LANG_ENGLISH        "Nothing."
+LANG_CHINESE        "没啥"
+
+REFERENCE           02KYK014
+NOTES               "(via comm)"
+LANG_ENGLISH        "You're sure?"
+LANG_CHINESE        "你确定"
+
+REFERENCE           02JAK003
+NOTES               "(a bit angry)"
+LANG_ENGLISH        "It was nothing."
+LANG_CHINESE        "真的没啥"
+
+REFERENCE           02KYK015
+NOTES               "(via comm) (not convinced) (pause after okay)"
+LANG_ENGLISH        "To get to the next area, you must "Pull" a lever somewhere in the room.  But you can't reach the lever with your hands.  Remember to examine your environment carefully.  When you are out on a mission, if you find a locked door, look for the guy in charge.  He usually has a key."
+LANG_CHINESE        "想到下个区域，你得用原力拉一个操作杆，杆子在房间的某处，但你用手是够不到的。\n记住要仔细查看你周围的环境。你执行任务时，如果碰到锁住的门，找管事的家伙。钥匙一般在他身上"
+
+REFERENCE           02KYK016
+NOTES               "(via comm) (cont'd)"
+LANG_ENGLISH        "Solutions to problems aren't always obvious.  Use your Force Sense to see if you can find a way out of the room."
+LANG_CHINESE        "问题的解法并不总是那么明显的。你得用原力感知，透过原力，看看有没办法出这个房间"
+
+REFERENCE           02KYK017
+NOTES               "(via comm)"
+LANG_ENGLISH        "You're almost done. You'll need to move fast in this next area.  You can use the Force to Speed up both physically and mentally, allowing you more time to make decisions. "
+LANG_CHINESE        "就快结束咯。在最后一个环节，你得加速移动。你可以运用原力，\n加快身体和思维的速度，这就能让你有更多时间作决定"
+
+REFERENCE           02ROP004
+NOTES               "overly excited"
+LANG_ENGLISH        "So, did I win?"
+LANG_CHINESE        "我有没赢"
+
+REFERENCE           02KYK018
+LANG_ENGLISH        "It wasn't a competition."
+LANG_CHINESE        "这又不是比赛"
+
+REFERENCE           02ROP005
+LANG_ENGLISH        "I'm sorry. I..."
+LANG_CHINESE        "抱歉，我..."
+
+REFERENCE           02KYK019
+NOTES               "(interrupting)"
+LANG_ENGLISH        "I'm not the one you should be apologizing to."
+LANG_CHINESE        "你道歉没找对人吧"
+
+REFERENCE           02JAK004
+NOTES               "seething"
+LANG_ENGLISH        "It's no big deal. You said yourself this wasn't a competition."
+LANG_CHINESE        "没啥大不了的。你自己都说了这个不是比赛"
+
+REFERENCE           02ROP006
+NOTES               "(squirming)"
+LANG_ENGLISH        "Hey, it was just a joke!  I didn't think it would-"
+LANG_CHINESE        "嘿，开开玩笑而已啦，我又不知道那玩意儿会..."
+
+REFERENCE           02KYK020
+NOTES               "(intervening)"
+LANG_ENGLISH        "If that droid was set to Luke's training regimen, it would have killed Jaden.  What were you thinking?"
+LANG_CHINESE        "如果那个机器人被设定成卢克的训练模式，杰登早就没命了，你是不是昏了头了"
+
+REFERENCE           02ROP007
+NOTES               "(frantic)"
+LANG_ENGLISH        "Jaden, I'm so sorry. I can't believe I ...I mean I wasn't trying to ..."
+LANG_CHINESE        "杰登，对不起，我没想到会...我是说我没想...."
+
+REFERENCE           02JAK005
+NOTES               "(still pretty pissed)"
+LANG_ENGLISH        "Save it, Rosh."
+LANG_CHINESE        "省省吧，洛西"
+
+REFERENCE           02KYK021
+LANG_ENGLISH        "Jaden, you have a right to be angry, but believe me when I say you don't want to feed that emotion."
+LANG_CHINESE        "杰登，你当然有理由生气。但听我一句，别一直想着这个"
+
+REFERENCE           02JAK006
+LANG_ENGLISH        "I understand, Master Katarn.  "
+LANG_CHINESE        "我知道了，卡塔恩大师"
+
+REFERENCE           02JAK007
+NOTES               "(turns to Rosh, no longer angry)"
+LANG_ENGLISH        "Apology accepted, Rosh."
+LANG_CHINESE        "我接受你的道歉，洛西"
+
+REFERENCE           02KYK022
+NOTES               "(in good humor)"
+LANG_ENGLISH        "Good, that's settled.  And remember, it's Kyle."
+LANG_CHINESE        "好极了，这事就这么了了。还有，叫我凯尔就行"
+
+REFERENCE           02JAK008
+LANG_ENGLISH        "Yes Mas-... Kyle."
+LANG_CHINESE        "是，凯尔大...凯尔."
+
+REFERENCE           02ROP008
+NOTES               "(cocky again"
+LANG_ENGLISH        "Sure thing, Kyle!"
+LANG_CHINESE        "没问题，凯尔"
+
+REFERENCE           02KYK023
+LANG_ENGLISH        "Okay, you're both ready to start putting what you've learned to use.  Let's see how you do in the real world."
+LANG_CHINESE        "好，你们两人已经准备好把学到的运用到实践上了。接下来就看看你们在真实世界里的表现了"
+
+REFERENCE           02LUK001
+LANG_ENGLISH        "Kyle. I did some research on that strange mark from the clothing we found at the temple. It is the symbol of Marka Ragnos, a Sith Lord that died almost five thousand years ago."
+LANG_CHINESE        "凯尔，我研究了下死在神庙那个家伙衣服上的标志。这个是一个死了\n将近5000年的西斯领主：玛卡 拉格诺斯的标志"
+
+REFERENCE           02KYK024
+LANG_ENGLISH        "Five thousand years, are you serious? Wait, of course you're serious..."
+LANG_CHINESE        "五千年，你说笑吧？呃，你从不说笑..."
+
+REFERENCE           02LUK002
+LANG_ENGLISH        "While you're out training your students, be on the lookout for information regarding a group affiliated with Ragnos."
+LANG_CHINESE        "你在训练学生的同时，也要密切注意和拉格诺斯有关的团体的行踪"
+
+REFERENCE           02KYK025
+LANG_ENGLISH        "Sure thing Luke."
+LANG_CHINESE        "没问题，卢克"
+
+REFERENCE           02KYK026
+LANG_ENGLISH        "The journey to become a Jedi begins with a single step. Which, I should point out, you have not yet taken. Move it, Jaden."
+LANG_CHINESE        "绝地之道艰辛而漫长，而我不得不说的是，你的第一步还没有迈出。行动吧，杰登"
+
+
+ENDMARKER
+
+

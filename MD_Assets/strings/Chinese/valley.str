@@ -1,0 +1,60 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           05MOK001
+LANG_ENGLISH        "What are you doing, Kyle?"
+LANG_CHINESE        "你在做什么，凯尔？"
+  
+REFERENCE           05KJO013
+LANG_ENGLISH        "Don't try to talk me out of this, father.  I need the power of the Valley of the Jedi, and I need it now."
+LANG_CHINESE        "不要想说服我，爸爸。我需要绝地之谷的力量，我现在就需要。"
+
+REFERENCE           05MOK002
+LANG_ENGLISH        "Do you believe that this stream of power will ease your pain?  Or that you can safely wield the Force with anger in your heart?"
+LANG_CHINESE        "你真的认为这股力量可以帮助你减轻痛苦？还是你相信你的愤怒不会影响你正确的使用原力？"
+
+REFERENCE           05KJO014
+LANG_ENGLISH        "Jan is dead; my anger is all I have left.  Anger and revenge."
+LANG_CHINESE        "简是我剩下唯一的感觉了。愤怒，还有复仇。"
+
+REFERENCE           05MOK003
+LANG_ENGLISH        "Is that how she would want to be remembered, with acts of anger and revenge?"
+LANG_CHINESE        "她会希望你用这种情绪怀念她吗，表现在怒火和复仇的行动上？"
+
+REFERENCE           05KJO015
+LANG_ENGLISH        "...No..."
+LANG_CHINESE        "...不.."
+
+REFERENCE           05MOK004
+LANG_ENGLISH        "Then remember her as she was, and may the Force Be With You..."
+LANG_CHINESE        "那么就记住她为人处世的样子，愿原力与你同在..."
+
+REFERENCE           05KJO017
+LANG_ENGLISH        "It hasn't been so far."
+LANG_CHINESE        "以前感觉没有这么遥远。"
+
+REFERENCE           05MOK005
+LANG_ENGLISH        "Are you all right?"
+LANG_CHINESE        "你还好吧？"
+
+REFERENCE           05KJO018
+LANG_ENGLISH        "I'd...forgotten...what it was like..."
+LANG_CHINESE        "我...忘了...那种感觉..."
+
+REFERENCE           05MOK006
+LANG_ENGLISH        "It will become familiar to you again in time.  What will you do now?"
+LANG_CHINESE        "你慢慢会再熟悉起来的。你下一步要怎么做？"
+
+REFERENCE           05KJO019
+LANG_ENGLISH        "Find Desann.  But first, I need to get something I left behind."
+LANG_CHINESE        "找到迪桑。不过首先，我需要去拿回一样尘封多年的东西。"
+
+REFERENCE           05TAA003
+LANG_ENGLISH        "Your plan worked, Master Desann."
+LANG_CHINESE        "你的计划成功了，迪桑大师。"
+
+REFERENCE           05DES008
+LANG_ENGLISH        "Yes, Tavion, the death of Katarn's woman has driven him mad, and delivered the Valley of the Jedi into our hands.  Contact Admiral Fyyar, and prepare the troops!"
+LANG_CHINESE        "是的，特维安，杀了卡塔恩的女人确实把他给逼疯了，也让他把绝地谷的位置泄漏给我们。联络飞亚上将，同时叫士兵们准备好！"
+
+ENDMARKER

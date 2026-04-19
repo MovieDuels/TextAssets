@@ -1,0 +1,136 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Palpatine: You have done well, my new apprentice.\nNow, Lord Vader, go and bring peace to the Empire."
+LANG_CHINESE        "做得漂亮，我的新徒弟。\n现在，维德勋爵,去给帝国带来和平吧"
+ 
+REFERENCE           OBI1
+LANG_ENGLISH        "Not even the younglings survived."
+LANG_CHINESE        "连幼徒们也没放过"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Who? Who could have done this?"
+LANG_CHINESE        "是谁？这是谁干的？"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "I have recalibrated the code, warning all surviving Jedi to stay away."
+LANG_CHINESE        "我重新调校了信号，警告所有幸存的武士别回来"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Wait, Master."
+LANG_CHINESE        "等等，长老"
+
+REFERENCE           OBI4B
+LANG_ENGLISH        "There is something I must know."
+LANG_CHINESE        "有些事我必须弄明白"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "I must know the truth, Master."
+LANG_CHINESE        "我必须知道真相，长老"
+
+REFERENCE           OBI5B
+LANG_ENGLISH        "It can't be... It can't be!"
+LANG_CHINESE        "不可能…不可能…"
+
+REFERENCE           OBI6
+LANG_ENGLISH        "I can't watch any more."
+LANG_CHINESE        "我看不下去了"
+
+REFERENCE           OBI7
+LANG_ENGLISH        "Send me to kill the Emperor. I will not kill Anakin."
+LANG_CHINESE        "派我去刺杀皇帝吧，对阿纳金我下不了手"
+
+REFERENCE           OBI8
+LANG_ENGLISH        "He is like my brother. I cannot do it!"
+LANG_CHINESE        "他就像我的兄弟… 我下不了手"
+
+REFERENCE           OBI9
+LANG_ENGLISH        "I do not know where the Emperor has sent him."
+LANG_CHINESE        "我不知道西迪厄斯把他派到哪里去了"
+
+REFERENCE           OBI9B
+LANG_ENGLISH        "I don't know where to look."
+LANG_CHINESE        "我不知道到哪去找他"
+
+REFERENCE           OBI10
+LANG_ENGLISH        "How many other Jedi have managed to survive?"
+LANG_CHINESE        "还有多少绝地武士生还？"
+
+REFERENCE           OBI11
+LANG_ENGLISH        "It can't be. It can't be!"
+LANG_CHINESE        "不可能…不可能…"
+
+REFERENCE           YOD1
+LANG_ENGLISH        "Killed not by clones, this.. Padawan."
+LANG_CHINESE        "这名学徒不是被克隆兵杀死的"
+
+REFERENCE           YOD1B
+LANG_ENGLISH        "By a lightsaber, he was."
+LANG_CHINESE        "是被光剑刺死的"
+
+REFERENCE           YOD2
+LANG_ENGLISH        "For the clones..."
+LANG_CHINESE        "对于克隆兵来说"
+
+REFERENCE           YOD2B
+LANG_ENGLISH        "To discover the recalibration, a long time it will take."
+LANG_CHINESE        "要发现信号被改过了还要很久"
+
+REFERENCE           YOD3
+LANG_ENGLISH        "If into the security recordings you go, only pain will you find."
+LANG_CHINESE        "如果去看安保录像，你发现的只会是痛苦"
+
+REFERENCE           YOD4
+LANG_ENGLISH        "Destroy the Sith, we must."
+LANG_CHINESE        "我们必须消灭西斯"
+
+REFERENCE           YOD5
+LANG_ENGLISH        "To fight this Lord Sidious, strong enough you are not."
+LANG_CHINESE        "去杀西迪厄斯，你还不够强"
+
+REFERENCE           YOD6
+LANG_ENGLISH        "Twisted by the dark side, young Skywalker has become."
+LANG_CHINESE        "年轻的天行者已经被黑暗势力扭曲"
+
+REFERENCE           YOD6B
+LANG_ENGLISH        "The boy you trained, gone he is. Consumed by Darth Vader."
+LANG_CHINESE        "你训导的那个孩子，已经不在了。取而代之的是达斯·维达"
+
+REFERENCE           YOD7
+LANG_ENGLISH        "Use your feelings, Obi-Wan, and find him you will."
+LANG_CHINESE        "用你的感应，欧比旺，你会找到他的"
+
+REFERENCE           YOD8
+LANG_ENGLISH        "Heard from no one, have we."
+LANG_CHINESE        "我们还没有消息"
+
+REFERENCE           OBISPLIT1
+LANG_ENGLISH        "We seem to have attracted some unwanted attention."
+LANG_CHINESE        "我们似乎吸引了一些不必要的关注。"
+
+REFERENCE           OBISPLIT2
+LANG_ENGLISH        "Shall we split up?"
+LANG_CHINESE        "我们要分头行动吗？"
+
+REFERENCE           YODSPLIT1
+LANG_ENGLISH        "Divide that attention, we can."
+LANG_CHINESE        "我们可以分散注意力"
+
+REFERENCE           YODSPLIT2
+LANG_ENGLISH        "And may the Force soon bring us together again."
+LANG_CHINESE        "也许原力会让我们重新相聚"
+
+ENDMARKER

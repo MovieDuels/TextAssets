@@ -1,0 +1,371 @@
+REFERENCE           SFX_SABERS
+LANG_ENGLISH        "SFX Sabers:"
+LANG_CHINESE        "光剑特效"
+
+REFERENCE           SFX_SABERS_DESC
+LANG_ENGLISH        "Switch On / Off enhanced lightsaber effects"
+LANG_CHINESE        "开启或关闭光剑的效果"
+
+REFERENCE           SFX_GLOW
+LANG_ENGLISH        "Glow:"
+LANG_CHINESE        "发光"
+
+REFERENCE           SFX_GLOW_DESC
+LANG_ENGLISH        "Customize the intensity of lightsaber glow"
+LANG_CHINESE        "自定义光剑发光的亮度"
+
+REFERENCE           SFX_CORE
+LANG_ENGLISH        "Core:"
+LANG_CHINESE        "核心"
+
+REFERENCE           SFX_CORE_DESC
+LANG_ENGLISH        "Customize the size of lightsaber core"
+LANG_CHINESE        "自定义光剑的核心尺寸"
+
+REFERENCE           AAYLA
+LANG_ENGLISH        "Aayla Secura"
+LANG_CHINESE        "艾拉·赛库拉"
+
+REFERENCE           ADI
+LANG_ENGLISH        "Adi Gallia"
+LANG_CHINESE        "阿迪·加利亚"
+
+REFERENCE           AHSOKA
+LANG_ENGLISH        "Ahsoka Tano [Clone Wars]"
+LANG_CHINESE        "阿索卡·塔诺[克隆战争]"
+
+REFERENCE           AHSOKA_SHORT
+LANG_ENGLISH        "Ahsoka Tano (Shoto) [Clone Wars]"
+LANG_CHINESE        "阿索卡·塔诺（短剑）[克隆战争]"
+
+REFERENCE           AHSOKA_REBELS
+LANG_ENGLISH        "Ahsoka Tano [Rebels]"
+LANG_CHINESE        "阿索卡·塔诺[义军崛起]"
+
+REFERENCE           AHSOKA_REBELS_SHORT
+LANG_ENGLISH        "Ahsoka Tano (Shoto) [Rebels]"
+LANG_CHINESE        "阿索卡·塔诺（短剑）[义军崛起]"
+
+REFERENCE           ANAKIN_EP2
+LANG_ENGLISH        "Anakin Skywalker [Ep. II]"
+LANG_CHINESE        "安纳金·天行者[EP2]"
+
+REFERENCE           ANAKIN_EP3
+LANG_ENGLISH        "Anakin Skywalker [Ep. III]"
+LANG_CHINESE        "安纳金·天行者[EP3]"
+
+REFERENCE           ASHARAD
+LANG_ENGLISH        "A'Sharad Hett"
+LANG_CHINESE        "阿沙拉德·赫特"
+
+REFERENCE           ASHARAD_ALT
+LANG_ENGLISH        "A'Sharad Hett [Alternate]"
+LANG_CHINESE        "阿沙拉德·赫特[变体]"
+
+REFERENCE           VENTRESS_CW
+LANG_ENGLISH        "Asajj Ventress [CW]"
+LANG_CHINESE        "阿萨吉·文崔斯[CloneWars动画]"
+
+REFERENCE           VENTRESS_TCW
+LANG_ENGLISH        "Asajj Ventress [TCW]"
+LANG_CHINESE        "阿萨吉·文崔斯[TheCloneWars动画]"
+
+REFERENCE           VENTRESS_STAFF
+LANG_ENGLISH        "Asajj Ventress [Staff]"
+LANG_CHINESE        "阿萨吉·文崔斯[光杖]"
+
+REFERENCE           BARRISS
+LANG_ENGLISH        "Barriss Offee"
+LANG_CHINESE        "巴丽斯·奥菲"
+
+REFERENCE           BOC
+LANG_ENGLISH        "Boc Aseca"
+LANG_CHINESE        "博克·阿塞卡"
+
+REFERENCE           CAL_KESTIS
+LANG_ENGLISH        "Cal Kestis"
+LANG_CHINESE        "卡尔·凯斯提斯"
+
+REFERENCE           COLEMAN
+LANG_ENGLISH        "Coleman Trebor"
+LANG_CHINESE        "科勒曼·塔博"
+
+REFERENCE           COUNT_DOOKU
+LANG_ENGLISH        "Count Dooku"
+LANG_CHINESE        "杜库伯爵"
+
+REFERENCE           DARKSABER_TCW
+LANG_ENGLISH        "Darksaber [TCW]"
+LANG_CHINESE        "暗剑[TheCloneWars动画]"
+
+REFERENCE           DARKSABER_REBELS
+LANG_ENGLISH        "Darksaber [Rebels]"
+LANG_CHINESE        "暗剑[义军崛起]"
+
+REFERENCE           D_MAUL
+LANG_ENGLISH        "Darth Maul [Damaged]"
+LANG_CHINESE        "达斯·摩尔[损坏]"
+
+REFERENCE           D_MAUL_STAFF
+LANG_ENGLISH        "Darth Maul"
+LANG_CHINESE        "达斯·摩尔"
+
+REFERENCE           D_MAUL_TCW
+LANG_ENGLISH        "Darth Maul [TCW]"
+LANG_CHINESE        "达斯·摩尔[TheCloneWars动画]"
+
+REFERENCE           D_MAUL_REBELS
+LANG_ENGLISH        "Maul [Rebels]"
+LANG_CHINESE        "摩尔[义军崛起]"
+
+REFERENCE           D_SIDIOUS
+LANG_ENGLISH        "Darth Sidious"
+LANG_CHINESE        "达斯·西迪厄斯"
+
+REFERENCE           D_SIDIOUS_ALT
+LANG_ENGLISH        "Darth Sidious [Alternate]"
+LANG_CHINESE        "达斯·西迪厄斯[变体]"
+
+REFERENCE           D_VADER_EP3
+LANG_ENGLISH        "Darth Vader [Ep.III]"
+LANG_CHINESE        "达斯·维达[EP3]"
+
+REFERENCE           D_VADER_EP4
+LANG_ENGLISH        "Darth Vader [Ep.IV]"
+LANG_CHINESE        "达斯·维达[EP4]"
+
+REFERENCE           D_VADER_EP5
+LANG_ENGLISH        "Darth Vader [Ep.V]"
+LANG_CHINESE        "达斯·维达[EP5]"
+
+REFERENCE           D_VADER_EP6
+LANG_ENGLISH        "Darth Vader [Ep.VI]"
+LANG_CHINESE        "达斯·维达[EP6]"
+
+REFERENCE           DEPA
+LANG_ENGLISH        "Depa Billaba"
+LANG_CHINESE        "德帕·比拉巴"
+
+REFERENCE           DESANN
+LANG_ENGLISH        "Desann"
+LANG_CHINESE        "迪桑"
+
+REFERENCE           ELECTROSTAFF
+LANG_ENGLISH        "Electrostaff"
+LANG_CHINESE        "电杖"
+
+REFERENCE           EVEN
+LANG_ENGLISH        "Even Piell"
+LANG_CHINESE        "伊文·皮耶尔"
+
+REFERENCE           EZRA
+LANG_ENGLISH        "Ezra Bridger"
+LANG_CHINESE        "埃兹拉·布里杰"
+
+REFERENCE           EZRA_S3
+LANG_ENGLISH        "Ezra Bridger [Jedi]"
+LANG_CHINESE        "埃兹拉·布里杰[绝地]"
+
+REFERENCE           GALEN_MAREK
+LANG_ENGLISH        "Galen Marek [TFU2]"
+LANG_CHINESE        "盖伦·马雷克[原力释放2]"
+
+REFERENCE           GALEN_MAREK_ALT
+LANG_ENGLISH        "Galen Marek [TFU2 Alt]"
+LANG_CHINESE        "盖伦·马雷克[原力释放2副手]"
+
+REFERENCE           GALEN_MAREK_CJR
+LANG_ENGLISH        "Galen Marek [Jedi]"
+LANG_CHINESE        "盖伦·马雷克[绝地]"
+
+REFERENCE           GORC
+LANG_ENGLISH        "Gorc"
+LANG_CHINESE        "戈克"
+
+REFERENCE           GRANDINQUISITOR
+LANG_ENGLISH        "Grand Inquisitor"
+LANG_CHINESE        "帝国裁判官"
+
+REFERENCE           FIFTHBROTHER
+LANG_ENGLISH        "Fifth Brother"
+LANG_CHINESE        "五哥"
+
+REFERENCE           SEVENTHSISTER
+LANG_ENGLISH        "Seventh Sister"
+LANG_CHINESE        "七妹"
+
+REFERENCE           EIGHTHBROTHER
+LANG_ENGLISH        "Eighth Brother"
+LANG_CHINESE        "八弟"
+
+REFERENCE           INQUISITOR_STAFF
+LANG_ENGLISH        "Grand Inquisitor"
+LANG_CHINESE        "帝国裁判官"
+
+REFERENCE           JT_GUARD
+LANG_ENGLISH        "Jedi Temple Guard"
+LANG_CHINESE        "绝地圣殿守卫"
+
+REFERENCE           JEREC
+LANG_ENGLISH        "Jerec"
+LANG_CHINESE        "杰瑞克"
+
+REFERENCE           KANAN
+LANG_ENGLISH        "Kanan Jarrus"
+LANG_CHINESE        "凯南·贾勒斯"
+
+REFERENCE           KI_ADI
+LANG_ENGLISH        "Ki-Adi Mundi"
+LANG_CHINESE        "基-阿迪·芒迪"
+
+REFERENCE           KIT
+LANG_ENGLISH        "Kit Fisto"
+LANG_CHINESE        "基特·菲斯托"
+
+REFERENCE           KYLE
+LANG_ENGLISH        "Kyle Katarn"
+LANG_CHINESE        "凯尔·卡塔恩"
+
+REFERENCE           KYLO
+LANG_ENGLISH        "Kylo Ren"
+LANG_CHINESE        "凯洛·伦"
+
+REFERENCE           LEIA_EP9
+LANG_ENGLISH        "Leia Organa"
+LANG_CHINESE        "莱雅·奥嘉纳"
+
+REFERENCE           LUKE_EP4
+LANG_ENGLISH        "Luke Skywalker [Ep. IV]"
+LANG_CHINESE        "卢克·天行者[EP4]"
+
+REFERENCE           LUKE_EP5
+LANG_ENGLISH        "Luke Skywalker [Ep. V]"
+LANG_CHINESE        "卢克·天行者[EP5]"
+
+REFERENCE           LUKE_EP6
+LANG_ENGLISH        "Luke Skywalker [Ep. VI]"
+LANG_CHINESE        "卢克·天行者[EP6]"
+
+REFERENCE           LUMINARA
+LANG_ENGLISH        "Luminara Unduli"
+LANG_CHINESE        "卢米娜拉·昂杜利"
+
+REFERENCE           MACE_EP1
+LANG_ENGLISH        "Mace Windu [Ep. I]"
+LANG_CHINESE        "梅斯·温度[EP1]"
+
+REFERENCE           MACE
+LANG_ENGLISH        "Mace Windu [Ep. II-III]"
+LANG_CHINESE        "梅斯·温度[EP2-3]"
+
+REFERENCE           MARA
+LANG_ENGLISH        "Mara Jade"
+LANG_CHINESE        "玛拉·杰德"
+
+REFERENCE           MARA_MOTS
+LANG_ENGLISH        "Mara Jade [MOTS]"
+LANG_CHINESE        "玛拉·杰德[西斯之谜]"
+
+REFERENCE           MAW
+LANG_ENGLISH        "Maw"
+LANG_CHINESE        "莫"
+
+REFERENCE           OBI_EP1
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. I-II]"
+LANG_CHINESE        "欧比-旺·克诺比[EP1-2]"
+
+REFERENCE           OBI_EP3
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. III]"
+LANG_CHINESE        "欧比-旺·克诺比[EP3]"
+
+REFERENCE           OBI_EP4
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. IV]"
+LANG_CHINESE        "欧比-旺·克诺比[EP4]"
+
+REFERENCE           PIC
+LANG_ENGLISH        "Pic"
+LANG_CHINESE        "皮克"
+
+REFERENCE           PLO
+LANG_ENGLISH        "Plo Koon"
+LANG_CHINESE        "普洛·孔"
+
+REFERENCE           QUI
+LANG_ENGLISH        "Qui-Gon Jinn"
+LANG_CHINESE        "奎-刚·金"
+
+REFERENCE           QUINLAN
+LANG_ENGLISH        "Quinlan Vos"
+LANG_CHINESE        "昆兰·沃斯"
+
+REFERENCE           RAHN
+LANG_ENGLISH        "Qu Rahn"
+LANG_CHINESE        "库·拉恩"
+
+REFERENCE           KOTA
+LANG_ENGLISH        "Rahm Kota"
+LANG_CHINESE        "拉姆·科塔"
+
+REFERENCE           REY_EP9
+LANG_ENGLISH        "Rey [Ep.IX]"
+LANG_CHINESE        "蕾伊[EP9]"
+
+REFERENCE           REY_DARKFOLD_EP9
+LANG_ENGLISH        "Rey (Dark - Folded) [Ep.IX]"
+LANG_CHINESE        "蕾伊（黑暗面）[EP9]"
+
+REFERENCE           REY_DARKSTAFF_EP9
+LANG_ENGLISH        "Rey (Dark - Staff) [Ep.IX]"
+LANG_CHINESE        "蕾伊（黑暗-杖）[EP9]"
+
+REFERENCE           SAESSEE
+LANG_ENGLISH        "Saessee Tiin"
+LANG_CHINESE        "塞西·廷"
+
+REFERENCE           SAVAGE
+LANG_ENGLISH        "Savage Opress"
+LANG_CHINESE        "萨瓦奇·奥普雷斯"
+
+REFERENCE           SARISS
+LANG_ENGLISH        "Sariss"
+LANG_CHINESE        "萨丽斯"
+
+REFERENCE           SECONDSISTER
+LANG_ENGLISH        "Second Sister"
+LANG_CHINESE        "二姐"
+
+REFERENCE           STALKER
+LANG_ENGLISH        "Sith Stalker"
+LANG_CHINESE        "西斯潜行者"
+
+REFERENCE           STARKILLER
+LANG_ENGLISH        "Starkiller"
+LANG_CHINESE        "弑星者"
+
+REFERENCE           SHAAK
+LANG_ENGLISH        "Shaak Ti"
+LANG_CHINESE        "莎克·蒂"
+
+REFERENCE           STINGER
+LANG_ENGLISH        "Stinger"
+LANG_CHINESE        "#same"
+
+REFERENCE           TAVION
+LANG_ENGLISH        "Tavion Axmis"
+LANG_CHINESE        "塔维昂·阿克斯米斯"
+
+REFERENCE           YARAEL
+LANG_ENGLISH        "Yarael Poof"
+LANG_CHINESE        "亚雷尔·普夫"
+
+REFERENCE           YODA
+LANG_ENGLISH        "Yoda"
+LANG_CHINESE        "尤达"
+
+REFERENCE           YUN
+LANG_ENGLISH        "Yun"
+LANG_CHINESE        "云"
+
+ENDMARKER
+
+

@@ -1,0 +1,105 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           T1_SURPRISE
+LANG_ENGLISH        "Good work Jaden.  Kyle tells me you recovered the droid on your own. It's too bad about the jawas... Artoo will scour the droid's memory banks and see what information it turns up."
+LANG_CHINESE        "干得好，杰登。凯尔告诉我说你一个人就把机器人弄回来了。那些爪哇人太不幸了...\nR2会来扫描R5的记忆库，看看能找到什么信息。"
+
+REFERENCE           T1_FATAL
+LANG_ENGLISH        "Sorry I never made it to Bakura. You seemed to handle yourself okay though."
+LANG_CHINESE        "很抱歉我没能赶到巴库拉。不过看起来你已经把一切都办妥当了、"
+
+REFERENCE           T1_SOUR
+LANG_ENGLISH        "Kyle told me about what happened in Mos Eisley.  It's a good thing Chewie was there, but you did well regardless. It looks like this cult and the Imperials may be working together more closely than we thought..."
+LANG_CHINESE        "凯尔把莫斯 埃斯利发生一切都告诉我了。秋依在那儿真是太好了，你干的也不错\n看来邪教和帝国军的合作比我们想想的更加紧密。"
+
+REFERENCE           T1_DANGER
+LANG_ENGLISH        "That's too bad about the merchants.  Sounds like those sand burrowers must have gotten them all.  Nasty critters.  Glad you got back safe and sound.  We'll let Coruscant know to mark the planet as hazardous."
+LANG_CHINESE        "那些商人实在太不幸了。看来沙虫把他们都给吃了。沙虫真是恶心的东西\n不过你能平安回来我已经很高兴了。我们通知科洛桑把该星球标记为危险区吧。"
+
+REFERENCE           T1_RAIL_01
+NOTES               "(VIA HOLO)"
+LANG_ENGLISH        "Excellent work on the tram.  It's lucky you two showed up when you did.  If that tram exploded in the city, it could've killed thousands of people."
+LANG_CHINESE        "轨道列车上干得不错。你们出现的也真及时。要是列车在城里爆炸，不知要死多少人呢。"
+
+REFERENCE           T1_RAIL_02
+NOTES               "(VIA HOLO)"
+LANG_ENGLISH        "Looks like the locals mistook this group for the cult.  However,  one of the spaceport workers said he overheard someone talking about some kind of a payment from the Disciples of Ragnos."
+LANG_CHINESE        "看来当地人把这些人误认为是邪教的人了。但是，一个太空港的工人说他偶然\n听到别人谈论说拉格诺斯的信徒出钱请人帮忙。"
+
+REFERENCE           T1_RAIL_03
+NOTES               "(VIA HOLO)"
+LANG_ENGLISH        "So the cult is behind the attack.  What could they possibly gain from terrorizing Coronet?"
+LANG_CHINESE        "这么说来这次袭击室友邪教策划的。他们在克罗内特制造恐慌有什么目的呢？"
+
+REFERENCE           T1_RAIL_04
+NOTES               "(VIA HOLO)"
+LANG_ENGLISH        "Maybe it was just a diversion for something else."
+LANG_CHINESE        "或许这个只是个幌子。"
+
+REFERENCE           T1_RAIL_05
+NOTES               "(VIA HOLO)"
+LANG_ENGLISH        "Could be... whatever the case, it doesn't look good..."
+LANG_CHINESE        "可能吧...不管怎样，看起来都不妙。"
+
+REFERENCE           T2_TRIP
+NOTES               "via comm?"
+LANG_ENGLISH        "Well that was an adventure. These Cultists sure know how to cover their tracks."
+LANG_CHINESE        "嗯，这次可够刺激的了。这些邪教徒肯定知道怎么清理掉痕迹。"
+
+REFERENCE           T2_RANCOR
+LANG_ENGLISH        "Nice work, Jaden!  The elders have been returned to the town.  I wish I could've seen that slimy Hutt's face when he found out all his prisoners had escaped."
+LANG_CHINESE        "干的漂亮，杰登！长者们都回到城里去了。我真想看看那个恶心的赫特人的脸\n知道自己的犯人都逃了他肯定要气疯了。"
+
+REFERENCE           T2_WEDGE
+LANG_ENGLISH        "Great work, Jaden, Luke was right about you!  The Republic is sending troops to defend the platform.  Thanks to you, the Remnant isn't going to be supplying the Disciples of Ragnos any time soon!"
+LANG_CHINESE        "干得好，杰登。卢克没看走眼！共和国已经派部队来镇守这个平台了。多亏了你\n帝国残余军很快便没法再向拉格诺斯的信徒提供物资了！"
+
+REFERENCE           T2_DPRED
+LANG_ENGLISH        "We've informed the Republic of this hidden Remnant operation and they should be there to clean it up soon.  Too bad Rax didn't have any useful info.  I'm proud of how you handled yourself, Jaden, well done."
+LANG_CHINESE        "我们已经把这个隐藏的帝国军残余势力的运作情况报告给共和国了。他们很快就会派人来肃清这里了\n拉克斯没有什么有用的情报，太可惜了。我很骄傲你把一切办的很好，杰登。干得好。"
+
+REFERENCE           T2_ROGUE
+LANG_ENGLISH        "Based on the information you got from Racto, New Republic agents raided the droid factory on Nar Shaddaa and shut it down. Good work Jaden!"
+LANG_CHINESE        "根据你从拉克托那里得到的情报，新共和国特工已经袭击并关闭了纳沙达的机器人工厂。干得漂亮，杰登！"
+
+REFERENCE           T3_BYSS
+LANG_ENGLISH        "That was a close one.  I've relayed the information about Byss to Luke.  Good work, by the way."
+LANG_CHINESE        "这次好险。我把比斯的信息给卢克了。呃，干的不错。"
+
+REFERENCE           T3_STAMP
+LANG_ENGLISH        "Jaden.  We think these cultists were planning on releasing that mutated rancor into the city and using the ensuing chaos to steal supplies, credits, and whatever else they could get their hands on.  Good work."
+LANG_CHINESE        "杰登，我们认为这些邪教徒原本打算把那只变异的兰科兽放进城里，他们好趁火打劫物资，资金等等。你干的漂亮。"
+
+REFERENCE           T3_RIFT
+LANG_ENGLISH        "So you didn't run into Tavion.  That's good... and bad.  At least you stopped the cultists.  But we can't keep this up forever.  We've got to stop Tavion once and for all!"
+LANG_CHINESE        "那么说你没碰到特维安。太好了...不过也不是什么好消息。至少你阻止了邪教徒\n不过我们不能每次都收拾他们的烂摊子。我们必须一劳永逸的彻底阻止泰薇恩！"
+
+REFERENCE           T3_HEVIL
+LANG_ENGLISH        "Darth Vader used many Noghri as assassins and bodyguards.  We think Vader ordered the Noghri to wipe out the Yalarans guarding the cloaking device.  Now that the device is destroyed, no one can claim it.  The remaining Noghri have been picked up and returned home."
+LANG_CHINESE        "达斯 维德用过很多诺格里人当作刺客以及保镖。我估计维德命令这些诺格里人消灭守卫伪装装置的\n亚拉然人。现在装置已经毁了，没人能得到它了。残余的诺格里人已经被人接走，送回他们故乡了。"
+
+REFERENCE           T3_HEVIL_ALT
+LANG_ENGLISH        "It's a good thing we were able to destroy that device before the Empire could use it for their purposes. But I am saddened that we were unable to save the innocent people of Yalara."
+LANG_CHINESE        "我们把装置毁了，帝国军没法占为己用了。但是我们没能救亚拉拉星那些无辜的人们，我很难过。"
+
+REFERENCE           T3_BOUNTY
+LANG_ENGLISH        "So, you met Boba Fett.  I'm impressed!  I ran into him once myself back on Coruscant, just barely got out alive.  Not someone you want as an enemy, but, well... I guess we have something in common now."
+LANG_CHINESE        "这么说你碰到波巴 费特了。不错啊！我一次在科洛桑碰到过他，险些就搭了性命\n和他打肯定没好日子过，不过，呃，我们现在有共同点了。"
+
+
+ENDMARKER
+
+

@@ -1,0 +1,82 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           23LUK001
+LANG_ENGLISH        "If they are indeed attempting to steal Force power from that tomb, Tavion might be there. Be careful and call for assistance if you find her."
+LANG_CHINESE        "如果他们真的想从那个墓穴里偷取原力，那泰薇恩说不定就在那里。\n一切小心，如果你发现了她，就叫增援。"
+
+REFERENCE           23JAK001
+NOTES               "(to himself)"
+LANG_ENGLISH        "This place is amazing!"
+LANG_CHINESE        "这个地方不得了哇！"
+
+REFERENCE           23JAK002
+NOTES               "(to himself)"
+LANG_ENGLISH        "It seems like it goes on forever."
+LANG_CHINESE        "开上去好像走不到尽头。"
+
+REFERENCE           23JAK003
+NOTES               "(to himself)"
+LANG_ENGLISH        "I think I can make that."
+LANG_CHINESE        "我觉得我能搞定。"
+
+REFERENCE           23JAK004
+NOTES               "(to himself)"
+LANG_ENGLISH        "This way feels right..."
+LANG_CHINESE        "感觉应该走这条路..."
+
+REFERENCE           23JAK005
+NOTES               "(to himself)"
+LANG_ENGLISH        "Can't go that way."
+LANG_CHINESE        "哪儿可去不得。"
+
+REFERENCE           23JAK006
+NOTES               "(to himself)"
+LANG_ENGLISH        "How am I supposed to get over there?"
+LANG_CHINESE        "我要怎么样才能到那里呢？"
+
+REFERENCE           23JAK007
+NOTES               "(to himself)"
+LANG_ENGLISH        "How do I get out of here?"
+LANG_CHINESE        "我怎么出去呢？"
+
+REFERENCE           23JAK008
+NOTES               "(to himself)"
+LANG_ENGLISH        "How am I going to get up there?"
+LANG_CHINESE        "怎么上去呢？"
+
+REFERENCE           23JAK009
+NOTES               "(to himself)"
+LANG_ENGLISH        "Great, how am I going to get down there without breaking my neck...?"
+LANG_CHINESE        "这下可好，这里下去还不把我脖子给摔断咯，怎么下去呢..."
+
+REFERENCE           23JAK010
+NOTES               "(to himself)"
+LANG_ENGLISH        "I should re-seal the tomb so no one else can disturb it."
+LANG_CHINESE        "我得重新把这里封起来，这样就没人会来搅扰了。"
+
+REFERENCE           23JAK011
+NOTES               "(to himself)"
+LANG_ENGLISH        "That could be of use..."
+LANG_CHINESE        "这个应该有用..."
+
+REFERENCE           23JAK012
+LANG_ENGLISH        "That should do it.  Rest peacefully."
+LANG_CHINESE        "这样就行了吧。好好安息吧。"
+
+
+ENDMARKER
+
+

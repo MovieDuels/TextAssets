@@ -1,0 +1,52 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Good! Your hate has made you powerful."
+LANG_CHINESE        "很好！你的恨意使你充满力量"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "I'm looking forward to completing your training."
+LANG_CHINESE        "我期待你完成训练"
+
+REFERENCE           PO_PAL7
+LANG_ENGLISH        "Now, you will experience the full power of the Dark Side!"
+LANG_CHINESE        "现在，你将体会到充满力量的黑暗原力"
+
+REFERENCE           VAD1
+LANG_ENGLISH        "You don't know the power of the Dark Side."
+LANG_CHINESE        "你对黑暗面的力量一无所知"
+
+REFERENCE           VAD2
+LANG_ENGLISH        "I must obey my Master."
+LANG_CHINESE        "我必须遵循我的师父"
+
+REFERENCE           VAD3
+LANG_ENGLISH        "Yes, Master."
+LANG_CHINESE        "是的，师父"
+
+REFERENCE           ANI1_BONUS
+LANG_ENGLISH        "How can you do this!? This is outrageous. It's unfair!"
+LANG_CHINESE        "你们怎么可以这样？我无法忍受。这不公平！"
+
+REFERENCE           ANI1
+LANG_ENGLISH        "I was about to say that."
+LANG_CHINESE        "我正想这么说"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "You're shorter than I expected."
+LANG_CHINESE        "我也以为你会高一点的"
+
+ENDMARKER

@@ -1,0 +1,125 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           21KYK001
+LANG_ENGLISH        "I'm going with you on this one.  Rosh disappeared near Byss and it's too dangerous for anyone to go alone."
+LANG_CHINESE        "这次我和你一起去。洛西就是在比斯附近失踪的,再单枪匹马地来太危险了."
+
+REFERENCE           21JAK001
+NOTES               "(concentrating)"
+LANG_CHINESE        "这里我感觉不到黑暗原力，凯尔."
+
+REFERENCE           21KYK002
+LANG_ENGLISH        "Me neither.  That's not good. Tavion must have been here already."
+LANG_CHINESE        "我也一样，事情不妙啊，特维安肯定来过这里."
+
+REFERENCE           21KYK003
+LANG_ENGLISH        "They've got a tractor beam on us.  I can't break free!"
+LANG_CHINESE        "他们对我们发射了牵引光束，我们挣脱不了了!"
+
+REFERENCE           21KYK004
+LANG_ENGLISH        "Okay here's the plan:  I served on one of these ships back in my Imperial days.  You disable the tractor beam and I'll trigger the ship's self-destruct.  Ready?"
+LANG_CHINESE        "我们这么干：我原来在帝国当兵时，曾在一艘战舰上服役过。你去关掉牵引光束，\n我来想办法让这艘船自爆。听明白了吗?"
+
+REFERENCE           21JAK002
+LANG_ENGLISH        "Ready as I'll ever be."
+LANG_CHINESE        "明白了."
+
+REFERENCE           21KYK005
+LANG_ENGLISH        "Find the tractor beam and disable it!"
+LANG_CHINESE        "找到并关掉牵引光束！"
+
+REFERENCE           21KYK006
+LANG_ENGLISH        "What are you waiting for, an invitation?"
+LANG_CHINESE        "你还在等什么，想让别人来请你？"
+
+REFERENCE           21KYK007
+LANG_ENGLISH        "Go!"
+LANG_CHINESE        "出发!"
+
+REFERENCE           21KYK008
+LANG_ENGLISH        "Jan told me there would be days like this.  Get going!"
+LANG_CHINESE        "简告诉我总会有这样的一天的，行动!"
+
+REFERENCE           21KYK009
+LANG_ENGLISH        "We're not gonna get out of here if you don't do your part!"
+LANG_CHINESE        "如果你不把自己该做的做好，我们就出不去了!"
+
+REFERENCE           21JAK003
+LANG_ENGLISH        "Tractor beam disabled."
+LANG_CHINESE        "牵引光束已关闭."
+
+REFERENCE           21KYK010
+NOTES               "(via comm)"
+LANG_ENGLISH        "Good.  Head back to the ship. I just need a little more time."
+LANG_CHINESE        "好.回飞船来。我只要再多一点时间."
+
+REFERENCE           21KYK011
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden!  Someone must have sent a distress signal.  We've got incoming fighters!"
+LANG_CHINESE        "杰登!肯定有人发出了求救信号.我们被战机的袭击了!"
+
+REFERENCE           21KYK012
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, I still need more time!  Get to the guns and hold off those TIEs!"
+LANG_CHINESE        "杰登,我还要一些时间！用机炮拖延住这些Tie战机!"
+
+REFERENCE           21KYK013
+NOTES               "(via comm)"
+LANG_ENGLISH        "They're sending TIE Bombers!"
+LANG_CHINESE        "他们派出了Tie轰炸机!"
+
+REFERENCE           21KYK014
+NOTES               "(via comm)"
+LANG_ENGLISH        "Good shooting!"
+LANG_CHINESE        "射得好!"
+
+REFERENCE           21KYK015
+NOTES               "(via comm)"
+LANG_ENGLISH        "Just another minute!"
+LANG_CHINESE        "只要再给我点时间!"
+
+REFERENCE           21KYK016
+NOTES               "(via comm)"
+LANG_ENGLISH        "Almost done!"
+LANG_CHINESE        "快做完了!"
+
+REFERENCE           21KYK017
+NOTES               "(via comm)"
+LANG_ENGLISH        "We're taking too much fire!"
+LANG_CHINESE        "炮火太猛了!"
+
+REFERENCE           21KYK018
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, we want this bucket of bolts to explode after we get off it!"
+LANG_CHINESE        "杰登,我们是要炸飞这艘老爷飞船，但是得在我们逃出去后!"
+
+REFERENCE           21KYK019
+NOTES               "(via comm)"
+LANG_ENGLISH        "I'm done, meet me back at the Claw!"
+LANG_CHINESE        "我搞定了，在鸦爪号与我会和!"
+
+REFERENCE           21KYK020
+LANG_ENGLISH        "An Imperial Dreadnaught!  I'm gonna get us out of here!"
+LANG_CHINESE        "一艘帝国无畏级战舰!我们这就出发了!"
+
+REFERENCE           21KYK021
+LANG_ENGLISH        "Let's get out of here.  This ship is gonna blow!"
+LANG_CHINESE        "我们快走吧.这艘船要爆炸了!"
+
+
+ENDMARKER
+
+

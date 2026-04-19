@@ -1,0 +1,971 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "the objectives... duh..."
+
+REFERENCE           LIGHTSIDE_OBJ
+LANG_ENGLISH        "This is set to 2 (failed) if the player has turned Dark Side."
+LANG_CHINESE        "这是设定玩家是否转入原力黑暗面的选择"
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ1
+LANG_ENGLISH        "Make your way to the bridge and confront the Viceroy of the Trade Federation, Nute Gunray."
+LANG_CHINESE        "前往桥上，与贸易联合会总督努特·冈雷对峙。"
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ2
+LANG_ENGLISH        "Turn off the Forcefield."
+LANG_CHINESE        "关闭力场护盾"
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ3
+LANG_ENGLISH        "Find a way to open the blast door."
+LANG_CHINESE        "想办法打开防爆门"
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ4
+LANG_ENGLISH        "Defeat the mysterious Dark Jedi."
+LANG_CHINESE        "击败神秘的黑暗绝地"
+
+REFERENCE           EP1_ENCOUNTER_OBJ1
+LANG_ENGLISH        "Escort Anakin back to the ship."
+LANG_CHINESE        "掩护安纳金回到船上"
+
+REFERENCE           EP1_ENCOUNTER_OBJ2
+LANG_ENGLISH        "Track down the boy and the Jedi. Move on the Jedi first."
+LANG_CHINESE        "追踪这个男孩和绝地。首先追踪绝地"
+
+REFERENCE           EP1_DOTF_OBJ1
+LANG_ENGLISH        "Defeat the Sith Warrior."
+LANG_CHINESE        "打败这个西斯武士"
+
+REFERENCE           EP1_DOTF_OBJ2
+LANG_ENGLISH        "Defeat the Jedi Master and his Padawan. Take out the Jedi Master first."
+LANG_CHINESE        "击败这个绝地大师和他的徒弟。先解决绝地大师"
+
+REFERENCE           EP2_KAMINO_OBJ1
+LANG_ENGLISH        "Track down the Bounty Hunter known as Jango Fett and take him into custody."
+LANG_CHINESE        "追踪这个叫做詹戈。费特的赏金猎人，并将他羁押"
+
+REFERENCE           EP2_KAMINO_OBJ2
+LANG_ENGLISH        "Jedi Knight Obi-Wan Kenobi is after you. You can't let him capture you. Eliminate him!"
+LANG_CHINESE        "绝地武士欧比-旺。克诺比在你身后。你不能被他抓住。干掉他！"
+
+REFERENCE           EP2_CAMP_OBJ1
+LANG_ENGLISH        "Locate your mother in one of the huts, without being detected by the Sandpeople."
+LANG_CHINESE        "找到你母亲所在的一间小屋，不要被沙民发现"
+
+REFERENCE           EP2_CAMP_OBJ2
+LANG_ENGLISH        "Avenge your mother's death by slaughtering the entire Tusken Camp. Leave none alive!"
+LANG_CHINESE        "进入塔斯肯营地屠杀为你的母亲复仇。不要留下活口"
+
+REFERENCE           EP2_ARENA_OBJ1
+LANG_ENGLISH        "Jump down from the balcony, and bring Obi-Wan and Anakin a lightsaber."
+LANG_CHINESE        "从露台上跳下，并将光剑带给欧比——旺和安纳金"
+
+REFERENCE           EP2_ARENA_OBJ2
+LANG_ENGLISH        "Take out the Snipers."
+LANG_CHINESE        "解决这个狙击手"
+
+REFERENCE           EP2_ARENA_OBJ3
+LANG_ENGLISH        "Jedi Master Shaak Ti has been kidnapped. Make your way to the Catacombs of the Arena and save her."
+LANG_CHINESE        "绝地大师莎克。提被绑架了。进入到地下墓穴的竞技场，并解救她"
+
+REFERENCE           EP2_ARENA_OBJ4
+LANG_ENGLISH        "Defeat the Magnaguard."
+LANG_CHINESE        "击败电磁守卫机器人"
+
+REFERENCE           EP2_ARENA_OBJ5
+LANG_ENGLISH        "Defeat the Jedi Hunter Droid."
+LANG_CHINESE        "击败绝地狩猎者机器人"
+
+REFERENCE           EP2_ARENA_OBJ6
+LANG_ENGLISH        "Escort Shaak Ti back to the Arena."
+LANG_CHINESE        "掩护莎克·提回到竞技场"
+
+REFERENCE           EP2_ARENA_OBJ7
+LANG_ENGLISH        "Defeat Jango Fett."
+LANG_CHINESE        "击败詹戈·费特"
+
+REFERENCE           EP2_ARENA_JANGO_OBJ1
+LANG_ENGLISH        "Eliminate as many Jedi as you can. Jedi Masters will be too strong to kill. Focus on Common Jedi."
+LANG_CHINESE        "尽可能的解决更多的绝地。绝地大师很难被杀。专注于普通绝地"
+
+REFERENCE           EP2_ARENA_JANGO_OBJ2
+LANG_ENGLISH        "A Jedi is threatening Count Dooku. Get up there and eliminate him."
+LANG_CHINESE        "一个绝地正在威胁杜库。赶去那里解决他"
+
+REFERENCE           EP2_ARENA_JANGO_OBJ3
+LANG_ENGLISH        "Defeat Jedi Master Mace Windu."
+LANG_CHINESE        "击败绝地大师梅斯·温度"
+
+REFERENCE           EP2_ARENA_JANGO_OBJ4
+LANG_ENGLISH        "Your work here is finished. Make your way to the balcony."
+LANG_CHINESE        "你的工作完成了。去到露台"
+
+REFERENCE           EP2_GEONOSIS_OBJ1
+LANG_ENGLISH        "Destroy the Battledroids."
+LANG_CHINESE        "摧毁战斗机器人"
+
+REFERENCE           EP2_GEONOSIS_OBJ2
+LANG_ENGLISH        "Battledroids are firing rockets from the top of the mountain. Find a way up there and take them out."
+LANG_CHINESE        "战斗机器人正在山顶发射火箭。赶到那儿解决掉他们"
+
+REFERENCE           EP2_GEONOSIS_OBJ3
+LANG_ENGLISH        "Destroy the Separatists Power Cells."
+LANG_CHINESE        "摧毁分离势力电池"
+
+REFERENCE           EP2_GEONOSIS_OBJ4
+LANG_ENGLISH        "Return to the Command Center."
+LANG_CHINESE        "返回指挥中心"
+
+REFERENCE           EP2_GEONOSIS_OBJ5
+LANG_ENGLISH        "Destroy the Techno Union Ship before it escapes into space. Get closer to increase the damage!"
+LANG_CHINESE        "在进入太空前摧毁技术联盟的船。靠近一点增加威力！"
+
+REFERENCE           EP2_GEONOSIS_DOOKU_OBJ1
+LANG_ENGLISH        "Eliminate as many Clones and Jedi as you can."
+LANG_CHINESE        "尽可能的消灭克隆人和绝地"
+
+REFERENCE           EP2_GEONOSIS_DOOKU_OBJ2
+LANG_ENGLISH        "Your work here is finished. Return to the Speeder bike under the mountain."
+LANG_CHINESE        "你的任务完成了。回到山脚下的摩托艇"
+
+REFERENCE           EP2_RETREAT_OBJ1
+LANG_ENGLISH        "Defeat Count Dooku."
+LANG_CHINESE        "击败杜库伯爵"
+
+REFERENCE           EP2_RETREAT_OBJ2
+LANG_ENGLISH        "Defeat the Jedi."
+LANG_CHINESE        "击败这个绝地"
+
+REFERENCE           EP3_ROC_HANGAR_OBJ1
+LANG_ENGLISH        "Destroy all the Battledroids so R2 can locate the chancellor."
+LANG_CHINESE        摧毁所有战斗机器人，这样R2可以找到议长""
+
+REFERENCE           EP3_ROC_HANGAR_OBJ2
+LANG_ENGLISH        "Reach the elevators."
+LANG_CHINESE        "到底电梯"
+
+REFERENCE           EP3_ROC_HANGAR_OBJ3
+LANG_ENGLISH        "Find a way to activate the elevators."
+LANG_CHINESE        "找到激活电梯的办法"
+
+REFERENCE           EP3_ROC_OBJ2
+LANG_ENGLISH        "Defeat Jedi Knight, Anakin Skywalker and his master, Obi-Wan Kenobi."
+LANG_CHINESE        "打败绝地武士，安纳金?天行者和他的师父，欧比-旺·克诺比"
+
+REFERENCE           EP3_GRIEVOUS_OBJ1
+LANG_ENGLISH        "Defeat the Leader of the Droid army, General Grievous."
+LANG_CHINESE        "击败机器人军队的领袖，格里菲斯将军"
+
+REFERENCE           EP3_GRIEVOUS_OBJ2
+LANG_ENGLISH        "Eliminate the Magnaguards."
+LANG_CHINESE        "解决电磁守卫机器人"
+
+REFERENCE           EP3_GRIEVOUS_OBJ3
+LANG_ENGLISH        "Destroy Obi-Wan Kenobi."
+LANG_CHINESE        "杀掉欧比-旺·克诺比"
+
+REFERENCE           EP3_ARREST_OBJ1
+LANG_ENGLISH        "Arrest Chancellor Palpatine and bring him to justice."
+LANG_CHINESE        "逮捕帕尔帕廷议长，并带它去审判"
+
+REFERENCE           EP3_ARREST_OBJ2
+LANG_ENGLISH        "Eliminate the traitorous Jedi Masters."
+LANG_CHINESE        "消灭叛变的绝地大师"
+
+REFERENCE           EP3_JT_OBJ1
+LANG_ENGLISH        "Order 66 is in full effect. Enact Operation: Knightfall and kill all the Jedi in the Temple. Do not hesitate, show no mercy."
+LANG_CHINESE        "全面执行66号命令。制定行动：骑士陨落，并且杀掉圣殿中的所有绝地武士。不要犹豫，不要仁慈"
+
+REFERENCE           EP3_JT_OBJ2
+LANG_ENGLISH        "Locate the Jedi Beacon, in the center of the Temple."
+LANG_CHINESE        "找到在圣殿中心的绝地塔"
+
+REFERENCE           EP3_JT_OBJ3
+LANG_ENGLISH        "There are two computers controlling the Force Field. Locate and deactivate them to disable the Force field."
+LANG_CHINESE        "这里有两台控制立场护盾的电脑。找到并关闭他们来关闭立场护盾"
+
+REFERENCE           EP3_JT_OBJ4
+LANG_ENGLISH        "Defeat Jedi Master Cin Drallig."
+LANG_CHINESE        "杀掉绝地大师金·德拉利格"
+
+REFERENCE           EP3_ASSASSINATION_OBJ1
+LANG_ENGLISH        "The Separatists have gathered in the Central Control Room. Take "care" of them."
+LANG_CHINESE        "分离主义者已经进入到了中心控制室。”关照“他们"
+
+REFERENCE           EP3_ASSASSINATION_OBJ2
+LANG_ENGLISH        "Leave none alive!"
+LANG_CHINESE        "不留活口"
+
+REFERENCE           EP3_AFTERMATH_OBJ1
+LANG_ENGLISH        "Defeat any Clones trying to halt your advancement."
+LANG_CHINESE        "杀掉任何阻止你前进的克隆人"
+
+REFERENCE           EP3_AFTERMATH_OBJ2
+LANG_ENGLISH        "There are four computers sending signals for Republic reinforcements in the Library, find and destroy them."
+LANG_CHINESE        "图书馆里面有4台电脑正在发送信号请求共和国的支援，找到并摧毁他们"
+
+REFERENCE           EP3_MOTF_OBJ1
+LANG_ENGLISH        "Put an end to the Emperor's tyranny by defeating him once and for all."
+LANG_CHINESE        "结束皇帝的暴政，一次性击败他"
+
+REFERENCE           EP3_MOTF_OBJ2
+LANG_ENGLISH        "Jump to the top and confront the Emperor."
+LANG_CHINESE        "跳到顶部面对皇帝"
+
+REFERENCE           EP3_MOTF_SIDIOUS_OBJ1
+LANG_ENGLISH        "Eradicate the Jedi Order once and for all, by defeating Grandmaster Yoda."
+LANG_CHINESE        "击败绝地宗师尤达以一次性根除绝地武士团"
+
+REFERENCE           EP3_MOTF_SIDIOUS_OBJ2
+LANG_ENGLISH        "Jump your way to the top and gain the upper hand."
+LANG_CHINESE        "跳到顶部以占据上风"
+
+REFERENCE           EP3_BOTH_OBJ1
+LANG_ENGLISH        "Defeat your former Padawan, Anakin Skywalker."
+LANG_CHINESE        "击败你的爱人——帕德梅，安纳金·天行者"
+
+REFERENCE           EP3_BOTH_OBJ2
+LANG_ENGLISH        "Defeat your former Master, Obi-Wan Kenobi."
+LANG_CHINESE        "击败你的师父，欧比-旺·克诺比"
+
+REFERENCE           EP4_TA_SITH_OBJ1
+LANG_ENGLISH        "Destroy the Rebel Scum, and retrieve the plans to the Death Star."
+LANG_CHINESE        "杀掉所有的叛军渣滓，取回死星的设计图"
+
+REFERENCE           EP6_TGPOC_JEDI_OBJ1
+LANG_ENGLISH        "Board Jabba's Sail Barge and rescue Leia."
+LANG_CHINESE        "登上贾巴的风帆船营救莱雅"
+
+REFERENCE           EP6_TGPOC_JEDI_OBJ2
+LANG_ENGLISH        "Kill all of Jabba's guards to give Leia time to activate the cannon."
+LANG_CHINESE        "杀掉所有贾巴的护卫让莱雅有时间使用炮台"
+
+REFERENCE           EP6_FAS_JEDI_OBJ1
+LANG_ENGLISH        "Turn your father, formerly known as Anakin Skywalker, back to the light side."
+LANG_CHINESE        "转化你的父亲，以前的安纳金·天行者，回到光明面"
+
+REFERENCE           EP6_FAS_SITH_OBJ1
+LANG_ENGLISH        "Resist the call of the light side of the Force and weaken Luke to expose his darker side."
+LANG_CHINESE        "抵抗原力光明面的召唤，削弱卢克，暴露他的黑暗面"
+
+REFERENCE           EP7_ACC_JEDI_OBJ1
+LANG_ENGLISH        "Defeat the wounded Kylo Ren."
+LANG_CHINESE        "击败受伤的凯洛·伦"
+
+REFERENCE           EP7_ACC_SITH_OBJ1
+LANG_ENGLISH        "Defeat Finn and Rey to claim your grandfather's lightsaber."
+LANG_CHINESE        "击败芬恩和蕾以夺回你外公的光剑"
+
+REFERENCE           EP8_FT_JEDI_OBJ1
+LANG_ENGLISH        "Defeat your old student, Kylo Ren."
+LANG_CHINESE        "击败你曾经的学生，凯洛·伦"
+
+REFERENCE           EP8_FT_SITH_OBJ1
+LANG_ENGLISH        "Defeat your old master, Luke Skywalker."
+LANG_CHINESE        "击败你曾经的老师，卢克·天行者"
+
+REFERENCE           ROTE_OLDENEMY_OBJ1
+LANG_ENGLISH        "Your old enemy, Darth Maul has returned. Defeat him once and for all."
+LANG_CHINESE        "你的老对手，达斯·摩尔回来了。一次性击败他"
+
+REFERENCE           ROTE_OLDENEMY_OBJ2
+LANG_ENGLISH        "After years of searching, you have finally found him. Kill Obi-Wan Kenobi once and for all."
+LANG_CHINESE        "经过多年搜寻，你终于找到它了。一次性杀掉欧比-旺?克诺比"
+
+REFERENCE           TFU_FH_OBJ1
+LANG_ENGLISH        "Make your way to the center of the Temple, to unlock the truth about your past."
+LANG_CHINESE        "进入圣殿的中心，找到你过去的真相"
+
+REFERENCE           TFU_FH_OBJ2
+LANG_ENGLISH        "Eliminate all imperials trying to stop you."
+LANG_CHINESE        "清除所有试图阻止你的帝国势力"
+
+REFERENCE           TFU_FH_OBJ3
+LANG_ENGLISH        "Defeat the illusion of the Sith Lord Darth Phobos."
+LANG_CHINESE        "击败西斯尊主达斯?福博斯的幻象"
+
+REFERENCE           EP3_BONUS_JUMP_OBJ1
+LANG_ENGLISH        "Jump your way to the other side of the canyon."
+LANG_CHINESE        "跳到峡谷的另外一边"
+
+REFERENCE           DF2_DARKJEDI_OBJ1
+LANG_ENGLISH        "Fend off Jerec's deadly Dark Jedi."
+LANG_CHINESE        "击退杰雷克致命的黑暗绝地"
+
+REFERENCE           DF2_YUN_OBJ1
+LANG_ENGLISH        "Exercise the Force and defeat Yun. This is the test of a true Jedi."
+LANG_CHINESE        "运用原力击败云。这是真正绝地武士的考验"
+
+REFERENCE           DF2_BROTHERS_OBJ1
+LANG_ENGLISH        "Defeat the deadly Gorc and Pic."
+LANG_CHINESE        "击败致命的戈克和皮克"
+
+REFERENCE           DF2_MAW_OBJ1
+LANG_ENGLISH        "Destroy Maw or perish."
+LANG_CHINESE        "消灭莫或死亡"
+
+REFERENCE           DF2_SARISS_OBJ1
+LANG_ENGLISH        "Defeat Sariss so you can find another route into the Valley."
+LANG_CHINESE        "击败萨丽斯，这样你就可以找到进入山谷的另一条路线"
+
+REFERENCE           DF2_BOC_OBJ1
+LANG_ENGLISH        "Boc is Jerec's last line of defense. You must destroy him to confront Jerec himself."
+LANG_CHINESE        "博克是杰雷克最后的防线。你必须消灭他才能面对杰雷克本人。"
+
+REFERENCE           DF2_JEREC_OBJ1
+LANG_ENGLISH        "As Jerec revives in the core, he pulls at the Jedi monuments. Stop his rejuvination by destroying the monuments at precise spots, and defeat the Dark Jedi."
+LANG_CHINESE        "当杰瑞克在核心中复活时，他会拉起绝地纪念碑。通过在精确位置摧毁这些纪念碑来阻止他的复生，并击败黑暗绝地"
+
+REFERENCE           MOTS_KYLE_OBJ1
+LANG_ENGLISH        "The Dark side of the Force has corrupted your Master and friend Kyle Katarn. Save him from the path of the Sith."
+LANG_CHINESE        "原力的黑暗面已经腐蚀了你的大师和朋友凯尔·卡塔恩。拯救他脱离西斯的道路"
+
+REFERENCE           HOTH2_OBJ1
+LANG_ENGLISH        "Investigate the site where Luke had his force vision."
+LANG_CHINESE        "调查Luke原力感应的地点。"
+
+
+REFERENCE           HOTH2_OBJ2
+LANG_ENGLISH        "Find a way into Echo Base."
+LANG_CHINESE        "找到进入回声基地的路"
+
+REFERENCE           HOTH2_OBJ3
+LANG_ENGLISH        "Find an alternate entrance to Echo Base."
+LANG_CHINESE        "找到进入回声基地的入口。"
+
+
+REFERENCE           HOTH3_OBJ1
+LANG_ENGLISH        "Discover what the Imperials are doing in Echo Base"
+LANG_CHINESE        "寻找帝国军队在回声基地干什么"
+
+REFERENCE           HOTH3_OBJ2
+LANG_ENGLISH        "Make your way to the Hanger Bay to confront Alora."
+LANG_CHINESE        "确保你的道路正对着对抗Alora的所在地。"
+
+
+REFERENCE           HOTH3_OBJ3
+LANG_ENGLISH        "Defeat Alora."
+LANG_CHINESE        "打败Alora。"
+
+REFERENCE           T2_DPREDICAMENT_OBJ1
+LANG_ENGLISH        "Escape the Prison!"
+LANG_CHINESE        "逃离监狱!"
+
+REFERENCE           T2_DPREDICAMENT_OBJ2
+LANG_ENGLISH        "Disable security locks from Commander's Office."
+LANG_CHINESE        "在指挥官的办公室关闭安全锁。"
+
+REFERENCE           T2_DPREDICAMENT_OBJ3
+LANG_ENGLISH        "Gain access to the Docking Bay."
+LANG_CHINESE        "找到接口。"
+
+REFERENCE           T2_DPREDICAMENT_OBJ4
+LANG_ENGLISH        "Defeat Rax Joris to get your lightsaber back."
+LANG_CHINESE        "消灭Rax Joris去拿回你的光剑。"
+
+REFERENCE           T2_RANCOR_OBJ1
+LANG_ENGLISH        "Infiltrate the Hutt's stronghold and locate the prisoners."
+LANG_CHINESE        "消灭Rax Joris去拿回你的光剑。"
+
+REFERENCE           T2_RANCOR_OBJ2
+LANG_ENGLISH        "Release the prisoners from their cells and guide them to the ventilation pipe for pickup by Kyle."
+LANG_CHINESE        "从囚房控制室释放囚犯，并引导他们到通风管与Kyle对接。"
+
+REFERENCE           T2_RANCOR_OBJ3
+LANG_ENGLISH        "Clear the way to the exit."
+LANG_CHINESE        "扫清到出口的道路。"
+
+REFERENCE           T2_RANCOR_OBJ4
+LANG_ENGLISH        "Get back to the access tunnel for extraction."
+LANG_CHINESE        "回到一开始进入的隧道。"
+
+REFERENCE           T2_RANCOR_OBJ6
+LANG_ENGLISH        "Avoid the rancor."
+LANG_CHINESE        "回避rancor兽。"
+
+REFERENCE           T2_RANCOR_OBJ5
+LANG_ENGLISH        "You have saved %d of %d prisoners."
+LANG_CHINESE        "你拯救了%个囚犯。"
+
+REFERENCE           T2_RANCOR_OBJ5_2
+NOTES               "This is called in code if the current number saved is greater than the amount that had to be saved to complete the objective."
+LANG_ENGLISH        "You have saved %d of %d prisoners and %d additional."
+LANG_CHINESE        "你拯救了%个囚犯和%个额外的。"
+
+REFERENCE           T2_WEDGE_OBJ1
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Shield Generator building."
+LANG_CHINESE        "在发电机建筑屋顶的护盾上放置一个定位炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ2
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Hangar."
+LANG_CHINESE        "在机库顶上放置一个定位炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ3
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Barracks."
+LANG_CHINESE        "在兵营上面放置一个定位炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ4
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Communications Array."
+LANG_CHINESE        "在通讯阵列上放置一个定位炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ5
+LANG_ENGLISH        "Place a targeting beacon on the Power Generator."
+LANG_CHINESE        "在发电机上放置一个定位炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ6
+LANG_ENGLISH        "Place a targeting beacon inside the Command Tower."
+LANG_CHINESE        "在指挥塔上放置一个定位炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ7
+LANG_ENGLISH        "Stop the Imperials from detonating the Tibanna Gas Tanks."
+LANG_CHINESE        "阻止帝国军队引爆Tibanna气体储存罐。"
+
+REFERENCE           T2_WEDGE_OBJ8
+LANG_ENGLISH        "Return to your Ship."
+LANG_CHINESE        "回到你的飞船。"
+
+REFERENCE           T2_WEDGE_OBJ9
+LANG_ENGLISH        "Disarm the four remaining Bombs on the Tibanna Gas Tanks."
+LANG_CHINESE        "解除其余四枚在Tibanna气体储存罐的炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ10
+LANG_ENGLISH        "Disarm the three remaining Bombs on the Tibanna Gas Tanks."
+LANG_CHINESE        "解除其余三枚在Tibanna气体储存罐的炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ11
+LANG_ENGLISH        "Disarm the two remaining Bombs on the Tibanna Gas Tanks."
+LANG_CHINESE        "解除其余二枚在Tibanna气体储存罐的炸弹。"
+
+REFERENCE           T2_WEDGE_OBJ12
+LANG_ENGLISH        "Disarm the one remaining Bomb on the Tibanna Gas Tanks."
+LANG_CHINESE        "解除其余一枚在Tibanna气体储存罐的炸弹。"
+
+REFERENCE           T3_RIFT_OBJ1
+LANG_ENGLISH        "Tavion's minions are preparing for her arrival. Stop them from desecrating the Jedi Tomb."
+LANG_CHINESE        "Tavion的走狗们正准备她的到来。阻止他们侮辱Jedi墓。"
+
+REFERENCE           T3_RIFT_OBJ2
+LANG_ENGLISH        "Defeat the Jedi and find a way to protect the Jedi Master's coffin."
+LANG_CHINESE        "打败Sith并且保护Jedi大师的棺木，寻找出路。"
+
+REFERENCE           T3_RIFT_OBJ3
+LANG_ENGLISH        "Escape from the tomb."
+LANG_CHINESE        "从墓里逃离。"
+
+REFERENCE           T1_DANGER_OBJ1
+LANG_ENGLISH        "Find and bring back to your ship an Energy Cell."
+LANG_CHINESE        "找到并且带回你的船上的能源组织。"
+
+REFERENCE           T1_DANGER_OBJ2
+LANG_ENGLISH        "Find and bring back to your ship a Power Coupling."
+LANG_CHINESE        "找到并且带回你的船上的能量连接器。"
+
+REFERENCE           T1_DANGER_OBJ3
+LANG_ENGLISH        "Find and bring back to your ship a Damper."
+LANG_CHINESE        "找到并且带回你的船上的能量阻尼器。"
+
+REFERENCE           T1_DANGER_OBJ4
+LANG_ENGLISH        "Find and bring back to your ship a Power Converter."
+LANG_CHINESE        "找到并且带回你的船上的能量转换炉。"
+
+REFERENCE           T1_DANGER_OBJ5
+LANG_ENGLISH        "Only one ship part may be carried at a time.  Return a part to the ship in order to retrieve another."
+LANG_CHINESE        "只有船的一部分可能会运行，返回那一部分以检索另外一部分。"
+
+REFERENCE           T3_BOUNTY_OBJ1
+LANG_ENGLISH        "Destroy all Weapon Caches."
+LANG_CHINESE        "摧毁所有武器储藏。"
+
+REFERENCE           T3_BOUNTY_OBJ2
+LANG_ENGLISH        "Return to your Ship."
+LANG_CHINESE        "回到你的飞船。"
+
+REFERENCE           T3_BOUNTY_OBJ3
+LANG_ENGLISH        "Six Weapon Caches left."
+LANG_CHINESE        "剩余六个武器储藏点。"
+
+REFERENCE           T3_BOUNTY_OBJ4
+LANG_ENGLISH        "Five Weapon Caches left."
+LANG_CHINESE        "剩余五个武器储藏点。"
+
+REFERENCE           T3_BOUNTY_OBJ5
+LANG_ENGLISH        "Four Weapon Caches left."
+LANG_CHINESE        "剩余四个武器储藏点。"
+
+REFERENCE           T3_BOUNTY_OBJ6
+LANG_ENGLISH        "Three Weapon Caches left."
+LANG_CHINESE        "剩余三个武器储藏点。"
+
+REFERENCE           T3_BOUNTY_OBJ7
+LANG_ENGLISH        "Two Weapon Caches left."
+LANG_CHINESE        "剩余两个武器储藏点。"
+
+REFERENCE           T3_BOUNTY_OBJ8
+LANG_ENGLISH        "One Weapon Cache left."
+LANG_CHINESE        "剩余一个武器储藏点。"
+
+REFERENCE           T3_BOUNTY_OBJ9
+LANG_ENGLISH        "Defeat Boba Fett to get out of this\none alive."
+LANG_CHINESE        "打败Boba Fett以逃脱这里\不能活着。"
+
+REFERENCE           T2_ROGUE_OBJ1
+LANG_ENGLISH        "Capture Lannik Racto."
+LANG_CHINESE        "捕获Lannik Racto。"
+
+REFERENCE           T2_ROGUE_OBJ2
+LANG_ENGLISH        "Gain access to Racto's office building."
+LANG_CHINESE        "找到Racto的办公楼。"
+
+REFERENCE           T2_TRIP_OBJ1
+LANG_ENGLISH        "Meet the contact at his outpost."
+LANG_CHINESE        "在他的前哨和他接触。"
+
+REFERENCE           T2_TRIP_OBJ2
+LANG_ENGLISH        "Escape from the mercenaries and make your way to the far city gate."
+LANG_CHINESE        "逃脱雇佣军并且确保你的道路方向远离这个城市的城门。"
+
+REFERENCE           T3_BYSS_OBJ1
+LANG_ENGLISH        "Disable the tractor beam holding the Raven's Claw in place."
+LANG_CHINESE        "关掉定住鸦爪号的牵引光束。"
+
+REFERENCE           T3_BYSS_OBJ2
+LANG_ENGLISH        "Use the laser turrets at the top of the ship to hold off the attacking TIE fighters"
+LANG_CHINESE        "使用在炮塔顶部的激光束拖延TIE战机的攻击"
+
+REFERENCE           T3_BYSS_OBJ3
+LANG_ENGLISH        "Get back to your Ship."
+LANG_CHINESE        "回到你的飞船。"
+
+REFERENCE           T3_HEVIL_OBJ1
+LANG_ENGLISH        "Reach the top of the tower where the cloaking emitter is located."
+LANG_CHINESE        "到达位于顶部塔那里的伪装发射器。"
+
+REFERENCE           T3_HEVIL_OBJ2
+LANG_ENGLISH        "Set the detonator charges to destroy the Cloak Generator."
+LANG_CHINESE        "设置雷管摧毁隐藏装置的发电机。"
+
+REFERENCE           T3_HEVIL_OBJ3
+LANG_ENGLISH        "Defeat the Noghri guardians."
+LANG_CHINESE        "消灭Noghri人的保护者。"
+
+REFERENCE           T3_STAMP_OBJ1
+LANG_ENGLISH        "Defeat the cultists."
+LANG_CHINESE        "消灭教徒们。"
+
+REFERENCE           T3_STAMP_OBJ2
+LANG_ENGLISH        "Find a way to stop the mutated rancor.  Weapons are useless against it."
+LANG_CHINESE        "寻找阻止变异Rancor的方法。武器对它没有用。"
+
+REFERENCE           T3_STAMP_OBJ3
+LANG_ENGLISH        "Place a new crate over the conveyor belt to trap the mutant rancor."
+LANG_CHINESE        "在传送带上放置一个箱子来困住变异Rancor。"
+
+REFERENCE           T3_STAMP_OBJ4
+LANG_ENGLISH        "Trap the mutant rancor on the conveyor belt by using the hanging crate."
+LANG_CHINESE        "使用传送带的吊箱子困住变异Rancor"
+
+REFERENCE           TASPIR1_OBJ1
+LANG_ENGLISH        "Gain access to the Imperial Power facility."
+LANG_CHINESE        "进入帝国电力发电设施。"
+
+REFERENCE           TASPIR1_OBJ2
+LANG_ENGLISH        "Extend the bridge and heat shields leading to the Security Override controls."
+LANG_CHINESE        "延长桥梁和热盾去安保超权控制器。"
+
+REFERENCE           TASPIR1_OBJ3
+LANG_ENGLISH        "Enable power to the main walkway by using the Security Override controls."
+LANG_CHINESE        "用安保超权控制器使走道可以通行。"
+
+REFERENCE           TASPIR1_OBJ4
+LANG_ENGLISH        "Extend the main walkway to the Imperial Power facility."
+LANG_CHINESE        "延长通往的电力设施的主要通道。"
+
+REFERENCE           TASPIR2_OBJ1
+LANG_ENGLISH        "Find Rosh Penin."
+LANG_CHINESE        "找到Rosh Penin。"
+
+REFERENCE           TASPIR2_OBJ2
+LANG_ENGLISH        "Defeat Alora."
+LANG_CHINESE        "打败Alora。"
+
+REFERENCE           VJUN1_OBJ1
+LANG_ENGLISH        "Make your way to Bast Castle through the acidic rain."
+LANG_CHINESE        "确保你在酸雨下通过Bast城堡。"
+
+
+REFERENCE           VJUN1_OBJ2
+LANG_ENGLISH        "Find a way to the emplaced gun and use it to destroy the Tie-Bombers."
+REFERENCE           VJUN1_OBJ2
+LANG_CHINESE        "找到一个固定炮台并且用它来摧毁轰炸机。"
+
+REFERENCE           VJUN2_OBJ1
+LANG_ENGLISH        "Find a way into the upper parts of the Castle."
+LANG_CHINESE        "找到进入城堡上层的方法。"
+
+REFERENCE           VJUN3_OBJ1
+LANG_ENGLISH        "Investigate Cult activities."
+LANG_CHINESE        "调查教徒活动。"
+
+REFERENCE           YAVIN1_OBJ1
+LANG_ENGLISH        "Make your way to the Massassi Temple with Rosh."
+LANG_CHINESE        "确保你和Rosh一起通往Massassi庙宇。"
+
+REFERENCE           YAVIN1_OBJ2
+LANG_ENGLISH        "Find a way to rescue Rosh from the ledge he is on."
+LANG_CHINESE        "找一种把Rosh从岩壁上解救出来的方法。"
+
+REFERENCE           YAVIN2_OBJ1
+LANG_ENGLISH        "Complete the Training Course."
+LANG_CHINESE        "完成培训课程。"
+
+REFERENCE           T1_FATAL_OBJ1
+LANG_ENGLISH        "Disarm the 5 bombs the Imperials have placed."
+LANG_CHINESE        "解除五枚帝国已经设置的炸弹。"
+
+REFERENCE           T1_FATAL_OBJ2
+LANG_ENGLISH        "Disarm the last 4 bombs."
+LANG_CHINESE        "解除剩余四枚炸弹。"
+
+REFERENCE           T1_FATAL_OBJ3
+LANG_ENGLISH        "Disarm the last 3 bombs."
+LANG_CHINESE        "解除剩余三枚炸弹。"
+
+REFERENCE           T1_FATAL_OBJ4
+LANG_ENGLISH        "Disarm the last 2 bombs."
+LANG_CHINESE        "解除剩余两枚炸弹。"
+
+REFERENCE           T1_FATAL_OBJ5
+LANG_ENGLISH        "Disarm the last bomb."
+LANG_CHINESE        "解除剩余一枚炸弹。"
+
+REFERENCE           T1_FATAL_OBJ6
+LANG_ENGLISH        "Get back to your ship."
+LANG_CHINESE        "回到你的飞船。"
+
+REFERENCE           KOR1_OBJ1
+LANG_ENGLISH        "Find a way through the Sith Catacombs to the Valley floor."
+LANG_CHINESE        "找到一种穿过Sith墓谷地面的方法。"
+
+REFERENCE           KOR1_OBJ2
+LANG_ENGLISH        "Find a way to open the door to the valley."
+LANG_CHINESE        "寻找打开山谷的门。"
+
+REFERENCE           KOR2_OBJ1
+LANG_ENGLISH        "Navigate the ancient ruins and enter the Tomb of Ragnos."
+LANG_CHINESE        "调查古代遗址并且进入Ragnos的墓穴。"
+
+REFERENCE           KOR2_OBJ2
+LANG_ENGLISH        "Stop Tavion from resurrecting Marka Ragnos."
+LANG_CHINESE        "阻止Tavion复活Marka Ragnos。"
+LANG_CHINESE        "消灭Tavion/Ragnos。"
+
+REFERENCE           KOR2_OBJ3
+LANG_ENGLISH        "Defeat Tavion/Ragnos."
+LANG_CHINESE        "消灭Tavion/Ragnos。"
+
+REFERENCE           KOR2_OBJ4
+LANG_ENGLISH        "Defeat Kyle Katarn."
+LANG_CHINESE        "消灭Kyle Katarn。"
+
+REFERENCE           T1_RAIL_OBJ1
+LANG_ENGLISH        "Make your way to the front of the tram."
+LANG_CHINESE        "确保你的道路通往前方的有轨电车。"
+
+REFERENCE           T1_RAIL_OBJ2
+LANG_ENGLISH        "Disarm the bomb."
+LANG_CHINESE        "接触炸弹。"
+
+REFERENCE           T1_RAIL_OBJ3
+LANG_ENGLISH        "Stop the tram from reaching the station."
+LANG_CHINESE        "阻止有轨电车到达车站。"
+
+REFERENCE           T1_SOUR_OBJ1
+LANG_ENGLISH        "Eliminate the mercenary threat."
+LANG_CHINESE        "消除雇佣军的威胁。"
+
+REFERENCE           T1_SOUR_OBJ2
+LANG_ENGLISH        "Disable the tractor beams holding the Raven's Claw."
+LANG_CHINESE        "关闭定住鸦爪号的牵引光束。"
+
+REFERENCE           T1_SOUR_OBJ3
+LANG_ENGLISH        "Disable the tractor beams holding the Millennium Falcon."
+LANG_CHINESE        "关闭定住千年隼的牵引光束。"
+
+REFERENCE           T1_SOUR_OBJ4
+LANG_ENGLISH        "Get back to the Millenium Falcon."
+LANG_CHINESE        "回到千年隼。"
+
+REFERENCE           T1_SURPRISE_OBJ1
+LANG_ENGLISH        "Locate the missing Sandcrawler."
+LANG_CHINESE        "寻找失踪的Sandcrawler。"
+
+REFERENCE           T1_SURPRISE_OBJ2
+LANG_ENGLISH        "Eliminate the Tusken Raiders."
+LANG_CHINESE        "消灭Tusken袭击者。"
+
+REFERENCE           T1_SURPRISE_OBJ3
+LANG_ENGLISH        "Retrieve the droid from the Sandcrawler."
+LANG_CHINESE        "从Sandcrawler找回机器人。"
+
+REFERENCE           T1_SURPRISE_OBJ4
+LANG_ENGLISH        "Prevent the droid from being destroyed."
+LANG_CHINESE        "防止机器人被摧毁。"
+
+REFERENCE           KEJIM_POST_OBJ1
+LANG_ENGLISH        "Investigate the abandoned Imperial outpost."
+LANG_CHINESE        "调查这个荒废的帝国前哨站"
+
+REFERENCE           KEJIM_POST_OBJ2
+LANG_ENGLISH        "Engage Remnant forces in the area."
+LANG_CHINESE        "清除这个区域的帝国武力"
+
+REFERENCE           KEJIM_BASE_OBJ1
+LANG_ENGLISH        "Investigate the hidden section of the outpost."
+LANG_CHINESE        "调查这个前哨站的隐匿区域"
+
+REFERENCE           KEJIM_BASE_OBJ2
+LANG_ENGLISH        "Engage Remnant forces in the area."
+LANG_CHINESE        "清除这个地区的帝国势力"
+
+REFERENCE           KEJIM_BASE_OBJ3
+LANG_ENGLISH        "Rendezvous with Jan and the Raven's Claw."
+LANG_CHINESE        "回到乌鸦之爪号和珍会和"
+
+REFERENCE           ARTUS_MINE_OBJ1
+LANG_ENGLISH        "Infiltrate the mining facility."
+LANG_CHINESE        "渗透进入采矿设施"
+
+REFERENCE           ARTUS_MINE_OBJ2
+LANG_ENGLISH        "Cripple the mining operation."
+LANG_CHINESE        "破坏采矿作业"
+
+REFERENCE           ARTUS_MINE_OBJ3
+LANG_ENGLISH        "Proceed to the detention facility."
+LANG_CHINESE        "移动到拘留设施"
+
+REFERENCE           ARTUS_DETENTION_OBJ1
+LANG_ENGLISH        "Rescue the miners from the prison. Release the prisoners."
+LANG_CHINESE        "从监狱中救出矿工，释放犯人"
+
+REFERENCE           ARTUS_DETENTION_OBJ2
+LANG_ENGLISH        "Make your way to the surface."
+LANG_CHINESE        "找到出口回到地表"
+
+REFERENCE           ARTUS_TOPSIDE_OBJ1
+LANG_ENGLISH        "Disable the external defenses to allow evacuation of the prisoners."
+LANG_CHINESE        "瘫痪阻碍犯人撤离行动的外部防御设施"
+
+REFERENCE           ARTUS_TOPSIDE_OBJ2
+LANG_ENGLISH        "Rendezvous with Jan and the Raven's Claw."
+LANG_CHINESE        "回到乌鸦之爪号和珍会和"
+
+REFERENCE           YAVIN_TEMPLE_OBJ1
+LANG_ENGLISH        "Meet with Luke Skywalker."
+LANG_CHINESE        "和卢克?天行者会面"
+
+REFERENCE           YAVIN_TRIAL_OBJ1
+LANG_ENGLISH        "Complete each trial to regain your Force abilities."
+LANG_CHINESE        "完成每一项考验以取回你的原力技巧"
+
+REFERENCE           YAVIN_TRIAL_OBJ2
+LANG_ENGLISH        "Search the trial grounds for your lightsaber."
+LANG_CHINESE        "搜索试炼场地以取回你的光剑"
+
+REFERENCE           NS_STREETS_OBJ1
+LANG_ENGLISH        "Track down the gangster, Reelo Baruk."
+LANG_CHINESE        "找到黑帮老大，里洛?巴克"
+
+REFERENCE           NS_STREETS_OBJ2
+LANG_ENGLISH        "Escape the bar alive."
+LANG_CHINESE        "活着逃出酒吧"
+
+REFERENCE           NS_STREETS_OBJ3
+LANG_ENGLISH        "Find the entrance to Reelo's hideout."
+LANG_CHINESE        "找到里洛窝点的入口"
+
+REFERENCE           NS_HIDEOUT_OBJ1
+LANG_ENGLISH        "Track down Reelo Baruk."
+LANG_CHINESE        "找到里洛?巴克"
+
+REFERENCE           NS_HIDEOUT_OBJ2
+LANG_ENGLISH        "Release Lando."
+LANG_CHINESE        "释放兰多"
+
+REFERENCE           NS_STARPAD_OBJ1
+LANG_ENGLISH        "Find Lando's ship, the Lady Luck."
+LANG_CHINESE        "找到兰多的船——幸运女神号"
+
+REFERENCE           NS_STARPAD_OBJ2
+LANG_ENGLISH        "Help Lando prep Lady Luck for takeoff."
+LANG_CHINESE        "帮助兰多完成幸运女神号的准备起飞"
+
+REFERENCE           NS_STARPAD_OBJ3
+LANG_ENGLISH        "Open the roof sections."
+LANG_CHINESE        "打开穹顶闸门"
+
+REFERENCE           NS_STARPAD_OBJ4
+LANG_ENGLISH        "Pump the fuel to the ship."
+LANG_CHINESE        "替船加满燃料"
+
+REFERENCE           NS_STARPAD_OBJ5
+LANG_ENGLISH        "Use the ship's gun to defend the ship."
+LANG_CHINESE        "使用船上的机炮保护飞船"
+
+REFERENCE           BESPIN_UNDERCITY_OBJ1
+LANG_ENGLISH        "Infiltrate Bespin City through the lower levels."
+LANG_CHINESE        "从城市底层渗透进入贝斯坪云城"
+
+REFERENCE           BESPIN_UNDERCITY_OBJ2
+LANG_ENGLISH        "Find Lando's R5 unit near Carbonite Chamber #17."
+LANG_CHINESE        "在第17号碳化室附近找到兰多的R5机器人"
+
+REFERENCE           BESPIN_STREETS_OBJ1
+LANG_ENGLISH        "Search for Desann."
+LANG_CHINESE        "寻找迪桑"
+
+REFERENCE           BESPIN_STREETS_OBJ2
+LANG_ENGLISH        "Engage hostile forces in the area."
+LANG_CHINESE        "清除这片区域的敌对武力"
+
+REFERENCE           BESPIN_PLATFORM_OBJ1
+LANG_ENGLISH        "Search for Desann."
+LANG_CHINESE        "寻找迪桑"
+
+REFERENCE           BESPIN_PLATFORM_OBJ2
+LANG_ENGLISH        "Engage hostile forces in the area."
+LANG_CHINESE        "清除这片区域的敌对武力"
+
+REFERENCE           CAIRN_BAY_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CHINESE        "寻找加拉克的船-末日杀手号"
+
+REFERENCE           CAIRN_BAY_OBJ2
+LANG_ENGLISH        "Find a way out of the hangar bays."
+LANG_CHINESE        "找到离开机库的路"
+
+REFERENCE           CAIRN_ASSEMBLY_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CHINESE        "寻找加拉克的船-末日杀手号"
+
+REFERENCE           CAIRN_REACTOR_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CHINESE        "寻找加拉克的船-末日杀手号"
+
+REFERENCE           CAIRN_REACTOR_OBJ2
+LANG_ENGLISH        "Navigate the hazards of the installation's reactor assembly."
+LANG_CHINESE        "通过反应堆机组中的障碍"
+
+REFERENCE           CAIRN_DOCK1_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CHINESE        "寻找加拉克的船-末日杀手号"
+
+REFERENCE           CAIRN_DOCK1_OBJ2
+LANG_ENGLISH        "Avoid detection by Remnant troops."
+LANG_CHINESE        "避免被残余士兵发现"
+
+REFERENCE           DOOM_COMM_OBJ1
+LANG_ENGLISH        "Search for Jan."
+LANG_CHINESE        "寻找珍"
+
+REFERENCE           DOOM_COMM_OBJ2
+LANG_ENGLISH        "Find Doomgiver's communications array."
+LANG_CHINESE        "找到末日杀手号的通讯阵列"
+
+REFERENCE           DOOM_COMM_OBJ3
+LANG_ENGLISH        "Contact Rogue Squadron using the communications array."
+LANG_CHINESE        "使用通讯阵列联系侠盗中队"
+
+REFERENCE           DOOM_DETENTION_OBJ1
+LANG_ENGLISH        "Search for Jan."
+LANG_CHINESE        "寻找珍"
+
+REFERENCE           DOOM_DETENTION_OBJ2
+LANG_ENGLISH        "Locate Doomgiver's shield array."
+LANG_CHINESE        "找到末日杀手号的护盾阵列"
+
+REFERENCE           DOOM_SHIELDS_OBJ1
+LANG_ENGLISH        "Locate and disable Doomgiver's shield array."
+LANG_CHINESE        "找到并关闭末日杀手号的护盾阵列"
+
+REFERENCE           DOOM_SHIELDS_OBJ2
+LANG_ENGLISH        "Escape Doomgiver before it is destroyed by Rogue Squadron."
+LANG_CHINESE        "在侠盗中队摧毁末日杀手号前逃离"
+
+REFERENCE           YAVIN_SWAMP_OBJ1
+LANG_ENGLISH        "Make your way to the Jedi Academy."
+LANG_CHINESE        "进入绝地学院"
+
+REFERENCE           YAVIN_SWAMP_OBJ2
+LANG_ENGLISH        "Engage Remnant troops in the area."
+LANG_CHINESE        "清除这个区域的残余士兵"
+
+REFERENCE           YAVIN_CANYON_OBJ1
+LANG_ENGLISH        "Make your way to the Jedi Academy."
+LANG_CHINESE        "进入绝地学院"
+
+REFERENCE           YAVIN_CANYON_OBJ2
+LANG_ENGLISH        "Engage Remnant troops in the area."
+LANG_CHINESE        "清除这个区域的残余士兵"
+
+REFERENCE           YAVIN_COURTYARD_OBJ1
+LANG_ENGLISH        "Clear the Jedi Academy grounds of Remnant troops."
+LANG_CHINESE        "清除绝地学院的残余士兵"
+
+REFERENCE           YAVIN_COURTYARD_OBJ2
+LANG_ENGLISH        "Locate Desann."
+LANG_CHINESE        "找到迪桑"
+
+REFERENCE           YAVIN_FINAL_OBJ1
+LANG_ENGLISH        "Defeat the dark Jedi Desann."
+LANG_CHINESE        "击败黑暗绝地迪桑"
+
+REFERENCE           KEJIM_POST_OBJ3
+LANG_ENGLISH        "Input the red clearance code at the main array:"
+LANG_CHINESE        "在主阵列输入这个红色的密码"
+
+REFERENCE           KEJIM_POST_OBJ4
+LANG_ENGLISH        "Input the green clearance code at the main array:"
+LANG_CHINESE        "在主阵列输入这个绿色的密码"
+
+REFERENCE           KEJIM_POST_OBJ5
+LANG_ENGLISH        "Input the blue clearance code at the main array:"
+LANG_CHINESE        "在主阵列输入这个蓝色的密码"
+
+REFERENCE           ARTUS_DETENTION_OBJ3
+LANG_ENGLISH        "Capture the Base Commander and force him to open the main hangar doors."
+LANG_CHINESE        "抓住基地的指挥官，并强迫他打开主机库大门"
+
+REFERENCE           DOOM_COMM_OBJ4
+LANG_ENGLISH        "Set Doomgiver's sensor array to Rogue Squadron's communicator frequency."
+LANG_CHINESE        "将末日杀手号的传感器阵列设置为侠盗中队的通讯频率"
+
+REFERENCE           DOOM_SHIELDS_OBJ3
+LANG_ENGLISH        "Make your way to the escape pods before Rogue squadron destroys the Doomgiver."
+LANG_CHINESE        "在末日杀手号被侠盗中队摧毁前进入逃生舱里"
+
+REFERENCE           DEMO_OBJ1
+LANG_ENGLISH        "Make your way through the remnant base to reach Jan and the Raven's Claw. \n"
+LANG_CHINESE        "通过路找到废弃的基地，回到乌鸦之爪号和珍会和"
+
+REFERENCE           DEMO_OBJ2
+LANG_ENGLISH        "Engage remnant forces in the area.\n"
+LANG_CHINESE        "清除这个区域的残余势力"
+
+REFERENCE           DEMO_OBJ3
+LANG_ENGLISH        "Lower the forcefield that is holding the Raven's Claw in hangar bay two\n"
+LANG_CHINESE        "解除位于二号停机坪扣住乌鸦之爪号的护盾"
+
+REFERENCE           DEMO_OBJ4
+LANG_ENGLISH        "Rendezvous with Jan at the Raven's Claw.\n"
+LANG_CHINESE        "回到乌鸦之爪号和珍会和"
+
+ENDMARKER

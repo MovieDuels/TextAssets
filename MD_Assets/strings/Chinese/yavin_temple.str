@@ -1,0 +1,110 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           06PRO002
+LANG_ENGLISH        "Welcome to the Jedi Academy, sir.  Master Skywalker is waiting upstairs for you."
+LANG_CHINESE        "欢迎来到绝地学院，先生。天行者大师正在楼上等你。"
+
+REFERENCE           06KJO001
+LANG_ENGLISH        "Uh...thanks. I think I can find the way."
+LANG_CHINESE        "呃...谢谢。我想我知道怎么走。"
+
+REFERENCE           06PRO003
+LANG_ENGLISH        "Welcome to the Jedi Academy, sir. Master Skywalker is upstairs."
+LANG_CHINESE        "欢迎来到绝地学院，先生。天行者大师正在楼上等你。"
+
+REFERENCE           06KJO026
+LANG_ENGLISH        "Uh...thanks. I think I can find the way."
+LANG_CHINESE        "呃...谢谢。我想我知道怎么走。"
+
+REFERENCE           06LUK035
+LANG_ENGLISH        "Kyle.  I've been expecting you."
+LANG_CHINESE        "凯尔。我正在等你。"
+
+REFERENCE           06KJO002
+LANG_ENGLISH        "Skywalker."
+LANG_CHINESE        "天行者。"
+
+REFERENCE           06LUK002
+LANG_ENGLISH        "You've come for your lightsaber?"
+LANG_CHINESE        "你是来拿你的光剑的吧？"
+
+REFERENCE           06KJO003
+LANG_ENGLISH        "Yeah."
+LANG_CHINESE        "是啊。"
+
+REFERENCE           06LUK003
+LANG_ENGLISH        "After all these years?"
+LANG_CHINESE        "在经过了这么多年以后？"
+
+REFERENCE           06KJO004
+LANG_ENGLISH        "My...Jan's been killed...by a Jedi.  Goes by the name of --"
+LANG_CHINESE        "我的...简被杀了...被一个绝地。他的名字是--"
+
+REFERENCE           06LUK004
+LANG_ENGLISH        "Desann."
+LANG_CHINESE        "迪桑。"
+
+REFERENCE           06KJO005
+LANG_ENGLISH        "You know?"
+LANG_CHINESE        "你知道了？"
+
+REFERENCE           06LUK007
+LANG_ENGLISH        "I sensed a disturbance in the Force. I'll tell you about Desann while your trial is being prepared..."
+LANG_CHINESE        "我感觉到原力中有一股扰动。趁着你的考验还在安排的时候，我来告诉你一些关于迪桑的事..."
+
+REFERENCE           06KJO006
+LANG_ENGLISH        "Trial?"
+LANG_CHINESE        "考验？"
+
+REFERENCE           06LUK008
+LANG_ENGLISH        "A minor test to determine your fitness to wield a lightsaber again.  Even in your relatively unpracticed state, you shouldn't find it too difficult."
+LANG_CHINESE        "一个测试你是不是还适合使用光剑的小考验。即使你很久没有练习了，对你来说应该也不会太难。"
+
+REFERENCE           06KJO007
+LANG_ENGLISH        "Why can't you Jedi ever do things the simple way?"
+LANG_CHINESE        "你们绝地为什么从来不肯让事情简单一点？"
+
+REFERENCE           06LUK009
+LANG_ENGLISH        "If the ways of the Jedi were easy, there'd be millions of us, instead of dozens.  Take Desann, for example.  He was born on a planet unused to the wonders of the Force, where his seemingly magical abilities caused him to be feared and shunned by those around him.  His childhood was one of loneliness and despair until a visiting trader discovered him, recognized the Force within him, and brought him to the Jedi Academy."
+LANG_CHINESE        "如果绝地之道很容易的话，那么世界上就会有几百万个绝地，而不是只有我们这几十个人了。拿迪桑来说吧。他出生在一个不了解原力这种力量的行星，所以他那些看起来和魔法一样的能力让他身旁的人感到害怕，所以他们渐渐的疏离他。他的童年既孤单又寂寞，直到一个远道来访的商人发现了他，看出他拥有原力的力量，于是就把他带来绝地学院。"
+
+REFERENCE           06KJO008
+LANG_ENGLISH        "So he was a student?"
+LANG_CHINESE        "所以他是这里的学生？"
+
+REFERENCE           06LUK010
+LANG_ENGLISH        "Yes.  For the first time in his life, Desann was at peace.  He'd found beings who liked him for who he was; beings who encouraged him to develop his talents.  Over time, however, things changed."
+LANG_CHINESE        "是的。迪桑生平第一次内心感觉到平静。他发现别人喜欢他的这种特质；别人更鼓励他发展他的能力。可是没过多久情况就改变了。"
+
+REFERENCE           06KJO009
+LANG_ENGLISH        "How?"
+LANG_CHINESE        "怎么了？"
+
+REFERENCE           06LUK011
+LANG_ENGLISH        "He became cold.  Severe.   He belittled his fellow students for what he perceived to be their weaknesses, and argued, sometimes violently, with his teachers.  During a training session, he struck down and killed a fellow student in cold blood. Desann said he was too "weak" to be a Jedi.  He fled before we could...counsel him - and he has not been heard from since."
+LANG_CHINESE        "他变得冷酷无情。他因为其他学生的弱点而看轻他们，而且时常和他的老师发生激烈的争吵。在一次训练的课程中，他冷血的打倒然后杀死了一个学生。迪桑说那个学生太软弱了，不配当一个绝地。在我们还来不及...辅导他之前，他就逃跑了-从此我们再也没有听说他的消息。"
+
+REFERENCE           06KJO010
+LANG_ENGLISH        "Until now."
+LANG_CHINESE        "直到现在。"
+
+REFERENCE           06LUK012
+LANG_ENGLISH        "Yes..."
+LANG_CHINESE        "是的..."
+
+REFERENCE           06LUK013
+LANG_ENGLISH        "Kyle, I'm sorry about Jan."
+LANG_CHINESE        "凯尔。我很遗憾简发生这种事。"
+
+REFERENCE           06KJO011
+LANG_ENGLISH        "Yeah...well... just give me my lightsaber, and I'll be out of your way."
+LANG_CHINESE        "是呀...嗯...把我的光剑给我就是了，我不会再麻烦你的。"
+
+REFERENCE           06LUK016
+LANG_ENGLISH        "As you wish, your lightsaber is somewhere in the ruined temple to the South. To find it, you'll need to utilize your primary Force skills.  During your test, I'll see if I can find some information on Desann's whereabouts.  Good luck."
+LANG_CHINESE        "就照你的意思吧，你的光剑就在南边那座废弃的寺庙里面的某一个地方。你必须运用你的原力技巧才能找到你的光剑。在你接受考验的时候，我会想办法搜集有关迪桑藏匿地点的信息。祝你好运。"
+
+
+
+ENDMARKER

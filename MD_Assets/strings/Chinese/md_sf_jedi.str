@@ -1,0 +1,168 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "I know what I have to do."
+LANG_CHINESE        "我清楚我的使命"
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "It's time to let old things die. Snoke... Skywalker. The Sith... the Jedi, the Rebels... let it all die."
+LANG_CHINESE        "旧秩序该灭亡了。斯诺克。。天行者。。西斯。。绝地武士团 还有叛军\n都消失吧"
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "Rey. I want you to join me. We can rule together and bring a new order to the galaxy."
+LANG_CHINESE        "蕾伊，请你加入我。我们一起 建立新秩序 统治银河系"
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "No, no you're still holding on! Let go!"
+LANG_CHINESE        "不 不 你还在坚持 放手吧！"
+
+REFERENCE           KYLO5
+LANG_ENGLISH        "Do you want to know the truth about your parents? Or have you always known? You've just hidden it away."
+LANG_CHINESE        "你想知道你父母的真相吗？又或者你一直都知道？只是在逃避而已"
+
+REFERENCE           KYLO6
+LANG_ENGLISH        "You know the truth. Say it. Say it."
+LANG_CHINESE        "你知道真相 说出来"
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "They were filthy junk traders... who sold you off for drinking money."
+LANG_CHINESE        "他们只是捡破烂的。。。把你卖了 来换酒钱"
+
+REFERENCE           KYLO8
+LANG_ENGLISH        "They're dead... in a poverished grave in the Jakku desert. You have no place in this story. You come from nothing you're nothing."
+LANG_CHINESE        "最终死在。。。贾库的一个贫民墓地 你在这个故事里毫无容身之所 \n你在这个故事里毫无容身之所"
+
+REFERENCE           KYLO9
+LANG_ENGLISH        "But not to me. Join me."
+LANG_CHINESE        "但你对我不一样 加入我"
+
+REFERENCE           KYLO10
+LANG_ENGLISH        "Please."
+LANG_CHINESE        "拜托"
+
+REFERENCE           REY1
+LANG_ENGLISH        "You underestimate Skywalker... and Ben Solo... And me."
+LANG_CHINESE        "你低估了天行者。。。本·索洛。。。还有我"
+
+REFERENCE           REY2
+LANG_ENGLISH        "No."
+LANG_CHINESE        "没门"
+
+REFERENCE           REY4
+LANG_ENGLISH        "[Screaming in pain]"
+LANG_CHINESE        "[痛苦的叫声]"
+
+REFERENCE           REY7
+LANG_ENGLISH        "[Screaming in pain]"
+LANG_CHINESE        "[痛苦的叫声]"
+
+REFERENCE           REY10
+LANG_ENGLISH        "The fleet. Order them to stop firing. There is still time to save the fleet."
+LANG_CHINESE        "舰队 快命令他们停止开火 还有时间救舰队"
+
+REFERENCE           REY11
+LANG_ENGLISH        "Ben?"
+LANG_CHINESE        "本？"
+
+REFERENCE           REY12
+LANG_ENGLISH        "Don't do this, Ben. Please don't go this way."
+LANG_CHINESE        "别这样，本。不要走入歧途"
+
+REFERENCE           REY13
+LANG_ENGLISH        "They were nobody."
+LANG_CHINESE        "他们谁也不是"
+
+REFERENCE           SNOKE1
+LANG_ENGLISH        "Well done, my good and faithful apprentice. My faith in you, is restored."
+LANG_CHINESE        "干得好 我优秀而忠心的好徒儿。我对你恢复信心了"
+
+REFERENCE           SNOKE2
+LANG_ENGLISH        "Young Rey. Welcome."
+LANG_CHINESE        "小蕾伊 欢迎"
+
+REFERENCE           SNOKE3
+LANG_ENGLISH        "Come closer, child."
+LANG_CHINESE        "孩子 过来点儿"
+
+REFERENCE           SNOKE4
+LANG_ENGLISH        "So much strength. Darkness rises... and light to meet it."
+LANG_CHINESE        "你是如此富有力量。黑暗面一旦升起。。。光明面便如影随形"
+
+REFERENCE           SNOKE5
+LANG_ENGLISH        "I warned my young apprentice... that as he grew stronger... his equal in the light would rise."
+LANG_CHINESE        "我警告过我年轻的徒弟 他变得越强。。。他的光明面也就越大"
+
+REFERENCE           SNOKE6
+LANG_ENGLISH        "Skywalker... I assumed... wrongly."
+LANG_CHINESE        "天行者。。。恐怕。。他错了"
+
+REFERENCE           SNOKE7
+LANG_ENGLISH        "Closer, I said."
+LANG_CHINESE        "我让你过来点"
+
+REFERENCE           SNOKE8
+LANG_ENGLISH        "Oh, have you seen something? A weakness in my apprentice. Is that why you came?"
+LANG_CHINESE        "噢 你看到了什么吗？我徒弟的一个弱点。这就是你来此的原因吗？"
+
+REFERENCE           SNOKE9
+LANG_ENGLISH        "Young fool. It was I who bridged your minds. I stoked Ren's conflicted soul. I knew he was not strong enough to hide it from you. And you were not wise enough to resist the bait."
+LANG_CHINESE        "小傻瓜。是我连接了你们的思想 我激化了伦内心的矛盾 我知道他在你面前藏不住。\n而你 也还是愚蠢地上钩了"
+
+REFERENCE           SNOKE10
+LANG_ENGLISH        "And now... you will give me Skywalker. Then I will kill you... with the cruelist stroke."
+LANG_CHINESE        "而现在。。。你会告诉我天行者的藏身处。然后我会杀了你，用最残忍的方式"
+
+REFERENCE           SNOKE11
+LANG_ENGLISH        "Yes."
+LANG_CHINESE        "好"
+
+REFERENCE           SNOKE12
+LANG_ENGLISH        "Give me... everything."
+LANG_CHINESE        "把一切。。都给我"
+
+REFERENCE           SNOKE13
+LANG_ENGLISH        "Well, well... I did not expect Skywalker to be so wise. We will give him and the Jedi Order... the death he desires. After the Rebels are gone, we will go to his planet... and obliterate the entire island."
+LANG_CHINESE        "好吧 好吧。。我还没想到天行者这么有智慧。我们会给他和绝地武士团。。渴望的终结\n在叛军消失之后，我们会去他的星球，摧毁那整片岛屿"
+
+REFERENCE           SNOKE14
+LANG_ENGLISH        "Such spunk. Look here, now."
+LANG_CHINESE        "有勇无谋 你看看"
+
+REFERENCE           SNOKE15
+LANG_ENGLISH        "The entire Resistance on those transports. Soon they will all be gone. For you, all is lost."
+LANG_CHINESE        "这些运输机上的所有抵抗军。很快就会消失了。因为你 一切成空"
+
+REFERENCE           SNOKE16
+LANG_ENGLISH        "Oh, still that fiery spit of hope. You have the spirit of a true Jedi!"
+LANG_CHINESE        "不过 还有火热的希望。你有着真正的绝地武士精神"
+
+REFERENCE           SNOKE17
+LANG_ENGLISH        "And because of that... you must die."
+LANG_CHINESE        "正因如此。。。你必须得死"
+
+REFERENCE           SNOKE18
+LANG_ENGLISH        "My worthy apprentice... son of darkness, heir apparent to Lord Vader. Where there was conflict, I now sense resolve. Where there was weakness, strength. Complete your training... and fulfill your destiny."
+LANG_CHINESE        "我优秀的徒儿。。。黑暗面之子 维达大人的继承者。你的挣扎 变成决心；你的弱点 变成力量\n完成你的训练，履行你的使命吧"
+
+REFERENCE           SNOKE19
+LANG_ENGLISH        "You think you can turn him? Pathetic child."
+LANG_CHINESE        "你以为你能感化他？可怜的孩子"
+
+REFERENCE           SNOKE20
+LANG_ENGLISH        "I can not be betrayed... I can not be beaten. I see his mind... I see his every intent. Yes. I see him turning the lightsaber to strike true. And now... Foolish child. He ignites it... And kill his true enemy!"
+LANG_CHINESE        "我是不会被背叛的。。。我是不会被打败的。我能看到他的思想。我清楚他的每一个意图\n没错 我看到他转动光剑击中敌害。而现在，傻孩子。他会点燃它。。。杀死他真正的敌人！"
+
+ENDMARKER

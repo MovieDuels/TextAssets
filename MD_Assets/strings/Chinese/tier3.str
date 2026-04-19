@@ -1,0 +1,43 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           13
+LANG_ENGLISH        "Now that you're a Jedi Knight, Luke and I have decided to give you some more challenging missions.  You still need to be careful though, trouble can crop up anywhere."
+LANG_CHINESE        "现在既然你已经是绝地武士了，卢克和我决定分派一些更具挑战性的任务给你。\n不过你还是得处处留神，麻烦总是会不断出现的。"
+
+REFERENCE           14
+LANG_ENGLISH        "I've been tracing Tavion's movements over the past few months.  It looks like she acquired the scepter from a collector on Commenor.  Then she killed him."
+LANG_CHINESE        "过去几个月里我一直在追查特维安的行踪。那权杖似乎是她从科莫诺的\n一位收藏家那里得到的。得到后她就杀人灭口了。的行踪。那权杖似乎是她从科莫诺的\n一位收藏家那里得到的。得到后她就杀人灭口了。"
+
+REFERENCE           15
+LANG_ENGLISH        "Luke and I have been trying to find out what Tavion could be hoping to do with Ragnos' scepter, but so far no luck.   Keep your ears open for any rumors."
+LANG_CHINESE        "卢克和我正在努力调查泰薇恩利用拉格诺斯权杖的真正目的，但目前还没有头绪。多听听人们的流言什么的。"
+
+REFERENCE           16
+LANG_ENGLISH        "We haven't received any new reports about cult activity in the last few days, but I don't think they've decided to go into hiding. They must be close to completing their plan."
+LANG_CHINESE        "过去的几天中没有收到邪教活动的新报告，但我并不认为他们就\n打算这么藏起来。肯定是他们的计划快要成功了。"
+
+REFERENCE           17
+LANG_ENGLISH        "We've been getting reports of Imperial ships moving through Republic space.  They may be mobilizing to assist the Disciples of Ragnos.  You probably have time for one more mission, but keep yourself available.  Something big is going to happen...soon."
+LANG_CHINESE        "我们得到报告说帝国的飞船正在共和国星域中开进。他们可能是去支援拉格诺斯的\n信徒的。你好像还有时间再做一个任务，但一定别耽搁。不久就有大事要发生了。"
+
+REFERENCE           18
+LANG_ENGLISH        "We need you back at the Academy right away!"
+LANG_CHINESE        "我们得马上会学院去！"
+
+
+ENDMARKER
+
+

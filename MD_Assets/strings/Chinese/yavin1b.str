@@ -1,0 +1,203 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           01PIL006
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, we can't get to you.  Make your way to the temple.  The shuttle will meet us there."
+LANG_CHINESE        "杰登，我们没办法到你那儿。你自己想办法来神庙,飞船在那里接我们"
+
+REFERENCE           01ROP008
+LANG_ENGLISH        "Jaden, hey!  I'm stuck.  Can you help?"
+LANG_CHINESE        "杰登，嗨，我被困了，你能帮帮我吗"
+
+REFERENCE           01JAK005
+LANG_ENGLISH        "Hold on, Rosh! I'm on my way."
+LANG_CHINESE        "坚持住，洛西，我来了"
+
+REFERENCE           01ROP009
+NOTES               "(pointing)"
+LANG_ENGLISH        "Jaden, see if you can make your way around there."
+LANG_CHINESE        "杰登，你看看能不能从那里绕过去"
+
+REFERENCE           01ROP010
+LANG_ENGLISH        "Maybe you can use your lightsaber to cut those trees down and make a bridge."
+LANG_CHINESE        "也许你能用光剑把树砍了搭座桥"
+
+REFERENCE           01ROP011
+LANG_ENGLISH        "Thanks Jaden, let's get to the temple.  "
+LANG_CHINESE        "多谢咯，现在去神庙吧"
+
+REFERENCE           01ROP012
+LANG_ENGLISH        "Whoa, howlers!"
+LANG_CHINESE        "哇！小甲鱼"
+
+REFERENCE           01ROP013
+LANG_ENGLISH        "Watch out!"
+LANG_CHINESE        "小心"
+
+REFERENCE           01ROP014
+LANG_ENGLISH        "These howlers make good target practice, eh, Jaden?"
+LANG_CHINESE        "这些小甲鱼当靶子不错，对吧，杰登"
+
+REFERENCE           01ROP015
+LANG_ENGLISH        "Gotcha!"
+LANG_CHINESE        "搞定！"
+
+REFERENCE           01ROP016
+LANG_ENGLISH        "Look out cause here I come!"
+LANG_CHINESE        "小心，我来咯！"
+
+REFERENCE           01ROP017
+LANG_ENGLISH        "Hey, maybe you can use your saber to make another bridge."
+LANG_CHINESE        "嗨，貌似可以再搭一座桥"
+
+REFERENCE           01ROP018
+LANG_ENGLISH        "Great, let's go."
+LANG_CHINESE        "哟西，走咯"
+
+REFERENCE           01ROP019
+LANG_ENGLISH        "The river's too wide and strong to wade across.  There's got to be another way."
+LANG_CHINESE        "这条河太宽，水也太急，过不去啊。找找其他地方看看"
+
+REFERENCE           01ROP020
+NOTES               "(loud whisper)"
+LANG_ENGLISH        "Jaden, get down!  There's stormtroopers in the clearing!"
+LANG_CHINESE        "杰登，趴下！暴风兵在那边"
+
+REFERENCE           01ROP021
+LANG_ENGLISH        "Maybe you should check it out."
+LANG_CHINESE        "你去探探情况吧"
+
+REFERENCE           01ROP022
+LANG_ENGLISH        "You're the one with the lightsaber after all."
+LANG_CHINESE        "你好歹有把光剑啊"
+
+REFERENCE           01JAK006
+LANG_ENGLISH        "Stay here."
+LANG_CHINESE        "不许动。"
+
+REFERENCE           01TAA001
+NOTES               "(surprised)"
+LANG_ENGLISH        "What?"
+LANG_CHINESE        "什么人？"
+
+REFERENCE           01JAK007
+NOTES               "(Opens eyes)"
+LANG_ENGLISH        "Huh? What? Who are you?"
+LANG_CHINESE        "呃...怎么回事..你是谁"
+
+REFERENCE           01KYK001
+LANG_ENGLISH        "Kyle Katarn, at your service. Welcome to a day in the life of a Jedi. "
+LANG_CHINESE        "凯尔 卡塔恩，为你效劳,欢迎成为绝地武士"
+
+REFERENCE           01JAK008
+LANG_ENGLISH        "What happened?"
+LANG_CHINESE        "刚刚怎么了"
+
+REFERENCE           01KYK002
+LANG_ENGLISH        "We were kind of hoping you could tell us."
+LANG_CHINESE        "我们还想问问你呢"
+
+REFERENCE           01ROP023
+LANG_ENGLISH        "I saw a huge flash of light and ran over to find you just lying unconscious."
+LANG_CHINESE        "我看到很强的闪光，于是跑过来发现你昏迷不醒"
+
+REFERENCE           01LUK004
+LANG_ENGLISH        "Do you recall anything?"
+LANG_CHINESE        "你记得发生了什么吗"
+
+REFERENCE           01JAK009
+LANG_ENGLISH        "I... I saw three people. One was holding some sort of scepter and it was glowing. That's all I can remember."
+LANG_CHINESE        "我看到三个人，其中一个拿着发光的权杖。就记得这么多了"
+
+REFERENCE           01ROP024
+LANG_ENGLISH        "A scepter? That sounds bad."
+LANG_CHINESE        "权杖？听起来很诡异啊"
+
+REFERENCE           01KYK003
+LANG_ENGLISH        "It always is."
+LANG_CHINESE        "可不是吗"
+
+REFERENCE           01LUK005
+LANG_ENGLISH        "Are you able to stand?"
+LANG_CHINESE        "你能站起来吗"
+
+REFERENCE           01JAK010
+LANG_ENGLISH        "...yeah...  I'm okay."
+LANG_CHINESE        "...能... 我没事。"
+
+REFERENCE           01LUK006
+NOTES               "concerned"
+LANG_ENGLISH        "I sense a disturbance in the Force."
+LANG_CHINESE        "我感到原力中出现了扰动"
+
+REFERENCE           01KYK004
+LANG_ENGLISH        "You always sense a disturbance in the Force. But yeah, I sense it too. It could just be residual dark side aura from this temple."
+LANG_CHINESE        "你总是觉得原力中有东西不对劲。但等等，我也感觉到了。\n可能这只是神庙里残余的黑暗原力造成的氛围罢了"
+
+REFERENCE           01LUK007
+LANG_ENGLISH        "Perhaps..."
+LANG_CHINESE        "可能吧..."
+
+REFERENCE           01LUK008
+NOTES               "(To Kyle"
+LANG_ENGLISH        "Kyle, why don't you..."
+LANG_CHINESE        "凯尔，要不你.."
+
+REFERENCE           01KYK005
+NOTES               "(sarcastic)"
+LANG_ENGLISH        "Stay here and investigate? I'd love to. Why don't you take the kids back home now?"
+LANG_CHINESE        "留下调查是吧？行啊。要不你就把小崽子们带回去吧"
+
+REFERENCE           01LUK009
+LANG_ENGLISH        "Be careful Kyle."
+LANG_CHINESE        "保重啊，凯尔。"
+
+REFERENCE           01LUK010
+NOTES               "(a bit louder)"
+LANG_ENGLISH        "Everyone follow me to the shuttle."
+LANG_CHINESE        "大家跟我进飞船"
+
+REFERENCE           01ROP025
+LANG_ENGLISH        "I think that was Luke Skywalker. I can't believe it!"
+LANG_CHINESE        "那个人是天行者 卢克吧。真难以置信"
+
+REFERENCE           01TAA002
+NOTES               "In shadows"
+LANG_ENGLISH        "Did you recover Skywalker's records?"
+LANG_CHINESE        "你拿到天行者的数据记录了吗"
+
+REFERENCE           01ALO001
+NOTES               "satisfied chuckle"
+LANG_ENGLISH        "Yes. With all the Jedi in the jungle, it was almost too easy."
+LANG_CHINESE        "拿到了，绝地武士都在森林里，实在太简单了"
+
+REFERENCE           01TAA003
+LANG_ENGLISH        "Excellent."
+LANG_CHINESE        "非常好"
+
+REFERENCE           09ROP004_Y1
+NOTES               "(cockily)"
+LANG_ENGLISH        "No problem."
+LANG_CHINESE        "没问题"
+
+REFERENCE           HINT1
+LANG_ENGLISH        "There must be a way to open this."
+LANG_CHINESE        "肯地有办法打开这门"
+
+
+ENDMARKER
+
+

@@ -1,0 +1,43 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           7
+LANG_ENGLISH        "Master Skywalker and Master Katarn have left the Academy.  I have been instructed to provide you with a set of possible missions."
+LANG_CHINESE        "天行者大师和卡塔恩大师离开学院去办事。他们让我给你布置任务。"
+
+REFERENCE           8
+LANG_ENGLISH        "Master Skywalker and Master Katarn have not yet returned from their respective missions."
+LANG_CHINESE        "天行者大师和卡塔恩大师事还没有办完，还回不来。"
+
+REFERENCE           9
+LANG_ENGLISH        "Hey, Jaden.  I'm not sure if Luke's discovered anything on Dagobah, but I found out that Rosh has been captured.  I tried to find out where they've taken him, but those blasted Sith cultists are covering their tracks pretty well."
+LANG_CHINESE        "嘿，杰登。我不知道卢克在达戈巴有没发现什么，但是我查到洛西被俘了。\n我想查出他们带他去哪儿了，但是那些该死的西斯教徒很善于掩饰行踪。"
+
+REFERENCE           10
+LANG_ENGLISH        "Jaden, I learned that some Disciples of Ragnos were on Dagobah. They siphoned the dark Force energy from the cave there.  "
+LANG_CHINESE        "杰登，我调查到一些拉格诺斯的信徒到过达戈巴。他们已经把黑暗原力从洞穴里吸走了。"
+
+REFERENCE           11
+LANG_ENGLISH        "Luke's coming up with a plan for tracking down the Disciples of Ragnos  but it may take some time.  If you want, you can take one more mission.  Otherwise, meet us in the audience chamber."
+LANG_CHINESE        "卢克正在拟定追踪拉格诺斯信徒的方案，但是得花些时间。如果你愿意的话\n你可以再做一个任务。不想做的话就来接见大厅和我们会和。"
+
+REFERENCE           12
+LANG_ENGLISH        "Luke's ready to present his plan to find the cult leaders.  Get to the audience chamber."
+LANG_CHINESE        "卢克的计划已经拟定好了。来接见大厅。"
+
+
+ENDMARKER
+
+

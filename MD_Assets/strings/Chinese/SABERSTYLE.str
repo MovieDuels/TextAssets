@@ -1,0 +1,46 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "in game text for saber styles"
+
+REFERENCE           FAST_STYLE
+LANG_ENGLISH        "Fast and efficient, but with limited range. Short, quick motions allow for multiple attacks but with minimum damage. This style can be chained indefinitely. It utilizes a defensive stance in which the Jedi holds his saber across his front in a ready position to fend off attacks or make quick jabs. Represented by a blue bar on the right side of the HUD."
+LANG_CHINESE        "快速并且有效，但是是用范围有限。快，迅速的动作能在短时间内发出多次攻击，但是伤害是最小的。这种剑式可以进行无限的连击。它利用绝地将剑握持在身前的防御姿态来抵御攻击或做出快速的攻击。在右下方的HUD上显示为蓝色的条"
+
+REFERENCE           MEDIUM_STYLE
+LANG_ENGLISH        "An intermediate style between the fast and the strong styles, the medium style is based on a perfect equilibrium between speed and power. Users of the medium style would typically utilize a neutral stance, the lightsaber being held in medium position in front of the user ready for both defensive and offensive maneuvers. Represented by a yellow bar on the right side of the HUD."
+LANG_CHINESE        "这是一种介于强力和迅捷之间折中的剑式，折中式是基于力量和速度之间完美平衡的剑式。折中式的使用者，利用自然的姿态，将光剑握持在身体前方的正中央来同时准备防守和进攻的动作。在右下方的HUD上显示为黄色的条"
+
+REFERENCE           STRONG_STYLE
+LANG_ENGLISH        "Uses powerful strikes to batter through defenses. This style incorporates great range and power, but often leaves the Jedi open for counter attack. It utilizes a powerful, aggressive stance in which the Jedi holds his saber high and back, ready to go into a heavy swing. Represented by a red bar  on the right side of the HUD."
+LANG_CHINESE        "使用强力的打击可以更有效的突破防御。这种剑式具有出色的攻击范围和伤害，但是经常让绝地面临反击的状态。它使用一种看起来有力且具有攻击性的姿态，使用者将光剑握持在身体后上方，准备随时做出强力的斩击。在右下方的HUD上显示为红色的条"
+
+REFERENCE           DUAL_STYLE
+LANG_ENGLISH        "This style incorporates the use of a second Lightsaber, allowing for stronger offensive capability with shared traits of the Fast style, such as faster attacks and indefinite chaining, while negating it's damage and defense drawbacks with the second Blade. Users of the dual style would typically position their lightsabers to their left and right, ready for both defensive and offensive maneuvers. Represented by an orange bar on the right side of the HUD."
+LANG_CHINESE        "这种剑式结合了第二把光剑的使用，能够进行结合了迅捷式风格强力的进攻，比如更快的攻击和无限的连击，同时利用第二把剑抵消了攻击和防御不可兼得的缺点。双剑剑式的使用者通常会将光剑放在左右两侧，为防御和进攻动作做好准备。在右下方的HUD上显示为橙色的条"
+
+REFERENCE           STAFF_STYLE
+LANG_ENGLISH        "This style incorporates a Lightsaber with two Blades, allowing for stronger offensive capability with shared traits of the Fast style, such as faster attacks and indefinite chaining, while negating it's damage and defense drawbacks with the second Blade. Users of the staff style would typically utilize a neutral stance, the lightsaber being held in front of the user ready for both defensive and offensive maneuvers. Represented by a green bar on the right side of the HUD."
+LANG_CHINESE        "这种剑式使用了一种带有两个剑刃的光剑，能够进行结合了迅捷式风格强力的进攻，比如更快的攻击和无限的连击，同时利用第二把剑抵消了攻击和防御不可兼得的缺点。光杖剑式的使用者使用自然的姿态，光剑被握持在身体的前面，为防御和进攻动作做好准备。在右下方的HUD上显示为绿色的条"
+
+REFERENCE           DESANN_STYLE
+LANG_ENGLISH        "An alteration of the Strong style, this form only utilizes one-hand for fighting, allowing for faster attacks than the Strong style, while sharing it's powerful, defense-shattering strikes & specialized moves. It also shares traits with the Fast style, primarily it's Lunge attack and indefinite chaining. Represented by a purple bar on the right side of the HUD."
+LANG_CHINESE        "一种强力式的变体，这种风格只用单手战斗，能够做到保持有力的同时，进行比强力式更快的攻击，能够破坏防御的打击和特殊的动作。它还具有迅捷式的特征，主要是刺击和无限连击。在右下方的HUD上显示为紫色的条"
+
+REFERENCE           TAVION_STYLE
+LANG_ENGLISH        "An alteration of the Fast style, this form only utilizes one-hand for fighting, allowing for much quicker attacks than the Fast style, while sharing the flip-slash DFA of the Medium style, although lacking the Fast Style's Lunge attack. Represented by a cyan bar on the right side of the HUD."
+LANG_CHINESE        "一种迅捷式的变体，这种风格只用单手战斗，能有比迅捷式更快的进攻，同时也享有折中式的断空斩，尽管没有迅捷式的挑刺。在右下方的HUD上显示为青色的条"
+
+ENDMARKER
+
+

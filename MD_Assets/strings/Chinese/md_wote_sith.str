@@ -1,0 +1,48 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           STK1
+LANG_ENGLISH        "We meet at last, Son of Vader."
+LANG_CHINESE        "我们终于见面了，维达之子"
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "You're wrong -- My father was a Jedi. Vader murdered him."
+LANG_CHINESE        "你错了，我父亲是绝地我是。维达杀了他"
+
+REFERENCE           STK2
+LANG_ENGLISH        "So you have been told.."
+LANG_CHINESE        "原来你听到是这样的啊。。"
+
+REFERENCE           LUKE2
+LANG_ENGLISH        "I won't run from my destiny.. or from you."
+LANG_CHINESE        "我不会逃避我的命运，或者面对你"
+
+REFERENCE           STK3
+LANG_ENGLISH        "Now I will destroy you, Skywalker... As I destroyed your father."
+LANG_CHINESE        "现在我要杀了你，天行者。。。如同我杀了你父亲一样"
+
+REFERENCE           LUKE9
+LANG_ENGLISH        "Noo!!"
+LANG_CHINESE        "不！！！"
+
+REFERENCE           STK4
+LANG_ENGLISH        "You are strong, Skywalker. But only your hatred will give you the power to save your friends. Give in to the dark side!"
+LANG_CHINESE        "你很强大，天行者。但是只有你的恨意能给你拯救朋友的力量。屈服于黑暗面吧！"
+
+REFERENCE           STK5
+LANG_ENGLISH        "Ha Ha Ha Ha... very good.. my apprentice."
+LANG_CHINESE        "很好，我的徒弟。"
+
+ENDMARKER

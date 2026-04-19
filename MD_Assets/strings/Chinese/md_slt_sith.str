@@ -1,0 +1,36 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Good! Your hate has made you powerful."
+LANG_CHINESE        "很好！你的愤怒使你充满力量"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "I'm looking forward to completing your training."
+LANG_CHINESE        "我期待着你完成训练"
+
+REFERENCE           VAD1
+LANG_ENGLISH        "You don't know the power of the Dark Side! I must obey my Master!"
+LANG_CHINESE        "你对黑暗面的力量一无所知！我必须遵从我的师父"
+
+REFERENCE           VAD2
+LANG_ENGLISH        "Yes, Master."
+LANG_CHINESE        "是的，师父"
+
+REFERENCE           ANI1_BONUS
+LANG_ENGLISH        "How can you do this!? This is outrageous. It's unfair!"
+LANG_CHINESE        "你们怎么可以这样？我无法忍受。这不公平"
+
+ENDMARKER

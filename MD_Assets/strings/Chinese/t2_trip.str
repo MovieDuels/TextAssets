@@ -1,0 +1,95 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           15PRO001
+LANG_ENGLISH        "I have been told that a student with your level of training should have no difficulties with this particular mission."
+LANG_CHINESE        "别人告诉我说，接受过你这样训练的学生做这种任务应该没问题。"
+
+REFERENCE           15JAK001
+NOTES               "drviving a swoop bike"
+LANG_ENGLISH        "That was close!"
+LANG_CHINESE        "好险！"
+
+REFERENCE           15JAK002
+NOTES               "drviving a swoop bike (having fun)"
+LANG_ENGLISH        "Woooo!"
+LANG_CHINESE        "喔！"
+
+REFERENCE           15JAK003
+NOTES               "drviving a swoop bike (close call)"
+LANG_ENGLISH        "Whoa!"
+LANG_CHINESE        "哇！"
+
+REFERENCE           15JAK004
+NOTES               "drviving a swoop bike"
+LANG_ENGLISH        "Better be careful."
+LANG_CHINESE        "最好小心点。"
+
+REFERENCE           15JAK005
+LANG_ENGLISH        "Looks like someone doesn't want me here."
+LANG_CHINESE        "看来有人不想看到我在这里啊。"
+
+REFERENCE           15JAK006
+NOTES               "(Kinda like when Han says, Hey, watch where you're pointing that thing.)"
+LANG_ENGLISH        "Hey!"
+LANG_CHINESE        "喂！"
+
+REFERENCE           15JAK007
+LANG_ENGLISH        "These guys don't give up!"
+LANG_CHINESE        "这些家伙还真是硬骨头！"
+
+REFERENCE           15ME1001
+LANG_ENGLISH        "Are you the Jedi?"
+LANG_CHINESE        "你就是派来的绝地吗？"
+
+REFERENCE           15JAK008
+LANG_ENGLISH        "Yes.  Tell me everything you know about the Disciples of Ragnos.  Please make it quick, though, I ran into some trouble back there and it might be following me."
+LANG_CHINESE        "是的。告诉我有关拉格诺斯的信徒的事吧。请快些说，我来的时候，后面说不定还有人跟踪着呢"
+
+REFERENCE           15ME1002
+LANG_ENGLISH        "We should go inside, it'll be safer."
+LANG_CHINESE        "我们进屋说，安全起见。"
+
+REFERENCE           15ME1003
+NOTES               "(trying to tell Jaden something)"
+LANG_ENGLISH        "Cult... must..."
+LANG_CHINESE        "教徒..必须.."
+
+REFERENCE           15JAK009
+LANG_ENGLISH        "Sith spit!  I have to get outta here!"
+LANG_CHINESE        "混蛋西斯！我得赶快离开这儿！"
+
+REFERENCE           15JAK010
+LANG_ENGLISH        "Looks like I'm not going back that way."
+LANG_CHINESE        "貌似回不去了。"
+
+REFERENCE           15JAK011
+LANG_ENGLISH        "Snipers.  Great!  I hate snipers!"
+LANG_CHINESE        "狙击手，好极了！我最恨狙击手！"
+
+REFERENCE           15JAK012
+NOTES               "(shakes his head)"
+LANG_ENGLISH        "That's a long way down..."
+LANG_CHINESE        "还有好长的路要走啊..."
+
+REFERENCE           15JAK013
+NOTES               "(sees an enemy smash into a wall)"
+LANG_ENGLISH        "Dead end..."
+LANG_CHINESE        "死路.."
+
+
+ENDMARKER
+
+

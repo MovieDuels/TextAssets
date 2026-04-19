@@ -1,0 +1,108 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           25DES001
+LANG_ENGLISH        "Welcome, Kyle Katarn... Welcome to the future."
+LANG_CHINESE        "欢迎，凯尔 凯特恩...欢迎来到未来。"
+
+REFERENCE           25KJO006
+LANG_ENGLISH        "Your future's looking pretty grim, Desann."
+LANG_CHINESE        "你的未来看起来有点恐怖，迪桑。"
+
+REFERENCE           25DES002
+LANG_ENGLISH        "On the contrary.  Thanks to you, the weakling Jedi who scorned me will soon be erased from history, replaced by a new race of warriors.  Strong warriors.  Warriors who know that the Force is not a shield to protect the useless, but is in reality a weapon to empower the worthy!"
+LANG_CHINESE        "正好相反。介于你的帮助，那些嘲笑我的懦弱绝地们很快就会从历史上消失了，取而代之的是一批新的战士。一批强壮的战士。这些战士了解原力不应该用来保护那些无用的生物，而应该成为帮助那些有为者的武器！"
+
+REFERENCE           25KJO007
+LANG_ENGLISH        "None of that's going to happen, Desann. Most of your Shadow Troopers are being mopped up by real Jedi; ones who've been trained to use the Force. The rest blew up with your ship."
+LANG_CHINESE        "这是不可能发生的，迪桑。你的暗影士兵大部份都被真正的绝地打败了；他们才真正接受过使用原力的训练。剩下的暗影士兵则跟着你的船炸死了。"
+
+REFERENCE           25DES003
+LANG_ENGLISH        "What a pathetic ruse."
+LANG_CHINESE        "真是个可悲的谎言。"
+
+REFERENCE           25DES004
+LANG_ENGLISH        "Desann to Fyyar...  Admiral?   Admiral!  Admiral Fyyar, I order you to come in at once!"
+LANG_CHINESE        "迪桑呼叫飞亚….上将？上将！飞亚上将，我命令你马上回答！"
+
+REFERENCE           25DES005
+LANG_ENGLISH        "I was wrong about you, Katarn.  Your failure as a Jedi hasn't weakened you; it's only made you stronger.  Come, join me.  You know in your heart that you'll never truly be one of them."
+LANG_CHINESE        "我看错你了，卡塔恩。你身为绝地时的失败并没有减弱你的实力；你反而变得更强壮了。来吧，加入我。在你内心深处你知道你绝对不可能成为他们的一分子的。"
+
+REFERENCE           25KJO008
+LANG_ENGLISH        "Maybe.  Maybe not.  But I know I won't be alone.  How about you, Desann?  Even now, after all this pain, it's not too late...come, join US."
+LANG_CHINESE        "或许。或许不是。不过我知道我并不孤单。你呢，迪桑？就算是现在，在经历过这么多痛苦之后，也还不算太晚….来吧，加入我们。"
+
+REFERENCE           25DES006
+LANG_ENGLISH        "You...weak...fool!"
+LANG_CHINESE        "你这个...懦弱的...蠢货！"
+
+REFERENCE           25LUK001
+LANG_ENGLISH        "Kyle, Jan."
+LANG_CHINESE        "凯尔，简。"
+
+REFERENCE           25KJO009
+LANG_ENGLISH        "Someday you're going to have to teach me how to do that."
+LANG_CHINESE        "总有一天你要教我那是怎么做到的。"
+
+REFERENCE           25JAO005
+LANG_ENGLISH        "Thanks for taking care of the Raven's Claw."
+LANG_CHINESE        "谢谢你照顾乌鸦之爪。"
+
+REFERENCE           25LUK003
+LANG_ENGLISH        "It was the least I could do for the pair of mercenaries who helped save the Jedi Academy.  I know you've probably heard this before, but the New Republic is forever in your debt."
+LANG_CHINESE        "对于帮忙拯救绝地学院的这一对佣兵，最少我也应该展现出这种程度的感谢。我知道你们大概以前就听过这段话了，不过新共和国永远欠你们两个一份人情。"
+
+REFERENCE           25KJO010
+LANG_ENGLISH        "You should have known it would take a failed Jedi to take out another failed Jedi."
+LANG_CHINESE        "你应该知道只有失败的绝地才有办法打败另一个失败的绝地。"
+
+REFERENCE           25LUK004
+LANG_ENGLISH        "Kyle...you were never a failure."
+LANG_CHINESE        "凯尔...你从来就不曾失败过。"
+
+REFERENCE           25KJO011
+LANG_ENGLISH        "Luke, I-"
+LANG_CHINESE        "卢克，我-"
+
+REFERENCE           25LUK005
+LANG_ENGLISH        "I know.  I'll be happy to hold on to your lightsaber for safekeeping"
+LANG_CHINESE        "我知道。我会很乐意帮你保管你的光剑的"
+
+REFERENCE           25KJO012
+LANG_ENGLISH        "No.  I think I'll keep it."
+LANG_CHINESE        "不。我想我要留著它。"
+
+REFERENCE           25JAO006
+LANG_ENGLISH        "Hah!  I knew it!  Lando owes me five credits!"
+LANG_CHINESE        "哈！我就知道！蓝多欠我五块钱了！"
+
+REFERENCE           25LUK006
+LANG_ENGLISH        "Are you sure this is what you want, Kyle?"
+LANG_CHINESE        "你确定这是你要的吗，凯尔？"
+
+REFERENCE           25KJO013
+LANG_ENGLISH        "Look, I'm not saying I'm ready to join the Academy or anything like that.  I mean, before I do ANYTHING, I figure that Jan and I have earned a long vacation on the beaches of Spira.  And after that...well..."
+LANG_CHINESE        "听着，我没有说我准备好加入绝地学院或是那一类的话了。我的意思是，在我决定下一步之前，我觉得珍和我有资格在斯皮拉的海滩享受一段长假。在那之后...这个嘛..."
+
+REFERENCE           25LUK007
+LANG_ENGLISH        "After that, we'll see."
+LANG_CHINESE        "在那之后，我们走着瞧。"
+
+REFERENCE           25KJO014
+LANG_ENGLISH        "Yeah."
+LANG_CHINESE        "是呀。"
+
+REFERENCE           25LUK008
+LANG_ENGLISH        "Take your time, Kyle.  We'll still be here when you're ready."
+LANG_CHINESE        "慢慢来，凯尔。我们会一直在这里等你，直到你准备好为止。"
+
+REFERENCE           25KJO015
+LANG_ENGLISH        "Thanks. And May the Force Be With You, Luke. "
+LANG_CHINESE        "谢谢。愿原力与你同在，卢克。"
+
+REFERENCE           25JAO007
+LANG_ENGLISH        "Now he owes me twenty."
+LANG_CHINESE        "这下子蓝多欠我二十块了。"
+
+ENDMARKER

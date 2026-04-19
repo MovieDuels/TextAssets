@@ -1,0 +1,45 @@
+REFERENCE           OBJECTIVE
+LANG_ENGLISH        "Defeat All Enemies To Complete Your Final Task!"
+LANG_CHINESE        "打败所有的敌人来完成你最后的任务"
+
+REFERENCE           WAVE2
+LANG_ENGLISH        "Module 2: Kota's Militia"
+LANG_CHINESE        "模块2：科塔的军队"
+
+REFERENCE           WAVE3
+LANG_ENGLISH        "Module 3: Imperial Assault Squad"
+LANG_CHINESE        "模块3：帝国突击小队"
+
+REFERENCE           WAVE4
+LANG_ENGLISH        "Module 4: Imperial Armed Recon Squad"
+LANG_CHINESE        "模块4：帝国武装侦察小队"
+
+REFERENCE           WAVE5
+LANG_ENGLISH        "Module 5: AT-ST"
+LANG_CHINESE        "模块5：AT-ST"
+
+REFERENCE           WAVE6
+LANG_ENGLISH        "Module 6: Imperial Royal Guard"
+LANG_CHINESE        "模块6：帝国皇家禁卫队"
+
+REFERENCE           WAVE7
+LANG_ENGLISH        "Module 7: Obi-Wan Kenobi"
+LANG_CHINESE        "模块7：欧比-旺·克诺比"
+
+REFERENCE           WAVE8
+LANG_ENGLISH        "Module 8: Boba Fett"
+LANG_CHINESE        "模块8：波巴·费特"
+
+REFERENCE           WAVE9
+LANG_ENGLISH        "Module 9: Shaak Ti"
+LANG_CHINESE        "模块9：莎克·蒂"
+
+REFERENCE           STAGECOMPLETE
+LANG_ENGLISH        "Module Complete!"
+LANG_CHINESE        "模块完成"
+
+REFERENCE           STAGE10COMPLETE
+LANG_ENGLISH        "All Modules Complete, You Have Passed Your Final Trial!"
+LANG_CHINESE        "所有的模块训练完成。你已经通过了你的最终试炼！"
+
+ENDMARKER

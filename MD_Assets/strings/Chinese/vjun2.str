@@ -1,0 +1,173 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           18KYK001
+LANG_ENGLISH        "Grife, it's good to get out of that rain.  Now we need to get up into the castle.  There's a turbolift over there."
+LANG_CHINESE        "不用再淋雨感觉不错。现在我们得往上走进入堡垒。那里有个电梯。"
+
+REFERENCE           18KYK002
+LANG_ENGLISH        "Hmmm... locked down.  Ever feel like you're not welcome?  Let's see if we can find another way out of here."
+LANG_CHINESE        "呃...上锁了。以前有没有想到过自己会不受欢迎啊？我们来看看有没有别的路。"
+
+REFERENCE           18KYK003
+NOTES               "(shaking his head)"
+LANG_ENGLISH        "They always lock the door... you think they'd have learned by now."
+LANG_CHINESE        "他们老是喜欢锁门...不过他们到现在也是该学聪明了。"
+
+REFERENCE           18KYK004
+NOTES               "(checking the door)"
+LANG_ENGLISH        "Doesn't look like there's a key.  That would be too easy."
+LANG_CHINESE        "貌似没钥啊，有的话那就太轻松了。"
+
+REFERENCE           18KYK005
+NOTES               "(sighs in frustration)"
+LANG_ENGLISH        "The console to unlock the door's probably hidden in some room twelve floors up or something.  How does that make sense?"
+LANG_CHINESE        "开门的控制台很可能藏在12层楼上的什么地方。这个有没意思啊？"
+
+REFERENCE           18KYK006
+LANG_ENGLISH        "Wonder where this leads..."
+LANG_CHINESE        "这条路通向哪儿呢..."
+
+REFERENCE           18KYK007
+LANG_ENGLISH        "Ugh... of course, it has to be a garbage pit, doesn't it?  Well, let's go, no one ever said being a Jedi was glamorous."
+LANG_CHINESE        "呃...我就知道，肯定是通向垃圾箱，不是吗？唉，走吧，没人说做绝地武士是干净活儿。"
+
+REFERENCE           18KYK008
+LANG_ENGLISH        "Jaden!  Run to the middle!  You can jump out there!"
+LANG_CHINESE        "杰登！跑到中间！那里你可以跳上来！"
+
+REFERENCE           18KYK009
+LANG_ENGLISH        "That was too close.  We've gotta get outta here.  Take that chute and I'll take this one.  With luck, we'll meet up on the other side. "
+LANG_CHINESE        "好险啊，最终还是出来了。你去那个槽管，我去这个。运气好的话我们能在另一头会和。"
+
+REFERENCE           18KYK010
+LANG_ENGLISH        "Well, that worked out well. I thought I'd have to search high and low for you."
+LANG_CHINESE        "诶，还不错嘛，我还以为我要找你找半天呢。"
+
+REFERENCE           18KYK011
+LANG_ENGLISH        "This lift is locked down, too."
+LANG_CHINESE        "这个电梯也上锁了。"
+
+REFERENCE           18KYK012
+LANG_ENGLISH        "Maybe this switch..."
+LANG_CHINESE        "或许这个开关..."
+
+REFERENCE           18KYK013
+NOTES               "(annoyed that it didn't work)"
+LANG_ENGLISH        "Oh, come on..."
+LANG_CHINESE        "喔，拜托..."
+
+REFERENCE           18KYK014
+NOTES               "(reacting to a console that starts beeping)"
+LANG_ENGLISH        "Uh-oh."
+LANG_CHINESE        "啊喔。"
+
+REFERENCE           18KYK015
+LANG_ENGLISH        "Jaden, watch out!!!"
+LANG_CHINESE        "杰登，小心！！！"
+
+REFERENCE           18KYK016
+NOTES               "(straining)"
+LANG_ENGLISH        "Uhh... Jaden... Find a way to drain the water!  If this power conduit... hits the floor... we're both gonna be fried!"
+LANG_CHINESE        "呃...杰登...想办法把水放到！如果这个电力管道掉地上，我们两个都要被生煎了不可！"
+
+REFERENCE           18KYK017
+LANG_ENGLISH        "Well look at that.  Guess we made our own path."
+LANG_CHINESE        "嘿，看看这个，看来我们走出了自己的路。"
+
+REFERENCE           18JAK001
+LANG_ENGLISH        "Kyle!"
+LANG_CHINESE        "凯尔！"
+
+REFERENCE           18KYK018
+NOTES               "(yelling over the wind)"
+LANG_ENGLISH        "Relax, kid, I've seen tubes like this before; we can ride them to the top!"
+LANG_CHINESE        "别慌，小子。我以前见过这种管道。我们可以乘这个上去!"
+
+REFERENCE           18KYK019
+NOTES               "(yelling over the wind)"
+LANG_ENGLISH        "If we hit that laser grid, we're done for!  Head for that grate!"
+LANG_CHINESE        "要是碰到激光网我们就完了！去磨那里！"
+
+REFERENCE           18KYK020
+NOTES               "(sarcastically)"
+LANG_ENGLISH        "Well, that was fun."
+LANG_CHINESE        "呃，这个还挺好玩。"
+
+REFERENCE           18KYK021
+LANG_ENGLISH        "Not again.  Why even put doors in this place if they're always gonna be locked?!"
+LANG_CHINESE        "我晕啊，又是这样。既然老是喜欢锁门，那干嘛还在这里放一扇呢？"
+
+REFERENCE           18KYK022
+NOTES               "(seeing the dangerous tunnel)"
+LANG_ENGLISH        "You gotta be kidding me."
+LANG_CHINESE        "我靠，不是吧。"
+
+REFERENCE           18KYK023
+NOTES               "(sarcastically)"
+LANG_ENGLISH        "Remind me to have a talk with the architect when we're done here."
+LANG_CHINESE        "任务搞定后，别忘了提醒我去和建筑师好好谈谈。"
+
+REFERENCE           18KYK032
+NOTES               "(yelling down from above)"
+LANG_ENGLISH        "C'mon, Jaden."
+LANG_CHINESE        "快点，杰登。"
+
+REFERENCE           18KYK024
+LANG_ENGLISH        "Finally!  A lift that works."
+LANG_CHINESE        "总算看到一个能用的电梯了。"
+
+REFERENCE           18KYK025
+LANG_ENGLISH        "The castle's still a few more levels up, but they've shut down the lifts above us.  Looks like we gotta find another way up."
+LANG_CHINESE        "堡垒还要上去几层才到呢，但是向上的电梯被他们关掉了。看来我们得另外找路上去了。"
+
+REFERENCE           18KYK026
+LANG_ENGLISH        "Maybe we can move those mirrors to feed the energy back into the machine and overload it."
+LANG_CHINESE        "或许我们可以动动这些镜子，造成能量反噬，让机器超载。"
+
+REFERENCE           18KYK027
+LANG_ENGLISH        "Good idea!  We can feed the energy back into the machine and overload it!"
+LANG_CHINESE        "好主意！我们可以让能量反流回机器，让它超载！"
+
+REFERENCE           18KYK028
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, are you okay?"
+LANG_CHINESE        "杰登，你没事吧？"
+
+REFERENCE           18JAK003
+LANG_ENGLISH        "Yeah, I'm fine, where are you?"
+LANG_CHINESE        "嗯，我很好。你在哪儿？"
+
+REFERENCE           18KYK029
+LANG_ENGLISH        "I'm not really sure.  I'll have to catch up with you. Go on ahead without me."
+LANG_CHINESE        "我也不是很清楚。我得想办法赶上你了。你不用等我，先走吧。"
+
+REFERENCE           18KYK030
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden?  it looks like I'm a little boxed in here."
+LANG_CHINESE        "杰登？看来我被困在这里了。"
+
+REFERENCE           18JAK004
+LANG_ENGLISH        "Are you okay?"
+LANG_CHINESE        "你还好吧？"
+
+REFERENCE           18KYK031
+LANG_ENGLISH        "I'm fine, but I'll have to find another way to reach you.  Go on up without me."
+LANG_CHINESE        "我没事儿。不过我得另找路到你那里。你先上去吧，不用管我。"
+
+
+ENDMARKER
+
+

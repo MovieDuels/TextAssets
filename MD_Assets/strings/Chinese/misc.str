@@ -1,0 +1,400 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           MLUK_01
+NOTES               "(concerned)"
+LANG_ENGLISH        "Kyle and I have sensed great anger in you, Jaden.  You must learn to control it, or it could lead you to the dark side."
+LANG_CHINESE        "我和凯尔都感觉到你非常愤怒，杰登。你必须学着控制怒火，不然愤怒会把你拽入黑暗面。"
+
+REFERENCE           MKYK_01
+NOTES               "(a word of advice)"
+LANG_ENGLISH        "Look, Jaden, I know better than almost anyone here that the dark side is tempting, especially in the middle of a fight, but you better watch it, okay?"
+LANG_CHINESE        "听着，杰登，我比这里几乎所有人都清楚黑暗面的诱惑难挡，特别是在\n战斗的时候。但是你最好还是提防着点，明白不？"
+
+REFERENCE           MLUK_02
+NOTES               "(sternly, seriously)"
+LANG_ENGLISH        "Jaden.  You are playing with powers that will consume you.  If you don't change your ways, you will fall to the dark side completely."
+LANG_CHINESE        "杰登，你这是在玩儿火自焚。你再不回头，就会彻彻底底的堕入黑暗面了。"
+
+REFERENCE           MKYK_02
+NOTES               "(rebuking)"
+LANG_ENGLISH        "Jaden, the dark side is not something you play with; trust me, I know.  You better get it under control while you still can!"
+LANG_CHINESE        "杰登，黑暗面不是什么玩玩的东西，听我一句，我清楚的很。趁现在及时收手，还为时不晚。"
+
+REFERENCE           MLUK_03
+NOTES               "(pleased, with praise)"
+LANG_ENGLISH        "Jaden, you are truly on the path of the Jedi.  I sense that you are at peace."
+LANG_CHINESE        "杰登，你确实在走着绝地之道。我感觉你内心很平静。"
+
+REFERENCE           MKYK_03
+NOTES               "(proud)"
+LANG_ENGLISH        "I'm proud of you, Jaden.  Despite everything, you've really kept your balance and control."
+LANG_CHINESE        "我为你感到自豪，杰登。不论碰到什么困难，你还是成功的保持住了平衡与自控。"
+
+REFERENCE           MLUK_04
+NOTES               "(pleased)"
+LANG_ENGLISH        "I sense much good in you.  Keep on your current path and you will truly be a Jedi."
+LANG_CHINESE        "我赶到你内心的善意。继续保持，你会成为一名真正的绝地的。"
+
+REFERENCE           MKYK_04
+NOTES               "(encouraging)"
+LANG_ENGLISH        "You're making good progress.  Luke and I can sense the good in you.  You'll be a Jedi in no time."
+LANG_CHINESE        "你进步很大。卢克和我都感觉到你内心的善意。你很快就能成为一名绝地了。"
+
+REFERENCE           MLUK_05
+NOTES               "(cautiously, advising)"
+LANG_ENGLISH        "Your future is clouded.  Make your choices carefully."
+LANG_CHINESE        "你的未来阴云密布，谨慎的作出选择。"
+
+REFERENCE           MKYK_05
+NOTES               "(advising, approving)"
+LANG_ENGLISH        "I gotta say, I admire how you've kept your balance.  You've got a good, strong spirit.  Keep it up."
+LANG_CHINESE        "我得承认，你现在保持的平衡我很欣赏。你有着温厚坚强的内心。保持下去吧。"
+
+REFERENCE           MKYK_06
+LANG_ENGLISH        "Be careful walking the line between light and dark.  It can go either way"
+LANG_CHINESE        "你在光与暗的交界线上徘徊，小心别一失足成千古恨。"
+
+REFERENCE           MST_01L01
+LANG_ENGLISH        "That Bith was really getting on my nerves so I shot him. How was I supposed to know he was a friend of the Admiral?"
+LANG_CHINESE        "那个比斯人实在太让我郁闷，所以我就一枪把他给崩了。我怎么可能知道他是海军上将的朋友呢？"
+
+REFERENCE           MST_01L02
+LANG_ENGLISH        "You'll be executed for sure. "
+LANG_CHINESE        "你肯定要被抓起来枪毙咯。"
+
+REFERENCE           MST_01L03
+LANG_ENGLISH        "No way.  They don't know it was me."
+LANG_CHINESE        "不可能的。他们又不知道是我干的。"
+
+REFERENCE           MST_01L04
+LANG_ENGLISH        "Sure they do.  Your pistol has a tracking device in it.  The higher-ups can trace when your weapon was fired and where."
+LANG_CHINESE        "怎么不知道。你的手枪上有个追踪装置。你一开枪，头头们就能查到你开枪的时间和地点。"
+
+REFERENCE           MST_01L05
+LANG_ENGLISH        "You're kidding?  Ummm... I have to go check on something."
+LANG_CHINESE        "你没忽悠我吧？呃...我有事先走了。"
+
+REFERENCE           MST_02L01
+LANG_ENGLISH        "Y'know, I used to race on the swoop circuit."
+LANG_CHINESE        "你知道的，我以前开过飞车比赛。"
+
+REFERENCE           MST_02L02
+LANG_ENGLISH        "You did, huh?  Were you good?"
+LANG_CHINESE        "是吗？你厉害不？"
+
+REFERENCE           MST_02L03
+LANG_ENGLISH        "One of the best.  Top three every race."
+LANG_CHINESE        "当然咯。每次都是前三名。"
+
+REFERENCE           MST_02L04
+LANG_ENGLISH        "So how come you're not a scout trooper?"
+LANG_CHINESE        "那你怎么不去当侦察兵呢？"
+
+REFERENCE           MST_02L05
+LANG_ENGLISH        "Once I put the helmet on, I couldn't see.  I sideswiped another cadet and caused a pile up that destroyed twelve speeder bikes.  I was kicked out of the trooper corps."
+LANG_CHINESE        "有一次我戴上头盔，结果啥都看不见。我撞到了旁边人的车，最后弄出追尾事故，十二辆飞车全毁。然后就被赶出了部队。"
+
+REFERENCE           MST_02L06
+LANG_ENGLISH        "That's tough."
+LANG_CHINESE        "挺惨的。"
+
+REFERENCE           MST_03L01
+LANG_ENGLISH        "Y'know, I'd rather be fighting Rebels out on the front lines than guarding... what are we guarding?"
+LANG_CHINESE        "唉，我宁愿去前线打反抗军，总比守这个。。。这个地方叫啥来着？"
+
+REFERENCE           MST_03L02
+LANG_ENGLISH        "It doesn't matter.  We just have to guard it and make sure no one gets past."
+LANG_CHINESE        "叫啥无所谓的啦。我们只要守好了，别让什么人过去就行了。"
+
+REFERENCE           MST_03L03
+LANG_ENGLISH        "Yeah.  Like some lone Rebel is going to sneak in here."
+LANG_CHINESE        "呵，是啊，听上去好像真的有反抗军的家伙会溜进来似的。"
+
+REFERENCE           MST_03L04
+LANG_ENGLISH        "We're probably protecting dried nerf steaks or something like that."
+LANG_CHINESE        "我们估计在看守干纳福牛排之类的东西吧。"
+
+REFERENCE           MST_04L01
+LANG_ENGLISH        "Have you been by auxiliary hall B?"
+LANG_CHINESE        "你去了备用仓库B了吗？"
+
+REFERENCE           MST_04L02
+LANG_ENGLISH        "Yeah, why?"
+LANG_CHINESE        "去了，怎么了？"
+
+REFERENCE           MST_04L03
+LANG_ENGLISH        "I thought I heard something down there.  Could be a Wampa."
+LANG_CHINESE        "我听见那里有动静。可能是旺帕雪怪。"
+
+REFERENCE           MST_04L04
+LANG_ENGLISH        "We cleared this place out when we got here.  There are no wampas inside the base."
+LANG_CHINESE        "我们来的时候就把基地清扫过一遍了。不可能有雪怪的。"
+
+REFERENCE           MST_04L05
+LANG_ENGLISH        "I don't know.  I'm not going there alone."
+LANG_CHINESE        "我不清楚耶。反正一个人下去我不干。"
+
+REFERENCE           MST_04L06
+LANG_ENGLISH        "Let's go check it out right now.  I'll prove to you there are no wampas."
+LANG_CHINESE        "那就一起去咯。肯定没雪怪的呀。"
+
+REFERENCE           MST_05L01
+LANG_ENGLISH        "This place is creepy.  Was this really Darth Vader's castle?"
+LANG_CHINESE        "这个地方挺阴森的。真的是达斯 维德的堡垒吗？"
+
+REFERENCE           MST_05L02
+LANG_ENGLISH        "That's what I heard."
+LANG_CHINESE        "我听别人说是的。"
+
+REFERENCE           MST_05L03
+LANG_ENGLISH        "I'm sure glad I wasn't stationed here when Vader was alive.  I heard he liked to use stormtroopers for lightsaber practice."
+LANG_CHINESE        "幸亏没在他还活着的时候把我派来。我听说他练光剑的时候喜欢用暴风兵当靶子。"
+
+REFERENCE           MST_05L04
+LANG_ENGLISH        "I've never even seen a lightsaber."
+LANG_CHINESE        "我连光剑都没见过呢。"
+
+REFERENCE           MST_05L05
+LANG_ENGLISH        "Let's hope we never have to."
+LANG_CHINESE        "希望还是永远不要见到为好。"
+
+REFERENCE           MST_06L01
+LANG_ENGLISH        "Have you seen the new Blastech E-19?"
+LANG_CHINESE        "你有没见识过新的爆能枪 E-19型？"
+
+REFERENCE           MST_06L02
+LANG_ENGLISH        "Are they any good?"
+LANG_CHINESE        "那枪好不好用啊？"
+
+REFERENCE           MST_06L03
+LANG_ENGLISH        "I just got one.  I'm going to try it out at the firing range when my shift's over."
+LANG_CHINESE        "我刚拿到一把。我准备换岗时去打靶场试试威力。"
+
+REFERENCE           MST_06L04
+LANG_ENGLISH        "Let me know how it goes.  My E-15 could use an upgrade."
+LANG_CHINESE        "试好了跟我说说啊。我的E-15型也该升升级了。"
+
+REFERENCE           MST_06L05
+LANG_ENGLISH        "My shift's over at 1600.  Why don't you join me?"
+LANG_CHINESE        "我在1600时换岗，一起不？"
+
+REFERENCE           MST_06L06
+LANG_ENGLISH        "I'll clear it with my squad leader and let you know."
+LANG_CHINESE        "我去报告下队长，一会儿见"
+
+REFERENCE           MST_07L01
+LANG_ENGLISH        "What's with the increased security in sector seven?"
+LANG_CHINESE        "7区守卫力量加强了，怎么了？"
+
+REFERENCE           MST_07L02
+LANG_ENGLISH        "Last week's break in."
+LANG_CHINESE        "上星期被硬闯了一次。"
+
+REFERENCE           MST_07L03
+LANG_ENGLISH        "I hear they captured the insurgents."
+LANG_CHINESE        "我听说他们抓住了造反的家伙。"
+
+REFERENCE           MST_07L04
+LANG_ENGLISH        "They did, but they refuse to talk.  There's no way of telling if they acted alone or if it was an inside job."
+LANG_CHINESE        "抓是抓住了，但他们就是不开口。根本不知道他们是自己组织的还是另有内情。"
+
+REFERENCE           MST_07L05
+LANG_ENGLISH        "They'll talk.  The Admiral will see to that."
+LANG_CHINESE        "他们会开口的。上将会让他们开口的。"
+
+REFERENCE           MST_08L01
+LANG_ENGLISH        "So how long you been here?"
+LANG_CHINESE        "你来多久了？"
+
+REFERENCE           MST_08L02
+LANG_ENGLISH        "Just got in."
+LANG_CHINESE        "刚刚加入没多久"
+
+REFERENCE           MST_08L03
+LANG_ENGLISH        "Yeah? Who抯 your commander?"
+LANG_CHINESE        "你的头头是谁？"
+
+REFERENCE           MST_08L04
+LANG_ENGLISH        "Someone called Ra抐el."
+LANG_CHINESE        "一个叫Ra抐el的人"
+
+REFERENCE           MST_08L05
+LANG_ENGLISH        "You mean 慒riendly Fire? You better make out your will now..."
+LANG_CHINESE        "你是说对友军开火？你最好现在就写遗书吧。。。"
+REFERENCE           MST_08L06
+LANG_ENGLISH        "What're you talking about?"
+LANG_CHINESE        "你在说啥？"
+
+REFERENCE           MST_08L07
+LANG_ENGLISH        "You haven't heard? Guy's a real one-man army."
+LANG_CHINESE        "你没听说吗？那个家伙猛的可是一塌糊涂。"
+
+REFERENCE           MST_08L08
+LANG_ENGLISH        "What?"
+LANG_CHINESE        "啥？"
+
+REFERENCE           MST_08L09
+LANG_ENGLISH        "As soon as the action starts he's blazing away like no-one's business.  You wanna make dead certain he's in front of you or you'll be getting new rear vents in your armor."
+LANG_CHINESE        "他一来就开始旁若无人的大杀特杀。要是他不在你面前，你就准备背后挨刀子吧。"
+
+REFERENCE           MST_08L10
+LANG_ENGLISH        "You're kidding me."
+LANG_CHINESE        "你少忽悠我了。"
+
+REFERENCE           MST_08L11
+LANG_ENGLISH        "No, I抦 serious."
+LANG_CHINESE        "我没忽悠你。"
+
+REFERENCE           MST_09L01
+LANG_ENGLISH        "I heard you got chewed out by the commander."
+LANG_CHINESE        "听说你被头头骂了。"
+
+REFERENCE           MST_09L02
+LANG_ENGLISH        "I was making faces at him the whole time  These helmets are great!"
+LANG_CHINESE        "我整天对他做鬼脸，头盔太棒了！"
+
+REFERENCE           MST_09L03
+LANG_ENGLISH        "You do that too?  I thought I was the only one..."
+LANG_CHINESE        "你也做鬼脸？还以为只有我这么做呢。。"
+
+REFERENCE           MST_09L04
+LANG_ENGLISH        "Look alert, officer approaching..."
+LANG_CHINESE        "注意，长官过来了。。。"
+
+REFERENCE           MST_10L01
+LANG_ENGLISH        "Boy, I could sure go for a death-stick right about now."
+LANG_CHINESE        "好家伙，现在我能抽根烟了。"
+
+REFERENCE           MST_10L02
+LANG_ENGLISH        "Bah, those things will kill you."
+LANG_CHINESE        "靠，吸烟会死人的。"
+
+REFERENCE           MRT_01L01
+LANG_ENGLISH        "Do you know where the armory is?  My weapon keeps jamming."
+LANG_CHINESE        "你知道军械库在哪儿吗？我的武器老是不好使。"
+
+REFERENCE           MRT_01L02
+LANG_ENGLISH        "I wouldn抰 worry about it.  There抯 nothing to fight here but wind gusts."
+LANG_CHINESE        "我就不会紧张。这里没东西可打，除了西北风。"
+
+REFERENCE           MRT_01L03
+LANG_ENGLISH        "I like being posted out here.  Nice and quiet."
+LANG_CHINESE        "我喜欢在外面站岗。安静又舒适。"
+
+REFERENCE           MRT_01L04
+LANG_ENGLISH        "Yeah, I guess your right..."
+LANG_CHINESE        "对头啊。。。"
+
+REFERENCE           MIS_01L01
+LANG_ENGLISH        "Is it just me, or are Rodians kinda creepy?"
+LANG_CHINESE        "是只有我这么想，还是罗迪安人实在很吓人？"
+
+REFERENCE           MIS_01L02
+LANG_ENGLISH        "I know what you mean. Those weird antenna-things, right?"
+LANG_CHINESE        "我知道你的意思。你说的是那个诡异的触角样的东西吧？"
+
+REFERENCE           MIS_01L03
+LANG_ENGLISH        "Yeah. That and the nose. Pretty spooky."
+LANG_CHINESE        "是啊。还有鼻子，像鬼一样。"
+
+REFERENCE           MIS_01L04
+LANG_ENGLISH        "Yeah. Spooky."
+LANG_CHINESE        "嘿，是啊，像鬼一样。"
+
+REFERENCE           MCU_01L01
+LANG_ENGLISH        "We抮e wanted up in the throne room."
+LANG_CHINESE        "有人叫我们去王座厅。"
+
+REFERENCE           MCU_01L02
+LANG_ENGLISH        "For what?"
+LANG_CHINESE        "咋了？"
+
+REFERENCE           MCU_01L03
+LANG_ENGLISH        "I guess they抮e almost done up there.  We抣l be leaving soon."
+LANG_CHINESE        "估计活儿快干完了。我们估计不久后就能离开了。"
+
+REFERENCE           MCU_02L01
+LANG_ENGLISH        "Are you new here?"
+LANG_CHINESE        "你是新来的吗？"
+
+REFERENCE           MCU_02L02
+LANG_ENGLISH        "Yeah."
+LANG_CHINESE        "是的"
+
+REFERENCE           MCU_02L03
+LANG_ENGLISH        "You made a wise choice.  The master will soon return to lead us to glory."
+LANG_CHINESE        "你算是来对了。主人不久就会回来，给我们带来荣光。"
+
+REFERENCE           MRE_01L01
+LANG_ENGLISH        "Our goal is near."
+LANG_CHINESE        "我们的目标就要达到了。"
+
+REFERENCE           MRE_01L02
+LANG_ENGLISH        "Yes.  Soon, Ragnos will be risen, and he will guide us to a new age."
+LANG_CHINESE        "对。不久，拉格诺斯就会重生，并带领我们走进新时代。"
+
+REFERENCE           MME_01L01
+LANG_ENGLISH        "I can hardly see in this thing.  It抯 like being a stormtrooper all over again."
+LANG_CHINESE        "戴着这个东西我啥都看不清，好像又回到当暴风兵那会儿了"
+
+REFERENCE           MME_01L02
+LANG_ENGLISH        "You were a stormtrooper?"
+LANG_CHINESE        "你曾当过暴风兵？"
+
+REFERENCE           MME_01L03
+LANG_ENGLISH        "Yeah, but I couldn抰 stand taking orders so I jumped ship first chance I got."
+LANG_CHINESE        "嗯。但是我受不了一天到晚让人使唤，所以一有机会就跳槽了。"
+
+REFERENCE           MME_01L04
+LANG_ENGLISH        "Smart move. By the way, the boss gave us orders to patrol the north hall."
+LANG_CHINESE        "是该跳槽哇。对了，老大叫我们去北厅巡逻。"
+
+REFERENCE           MME_01L05
+LANG_ENGLISH        "Okay, let抯 go."
+LANG_CHINESE        "行，走吧。"
+
+REFERENCE           MME_02L01
+LANG_ENGLISH        "Did you put your bet in?"
+LANG_CHINESE        "你下注了吗？"
+
+REFERENCE           MME_02L02
+LANG_ENGLISH        "Why bother?  The odds are terrible.  Most prisoners don抰 even get ten meters before the rancor eats them.  It抯 a waste of credits."
+LANG_CHINESE        "干嘛还去下注呢？赢的几率太渺茫了。大多数囚犯还没走出10米就被兰科兽给吞了。赌这个纯粹浪费钱。"
+
+REFERENCE           MME_02L03
+LANG_ENGLISH        "Maybe, but if one of them ever does make a break, I抦 gonna be rich."
+LANG_CHINESE        "或许吧。但要是真有人逃出去了，我不就发了。"
+
+REFERENCE           MME_02L04
+LANG_ENGLISH        "Keep dreamin?"
+LANG_CHINESE        "嘿，继续做你的白日梦吧。"
+
+REFERENCE           MME_03L01
+LANG_ENGLISH        "Hokk, do you read?"
+LANG_CHINESE        "霍克，你听到吗？"
+
+REFERENCE           MME_03L02
+LANG_ENGLISH        "I read you, J'aahn."
+LANG_CHINESE        "听到，简"
+
+REFERENCE           MME_03L03
+LANG_ENGLISH        "Meet me at station Six-C."
+LANG_CHINESE        "在6-C站碰头。"
+
+
+ENDMARKER
+
+

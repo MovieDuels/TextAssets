@@ -1,0 +1,228 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           10LAC001
+LANG_ENGLISH        "Kyle Katarn?"
+LANG_CHINESE        "凯尔 卡塔恩？"
+
+REFERENCE           10KJO001
+LANG_ENGLISH        "Lando?  What are you doing here?"
+LANG_CHINESE        "兰多？你在这里做什么？"
+
+REFERENCE           10LAC002
+LANG_ENGLISH        "What does it look like I'm doing?  I'm sitting in a cell.  What about you?"
+LANG_CHINESE        "我看起来像在做什么？我可是坐在牢里呢。你呢？"
+
+REFERENCE           10KJO002
+LANG_ENGLISH        "I'm looking for Reelo Baruk."
+LANG_CHINESE        "我在找里洛 巴克。"
+
+REFERENCE           10LAC003
+LANG_ENGLISH        "You too?  What's the Republic want with him?"
+LANG_CHINESE        "你也是？新共和国找他有什么事？"
+
+REFERENCE           10KJO003
+LANG_ENGLISH        "A ship of his was involved in an...incident...on Artus Prime.  Remnant stuff."
+LANG_CHINESE        "他的一艘船和亚多主星上的一个...事件...有关。帝国的事。"
+
+REFERENCE           10LAC004
+LANG_ENGLISH        "The Remnant?  Blast!  Now it's starting to make sense..."
+LANG_CHINESE        "帝国？该死！这样就说的通了..."
+
+REFERENCE           10KJO004
+LANG_ENGLISH        "What?"
+LANG_CHINESE        "什么？"
+
+REFERENCE           10LAC005
+LANG_ENGLISH        "Over the past few weeks, a mineral smuggling ring has infiltrated the Cloud City on Bespin.  Real slick group, too: they commandeered half of our loading platforms and Carbonite Chambers before we knew what hit us.  No one knows who's behind it, but it's become obvious that Reelo's garbage haulers are handling the transports.  I came down here to find Reelo, and persuade him to hand over the names of his employers."
+LANG_CHINESE        "几个礼拜以前，一对走私客入侵了贝斯平的云城。他们是很厉害的角色，在我们发现之前他们就已经控制了我们半数的起降平台和碳化设备。没有人知道幕后是谁在指使他们的，但是很明显的是，里洛的垃圾船在负责运输的工作。我来这里找里洛，说服他交出他员工的名单。"
+
+REFERENCE           10KJO005
+LANG_ENGLISH        "'Persuade'?"
+LANG_CHINESE        "「说服」？"
+
+REFERENCE           10LAC006
+LANG_ENGLISH        "Hey, I can be a charming guy when I want to.  After a few bar fights and card games, I hadn't gotten any closer to Reelo, but I had begun to hear about a Remnant bigwig named 'Desann'... then I was captured."
+LANG_CHINESE        "嘿，我愿意的话我可是很有魅力的。在打过几场架和赌了几手牌以后，我还是没有办法接近里洛，可是我开始听到一些关于一个帝国大人物「迪桑」的传言...然后我就被抓起来了。"
+
+REFERENCE           10KJO006
+LANG_ENGLISH        "Desann?"
+LANG_CHINESE        "迪桑？"
+
+REFERENCE           10LAC007
+LANG_ENGLISH        "You know him?"
+LANG_CHINESE        "你认识他？"
+
+REFERENCE           10KJO007
+LANG_ENGLISH        "He's a Dark Jedi.  He and the Remnant have been performing sick experiments on New Republic citizens...among other things."
+LANG_CHINESE        "他是个黑暗绝地。他和帝国联手对新共和的人民进行一些残忍的实验...而且还不只如此。"
+
+REFERENCE           10LAC008
+LANG_ENGLISH        "Like I said, the Remnant connection makes sense.  These smugglers are much more organized than the kind of scum we usually get on Bespin; they've gotta be Imperials."
+LANG_CHINESE        "我就说嘛，这件事帝国也有一份才能说的通。这些走私客和我们平常在贝斯遇到的那些混蛋比起来有组织的多了；他们一定是帝国部队。"
+
+REFERENCE           10KJO008
+LANG_ENGLISH        "Want me to get you out of here?"
+LANG_CHINESE        "需要我救你出来吗？"
+
+REFERENCE           10LAC009A
+LANG_ENGLISH        "If it's not too much trouble.  You'll need the password to get into Reelo's command center and open the cells."
+LANG_CHINESE        "如果你不嫌太麻烦的话。你必须要用密码进到里洛的指挥中心里面才能打开这些门。"
+
+REFERENCE           10KJO009
+LANG_ENGLISH        "I'll be right back."
+LANG_CHINESE        "我马上回来。"
+
+REFERENCE           10LAC010
+LANG_ENGLISH        "I'm not going anywhere."
+LANG_CHINESE        "我不会跑太远的。"
+
+REFERENCE           10KJO028
+LANG_ENGLISH        "Any idea what that might be?"
+LANG_CHINESE        "你知道那个是什么吗？"
+
+REFERENCE           10LAC016
+LANG_ENGLISH        "Yeah. It's Ruby Bliels"
+LANG_CHINESE        "知道。那是红宝果汁"
+
+REFERENCE           10KJO031
+LANG_ENGLISH        "I could go for one of those"
+LANG_CHINESE        "我可以喝上一杯"
+
+REFERENCE           10LAC021
+LANG_ENGLISH        "Yeah, me too"
+LANG_CHINESE        "是啊，我也是。"
+
+REFERENCE           10REE001
+LANG_ENGLISH        "Looking for something?"
+LANG_CHINESE        "你在找东西吗？"
+
+REFERENCE           10KJO010
+LANG_ENGLISH        "Not anymore.  You're Reelo Baruk?"
+LANG_CHINESE        "现在找到了。你是里洛 巴克吧？"
+
+REFERENCE           10REE002
+LANG_ENGLISH        "In the flesh.  But who are you?"
+LANG_CHINESE        "如假包换。倒是你是谁？"
+
+REFERENCE           10KJO011
+LANG_ENGLISH        "Does it matter?"
+LANG_CHINESE        "这有关系吗？"
+
+REFERENCE           10REE003
+LANG_ENGLISH        "Not really.  Any last words?"
+LANG_CHINESE        "也不尽然。你还有什么话吗？"
+
+REFERENCE           10KJO012
+LANG_ENGLISH        "What's a respectable gangster like you doing mixed up with a Remnant slime like Desann?"
+LANG_CHINESE        "你这种受人尊敬的黑道为什么和迪桑那种帝国人渣混在一起？"
+
+REFERENCE           10REE004
+LANG_ENGLISH        "Making money, of course.  Yah-hah-hah-haaaaa!"
+LANG_CHINESE        "当然是为了赚钱呀。哈哈哈哈！"
+
+REFERENCE           10LAC011
+LANG_ENGLISH        "What went on up there?"
+LANG_CHINESE        "上面发生什么事了？"
+
+REFERENCE           10KJO013
+LANG_ENGLISH        "I ran into Reelo."
+LANG_CHINESE        "我遇到里洛了。"
+
+REFERENCE           10LAC012
+LANG_ENGLISH        "Did he tell you anything about the smuggling ring?"
+LANG_CHINESE        "他有没有告诉你关于那队走私客的事？"
+
+REFERENCE           10KJO014
+LANG_ENGLISH        "We didn't talk much."
+LANG_CHINESE        "我们聊的不多。"
+
+REFERENCE           10LAC013
+LANG_ENGLISH        "I see.  Listen, we'd better get out of here.  My ship's hidden nearby.  What about yours?"
+LANG_CHINESE        "我懂了。听着，我们最好离开这里。我的船就藏在附近。你的呢？"
+
+REFERENCE           10KJO015
+LANG_ENGLISH        "Reelo's thugs have probably already stripped it for parts by now."
+LANG_CHINESE        "里洛的手下现在大概已经把所有值钱的零件都拆走了"
+
+REFERENCE           10LAC014
+LANG_ENGLISH        "What about Jan?"
+LANG_CHINESE        "那简呢"
+
+REFERENCE           10KJO016
+LANG_ENGLISH        "Jan's...not with me on this one."
+LANG_CHINESE        "简的...不是和我一起做这件事。"
+
+REFERENCE           10LAC015
+LANG_ENGLISH        "You two've had another one of your fights, haven't you?  Well, c'mon, let's go.  You can buy her some flowers on Bespin."
+LANG_CHINESE        "你们两个又吵架了，是不是？好吧，我们走。你可以在贝斯平买几束花向她赔罪。"
+
+REFERENCE           10KJO017
+LANG_ENGLISH        "Pfew. What's that smell?"
+LANG_CHINESE        "呃。那是什么味道？"
+
+REFERENCE           10KJO018
+LANG_ENGLISH        "Reelo sure has a lot of heavy firepower to guard a bunch of 'trash'."
+LANG_CHINESE        "里洛为了保护这堆「垃圾」还真是布置了很强的火力。"
+
+REFERENCE           10KJO019
+LANG_ENGLISH        "Surveillance cameras. Reelo doesn't want to miss a thing."
+LANG_CHINESE        "监视摄像机。里洛真是什么事都不想错过。"
+
+REFERENCE           10KJO020
+LANG_ENGLISH        "Where's Reelo? How could a Rodian that big just disappear?"
+LANG_CHINESE        "里洛在哪里？那么大一个罗地安族怎么可能说不见就不见？"
+
+REFERENCE           10KJO021
+LANG_ENGLISH        "I can't leave without Lando."
+LANG_CHINESE        "没有蓝多我不能离开。"
+
+REFERENCE           10KJO022
+LANG_ENGLISH        "Reelo"
+LANG_CHINESE        "里洛"
+
+REFERENCE           10KJO023
+LANG_ENGLISH        "Garbage"
+LANG_CHINESE        "垃圾"
+
+REFERENCE           10KJO024
+LANG_ENGLISH        "Desann"
+LANG_CHINESE        "迪桑"
+
+REFERENCE           10KJO025
+LANG_ENGLISH        "I don't know"
+LANG_CHINESE        "我不知道"
+
+REFERENCE           10KJO026
+LANG_ENGLISH        "Wookie feet"
+LANG_CHINESE        "伍基人的脚"
+
+REFERENCE           10KJO027
+LANG_ENGLISH        "Ruby Bliels"
+LANG_CHINESE        "红宝石布利尔酒"
+
+REFERENCE           10LAC018
+LANG_ENGLISH        "I thought you were going to get me out of here?"
+LANG_CHINESE        "我还以为你打算把我救出去呢？"
+
+REFERENCE           10LAC019
+LANG_ENGLISH        "Whatever you tried didn't work. I'm still stuck in here."
+LANG_CHINESE        "不管你试了什么都没有成功。我还是被关在这里。"
+
+REFERENCE           10LAC020
+LANG_ENGLISH        "Come on, Kyle. Get me out of here!"
+LANG_CHINESE        "快点，凯尔。救我出去！"
+
+REFERENCE           EYE_ASK
+LANG_ENGLISH        "What's the password?"
+LANG_CHINESE        "密码是什么？"
+
+REFERENCE           EYE_FAIL
+LANG_ENGLISH        "Wrong!"
+LANG_CHINESE        "错误！"
+
+REFERENCE           EYE_PASS
+LANG_ENGLISH        "Correct."
+LANG_CHINESE        "正确。"
+
+ENDMARKER

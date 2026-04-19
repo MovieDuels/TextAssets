@@ -1,0 +1,94 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           16PRO001
+LANG_ENGLISH        "Master Katarn asked me to inform you that you are not to engage the members of the cult.  He would like you only to determine if the Disciples of Ragnos are on the planet and using it as a base."
+LANG_CHINESE        "卡塔恩大师让我们告诉你不要去和邪教徒正面交锋。他想要你调查\n清楚拉格诺斯的信徒有没有把这个星球当作他们的根据地。"
+
+REFERENCE           16RAJ001
+NOTES               "(laughs)"
+LANG_ENGLISH        "Drop your laser sword, Jedi, and maybe we'll spare your life. Or perhaps you'd like to take your chances!"
+LANG_CHINESE        "放下你的激光剑，绝地，乖乖照做我们可以考虑留你一条小命。还是说你想挑战极限？"
+
+REFERENCE           16RAJ002
+LANG_ENGLISH        "So, my Jedi friend.  What do you think of our accommodations?"
+LANG_CHINESE        "那么，我的绝地朋友。你在这里还住得惯吗？"
+
+REFERENCE           16JAK001
+LANG_ENGLISH        "Why don't you come down here and find out?"
+LANG_CHINESE        "你干嘛不自己下来呆两天啊？"
+
+REFERENCE           16RAJ003
+LANG_ENGLISH        "Ahhh... feisty.  Good, good.  I have a proposition for you.  You see, it can get dreadfully dull around here, so I'm up for a bit of sport.  I'm going to let you out.  If you can make it back to your ship, you're free to leave.  But if I catch you, I'll have to shoot you... after all, you are an escaped prisoner.  Hopefully, you'll prove more of a challenge than the bounty hunter I had to kill a few days ago.  Of course, I've never hunted a Jedi before. "
+LANG_CHINESE        "啊...还挺嘴硬的呢。不错，不错。我有个想法。你也看到了，这个地方无聊的是一比，\n所以我想找点乐子。我准备放你出来。如果你能想办法回到你的飞船，我就放你走。\n但如果让我逮到了，你就准备挨枪子儿吧...你毕竟是逃犯。希望你比前几天\n我收拾掉的赏金猎人更具挑战性。当然，我以前从没猎杀过绝地。"
+
+REFERENCE           16JAK002
+LANG_ENGLISH        "And if I refuse to play along?"
+LANG_CHINESE        "要是我不奉陪呢？"
+
+REFERENCE           16RAJ004
+NOTES               "(laughs at end)"
+LANG_ENGLISH        "Well then, you can rot in your cell.  I'm sure someone might come looking for you, eventually."
+LANG_CHINESE        "唉，那么你就在你的牢房里等死把。到最后肯定会有人来为你收尸的。"
+
+REFERENCE           16RAJ005
+NOTES               "(O.S.)"
+LANG_ENGLISH        "Let the games begin!"
+LANG_CHINESE        "游戏开始！"
+
+REFERENCE           16RAJ006
+LANG_ENGLISH        "Hah!  You Jedi certainly are quick!"
+LANG_CHINESE        "哈！绝地的手脚还真快！"
+
+REFERENCE           16RAJ007
+NOTES               "(over loudspeakers) (calmly, playing with Jaden)"
+LANG_ENGLISH        "Attention, we have an escaped prisoner inside the main garrison.  Initiate Security Lockdown."
+LANG_CHINESE        "各单位注意，基地里有逃犯。实行安全封锁。"
+
+REFERENCE           16JAK003
+LANG_ENGLISH        "That should take care of the lockdown.  Now where's the hangar?"
+LANG_CHINESE        "这样的话封锁就不顶用了。现在找找机库在哪儿"
+
+REFERENCE           16RAJ008
+NOTES               "(over loudspeakers)"
+LANG_ENGLISH        "Not that way!"
+LANG_CHINESE        "此路不通！"
+
+REFERENCE           16JAK004
+LANG_ENGLISH        "Bet he wasn't expecting that!"
+LANG_CHINESE        "他没想到会这样吧！"
+
+REFERENCE           16JAK005
+LANG_ENGLISH        "Hmmm, need to reactivate the lift."
+LANG_CHINESE        "嗯，得重新激活电梯。"
+
+REFERENCE           16RAJ009
+NOTES               "(getting angry for the first time)"
+LANG_ENGLISH        "You're doing well, Jedi... too well!  It's time to end this game."
+LANG_CHINESE        "你干的好啊，绝地，好的过头了！游戏结束了。"
+
+REFERENCE           16RAJ010
+LANG_ENGLISH        "Well played.  Tragically, I can't allow you to tell anyone about my little operation.  Farewell, Jedi."
+LANG_CHINESE        "你有两下子，绝地。可悲的是，我不能让你把这里的运作情况说出去。永别了，绝地。"
+
+REFERENCE           16RAJ011
+NOTES               "(dying)"
+LANG_ENGLISH        "It... seems I... under... estimated... you... Jed..."
+LANG_CHINESE        "看来...我低估...你了，绝地..."
+
+
+ENDMARKER
+
+

@@ -1,0 +1,48 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           BAI1
+LANG_ENGLISH        "Activate your homing beacon, when you're ready."
+LANG_CHINESE        "准备好了就发射你的归航信标"
+
+REFERENCE           CLO1
+LANG_ENGLISH        "There's no sign of his body, sir."
+LANG_CHINESE        "没找到他的尸体，长官"
+
+REFERENCE           CLO2
+LANG_ENGLISH        "Yes, sir! Right away, sir!"
+LANG_CHINESE        "好的，长官，马上就去"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "Then he is not dead. Double your search!"
+LANG_CHINESE        "那么他没死，再搜查一次"
+
+REFERENCE           PAL5
+LANG_ENGLISH        "Tell Captain Kagi to prepare my shuttle, for immediate take-off!"
+LANG_CHINESE        "叫卡基船长去准备我的舰船立即起飞"
+
+REFERENCE           PAL6
+LANG_ENGLISH        "I sense Lord Vader is in danger."
+LANG_CHINESE        "我感觉到维德勋爵有麻烦了"
+
+REFERENCE           YOD3
+LANG_ENGLISH        "Hurry! Careful timing, we will need."
+LANG_CHINESE        "快点，时间要恰到好处"
+
+REFERENCE           YOD4
+LANG_ENGLISH        "In to exile, I must go. Failed, I have."
+LANG_CHINESE        "我必须逃了。我已经失败了"
+
+ENDMARKER

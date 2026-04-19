@@ -1,0 +1,1493 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "in game text for single player and MP items"
+
+
+//----------------------------------------------------------
+//     JEDI ACADEMY ORIGINAL REFERENCES
+//----------------------------------------------------------
+
+REFERENCE           OBJECTIVES
+LANG_ENGLISH        "Mission Objectives:"
+LANG_CHINESE        "任务目标:"
+
+REFERENCE           OBJNONE
+LANG_ENGLISH        "No objectives currently specified."
+LANG_CHINESE        "目前无指定目标"
+
+REFERENCE           INSUFFICIENTENERGY
+LANG_ENGLISH        "Weapon ammo depleted."
+LANG_CHINESE        "武器弹药耗尽"
+
+REFERENCE           MISSIONFAILED
+LANG_ENGLISH        "MISSION FAILED"
+LANG_CHINESE        "任务失败"
+
+REFERENCE           MISSIONFAILED_PLAYER
+LANG_ENGLISH        "YOU HAVE DIED."
+LANG_CHINESE        "你死了"
+
+REFERENCE           MISSIONFAILED_LUKE
+LANG_ENGLISH        "LUKE SKYWALKER HAS DIED."
+LANG_CHINESE        "卢克·天行者死了"
+
+REFERENCE           MISSIONFAILED_CHEWIE
+LANG_ENGLISH        "CHEWBACCA HAS DIED."
+LANG_CHINESE        "楚巴卡"
+
+REFERENCE           MISSIONFAILED_KYLE
+LANG_ENGLISH        "KYLE KATARN HAS DIED."
+LANG_CHINESE        "凯尔·卡塔恩死了"
+
+REFERENCE           MISSIONFAILED_ROSH
+LANG_ENGLISH        "ROSH PENIN HAS DIED."
+LANG_CHINESE        "洛西·佩宁死了"
+
+REFERENCE           MISSIONFAILED_TUSKEN
+LANG_ENGLISH        "YOU WERE CAUGHT BY TUSKEN RAIDERS."
+LANG_CHINESE        "你被塔斯肯袭击者抓住了"
+
+REFERENCE           MISSIONFAILED_WEDGE
+LANG_ENGLISH        "WEDGE ANTILLES HAS DIED."
+LANG_CHINESE        "韦奇·安蒂列斯死了"
+
+REFERENCE           MISSIONFAILED_TURNED
+LANG_ENGLISH        "YOU'VE TURNED ON YOUR FRIENDS."
+LANG_CHINESE        "你打了自己人"
+
+REFERENCE           MISSIONFAILED_R5D2
+LANG_ENGLISH        "THE R5 UNIT WAS DESTROYED."
+LANG_CHINESE        "R5机器人被毁"
+
+REFERENCE           MISSIONFAILED_PRISONERS
+LANG_ENGLISH        "TOO MANY PRISONERS HAVE DIED."
+LANG_CHINESE        "死了太多的囚犯"
+
+REFERENCE           MISSIONFAILED_EMPLACEDGUNS
+LANG_ENGLISH        "ALL EMPLACED GUNS WERE DESTROYED."
+LANG_CHINESE        "所有炮台都被摧毁了"
+
+REFERENCE           MISSIONFAILED_KYLECAPTURE
+LANG_ENGLISH        "YOU HAVE BEEN CAPTURED."
+LANG_CHINESE        "你被俘了"
+
+REFERENCE           MISSIONFAILED_LADYLUCK
+LANG_ENGLISH        "THE DREADNAUGHT HAS BEEN DESTROYED."
+LANG_CHINESE        "无畏舰被击毁"
+
+REFERENCE           MISSIONFAILED_UNKNOWN
+LANG_ENGLISH        " "
+
+REFERENCE           MISSIONFAILED_TOOMANYALLIESDIED
+LANG_ENGLISH        "YOU KILLED TOO MANY ALLIES."
+LANG_CHINESE        "你杀了太多自己人"
+
+REFERENCE           RELOADMISSION
+LANG_ENGLISH        "Press fire button to restart or ESCAPE to access menu."
+LANG_CHINESE        "按开火键或ESC键呼出菜单"
+
+REFERENCE           CONTINUE
+LANG_ENGLISH        "Press fire button to continue."
+LANG_CHINESE        "按开火键继续"
+
+REFERENCE           LSDS_CHOICE
+LANG_ENGLISH        "Deactivate your lightsaber remain on the path of light.\n\nAttack Rosh to turn to the dark side."
+LANG_CHINESE        "想继续保持光明面，就关掉光剑。\n\n想堕入黑暗面，就攻击洛西"
+
+REFERENCE           MISSIONCOMPLETION
+LANG_ENGLISH        "LEVEL STATS"
+LANG_CHINESE        "关卡状态"
+
+REFERENCE           SECRETAREAS
+LANG_ENGLISH        "Secret Areas Found: "
+LANG_CHINESE        "发现的秘密区域"
+
+REFERENCE           ENEMIESKILLED
+LANG_ENGLISH        "Enemies Killed: "
+LANG_CHINESE        "杀敌"
+
+REFERENCE           FAVORITEWEAPON
+LANG_ENGLISH        "Favorite Weapon: "
+LANG_CHINESE        "武器偏好"
+
+REFERENCE           SHOTSFIRED
+LANG_ENGLISH        "Shots Fired: "
+LANG_CHINESE        "开火次数"
+
+REFERENCE           HITS
+LANG_ENGLISH        "Hits: "
+LANG_CHINESE        "击中敌人数"
+
+REFERENCE           ACCURACY
+LANG_ENGLISH        "Accuracy: "
+LANG_CHINESE        "命中率"
+
+REFERENCE           FORCEUSE
+LANG_ENGLISH        "Force Use"
+LANG_CHINESE        "原力使用"
+
+REFERENCE           HEAL
+LANG_ENGLISH        "Heal: "
+LANG_CHINESE        "治疗"
+
+REFERENCE           SPEED
+LANG_ENGLISH        "Speed: "
+LANG_CHINESE        "加速"
+
+REFERENCE           ABSORB
+LANG_ENGLISH        "Absorb:"
+LANG_CHINESE        "吸收"
+
+REFERENCE           PULL
+LANG_ENGLISH        "Pull: "
+LANG_CHINESE        "拉"
+
+REFERENCE           PUSH
+LANG_ENGLISH        "Push: "
+LANG_CHINESE        "推"
+
+REFERENCE           PROTECTION
+LANG_ENGLISH        "Protection:"
+LANG_CHINESE        "保护"
+
+REFERENCE           MINDTRICK
+LANG_ENGLISH        "Mind Trick: "
+LANG_CHINESE        "心灵扰乱"
+
+REFERENCE           GRIP
+LANG_ENGLISH        "Grip: "
+LANG_CHINESE        "锁喉"
+
+REFERENCE           LIGHTNING
+LANG_ENGLISH        "Lightning: "
+LANG_CHINESE        "闪电"
+
+REFERENCE           LIGHTSABERUSE
+LANG_ENGLISH        "Lightsaber Use "
+LANG_CHINESE        "光剑使用"
+
+REFERENCE           THROWN
+LANG_ENGLISH        "Thrown: "
+LANG_CHINESE        "投掷"
+
+REFERENCE           BLOCKS
+LANG_ENGLISH        "Blocks: "
+LANG_CHINESE        "格挡"
+
+REFERENCE           LEGATTACKS
+LANG_ENGLISH        "Leg Attacks: "
+LANG_CHINESE        "击中腿部"
+
+REFERENCE           ARMATTACKS
+LANG_ENGLISH        "Arm Attacks: "
+LANG_CHINESE        "击中手臂"
+
+REFERENCE           BODYATTACKS
+LANG_ENGLISH        "Body Attacks: "
+LANG_CHINESE        "击中身体"
+
+REFERENCE           OTHERATTACKS
+LANG_ENGLISH        "Other Attacks: "
+LANG_CHINESE        "击中其他部位"
+
+REFERENCE           CURRENTFORCEPOWERS
+LANG_ENGLISH        "CURRENT FORCE POWER LEVELS"
+LANG_CHINESE        "目前原力等级"
+
+REFERENCE           HEAL2
+LANG_ENGLISH        "Heal"
+LANG_CHINESE        "治疗"
+
+REFERENCE           JUMP2
+LANG_ENGLISH        "Jump"
+LANG_CHINESE        "跳跃"
+
+REFERENCE           SPEED2
+LANG_ENGLISH        "Speed"
+LANG_CHINESE        "加速"
+
+REFERENCE           PUSH2
+LANG_ENGLISH        "Push"
+LANG_CHINESE        "推"
+
+REFERENCE           MINDTRICK2
+LANG_ENGLISH        "Mind Trick"
+LANG_CHINESE        "心灵扰乱"
+
+REFERENCE           GRIP2
+LANG_ENGLISH        "Grip"
+LANG_CHINESE        "锁喉"
+
+REFERENCE           LIGHTNING2
+LANG_ENGLISH        "Lightning"
+LANG_CHINESE        "闪电"
+
+REFERENCE           SABER_THROW2
+LANG_ENGLISH        "Saber Throw"
+LANG_CHINESE        "光剑投掷"
+
+REFERENCE           SABER_OFFENSE2
+LANG_ENGLISH        "Saber Offense"
+LANG_CHINESE        "光剑进攻"
+
+REFERENCE           SABER_DEFENSE2
+LANG_ENGLISH        "Saber Defense"
+LANG_CHINESE        "光剑防御"
+
+REFERENCE           PULL2
+LANG_ENGLISH        "Pull"
+LANG_CHINESE        "拉"
+
+REFERENCE           NONE
+LANG_ENGLISH        "NONE"
+LANG_CHINESE        "无"
+
+REFERENCE           DATAPAD_UPDATED
+LANG_ENGLISH        "Datapad updated"
+LANG_CHINESE        "数据已更新"
+
+REFERENCE           PICKUPLINE
+NOTES               "Printed before item name when pick is obtained"
+LANG_ENGLISH        "Obtained"
+LANG_CHINESE        "已获得"
+
+REFERENCE           SABER_DESC
+LANG_ENGLISH        "Lightsaber\nAn elegant weapon for a more civilized age, the lightsaber is the preferred weapon of the Jedi Knight.  The lightsaber is an energy blade of great power that can be used by the wielder for both attack and defense.\nPrimary Fire - Slashing and swinging attacks\nSecondary Fire - Force powered saber throw\nDefensive Ability - Deflects blaster and energy weapon fire, parries enemy lightsaber attacks\nAmmo Type - N/A"
+LANG_CHINESE        "光剑\n作为超文明时代的一种优雅的武器，光剑是绝地武士的首选。光剑的剑刃由强大的能量形成，使用者可以用它来攻击和防御。\n主要攻击模式 - 斩击，挥砍攻击\n第二攻击模式 - 原力光剑投掷\n防御能力 - 反弹爆能束和能量武器的攻击，格挡敌人光剑的攻击\n弹药类型 - N/A"
+
+REFERENCE           NEW_BLASTER_PISTOL_DESC
+LANG_ENGLISH        "DL-44 Heavy Blaster Pistol \nOne of the most common firearms in the galaxy, the DL-44 Heavy Blaster Pistol is a hand-held energy weapon with a slow rate of fire and incredible accuracy.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "DL-44 重型爆能手枪\n作为星系中使用最普遍的武器之一，DL-44 重型爆能手枪虽发射速度较慢但拥有很高的精准度\n主要攻击模式 - 慢速单发，拥有极高的精准度和杀伤力\n第二攻击模式 - 蓄能发射出威力更大的能量弹\n弹药类型 - 爆能弹药包"
+
+REFERENCE           ALONGTIME
+LANG_ENGLISH        "A long time ago in a galaxy far,\nfar away...."
+LANG_CHINESE        "很久很久以前，在一个很遥远，\n很遥远的银河系...."
+
+REFERENCE           BLASTER_PISTOL_DESC
+LANG_ENGLISH        "Bryar Blaster Pistol \nKyle Katarn's weapon of choice, the Bryar Blaster Pistol is a common hand-held energy weapon with a slow rate of fire and incredible accuracy.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "布莱尔爆能手枪 \n凯尔克塔恩的专用武器。布莱尔爆能手枪是一种常见的手持能量武器，射速慢但是异常的精准。\n主要攻击模式 - 慢速单发，具有极高的精准度和杀伤力\n第二攻击模式 -聚能发射出威力更大的能量弹。\n弹药类型 - 爆能弹药包"
+
+REFERENCE           BLASTER_RIFLE_DESC
+LANG_ENGLISH        "E-11 Blaster Rifle \nThe primary weapon of the Imperial forces, the E-11 is a sturdy and deadly blaster rifle capable of inflicting great damage despite its small size.  The E-11's compact design makes it easy to carry and conceal.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "E-11 爆能步枪\n帝国部队的主要武器，E-11 虽小，但是很坚固耐用，能造成大量伤害，是一种很致命的爆能步枪。由于E-11 设计紧凑，使用者可非常容易携带和隐藏改武器。\n\n主要攻击模式 - 慢速单发，精确度适中的高伤害射击\n第二攻击模式 - 速射开火，低精准度，火力范围更大。\n弹药类型 - 爆能弹药包"
+
+REFERENCE           DISRUPTOR_RIFLE_DESC
+LANG_ENGLISH        "Tenloss DXR-6 Disruptor rifle \nThis nefarious weapon affects matter at the molecular level, ripping apart living material with ease.   Because of the weapon's inhumane nature, the DXR-6 is outlawed throughout the galaxy and is generally only used by scattered droid and Remnant forces.\nPrimary Fire - Single shot with slow fire rate, fast projectile and small radius damage\nSecondary Fire - Scoped mode: Single shot with slow fire rate, increased damage and high weapon energy consumption\nAmmo Type - Power cell"
+LANG_CHINESE        "天洛斯 DXR-6 破坏者步枪\n这是一种非常致命的武器，能从分子层面上破坏物质，生命体在其面前不堪一击。由于该步枪的破坏力使其变得过于残忍，星系里已经禁用了这种武器，使用这种武器的只有零星的一些的机器人以及帝国残余军。\n主要攻击模式 - 慢速单发，瞬发攻击\n第二攻击模式 - 狙击模式，必须先聚能量再射击。射击的威力增大，也消耗更多弹药\n弹药类型 - 能量电池"
+
+REFERENCE           BOWCASTER_DESC
+LANG_ENGLISH        "Wookiee Bowcaster\nThis archaic-looking weapon fires powerful bolts of metal enveloped in pockets of energy.  Capable of inflicting incredible damage, the bowcaster requires tremendous physical strength to fire.  Most bowcasters sold outside the Wookiee homeworld come equipped with self-cocking actions that allow physically weaker creatures to fire them.\nPrimary Fire - Slow, single shot with radius damage.  Hold FIRE to charge weapon for spread attack\nSecondary Fire - Unleashes a reflective shot that bounces off solid surfaces\nAmmo Type - Power cell"
+LANG_CHINESE        "伍基弩式激光枪\n这种看起来很古老的武器能发射包裹在能量外衣里金属弩箭，威力十分强大，能造成难以想象的高伤害。使用这种武器开火需要非常大的力气，在伍基人故乡以外出售的弩式激光枪都装有自动弹簧装置，使其他没伍基人那么强壮的使用者可以使用。\n\n主要攻击模式 - 蓄能可发射多重射击\n第二攻击模式 - 非常精确的弹射攻击\n弹药类型 - 能量电池"
+
+REFERENCE           HEAVYREPEATER_DESC
+LANG_ENGLISH        "Imperial Heavy Repeater with Concussion Launcher\nThis destructive projectile weapon is extremely deadly, firing rapid streams of metal bullets.  Imperial forces use the Heavy Repeater's deadly suppressive fire and concussion launcher for crowd control and to spread heavy fire over large areas.\nPrimary Fire - Fully automatic projectile fire \nSecondary Fire - Single shot, concussion explosive round\nAmmo type - Metallic bolts"
+LANG_CHINESE        "带震荡弹发射器的帝国重型连发枪\n这种射弹武器相当致命，能够快速的发射出金属弹流。帝国军队使用这种武器致命的压制性火力以及震荡弹来控场，获得压制火力。\n\n主要攻击模式 - 全自动开火\n第二攻击模式 - 发射单发爆炸震荡弹\n弹药类型 - 金属弹"
+
+REFERENCE           DEMP2_DESC
+LANG_ENGLISH        "Destructive Electro-Magnetic Pulse 2 Gun\nCommonly referred to as the DEMP 2, this pulse rifle is primarily used against droids and electrical devices.  The DEMP 2 fires high-powered ion bursts that disrupt electrical systems.  Unlike previous incarnations of the weapon, the DEMP 2's ion charges are capable of damaging living material.\nPrimary Fire - Single shot, stuns humans, damages droids\nSecondary Fire - Charged energy attack that creates an expanding shell of electromagnetic energy on impact that damages humanoids, droids and turrets\nAmmo Type - Power cell"
+LANG_CHINESE        "破坏电磁脉冲 2 号\n这种武器一般被称为DEMP 2，主要是用来对抗机器人和电子设备的。它能发射高能离子爆炸，扰乱电力系统，对付个人用能量护盾效率更高。和前期产品不同的是，DEMP 2的离子弹可以对生命体造成伤害。\n\n主要攻击模式 - 单发，对人本体造成一定伤害，对其护盾造成额外伤害\n第二攻击模式 -聚能量之后发射，瞬间形成冲击波，将敌人震退\n弹药类型 - 能量电池"
+
+REFERENCE           FLECHETTE_DESC
+LANG_ENGLISH        "Golan Arms FC1 Flechette Weapon \nWidely used by the Corporate Sector Authority's police squads, the FC1 fires shards of red-hot metal in a widespread pattern.   The weapon is designed to hit multiple targets in close proximity, but great care must be taken to avoid ricochet damage.\nPrimary Fire - Single shot, spread fire\nSecondary Fire - Fires two bouncing shield-protected proximity mines which explode after a short time\nAmmo Type - Metallic Bolts"
+LANG_CHINESE        "戈兰军 FC1 镖弹枪\n这种武器广泛应用于集团首脑的警卫部队中。FC1 能大范围散射金属弹片。虽然这种武器是为近距离攻击多个目标而设计，但打在地上或墙上的弹片会反弹，依然能造成伤害，必须注意躲避，。\n\n主要攻击模式 - 单发散射\n第二攻击模式 - 发射两枚榴弹\n弹药类型 - 金属弹"
+
+REFERENCE           CONCUSSION_DESC
+LANG_ENGLISH        "Stouker Concussion Rifle  \nThe Stouker fires a concussive blast creating an implosion that spreads about 4 meters in diameter.\nPrimary Fire - Single shot, large implosive effect that damages everything, slow firing rate\nSecondary Fire - Fires a smaller projectile shot that has a smaller explosive radius but does much more damage in that radius and has a more severe recoil\nAmmo Type - Metallic Bolts"
+LANG_CHINESE        "斯杜克轰击步枪\n斯杜克发射出的震荡能量弹爆炸后能波及爆炸中心周围半径2米内的敌人。\n\n主要攻击模式 - 慢速单发，大范围爆炸效果，能破坏爆炸范围内的一切目标\n第二攻击模式 - 发射爆炸半径较小的炮弹，但是威力更大，而且发射时后坐力也更大\n弹药类型 - 金属弹"
+
+REFERENCE           MERR_SONN_DESC
+LANG_ENGLISH        "Merr-Sonn PLX-2M Portable Missile System   \nThe PLX-2M is an extremely powerful weapon that fires Arakyd 3T3 missiles.  The sheer explosive power of the PLX-2M makes it dangerous to fire blindly in close quarters, but is extremely effective when used as a 'smart' tracking weapon.\nPrimary Fire - Fires a single, forward-firing explosive missile\nSecondary Fire - Fires a single 'smart' missile that tracks acquired and locked targets\nAmmo Type - Rockets"
+LANG_CHINESE        "米尔森 PLX-2M 便携式飞弹系统\nPLX-2M 是一种Arakyd 3T3 火箭发射器，威力相当惊人。由于该武器爆炸威力很大，所以如果在近距离盲目开火的话是很危险的。但是当作智能跟踪武器用的话还是非常有效的。\n\n主要攻击模式 - 向前发射单发飞弹\n第二攻击模式 - 蓄能锁定目标并发射智能跟踪飞弹\n弹药类型 - 火箭弹"
+
+REFERENCE           THERMAL_DETONATOR_DESC
+LANG_ENGLISH        "Thermal Detonator \nThe thermal detonator is a radius-damage grenade that releases a barrage of thermal energy capable of disintegrating all matter around it.\nPrimary Fire - Detonator explodes after a short time.  Press FIRE longer for longer throw\nSecondary Fire - Detonator explodes on impact.  Press ALT-FIRE longer for longer throw"
+LANG_CHINESE        "热能手雷\n热能手雷是一种范围杀伤性武器，爆炸时会释放出大量热能，破坏爆炸范围内的一切物体。\n\n主要攻击模式 - 掷出并短时间后爆炸,按住开火键时间越长扔的越远。\n第二攻击模式 - 掷出触地爆炸，按住副开火键时间越长扔的越远。"
+
+REFERENCE           TRIP_MINE_DESC
+LANG_ENGLISH        "Trip Mines \nTrip mines consist of a beam projector affixed to a shaped explosive casing.  The laser activates when the mine is placed and extends a beam from the charge to the nearest surface that intersects its path.  If the beam is broken or the charge is fired upon, the mine detonates and causes radius damage to anything in range.\nPrimary Fire - Once placed, triggered by breaking the beam\nSecondary Fire - Once placed, the mine acts as a proximity device, waiting until an enemy comes within blast radius, then detonates, damaging any enemies in the area"
+LANG_CHINESE        "诡雷 \n一个光束发射器装在一个爆炸性的外壳里就是诡雷。当雷被放置后，激光就会激活，射到最近的物体表面。如果之后有什么东西挡住了光线或是诡雷被打中了，就会引爆，对爆炸范围内呢一切造成伤害。\n主要攻击模式 - 一经放置，有东西挡住光线立即引爆\n第二攻击模式 = 一经放置，诡雷就成为一个地雷装置，敌人只要进入爆炸范围就会引爆，对所有敌人造成伤害。"
+
+REFERENCE           DET_PACK_DESC
+LANG_ENGLISH        "Detonation Packs \nA detonation pack is essentially a small explosive device with a remote detonation trigger.  The pack is placed or thrown and can be detonated at will by the user.  Detonation packs are commonly used to ambush enemies or open sealed doors.\nPrimary Fire - Sets charge at the user's feet\nSecondary Fire - Explodes all set charges"
+LANG_CHINESE        "炸药包 \n炸药包其实就是一种带遥控引爆功能的小型爆炸装置。使用者把包放置好后可以随时引爆。炸药包一般用于伏击敌人或是炸开封死的门。\n主要攻击模式 - 在使用者身边放置炸药\n第二攻击模式 - 引爆所有炸药包"
+
+REFERENCE           STUN_BATON_DESC
+LANG_ENGLISH        "Stun Baton \nCommonly used to subdue unruly prisoners, the stun baton was designed for use in melee combat where killing your opponent is not necessarily the desired outcome.\nPrimary Fire - Short range jabbing electrical stun attack\nSecondary Fire - None"
+LANG_CHINESE        "设计电警棍是为了在近身肉搏时能避免不必要的人员死亡，所以这个武器一般用来制服不听话的囚犯。\n\n主要攻击模式：发射短距离的眩晕电流刺痛目标。\n第二攻击模式：无"
+
+REFERENCE           NEURO_SAAV_DESC
+LANG_ENGLISH        "Neuro-Saav Model TD2.3 Electrobinoculars\nElectrobinoculars operate in low-light and normal light conditions to magnify distant objects and provide a heads-up display that features detailed information on the area viewed.  The heads-up display measures distances and offers various telemetry readouts on the object or area in view. Powered by normal battery cells that drain power at a minimal rate."
+LANG_CHINESE        "Neuro Saav TD2.3型电子双筒望远镜\n电子双筒望远镜在弱光和正常光条件下工作，放大远处的物体，并提供平视显示器，显示所观察区域的详细信息。平视显示器可以测量距离，并在视图中的对象或区域上提供各种遥测读数。由正常的电池供电，以最小的速率消耗电力。"
+
+REFERENCE           BACTA_DESC
+LANG_ENGLISH        "BioTech Bacta Canister\nBacta canisters are portable, disposable packs of bacta ointments and emergency care tools.  Designed for use in the field, bacta canisters can be used to heal wounds and restore vitality during medical recovery.  No field medic should be without them."
+LANG_CHINESE        "生物科技菌剂罐\n菌剂罐是一种便携式、一次性的菌剂包和急救工具。专为野外使用而设计的菌罐可用于愈合伤口，并在医疗康复期间恢复活力。任何战地医生都不应该没有他们。"
+
+REFERENCE           INQUISITOR_DESC
+LANG_ENGLISH        "Seeker Drone\nAn attack drone similar to the training drones used by Jedi to practice their lightsaber skills, the Seeker hovers around its user and attacks any enemy the user fires upon.  The drone operates automatically for a limited time and then self-destructs\nwhen its power is depleted."
+LANG_CHINESE        "探索者无人机\n探索者是一种攻击无人机，类似于绝地用来练习光剑技能的训练无人机，它在使用者周围盘旋，攻击使用者射击的任何敌人。无人机在有限的时间内自动运行，然后自毁\n当其能源耗尽时。"
+
+REFERENCE           LA_GOGGLES_DESC
+LANG_ENGLISH        "Light Amplification Goggles\nAlso known as infra-goggles, this helpful device creates a balance of light levels that allows the user to see well in most situations. The resulting effect enhances the overall brightness but casts everything in a greenish hue. The goggles require batteries to function, draining them at roughly the same rate as Electrobinoculars.   Light Amplification Goggles can be worn during combat, but will not function without an available power source."
+LANG_CHINESE        "光放大护目镜\n这种有帮助的设备也被称为红外护目镜，可以创造光线水平的平衡，让用户在大多数情况下都能看得很清楚。由此产生的效果增强了整体亮度，但使所有东西都呈现绿色。护目镜需要电池才能工作，电池的消耗速度与电子双筒望远镜大致相同。   光放大护目镜可以在战斗中佩戴，但在没有可用电源的情况下无法工作。"
+
+REFERENCE           PORTABLE_SENTRY_DESC
+LANG_ENGLISH        "Portable Assault Sentry  \nThis deadly weapon is roughly the size of a large backpack, but don't let its size fool you. Once activated, the weapon unfurls and is set to auto-target any enemy threat. The Sentry drains battery life at an accelerated rate and, once it's deployed, can't be restored to its original portable condition."
+LANG_CHINESE        "便携式突击哨兵  \n这种致命武器大约有一个大背包那么大，但不要让它的尺寸骗了你。一旦激活，武器就会展开并设置为自动瞄准任何敌人威胁。这种致命武器大约有一个大背包那么大，但不要让它的尺寸骗了你。一旦激活，武器就会展开并设置为自动瞄准任何敌人威胁。哨兵以加速的速度消耗电池寿命，一旦部署，就无法恢复到原来的便携状态。"
+
+REFERENCE           SECURITY_KEY_DESC
+LANG_ENGLISH        "Security Key"
+LANG_CHINESE        "安全密钥"
+
+REFERENCE           EMPTY_INV
+LANG_ENGLISH        "EMPTY INVENTORY"
+LANG_CHINESE        "空库存"
+
+REFERENCE           FORCE_HEAL_DESC
+LANG_ENGLISH        "Force Heal\nDuration: Instantaneous effect\nArea Of Effect: Jedi only\nEffect: Jedi have the ability to heal themselves after injury\n\n"
+LANG_CHINESE        "原力治疗\n持续时间：立即生效\n作用范围：绝地自身\n效果：绝地受伤后能治疗自己\n\n"
+
+REFERENCE           FORCE_JUMP_DESC
+LANG_ENGLISH        "Force Jump\nDuration: Immediate\nArea Of Effect: Jedi only\nEffect: Allows Jedi to make a tremendous vertical leap\n\n"
+LANG_CHINESE        "原力跳跃\n持续时间：瞬发\n作用范围：绝地自身\n效果：绝地可以做出高度惊人的跳跃。\n\n"
+
+REFERENCE           FORCE_SPEED_DESC
+LANG_ENGLISH        "Force Speed\nDuration: 10 seconds\nArea of Effect: Jedi and surroundings\nEffect:  A Jedi speeds up and the world appears to slow down around them\n\n"
+LANG_CHINESE        "原力加速\n持续时间：10秒\n作用范围：绝地自身和周围环境\n效果：绝地速度增加，使周围的世界看起来好像变慢了。\n\n"
+
+REFERENCE           FORCE_PUSH_DESC
+LANG_ENGLISH        "Force Push\nDuration: Instantaneous effect\nArea Of Effect: Objects or Persons\nEffect: Allows Jedi to push objects away from themselves and defend from missile and Force Grip attacks\n\n"
+LANG_CHINESE        "原力推\n持续时间：立即生效\n作用范围：人或物体\n绝地可以把物体从身边推开，并可以抵御飞弹和原力锁喉的攻击\n\n"
+
+REFERENCE           FORCE_PULL_DESC
+LANG_ENGLISH        "Force Pull\nDuration: Instantaneous effect\nArea Of Effect: Objects or Persons\nEffect: Allows Jedi to pull specific world objects to themselves\n\n"
+LANG_CHINESE        "原力拉\n持续时间：立即生效\n作用范围：人或物体\n效果：绝地可以把某个特定的物体拉到身边\n\n"
+
+REFERENCE           FORCE_MIND_TRICK_DESC
+LANG_ENGLISH        "Force Mind Trick\nDuration: Variable\nArea Of Effect: Humanoids\nEffect: Allows Jedi to confuse and/or misdirect attention \n\n"
+LANG_CHINESE        "心灵扰乱\n持续时间：不定\n作用范围：人形生物\n效果：绝地可以迷惑并/或引开注意\n\n"
+
+REFERENCE           FORCE_GRIP_DESC
+LANG_ENGLISH        "Force Grip\nDuration: Instantaneous\nArea Of Effect: Living persons only\nEffect: Allows Jedi to choke or constrict the organs of a living being\n\n"
+LANG_CHINESE        "原力锁喉\n持续时间：瞬发\n作用范围：仅限活人\n效果：使绝地可以隔空掐住或压迫住一个生物的喉咙。\n\n"
+
+REFERENCE           FORCE_LIGHTNING_DESC
+LANG_ENGLISH        "Force Lightning\nDuration: Variable\nArea Of Effect: Living persons only\nEffect: Allows Jedi to hurl a devastating electrical attack against enemies\n\n"
+LANG_CHINESE        "原力闪电\n持续时间：可变\n作用范围：仅限活人\n效果：绝地可以猛地使出极具毁灭性的电光攻击敌人\n\n"
+
+REFERENCE           FORCE_SABER_DEFENSE_DESC
+LANG_ENGLISH        "Lightsaber Defense\nDuration: Always on\nArea Of Effect: N/A\nEffect: Jedi can block damage with a lightsaber  \n\n"
+LANG_CHINESE        "光剑防御\n作用时间：总是开启\n作用范围：N/A\n效果：绝地能用光剑格挡伤害\n\n"
+
+REFERENCE           FORCE_SABER_OFFENSE_DESC
+LANG_ENGLISH        "Lightsaber Offense\nDuration: Always on\nArea Of Effect: N/A\nEffect: As a Jedi gains combat experience, their lightsaber attack effectiveness increases\n\n"
+LANG_CHINESE        "光剑进攻\n持续时间：总是启用\n作用范围：N/A\n效果：绝地通过积累战斗经验，他们的光剑攻击会更具效力\n\n"
+
+REFERENCE           FORCE_SABER_THROW_DESC
+LANG_ENGLISH        "Lightsaber Throw\nDuration: Instant\nArea Of Effect: Player arc\nEffect:  A Jedi can throw a lightsaber and use it as a missile weapon\n\n"
+LANG_CHINESE        "光剑投掷\n持续时间：瞬发\n作用范围：玩家前方弧形区域\n绝地可以把光剑作为投掷武器使用\n\n"
+
+REFERENCE           FORCE_ABSORB_DESC
+LANG_ENGLISH        "Force Absorption\nDuration: 20 seconds\nArea Of Effect: Jedi only\nEffect: Jedi can absorb dark Force power, Force Push and Force Pull directed at them\n\n"
+LANG_CHINESE        "原力吸收\n持续时间：20秒\n作用范围：绝地自身\n效果：绝地能吸收黑暗原力，原力推和原力拉\n\n"
+
+REFERENCE           FORCE_PROTECT_DESC
+LANG_ENGLISH        "Force Protection\nDuration: Variable\nArea Of Effect: Jedi only\nEffect: Allows Jedi to decrease incoming damage from energy, physical, projectile, and explosive sources\n\n"
+LANG_CHINESE        "原力保护\n持续时间：可变\n作用范围：绝地自身\n效果：绝地能够降低所受的能量，物理，子弹以及爆炸伤害\n\n"
+
+REFERENCE           FORCE_SENSE_DESC
+LANG_ENGLISH        "Force Sense\nDuration: Variable\nArea Of Effect: Objects or persons\nEffect: Allows Jedi to see people and objects that are invisible or behind solids\n\n"
+LANG_CHINESE        "原力感知\n持续时间：可变\n作用范围：人或物体\n效果：绝地可以看到隐形或是藏在物体后面的人或物体\n\n"
+
+REFERENCE           FORCE_DRAIN_DESC
+LANG_ENGLISH        "Force Drain\nDuration: Variable\nArea Of Effect: Living persons only\nEffect: Allows Jedi to transfer the life essence of a person to themselves\n\n"
+LANG_CHINESE        "原力吸食\n持续时间：可变\n作用范围：仅限活人\n效果：绝地可以把别人的生命精华吸入自己体内。\n\n"
+
+REFERENCE           FORCE_RAGE_DESC
+LANG_ENGLISH        "Force Rage\nDuration: 10 seconds\nArea Of Effect: Jedi only\nEffect: Affords Jedi protection against damage, an increase in speed, and an increase in damage potential, at the expense of health.  The Jedi needs some recovery time after a Rage ends\n\n"
+LANG_CHINESE        "原力狂暴\n持续时间：10秒\n作用范围：绝地本身\n效果：绝地用自己的生命值，换取更好的防护力，更快的速度，以及更强的攻击力。狂暴结束后绝地需要一段时间恢复。\n\n"
+
+REFERENCE           INCORRECT_KEY
+LANG_ENGLISH        "Incorrect security key"
+LANG_CHINESE        "安全密钥不正确"
+
+REFERENCE           CANT_CARRY_SECURITY_KEY
+LANG_ENGLISH        "You can't carry any more security keys"
+LANG_CHINESE        "你无法携带更多的安全密钥"
+
+REFERENCE           TOOK_IMPERIAL_SECURITY_KEY
+LANG_ENGLISH        "You took the security key"
+LANG_CHINESE        "你取得了安全密钥"
+
+REFERENCE           CANT_CARRY_GOODIE_KEY
+LANG_ENGLISH        "You can't carry any more supply keys"
+LANG_CHINESE        "你无法携带更多的物资钥匙。"
+
+REFERENCE           TOOK_IMPERIAL_GOODIE_KEY
+LANG_ENGLISH        "You took the supply key"
+LANG_CHINESE        "你取得了物资钥匙"
+
+REFERENCE           SECURITY_KEY_UNLOCKEDDOOR
+LANG_ENGLISH        "Your security key unlocked the door"
+LANG_CHINESE        "你用安全密钥把门打开了"
+
+REFERENCE           NEED_SECURITY_KEY
+LANG_ENGLISH        "You need a security key!"
+LANG_CHINESE        "你需要安全密钥！"
+
+REFERENCE           WEAPON_MELEE
+LANG_ENGLISH        "Melee"
+LANG_CHINESE        "徒手"
+
+REFERENCE           WEAPON_STUN_BATON
+LANG_ENGLISH        "Stun Baton"
+LANG_CHINESE        "电警棍"
+
+REFERENCE           WEAPON_SABER
+LANG_ENGLISH        "Lightsaber"
+LANG_CHINESE        "光剑"
+
+REFERENCE           WEAPON_BRYAR_PISTOL
+LANG_ENGLISH        "Bryar Blaster Pistol"
+LANG_CHINESE        "布莱尔爆能手枪"
+
+REFERENCE           WEAPON_BLASTER
+LANG_ENGLISH        "E11-Blaster Rifle"
+LANG_CHINESE        "E11-爆能步枪"
+
+REFERENCE           WEAPON_DISRUPTOR
+LANG_ENGLISH        "Tenloss DXR-6 Disruptor rifle"
+LANG_CHINESE        "天洛斯 DXR-6裂解枪"
+
+REFERENCE           WEAPON_BOWCASTER
+LANG_ENGLISH        "Wookiee Bowcaster"
+LANG_CHINESE        "伍基弩式激光枪"
+
+REFERENCE           WEAPON_REPEATER
+LANG_ENGLISH        "Imperial Heavy Repeater"
+LANG_CHINESE        "帝国重型连发枪"
+
+REFERENCE           WEAPON_DEMP2
+LANG_ENGLISH        "Destructive Electro-Magnetic Pulse 2 Gun"
+LANG_CHINESE        "破坏电磁脉冲2型"
+
+REFERENCE           WEAPON_FLECHETTE
+LANG_ENGLISH        "Golan Arms FC1 Flechette Weapon"
+LANG_CHINESE        "戈兰军FC1镖弹枪"
+
+REFERENCE           WEAPON_ROCKET_LAUNCHER
+LANG_ENGLISH        "Merr-Sonn PLX-2M Portable Missile System"
+LANG_CHINESE        "米尔森 PLX-2M便携式飞弹系统"
+
+REFERENCE           WEAPON_THERMAL
+LANG_ENGLISH        "Thermal Detonator"
+LANG_CHINESE        "热能手雷"
+
+REFERENCE           WEAPON_TRIP_MINE
+LANG_ENGLISH        "Trip Mines"
+LANG_CHINESE        "诡雷"
+
+REFERENCE           WEAPON_DET_PACK
+LANG_ENGLISH        "Detonation Packs"
+LANG_CHINESE        "炸药包"
+
+
+
+REFERENCE           ITEM_BINOCULARS
+LANG_ENGLISH        "Neuro-Saav Model TD2.3 Electrobinoculars"
+LANG_CHINESE        "尼洛-萨弗TD2.3型电子望远镜"
+
+REFERENCE           ITEM_BACTA
+LANG_ENGLISH        "BioTech Bacta Canister"
+LANG_CHINESE        "生物科技菌剂罐"
+
+REFERENCE           ITEM_SEEKER
+LANG_ENGLISH        "Seeker Drone"
+LANG_CHINESE        "探索者无人机"
+
+REFERENCE           ITEM_LA_GOGGLES
+LANG_ENGLISH        "Light Amplification Goggles"
+LANG_CHINESE        "光放大护目镜"
+
+REFERENCE           ITEM_SENTRY_GUN
+LANG_ENGLISH        "Portable Assault Sentry"
+LANG_CHINESE        "便携式突击哨兵"
+
+REFERENCE           WEAPON_ATST_MAIN
+LANG_ENGLISH        "ATST Main Cannon"
+LANG_CHINESE        "ATST主炮"
+
+
+REFERENCE           WEAPON_ATST_SIDE
+LANG_ENGLISH        "ATST Side Cannons"
+LANG_CHINESE        "ATST副炮"
+
+REFERENCE           ATST_SIDE_DESC
+LANG_ENGLISH        "ATST Side Cannons"
+LANG_CHINESE        "ATST副炮"
+
+REFERENCE           AMMO_FORCE
+LANG_ENGLISH        "Force Crystal"
+LANG_CHINESE        "原力水晶"
+
+REFERENCE           AMMO_BLASTER
+LANG_ENGLISH        "Blaster Pack Ammo"
+LANG_CHINESE        "爆能弹药"
+
+REFERENCE           AMMO_POWERCELL
+LANG_ENGLISH        "Power Cell Ammo"
+LANG_CHINESE        "能量电池弹药"
+
+REFERENCE           AMMO_METALLIC_BOLTS
+LANG_ENGLISH        "Metallic Bolt Ammo"
+LANG_CHINESE        "金属弹匣"
+
+REFERENCE           AMMO_ROCKETS
+LANG_ENGLISH        "Rocket Ammo"
+LANG_CHINESE        "飞弹弹药"
+
+REFERENCE           AMMO_THERMAL
+LANG_ENGLISH        "Belt of Thermal Detonators"
+LANG_CHINESE        "热能手雷腰带"
+
+REFERENCE           AMMO_TRIPMINE
+LANG_ENGLISH        "Pack of Trip Mines"
+LANG_CHINESE        "诡雷包"
+
+REFERENCE           ITEM_BATTERY
+LANG_ENGLISH        "Batteries"
+LANG_CHINESE        "电池"
+
+REFERENCE           ITEM_MEDPAK_INSTANT
+LANG_ENGLISH        "Instant Use Medpack"
+LANG_CHINESE        "医疗包"
+
+REFERENCE           ITEM_SHIELD_SM_INSTANT
+LANG_ENGLISH        "Small Shield Booster"
+LANG_CHINESE        "小型护盾发生器"
+
+REFERENCE           ITM_SHIELD_LRG_PICKUP
+LANG_ENGLISH        "Large Shield Booster"
+LANG_CHINESE        "大型护盾发生器"
+
+REFERENCE           AMMO_DETPACK
+LANG_ENGLISH        "Pack of Detonation Packs"
+LANG_CHINESE        "炸药包"
+
+REFERENCE           FORCE_HEAL_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi goes into a meditative stance for a short time and must remain stationary.  Any movement or attack will prevent healing.  Healing rate depends on game difficulty.\n"
+LANG_CHINESE        "等级 1 - 绝地进入冥想状态一小段时间，必须保持静止。任何移动或攻击动作会打断治疗。治疗速度取决与游戏难度。"
+
+REFERENCE           FORCE_HEAL_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi no longer needs to be stationary.  The Jedi will heal over a short period of time.  Healing rate depends on game difficulty.\n"
+LANG_CHINESE        "等级 2 - 绝地不再需要保持静止。绝地可以在一段时间内治疗自己。治疗速度取决于游戏难度。"
+
+REFERENCE           FORCE_HEAL_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi heals more rapidly than rank 2.  Healing rate depends on game difficulty."
+LANG_CHINESE        "等级 3 - 以比等级2更快的速度治疗绝地。治疗速度取决与游戏难度。"
+
+REFERENCE           FORCE_JUMP_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can leap up to three times their normal jump height."
+LANG_CHINESE        "等级 1 - 跳跃高度是正常的3倍。"
+
+REFERENCE           FORCE_JUMP_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can leap up to six times their normal jump height."
+LANG_CHINESE        "等级 2 - 跳跃高度是正常的6倍。"
+
+REFERENCE           FORCE_JUMP_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can leap up to twelve times their normal jump height."
+LANG_CHINESE        "等级 3 - 跳跃高度是正常的12倍。"
+
+REFERENCE           FORCE_SPEED_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi moves 33% faster than normal"
+LANG_CHINESE        "等级 1 - 绝地速度加快33%"
+
+REFERENCE           FORCE_SPEED_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi moves 100% faster than normal"
+LANG_CHINESE        "等级 2 - 绝地速度加快100%"
+
+REFERENCE           FORCE_SPEED_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi moves 400% faster than normal"
+LANG_CHINESE        "等级 3 - 绝地速度加快400%"
+
+REFERENCE           FORCE_PUSH_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi uses the Force to push a specific enemy or object focused on.  They can also use it to get out of a Force Grip or Drain."
+LANG_CHINESE        "等级 1 - 绝地可以推特定的一个敌人或物体。也可以用来破除原力锁喉或吸食。"
+
+REFERENCE           FORCE_PUSH_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi uses the Force to push back multiple enemies or objects in a limited arc."
+LANG_CHINESE        "等级 2 - 绝地可以在一定范围内用原力推倒多个目标或物体"
+
+REFERENCE           FORCE_PUSH_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can push back multiple enemies with enough force to do damage by pushing the enemies into solid surfaces or off ledges. They can also use it to attempt to break saber locks."
+LANG_CHINESE        "等级 3 - 绝地推倒多个敌人的同时，如果敌人撞上硬壁或被推下地面边缘，就会受到伤害。同样可以用这招来打破光剑对拼。"
+
+REFERENCE           FORCE_PULL_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can pull certain levers and objects in the targeting reticle; can also pull one enemy.\n"
+LANG_CHINESE        "等级 1 - 绝地可以拉动瞄准的操纵杆和物体；也可以拉一个敌人。"
+
+REFERENCE           FORCE_PULL_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can pull the weapon out of the hands of an enemy, providing the enemy is facing them."
+LANG_CHINESE        "等级 2 - 绝地可以用这招让一个敌人缴械，敌人必须面对他们。"
+
+REFERENCE           FORCE_PULL_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can pull multiple enemies and their weapons."
+LANG_CHINESE        "等级 3 - 绝地可以缴多个敌人的武器。"
+
+REFERENCE           FORCE_MIND_TRICK_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can confuse one enemy for 10 seconds by directly targeting that enemy.\nNote:  A direct attack made by the Jedi on a confused enemy will cancel the effect.  Mind trick does not work on some, more powerful enemies such as Cultists and Reborn."
+LANG_CHINESE        "等级 1 - 绝地对敌人直接施放的话可以迷惑目标10秒\n注意：任何对迷惑目标的攻击会打断迷惑效果。心灵干扰对邪教徒和重生者这些强大的敌人不管用。"
+
+REFERENCE           FORCE_MIND_TRICK_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can confuse one enemy for 15 seconds by directly targeting that enemy or distract multiple enemies that have not noticed them by using mind trick on a nearby surface."
+LANG_CHINESE        "等级 2 -直接对敌人使用可以令其迷惑15秒。在没有被敌人发现的情况下，对多个敌人附近的地面使用可以分散他们的注意力。"
+
+REFERENCE           FORCE_MIND_TRICK_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can turn one enemy into an ally for 30 seconds by directly targeting that enemy or distract multiple enemies that have not noticed them by using mind trick on a nearby surface.  An ally will not respond to direct attacks by the Jedi."
+LANG_CHINESE        "等级 3 -直接对敌人使用就可以在30秒内让目标帮助自己。在没有被敌人发现的情况下，对多个敌人附近的地面使用可以分散他们的注意力。直接攻击被转化的敌人的话，敌人不会还击。"
+
+REFERENCE           FORCE_GRIP_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can grip and hold one enemy immobile, but undamaged for 5 seconds."
+LANG_CHINESE        "等级 1 - 绝地可以隔空锁住一个敌人，令其不能移动，但没有伤害，持续5秒。"
+
+REFERENCE           FORCE_GRIP_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can lift one enemy off the ground and do damage, with the effect lasting as long as there is Force power."
+LANG_CHINESE        "等级 2 - 绝地可以把敌人举到空中并造成伤害，效果持续到原力耗尽为止。"
+
+REFERENCE           FORCE_GRIP_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can lift one enemy off the ground and do damage as with rank 2, but can also smash the enemy into surfaces or use the enemy as a shield."
+LANG_CHINESE        "等级 3 - 绝地可以像等级2那样把敌人举到空中造成伤害，但也可以把敌人往硬壁上砸，或把他们当作盾牌。"
+
+REFERENCE           FORCE_LIGHTNING_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches a single bolt that fires forward, doing instant damage.\n"
+LANG_CHINESE        "等级 1 - 绝地向前发射单个闪电波，立即造成伤害。\n"
+
+REFERENCE           FORCE_LIGHTNING_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can maintain the Force Lightning for a sustained forward attack.\n"
+LANG_CHINESE        "等级 2 - 绝地可以持续向前方施放出原力闪电攻击。\n"
+
+REFERENCE           FORCE_LIGHTNING_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi emanates a sustained fan of electricity in a large forward arc, damaging anything in front of them."
+LANG_CHINESE        "等级 3 - 绝地持续向前方大范围区域施放出扇形闪电攻击，破坏攻击范围内的一切物体。"
+
+REFERENCE           FORCE_SABER_DEFENSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can deflect projectiles and melee attacks in a small arc directly in front of them.  Deflected projectiles go in a random direction.\n"
+LANG_CHINESE        "等级 1 - 绝地可以反弹来自身体正前方小块区域的子弹和近战攻击。"
+
+REFERENCE           FORCE_SABER_DEFENSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can deflect projectiles and melee attacks in a larger arc directly in front of them.  Increased deflection speed.  Deflected projectiles go in the general direction of their origin.\n"
+LANG_CHINESE        "等级 2 - 绝地可以反弹面前更大区域内的子弹和近战攻击。格挡速度加快。反弹的子弹会大致按原路返回。"
+
+REFERENCE           FORCE_SABER_DEFENSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi has a larger defense area and can deflect projectiles back at the attacker. Increased deflection speed."
+LANG_CHINESE        "等级 3 - 绝地防御范围更大，格挡速度更快，并可以把子弹反弹回开枪的人那里。"
+
+REFERENCE           FORCE_ABSORB_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can absorb minor amounts of Force power directed at them with no ill effects and gain some Force power back as a result."
+LANG_CHINESE        "等级 1 - 绝地可以吸收少量直接对他们施放的原力攻击，没有副作用，可以获得一些原力。"
+
+REFERENCE           FORCE_ABSORB_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can absorb moderate amounts of Force power directed at them with no ill effects and gain a modest amount of Force power back as a result."
+LANG_CHINESE        "等级 2 - 绝地可以吸收中量直接对他们施放的原力攻击，没有副作用，并能获得适量的原力。"
+
+REFERENCE           FORCE_ABSORB_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can absorb a great amount of Force power directed at them with no ill effects and gain a large amount of Force power back as a result."
+LANG_CHINESE        "等级 3 - 绝地可以吸收大量直接对他们施放的原力攻击，没有副作用，并能获得大量的原力。"
+
+REFERENCE           FORCE_PROTECT_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi is protected against 25% of the damage from physical and energy and projectile based attacks, but not from Force based attacks."
+LANG_CHINESE        "等级 1 - 绝地受到的除原力系以外的伤害降低25%。"
+
+REFERENCE           FORCE_PROTECT_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi is protected against 50% of the damage from physical and energy and projectile based attacks, but not from Force based attacks."
+LANG_CHINESE        "等级 2 - 绝地受到的除原力系以外的伤害降低50%。"
+
+REFERENCE           FORCE_PROTECT_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi is protected against 75% of the damage from physical and energy and projectile based attacks, but not from Force based attacks."
+LANG_CHINESE        "等级 3 - 绝地受到的除原力系以外的伤害降低75%。"
+
+REFERENCE           FORCE_SENSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can sense people and invisible markers at short range for 5 seconds."
+LANG_CHINESE        "等级 1 - 绝地可以在短距离内感知到人员和隐形的标记。持续5秒"
+
+REFERENCE           FORCE_SENSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can sense people, objects, and invisible markers at medium range for 10 seconds."
+LANG_CHINESE        "等级 2 - 绝地可以在中等距离内感知到人员，物体以及隐形的标志。持续10秒。"
+
+REFERENCE           FORCE_SENSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can sense people, objects, invisible markers, and the health of living beings at long range for 20 seconds."
+LANG_CHINESE        "等级 3 - 绝地可以在长距离内感知到人员，物体和隐形标记，还能感知出生物的生命值。持续20秒。"
+
+REFERENCE           FORCE_DRAIN_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can drain life essence from another person and transfer it to themselves by making direct physical contact with that person."
+LANG_CHINESE        "等级 1 - 绝地可以把别人的生命值吸为己用，必须和目标进行身体接触。"
+
+REFERENCE           FORCE_DRAIN_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can drain life essence from another person and transfer it to themselves by making direct physical contact with them or from a short distance away."
+LANG_CHINESE        "等级 2 - 绝地可以在近距离内把别人的生命值吸为己用。"
+
+REFERENCE           FORCE_DRAIN_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can drain life essence from another person and transfer it to themselves by making direct physical contact with them or from a safe distance away.  From a distance, multiple people can be drained at one time."
+LANG_CHINESE        "等级 3 - 绝地可以在一个安全的距离把别人的生命值吸为己用。如果远距离使用，可以一次吸取多个目标。"
+
+REFERENCE           FORCE_RAGE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi is protected against 50% of all damage, has stronger attacks, and cannot die.  However, the Jedi loses health rapidly and must wait for 10 seconds after the rage before it can be used again.  The Jedi must have at least 25 health to use this power."
+LANG_CHINESE        "等级 1 - 绝地受到所有伤害降低50%，攻击力变强，而且不会死。但是绝地的生命值会快速流失，而且狂暴过后必须等10秒才能再次使用。使用时生命值不能低于25。"
+
+REFERENCE           FORCE_RAGE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi is protected against 75% of all damage, is 25% faster, has stronger attacks, and cannot die.  However, the Jedi loses health and must wait for 10 seconds after the rage before it can be used again.  The Jedi must have at least 25 health to use this power."
+LANG_CHINESE        "等级 2 - 绝地受到所有伤害降低75%，有25%的加速已经更强的攻击力，而且不会死。但是绝地会损失生命值，而且狂暴过后必须等10秒才能再次使用。使用时生命值不能低于25。"
+
+REFERENCE           FORCE_RAGE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi is protected against 90% of all damage, is 50% faster, has stronger attacks, and cannot die.  The Jedi loses only a small amount of health but still must wait for 10 seconds after the rage before it can be used again.  The Jedi must have at least 25 health to use this power."
+LANG_CHINESE        "等级 3 - 绝地受到所有伤害降低90%，有50%的加速，更强的攻击力，而且不会死。期间绝地只会丢失少量的生命值，但仍有10秒的等待时间才能再次使用。使用时生命值不能低于25。"
+
+REFERENCE           FORCE_SABER_OFFENSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi is proficient in the use of a lightsaber and has a chance to break saber locks and parrys against other Jedi of similar proficiency."
+LANG_CHINESE        "等级 1 - 绝地能熟练的运用光剑，有一定几率打破光剑对拼，并能招架拥有类似光剑熟练程度的地方绝地的攻击。"
+
+REFERENCE           FORCE_SABER_OFFENSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi is proficient in the use of a lightsaber and has a chance to break saber locks and parrys against other Jedi of similar proficiency and will break saber locks and parrys against weaker opponents."
+LANG_CHINESE        "等级 2 - 绝地能熟练的运用光剑，有一定几率打破光剑对拼，并能格挡拥有类似光剑熟练程度的地方绝地的攻击。与比自己弱的对手战斗时会打破光剑对拼，并招架他们的攻击。"
+
+REFERENCE           FORCE_SABER_OFFENSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi is proficient in the use of a lightsaber and has a chance to break saber locks and parrys against other Jedi of similar proficiency and will break saber locks and parrys against weaker opponents."
+LANG_CHINESE        "等级 3 - 绝地能熟练的运用光剑，有一定几率打破光剑对拼，并能格挡拥有类似光剑熟练程度的地方绝地的攻击。与比自己弱的对手战斗时会打破光剑对拼，并招架他们的攻击。"
+
+REFERENCE           FORCE_SABER_THROW_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Lightsaber flies straight from the player and returns.\n"
+LANG_CHINESE        "等级 1 - 光剑从玩家处直来直回。"
+
+REFERENCE           FORCE_SABER_THROW_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can exert control over the flying lightsaber as it arcs out, but the lightsaber still returns directly to the player.  "
+LANG_CHINESE        "等级 2 - 绝地在光剑飞行过程中可以对其加以控制，但光剑还是会直接回到玩家手中。"
+
+REFERENCE           FORCE_SABER_THROW_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi will automatically steer the saber into nearby enemies."
+LANG_CHINESE        "等级 3 - 绝地能让光剑自动飞向附近的敌人。"
+
+REFERENCE           ITEM_GOODIE_KEY
+LANG_ENGLISH        "Supply Key"
+LANG_CHINESE        "物资钥匙"
+
+REFERENCE           GOODIE_KEY_DESC
+LANG_ENGLISH        "Supply Key\nAn electronic security pass used by Imperial officers to access secure cargo shipment containers"
+LANG_CHINESE        "物资钥匙\n帝国军官用来打开安全运货箱的电子安全钥匙。"
+
+REFERENCE           YOU_TOOK_SUPPLY_KEY
+LANG_ENGLISH        "You took the supply key"
+LANG_CHINESE        "你拿到了物资钥匙"
+
+REFERENCE           SECURITY_KEY_DP_DESC
+LANG_ENGLISH        "Security Key\nAn electronic Level 2 clearance security pass used to access secure areas\n"
+LANG_CHINESE        "安全密钥\n该电子安全钥匙能提供进入安全区域的2级通行权限。"
+
+REFERENCE           ITEM_SECURITY_KEY
+LANG_ENGLISH        "Security Key"
+LANG_CHINESE        "安全密钥"
+
+REFERENCE           YOU_TOOK_SECURITY_KEY
+LANG_ENGLISH        "You took the security key"
+LANG_CHINESE        "你拿到了安全密钥"
+
+REFERENCE           NEW_FORCE_POWER_INFO
+LANG_ENGLISH        "New Force Power Information"
+LANG_CHINESE        "新原力技能信息"
+
+REFERENCE           NEW_OBJECTIVE_INFO
+LANG_ENGLISH        "New Objective Information"
+LANG_CHINESE        "新任务目标信息"
+
+REFERENCE           SECRET_AREA
+LANG_ENGLISH        "Secret Area!"
+LANG_CHINESE        "发现秘密区域！"
+
+REFERENCE           NEED_KEY_TO_OPEN
+LANG_ENGLISH        "You need a key to open this."
+LANG_CHINESE        "你得有钥匙才能打开这扇门。"
+
+REFERENCE           ONE_KILL_PER_5_SECONDS
+LANG_ENGLISH        "Only one kill per 5 seconds!"
+LANG_CHINESE        "5秒一杀！"
+
+REFERENCE           CHECKPOINT
+LANG_ENGLISH        "Checkpoint!"
+LANG_CHINESE        "到达记录点！"
+
+REFERENCE           SECRETAREAS_OF
+NOTES               "used to display "0 of 3" secret-areas-found string."
+LANG_ENGLISH        "of"
+LANG_CHINESE        "关于"
+
+REFERENCE           EXIT_VIEW
+LANG_ENGLISH        "Press 'JUMP' to exit."
+LANG_CHINESE        "按‘跳跃键’退出。"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_FAST
+LANG_ENGLISH        "Lightsaber Combat Style: Fast"
+LANG_CHINESE        "光剑格斗剑式：迅捷式"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_MEDIUM
+LANG_ENGLISH        "Lightsaber Combat Style: Medium"
+LANG_CHINESE        "光剑格斗剑式：折中式"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_STRONG
+LANG_ENGLISH        "Lightsaber Combat Style: Strong"
+LANG_CHINESE        "光剑格斗剑式：强力式"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_DESANN
+LANG_ENGLISH        "Lightsaber Combat Style: Desann"
+LANG_CHINESE        "光剑格斗剑式：迪桑"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_TAVION
+LANG_ENGLISH        "Lightsaber Combat Style: Tavion"
+LANG_CHINESE        "光剑格斗剑式：特维安"
+
+REFERENCE           ITEM_MEDPAC
+NOTES               "MP version of ITEM_BACTA"
+LANG_ENGLISH        "Instant Use Medpack"
+LANG_CHINESE        "医疗包"
+
+REFERENCE           ITEM_SHIELD
+NOTES               "MP force field item"
+LANG_ENGLISH        "Forcefield"
+LANG_CHINESE        "原力立场"
+
+REFERENCE           ITEM_SHIELD_LRG_INSTANT
+NOTES               "MP item"
+LANG_ENGLISH        "Large Shield Booster"
+LANG_CHINESE        "大型护盾发生器"
+
+REFERENCE           ITEM_FORCE_ENLIGHTEN_LIGHT
+LANG_ENGLISH        "Light Force Enlightenment"
+LANG_CHINESE        "光明原力指导"
+
+REFERENCE           ITEM_FORCE_ENLIGHTEN_DARK
+LANG_ENGLISH        "Dark Force Enlightenment"
+LANG_CHINESE        "黑暗原力指导"
+
+REFERENCE           ITEM_FORCE_BOON
+LANG_ENGLISH        "Force Boon"
+LANG_CHINESE        "原力恩惠"
+
+REFERENCE           ITEM_YSALIMARI
+LANG_ENGLISH        "Ysalamiri"
+LANG_CHINESE        "伊萨拉米尔蜥"
+
+REFERENCE           WEAPON_EMPLACED
+LANG_ENGLISH        "Emplaced Gun"
+LANG_CHINESE        "放置武器"
+
+REFERENCE           WEAPON_TURRETWP
+LANG_ENGLISH        "Turret Gun"
+LANG_CHINESE        "炮塔枪"
+
+REFERENCE           DARK_RAGE2
+LANG_ENGLISH        "Dark Rage"
+LANG_CHINESE        "黑暗狂暴"
+
+REFERENCE           TEAM_CTF_REDFLAG
+LANG_ENGLISH        "Red Flag"
+LANG_CHINESE        "红方旗帜"
+
+REFERENCE           TEAM_CTF_BLUEFLAG
+LANG_ENGLISH        "Blue Flag"
+LANG_CHINESE        "蓝方旗帜"
+
+REFERENCE           TEAM_CTF_NEUTRALFLAG
+LANG_ENGLISH        "Neutral Flag"
+LANG_CHINESE        "中立旗帜"
+
+REFERENCE           ITEM_REDCUBE
+LANG_ENGLISH        "Red Cube"
+LANG_CHINESE        "红方"
+
+REFERENCE           ITEM_BLUECUBE
+LANG_ENGLISH        "Blue Cube"
+LANG_CHINESE        "蓝方"
+
+REFERENCE           ITEM_DATAPAD
+LANG_ENGLISH        "Datapad"
+LANG_CHINESE        "资料盘"
+
+REFERENCE           PROTECT2
+LANG_ENGLISH        "Protect"
+LANG_CHINESE        "保护"
+
+REFERENCE           ABSORB2
+LANG_ENGLISH        "Absorb"
+LANG_CHINESE        "吸收"
+
+REFERENCE           TEAM_HEAL2
+LANG_ENGLISH        "Team Heal"
+LANG_CHINESE        "团队治疗"
+
+REFERENCE           SEEING2
+LANG_ENGLISH        "Sense"
+LANG_CHINESE        "感知"
+
+REFERENCE           DRAIN2
+LANG_ENGLISH        "Drain"
+LANG_CHINESE        "吸食"
+
+REFERENCE           TEAM_REPLENISH2
+LANG_ENGLISH        "Team Energize"
+LANG_CHINESE        "团队充能"
+
+REFERENCE           DOOR_OPENED_ELSEWHERE
+LANG_ENGLISH        "This door is opened elsewhere."
+LANG_CHINESE        "开门的方法得去别的地方找。"
+
+REFERENCE           WEAPON_BLASTER_PISTOL
+LANG_ENGLISH        "DL-44 Heavy Blaster Pistol"
+LANG_CHINESE        "DL-44重型爆能手枪"
+
+REFERENCE           WEAPON_CONCUSSION_RIFLE
+LANG_ENGLISH        "Stouker Concussion Rifle"
+LANG_CHINESE        "斯图克轰击步枪"
+
+REFERENCE           AMMO_ALL
+LANG_ENGLISH        "Ammo Dispenser"
+LANG_CHINESE        "弹药分发员"
+
+REFERENCE           ITEM_MEDPAC_BIG
+LANG_ENGLISH        "Big Bacta"
+LANG_CHINESE        "大菌剂罐"
+
+REFERENCE           ITEM_EWEB_HOLDABLE
+LANG_ENGLISH        "E-Web"
+LANG_CHINESE        "电子网络"
+
+REFERENCE           ITEM_CLOAK
+LANG_ENGLISH        "Cloak"
+LANG_CHINESE        "隐形"
+
+REFERENCE           FAST_STYLE
+LANG_ENGLISH        "Fast and efficient, but with limited range. Short, quick motions allow for multiple attacks but with minimum damage. This style can be chained indefinitely. It utilizes a defensive stance in which the Jedi holds his saber across his front in a ready position to fend off attacks or make quick jabs. Represented by a blue bar on the right side of the HUD."
+LANG_CHINESE        "轻剑很有效率，但是攻击范围很有限。招式短小精悍，可以使出多重攻击，但是伤害很小。该剑式可以无限次连续出招。绝地用该剑式持剑时采用防御性的姿势，把光剑挡在身前，随时准备格挡攻击或发出迅猛一击。在右边仪表盘上用蓝条表示。"
+
+REFERENCE           STRONG_STYLE
+LANG_ENGLISH        "Uses powerful strikes to batter through defenses. This style incorporates great range and power, but often leaves the Jedi open for counter attack. It utilizes a powerful, aggressive stance in which the Jedi holds his saber high and back, ready to go into a heavy swing. Represented by a red bar on the right side of the HUD."
+LANG_CHINESE        "重剑式利用强力的攻击击穿敌方的防御。这种剑式融合了攻击的范围与力道，但是收招时绝地武士很容易受到反击。绝地用该剑式持剑时采用一种强有力的极具进攻性的姿势，抬头挺胸的握住光剑，随时准备施展沉重的一击。在右边仪表盘上用红条表示"
+
+REFERENCE           CANT_SAVE_DEAD
+LANG_ENGLISH        "Can't save game while dead!"
+LANG_CHINESE        "死亡后不能存档！"
+
+
+//----------------------------------------------------------
+//     Movie Duels NEW REFERENCES
+//----------------------------------------------------------
+
+REFERENCE	    BATTLEDROID_DESC
+LANG_ENGLISH        "Baktoid Armor E-5 Blaster Rifle\nThe E-5 blaster rifle was the standard issue blaster of the OOM and B1 battle droids and the elite BX-series droid commando during the Clone Wars. The E-5 blaster rifle was a powerful, light, but somewhat inaccurate weapon.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "巴克托伊德装甲 E-5 爆能步枪\nE-5 爆能步枪是克隆人战争期间OOM和B1战斗机器人以及精英BX系列机器人突击队的标准爆能枪。E-5爆能步枪是一种威力强大、重量轻但有些不稳定的武器。\n主要攻击模式 - 慢速单发，精确度适中的高伤害射击\n第二攻击模式 - 速射开火，低精准度，火力范围更大\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    THEFIRSTORDER_DESC
+LANG_ENGLISH        "Sonn-Blas F-11D Blaster Rifle\nThe F-11D Blaster Rifle was the standard issue blaster of the First Order Stormtroopers during the First Order-Resistance Conflict. As the successor to the E-11, the F-11D came equipped with an adjustable J19 electroscope, magnatomic adhesion grip, and foregrip.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "松恩-布拉斯 F-11D 爆能步枪\nF-11D 爆能步枪是第一秩序统治期间暴风兵的标准装备。作为E-11的继任者，F-11D配备了可调节的J19验电器、大原子附着力手柄和前握把\n主要攻击模式 - 慢速单发，精确度适中的高伤害射击\n第二攻击模式 - 速射开火，低精准度，火力范围更大\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    CLONECARBINE_DESC
+LANG_ENGLISH        "BlasTech DC-15S Blaster Carbine\nThe DC-15S Blaster Carbine was a standard issue weapon of the Clone Troopers of the Grand Army of the Republic during the Clone Wars. Smaller in scale than the DC-15A rifle, the DC-15S was considered easier to handle with a potentially higher rate of fire.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 DC-15S 爆能卡宾枪\nDC-15S 爆能卡宾枪是克隆人战争期间共和国大军克隆人部队的标准武器。DC-15S的规模比DC-15A步枪小，被认为更容易处理，具有潜在的更高的射速。\n主要攻击模式 - 慢速单发，精确度适中的高伤害射击\n第二攻击模式 - 速射开火，低精准度，火力范围更大\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    REBELBLASTER_DESC
+LANG_ENGLISH        "BlasTech DH-17 Blaster Pistol\nThe DH-17 Blaster Pistol was a close-quarter automatic blaster pistol popularly used during the Galactic Civil War. Often favored by starship personnel in both the Rebel Alliance and Galactic Empire, the DH-17 was designed solely for close quarter combat, delivering lethal blasts with every shot, but suffered from poor accuracy at long range. Users of the blaster had to be careful, as prolonged use would drain its energy supply quickly, leaving the user defenseless.\nPrimary Fire - Slow, single shot with low accuracy and significant damage\nSecondary Fire - Rapid, automatic fire with poor accuracy and significant damage.\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 DH-17 爆能手枪\nDH-17 爆能枪是银河内战期间广泛使用的近距离自动爆能手枪。DH-17经常受到反抗军联盟和银河帝国星舰人员的青睐，它专为近距离作战而设计，每次射击都能发射致命的爆炸，但在远距离精度很差。爆炸机的使用者必须小心，因为长时间使用会迅速耗尽能量供应，让使用者毫无防御能力。\n主要攻击模式 - 慢速单发，低精准度的高伤害射击\n第二攻击模式 - 自动速射开火，极低精准度的高伤害射击\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    CLONERIFLE_DESC
+LANG_ENGLISH        "BlasTech DC-15A Blaster Rifle\nThe DC-15A Blaster Rifle was a standard issue rifle of the Clone Troopers of the Grand Army of the Republic during the Clone Wars. Most prominently seen during the First Battle of Geonosis, the DC-15A was a long range rifle designed for open field combat, featuring a greater accuracy than the DC-15S, its carbine counterpart. \nPrimary Fire - Slow, single shot with good accuracy and great damage\nSecondary Fire - Rapid fire with reduced accuracy and slightly expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 DC-15A 爆能步枪\nDC-15A 爆能步枪是克隆人战争期间共和国大军克隆人部队的标准步枪。在第一次吉奥诺西斯战役中最引人注目的就是DC-15A，它是一种专为露地作战而设计的远程步枪，其精度比DC-15S卡宾枪更高。\n主要攻击模式 - 慢速单发，高精确度的高伤害射击\n第二攻击模式 - 速射开火，精准度适中，火力范围略微扩大\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    CLONECOMMANDO_DESC
+LANG_ENGLISH        "BlasTech DC-17m Interchangeable Weapon System\nThe DC-17m Interchangeable Weapon System was the standard issue weapon for the Clone Commandos of the Grand Army of the Republic during the Clone Wars. A versatile weapon, the DC-17m was a highly accurate weapon, with two other separate weapon configurations; sniper and anti-armor. In rifle mode, the weapon was incredibly accurate at most ranges, but was noticeably weak.\nPrimary Fire - Fast, single shot with perfect accuracy, yet weak damage\nSecondary Fire - Rapid, burst fire with near-perfect accuracy\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 DC-17m 可交换式武器系统\nDC-17m 可交换式武器系统是克隆人战争期间共和国大军克隆人指挥官的标准武器。DC-17m是一种多功能武器，是一种高度精确的武器，有另外两种不同的武器配置；狙击手和反装甲。在步枪模式下，该武器在大多数射程下都非常精确，但明显较弱。\n主要攻击模式 - 快速单发，完美精准度的低伤害射击\n第二攻击模式 - 速射开火，近乎完美的精准度\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    REBELRIFLE_DESC
+LANG_ENGLISH        "BlasTech A280 Blaster Rifle\nThe A280 Blaster Rifle was a weapon mostly used by the commandos of the Rebel Alliance during the Galactic Civil War. The A280 was well known for its armor piercing capabilities, with pinpoint accuracy and fair damage, but suffered from a slower rate of fire.\nPrimary Fire - Slow, single shot with pinpoint accuracy and great damage\nSecondary Fire - Slow automatic fire with pinpoint accuracy\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 A280 爆能步枪\nA280 爆能步枪是银河内战期间义军联盟突击队主要使用的武器。A280以其精确的穿透能力和相当的伤害而闻名，但射速较慢。\n主要攻击模式 - 慢速单发，精确精准度的高伤害射击\n第二攻击模式 - 慢速自动开火，精确精准度\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    REY_DESC
+LANG_ENGLISH        "LPA NN-14 Blaster Pistol\nThe NN-14 Blaster Pistol was a blaster pistol gifted to Rey by Han Solo during the First-Order Resistance Conflict. The NN-14 featured a compact grip, enlarged power core, and flash stabilizing muzzle. In combat, the NN-14 was favored for its near-pinpoint accuracy and great damage.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "LPA NN-14爆能手枪\nNN-14爆能手枪是汉 索罗在第一秩序抵抗冲突期间送给蕾伊 帕尔帕廷的一把爆能手枪。NN-14具有紧凑的握把、加大的动力核心和稳定闪光的枪口。在战斗中，NN-14因其近乎精确的精度和巨大的杀伤力而备受青睐。\n主要攻击模式 - 慢速单发，高精确度的高伤害射击\n第二攻击模式 - 增大伤害的爆能攻击的充电能量积累\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    JANGO_DESC
+LANG_ENGLISH        "WESTAR-34 Blaster Pistol\nThe WESTAR-34 Blaster Pistol was the weapon of choice by bounty hunter Jango Fett prior to the Clone Wars. The WESTAR-34 fired powerful bolts that were very effective at close range, utilizing its dallorian construction to absorb more heat than a standard blaster.\nPrimary Fire - Single shot with great accuracy and low damage\nSecondary Fire - Rapid fire with near-perfect accuracy, but low damage.\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "WESTAR-34爆能手枪\nWESTAR-34爆能手枪是赏金猎人詹戈 费特在克隆人战争之前选择的武器。WESTAR-34发射了在近距离非常有效的强力螺栓，使用其Dallorian结构吸收的热量超过了标准爆能枪。\n主要攻击模式 - 高精准度的低伤害单发射击\n第二攻击模式 - 速射开火，近乎完美的精准度的低伤害\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    SBD_DESC
+LANG_ENGLISH        "Super Battle Droid Weapon\nThe Player should never get this weapon \n If you have it then something is wrong"
+LANG_CHINESE        "超级战斗机器人武器\n玩家应该永远得不到这个武器 \n 如果你有这个武器，那么就有问题了"
+
+REFERENCE	    DUAL_PISTOL_DESC
+LANG_ENGLISH        "WESTAR-34 Dual Blaster Pistol\nThe WESTAR-34 Blaster Pistol was the weapon of choice by bounty hunter Jango Fett prior to the Clone Wars. The WESTAR-34 fired powerful bolts that were very effective at close range, utilizing its dallorian construction to absorb more heat than a standard blaster.\nPrimary Fire - Single shot with great accuracy and low damage\nSecondary Fire - Rapid fire with near-perfect accuracy, but low damage.\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "双手WESTAR-34爆能手枪\nWESTAR-34爆能手枪是赏金猎人詹戈 费特在克隆人战争之前选择的武器。WESTAR-34发射了在近距离非常有效的强力螺栓，使用其Dallorian结构吸收的热量超过了标准爆能枪。\n主要攻击模式 - 高精准度的低伤害单发射击\n第二攻击模式 - 速射开火，近乎完美的精准度的低伤害\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    BOBA_DESC
+LANG_ENGLISH        "BlasTech EE-3 Carbine Rifle\nThe EE-3 Carbine Rifle was the weapon of choice by bounty hunter Boba Fett prior to and during the Galactic Civil War. Modeled after the E-11 Blaster Rifle, used by the infamous Stormtroopers of the Galactic Empire, the EE-3 featured a three shot burst that was highly effective at close range, but suffered at a longer range.\nPrimary Fire - Single shot with great accuracy and low damage\nSecondary Fire - Three shot burst fire with high accuracy, low damage, and minor fire delay.\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 EE-3 卡宾枪\n在银河内战之前和期间，EE-3卡宾枪是赏金猎人波巴 费特的首选武器。以臭名昭著的银河帝国冲锋队使用的E-11爆炸步枪为模型，EE-3具有三发爆发的特点，在近距离非常有效，但在更远的距离会受到影响。\n主要攻击模式 - 高精准度的低伤害单发射击\n第二攻击模式 - 射击延迟小高精准度的低伤害的三连发射击\n弹药类型 - 爆能弹药包"
+
+REFERENCE	    CLONEPISTOL_DESC
+LANG_ENGLISH        "BlasTech DC-17 Hand Pistol\nThe DC-17 Hand Pistol was the standard issue pistol to the Clone Troopers of the Grand Army of the Republic during the Clone Wars. An advanced firearm, the DC-17 was generally issued to the more elite and high ranking Clone Troopers such as ARC Troopers, Commanders, Captains, and Jet Troopers.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 DC-17手枪\nDC-17手枪是克隆人战争期间共和国大军克隆人部队的标准手枪。DC-17是一种先进的枪支，通常发放给更精英、更高级别的克隆人部队，如ARC部队、指挥官、上尉和喷气式部队。\n主要攻击模式 - 慢速单发，高精确度的低伤害射击\n第二攻击模式 - 增大伤害的爆能攻击的充电能量积累\n弹药类型 - 爆能弹药包"
+
+REFERENCE           MELEE_DESC
+LANG_ENGLISH        "Melee Fist \nCommonly used as a last line of defence, Melee combat is a jedi,s second skill, many years of training in the art of unarmed combat ensure that a jedi is highly skilled without his lightsaber.\nPrimary Fire - Short range punch\nSecondary Fire - Kicks and Grab Katas."
+LANG_CHINESE        "近身拳 \n近战通常被用作最后一道防线，是绝地武士的第二项技能，多年的徒手格斗训练确保绝地武士在没有光剑的情况下拥有高超的技能。\n主要攻击模式 - 短拳\n第二攻击模式 - 踢和卡塔斯抓"
+
+REFERENCE           CLOAK_DESC
+LANG_ENGLISH        "Cloaking Shield\nThe cloaking shield renders the wearer invisible to others, allowing for stealthy movement.  However, due to the immense energy necessary to power the device, the cloak last for a short duration.  \n\nA direct hit from a DEMP 2 gun will temporarily disable the shield.  Additionally, a hit from the secondary fire of the DEMP 2 will permanently disable the shield."
+LANG_CHINESE        "隐形护盾\n隐形护盾使佩戴者不为他人所见，从而可以进行隐形移动。然而，由于为设备供电所需的巨大能量，斗篷的持续时间很短。  \n\nDEMP 2枪的直接命中将使防护罩暂时失效。此外，DEMP 2的二次火力命中将使防护罩永久失效。"
+
+REFERENCE	    BARRIER_DESC
+LANG_ENGLISH        "Gunners Personal Shield\nThis bubble energy field can be used by non saber wielders at any location, at which time it deploys a round shield that can block enemy fire.  The shield protects the body for a period of time.  The shield will disappear after expending its power supply or after enduring a certain amount of damage."
+LANG_CHINESE        "个人能量护盾\n这个气泡能量场可以被非军刀使用者在任何位置使用，此时它会部署一个圆形盾牌来阻挡敌人的火力。防护罩在一段时间内保护身体。在耗尽电源或承受一定程度的伤害后，防护罩将消失。"
+
+REFERENCE           JETPACK_DESC
+LANG_ENGLISH        "Jetpack\nThe jetpack allows the wearer to fly for short durations, giving them a tactical advantage over others.  If the user does not fire the rockets, they will slowly lose altitude.\n\nThe jetpack is only usable in the Siege gametype.\n\n(Note:  To activate the jetpack, jump, then press 'use' while in the air.  Holding 'jump' will allow the user to gain altitude, while holding 'crouch' will decrease altitude.)"
+LANG_CHINESE        "喷气背包\n喷气背包可以让佩戴者短时间飞行，使他们在战术上优于其他人。如果使用者不继续发射火箭，它们将慢慢失去高度。\n\n喷气背包只能在围攻游戏类型中使用。\n\n(注意：要激活喷气背包，请跳跃，然后在空中按下“使用”。按住“跳跃”将允许用户获得高度，而按住“蹲下”将降低高度。)"
+
+REFERENCE           WEAPON_BLASTER
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "BlasTech E-11 Blaster Rifle"
+LANG_CHINESE        "爆能科技公司 E-11 爆能步枪"
+
+REFERENCE           BLASTER_RIFLE_DESC
+NOTES		    "Edited description of original weapon"
+LANG_ENGLISH        "BlasTech E-11 Blaster Rifle \nThe primary weapon of the Imperial forces, the E-11 is a sturdy and deadly blaster rifle capable of inflicting great damage despite its small size.  The E-11's compact design makes it easy to carry and conceal.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 E-11 爆能步枪 \nE-11是帝国军队的主要武器，是一种坚固而致命的爆能步枪，尽管体积很小，但仍能造成巨大伤害。E-11的紧凑型设计使其易于携带和隐藏。\n主要攻击模式 - 慢速单发，中等精准度的高伤害射击\n第二攻击模式 - 速射开火，低精准度，火力范围略微扩大\n弹药类型 - 爆能弹药包"
+
+REFERENCE           WEAPON_THERMAL
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "Baradium-core Thermal Detonator"
+LANG_CHINESE        "热能榴弹"
+
+REFERENCE           THERMAL_DETONATOR_DESC
+NOTES		    "Edited description of original weapon"
+LANG_ENGLISH        "Baradium-core Thermal Detonator \nThe thermal detonator is a radius-damage grenade that creates an expanding particle field, vaporizing anything within its blast radius before it collapses after a small amount of time.\nPrimary Fire - Detonator explodes after about three seconds.  Press FIRE longer for longer throw\nSecondary Fire - Detonator explodes on impact.  Press ALT-FIRE longer for longer throw"
+LANG_CHINESE        "热能榴弹 \n是一种半径损伤手榴弹，它会产生一个不断扩大的粒子场，在爆炸半径内的任何东西在一小段时间后倒塌之前都会蒸发。\n主要攻击模式 - 榴弹在大约三秒后爆炸。长按开火键可获得更长投掷距离"
+
+REFERENCE	    WEAPON_BATTLEDROID
+LANG_ENGLISH        "Baktoid Armor E-5 Blaster Rifle"
+LANG_CHINESE        "巴克托伊德装甲 E-5 爆能步枪"
+
+REFERENCE	    WEAPON_THEFIRSTORDER
+LANG_ENGLISH	    "Sonn-Blas F-11D Blaster Rifle"
+LANG_CHINESE        "松恩-布拉斯 F-11D 爆能步枪"
+
+REFERENCE	    WEAPON_REBELBLASTER
+LANG_ENGLISH	    "BlasTech DH-17 Blaster Pistol"
+LANG_CHINESE        "爆能科技公司 DH-17 爆能手枪"
+
+REFERENCE	    WEAPON_CLONECARBINE
+LANG_ENGLISH	    "BlasTech DC-15S Blaster Carbine"
+LANG_CHINESE        "爆能科技公司 DC-15S 爆能卡宾枪"
+
+REFERENCE	    WEAPON_CLONERIFLE
+LANG_ENGLISH	    "BlasTech DC-15A Blaster Rifle"
+LANG_CHINESE        "爆能科技公司 DC-15A 爆能步枪"
+
+REFERENCE	    WEAPON_CLONECOMMANDO
+LANG_ENGLISH	    "BlasTech DC-17m Interchangeable Weapon System"
+LANG_CHINESE        "爆能科技公司 DC-17m 可交换武器系统 "
+
+REFERENCE	    WEAPON_REBELRIFLE
+LANG_ENGLISH	    "BlasTech A280 Blaster Rifle"
+LANG_CHINESE        "爆能科技公司 A280 爆能步枪"
+
+REFERENCE	    WEAPON_REY
+LANG_ENGLISH	    "LPA NN-14 Blaster Pistol"
+LANG_CHINESE        "LPA NN-14爆能手枪"
+
+REFERENCE	    WEAPON_JANGO
+LANG_ENGLISH	    "WESTAR-34 Blaster Pistol"
+LANG_CHINESE        "WESTAR-34爆能手枪"
+
+REFERENCE	    WEAPON_DUAL_PISTOL
+LANG_ENGLISH	    "WESTAR-34 Dual Blaster Pistol"
+LANG_CHINESE        "双手WESTAR-34爆能手枪"
+
+REFERENCE	    WEAPON_BOBA
+LANG_ENGLISH	    "BlasTech EE-3 Carbine Rifle"
+LANG_CHINESE        "爆能科技公司 EE-3 卡宾枪"
+
+REFERENCE	    WEAPON_CLONEPISTOL
+LANG_ENGLISH	    "BlasTech DC-17 Hand Pistol"
+LANG_CHINESE        "爆能科技公司 DC-17手枪"
+
+REFERENCE           ATST_MAIN_DESC
+LANG_ENGLISH        "ATST Main Cannon"
+LANG_CHINESE        "ATST主炮"
+
+REFERENCE           TUSKEN_RIFLE_DESC
+LANG_ENGLISH        "Tusken Rifle \nThe standard projectile weapon used by the Tusken Raiders of Tatooine in ranged combat.   The long range weapon has impressive range and stopping power.\nPrimary Fire - Short range swing\nSecondary Fire - Single shot with slow fire rate\nAmmo Type - Power cell"
+LANG_CHINESE        "塔斯肯步枪 \n塔图因塔斯肯袭击者在远程作战中使用的标准射击武器。远程武器具有令人印象深刻的射程和阻止力。\n主要攻击模式 - 短范围摆动\n第二攻击模式 - 单发慢速射击\n弹药类型 - 能量电池"
+
+REFERENCE           NOGHRI_STICK_DESC
+LANG_ENGLISH        "Noghri Stick \nThe traditional melee weapon of the Noghri race.   The weapon serves as a useful multipurpose tool and melee weapon.\nPrimary Fire - Overhead swing\nSecondary Fire - Uppercut swing\nAmmo Type - None"
+LANG_CHINESE        "诺格棒 \n诺格族的传统近战武器。该武器是一种有用的多用途工具和近战武器。\n主要攻击模式 - 高空摆动\n第二攻击模式 - 上冲击摆动\n弹药类型 - 无"
+
+REFERENCE           WEAPON_BLASTER_PISTOL
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "BlasTech DL-44 Heavy Blaster Pistol"
+LANG_CHINESE        "爆能科技公司 DL-44 重型爆能手枪"
+
+REFERENCE           NEW_BLASTER_PISTOL_DESC
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "BlasTech DL-44 Heavy Blaster Pistol \nOne of the most common firearms in the galaxy, the BlasTech DL-44 Heavy Blaster Pistol is a hand-held energy weapon with a slow rate of fire and incredible accuracy.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CHINESE        "爆能科技公司 DL-44 重型爆能手枪 \nDL-44重型爆破手枪是银河系最常见的枪支之一，是一种手持能量武器，具有缓慢的射速和令人难以置信的精度。\n主要攻击模式 - 慢速单发，具有极高的精准度和杀伤力\n第二攻击模式 - 增大伤害的爆能攻击的充电能量积累\n弹药类型 - 爆能弹药包"
+
+REFERENCE           ITEM_BARRIER
+LANG_ENGLISH        "Gunners Personal Shield"
+LANG_CHINESE        "个人能量护盾"
+
+REFERENCE           DOTF_KICKMAUL
+LANG_ENGLISH        "Kick or Push the Sith Warrior off the catwalk!"
+LANG_CHINESE        "把西斯武士踢或推下T台！"
+
+REFERENCE           TANTIVE_HINT
+LANG_ENGLISH        "Destroy All Resistance Before Proceeding."
+LANG_CHINESE        "在继续之前摧毁所有阻力"
+
+REFERENCE           DD_LSDS_CHOICE
+LANG_ENGLISH        "Deactivate your lightsaber to come back to the light.\n\nKill Obi-Wan to remain on the dark side."
+LANG_CHINESE        "关闭你的光剑回到光明面。\n\n杀死欧比 旺留在黑暗面"
+
+REFERENCE	    WEAPON_NOGHRI_STICK
+LANG_ENGLISH	    "Nogri Stick"
+LANG_CHINESE        "诺格棒"
+
+REFERENCE	    WEAPON_TUSKEN_RIFLE
+LANG_ENGLISH	    "Tusken Rifle"
+LANG_CHINESE        "塔斯肯步枪"
+
+REFERENCE	    WEAPON_WRIST
+LANG_ENGLISH	    "Mandalorian Wrist Blaster"
+LANG_CHINESE        "曼达洛人腕式爆能枪"
+
+REFERENCE           WRIST_DESC
+LANG_ENGLISH        "Mandalorian Armour Wrist Blaster\nThe Mandalorian Rocket Gauntlet is a wrist-mounted blaster based on the titular Manadlorian 's gauntlets."
+LANG_CHINESE        "曼达洛人腕式爆能枪\n一种基于名义上的曼达洛手套的手腕爆能枪。"
+
+REFERENCE	    GRAPPLE_DESC
+LANG_ENGLISH        "Grapple Hook \nGrappling Hook is a device with multiple hooks attached to a rope; it is thrown, dropped, sunk, projected, or fastened directly by hand to where at least one hook may catch and hold. Generally, grappling hooks are used to temporarily secure one end of a rope."
+LANG_CHINESE        "抓钩 \n抓钩是一种将多个钩子连接到绳索上的装置；它被直接用手扔、扔、沉、突出或固定在至少一个钩子可以抓住和固定的地方。一般来说，抓钩是用来临时固定绳子的一端。"
+
+REFERENCE           ITEM_GRAPPLEHOOK
+LANG_ENGLISH        "Grappling Hook"
+LANG_CHINESE        "抓钩"
+
+REFERENCE	    STASIS
+LANG_ENGLISH	    "Stasis:"
+LANG_CHINESE        "停滞"
+
+REFERENCE	    STASIS2
+LANG_ENGLISH	    "Stasis"
+LANG_CHINESE        "停滞"
+
+REFERENCE	    USES_STASIS_FORCE_ABILITY
+LANG_ENGLISH	    "Uses Force Stasis ability."
+LANG_CHINESE        "使用原力停滞能力"
+
+REFERENCE	    FORCE_STASIS_DESC
+LANG_ENGLISH	    "Force Stasis\nDuration: Variable\nArea of Effect: Living persons or objects\nEffect: Allows Jedi to paralyse a living being or droid.\n\n"
+LANG_CHINESE        "原力停滞\n持续时间：变量\n效果范围：活人或物体\n效果：能让绝地使活人或机器人瘫痪。\n\n"
+
+REFERENCE           FORCE_STASIS_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi paralyses a single enemy for 5 seconds."
+LANG_CHINESE        "等级 1 - 绝地使一个敌人瘫痪5秒。"
+
+REFERENCE           FORCE_STASIS_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi paralyses a single enemy for 10 seconds."
+LANG_CHINESE        "等级 2 - 绝地使一个敌人瘫痪10秒。"
+
+REFERENCE           FORCE_STASIS_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi paralyses a single enemy for 15 seconds."
+LANG_CHINESE        "等级 3 - 绝地使一个敌人瘫痪15秒。"
+
+REFERENCE	    DESTRUCTION
+LANG_ENGLISH	    "Destruction:"
+LANG_CHINESE        "破坏"
+
+REFERENCE	    DESTRUCTION2
+LANG_ENGLISH	    "Destruction"
+LANG_CHINESE        "破坏"
+
+REFERENCE           USES_DESTRUCTION_FORCE_ABILITY
+LANG_ENGLISH	    "Uses Force Destruction ability."
+LANG_CHINESE        "使用原力破坏能力"
+
+REFERENCE	    FORCE_DESTRUCTION_DESC
+LANG_ENGLISH	    "Force Destruction\nDuration: Instant\nArea of Effect: Projectile\nEffect: Allows Jedi to launch a projectile of force energy.\n\n"
+LANG_CHINESE        "原力破坏\n持续时间：即时\n效果范围：弹药\n效果：能让绝地武士发射一枚具有力量能量的炮弹。\n\n"
+
+REFERENCE           FORCE_DESTRUCTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches an orb of force energy."
+LANG_CHINESE        "等级 1 - 绝地发射一个原力能量球。"
+
+REFERENCE           FORCE_DESTRUCTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi launches a more powerful orb of force energy."
+LANG_CHINESE        "等级 2 - 绝地发射一个强大的原力能量球。"
+
+REFERENCE           FORCE_DESTRUCTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi launches an extremely dangerous orb of force energy."
+LANG_CHINESE        "等级 3 - 绝地发射一个极其危险的原力能量球。"
+
+REFERENCE           GRASP
+LANG_ENGLISH	    "Grasp:"
+LANG_CHINESE        "抓取"
+
+REFERENCE	    GRASP2
+LANG_ENGLISH	    "Grasp"
+LANG_CHINESE        "抓取"
+
+REFERENCE	    INGAME_GRASP2
+LANG_ENGLISH	    "Grasp"
+LANG_CHINESE        "抓取"
+
+REFERENCE           FORCE_GRASP_DESC
+LANG_ENGLISH        "Force Grasp\nDuration: Instantaneous\nArea Of Effect: Living persons or objects\nEffect: Allows Jedi to hold an enemy or an object with the Force.\n\n"
+LANG_CHINESE        "原力抓取\n持续时间：即时\n效果范围：活人或物体\n效果：能让绝地使用原力牵制敌人或物体。\n\n"
+
+REFERENCE           FORCE_GRASP_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Enemy is startled and knocked off balance for 5 seconds."
+LANG_CHINESE        "等级 1 - 敌人受到惊吓并失去平衡5秒。"
+
+REFERENCE           FORCE_GRASP_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi lifts their enemy straight off the ground, rendering them defenseless."
+LANG_CHINESE        "等级 2 - 绝地将敌人直接抬离地面，使他们毫无防御能力。"
+
+REFERENCE           FORCE_GRASP_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can freely lift up their enemy and move them around."
+LANG_CHINESE        "等级 3 - 绝地武士可以自由地举起敌人并移动他们。"
+
+REFERENCE	    REPULSE
+LANG_ENGLISH	    "Repulse:"
+LANG_CHINESE        "击退"
+
+REFERENCE	    REPULSE2
+LANG_ENGLISH	    "Repulse"
+LANG_CHINESE        "击退"
+
+REFERENCE	    INGAME_REPULSE2
+LANG_ENGLISH	    "Repulse"
+LANG_CHINESE        "击退"
+
+REFERENCE	    USES_REPULSE_FORCE_ABILITY
+LANG_ENGLISH	    "Uses Force Repulse ability."
+LANG_CHINESE        "使用原力击退能力"
+
+REFERENCE	    FORCE_REPULSE_DESC
+LANG_ENGLISH	    "Force Repulse\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Allows Jedi to push and damage nearby enemies\n\n"
+LANG_CHINESE        "原力击退\n持续时间：即时\n效果范围：绝地周围\n效果：能让绝地推动并伤害附近的敌人\n\n"
+
+REFERENCE           FORCE_REPULSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi pushes enemies within a small radius. If power is charged, enemies take damage depending on charge time."
+LANG_CHINESE        "等级 1 - 绝地将敌人推进一个小半径范围内。如果注能，敌人会根据注能时间受到伤害。"
+
+REFERENCE           FORCE_REPULSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi pushes enemies within a medium radius. If power is charged, enemies take damage depending on charge time."
+LANG_CHINESE        "等级 2 - 绝地将敌人推进中等半径范围内。如果注能，敌人会根据注能时间受到伤害。"
+
+REFERENCE           FORCE_REPULSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi pushes enemies within a large radius. If power is charged, enemies take damage depending on charge time."
+LANG_CHINESE        "等级 3 - 地将敌人推进大半径范围内。如果注能，敌人会根据注能时间受到伤害。"
+
+REFERENCE	    INGAME_LIGHTNING_STRIKE2
+LANG_ENGLISH	    "Electric Judgement"
+LANG_CHINESE        "审判"
+
+REFERENCE	    STRIKE2
+LANG_ENGLISH	    "Electric Judgement"
+LANG_CHINESE        "审判"
+
+REFERENCE           STRIKE
+LANG_ENGLISH	    "Electric Judgement:"
+LANG_CHINESE        "审判"
+
+REFERENCE           LIGHTNING_STRIKE2
+LANG_ENGLISH        "Electric Judgement"
+LANG_CHINESE        "审判"
+
+REFERENCE           LIGHTNING_STRIKE
+LANG_ENGLISH        "Electric Judgement: "
+LANG_CHINESE        "审判"
+
+REFERENCE           FORCE_LIGHTNINGSTRIKE_DESC
+LANG_ENGLISH        "Force Electric Judgement\nDuration: Instant\nArea Of Effect: Entire Environment\nEffect: Electric Judgment is a Force technique used by the Jedi to spray yellow electric bolts of variable intensity from the hands and fingers.\n\n"
+LANG_CHINESE        "原力审判\n持续时间：即时\n效果范围：整个环境\n效果：是绝地使用的一种力量技能，从手和手指上喷射不同强度的黄色闪电。"
+
+REFERENCE           FORCE_LIGHTNING_STRIKE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi fires a burst of lightning able to travel a significant distance, causing very little damage."
+LANG_CHINESE        "等级 1 - 绝地发射一道闪电，能够传播很长的距离，造成很小的伤害。"
+
+REFERENCE           FORCE_LIGHTNING_STRIKE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi fires a burst of lightning able to travel a significant distance, causing minor damage and requires less concentration."
+LANG_CHINESE        "等级 2 - 绝地发射一道闪电，能够传播很长的距离，造成轻微的伤害，并需要较少的注意力。"
+
+REFERENCE           FORCE_LIGHTNING_STRIKE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi fires a burst of lightning able to travel a significant distance, causing moderate damage and requiring much less concentration."
+LANG_CHINESE        "等级 3 - 绝地武士发射一道闪电，能够传播很长的距离，造成中等程度的伤害，并需要更少的注意力。"
+
+REFERENCE	    FEAR
+LANG_ENGLISH	    "Fear:"
+LANG_CHINESE        "恐惧"
+
+REFERENCE	    FEAR2
+LANG_ENGLISH	    "Fear"
+LANG_CHINESE        "恐惧"
+
+REFERENCE	    INGAME_FEAR2
+LANG_ENGLISH	    "Fear"
+LANG_CHINESE        "恐惧"
+
+REFERENCE           FORCE_FEAR_DESC
+LANG_ENGLISH        "Force Fear\nDuration: Indefinite\nArea Of Effect: Living persons only\nEffect: Jedi infects the victim's mind with the Dark Side of the Force, causing them to lash out in fear against allies and enemies alike.\n\n"
+LANG_CHINESE        "原力恐惧\n持续时间：无限\n效果范围：仅限活人\n效果：绝地用原力的黑暗面感染受害者的心灵，使他们在恐惧中猛烈抨击盟友和敌人。\n\n"
+
+REFERENCE           FORCE_FEAR_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Victim permanently lashes out against allies and enemies alike. Common enemies have a 50% chance to be affected, while Force Sensitives are almost impossible to affect."
+LANG_CHINESE        "等级 1 - 受害者永远猛烈攻击盟友和敌人。普通敌人有50%的几率受到影响，而原力敏感者几乎不可能受到影响。"
+
+REFERENCE           FORCE_FEAR_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Victim permanently lashes out against allies and enemies alike. Common enemies will be affected, while most force sensitives have a 5% chance of being affected. More powerful Jedi and Sith have a 1% chance of being affected."
+LANG_CHINESE        "等级 2 - 受害者永远猛烈攻击盟友和敌人。普通敌人会受到影响，而大多数对原力敏感者有5%的几率受到影响。更强大的绝地和西斯有1%的几率受到影响。"
+
+REFERENCE           FORCE_FEAR_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Victim permanently lashes out against allies and enemies alike. Common enemies will be affected, while most force sensitives have a 50% chance of being affected. More powerful Jedi and Sith have a 2% chance of being affected."
+LANG_CHINESE        "等级 3 - 受害者永远猛烈攻击盟友和敌人。普通敌人会受到影响，而大多数对原力敏感者有50%的几率受到影响。更强大的绝地和西斯有2%的几率受到影响。"
+
+REFERENCE	    DEADLYSIGHT
+LANG_ENGLISH	    "Deadly Sight:"
+LANG_CHINESE        "凝视"
+
+REFERENCE	    DEADLYSIGHT2
+LANG_ENGLISH	    "Deadly Sight"
+LANG_CHINESE        "凝视"
+
+REFERENCE	    FORCE_DEADLYSIGHT_DESC
+LANG_ENGLISH	    "Force Deadly Sight\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Force Deadly Sight is a power of the dark side of the Force, focusing the user's hatred into deadly energy.\n\n"
+LANG_CHINESE        "原力凝视\n持续时间：即时\n效果范围：绝地周围\n效果：是原力黑暗面的力量，将使用者的仇恨集中到致命的能量中。\n\n"
+
+REFERENCE           FORCE_DEADLYSIGHT_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - By channeling this ability, a Force-user harnessed fury and hatred and then projected them through an intense glare onto the victim.The Deadly Sight will blister the skin and vaporize extremities."
+LANG_CHINESE        "等级 1 - 通过引导这种能力，原力使用者利用愤怒和仇恨，然后通过强烈的眩光将其投射到受害者身上。致命的凝视会使皮肤起泡并蒸发四肢。"
+
+REFERENCE           FORCE_DEADLYSIGHT_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - By channeling this ability, a Force-user harnessed fury and hatred and then projected them through an intense glare onto the victim.The Deadly Sight will blister the skin and vaporize extremities."
+LANG_CHINESE        "等级 2 - 通过引导这种能力，原力使用者利用愤怒和仇恨，然后通过强烈的眩光将其投射到受害者身上。致命的凝视会使皮肤起泡并蒸发四肢。"
+
+REFERENCE           FORCE_DEADLYSIGHT_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - By channeling this ability, a Force-user harnessed fury and hatred and then projected them through an intense glare onto the victim.The Deadly Sight will blister the skin and vaporize extremities."
+LANG_CHINESE        "等级 3 - 通过引导这种能力，原力使用者利用愤怒和仇恨，然后通过强烈的眩光将其投射到受害者身上。致命的凝视会使皮肤起泡并蒸发四肢。"
+
+REFERENCE           BLAST
+LANG_ENGLISH        "Blast: "
+LANG_CHINESE        "爆炸"
+
+REFERENCE           BLAST2
+LANG_ENGLISH        "Blast"
+LANG_CHINESE        "爆炸"
+
+REFERENCE           FORCE_BLAST_DESC
+LANG_ENGLISH        "Force Blast\nDuration: Instant\nArea Of Effect: Entire Environment\nEffect: Jedi unleashes a concentrated telekinetic burst against their enemies, causing damage.\n\n"
+LANG_CHINESE        "原力爆炸\n持续时间：即时\n效果范围：整个环境\n效果：绝地对敌人发动集中的远程能量爆发，并造成伤害。\n\n"
+
+REFERENCE           FORCE_BLAST_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi detonates a concentrated burst of force energy, causing little damage."
+LANG_CHINESE        "等级 1 - 绝地引爆集中爆发的原力能量，造成的伤害很小。"
+
+REFERENCE           FORCE_BLAST_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi detonates a concentrated burst of force energy, causing minor damage."
+LANG_CHINESE        "等级 2 - 绝地武士引爆集中爆发的力量能量，造成轻微伤害。"
+
+REFERENCE           FORCE_BLAST_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi detonates a concentrated burst of force energy, causing moderate damage."
+LANG_CHINESE        "等级 3 - 绝地武士引爆集中爆发的力量能量，造成中等伤害。"
+
+REFERENCE	    INSANITY
+LANG_ENGLISH	    "Insanity:"
+LANG_CHINESE        "失常"
+
+REFERENCE	    INSANITY2
+LANG_ENGLISH	    "Insanity"
+LANG_CHINESE        "失常"
+
+REFERENCE	    FORCE_INSANITY_DESC
+LANG_ENGLISH	    "Force Insanity\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Allows Jedi to wrack mind of an enemy\n\n"
+LANG_CHINESE        "原力失常\n持续时间：变量\n效果范围：仅限活人\n效果：能让绝地武士扰乱敌人的思想。\n\n"
+
+REFERENCE           FORCE_INSANITY_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi wracks the mind of a single enemy for 5 seconds."
+LANG_CHINESE        "等级 1 - 绝地武士在5秒内摧毁一个敌人的思想。"
+
+REFERENCE           FORCE_INSANITY_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi wracks the mind of a single enemy for 10 seconds."
+LANG_CHINESE        "等级 2 - 绝地武士在10秒内摧毁一个敌人的思想。"
+
+REFERENCE           FORCE_INSANITY_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi wracks the mind of a single enemy for 15 seconds. The enemy then dies."
+LANG_CHINESE        "等级 3 - 绝地武士在15秒内摧毁一个敌人的思想，然后敌人就死了。"
+
+REFERENCE	    BLINDING
+LANG_ENGLISH	    "Blinding:"
+LANG_CHINESE        "致盲"
+
+REFERENCE	    BLINDING2
+LANG_ENGLISH	    "Blinding"
+LANG_CHINESE        "致盲"
+
+REFERENCE	    FORCE_BLINDING_DESC
+LANG_ENGLISH	    "Force Blinding\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Force blinding was a telekinetic light side Force power. Upon use of this technique, a blinding flash of energy emanated from a user's hand, manifesting as a flash of light that overloaded a target's vision, causing temporary blindness.\n\n"
+LANG_CHINESE        "原力致盲\n持续时间：变量\n效果范围：仅限活人\n效果：是一种远程能量轻侧原力力量。使用这项技术后，使用者的手会发出一道耀眼的闪光，表现为一道闪光，使目标的视力过载，导致暂时失明。\n\n"
+
+REFERENCE           FORCE_BLINDING_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - A powerful tool of the light side, a Jedi could obfuscate an opponent's sight, making it difficult for the adversary to spot and attack the Jedi or anyone else."
+LANG_CHINESE        "等级 1 - 一个光明面的强大力量，绝地可以用来模糊对手的视线，使对手很难发现并攻击绝地武士或其他任何人。"
+
+REFERENCE           FORCE_BLINDING_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - A powerful tool of the light side, a Jedi could obfuscate an opponent's sight, making it difficult for the adversary to spot and attack the Jedi or anyone else."
+LANG_CHINESE        "等级 2 - 一个光明面的强大力量，绝地可以用来模糊对手的视线，使对手很难发现并攻击绝地武士或其他任何人。"
+
+REFERENCE           FORCE_BLINDING_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - A powerful tool of the light side, a Jedi could obfuscate an opponent's sight, making it difficult for the adversary to spot and attack the Jedi or anyone else."
+LANG_CHINESE        "等级 3 - 一个光明面的强大力量，绝地可以用来模糊对手的视线，使对手很难发现并攻击绝地武士或其他任何人。"
+
+REFERENCE	    PROJECTION
+LANG_ENGLISH	    "Projection:"
+LANG_CHINESE        "投影"
+
+REFERENCE	    PROJECTION2
+LANG_ENGLISH	    "Projection"
+LANG_CHINESE        "投影"
+
+REFERENCE	    FORCE_PROJECTION_DESC
+LANG_ENGLISH	    "Force Projection\nDuration: Variable\nArea of Effect: Jedi only\nEffect: Force projection, also known as Similfuturus, was a Fallanassi Force technique recorded in the sacred Jedi texts and utilized by Jedi Master Luke Skywalker during the Battle of Crait.\n\n"
+LANG_CHINESE        "原力投影\n持续时间：变量\n效果范围：仅限绝地\n效果：也被称为Similfuturus，是一种法拉纳西力量技能，记录在神圣的绝地书籍中，绝地大师卢克 天行者在克雷特战役中使用。\n\n"
+
+REFERENCE           FORCE_PROJECTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - The technique allows a Jedi to create an illusory doppelganger of themselves that could be transmitted through the Force across vast distances."
+LANG_CHINESE        "等级 1 - 这项技术可以让绝地创造出一个虚幻的替身，可以通过原力传播到固定的距离。"
+
+REFERENCE           FORCE_PROJECTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - The technique allows a Jedi to create an illusory doppelganger of themselves that could be transmitted through the Force across vast distances."
+LANG_CHINESE        "等级 2 - 这项技术可以让绝地创造出一个虚幻的替身，可以通过原力传播到固定的距离。"
+
+REFERENCE           FORCE_PROJECTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - The technique allows a Jedi to create an illusory doppelganger of themselves that could be transmitted through the Force across vast distances."
+LANG_CHINESE        "等级 3 - 这项技术可以让绝地创造出一个虚幻的替身，可以通过原力传播到固定的距离。"
+
+ENDMARKER
+
+

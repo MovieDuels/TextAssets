@@ -1,0 +1,256 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           11LAC001
+LANG_ENGLISH        "All right, say good-bye to this wretched hive of scum and villainy, and hello to Cloud City."
+LANG_CHINESE        "好了，向这个龙蛇杂处的鬼地方说再见吧，我们要去云城啰。"
+
+REFERENCE           11KJO001
+LANG_ENGLISH        "Need any help?"
+LANG_CHINESE        "需要帮助吗？"
+
+REFERENCE           11LAC002
+LANG_ENGLISH        "Just sit back and get some rest.  I'll work out a plan to get Desann and his Remnant friends out of my city."
+LANG_CHINESE        "你坐着好好休息就是了。我会想办法把迪桑和他的帝国朋友赶出我的城市的。"
+
+REFERENCE           11KJO002
+LANG_ENGLISH        "How's it look?"
+LANG_CHINESE        "情况怎样？"
+
+REFERENCE           11LAC006
+LANG_ENGLISH        "Hold on, I'm looking."
+LANG_CHINESE        "等一下，我正在观察。"
+
+REFERENCE           11LAC012
+LANG_ENGLISH        "Hey buddy! That gun's got me pinned down. Think you can take care of it?"
+LANG_CHINESE        "嘿，伙伴！那个炮塔把我困住了。你有办法解决它吗？"
+
+REFERENCE           11KJO004
+LANG_ENGLISH        "I'll see what I can do."
+LANG_CHINESE        "我来想办法解决"
+
+REFERENCE           11LAC013
+LANG_ENGLISH        "Thanks Kyle! I should be ok now"
+LANG_CHINESE        "谢了，凯尔！我没事了"
+
+REFERENCE           11KJO005
+LANG_ENGLISH        "Any time."
+LANG_CHINESE        "不客氣。"
+
+REFERENCE           11LAC018
+LANG_ENGLISH        "Kyle, we've got a problem."
+LANG_CHINESE        "凯尔，我们遇到了个问题。"
+
+REFERENCE           11KJO007
+LANG_ENGLISH        "So, what's new?"
+LANG_CHINESE        "又怎么了？"
+
+REFERENCE           11LAC019
+LANG_ENGLISH        "There's no fuel coming through the lines. They must have the valve closed at the main tanks. See if you can get out there and open the right valve. They use a code system so make sure you get the right one. And you'll still need to find the controls for the roof sections. They have to be around here somewhere. I'll get everything ready to go here. Good luck!"
+LANG_CHINESE        "料没有从输油管里面出来。他们一定把阀门设在主油槽附近。你到那边去把正确的阀门打开。他们有一套编码系统确保你打开的是正确的阀门。你也得找出屋顶的控制开关，应该就在这附近而已。我会在这里准备好所有起飞的程序。祝你好运！"
+
+REFERENCE           11LAC020
+LANG_ENGLISH        "There's no fuel coming in. They must have closed it at the main tanks. See if you can find the right valve. They use a code system so make sure you get the right one."
+LANG_CHINESE        "燃料没有出来。他们一定在主油槽那里把阀门关了。你得去找到正确的阀门。他们有一套编码系统确保你打开的是正确的阀门。"
+
+REFERENCE           11LAC021
+LANG_ENGLISH        "You'll still need to find the controls for the roof sections. They have to be around here somewhere."
+LANG_CHINESE        "你还必须找出屋顶的控制开关，应该就在这附近而已。"
+
+REFERENCE           11LAC022
+LANG_ENGLISH        "I'll get everything ready to go here. Good luck!"
+LANG_CHINESE        "我会在这里准备好所有起飞程序。祝你好运！"
+
+REFERENCE           11LAC032
+LANG_ENGLISH        "We're out of here!"
+LANG_CHINESE        "我们要离开了！"
+
+REFERENCE           11KJO008
+LANG_ENGLISH        "That doesn't sound good."
+LANG_CHINESE        "听起来状况不太好。"
+
+REFERENCE           11LAC033
+LANG_ENGLISH        "I don't believe it! It's not my fault!"
+LANG_CHINESE        "我不相信！这不是我的错！"
+
+REFERENCE           11KJO009
+LANG_ENGLISH        "Uh-oh. We've got company."
+LANG_CHINESE        "噢哦。我们有同伴了。"
+
+REFERENCE           11KJO010
+LANG_ENGLISH        "Uh-oh"
+LANG_CHINESE        "啊哦"
+
+REFERENCE           11LAC003
+LANG_ENGLISH        "We gotta get to the ship."
+LANG_CHINESE        "我们必须回到船上。"
+
+REFERENCE           11LAC004
+LANG_ENGLISH        "I think it's this way."
+LANG_CHINESE        "我想是这条路。"
+
+REFERENCE           11LAC005
+LANG_ENGLISH        "Ahhh. There's my baby. Hope they took good care of her. Give me a minute to check things out."
+LANG_CHINESE        "啊。那就是我的宝贝。希望他们有好好照顾她。给我一分钟检查检查。"
+
+REFERENCE           11LAC007
+LANG_ENGLISH        "Well, it doesn't look like we can just fly her out of here. She's held in place by magnetic moorings and they've got one tough tractor beam online. I can deal with those here, but that doesn't solve the bigger problem. The entrance to the pad is closed and I don't think they're going to just open it for us if we ask politely. You'll have to find the flight control center and open the door to the starpad.  Better get going, I would guess we can expect some company pretty soon. Good luck, Kyle! "
+LANG_CHINESE        "嗯，看起来我们没有办法直接驾驶她离开这里。她被磁场固定住了，而且他们还拥有非常强力的牵引光束。我可以在这里解决这些问题，可是我们还有一个更大的问题。通往起降平台的门被关起来了，而且我想就算我们很礼貌的请求他们，他们也不会理我们的。所以你必须找到起降控制中心并且打开通往起降平台的门。你最好开始行动了，我猜很快就会有人来找我们的。祝你好运，凯尔！"
+
+REFERENCE           11LAC008
+LANG_ENGLISH        "Well, the bad news is that she's locked down.  The good news is that I can disable the magnetic moorings and a tractor beam from here.  The OTHER bad news is the pad roof; it's closed and I don't think they're going to just open it for us if we ask politely. You'll have to find the flight control center and get access into the starpad where the manual overrides are. Better get going, Kyle! "
+LANG_CHINESE        "嗯，坏消息是船被锁住了。好消息是我可以在这里关掉磁场和牵引光束。另外一个更坏的消息是屋顶闸门被关起来了，而且我不认为很礼貌的拜托他们，他们就会开门。你必须找到起降控制中心然后到起降平台去，那里有闸门的手动开关。你最好开始行动了，凯尔！"
+
+REFERENCE           11LAC009
+LANG_ENGLISH        "What are you waiting for?"
+LANG_CHINESE        "你在等什么？"
+
+REFERENCE           11LAC010
+LANG_ENGLISH        "Better get moving, Kyle."
+LANG_CHINESE        "你最好开始行动了，凯尔！"
+
+REFERENCE           11LAC011
+LANG_ENGLISH        "Kyle. I cut the power to the moorings and I think they'll be in for a surprise if they try to use that tractor beam. But there are some safeties I need to remove manually. I'll let you know when I get there."
+LANG_CHINESE        "凯尔。我切断磁力锁的能源了，而且他们启动牵引光束的话会获得一个意外的惊喜。可是还有一些安全装置我必须手动解除。我到了那里以后会再和你联络。"
+
+REFERENCE           11KJO003
+LANG_ENGLISH        "Good luck."
+LANG_CHINESE        "祝你好运。"
+
+REFERENCE           11LAC014
+LANG_ENGLISH        "Good work, Kyle. Looks like we have access to the starpad now. I'll start prepping the ship. Meet you inside."
+LANG_CHINESE        "做的好，凯尔。看起来我们可以前往起降平台了。我会把船准备好。船上见。"
+
+REFERENCE           11LAC015
+LANG_ENGLISH        "Hey buddy. Glad you made it. Unfortunately they didn't bother to refuel her. This should just take a few minutes. Then we're out of here."
+LANG_CHINESE        "嘿，伙伴。很高兴你办到了。不幸的是他们并没有帮我的船加燃料。这应该只要几分钟就好了。然后我们就可以离开这里了。"
+
+REFERENCE           11KJO006
+LANG_ENGLISH        "We've got company!"
+LANG_CHINESE        "我们有同伴了！"
+
+REFERENCE           11LAC016
+LANG_ENGLISH        "Get to the ship!"
+LANG_CHINESE        "快上飞船！"
+
+REFERENCE           11LAC017
+LANG_ENGLISH        "Hold them off while I try to start her up."
+LANG_CHINESE        "抵挡他们一下，我来试着启动这艘船。"
+
+REFERENCE           11LAC023
+LANG_ENGLISH        "Ok, the fuel's coming in! We just need that roof open yet."
+LANG_CHINESE        "好了，燃料开始加进来了！只要再打开屋顶就好了。"
+
+REFERENCE           11LAC024
+LANG_ENGLISH        "Ok, the fuel's coming in! Now we just need to get that roof open."
+LANG_CHINESE        "好了，燃料开始加进来了！现在我们只需要再把屋顶打开就好了。"
+
+REFERENCE           11LAC025
+LANG_ENGLISH        "That's one. You'll need to open the other section."
+LANG_CHINESE        "一边打开了。你还需要再打开另一边。"
+
+REFERENCE           11LAC026
+LANG_ENGLISH        "That's one. You'll need to open the other section as well."
+LANG_CHINESE        "一边打开了。你还需要再打开另一边。"
+
+REFERENCE           11LAC027
+LANG_ENGLISH        "Nice work! The roof is open!"
+LANG_CHINESE        "干得好！屋顶打开了！"
+
+REFERENCE           11LAC028
+LANG_ENGLISH        "We still need that fuel!"
+LANG_CHINESE        "我们还需要燃料！"
+
+REFERENCE           11LAC029
+LANG_ENGLISH        "That roof isn't going to open itself."
+LANG_CHINESE        "屋顶不会自己打开的。"
+
+REFERENCE           11LAC030
+LANG_ENGLISH        "Good work Kyle! We're set to go. Get back to the ship and lets get out of here!"
+LANG_CHINESE        "做的好，凯尔！我们可以离开了。回到船上，我们离开这里吧！"
+
+REFERENCE           11REE001
+LANG_ENGLISH        "Going somewhere, gentlemen?"
+LANG_CHINESE        "要去哪里吗，先生们？"
+
+REFERENCE           11LAC035
+LANG_ENGLISH        "Get on the gun and hold them off. I'll have this fixed in a jiffy."
+LANG_CHINESE        "你去炮塔那里拖延他们。我马上就把这个修好。"
+
+REFERENCE           11LAC036
+LANG_ENGLISH        "What are you doing? They're going to blow us to pieces!"
+LANG_CHINESE        "你在做什么？他们就要把我们炸成碎片了！"
+
+REFERENCE           11LAC037
+LANG_ENGLISH        "I never thought you'd just give up like this."
+LANG_CHINESE        "我从来都没想过你会就这样放弃。"
+
+REFERENCE           11LAC038
+LANG_ENGLISH        "Ok. I hope this works."
+LANG_CHINESE        "好吧。我希望这样有用。"
+
+REFERENCE           11LAC039
+LANG_ENGLISH        "Ok. This better work."
+LANG_CHINESE        "好吧。这最好有用。"
+
+REFERENCE           11LAC040
+LANG_ENGLISH        "Yeeehaa!"
+LANG_CHINESE        "咿哈！"
+
+REFERENCE           11LAC034
+LANG_ENGLISH        "You'd better get on the gun and hold them off, I'll have this fixed in a jiffy."
+LANG_CHINESE        "你最好到炮塔那里去抵挡他们，我马上就把这个修好。"
+
+REFERENCE           12LAC001
+LANG_ENGLISH        "Kyle?  Wake up."
+LANG_CHINESE        "凯尔？醒一醒。"
+
+REFERENCE           12KJO001
+LANG_ENGLISH        "Urf...no...Jan!"
+LANG_CHINESE        "噢....不....简！"
+
+REFERENCE           12LAC002
+LANG_ENGLISH        "Kyle!  Are you okay?"
+LANG_CHINESE        "凯尔！你还好吗？"
+
+REFERENCE           12KJO002
+LANG_ENGLISH        "I'll be fine."
+LANG_CHINESE        "我没事。"
+
+REFERENCE           12LAC003
+LANG_ENGLISH        "Good.  While you were sleeping I hailed the New Republic base on Sullust.  They haven't shown much interest in our little smuggling problem in the past, but now that they know Remnant forces are behind it, they're eager to pitch in.  A strike team should be arriving on Bespin within a few hours-"
+LANG_CHINESE        "很好。你在睡觉的时候我联络了苏禄斯特的新共和国基地。他们以前对我们碰上的走私问题没有什么兴趣，但是他们现在知道帝国是幕后的操纵者之后，非常关切这个问题。一组攻击小队应该在几个小时内就会到达贝斯平--"
+
+REFERENCE           12KJO003
+LANG_ENGLISH        "No!"
+LANG_CHINESE        "不！"
+
+REFERENCE           12LAC004
+LANG_ENGLISH        "I thought you'd be happy to-"
+LANG_CHINESE        "我以为你会很高兴知道--"
+
+REFERENCE           12KJO004
+LANG_ENGLISH        "They'll tip off Desann!"
+LANG_CHINESE        "他们会逼的迪桑逃走的！"
+
+REFERENCE           12LAC005
+LANG_ENGLISH        "Then we'll catch him later.  Getting Desann isn't as important as clearing the city-"
+LANG_CHINESE        "那我们以后再抓他就好了。抓到迪桑比不上拯救我们的城市重要--"
+
+REFERENCE           12KJO005
+LANG_ENGLISH        "Jan's dead, Lando.  Desann and his minion killed her."
+LANG_CHINESE        "简死了，兰多。迪桑和他的爪牙杀了她。"
+
+REFERENCE           12LAC006
+LANG_ENGLISH        "...Grife, I'm sorry, Kyle...  Okay,....okay... here's what we'll do.  I'll drop you off on the lower levels.  They've probably been overrun by Remnant troops, so watch out.  Chances are that Desann's operating from one of the loading bays above level ten, but you'll never get in without the proper access codes.  Try to find Carbonite Chamber #17.  I've hidden an old R5 unit there with codes to every loading bay in the city."
+LANG_CHINESE        "...天啊，我很抱歉，凯尔...好吧，...好吧...那我们这么办吧。我会在城市的下层放你下来。那边大概到处都是帝国的士兵，所以小心一点。迪桑很有可能在第十层以上的某一个停机坪指挥他们的行动，可是没有正确的通行密码，你是到不了那里的。试试看第17号碳化室。我在那里藏了一个记录着这个城市所有密码的旧R5机器人。"
+
+REFERENCE           12KJO006
+LANG_ENGLISH        "You always did plan for the worst..."
+LANG_CHINESE        "你真会为最坏的情况做准备..."
+
+REFERENCE           12LAC007
+LANG_ENGLISH        "Ever since that run-in with Vader.  Anyway, I'll head up top and gather some old friends from the security force.  We'll work our way down towards your position. If we're lucky, we can trap Desann before the New Republic arrives."
+LANG_CHINESE        "自从上次和维达打过交道之后养成的习惯。不管如何，我会回到上层召集一些保安部队的旧朋友。我们朝向你的位置移动。如果幸运的话，我们可以在新共和国部队到达之前抓到迪桑。"
+
+ENDMARKER

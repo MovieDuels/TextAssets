@@ -1,0 +1,224 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           BDG1
+LANG_ENGLISH        "Check it out, Corporal. We'll cover you."
+LANG_CHINESE        "查看一下,下士,我们会掩护你的"
+
+REFERENCE           BD1
+LANG_ENGLISH        "Roger, roger."
+LANG_CHINESE        "收到，收到"
+
+REFERENCE           BDG2
+LANG_ENGLISH        "Uh-oh. Blast them."
+LANG_CHINESE        "啊偶，干掉他们"
+
+REFERENCE           DRO1
+LANG_ENGLISH        "Master, Destroyers!"
+LANG_CHINESE        "师父!  是毁灭者机器人!"
+
+REFERENCE           DRO3
+LANG_ENGLISH        "Obi-Wan: They have shield generators!\nQui-Gon: It's a stand-off. Let's go!"
+LANG_CHINESE        "欧比—旺：他们有防护罩\n奎刚：这是个平局，我们走"
+
+REFERENCE           GUN1
+LANG_ENGLISH        "What?! What did you say?"
+LANG_CHINESE        "什么?你说什么?"
+
+REFERENCE           GUN2
+LANG_ENGLISH        "Distract them. I will contact Lord Sidious."
+LANG_CHINESE        "稳住他们，我来联系西迪厄斯大人"
+
+REFERENCE           GUN3
+LANG_ENGLISH        "My Lord, is that legal?"
+LANG_CHINESE        "我的大人，那样做合法吗?"
+
+REFERENCE           GUN4
+LANG_ENGLISH        "And the Jedi?"
+LANG_CHINESE        "绝地武士怎么办?"
+
+REFERENCE           GUN5
+LANG_ENGLISH        "Yes. Yes, my Lord. Uh, as you wish."
+LANG_CHINESE        "是，大人  一定照办"
+
+REFERENCE           GUN6
+LANG_ENGLISH        "They must be dead, by now. Destroy what's left of them."
+LANG_CHINESE        "他们应该已经死了。若未死的话，干掉他们"
+
+REFERENCE           GUN7
+LANG_ENGLISH        "Close the blast doors!"
+LANG_CHINESE        "关闭闸门"
+
+REFERENCE           GUN8
+LANG_ENGLISH        "This is impossible!"
+LANG_CHINESE        "这不可能!"
+
+REFERENCE           NEI1
+LANG_ENGLISH        "Sir!"
+LANG_CHINESE        "长官！"
+
+REFERENCE           NEI1B
+LANG_ENGLISH        "They've gone up the ventilation shaft."
+LANG_CHINESE        "他们进入了通风气道"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "How do you think this Trade Viceroy will deal with the Chancellor's demands?"
+LANG_CHINESE        "贸易联盟总督会怎样回应议长的要求呢?"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Is it in their nature to make us wait this long?"
+LANG_CHINESE        "让我们等这么久是他们的习惯吗?"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Master, Destroyers!"
+LANG_CHINESE        "师父!  是毁灭者机器人!"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "It's an invasion army."
+LANG_CHINESE        "这是一支入侵部队"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "You were right about one thing, Master."
+LANG_CHINESE        "有一件事你说对了，师父"
+
+REFERENCE           OBI5B
+LANG_ENGLISH        "The negotiations were short."
+LANG_CHINESE        "这次谈判的确结束得很快"
+
+REFERENCE           PRO1
+LANG_ENGLISH        "The ambassadors are Jedi Knights, I believe."
+LANG_CHINESE        "我看这两位特使一定是绝地武士"
+
+REFERENCE           PRO2
+LANG_ENGLISH        "Oh! Sorry!"
+LANG_CHINESE        "抱歉"
+
+REFERENCE           PRO3
+LANG_ENGLISH        "Oh! Excuse me."
+LANG_CHINESE        "噢，对不起"
+
+REFERENCE           QUI1
+LANG_ENGLISH        "These Federation types are cowards. The negotiations will be short."
+LANG_CHINESE        "贸易联盟的人都是懦夫，谈判会很快结束的"
+
+REFERENCE           QUI2
+LANG_ENGLISH        "No. I sense an unusual amount of fear, for something as trivial as this Trade dispute."
+LANG_CHINESE        "不 我察觉到一种不同寻常的恐惧...对解决贸易纠纷的谈判不太相干"
+
+REFERENCE           QUI3
+LANG_ENGLISH        "Dioxis."
+LANG_CHINESE        "是毒气"
+
+REFERENCE           QUI4
+LANG_ENGLISH        "I sense an unusual amount of fear."
+LANG_CHINESE        "我察觉到一种不同寻常的恐惧"
+
+REFERENCE           QUI5
+LANG_ENGLISH        "Battledroids?"
+LANG_CHINESE        "战斗机器人"
+
+REFERENCE           QUI6
+LANG_ENGLISH        "This is an odd play for the Trade Federation."
+LANG_CHINESE        "这是贸易联盟的诡计"
+
+REFERENCE           QUI6B
+LANG_ENGLISH        "We've got to warn the Naboo and contact Chancellor Valorum."
+LANG_CHINESE        "我们得警告纳布星球并联系瓦洛伦议长"
+
+REFERENCE           QUI6C
+LANG_ENGLISH        "Let's split up. Stow aboard separate ships and meet down on the planet."
+LANG_CHINESE        "我们分头行事，藏在不同的登陆舰里  着陆之后再会合"
+
+REFERENCE           QUI_EXTRA1
+LANG_ENGLISH        "The room is filling with poison gas!"
+LANG_CHINESE        "房间里充满了毒气!"
+
+REFERENCE           QUI_EXTRA2
+LANG_ENGLISH        "It appears as if the Trade Federation is preparing to attack Naboo."
+LANG_CHINESE        "看起来贸易联盟正在准备进攻纳布."
+
+REFERENCE           QUI_EXTRA3
+LANG_ENGLISH        "There should be a control panel nearby that will disable this force field."
+LANG_CHINESE        "附近应该有一个控制面板,可以关闭这个力场."
+
+REFERENCE           QUI_EXTRA4
+LANG_ENGLISH        "The droids have locked these blast doors. We have to find another way around."
+LANG_CHINESE        "这些机器人锁住了这些防爆门.我们必须找到另一条路绕过去."
+
+REFERENCE           QUI_EXTRA5
+LANG_ENGLISH        "Obi-Wan. Watch those snipers!"
+LANG_CHINESE        "欧比-旺,小心那些狙击手!"
+
+REFERENCE           QUI_EXTRA6
+LANG_ENGLISH        "The door is open. Let's go!"
+LANG_CHINESE        "门开了,快走!"
+
+REFERENCE           RUN1
+LANG_ENGLISH        "I knew it. They're here to force a settlement."
+LANG_CHINESE        "我就知道，他们来迫使我们答应条件"
+
+REFERENCE           RUN2
+LANG_ENGLISH        "Are you brain-dead? I'm not going in there, with two Jedi."
+LANG_CHINESE        "你疯了吗?我才不去见那两个绝地武士"
+
+REFERENCE           RUN2B
+LANG_ENGLISH        "Send a droid."
+LANG_CHINESE        "派个机器人去应付应付吧"
+
+REFERENCE           RUN3
+LANG_ENGLISH        "This scheme of yours has failed, Lord Sidious."
+LANG_CHINESE        "你的计划失败了  西迪厄斯大人"
+
+REFERENCE           RUN3B
+LANG_ENGLISH        "The blockade is finished. We dare not go against the Jedi."
+LANG_CHINESE        "封锁结束了  我们不敢对抗绝地武士"
+
+REFERENCE           RUN4
+LANG_ENGLISH        "They are still coming through!"
+LANG_CHINESE        "我看他们仍可穿过"
+
+REFERENCE           RUN5
+LANG_ENGLISH        "Where are those droidekas?"
+LANG_CHINESE        "毁灭机器人怎么还不来?"
+
+REFERENCE           RUN6
+LANG_ENGLISH        "They're no match for droidekas."
+LANG_CHINESE        "他们打不过毁灭机器人的"
+
+REFERENCE           SID1
+LANG_ENGLISH        "What is it?"
+LANG_CHINESE        "什么事啊?"
+
+REFERENCE           SID2
+LANG_ENGLISH        "Viceroy, I don't want this stunted slime in my sight again!"
+LANG_CHINESE        "总督  别叫这胆小鬼再出现我眼前"
+
+REFERENCE           SID2B
+LANG_ENGLISH        "This turn of events is unfortunate. We must accelerate our plans. Begin landing your troops."
+LANG_CHINESE        "很不幸事情出现变化  要速战速决"
+
+REFERENCE           SID3
+LANG_ENGLISH        "I will make it legal."
+LANG_CHINESE        "我会让它合法的"
+
+REFERENCE           SID4
+LANG_ENGLISH        "The Chancellor should never have brought them into this."
+LANG_CHINESE        "议长根本不应派他们来"
+
+REFERENCE           SID4B
+LANG_ENGLISH        "Kill them immediately!"
+LANG_CHINESE        "立即干掉他们"
+
+ENDMARKER

@@ -1,0 +1,140 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           13WEA001
+LANG_ENGLISH        "Thanks for the assistance, Jaden.  Luke tells me you're going to be a great Jedi.  Let's get to Kril'dor and take out that mining platform!"
+LANG_CHINESE        "谢谢来帮忙，杰登。卢克说你会成为一名伟大的绝地的。我们去科里尔多星把采矿设施搞定吧！"
+
+REFERENCE           13WEA002
+NOTES               "(via comm)"
+LANG_ENGLISH        "This facility is lightly defended.  I don't think they expected us to find it.  My targeting computer will lock onto your beacons.  Place them on the key structural points, then get out of there fast. I'll be flying in lasers blazing.  If everything goes as planned, we'll have the defenses down before they know what hit 'em."
+LANG_CHINESE        "这个设施的防御力量很薄弱。我想他们也想不到我们会找到这儿来。\n我的目标搜寻电脑会锁定在你的信标处。把新标放置在建筑物结构的关键部位，\n然后快速撤离现场。我会冒着防空炮火飞过来。如果一切进展顺利，\n我们可以在他们还没反应过来之前就把防御设施摧毁。"
+
+REFERENCE           13WEA003
+NOTES               "(via comm)"
+LANG_ENGLISH        "Okay, Jaden.  Start with the shield generator, otherwise this'll be a short mission!"
+LANG_CHINESE        "好，杰登。就从护盾发生器开始吧，没了这个的话我们任务就轻松多了！"
+
+REFERENCE           13WEA004
+NOTES               "(via comm)"
+LANG_ENGLISH        "Take out the communications array next so they can't signal for help!"
+LANG_CHINESE        "接下来摧毁通讯阵列，这样他们就没法发出求救信号了。"
+
+REFERENCE           13WEA005
+NOTES               "(via comm)"
+LANG_ENGLISH        "Plant the next beacon on the power generator so we can disable those turbolasers!"
+LANG_CHINESE        "下个信标放置在发电机上，炸掉之后涡轮激光炮就没用了！"
+
+REFERENCE           13WEA006
+NOTES               "(via comm)"
+LANG_ENGLISH        "Put a beacon in the hangar so they can't scramble air support."
+LANG_CHINESE        "机库里也放一个信标，他们就没法临时开飞船出来支援了。"
+
+REFERENCE           13WEA007
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, a number of troops are making their way to the storage tanks to sabotage them.  Stop them or this mission will be for nothing!"
+LANG_CHINESE        "杰登，一队士兵正在赶往储油罐，想把油罐炸掉。别让他们得逞，不然我们就白来了！"
+
+REFERENCE           13WEA008
+NOTES               "(via comm)"
+LANG_ENGLISH        "Head for the garrison.  That should weaken their resistance!"
+LANG_CHINESE        "去工事那里。应该可以削弱他们的抵抗！"
+
+REFERENCE           13WEA009
+NOTES               "(via comm)"
+LANG_ENGLISH        "Get to the command center next, Jaden!  That's the last target."
+LANG_CHINESE        "接下来去指挥中心，杰登！那里是最后一个目标了。"
+
+REFERENCE           13WEA010
+NOTES               "(via comm)"
+LANG_ENGLISH        "Move it Jaden, I'm coming in!"
+LANG_CHINESE        "快离开那里，杰登，我来了！"
+
+REFERENCE           13WEA011
+NOTES               "(via comm)"
+LANG_ENGLISH        "You're doing great, Jaden."
+LANG_CHINESE        "干得好，杰登。"
+
+REFERENCE           13WEA012
+NOTES               "(via comm)"
+LANG_ENGLISH        "This is too easy!"
+LANG_CHINESE        "太轻松了！"
+
+REFERENCE           13WEA013
+NOTES               "(via comm)"
+LANG_ENGLISH        "Making another run."
+LANG_CHINESE        "再来一炮。"
+
+REFERENCE           13WEA014
+NOTES               "(via comm)"
+LANG_ENGLISH        "Just three more to go."
+LANG_CHINESE        "还有3个。"
+
+REFERENCE           13WEA015
+NOTES               "(via comm)"
+LANG_ENGLISH        "Just two more to go."
+LANG_CHINESE        "还有两个。"
+
+REFERENCE           13WEA016
+NOTES               "(via comm)"
+LANG_ENGLISH        "One more left."
+LANG_CHINESE        "只剩一个了。"
+
+REFERENCE           13WEA017
+NOTES               "(via comm)"
+LANG_ENGLISH        "That did it, get back to your ship, Jaden, we're outta here!"
+LANG_CHINESE        "搞定了，回到飞船上，杰登，我们要走咯！"
+
+REFERENCE           13WEA018
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, troops coming up on your position!"
+LANG_CHINESE        "杰登，帝国兵正在赶往你的位置。"
+
+REFERENCE           13WEA019
+NOTES               "(via comm)"
+LANG_ENGLISH        "Watch your left."
+LANG_CHINESE        "小心左边。"
+
+REFERENCE           13WEA020
+NOTES               "(via comm)"
+LANG_ENGLISH        "Watch your right."
+LANG_CHINESE        "小心右边。"
+
+REFERENCE           13WEA021
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, take out that gun!"
+LANG_CHINESE        "杰登，做掉那个炮台！"
+
+REFERENCE           13WEA022
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, I'm getting heavy fire here!"
+LANG_CHINESE        "杰登，我这里快不行了！"
+
+REFERENCE           13JAK001
+LANG_ENGLISH        "Watch your fire, General!"
+LANG_CHINESE        "小心开火，将军！"
+
+REFERENCE           13JAK002
+LANG_ENGLISH        "I need some cover fire!"
+LANG_CHINESE        "我需要火力掩护！"
+
+REFERENCE           13JAK003
+LANG_ENGLISH        "Roger that, General."
+LANG_CHINESE        "收到，将军。"
+
+
+ENDMARKER
+
+

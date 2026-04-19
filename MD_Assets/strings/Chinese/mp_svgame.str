@@ -1,0 +1,390 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Multiplayer server print messages"
+LANG_CHINESE        "多人游戏服务器公告信息"
+
+REFERENCE           PLRENAME
+NOTES               "Player renamed"
+LANG_ENGLISH        "renamed to"
+LANG_CHINESE        "更名为"
+
+REFERENCE           PLCONNECT
+NOTES               "Player connected"
+LANG_ENGLISH        "connected"
+LANG_CHINESE        "已连接"
+
+REFERENCE           PLENTER
+NOTES               "Player entered the game"
+LANG_ENGLISH        "entered the game"
+LANG_CHINESE        "进入游戏"
+
+REFERENCE           NOCHEATS
+NOTES               "Cheats disabled message"
+LANG_ENGLISH        "Cheats are not enabled on this server."
+LANG_CHINESE        "本服务器禁用作弊"
+
+REFERENCE           MUSTBEALIVE
+NOTES               "Player tries to use a command when dead"
+LANG_ENGLISH        "You must be alive to use this command."
+LANG_CHINESE        "本命令只能活着时使用"
+
+REFERENCE           PRINTBLUETEAM
+NOTES               "Print blue team"
+LANG_ENGLISH        "Blue team"
+LANG_CHINESE        "蓝队"
+
+REFERENCE           PRINTREDTEAM
+NOTES               "Print red team"
+LANG_ENGLISH        "Red team"
+LANG_CHINESE        "红队"
+
+REFERENCE           PRINTFREETEAM
+NOTES               "Print free team"
+LANG_ENGLISH        "Free team"
+LANG_CHINESE        "自由配队"
+
+REFERENCE           PRINTSPECTEAM
+NOTES               "Print spec team"
+LANG_ENGLISH        "Spectator team"
+LANG_CHINESE        "观察者队"
+
+REFERENCE           NOSWITCH
+NOTES               "Player can't switch teams again yet"
+LANG_ENGLISH        "May not switch teams more than once per 5 seconds."
+LANG_CHINESE        "五秒内只能切换一次队伍"
+
+REFERENCE           NOVOTE
+NOTES               "Player can't vote on this server"
+LANG_ENGLISH        "Voting not allowed here."
+LANG_CHINESE        "本服务器不准投票"
+
+REFERENCE           VOTEINPROGRESS
+LANG_ENGLISH        "A vote is already in progress."
+LANG_CHINESE        "已经有一个投票在进行中"
+
+REFERENCE           MAXVOTES
+LANG_ENGLISH        "You have called the maximum number of votes."
+LANG_CHINESE        "你发起投票的次数已满"
+
+REFERENCE           NOSPECVOTE
+LANG_ENGLISH        "Not allowed to call a vote as a spectator."
+LANG_CHINESE        "观察者不准发起投票"
+
+REFERENCE           PLCALLEDVOTE
+NOTES               "Player called a vote"
+LANG_ENGLISH        "called a vote"
+LANG_CHINESE        "发起投票"
+
+REFERENCE           NOVOTEINPROG
+NOTES               "Player tried to vote when there's no vote going on"
+LANG_ENGLISH        "No vote in progress."
+LANG_CHINESE        "当前没有投票在进行"
+
+REFERENCE           VOTEALREADY
+NOTES               "Player already cast a vote"
+LANG_ENGLISH        "Vote already cast."
+LANG_CHINESE        "已经投过"
+
+REFERENCE           NOVOTEASSPEC
+LANG_ENGLISH        "Not allowed to vote as spectator."
+LANG_CHINESE        "观察者不准投票"
+
+REFERENCE           TEAMVOTEALREADY
+LANG_ENGLISH        "A team vote already in progress."
+LANG_CHINESE        "已经有一个队伍投票在进行"
+
+REFERENCE           MAXTEAMVOTES
+LANG_ENGLISH        "You have called the maximum number of team votes."
+LANG_CHINESE        "你发起队伍投票的次数已满"
+
+REFERENCE           NOTEAMVOTEINPROG
+LANG_ENGLISH        "No team vote in progress."
+LANG_CHINESE        "没有进行中的队伍投票"
+
+REFERENCE           TEAMVOTEALREADYCAST
+LANG_ENGLISH        "Team vote already cast."
+LANG_CHINESE        "已经投过"
+
+REFERENCE           VOTEFAILED
+LANG_ENGLISH        "Vote failed."
+LANG_CHINESE        "投票失败"
+
+REFERENCE           VOTEPASSED
+LANG_ENGLISH        "Vote passed."
+LANG_CHINESE        "投票通过"
+
+REFERENCE           FORCEPOWERCHANGED
+NOTES               "Tell the player his settings will take effect after he respawns"
+LANG_ENGLISH        "Changes to your force power settings will take effect the next time you respawn."
+LANG_CHINESE        "所有原力技能改动会在你下次重生时生效"
+
+REFERENCE           TEAMVOTEFAILED
+LANG_ENGLISH        "Team vote failed."
+LANG_CHINESE        "队伍投票失败"
+
+REFERENCE           TEAMVOTEPASSED
+LANG_ENGLISH        "Team vote passed."
+LANG_CHINESE        "队伍投票通过"
+
+REFERENCE           PLVOTECAST
+LANG_ENGLISH        "Vote cast."
+LANG_CHINESE        "投票"
+
+REFERENCE           PLTEAMVOTECAST
+LANG_ENGLISH        "Team vote cast."
+LANG_CHINESE        "队伍投票"
+
+REFERENCE           NEWTEAMLEADER
+NOTES               "Player becomes the new team leader"
+LANG_ENGLISH        "is the new team leader."
+LANG_CHINESE        "是新的队伍领袖"
+
+REFERENCE           PLDUELCHALLENGE
+NOTES               "A player has challenged this player to a duel"
+LANG_ENGLISH        "has challenged you to a duel!"
+LANG_CHINESE        "向你发出决斗挑战！"
+
+REFERENCE           PLDUELACCEPT
+NOTES               "Player accepts another player's challenge to a duel"
+LANG_ENGLISH        "has become engaged in a duel with"
+LANG_CHINESE        "开始决斗！对手是"
+
+REFERENCE           PLDUELWINNER
+NOTES               "A player has defeated another player in a duel"
+LANG_ENGLISH        "has defeated"
+LANG_CHINESE        "击败了"
+
+REFERENCE           PLDUELSTOP
+NOTES               "Players got too far away from each other in a duel"
+LANG_ENGLISH        "The duel has been severed."
+LANG_CHINESE        "决斗中止"
+
+REFERENCE           JOINEDTHEBATTLE
+NOTES               "Team change"
+LANG_ENGLISH        "joined the battle."
+LANG_CHINESE        "加入战斗"
+
+REFERENCE           JOINEDTHESPECTATORS
+LANG_ENGLISH        "joined the spectators."
+LANG_CHINESE        "进入观察模式"
+
+REFERENCE           JOINEDTHEREDTEAM
+LANG_ENGLISH        "joined the red team."
+LANG_CHINESE        "加入红队"
+
+REFERENCE           JOINEDTHEBLUETEAM
+LANG_ENGLISH        "joined the blue team."
+LANG_CHINESE        "加入蓝队"
+
+REFERENCE           VERSUS
+NOTES               "Tournament mode display"
+LANG_ENGLISH        "vs."
+LANG_CHINESE        "对抗"
+
+REFERENCE           ATTEMPTDUELKILL
+NOTES               "Attempt to kill self in a duel"
+LANG_ENGLISH        "You may not end yourself in the midst of a duel."
+LANG_CHINESE        "在决斗总不能自杀"
+
+REFERENCE           CANTDUEL_JUSTDID
+LANG_ENGLISH        "You must wait 10 seconds after finishing a duel to initiate another duel, or have someone else challenge you."
+LANG_CHINESE        "决斗结束后必须等10秒才能再次决斗，或者让别人挑战你"
+
+REFERENCE           CANTDUEL_BUSY
+LANG_ENGLISH        "You cannot initiate a duel until the other two players have finished their duel."
+LANG_CHINESE        "等其他两个玩家决斗结束了你才能与别人决斗"
+
+REFERENCE           FORCEAPPLIED
+NOTES               "Player applied force changes while spectator"
+LANG_ENGLISH        "Your new force power settings have been applied."
+LANG_CHINESE        "原力设置变更已经生效"
+
+REFERENCE           MUSTBELIGHT
+NOTES               "Force-based teams are on, a dark side player tries to join the blue team"
+LANG_ENGLISH        "You must be on the Light side of the force to join the Blue Team."
+LANG_CHINESE        "在蓝队里必须使用光明原力"
+
+REFERENCE           MUSTBEDARK
+NOTES               "Force-based teams are on, a light side player tries to join the red team"
+LANG_ENGLISH        "You must be on the Dark side of the force to join the Red Team."
+LANG_CHINESE        "在红队里必须使用黑暗原力"
+
+REFERENCE           TOOMANYRED_SWITCH
+LANG_ENGLISH        "Red team has too many players, switch to the light side of the force and join blue."
+LANG_CHINESE        "红队人数太多，请使用光明原力，加入蓝队"
+
+REFERENCE           TOOMANYRED
+LANG_ENGLISH        "Red team has too many players."
+LANG_CHINESE        "红队人数太多"
+
+REFERENCE           TOOMANYBLUE_SWITCH
+LANG_ENGLISH        "Blue team has too many players, switch to the dark side of the force and join red."
+LANG_CHINESE        "蓝队人数太多，请使用黑暗原力，加入红队"
+
+REFERENCE           TOOMANYBLUE
+LANG_ENGLISH        "Blue team has too many players."
+LANG_CHINESE        "蓝队人数太多"
+
+REFERENCE           PLDUELTIE
+LANG_ENGLISH        "The duel is ended in a draw, both fighters have died!"
+LANG_CHINESE        "双方打平！"
+
+REFERENCE           PLDUELCHALLENGED
+LANG_ENGLISH        "You have challenged"
+LANG_CHINESE        "你挑战了"
+
+REFERENCE           NODUEL_GAMETYPE
+LANG_ENGLISH        "This gametype does not support saber dueling."
+LANG_CHINESE        "该游戏模式不支持光剑决斗"
+
+REFERENCE           BECOMEJM
+LANG_ENGLISH        "has become the Jedi Master!"
+LANG_CHINESE        "变成了绝地大师！"
+
+REFERENCE           UNABLE_TO_ADD_BOT
+LANG_ENGLISH        "Unable to add bot. All player slots are in use.\nStart server with more 'open' slots.\n"
+LANG_CHINESE        "无法添加电脑玩家。玩家空位已满。\n开启更多空位启动游戏。\n"
+
+REFERENCE           CANNOT_KICK_HOST
+LANG_ENGLISH        "Cannot kick host player.\n"
+LANG_CHINESE        "不能踢主办玩家。\n"
+
+REFERENCE           NOVOTE_MAPNOTSUPPORTEDBYGAME
+LANG_ENGLISH        "You can't vote for this map, it isn't supported by the current gametype.\n"
+LANG_CHINESE        "本图不能投票，游戏模式不支持。\n"
+
+REFERENCE           WAS_KICKED
+LANG_ENGLISH        "was kicked."
+LANG_CHINESE        "被踢出游戏"
+
+REFERENCE           BEGIN_DUEL
+LANG_ENGLISH        "BEGIN"
+LANG_CHINESE        "开始"
+
+REFERENCE           HIT_THE_KILL_LIMIT
+NOTES               ""[playername][/teamname] hit the kill limit""
+LANG_ENGLISH        "hit the kill limit."
+LANG_CHINESE        "得分达到上限。"
+
+REFERENCE           SERVER_IS_FULL
+LANG_ENGLISH        "Server is full."
+LANG_CHINESE        "服务器已满"
+
+REFERENCE           SERVER_DISCONNECTED
+LANG_ENGLISH        "Server disconnected"
+LANG_CHINESE        "与服务器断开"
+
+REFERENCE           SERVER_CONNECTION_TIMED_OUT
+LANG_ENGLISH        "Server connection timed out."
+LANG_CHINESE        "服务器连接超时"
+
+REFERENCE           INVALID_PASSWORD
+LANG_ENGLISH        "Invalid password"
+LANG_CHINESE        "密码无效"
+
+REFERENCE           TIMELIMIT_HIT
+LANG_ENGLISH        "Timelimit hit"
+LANG_CHINESE        "时间限制已到"
+
+REFERENCE           ONLY_ADD_BOTS_AS_SERVER
+LANG_ENGLISH        "You can only add bots as the server"
+LANG_CHINESE        "你只能以服务器的身份加入电脑玩家"
+
+REFERENCE           DISCONNECTED
+NOTES               "used just after playername has been printed to show someone disconnecting"
+LANG_ENGLISH        "disconnected"
+LANG_CHINESE        "断开连接"
+
+REFERENCE           NOCLASSSWITCH
+LANG_ENGLISH        "You can only switch classes once every 5 seconds."
+LANG_CHINESE        "每五秒只能切换一次身份"
+
+REFERENCE           NOCLASSTEAM
+LANG_ENGLISH        "The class you've tried to select does not belong to the team you're on."
+LANG_CHINESE        "你试图选择的身份不属于你的队伍"
+
+REFERENCE           NOVOICECHATASSPEC
+LANG_ENGLISH        "You cannot voice chat as a spectator."
+LANG_CHINESE        "观察者不能语音聊天"
+
+REFERENCE           DUELMORESINGLE
+LANG_ENGLISH        "Need another single duelist"
+LANG_CHINESE        "还需要一名决斗者"
+
+REFERENCE           DUELMOREPAIRED
+LANG_ENGLISH        "Need more paired duelists"
+LANG_CHINESE        "需要更多组队的决斗者"
+
+REFERENCE           HIT_CAPTURE_LIMIT
+LANG_ENGLISH        "hit the capture limit."
+LANG_CHINESE        "夺旗次数到达最大"
+
+REFERENCE           INVALID_ESCAPE_TO_MAIN
+LANG_ENGLISH        "Invalid Password.  Press ESCAPE to return to Main Menu"
+LANG_CHINESE        "密码无效。按ESC键返回主菜单"
+
+REFERENCE           CANCEL_PASSWORD
+LANG_ENGLISH        "Close menu, do not attempt to connect"
+LANG_CHINESE        "菜单关闭，不要连接"
+
+REFERENCE           CANNOT_TASK_INTERMISSION
+LANG_ENGLISH        "You cannot perform this task during the intermission."
+LANG_CHINESE        "在中间休息时无法做任务"
+
+REFERENCE           SAY
+NOTES               "no more than 5 characters long!"
+LANG_ENGLISH        "Say:"
+LANG_CHINESE        "聊天："
+
+REFERENCE           SAY_TEAM
+NOTES               "no more than 11 characters long!"
+LANG_ENGLISH        "Say Team:"
+LANG_CHINESE        "队伍聊天："
+
+REFERENCE           SNAPSHOT_TIMEOUT
+LANG_ENGLISH        "Timeout waiting for initial snapshot"
+LANG_CHINESE        "超时等待初始截图"
+
+REFERENCE           CLIENT_CONN_WITH_PING
+LANG_ENGLISH        "Client %i connecting with %i challenge ping\n"
+LANG_CHINESE        "用户 %i 正已 %i 的延迟连接"
+
+REFERENCE           SERVER_FOR_HIGH_PING
+LANG_ENGLISH        "Server is for high pings only\n"
+LANG_CHINESE        "本服务器只限延迟快玩家进入\n"
+
+REFERENCE           CLIENT_REJECTED_LOW_PING
+LANG_ENGLISH        "Client %i rejected on a too low ping\n"
+LANG_CHINESE        "用户 %i 由于延迟太慢被拒绝进入"
+
+REFERENCE           SERVER_FOR_LOW_PING
+LANG_ENGLISH        "Server is for low pings only\n"
+LANG_CHINESE        "本服务器只限延迟慢的玩家进入"
+
+REFERENCE           CLIENT_REJECTED_HIGH_PING
+LANG_ENGLISH        "Client %i rejected on a too high ping\n"
+LANG_CHINESE        "用户 %i由于延迟过快被拒绝进入\n"
+
+REFERENCE           NONAMECHANGE
+LANG_ENGLISH        "You must wait 5 seconds before changing your name again."
+LANG_CHINESE        "你必须等5秒才能再次变更名字。"
+
+REFERENCE           TOO_MANY_INFO
+LANG_ENGLISH        "Warning: Too many info changes, last info ignored"
+LANG_CHINESE        "警告：信息变化太多，忽略最后的信息"
+
+
+ENDMARKER
+
+
