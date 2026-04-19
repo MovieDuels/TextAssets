@@ -1,0 +1,44 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "R2, stay with the ship."
+LANG_ENGLISH        "R2, bleib beim Schiff."
+
+REFERENCE           GUN1
+LANG_ENGLISH        "The plan has gone as you had promised, my lord."
+LANG_ENGLISH        "Euer Plan ist wie erwartet aufgegangen, mein Lord."
+
+REFERENCE           GUN2
+LANG_ENGLISH        "Welcome, Lord Vader. We've been expecting you."
+LANG_ENGLISH        "Willkommen, Lord Vader. Wir haben euch bereits erwartet."
+
+REFERENCE           GUN3
+LANG_ENGLISH        "Gunray: The war is over!.. Lord Sidious promised us peace!.. We only want..."
+LANG_ENGLISH        "Gunray: Der Krieg ist vorueber!.. Lord Sidious hat uns Frieden versprochen!.. Wir wollen nur..."
+
+REFERENCE           SID1
+LANG_ENGLISH        "You have done well, Viceroy."
+LANG_ENGLISH        "Ihr habt gute Arbeit geleistet, Vizekoenig."
+
+REFERENCE           SID1B
+LANG_ENGLISH        "When my new apprentice Darth Vader arrives,"
+LANG_ENGLISH        "Wenn mein neuer Schueler Darth Vader auftaucht,"
+
+REFERENCE           SID1C
+LANG_ENGLISH        "he will take care of you."
+LANG_ENGLISH        "wird er sich bei euch erkenntlich zeigen."
+
+ENDMARKER

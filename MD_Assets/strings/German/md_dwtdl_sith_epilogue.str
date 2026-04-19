@@ -1,0 +1,72 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           EMP100
+LANG_ENGLISH        "Lord Vader. What news of Skywalker?"
+LANG_GERMAN         "Lord Vader. Was gibt es neues zu Skywalker?"
+
+REFERENCE           EMP101
+LANG_ENGLISH        "Unfortunate... yet inevitable. The boy was weak - too much of his father in him."
+LANG_GERMAN         "Bedauerlich... Aber unvermeidlich. Der Junge war schwach - er hatte zu viel von seinem Vater in sich."
+
+REFERENCE           EMP102
+LANG_ENGLISH        "Return to me, Lord Vader. There is... other work to be done."
+LANG_GERMAN         "Kommt zu mir zurueck, Lord Vader. Es gibt andere Dinge, die erledigt werden muessen."
+
+REFERENCE           LUKE100
+LANG_ENGLISH        "What happens now... Father? Am I your prisoner?"
+LANG_GERMAN         "Was passiert jetzt, Vater? Bin ich dein Gefangener?"
+
+REFERENCE           LUKE101
+LANG_ENGLISH        "I won't serve the Emperor."
+LANG_GERMAN         "Ich werde nicht dem Imperator dienen."
+
+REFERENCE           LUKE102
+LANG_ENGLISH        "And my friends? Leia... Han? Are they safe?"
+LANG_GERMAN         "Und meine Freunde? Leia... Han? Sind sie sicher?"
+
+REFERENCE           LUKE103
+LANG_ENGLISH        "Mustafar?"
+LANG_GERMAN         "#same"
+
+REFERENCE           VADER100
+LANG_ENGLISH        "The boy resisted... and fell. There is no trace. He is gone."
+LANG_GERMAN         "Der Junge leistete Widerstand und fiel. Es fehlt jede Spur. Er ist verschwunden."
+
+REFERENCE           VADER101
+LANG_ENGLISH        "As you wish, my master."
+LANG_GERMAN         "Wir Ihr wuenscht, mein Meister."
+
+REFERENCE           VADER102
+LANG_ENGLISH        "I will complete what Obi-Wan could not. Your training begins now."
+LANG_GERMAN         "Ich werde beenden, was Obi-Wan nicht konnte. Dein Training beginnt jetzt."
+
+REFERENCE           VADER103
+LANG_ENGLISH        "Your survival is known only to me. And it will stay that way. You will serve me - as my apprentice... and as my son."
+LANG_GERMAN         "Dein Ueberleben bedeutet mir nichts. Und das wird auch so bleiben. Du wirst mir als mein Schueler und als mein Sohn dienen."
+
+REFERENCE           VADER104
+LANG_ENGLISH        "Their destiny is in your hands now, my son. Through me... you will gain the power to save your friends from certain death."
+LANG_GERMAN         "Ihr Schicksal liegt nun in deinen Haenden, mein Son. Durch mich erhaelst du die Macht, deine Freunde vor dem sicheren Tod zu retten."
+
+REFERENCE           VADER105
+LANG_ENGLISH        "Admiral. Set course for Mustafar."
+LANG_GERMAN         "Admiral. Setzen Sie Kurs auf Mustafar."
+
+REFERENCE           VADER106
+LANG_ENGLISH        "It is where I was broken... and where your true path begins."
+LANG_GERMAN         "Hier wurde ich zerstoert und hier beginnt dein wahrer Weg."
+
+ENDMARKER

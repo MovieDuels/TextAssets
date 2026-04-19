@@ -1,0 +1,1099 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+//----------------------------------------------------------
+// 		SETTING/CONTROLS MENU
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	h1: SETTINGS
+//----------------------------------------------------------
+
+REFERENCE           SETUP_OPTIONS
+LANG_ENGLISH        "SETUP OPTIONS"
+LANG_GERMAN         "SETUP-OPTIONEN"
+
+REFERENCE           GAMEPLAY_OPTIONS
+LANG_ENGLISH        "GAMEPLAY"
+LANG_GERMAN         "#same"
+
+REFERENCE           COMBAT_OPTIONS
+LANG_ENGLISH        "COMBAT"
+LANG_GERMAN         "KAMPF"
+
+REFERENCE           INTERFACE_OPTIONS
+LANG_ENGLISH        "USER INTERFACE"
+LANG_GERMAN         "BENUTZEROBERFLAECHE"
+
+REFERENCE           REND2
+LANG_ENGLISH        "REND2"
+LANG_GERMAN         "#same"
+
+REFERENCE           CUSTOM_RESOLUTION
+LANG_ENGLISH        "Custom Resolution:"
+LANG_GERMAN         "Benutzerdefinierte Aufloesung:"
+
+REFERENCE           CUSTOM_WIDTH_DESC
+LANG_ENGLISH        "Set custom resolution width"
+LANG_GERMAN         "Benutzerdefinierte Aufloesungsbreite einstellen"
+
+REFERENCE           CUSTOM_HEIGHT_DESC
+LANG_ENGLISH        "Set custom resolution height"
+LANG_GERMAN         "Benutzerdefinierte Aufloesungshoehe einstellen"
+
+REFERENCE           WIDESCREEN_FOV
+LANG_ENGLISH        "Widescreen FOV:"
+LANG_GERMAN         "Breitbild-Sichtfeld:"
+
+REFERENCE           WIDESCREEN_FOV_DESC
+LANG_ENGLISH        "Adjust the Field of View for 16:9 and above resolutions."
+LANG_GERMAN         "Passe das Sichtfeld fuer Aufloesungen von 16:9 und hoeher an."
+
+REFERENCE           WIDESCREEN_HUD
+LANG_ENGLISH        "Widescreen HUD:"
+LANG_GERMAN         "Breitbild-HUD:"
+
+REFERENCE           WIDESCREEN_HUD_DESC
+LANG_ENGLISH        "Adjust the Hud for 16:9 and above resolutions."
+LANG_GERMAN         "Passe das Hud fuer Aufloesungen von 16:9 und hoeher an."
+
+REFERENCE           CINEMATIC_BARS
+LANG_ENGLISH        "Cinematic Bars:"
+LANG_GERMAN         "#same"
+
+REFERENCE           CINEMATIC_BARS_DESC
+LANG_ENGLISH        "Hide the black bars during cutscenes, useful when playing in widescreen."
+LANG_GERMAN         "Blende die schwarzen Balken waehrend der Zwischensequenzen aus, was beim Spielen im Breitbild nuetzlich ist."
+
+REFERENCE           SHADOWS_PROJECTED 
+LANG_ENGLISH        "Projected"
+LANG_GERMAN         "Projiziert"
+
+REFERENCE           BODY_MARKS
+LANG_ENGLISH        "Body Marks:"
+LANG_GERMAN         "Koerperspuren:"
+
+REFERENCE           BODY_MARKS_DESC
+LANG_ENGLISH        "Toggle to display scorch marks on bodies."
+LANG_GERMAN         "Umschalten, um Brandspuren auf Koerpern anzuzeigen."
+
+REFERENCE           FAST_SKY
+LANG_ENGLISH        "Fast Sky:"
+LANG_GERMAN         "Schneller Himmel:"
+
+REFERENCE           FAST_SKY_DESC
+LANG_ENGLISH        "Enables / disables sky."
+LANG_GERMAN         "Aktiviert / deaktiviert den Himmel."
+
+REFERENCE           FOG_LEVEL
+LANG_ENGLISH        "Fog Level:"
+LANG_GERMAN         "Nebelstufe:"
+
+REFERENCE           FOG_LEVEL_DESC
+LANG_ENGLISH        "Set level of fog to appear on maps."
+LANG_GERMAN         "Stelle die Nebelstaerke ein, die auf Karten angezeigt wird."
+
+REFERENCE           ENHANCED
+LANG_ENGLISH        "Enhanced"
+LANG_GERMAN         "Erweitert"
+
+REFERENCE           DRAW_FPS
+LANG_ENGLISH        "Draw FPS:"
+LANG_GERMAN         "FPS anzeigen:"
+
+REFERENCE           DRAW_FPS_DESC
+LANG_ENGLISH        "Toggle to show or hide FPS counter."
+LANG_GERMAN         "Umschalten, um den FPS-Zaehler anzuzeigen oder auszublenden."
+
+REFERENCE           CURSOR
+LANG_ENGLISH        "Cursor:"
+LANG_GERMAN         "Mauszeiger:"
+
+REFERENCE           CURSOR_DESC
+LANG_ENGLISH        "Changes the cursor image."
+LANG_GERMAN         "Aendert das Mauszeiger-Bild."
+
+REFERENCE           WEAPON_DISMEMBERMENT
+LANG_ENGLISH        "Weapon Dismemberment:"
+LANG_GERMAN         "Waffenzerlegung:"
+
+REFERENCE           WEAPON_DISMEMBERMENT_DESC
+LANG_ENGLISH        "Enables / disables weapon dismemberment."
+LANG_GERMAN         "Aktiviert / deaktiviert die Waffenzerlegung."
+
+REFERENCE           SABER_REALISTIC
+LANG_ENGLISH        "Saber Damage:"
+LANG_GERMAN         "Lichtschwert-Schaden:"
+
+REFERENCE           SABER_REALISTIC_DESC
+LANG_ENGLISH        "Set the damage level dealt by lightsabers."
+LANG_GERMAN         "Stelle die Schadensstufe ein, die von Lichtschwertern verursacht wird."
+
+REFERENCE           SABER_LOCK_BREAK
+LANG_ENGLISH        "Saber Lock Executions:"
+LANG_GERMAN         "Lichtschwertsperre Kill:"
+
+REFERENCE           SABER_LOCK_BREAK_DESC
+LANG_ENGLISH        "Enables possible deadly follow-up attacks upon winning a saber lock."
+LANG_GERMAN         "Ermöglicht potenziell tödliche Folgeangriffe nach dem Gewinn einer Lichtschwertsperre."
+
+REFERENCE           SABER_LOCK
+LANG_ENGLISH        "Saberlock:"
+LANG_GERMAN         "Lichtschwertsperre:"
+
+REFERENCE           SABER_LOCK_DESC
+LANG_ENGLISH        "Select how often saber-lock occurs."
+LANG_GERMAN         "Waehle aus, wie oft die Lichtschwertsperre auftritt."
+
+REFERENCE           NEVER
+LANG_ENGLISH        "Never"
+LANG_GERMAN         "Nie"
+
+REFERENCE           RARELY
+LANG_ENGLISH        "Rarely"
+LANG_GERMAN         "Selten"
+
+REFERENCE           SOMETIMES
+LANG_ENGLISH        "Sometimes"
+LANG_GERMAN         "Manchmal"
+
+REFERENCE           OFTEN
+LANG_ENGLISH        "Often"
+LANG_GERMAN         "Oft"
+
+REFERENCE           CORPSE_REMOVAL
+LANG_ENGLISH        "Corpse Removal Time:"
+LANG_GERMAN         "Leichenentfernungszeit:"
+
+REFERENCE           CORPSE_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which corpses will disappear."
+LANG_GERMAN         "Stelle die Zeit ein, nach der Leichen verschwinden."
+
+REFERENCE           WEAPON_REMOVAL
+LANG_ENGLISH        "Weapon Removal Time:"
+LANG_GERMAN         "Waffenentfernungszeit:"
+
+REFERENCE           WEAPON_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which weapons will disappear."
+LANG_GERMAN         "Stelle die Zeit ein, nach der die Waffen verschwinden."
+
+REFERENCE           10SEC
+LANG_ENGLISH        "10 seconds"
+LANG_GERMAN         "10 Sekunden"
+
+REFERENCE           30SEC
+LANG_ENGLISH        "30 seconds"
+LANG_GERMAN         "30 Sekunden"
+
+REFERENCE           1MIN
+LANG_ENGLISH        "1 minute"
+LANG_GERMAN         "1 Minute"
+
+REFERENCE           2MIN
+LANG_ENGLISH        "2 minutes"
+LANG_GERMAN         "2 Minuten"
+
+REFERENCE           5MIN
+LANG_ENGLISH        "5 minutes"
+LANG_GERMAN         "5 Minuten"
+
+REFERENCE           BLOOD
+LANG_ENGLISH        "Blood:"
+LANG_GERMAN         "Blut:"
+
+REFERENCE           BLOOD_DESC
+LANG_ENGLISH        "Toggle blood effects."
+LANG_GERMAN         "Bluteffekte umschalten."
+
+REFERENCE           WEATHER
+LANG_ENGLISH        "Weather:"
+LANG_GERMAN         "Wetter:"
+
+REFERENCE           WEATHER_DESC
+LANG_ENGLISH        "Set the weather in the map."
+LANG_GERMAN         "Stelle das Wetter auf der Karte ein."
+
+REFERENCE           CLEAR
+LANG_ENGLISH        "Clear"
+LANG_GERMAN         "Klar"
+
+REFERENCE           SNOW
+LANG_ENGLISH        "Snow"
+LANG_GERMAN         "Schnee"
+
+REFERENCE           RAIN
+LANG_ENGLISH        "Rain"
+LANG_GERMAN         "Regen"
+
+REFERENCE           LAVA
+LANG_ENGLISH        "Lava"
+LANG_GERMAN         "#same"
+
+REFERENCE           SANDSTORM
+LANG_ENGLISH        "Sandstorm"
+LANG_GERMAN         "Sandsturm"
+
+REFERENCE           HEAVY_RAIN_FOG
+LANG_ENGLISH        "Heavy Rain Fog"
+LANG_GERMAN         "Starkregen Nebel"
+
+REFERENCE           FOG
+LANG_ENGLISH        "Fog"
+LANG_GERMAN         "Nebel"
+
+REFERENCE           ACID_RAIN
+LANG_ENGLISH        "Acid Rain"
+LANG_GERMAN         "Saurer Regen"
+
+REFERENCE           WIND
+LANG_ENGLISH        "Wind"
+LANG_GERMAN         "#same"
+
+REFERENCE           SPACEDUST
+LANG_ENGLISH        "Spacedust"
+LANG_GERMAN         "Weltraumstaub"
+
+REFERENCE           PUSH_EFFECT
+LANG_ENGLISH        "Force Push Effect:"
+LANG_GERMAN         "Machtschub Effekt:"
+
+REFERENCE           PUSH_EFFECT_DESC
+LANG_ENGLISH        "Set the effect used for force push."
+LANG_GERMAN         "Setze den Effekt, der fuer den Machtschub benutzt wird."
+
+REFERENCE           PUSH_EFFECT_JKA
+LANG_ENGLISH        "JKA"
+LANG_GERMAN         "#same"
+
+REFERENCE           PUSH_EFFECT_JKO
+LANG_ENGLISH        "JKO"
+LANG_GERMAN         "#same"
+
+REFERENCE           PUSH_EFFECT_NONE
+LANG_ENGLISH        "None"
+LANG_GERMAN         "#same"
+
+REFERENCE           SABER_LOCK_CAM
+LANG_ENGLISH        "Saber Lock Camera:"
+LANG_GERMAN         "Lichtschwertsperre Kamera:"
+
+REFERENCE           SABER_LOCK_CAM_DESC
+LANG_ENGLISH        "Set camera to be cinematic during a saber lock."
+LANG_GERMAN         "Die Kamera wird waehrend einer Lichtschwertsperre Cinematic."
+
+REFERENCE           LANGUAGE
+LANG_ENGLISH        "Language"
+LANG_GERMAN         "Sprache"
+
+REFERENCE           LANGUAGE_DESC
+LANG_ENGLISH        "Set the language used in the mod."
+LANG_GERMAN         "Stelle die im Mod verwendete Sprache ein."
+
+REFERENCE           LANG_DEUTSCH
+LANG_ENGLISH        "Deutsch"
+LANG_GERMAN         "#same"
+
+REFERENCE           LANG_ESPANYOL
+LANG_ENGLISH        "Espańol"
+LANG_GERMAN         "#same"
+
+REFERENCE           LANG_CZECH
+LANG_ENGLISH        "Czech"
+LANG_GERMAN         "#same"
+
+REFERENCE           SABER_IMPACT
+LANG_ENGLISH        "Saber Combat Mode:"
+LANG_GERMAN         "Lichtschwert-Kampfmodus:"
+
+REFERENCE           SABER_IMPACT_DESC
+LANG_ENGLISH        "Activate Manual Saber Blocking Mode. See the Controls menu to use Manual Block."
+LANG_GERMAN         "Aktiviere den manuellen Lichtschwert-Block-Modus. Siehe das Tastenbelegungs-Menue, um den manuellen Block zu verwenden."
+
+REFERENCE           JKA_MODE
+LANG_ENGLISH        "JKA Mode"
+LANG_GERMAN         "JKA Modus"
+
+REFERENCE           MD_MODE
+LANG_ENGLISH        "MD Mode"
+LANG_GERMAN         "MD Modus"
+
+REFERENCE           MDA_MODE
+LANG_ENGLISH        "MD Advanced Mode"
+LANG_GERMAN         "MD Fortgeschrittener Modus"
+
+REFERENCE           HUD_MODE
+LANG_ENGLISH        "Hud Mode:"
+LANG_GERMAN         "HUD-Modus:"
+
+REFERENCE           HUD_MODE_DESC
+LANG_ENGLISH        "Set the heads-up display."
+LANG_GERMAN         "Stelle das Head-Up-Display ein."
+
+REFERENCE           MD_CLASSIC
+LANG_ENGLISH        "MD Classic"
+LANG_GERMAN         "#same"
+
+REFERENCE           MD_MODERN
+LANG_ENGLISH        "MD Modern"
+LANG_GERMAN         "#same"
+
+REFERENCE           MD_JO
+LANG_ENGLISH        "JKII Remastered"
+LANG_GERMAN         "#same"
+
+REFERENCE           MD_VINTAGE
+LANG_ENGLISH        "MD Vintage"
+LANG_GERMAN         "#same"
+
+REFERENCE           MD_HUD_VERTICAL
+LANG_ENGLISH        "MD Vertical"
+LANG_GERMAN         "#same"
+
+REFERENCE           MD_HUD_HORIZONTAL
+LANG_ENGLISH        "MD Horizontal"
+LANG_GERMAN         "#same"
+
+REFERENCE           SHOW_SELECTION_BAR
+LANG_ENGLISH        "Show Selection Bar:"
+LANG_GERMAN         "Auswahlleiste anzeigen:"
+
+REFERENCE           SHOW_SELECTION_BAR_DESC
+LANG_ENGLISH        "Show selection bar when cycling through inventory, weapons or force powers."
+LANG_GERMAN         "Beim blaettern durchs Inventar Waffen oder Machtkraefte, Auswahlleiste anzeigen."
+
+REFERENCE           SHOW_RADAR
+LANG_ENGLISH        "Show Radar:"
+LANG_GERMAN         "Radar anzeigen:"
+
+REFERENCE           SHOW_RADAR_DESC
+LANG_ENGLISH        "Show Radar to identify objects and models on map."
+LANG_GERMAN         "Radar anzeigen, um Objekte und Modelle auf der Karte zu identifizieren."
+
+REFERENCE           SHOW_HEALTH_BAR
+LANG_ENGLISH        "Show health Bar:"
+LANG_GERMAN         "Gesundheitsbalken anzeigen:"
+
+REFERENCE           SHOW_HEALTH_BAR_DESC
+LANG_ENGLISH        "Show health meter above all characters."
+LANG_GERMAN         "Gesundheitsanzeige ueber allen Charakteren anzeigen."
+
+REFERENCE           SHOW_BLOCKPOINT_BAR
+LANG_ENGLISH        "Show Block Point Bar:"
+LANG_GERMAN         "Blockpunktleiste anzeigen:"
+
+REFERENCE           SHOW_BLOCKPOINT_BAR_DESC
+LANG_ENGLISH        "Show Block Point Meter above all Saber Users (MD/MDA Mode only)."
+LANG_GERMAN         "Blockpunkt-Meter ueber allen Lichtschwert-Benutzern anzeigen (nur MD/MDA-Modus)"
+
+REFERENCE           SHOW_STAMINA_BAR
+LANG_ENGLISH        "Show Stamina Bar:"
+LANG_GERMAN         "Ausdauerbalken anzeigen:"
+
+REFERENCE           SHOW_STAMINA_BAR_DESC
+LANG_ENGLISH        "Show Stamina Meter above all Saber Users (MD/MDA Mode only)."
+LANG_GERMAN         "Ausdaueranzeige ueber allen Schwert-Benutzern anzeigen (nur MD/MDA-Modus)."
+
+REFERENCE           UNBLOCKABLE_ATTACK_WARNING
+LANG_ENGLISH        "Unblockable Attack Warning:"
+LANG_GERMAN         "Unblockbare Angriffe Warnen:"
+
+REFERENCE           UNBLOCKABLE_ATTACK_WARNING_DESC
+LANG_ENGLISH        "Makes NPCs appear red when they perform an unblockable attack."
+LANG_GERMAN         "NSCs leuchten rot, wenn sie nicht blockbare Angriffe ausfuehren."
+
+REFERENCE           LEDGE_GRAB
+LANG_ENGLISH        "Ledge Grab:"
+LANG_GERMAN         "Leistengreifer:"
+
+REFERENCE           LEDGE_GRAB_DESC
+LANG_ENGLISH        "Sets whether your character will grab onto ledges to climb."
+LANG_GERMAN         "Legt fest, ob der Charakter sich zum Klettern an Felsvorspruengen festhaelt."
+
+REFERENCE           AUTO_PICK_UP
+LANG_ENGLISH        "Auto Item Pick Up:"
+LANG_GERMAN         "Automatisches Item-Aufheben:"
+
+REFERENCE           AUTO_PICK_UP_DESC
+LANG_ENGLISH        "Automatically pick up items when walked over or look and press the USE key."
+LANG_GERMAN         "Gegenstaende automatisch aufheben, wenn darueber gelaufen wird, oder schauen und die BENUTZEN-Taste druecken."
+
+REFERENCE           SABER_RETURN
+LANG_ENGLISH        "Saber Throw Return:"
+LANG_GERMAN         "Lichtschwertwurf-Rueckkehr:"
+
+REFERENCE           SABER_RETURN_DESC
+LANG_ENGLISH        "Sets whether the lightsaber will return after hitting a wall during a saber throw."
+LANG_GERMAN         "Legt fest, ob das Lichtschwert nach dem Aufprall auf eine Wand waehrend eines Lichtschwertwurfs zurueckkehrt."
+
+REFERENCE           SABER_BOUNCE_ON_WALLS
+LANG_ENGLISH        "Saber Wall Bounce:"
+LANG_GERMAN         "Lichtschwert-Wand-Abprallen:"
+
+REFERENCE           SABER_BOUNCE_ON_WALLS_DESC
+LANG_ENGLISH        "Sets whether the lightsaber will bounce off walls upon impact."
+LANG_GERMAN         "Legt fest, ob das Lichtschwert beim Aufprall von Waenden abprallt."
+
+REFERENCE           SABERTHROW_TYPE
+LANG_ENGLISH        "Saberthrow Type:"
+LANG_GERMAN         "Lichtschwertwurf-Typ:"
+
+REFERENCE           SABERTHROW_TYPE_DESC
+LANG_ENGLISH        "Switches between horizontal (base JKA) or vertical saber throw."
+LANG_GERMAN         "Wechselt zwischen horizontalem (Basis-JKA) oder vertikalem Lichtschwertwurf."
+
+REFERENCE           VERTICAL
+LANG_ENGLISH        "Vertical"
+LANG_GERMAN         "#same"
+
+REFERENCE           HORIZONTAL
+LANG_ENGLISH        "Horizontal"
+LANG_GERMAN         "#same"
+
+REFERENCE           GUNNER_BASH
+LANG_ENGLISH        "Gunner Melee:"
+LANG_GERMAN         "Nahkampfschuetze:"
+
+REFERENCE           GUNNER_BASH_DESC
+LANG_ENGLISH        "Sets whether powerful characters with blasters can melee the player."
+LANG_GERMAN         "Legt fest, ob maechtige Charaktere mit Blastern den Spieler im Nahkampf angreifen koennen."
+
+REFERENCE           MDA_SLOWMO
+LANG_ENGLISH        "Perfect Block Slowmo Action:"
+LANG_GERMAN         "Slowmo-Aktion fuer perfektes Blocken:"
+
+REFERENCE           MDA_SLOWMO_DESC
+LANG_ENGLISH        "MD/MDA Mode only. Activates a slow motion effect when performing a perfect block."
+LANG_GERMAN         "Nur MD/MDA-Modus. Aktiviert einen Zeitlupeneffekt beim Ausfuehren eines perfekten Blocks."
+
+REFERENCE           IGNITION_TWIRL
+LANG_ENGLISH        "Saber Ignition Twirl:"
+LANG_GERMAN         "Lichtschwert-Zuendungswirbel:"
+
+REFERENCE           IGNITION_TWIRL_DESC
+LANG_ENGLISH        "Do the saber on/off animation."
+LANG_GERMAN         "Macht die Lischtschwert an/aus Animation"
+
+REFERENCE           SINGLE_IGNITION_SPEED
+LANG_ENGLISH        "Single Saber Ignition Speed:"
+LANG_GERMAN         "Schwert-Aktivierungstempo:"
+
+REFERENCE           SINGLE_IGNITION_SPEED_DESC
+LANG_ENGLISH        "How fast the lightsaber ignites."
+LANG_GERMAN         "Wie schnell aktiviert sich das Lichtschwert"
+
+REFERENCE           SLOW
+LANG_ENGLISH        "Slow"
+LANG_GERMAN         "Langsam"
+
+REFERENCE           VERY_FAST
+LANG_ENGLISH        "Very Fast"
+LANG_GERMAN         "Sehr Schnell"
+
+REFERENCE           INSTANT
+LANG_ENGLISH        "Instant"
+LANG_GERMAN         "Sofort"
+
+REFERENCE           STAFF_IGNITION_SPEED
+LANG_ENGLISH        "Staff Saber Ignition Speed:"
+LANG_GERMAN         "Zuendtempo des Stabschwerts:"
+
+REFERENCE           STAFF_IGNITION_SPEED_DESC
+LANG_ENGLISH        "How fast the Staff lightsaber ignites."
+LANG_GERMAN         "Wie schnell aktiviert sich das Stab-Schwert."
+
+REFERENCE           SABER_STANCE
+LANG_ENGLISH        "Cosmetic Saber Stance:"
+LANG_GERMAN         "Kosmetische Schwerthaltung:"
+
+REFERENCE           SABER_STANCE_DESC
+LANG_ENGLISH        "Use unique character stances (some stances may make you vulnerable)."
+LANG_GERMAN         "Verwende einzigartige Charakterhaltungen (einige Haltungen koennen dich verwundbar machen)."
+
+REFERENCE           SABER_ATTACK_SPEED
+LANG_ENGLISH        "Saber Attack Speed:"
+LANG_GERMAN         "Lichtschwert-Angriffstempo:"
+
+REFERENCE           SABER_ATTACK_SPEED_DESC
+LANG_ENGLISH        "MD Mode slightly reduces saber swing speeds to increase blocking reaction time."
+LANG_GERMAN         "Der MD-Modus reduziert die Geschwindigkeit des Lichtschwertschwungs leicht, um die Blockreaktionszeit zu erhoehen."
+
+REFERENCE           SABER_DAMAGE_SYSTEM
+LANG_ENGLISH        "Saber Damage System:"
+LANG_GERMAN         "Schwert Schadenssystem:"
+
+REFERENCE           SABER_DAMAGE_SYSTEM_DESC
+LANG_ENGLISH        "Set the system used to calculate saber damage."
+LANG_GERMAN         "Setzt das genutzte System, um den Schwertschaden zu berechnen."
+
+REFERENCE           SLOWMO_SELECTION
+LANG_ENGLISH        "Slowmo Selection:"
+LANG_GERMAN         "Slowmo-Auswahl:"
+
+REFERENCE           SLOWMO_SELECTION_DESC
+LANG_ENGLISH        "Slows down time when scrolling between weapons, items or force powers."
+LANG_GERMAN         "Verlangsamt die Zeit, zwischen Waffen, Gegenstaenden oder Machtkraeften zu wechseln."
+
+REFERENCE           AUTO_HEALTH_REGEN
+LANG_ENGLISH        "Auto-Health Regeneration:"
+LANG_GERMAN         "Automatische Gesundheitsregeneration:"
+
+REFERENCE           AUTO_HEALTH_REGEN_DESC
+LANG_ENGLISH        "Set if your character will automatically replenish health (users with FP_HEAL 3)."
+LANG_GERMAN         "Lege fest, ob der Charakter automatisch Gesundheit wiederherstellt (Benutzer mit FP_HEAL 3)."
+
+REFERENCE           PLAYER_HEALTH_SYNC
+LANG_ENGLISH        "Default Health:"
+LANG_GERMAN         "Standard-Gesundheit:"
+
+REFERENCE           PLAYER_HEALTH_SYNC_DESC
+LANG_ENGLISH        "Use the default 100 health or the health of the selected character."
+LANG_GERMAN         "Verwende die Standardgesundheit von 100 oder die Gesundheit des gewaehlten Charakters."
+
+REFERENCE           ADVANCED_LOD
+LANG_ENGLISH        "Advanced LOD:"
+LANG_GERMAN         "Erweitertes LOD:"
+
+REFERENCE           ADVANCED_LOD_DESC
+LANG_ENGLISH        "Increases level of detail."
+LANG_GERMAN         "Erhoeht den Detaillierungsgrad."
+
+REFERENCE           AMD_FIX
+LANG_ENGLISH        "AMD GPU Support:"
+LANG_GERMAN         "#same"
+
+REFERENCE           AMD_FIX_DESC
+LANG_ENGLISH        "Enables OpenGL support for AMD graphic cards."
+LANG_GERMAN         "Aktiviert OpenGL-Support fuer AMD Grafikkarten."
+
+REFERENCE           ROLL_SOUND
+LANG_ENGLISH        "Roll Sound:"
+LANG_GERMAN         "#same"
+
+REFERENCE           ROLL_SOUND_DESC
+LANG_ENGLISH        "Sets whether roll sounds are played."
+LANG_GERMAN         "Legt fest, ob roll sounds gespielt werden."
+
+REFERENCE           JUMP_SOUND
+LANG_ENGLISH        "Jump Sound:"
+LANG_GERMAN         "Sprung Sound:"
+
+REFERENCE           JUMP_SOUND_DESC
+LANG_ENGLISH        "Sets whether jump sounds are played."
+LANG_GERMAN         "Legt fest, ob sprung-sounds gespielt werden"
+
+REFERENCE           PLAY_ALL
+LANG_ENGLISH        "Play All"
+LANG_GERMAN         "Alle abspielen"
+
+REFERENCE           OTHER_PLAYERS_ONLY
+LANG_ENGLISH        "Other Players Only"
+LANG_GERMAN         "Nur andere Spieler"
+
+REFERENCE           PLAYER_ONLY
+LANG_ENGLISH        "Player Only"
+LANG_GERMAN         "Nur Spieler"
+
+REFERENCE           RENDERER_REND2
+LANG_ENGLISH        "Rend2:"
+LANG_GERMAN         "#same"
+
+REFERENCE           RENDERER_REND2_DESC
+LANG_ENGLISH        "Introduces new rendering techniques, improving visuals and performance."
+LANG_GERMAN         "Fuehrt neue Rendering-Techniken ein und verbessert die Optik und Leistung."
+
+REFERENCE           ANTIALIASING
+LANG_ENGLISH        "Antialiasing:"
+LANG_GERMAN         "Kantenglaettung:"
+
+REFERENCE           ANTIALIASING_DESC
+LANG_ENGLISH        "Antialiasing."
+LANG_GERMAN         "Kantenglaettung."
+
+REFERENCE           HDR
+LANG_ENGLISH        "HDR:"
+LANG_GERMAN         "#same"
+
+REFERENCE           HDR_DESC
+LANG_ENGLISH        "Rendering in HDR (High Dynamic Range) Colorspace."
+LANG_GERMAN         "Rendern im HDR (High Dynamic Range)-Farbraum."
+
+REFERENCE           TONEMAPPING
+LANG_ENGLISH        "Tonemapping:"
+LANG_GERMAN         "Tonzuordnung:"
+
+REFERENCE           TONEMAPPING_DESC
+LANG_ENGLISH        "Tonemapping."
+LANG_GERMAN         "Aktiviert Tonzuordnung."
+
+REFERENCE           AUTOEXPOSURE
+LANG_ENGLISH        "Autoexposure:"
+LANG_GERMAN         "Automatische Belichtung:"
+
+REFERENCE           AUTOEXPOSURE_DESC
+LANG_ENGLISH        "Enables automatic exposure based on scene brightness."
+LANG_GERMAN         "Ermoeglicht die automatische Belichtung basierend auf der Szenenhelligkeit."
+
+REFERENCE           HDR_LIGHTING_SUPPORT
+LANG_ENGLISH        "HDR Lighting Support:"
+LANG_GERMAN         "Unterstuetzung fuer HDR-Beleuchtung:"
+
+REFERENCE           HDR_LIGHTING_SUPPORT_DESC
+LANG_ENGLISH        "Loads HDR lighting data (Requires rend2 lighting data)."
+LANG_GERMAN         "Laedt HDR-Beleuchtungsdaten (erfordert Rend2-Beleuchtungsdaten)."
+
+REFERENCE           DELUXEMAPPING
+LANG_ENGLISH        "Deluxemapping:"
+LANG_GERMAN         "Deluxe-Mapping:"
+
+REFERENCE           DELUXEMAPPING_DESC
+LANG_ENGLISH        "Enables normalmapping and specularmapping on static geometry."
+LANG_GERMAN         "Ermoeglicht Normalmapping und Specularmapping auf statischer Geometrie."
+
+REFERENCE           DELUXEMAPPING_SPECULAR
+LANG_ENGLISH        "Deluxemap Specular:"
+LANG_GERMAN         "#same"
+
+REFERENCE           DELUXEMAPPING_SPECULAR_DESC
+LANG_ENGLISH        "Scale the specular response from deluxemaps."
+LANG_GERMAN         "Skaliert die Spiegelreaktion von Deluxemaps."
+
+REFERENCE           CUBEMAPPING
+LANG_ENGLISH        "Cubemapping:"
+LANG_GERMAN         "#same"
+
+REFERENCE           CUBEMAPPING_DESC
+LANG_ENGLISH        "Render cubemaps for reflections."
+LANG_GERMAN         "Rendert Cubemaps fuer Reflexionen."
+
+REFERENCE           CUBEMAPPING_BOUNCES
+LANG_ENGLISH        "Cubemapping Bounces:"
+LANG_GERMAN         "Cubemapping Spruenge:"
+
+REFERENCE           CUBEMAPPING_BOUNCES_DESC
+LANG_ENGLISH        "How many reflection bounces to render in cubemaps."
+LANG_GERMAN         "Wie viele Reflexionsspruenge in Cubemaps gerendert werden sollen."
+
+REFERENCE           PARALLAX_OCCLUSION_MAPPING
+LANG_ENGLISH        "Parallax Occlusion Mapping:"
+LANG_GERMAN         "#same"
+
+REFERENCE           PARALLAX_OCCLUSION_MAPPING_DESC
+LANG_ENGLISH        "Parallax Occlusion Mapping (Requires rend2 materials)."
+LANG_GERMAN         "Parallax Occlusion Mapping (Rend2-Materialien erforderlich)."
+
+REFERENCE           GENERATE_NORMALMAPS
+LANG_ENGLISH        "Generate Normalmaps:"
+LANG_GERMAN         "Normalmaps generieren:"
+
+REFERENCE           GENERATE_NORMALMAPS_DESC
+LANG_ENGLISH        "Generate normalmaps from diffuse textures."
+LANG_GERMAN         "Generiert Normalkarten aus diffusen Texturen."
+
+REFERENCE           SSAO
+LANG_ENGLISH        "SSAO:"
+LANG_GERMAN         "#same"
+
+REFERENCE           SSAO_DESC
+LANG_ENGLISH        "Screenspace ambient occlusion."
+LANG_GERMAN         "Umgebungsokklusion im Bildschirmbereich."
+
+REFERENCE           DYNAMIC_GLOW_BLOOM
+LANG_ENGLISH        "Bloom:"
+LANG_GERMAN         "#same"
+
+REFERENCE           DYNAMIC_GLOW_BLOOM_DESC
+LANG_ENGLISH        "Scale a bloom effect on top of dynamic glow."
+LANG_GERMAN         "Skaliere einen Bloom-Effekt ueber dynamischem Leuchten."
+
+REFERENCE           MSAA
+LANG_ENGLISH        "MSAA:"
+LANG_GERMAN         "#same"
+
+REFERENCE           MSAA_DESC
+LANG_ENGLISH        "Enables MSAA antialiasing (SMAA should not be used at the same time)."
+LANG_GERMAN         "Aktiviert MSAA-Antialiasing (SMAA sollte nicht gleichzeitig verwendet werden)."
+
+REFERENCE           SMAA
+LANG_ENGLISH        "SMAA:"
+LANG_GERMAN         "#same"
+
+REFERENCE           SMAA_DESC
+LANG_ENGLISH        "Enables SMAA antialiasing (MSAA should not be used at the same time)."
+LANG_GERMAN         "Aktiviert SMAA-Antialiasing (MSAA sollte nicht gleichzeitig verwendet werden)."
+
+REFERENCE           SMAA_QUALITY
+LANG_ENGLISH        "SMAA Quality:"
+LANG_GERMAN         "SMAA Qualitaet:"
+
+REFERENCE           SMAA_QUALITY_DESC
+LANG_ENGLISH        "Set SMAA quality."
+LANG_GERMAN         "SMAA Qualitaet einstellen."
+
+REFERENCE           VOLUMETRIC_FOG
+LANG_ENGLISH        "Volumetric Fog:"
+LANG_GERMAN         "Raeumlicher Nebel:"
+
+REFERENCE           VOLUMETRIC_FOG_DESC
+LANG_ENGLISH        "Enables lightgrid lighting on fog volumes."
+LANG_GERMAN         "Aktiviert Lichtgitterbeleuchtung auf Nebelflaechen."
+
+REFERENCE           DYNAMIC_LIGHTS
+LANG_ENGLISH        "Dynamic Lights:"
+LANG_GERMAN         "Dynamisches Leuchten:"
+
+REFERENCE           DYNAMIC_LIGHTS_DESC
+LANG_ENGLISH        "Change how dynamic lights look."
+LANG_GERMAN         "Waehle aus, wie dynamisches Leuchten aussieht."
+
+REFERENCE           DYNAMIC_LIGHTS_ON
+LANG_ENGLISH        "On - No Shadows"
+LANG_GERMAN         "An - Keine Schatten"
+
+REFERENCE           DYNAMIC_LIGHTS_ON2
+LANG_ENGLISH        "On - With Shadows"
+LANG_GERMAN         "An - Mit Schatten"
+
+REFERENCE           CAMERA_EXPOSURE
+LANG_ENGLISH        "Camera Exposure:"
+LANG_GERMAN         "Kamerabelichtung:"
+
+REFERENCE           CAMERA_EXPOSURE_DESC
+LANG_ENGLISH        "Alter brightness."
+LANG_GERMAN         "Helligkeit aendern."
+
+REFERENCE           FORCE_SUN
+LANG_ENGLISH        "Force Sun:"
+LANG_GERMAN         "Sonne erzwingen:"
+
+REFERENCE           FORCE_SUN_DESC
+LANG_ENGLISH        "Enables sunlight and real-time cascaded shadows (Disable volumetric shadows)."
+LANG_GERMAN         "Aktiviert Sonnenlicht und Echtzeit-Kaskadenschatten (Volumetrische Schatten deaktivieren)."
+
+//----------------------------------------------------------
+// 	h2: CONTROLS
+//----------------------------------------------------------
+
+REFERENCE           CONFIGURE_CONTROLS
+LANG_ENGLISH        "CONFIGURE CONTROLS"
+LANG_GERMAN         "STEUERUNG KONFIGURIEREN"
+
+REFERENCE           MANUAL_BLOCK
+LANG_ENGLISH        "Manual Block:"
+LANG_GERMAN         "Manuelles Blocken:"
+
+REFERENCE           MANUAL_BLOCK_DESC
+LANG_ENGLISH        "MD/MDA Mode only. Hold with attack to control direction. Hold when running to sprint."
+LANG_GERMAN         "Nur MD/MDA-Modus. Halte mit der Angriffstaste gedrueckt, um die Richtung zu steuern. Halte es beim Laufen zum Sprinten."
+
+REFERENCE           KICK
+LANG_ENGLISH        "Kick:"
+LANG_GERMAN         "Tritt:"
+
+REFERENCE           KICK_DESC
+LANG_ENGLISH        "Kick with a weapon in hand."
+LANG_GERMAN         "Tritt mit einer Waffe in der Hand."
+
+REFERENCE           SABERDOWN
+LANG_ENGLISH        "Saber On / Off:"
+LANG_GERMAN         "Lichtschwert An / Aus"
+
+REFERENCE           SABERDOWN_DESC
+LANG_ENGLISH        "Activates/deactivates a lightsaber."
+LANG_GERMAN         "Aktiviert / Deaktiviert ein Lichtschwert."
+
+REFERENCE           SINGLE_DUAL_PISTOLS
+LANG_ENGLISH        "Single/Dual Pistols:"
+LANG_GERMAN         "Einzel-/Doppelpistolen:"
+
+REFERENCE           SINGLE_DUAL_PISTOLS_DESC
+LANG_ENGLISH        "Change between single and dual pistols. Re-equip pistol to take effect."
+LANG_GERMAN         "Wechsel zwischen Einzel- und Doppelpistolen. Pistole neu ausruesten, um wirksam zu machen."
+
+REFERENCE           RELOAD_WEAPON
+LANG_ENGLISH        "Saber On/Off & Weapon Reload:"
+LANG_GERMAN         "Lichtschwert ein-/ausschalten & Waffe nachladen:"
+
+REFERENCE           RELOAD_WEAPON_DESC
+LANG_ENGLISH        "Turns on/off lightsaber, reloads weapon, and recharges when weapon overheats."
+LANG_GERMAN         "Schaltet das Lichtschwert ein/aus, laedt die Waffe nach und laedt sie auf, wenn die Waffe ueberhitzt."
+
+REFERENCE           USES_FORCE_DESTRUCTION_ABILITY
+LANG_ENGLISH        "Uses Force Destruction Ability."
+LANG_GERMAN         "Verwendet Machtzerstoerungs-Faehigkeit."
+
+REFERENCE           USES_FORCE_STASIS_ABILITY
+LANG_ENGLISH        "Uses Force Stasis Ability."
+LANG_GERMAN         "Verwendet Machtstasis-Faehigkeit"
+
+REFERENCE           USES_FORCE_DEADLYSIGHT_ABILITY
+LANG_ENGLISH        "Uses Force Deadly Sight Ability."
+LANG_GERMAN         "Verwendet Macht-Toedlicher Anblick-Faehigkeit"
+
+REFERENCE           USES_FORCE_FEAR_ABILITY
+LANG_ENGLISH        "Uses Force Fear Ability."
+LANG_GERMAN         "Verwendet Macht-Gespuer-Faehigkeit"
+
+REFERENCE           USES_FORCE_JUDGEMENT_ABILITY
+LANG_ENGLISH        "Uses Force Judgement Ability."
+LANG_GERMAN         "Verwendet Macht-Urteil-Faehigkeit"
+
+REFERENCE           USES_FORCE_REPULSE_ABILITY
+LANG_ENGLISH        "Uses Force Repulse Ability."
+LANG_GERMAN         "Verwendet -Faehigkeit"
+
+REFERENCE           USES_FORCE_GRASP_ABILITY
+LANG_ENGLISH        "Uses Force Grasp Ability."
+LANG_GERMAN         "Verwendet Macht-Abwehr-Faehigkeit"
+
+REFERENCE           USES_FORCE_BLAST_ABILITY
+LANG_ENGLISH        "Uses Force Blast Ability."
+LANG_GERMAN         "Verwendet Macht-Vernichtung-Faehigkeit"
+
+REFERENCE           USES_FORCE_PROJECTION_ABILITY
+LANG_ENGLISH        "Uses Force Projection Ability."
+LANG_GERMAN         "Verwendet Macht-Projektion-Faehigkeit"
+
+REFERENCE           SABER_MENU
+LANG_ENGLISH        "Saber Menu:"
+LANG_GERMAN         "Lichtschwertmenue:"
+
+REFERENCE           SABER_MENU_DESC
+LANG_ENGLISH        "Opens saber customization menu."
+LANG_GERMAN         "Oeffnet das Lichtschwert-Anpassungsmenue."
+
+REFERENCE           CHARACTER_MENU
+LANG_ENGLISH        "Character Menu:"
+LANG_GERMAN         "Charakter-Menue:"
+
+REFERENCE           CHARACTER_MENU_DESC
+LANG_ENGLISH        "Opens character menu."
+LANG_GERMAN         "Oeffnet das Charakter-Menue."
+
+REFERENCE           NPC_SPAWN_MENU
+LANG_ENGLISH        "NPC Spawn Menu:"
+LANG_GERMAN         "NSC Spawn-Menue:"
+
+REFERENCE           NPC_SPAWN_MENU_DESC
+LANG_ENGLISH        "Opens NPC spawn menu."
+LANG_GERMAN         "Oeffnet das NSC Spawn-Menue."
+
+REFERENCE           NPC_COMMANDS_MENU
+LANG_ENGLISH        "NPC Commands Menu:"
+LANG_GERMAN         "NSC Befehls-Menue:"
+
+REFERENCE           NPC_COMMANDS_MENU_DESC
+LANG_ENGLISH        "Opens NPC Commands menu."
+LANG_GERMAN         "Oeffnet das NSC Befehls-Menue."
+
+REFERENCE           NPC_SPAWN_RECENT
+LANG_ENGLISH        "NPC Spawn Recent:"
+LANG_GERMAN         "Zuletzt gespawnter NSC:"
+
+REFERENCE           NPC_SPAWN_RECENT_DESC
+LANG_ENGLISH        "Spawns The Last Spawned NPC."
+LANG_GERMAN         "Spawnt den zuletzt gespawnten NSC."
+
+REFERENCE           NPC_RECENT_COMMAND
+LANG_ENGLISH        "NPC Recent Command:"
+LANG_GERMAN         "Letzter NSC-Befehl:"
+
+REFERENCE           NPC_RECENT_COMMAND_DESC
+LANG_ENGLISH        "Executes The Last Used NPC Command On The Currently Selected NPC."
+LANG_GERMAN         "Fuehrt den zuletzt verwendeten NSC-Befehl aus, der derzeit ausgewaehlt ist."
+
+REFERENCE           FREEZE_NPCS
+LANG_ENGLISH        "Freeze NPCs:"
+LANG_GERMAN         "NSCs einfrieren:"
+
+REFERENCE           FREEZE_NPCS_DESC
+LANG_ENGLISH        "Toggles NPC freeze."
+LANG_GERMAN         "Schaltet NPC einfrieren an/aus."
+
+REFERENCE           WALK_RUN
+LANG_ENGLISH        "Always Run Toggle:"
+LANG_GERMAN         "Immer Rennen:"
+
+REFERENCE           WALK_RUN_DESC
+LANG_ENGLISH        "Toggle between always walking and running."
+LANG_GERMAN         "Wechsel zwischen immer Gehen und Laufen."
+
+REFERENCE           SURRENDER
+LANG_ENGLISH        "Surrender:"
+LANG_GERMAN         "Aufgeben:"
+
+REFERENCE           SURRENDER_DESC
+LANG_ENGLISH        "Hold for 2 Seconds to Surrender to enemies."
+LANG_GERMAN         "2 Sekunden halten, um sich den Feinden zu ergeben."
+
+REFERENCE           COMBAT_STANCE
+LANG_ENGLISH        "Combat Stance:"
+LANG_GERMAN         "Kampfhaltung:"
+
+REFERENCE           COMBAT_STANCE_DESC
+LANG_ENGLISH        "Triggers your character to go into a ready stance."
+LANG_GERMAN         "Befielt deinen Charakter, eine Bereitschaftsstellung einzunehmen."
+
+REFERENCE            WEAPON_WHEEL
+LANG_ENGLISH        "Weapon Wheel:"
+LANG_GERMAN         "Waffenrad"
+
+REFERENCE           WEAPON_WHEEL_DESC
+LANG_ENGLISH        "Opens the weapon wheel to equip a weapon."
+LANG_GERMAN         "Oeffnet das Waffenrad, um eine Waffe auszuruesten."
+
+REFERENCE           FORCE_WHEEL
+LANG_ENGLISH        "Force Power Wheel:"
+LANG_GERMAN         "Machtkraftrad"
+
+REFERENCE           FORCE_WHEEL_DESC
+LANG_ENGLISH        "Opens the force power wheel to equip a force power."
+LANG_GERMAN         "Oeffnet das Machtkraftrad, um eine Machtkraft auszuruesten."
+
+//----------------------------------------------------------
+// 	h3: MULTIPLAYER SETTINGS & CONTROLS
+//----------------------------------------------------------
+
+REFERENCE           AWARD_SOUNDS
+LANG_ENGLISH        "Award Sounds:"
+LANG_GERMAN         "Belohnungs-Sounds:"
+
+REFERENCE           AWARD_SOUNDS_DESC
+LANG_ENGLISH        "Enables award sounds."
+LANG_GERMAN         "Aktiviere Belohnungs-Sounds."
+
+REFERENCE           DRAW_TIMER
+LANG_ENGLISH        "Draw Timer:"
+LANG_GERMAN         "Timer anzeigen:"
+
+REFERENCE           DRAW_TIMER_DESC
+LANG_ENGLISH        "Draws game timer."
+LANG_GERMAN         "Zeigt den Spiel-Timer."
+
+REFERENCE	    LAGOMETER
+LANG_ENGLISH	    "Display Lag Meter:"
+LANG_GERMAN         "Lag-Meter anzeigen:"
+
+REFERENCE	    LAGOMETER_DESC
+LANG_ENGLISH	    "Displays lag meter."
+LANG_GERMAN         "Zeigt das Lag-Meter an."
+
+REFERENCE           3RD_PERSON_INVERT_GUNS
+LANG_ENGLISH        "3rd Person Invert Guns:"
+LANG_GERMAN         "3rd Person Waffen invertieren:"
+
+REFERENCE           3RD_PERSON_INVERT_GUNS_DESC
+LANG_ENGLISH        "Determines how the current third/first person setting affects guns."
+LANG_GERMAN         "Bestimmt, wie sich die aktuelle Third-/First-Person-Einstellung auf Waffen auswirkt."
+
+REFERENCE	    TRUEINVERTSABER
+LANG_ENGLISH	    "3rd Person Invert:"
+LANG_GERMAN         "3rd Person Invertieren:"
+
+REFERENCE	    TRUEINVERTSABER_DESC
+LANG_ENGLISH	    "Determines how the current third/first person setting affects sabers, melee and guns."
+LANG_GERMAN         "Bestimmt, wie sich die aktuelle Third-/First-Person-Einstellung auf Schwert, Nahkampf und Waffen auswirkt."
+
+REFERENCE	    TRUEINVERTSABERSAME
+LANG_ENGLISH	    "All Same"
+LANG_GERMAN         "Alle gleich"
+
+REFERENCE	    TRUEINVERTSABERINVERT 
+LANG_ENGLISH	    "Saber/Melee Inverted"
+LANG_GERMAN         "Schwert/Nahkampf Invertiert"
+
+REFERENCE	    TRUEINVERTSABERALWAYSTHIRDPERSON
+LANG_ENGLISH	    "Sabers/Melee Always 3rd Person"
+LANG_GERMAN         "Schwerter/Nahkampf immer als 3rd Person"
+
+REFERENCE           DEATH_FX
+LANG_ENGLISH        "Death FX:"
+LANG_GERMAN         "Todeseffekte:"
+
+REFERENCE           DEATH_FX_DESC
+LANG_ENGLISH        "Enables effect to play on death."
+LANG_GERMAN         "Aktiviert Effekte, die beim Tod abgespielt werden."
+
+REFERENCE           FRIENDLY_FIRE
+LANG_ENGLISH        "Friendly Fire:"
+LANG_GERMAN         "Eigenbeschuss:"
+
+REFERENCE           FRIENDLY_FIRE_DESC
+LANG_ENGLISH        "Allows teammates to take damage."
+LANG_GERMAN         "Erlaubt Teammitgliedern, Schaden zu nehmen"
+
+REFERENCE           PRIVATE_DUELS
+LANG_ENGLISH        "Private Duels:"
+LANG_GERMAN         "Private Duelle:"
+
+REFERENCE           PRIVATE_DUELS_DESC
+LANG_ENGLISH        "Enables private duels."
+LANG_GERMAN         "Aktiviert private Duelle."
+
+REFERENCE           MULTIPLE
+LANG_ENGLISH        "Multiple"
+LANG_GERMAN         "Mehrere"
+
+REFERENCE           BOT_DUELS
+LANG_ENGLISH        "Bot Duels:"
+LANG_GERMAN         "Bot Duelle:"
+
+REFERENCE           BOT_DUELS_DESC
+LANG_ENGLISH        "Allows bots to accept duels."
+LANG_GERMAN         "Erlaubt Bots, Duelle zu akzeptieren."
+
+REFERENCE           DRAW_NAMES
+LANG_ENGLISH        "Draw Enemy Names:"
+LANG_GERMAN         "Namen der Gegner anzeigen:"
+
+REFERENCE           DRAW_NAMES_DESC
+LANG_ENGLISH        "Sets whether player's/bot's names will appear when highlighted in the crosshair."
+LANG_GERMAN         "Legt fest, ob Namen von Spielern/Bots angezeigt werden sollen, wenn sie anvisiert sind."
+
+REFERENCE           GRAPPLING_HOOK
+LANG_ENGLISH        "Grappling Hook:"
+LANG_GERMAN         "Enterhaken:"
+
+REFERENCE           GRAPPLING_HOOK_DESC
+LANG_ENGLISH        "Fire Grappling Hook."
+LANG_GERMAN         "Enterhaken abfeuern."
+
+REFERENCE           DASH
+LANG_ENGLISH        "Dash:"
+LANG_GERMAN         "#same"
+
+REFERENCE           DASH_DESC
+LANG_ENGLISH        "Perform a speed Dash manover."
+LANG_GERMAN         "Fuehre ein Speed-Dash-Manoever durch."
+
+REFERENCE           RECORD_DEMO
+LANG_ENGLISH        "Record Demo:"
+LANG_GERMAN         "Demo aufzeichnen:"
+
+REFERENCE           RECORD_DEMO_DESC
+LANG_ENGLISH        "Start a new demo recording."
+LANG_GERMAN         "Beginnt eine neue Demo Aufzeichnung."
+
+REFERENCE           STOP_RECORDING
+LANG_ENGLISH        "Stop Recording:"
+LANG_GERMAN         "Aufzeichnung beenden:"
+
+REFERENCE           STOP_RECORDING_DESC
+LANG_ENGLISH        "Stop recording demo."
+LANG_GERMAN         "Beendet die Demo Aufzeichnung."
+
+ENDMARKER
+
+
+

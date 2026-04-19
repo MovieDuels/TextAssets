@@ -1,0 +1,84 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLE1
+LANG_ENGLISH        "I should congratulate you. Reaching the heart of the temple is not an easy journey."
+LANG_GERMAN         "Ich sollte dir gratulieren. Das Herz des Tempels zu erreichen, ist keine leichte Reise."
+
+REFERENCE           KYLE2
+LANG_ENGLISH        "By finding me, you have chosen your destiny. You have travelled far... Now take the final step on the path that lies before you."
+LANG_GERMAN         "Indem du mich gefunden hast, hast du dein Schicksal gewaehlt. Du bist weit gereist... Nun mach den letzten Schritt auf dem Weg, der vor dir liegt."
+
+REFERENCE           KYLE3
+LANG_ENGLISH        "Join me and together we will restore the Sith to its former glory."
+LANG_GERMAN         "Schliess dich mir an und gemeinsam werden wir den Sith zu ihrem frueheren Glanz verhelfen."
+
+REFERENCE           KYLE4
+LANG_ENGLISH        "There is no conflict... Only resolve."
+LANG_GERMAN         "Es gibt keinen Konflikt... Nur Entschlossenheit."
+
+REFERENCE           KYLE5
+LANG_ENGLISH        "The path of your destiny is now set and you have but 2 choices."
+LANG_GERMAN         "Der Weg deines Schicksals ist jetzt festgelegt und du hast nur 2 Moeglichkeiten."
+
+REFERENCE           KYLE6
+LANG_ENGLISH        "Cross the bridge before you and join me or maintain your pitiful faith in the force by stepping off into oblivion and death."
+LANG_GERMAN         "Ueberquere die Bruecke vor dir und schliesse dich mir an oder bewahre deinen erbaermlichen Glauben an die Macht, indem du in Vergessenheit und Tod gehst."
+
+REFERENCE           KYLE7
+LANG_ENGLISH        "Impressive! Now test yourself against ME!"
+LANG_GERMAN         "Beeindruckend! Teste dich jetzt gegen MICH!"
+
+REFERENCE           KYLE7B
+LANG_ENGLISH        "I know your intentions are to save me Mara, but it's far too late now."
+LANG_GERMAN         "Ich weiss, du willst mich retten, Mara, aber jetzt ist es viel zu spaet."
+
+REFERENCE           KYLE8
+LANG_ENGLISH        "You are foolish and for that, you will die!"
+LANG_GERMAN         "Du bist dumm und dafuer wirst du sterben!"
+
+REFERENCE           KYLE9
+LANG_ENGLISH        "I can't! Nooooo! I won't do this."
+LANG_GERMAN         "Ich kann nicht! Neeeein! Ich werde dies nicht tun."
+
+REFERENCE           KYLE10
+LANG_ENGLISH        "This is not the way... It asks too much of me! I can't kill my friends and allies."
+LANG_GERMAN         "Das ist nicht der Weg... Das verlangt zu viel von mir! Ich kann meine Freunde und Verbuendeten nicht toeten."
+
+REFERENCE           KYLE11
+LANG_ENGLISH        "I was deluded too easily... I thought I could control the power, instead, I lost myself to it. I've failed."
+LANG_GERMAN         "Ich wurde zu leicht getaeuscht... Ich dachte, ich koennte die Macht kontrollieren, stattdessen verlor ich mich daran. Ich habe versagt."
+
+REFERENCE           KYLE12
+LANG_ENGLISH        "So now I suppose you are the teacher and I am the student."
+LANG_GERMAN         "Ich nehme an, Ihr seid der Lehrer und ich der Schueler."
+
+REFERENCE           MARA1
+LANG_ENGLISH        "No, that will never happen! I will kill you if I must but I sense you will not make that necessary."
+LANG_GERMAN         "Nein, das wird nie passieren! Ich werde dich toeten, wenn ich muss, aber ich spuere, dass du das nicht noetig machen wirst."
+
+REFERENCE           MARA2
+LANG_ENGLISH        "No, you can't. Trust in your feelings."
+LANG_GERMAN         "Nein, das kannst du nicht. Vertraue auf deine Gefuehle."
+
+REFERENCE           MARA3
+LANG_ENGLISH        "You haven't failed Kyle."
+LANG_GERMAN         "Du hast in Kyle nicht versagt."
+
+REFERENCE           MARA4
+LANG_ENGLISH        "You should be so lucky. Come on let's go home."
+LANG_GERMAN         "Ihr solltet so gluecklich sein. Komm lass uns nach Hause gehen."
+
+ENDMARKER

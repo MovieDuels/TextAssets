@@ -1,0 +1,228 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           AHSOKA1
+LANG_ENGLISH        "Master?"
+LANG_GERMAN         "Meister?"
+
+REFERENCE           AHSOKA2
+LANG_ENGLISH        "Anakin."
+LANG_GERMAN         "#same"
+
+REFERENCE           AHSOKA3
+LANG_ENGLISH        "You look the same."
+LANG_GERMAN         "Ihr seht noch so aus wie frueher."
+
+REFERENCE           AHSOKA4
+LANG_ENGLISH        "Well, that happens."
+LANG_GERMAN         "Ja, sowas kommt vor."
+
+REFERENCE           AHSOKA5
+LANG_ENGLISH        "Actually what happened?"
+LANG_GERMAN         "Aber wie komme ich hier her?"
+
+REFERENCE           AHSOKA6
+LANG_ENGLISH        "I don't remember."
+LANG_GERMAN         "Nicht, dass ich wuesste."
+
+REFERENCE           AHSOKA7
+LANG_ENGLISH        "Baylan Skoll."
+LANG_GERMAN         "#same"
+
+REFERENCE           AHSOKA8
+LANG_ENGLISH        "Why?"
+LANG_GERMAN         "Warum?"
+
+REFERENCE           AHSOKA9
+LANG_ENGLISH        "Chance?"
+LANG_GERMAN         "Eine Chance?"
+
+REFERENCE           AHSOKA10
+LANG_ENGLISH        "Tell me what's going on."
+LANG_GERMAN         "Sagt es mir, was geht hier vor sich."
+
+REFERENCE           AHSOKA11
+LANG_ENGLISH        "It's a little late for that."
+LANG_GERMAN         "Ist es dafuer nicht ein bisschen Spaet."
+
+REFERENCE           AHSOKA12
+LANG_ENGLISH        "All right. What's the lesson, Master?"
+LANG_GERMAN         "Also gut. Wie lautet eure Lektion, Meister?"
+
+REFERENCE           AHSOKA13
+LANG_ENGLISH        "I won't fight you."
+LANG_GERMAN         "Ich kaempfe nicht mit Euch."
+
+REFERENCE           AHSOKA14
+LANG_ENGLISH        "Looks like you don't have that much to offer."
+LANG_GERMAN         "Scheint so als koenntet Ihr mir nichts mehr beibringen."
+
+REFERENCE           AHSOKA15
+LANG_ENGLISH        "[ Groaning ]"
+LANG_GERMAN         "[ Stoehnen ]"
+
+REFERENCE           AHSOKA16
+LANG_ENGLISH        "I choose to live!"
+LANG_GERMAN         "Ich entscheide mich zu leben!"
+
+REFERENCE           AHSOKA17
+LANG_ENGLISH        "This was the Siege of Mandalore. We've parted ways by now."
+LANG_GERMAN         "Das war die Belagerung von Mandalore. Da gingen wir schon getrennte Wege."
+
+REFERENCE           AHSOKA18
+LANG_ENGLISH        "It was."
+LANG_GERMAN         "Das wars."
+
+REFERENCE           AHSOKA19
+LANG_ENGLISH        "Is that all?"
+LANG_GERMAN         "Ist das alles?"
+
+REFERENCE           AHSOKA20
+LANG_ENGLISH        "But my part of that legacy is death and war."
+LANG_GERMAN         "Also besteht mein Teil dieses Vermaechtnisses aus Tod und Krieg."
+
+REFERENCE           AHSOKA21
+LANG_ENGLISH        "You are more Anakin... but more powerful and dangerous than anyone realised."
+LANG_GERMAN         "Ihr seid mehr, Anakin... aber viel staerker und gefaehrlicher als irgendwer ahnen konnte."
+
+REFERENCE           AHSOKA22
+LANG_ENGLISH        "If I'm everything you are..."
+LANG_GERMAN         "Wenn ich alles von Euch in mir trage..."
+
+REFERENCE           AHSOKA23
+LANG_ENGLISH        "Don't say that!"
+LANG_GERMAN         "Sagt das nicht!"
+
+REFERENCE           AHSOKA24
+LANG_ENGLISH        "No!"
+LANG_GERMAN         "Nein!"
+
+REFERENCE           AHSOKA25
+LANG_ENGLISH        "[ Groaning ]"
+LANG_GERMAN         "[ Stoehnen ]"
+
+REFERENCE           ANAKIN1
+LANG_ENGLISH        "Hello, Snips."
+LANG_GERMAN         "Hallo, Snips."
+
+REFERENCE           ANAKIN2
+LANG_ENGLISH        "I didn't expect to see you so soon."
+LANG_GERMAN         "Ich haette nicht erwartet, dich so bald zu sehen."
+
+REFERENCE           ANAKIN3
+LANG_ENGLISH        "You look old."
+LANG_GERMAN         "Du siehst alt aus."
+
+REFERENCE           ANAKIN4
+LANG_ENGLISH        "You lost a fight!"
+LANG_GERMAN         "Du hast einen Kampf verloren!"
+
+REFERENCE           ANAKIN5
+LANG_ENGLISH        "Trust me... you lost."
+LANG_GERMAN         "Glaub mir... du hast verloren."
+
+REFERENCE           ANAKIN6
+LANG_ENGLISH        "So you do remember."
+LANG_GERMAN         "Also erinnerst du dich doch."
+
+REFERENCE           ANAKIN7
+LANG_ENGLISH        "That's good."
+LANG_GERMAN         "Das ist gut."
+
+REFERENCE           ANAKIN8
+LANG_ENGLISH        "It means you still have a chance."
+LANG_GERMAN         "Das bedeutet du hast noch eine Chance."
+
+REFERENCE           ANAKIN9
+LANG_ENGLISH        "To live..."
+LANG_GERMAN         "Zu leben..."
+
+REFERENCE           ANAKIN10
+LANG_ENGLISH        "I'm here to finish your training."
+LANG_GERMAN         "Ich werde deine Ausbildung zuende bringen."
+
+REFERENCE           ANAKIN11
+LANG_ENGLISH        "One is never too old to learn, Snips."
+LANG_GERMAN         "Man ist nie zu alt, um noch etwas zu lernen, Snips."
+
+REFERENCE           ANAKIN12
+LANG_ENGLISH        "Live... or die!"
+LANG_GERMAN         "Leb... oder stirb!"
+
+REFERENCE           ANAKIN13
+LANG_ENGLISH        "I've heard that before."
+LANG_GERMAN         "Das hoere ich staendig."
+
+REFERENCE           ANAKIN14
+LANG_ENGLISH        "I haven't thaught you everything yet!"
+LANG_GERMAN         "Ich hab dir noch nicht alles beigebracht!"
+
+REFERENCE           ANAKIN15
+LANG_ENGLISH        "You lack conviction!"
+LANG_GERMAN         "Es mangelt dir an Ueberzeugung!"
+
+REFERENCE           ANAKIN16
+LANG_ENGLISH        "Time to die!"
+LANG_GERMAN         "Zeit zu sterben!"
+
+REFERENCE           ANAKIN17
+LANG_ENGLISH        "There's hope for you yet."
+LANG_GERMAN         "Es gibt doch noch Hoffnung fuer dich."
+
+REFERENCE           ANAKIN18
+LANG_ENGLISH        "I don't know this battle."
+LANG_GERMAN         "Diese Schlacht kenne ich nicht."
+
+REFERENCE           ANAKIN19
+LANG_ENGLISH        "Looks intense."
+LANG_GERMAN         "Sieht ziemlich schlimm aus."
+
+REFERENCE           ANAKIN20
+LANG_ENGLISH        "You did well."
+LANG_GERMAN         "Du hast dich gut geschlagen."
+
+REFERENCE           ANAKIN21
+LANG_ENGLISH        "You're a warrior now, as I trained you to be."
+LANG_GERMAN         "Aus dir ist eine Kriegerin geworden, dazu hab ich dich ausgebildet."
+
+REFERENCE           ANAKIN22
+LANG_ENGLISH        "Ahsoka, within you will be everything I am. All the knowledge I possess. Just as I inherited knowledge from my master and he from his. You're part of a legacy."
+LANG_GERMAN         "Ahsoka, du wirst alles in dir tragen, was ich bin. Jegliches Wissen, was ich besitze. Genauso wie ich das Wissen meines Meisters und er das von seinem. Du bist Teil eines Vermaechtnisses."
+
+REFERENCE           ANAKIN23
+LANG_ENGLISH        "But you're more than that, cause I'm more than that."
+LANG_GERMAN         "Aber du bist mehr als das, weil auch ich mehr als das bin."
+
+REFERENCE           ANAKIN24
+LANG_ENGLISH        "Is that what this is about?"
+LANG_GERMAN         "Es geht dir also darum?"
+
+REFERENCE           ANAKIN25
+LANG_ENGLISH        "You've learned nothing!"
+LANG_GERMAN         "Du hast nichts gelernt!"
+
+REFERENCE           ANAKIN26
+LANG_ENGLISH        "Back to the beginning."
+LANG_GERMAN         "Fangen wir nochmal von vorn an."
+
+REFERENCE           ANAKIN27
+LANG_ENGLISH        "I gave you a choice... Live... or die!"
+LANG_GERMAN         "Ich gab dir die Wahl... Leb... oder Stirb!"
+
+REFERENCE           ANAKIN28
+LANG_ENGLISH        "Incorrect."
+LANG_GERMAN         "Falsche Antwort."
+
+ENDMARKER

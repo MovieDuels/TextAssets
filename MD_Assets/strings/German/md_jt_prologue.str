@@ -1,0 +1,92 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "I agree."
+LANG_GERMAN         "Das ist wahr."
+
+REFERENCE           ANI1B
+LANG_ENGLISH        "The Council's next move, will be against the Senate."
+LANG_GERMAN         "Als Naechstes wird sich der Rat der Jedi gegen den Senat wenden."
+
+REFERENCE           ANI2
+LANG_ENGLISH        "I understand, Master."
+LANG_GERMAN         "Ich verstehe, Meister."
+
+REFERENCE           ANI3
+LANG_ENGLISH        "What about the other Jedi spread across the galaxy?"
+LANG_GERMAN         "Was ist mit den anderen Jedi, die ueberall in der Galaxis verstreut sind?"
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Because the Council did not trust you, my young apprentice.."
+LANG_GERMAN         "Weil der Rat dir nicht vertraut hat, mein junger Schueler.."
+
+REFERENCE           PAL1B
+LANG_ENGLISH        "I believe you are the only Jedi with no knowledge of this plot."
+LANG_GERMAN         "glaube ich, dass du der einzige Jedi bist, der sich in Unkenntnis dieser Verschwoerung befindet."
+
+REFERENCE           PAL1C
+LANG_ENGLISH        "When the Jedi learn what has transpired here, they will kill us, along with all the Senators."
+LANG_GERMAN         "Wenn die Jedi erfahren, was hier vorgefallen ist, dann werden sie uns toeten, zusammen mit allen Senatoren."
+
+REFERENCE           PAL2
+LANG_ENGLISH        "Every single Jedi, including your friend, Obi-Wan Kenobi.. is now an enemy of the Republic."
+LANG_GERMAN         "Jeder einzelne Jedi, einschliesslich deines Freundes, Obi-Wan Kenobi.. ist von nun an ein Feind der Republik."
+
+REFERENCE           PAL3
+LANG_ENGLISH        "We must move quickly. The Jedi are relentless. If they are not all destroyed, it will be civil war, without end."
+LANG_GERMAN         "Wir muessen umgehend handeln. Die Jedi kennen keine Gnade. Wenn sie nicht alle vernichtet werden, fuehrt dies zu einem endlosen Buergerkrieg."
+
+REFERENCE           PAL3B
+LANG_ENGLISH        "First, I want you to go to the Jedi Temple. We will catch them off balance."
+LANG_GERMAN         "Als Erstes moechte ich, dass du dich zum Tempel der Jedi begibst. Wir werden sie ueberraschen."
+
+REFERENCE           PAL3C
+LANG_ENGLISH        "Do what must be done, Lord Vader. Do not hesitate. Show no mercy."
+LANG_GERMAN         "Tu, was getan werden muss,Lord Vader. Zoegere nicht. Zeige kein Mitgefuehl."
+
+REFERENCE           PAL3D
+LANG_ENGLISH        "Only then, will you be strong enough with the Dark Side, to save Padme."
+LANG_GERMAN         "Erst dann wird die Dunkle Seite in dir stark genug sein, damit du Padmé retten kannst."
+
+REFERENCE           PAL4
+LANG_ENGLISH        "Their betrayal will be dealt with."
+LANG_GERMAN         "Sie werden fuer ihren Verrat buessen."
+
+REFERENCE           PAL4B
+LANG_ENGLISH        "After you have killed all the Jedi in the Temple, go to the Mustafar system. Wipe out Viceroy Gunray and the other Separatist leaders."
+LANG_GERMAN         "Nachdem du alle Jedi im Tempel getoetet hast, begibst du dich umgehend in das Mustafar-System. Dort vernichtest du Vizekoenig Gunray und die uebrigen Anfuehrer der Separatisten."
+
+REFERENCE           PAL4C
+LANG_ENGLISH        "Once more, the Sith will rule the galaxy!"
+LANG_GERMAN         "Wieder einmal werden die Sith die Herrscher ueber die Galaxis sein!"
+
+REFERENCE           PAL4D
+LANG_ENGLISH        "And.. we shall have.. peace."
+LANG_GERMAN         "Und.. dann werden wir ihn haben.. den Frieden."
+
+REFERENCE           PAL5
+LANG_ENGLISH        "The time has come."
+LANG_GERMAN         "Die Zeit ist gekommen."
+
+REFERENCE           PAL5B
+LANG_ENGLISH        "Execute Order Sixty-Six."
+LANG_GERMAN         "Fuehrt die Order 66 aus."
+
+REFERENCE           COD1
+LANG_ENGLISH        "Yes, my lord."
+LANG_GERMAN         "Ja, mein Lord."
+
+ENDMARKER

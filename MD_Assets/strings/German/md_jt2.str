@@ -1,0 +1,32 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI4
+LANG_ENGLISH        "That will bring any surviving Jedi home, where I will be waiting for them."
+LANG_GERMAN         "Das lockt die verbleibenden Jedi nach Hause, wo ich sie erwarten werde."
+
+REFERENCE           ANI5
+LANG_ENGLISH        "You stay and protect the beacon. Guard it with your lives!"
+LANG_GERMAN         "Bewachen Sie das Signal. Mit Ihrem Leben!"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "Serra.. Cin Drallig's greatest pupil has come to greet me."
+LANG_GERMAN         "Serra.. Ich werde von Cin Dralligs bestem Schueler begruesst."
+
+REFERENCE           KET1
+LANG_ENGLISH        "You shouldn't have come here!"
+LANG_GERMAN         "Ihr haettet nicht herkommen sollen!"
+
+ENDMARKER

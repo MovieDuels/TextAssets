@@ -1,0 +1,84 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "Did you come back to say you forgive me?"
+LANG_GERMAN         "Bist du zurueckgekehrt, weil du mir vergeben willst?"
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "To save my soul?"
+LANG_GERMAN         "Weil du mich retten willst?"
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "I'm sure you are!"
+LANG_GERMAN         "Da bin ich mir sicher!"
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "The Resistance is dead."
+LANG_GERMAN         "Der Widerstand ist tot."
+
+REFERENCE           KYLO5
+LANG_ENGLISH        "The war is over."
+LANG_GERMAN         "Der Krieg ist vorbei."
+
+REFERENCE           KYLO6
+LANG_ENGLISH        "And when I kill you, I will have killed the last Jedi."
+LANG_GERMAN         "Und wenn ich dich toete, dann toete ich damit den letzten Jedi."
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "I'll destroy her, and you, and all of it."
+LANG_GERMAN         "Ich werde sie vernichten, und dich, und einfach alles."
+
+REFERENCE           KYLO8
+LANG_ENGLISH        "No."
+LANG_GERMAN         "Nein."
+
+REFERENCE           KYLO9
+LANG_ENGLISH        "No!!!"
+LANG_GERMAN         "Nein!!!"
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "No."
+LANG_GERMAN         "Nein."
+
+REFERENCE           LUKE2
+LANG_ENGLISH        "I failed you, Ben."
+LANG_GERMAN         "Ich habe dich hintergangen, Ben."
+
+REFERENCE           LUKE3
+LANG_ENGLISH        "I'm Sorry."
+LANG_GERMAN         "Es tut mir leid."
+
+REFERENCE           LUKE4
+LANG_ENGLISH        "Amazing. Every word of what you just said was wrong."
+LANG_GERMAN         "Erstaunlich. Jedes Wort, das du ebend gesagt hast, war falsch."
+
+REFERENCE           LUKE5
+LANG_ENGLISH        "The Rebellion is reborn today. The war is just beginning."
+LANG_GERMAN         "Die Rebellion wurde heute wiedergeboren. Der Krieg hat gerade erst begonnen."
+
+REFERENCE           LUKE6
+LANG_ENGLISH        "And I will not be the last Jedi."
+LANG_GERMAN         "Und ich werde nicht der letzte Jedi sein."
+
+REFERENCE           LUKE7
+LANG_ENGLISH        "No. Strike me down in anger and I'll always be with you. Just like your father."
+LANG_GERMAN         "Nein. Auch wenn du mich toetest, erfuellt von Hass, werde ich immer bei dir sein. Genau wie dein Vater."
+
+REFERENCE           LUKE8
+LANG_ENGLISH        "See you around, kid."
+LANG_GERMAN         "Wir sehen uns, kleiner."
+
+ENDMARKER

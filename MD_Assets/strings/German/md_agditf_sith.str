@@ -1,0 +1,62 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           VAD1
+LANG_ENGLISH        "What is thy bidding, my master?"
+LANG_GERMAN         "Womit kann ich euch zu Diensten sein, mein Gebieter?"
+
+REFERENCE           VAD2
+LANG_ENGLISH        "I have felt it."
+LANG_GERMAN         "Auch ich empfinde das so."
+
+REFERENCE           VAD3
+LANG_ENGLISH        "How is that possible?"
+LANG_GERMAN         "Wie ist das moeglich?"
+
+REFERENCE           VAD4
+LANG_ENGLISH        "He's just a boy.\nObi-Wan can no longer help him."
+LANG_GERMAN         "Er ist nur ein Knabe.\nObi-Wan kann ihm nicht mehr helfen."
+
+REFERENCE           VAD5
+LANG_ENGLISH        "If he could be turned,\nhe would become a powerful ally."
+LANG_GERMAN         "Falls wir ihn fuer unsere Sache gewinnen,\nkoennte er zu einem machtvollen Verbuendeten werden."
+
+REFERENCE           VAD6
+LANG_ENGLISH        "He will join us or die, master."
+LANG_GERMAN         "Er wird zu uns uebertreten oder sterben, mein Gebieter."
+
+REFERENCE           PAL1
+LANG_ENGLISH        "There is a great disturbance in the Force."
+LANG_GERMAN         "Ich spuere eine starke Erschuetterung der Macht."
+
+REFERENCE           PAL2
+LANG_ENGLISH        "We have a new enemy, the young rebel who destroyed the Death Star.\nI have no doubt this boy is the offspring of Anakin Skywalker."
+LANG_GERMAN         "Wir haben einen neuen Feind. Den jungen Rebellen, der den Todesstern zerstoert hat.\nIch habe keinen Zweifel darin, dass er der Abkoemmling des Anakin Skywalker ist."
+
+REFERENCE           PAL3
+LANG_ENGLISH        "Search your feelings Lord Vader.\nYou will know it to be true. He could destory us."
+LANG_GERMAN         "Befragt eure innere Stimme, Lord Vader.\nIhr werdet die Wahrheit erkennen. Er koennte uns vernichten."
+
+REFERENCE           PAL4
+LANG_ENGLISH        "The Force is strong with him.\nThe son of Skywalker must not become a Jedi."
+LANG_GERMAN         "Die Macht wirkt stark in ihm.\nDer Sohn des Skywalker darf nicht zu einem Jedi werden."
+
+REFERENCE           PAL5
+LANG_ENGLISH        "Yes... He would be a great.. asset.\nCan it be done?"
+LANG_GERMAN         "Ja... Er waere von grossem Wert.. fuer uns.\nLaesst sich das bewerkstelligen?"
+
+
+
+ENDMARKER

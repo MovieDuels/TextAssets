@@ -1,0 +1,1244 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Movie Duels Menus"
+
+//----------------------------------------------------------
+//	-- CONTENTS/HEADINGS: --
+//
+//	- MAIN MENUS: -
+//	h1: OLD REPUBLIC
+//	h2: SITH EMPIRE
+//	h3: REPUBLIC
+//	h4: SEPARATIST
+//	h5: REBELS
+//	h6: EMPIRE
+//	h7: RESISTANCE
+//	h8: FIRST ORDER
+//
+//----------------------------------------------------------
+
+
+//----------------------------------------------------------
+// 	h1: OLD REPUBLIC
+//----------------------------------------------------------
+
+REFERENCE           BASTILA_SHAN
+LANG_ENGLISH        "A powerful Jedi from the Old Republic era, Bastila Shan was renowned for her rare Battle Meditation ability, which could sway the outcome of entire wars. Trained in the ways of the Force from a young age, she played a pivotal role in the Jedi Civil War, struggling with her connection to Darth Revan - and the dark side within herself."
+LANG_GERMAN         "Eine maechtige Jedi aus der Aera der Alten Republik, Bastila Shan war beruehmt fuer ihre seltene Faehigkeit der Kampfmeditation, die den Ausgang ganzer Kriege beeinflussen konnte. Schon in jungen Jahren in den Wegen der Macht ausgebildet, spielte sie eine entscheidende Rolle im Jedi-Buergerkrieg und kaempfte mit ihrer Verbindung zu Darth Revan – und der Dunkelheit in ihr selbst."
+
+REFERENCE           REPUBLIC_TROOPER
+LANG_ENGLISH        "A soldier of the Galactic Republic, Republic Troopers fought across the galaxy during the Jedi Civil War. Trained for versatility and discipline, they formed the backbone of Republic ground forces against the Sith."
+LANG_GERMAN         "Als Soldaten der Galaktischen Republik kaempften Republik-Truppler waehrend des Jedi-Buergerkriegs in der gesamten Galaxis. Fuer Vielseitigkeit und Disziplin ausgebildet, bildeten sie das Rueckgrat der republikanischen Bodentruppen im Kampf gegen die Sith."
+
+REFERENCE           TRASK_ULGO
+LANG_ENGLISH        "A Republic soldier aboard the Endar Spire, Trask Ulgo aided a Force-sensitive ally during Darth Malak's attack. He sacrificed his life to ensure their escape, helping set the Jedi Civil War in motion."
+LANG_GERMAN         "Ein republikanischer Soldat an Bord der Endar Spire, Trask Ulgo unterstuetzte einen machtsensitiven Verbuendeten waehrend Darth Malaks Angriff. Er opferte sein Leben, um dessen Flucht zu sichern, und trug damit dazu bei, den Jedi-Buergerkrieg auszuloesen."
+
+REFERENCE           REPUBLIC_OFFICER
+LANG_ENGLISH        "A commissioned leader within the Republic military, Republic Officers oversaw fleets and armies during the Old Republic's wars. They coordinated closely with Jedi commanders to counter Sith expansion."
+LANG_GERMAN         "Als beauftragte Fuehrungskraefte innerhalb des republikanischen Militaers ueberwachten republikanische Offiziere Flotten und Armeen waehrend der Kriege der Alten Republik. Sie arbeiteten eng mit Jedi-Kommandanten zusammen, um der Ausbreitung der Sith entgegenzuwirken."
+
+REFERENCE           MEETRA_SURIK
+LANG_ENGLISH        "Known as the Jedi Exile, Meetra Surik was a former Jedi Knight who cut herself off from the Force after the Mandalorian Wars. She later reclaimed her power and confronted the Sith Triumvirate, shaping the fate of the Republic."
+LANG_GERMAN         "Bekannt als die Jedi-Exilantin war Meetra Surik eine ehemalige Jedi-Ritterin, die sich nach den Mandalorianischen Kriegen von der Macht abkoppelte. Spaeter erlangte sie ihre Faehigkeiten zurueck und stellte sich dem Sith-Triumvirat, wodurch sie das Schicksal der Republik praegte."
+
+REFERENCE           JOLEE_BINDO
+LANG_ENGLISH        "A reclusive Jedi living on Kashyyyk, Jolee Bindo rejected rigid Jedi doctrine in favor of personal experience. Cynical yet insightful, he aided the Republic during the Jedi Civil War."
+LANG_GERMAN         "Ein zurueckgezogen lebender Jedi auf Kashyyyk, Jolee Bindo lehnte die starre Jedi-Doktrin zugunsten persoenlicher Erfahrung ab. Zynisch, aber weitsichtig, unterstuetzte er die Republik waehrend des Jedi-Buergerkriegs."
+
+REFERENCE           JEDI_WARRIOR
+LANG_ENGLISH        "A battle-oriented member of the Jedi Order, Jedi Warriors served on the front lines of the Old Republic's conflicts. They relied on martial skill and the Force to oppose Sith and Mandalorian enemies."
+LANG_GERMAN         "Als kampforientierte Mitglieder des Jedi-Ordens dienten Jedi-Krieger an den Frontlinien der Konflikte der Alten Republik. Sie vertrauten auf ihre Kampfkunst und die Macht, um Sith- und Mandalorianer-Gegnern entgegenzutreten."
+
+REFERENCE           CARTH_ONASI
+LANG_ENGLISH        "A decorated Republic pilot and officer, Carth Onasi fought throughout the Jedi Civil War. Though shaped by betrayal and loss, he remained steadfast in his loyalty to the Republic."
+LANG_GERMAN         "Ein hoch dekorierter republikanischer Pilot und Offizier, Carth Onasi kaempfte waehrend des gesamten Jedi-Buergerkriegs. Trotz Verrat und Verlust blieb er der Republik unerschuetterlich treu."
+
+REFERENCE           CANDEROUS_ORDO
+LANG_ENGLISH        "A seasoned Mandalorian warrior, Canderous Ordo fought in the Mandalorian Wars and later allied with the Republic. Fierce and honor-bound, he sought to preserve Mandalorian strength through survival."
+LANG_GERMAN         "Ein erfahrener mandalorianischer Krieger, Canderous Ordo kaempfte in den Mandalorianischen Kriegen und verbuendete sich spaeter mit der Republik. Wild und ehrenhaft bemueht, suchte er die Staerke der Mandalorianer durch deren Ueberleben zu bewahren."
+
+REFERENCE           ATTON_RAND
+LANG_ENGLISH        "A former Republic pilot with a hidden past, Atton Rand traveled with the Jedi Exile after the Jedi Purge. Concealing Force sensitivity, he struggled with guilt and the path to redemption."
+LANG_GERMAN         "Ein ehemaliger republikanischer Pilot mit einer verborgenen Vergangenheit, Atton Rand reiste nach der Jedi-Saeuberung mit der Jedi-Exilantin. Seine Machtsensitivitaet verbergend, kaempfte er mit Schuldgefuehlen und dem Weg zur Erloesung."
+
+REFERENCE           ATRIS
+LANG_ENGLISH        "A Jedi historian and Council member, Atris survived the Purge by retreating to Telos. Her rigid devotion to Jedi ideals gradually drew her toward the dark side."
+LANG_GERMAN         "Als Jedi-Historikerin und Ratsmitglied ueberlebte Atris die Saeuberung, indem sie sich nach Telos zurueckzog. Ihre starre Hingabe an die Ideale der Jedi fuehrte sie nach und nach zur dunklen Seite."
+
+REFERENCE           JEDI_KOTOR
+LANG_ENGLISH        "Jedi of the Old Republic era defended the galaxy during the Mandalorian Wars and Jedi Civil War. Their choices and sacrifices shaped the balance between the Republic and the Sith."
+LANG_GERMAN         "Jedi der Aera der Alten Republik verteidigten die Galaxis waehrend der Mandalorianischen Kriege und des Jedi-Buergerkriegs. Ihre Entscheidungen und Opfer praegten das Gleichgewicht zwischen der Republik und den Sith."
+
+REFERENCE           VROOK_LAMAR
+LANG_ENGLISH        "A stern Jedi Master on the Dantooine Council, Vrook Lamar was known for his uncompromising views. He survived the Purge but remained deeply critical of the Jedi Exile."
+LANG_GERMAN         "Ein strenger Jedi-Meister im Rat von Dantooine, Vrook Lamar war fuer seine kompromisslosen Ansichten bekannt. Er ueberlebte die Saeuberung, blieb jedoch der Jedi-Exilantin gegenueber aeusserst kritisch."
+
+REFERENCE           ZHAR_LESTIN
+LANG_ENGLISH        "A Twi'lek Jedi Master on the Dantooine Council, Zhar Lestin oversaw Jedi training during the Jedi Civil War. He opposed the Sith while struggling with the Order's decline."
+LANG_GERMAN         "Ein Twi'lek-Jedi-Meister im Rat von Dantooine, Zhar Lestin ueberwachte die Jedi-Ausbildung waehrend des Jedi-Buergerkriegs. Er stellte sich den Sith entgegen, waehrend er zugleich mit dem Niedergang des Ordens rang."
+
+REFERENCE           DORAK
+LANG_ENGLISH        "A Jedi archivist stationed on Dantooine, Dorak specialized in ancient Sith history. His knowledge provided critical insight during the Jedi Civil War."
+LANG_GERMAN         "Ein Jedi-Archivar auf Dantooine, Dorak spezialisierte sich auf die Geschichte der alten Sith. Sein Wissen lieferte entscheidende Einblicke waehrend des Jedi-Buergerkriegs."
+
+REFERENCE           KREIA
+LANG_ENGLISH        "A former Jedi Master and mentor to the Jedi Exile, Kreia was a complex and manipulative Force-user shaped by betrayal and loss. Rejecting both Jedi and Sith dogma, she sought to challenge the Force's control over destiny and the galaxy."
+LANG_GERMAN         "Eine ehemalige Jedi-Meisterin und Mentorin der Jedi-Exilantin, Kreia war eine komplexe und manipulative Machtnutzerin, gepraegt von Verrat und Verlust. Sie lehnte sowohl Jedi- als auch Sith-Dogmen ab und versuchte, die Kontrolle der Macht ueber Schicksal und Galaxis infrage zu stellen."
+
+REFERENCE           JUHANI
+LANG_ENGLISH        "A Cathar Jedi Knight, Juhani struggled with her anger and briefly fell to the dark side before finding redemption. During the Jedi Civil War, she fought alongside Revan, proving her loyalty to the Jedi and the Republic."
+LANG_GERMAN         "Eine catharische Jedi-Ritterin, Juhani kaempfte mit ihrer Wut und verfiel kurzzeitig der dunklen Seite, bevor sie Erloesung fand. Waehrend des Jedi-Buergerkriegs kaempfte sie an Revans Seite und bewies ihre Loyalitaet gegenueber den Jedi und der Republik."
+
+REFERENCE           KAO_CEN_DARACH
+LANG_ENGLISH        "A revered Jedi Master of the Old Republic, Kao Cen Darach was known for his skill with a double-bladed lightsaber. He defended his Padawan Satele Shan from a Sith attack, sacrificing his life in the struggle."
+LANG_GERMAN         "Ein verehrter Jedi-Meister der Alten Republik, Kao Cen Darach war fuer seine Faehigkeiten mit dem doppelklingigen Lichtschwert bekannt. Er verteidigte seine Padawan Satele Shan gegen einen Sith-Angriff und opferte dabei sein Leben."
+
+REFERENCE           VEN_ZALLOW
+LANG_ENGLISH        "A courageous Jedi Knight, Ven Zallow helped defend the Jedi Temple during the Sith assault on Coruscant. His stand against overwhelming odds became a symbol of Jedi resistance in the Great Galactic War."
+LANG_GERMAN         "Ein mutiger Jedi-Ritter, Ven Zallow half bei der Verteidigung des Jedi-Tempels waehrend des Sith-Angriffs auf Coruscant. Sein Widerstand gegen ueberwaeltigende Uebermacht wurde zu einem Symbol des Jedi-Widerstands im Grossen Galaktischen Krieg."
+
+REFERENCE 			REPUBLIC_TROOPER_KOTOR
+LANG_ENGLISH 		"A disciplined soldier of the Galactic Republic, Republic Troopers fought Sith forces throughout the Jedi Civil War. Equipped for adaptability, they supported Jedi commanders in battles across contested worlds."
+LANG_GERMAN         "Als disziplinierte Soldaten der Galaktischen Republik kaempften die Republiktruppen waehrend des gesamten Jedi-Buergerkriegs gegen die Sith-Streitkraefte. Dank ihrer Anpassungsfaehigkeit unterstuetzten sie Jedi-Kommandeure in Schlachten auf umkaempften Welten."
+
+REFERENCE           IMPERIAL_TROOPER_KOTOR
+LANG_ENGLISH        "Imperial Troopers were the infantry units of the reconstituted Sith Empire's army. They served as the primary ground forces in Imperial campaigns of conquest, defending Sith holdings during the Great Galactic War and the Cold War."
+LANG_GERMAN         "Die imperialen Truppen waren die Infanterieeinheiten der Armee des wiedererrichteten Sith-Imperiums. Sie dienten als primaere Bodentruppen in den Eroberungsfeldzuegen des Imperiums und verteidigten die Sith-Besitztuemer waehrend des Grossen Galaktischen Krieges und des Kalten Krieges."
+
+
+//----------------------------------------------------------
+// 	h2: SITH EMPIRE
+//----------------------------------------------------------
+
+REFERENCE           DARTH_REVAN
+LANG_ENGLISH        "Once a charismatic Jedi Knight and hero of the Mandalorian Wars, Revan fell to the dark side and led a Sith armada against the Republic. Betrayed and nearly destroyed, he was redeemed and reprogrammed by the Jedi Council. Revan's legacy shaped the fate of the galaxy for generations, as both savior and destroyer."
+LANG_GERMAN         "Einst ein charismatischer Jedi-Ritter und Held der Mandalorianischen Kriege, verfiel Revan der dunklen Seite und fuehrte eine Sith-Armada gegen die Republik. Verraten und beinahe vernichtet wurde er vom Jedi-Rat erloest und neu programmiert. Revans Vermaechtnis praegte das Schicksal der Galaxis ueber Generationen hinweg – als Retter wie auch als Zerstoerer."
+
+REFERENCE           DARTH_MALGUS
+LANG_ENGLISH        "A powerful Sith Lord of the Old Republic era, Darth Malgus was a ruthless warrior who led the assault on the Jedi Temple during the Great Galactic War. Rejecting weakness and tradition alike, he sought to reshape the Sith through strength and domination."
+LANG_GERMAN         "Ein maechtiger Sith-Lord der Aera der Alten Republik, Darth Malgus war ein erbarmungsloser Krieger, der den Angriff auf den Jedi-Tempel waehrend des Grossen Galaktischen Krieges anfuehrte. Schwaeche und Tradition gleichermassen ablehnend, suchte er danach, die Sith durch Staerke und Herrschaft neu zu formen."
+
+REFERENCE           DARTH_MALAK
+LANG_ENGLISH        "Once a Jedi Knight named Alek, Darth Malak became the apprentice of Darth Revan and a leading Sith Lord of the Jedi Civil War. After betraying his master, he ruled through fear until his defeat by Revan restored balance to the Republic."
+LANG_GERMAN         "Einst ein Jedi-Ritter namens Alek wurde Darth Malak zum Schueler von Darth Revan und zu einem fuehrenden Sith-Lord des Jedi-Buergerkriegs. Nachdem er seinen Meister verraten hatte, herrschte er durch Furcht, bis seine Niederlage durch Revan das Gleichgewicht der Republik wiederherstellte."
+
+REFERENCE           DARTH_SION
+LANG_ENGLISH        "A member of the Sith Triumvirate, Darth Sion was a dark side warrior who held his shattered body together through pain and hatred. He relentlessly hunted the surviving Jedi after the Purge, embodying the Sith philosophy of endurance through suffering."
+LANG_GERMAN         "Als Mitglied des Sith-Triumvirats war Darth Sion ein Krieger der dunklen Seite, der seinen zerschmetterten Koerper durch Schmerz und Hass zusammenhielt. Er jagte die ueberlebenden Jedi nach der Saeuberung unerbittlich und verkoerperte die Sith-Philosophie des Durchhaltens durch Leid."
+
+REFERENCE           DARTH_TRAYA
+LANG_ENGLISH        "Known as Kreia, Darth Traya was a former Jedi Master who became a Sith Lord seeking to end the Force's influence on the galaxy. As the architect of the Sith Triumvirate, she manipulated events from the shadows to test and reshape her disciples."
+LANG_GERMAN         "Als Kreia bekannt war Darth Traya eine ehemalige Jedi-Meisterin, die zu einer Sith-Lord wurde und danach strebte, den Einfluss der Macht auf die Galaxis zu beenden. Als Architektin des Sith-Triumvirats manipulierte sie Ereignisse aus dem Schatten heraus, um ihre Schueler zu pruefen und zu formen."
+
+REFERENCE           DARTH_NIHILUS
+LANG_ENGLISH        "A Sith Lord born from the devastation of the Mandalorian Wars, Darth Nihilus survived by consuming the Force itself. His insatiable hunger destroyed entire worlds, marking him as one of the most catastrophic threats of the Old Republic era."
+LANG_GERMAN         "Ein Sith-Lord, geboren aus der Verwuestung der Mandalorianischen Kriege, ueberlebte Darth Nihilus, indem er die Macht selbst verzehrte. Sein unstillbarer Hunger vernichtete ganze Welten und machte ihn zu einer der katastrophalsten Bedrohungen der Aera der Alten Republik."
+
+REFERENCE           LORD_SCOURGE
+LANG_ENGLISH        "A Sith Lord of the Old Republic, Lord Scourge served the Sith Emperor as his Wrath, enforcing his will through strength and assassination. Granted extended life through the dark side, he later betrayed the Empire to oppose the Emperor's return."
+LANG_GERMAN         "Ein Sith-Lord der Alten Republik, diente Lord Scourge dem Sith-Imperator als dessen Zorn und setzte dessen Willen durch Staerke und Attentate durch. Durch die dunkle Seite mit verlaengertem Leben gesegnet, verriet er spaeter das Imperium, um die Rueckkehr des Imperators zu verhindern."
+
+REFERENCE           SITH_ERADICATOR
+LANG_ENGLISH        "An elite Sith enforcer trained for destruction, Sith Eradicators wielded heavy armor and devastating Force power. They were deployed to crush Jedi resistance and dominate battlefields during the Old Republic's wars."
+LANG_GERMAN         "Als elitaere Sith-Vollstrecker, ausgebildet fuer Zerstoerung, trugen Sith-Eradicatoren schwere Ruestungen und setzten verheerende Machtfaehigkeiten ein. Sie wurden eingesetzt, um Jedi-Widerstand zu brechen und Schlachtfelder waehrend der Kriege der Alten Republik zu dominieren."
+
+REFERENCE           DARTH_BANDON
+LANG_ENGLISH        "A Dark Jedi turned Sith apprentice, Darth Bandon served Darth Malak during the Jedi Civil War. Arrogant and aggressive, he pursued the Jedi relentlessly until his defeat revealed his lack of true mastery."
+LANG_GERMAN         "Ein Dunkler Jedi, der zum Sith-Schueler wurde, diente Darth Bandon Darth Malak waehrend des Jedi-Buergerkriegs. Arrogant und aggressiv verfolgte er die Jedi unerbittlich, bis seine Niederlage seinen Mangel an wahrer Meisterschaft offenbarte."
+
+REFERENCE           DARTH_BANE
+LANG_ENGLISH        "A Sith Lord who rose after the fall of the Sith Empire, Darth Bane reshaped the dark side through the Rule of Two. By limiting the Sith to master and apprentice, he ensured their survival through secrecy and power."
+LANG_GERMAN         "Ein Sith-Lord, der nach dem Fall des Sith-Imperiums aufstieg, formte Darth Bane die dunkle Seite durch die Regel der Zwei neu. Indem er die Sith auf Meister und Schueler beschraenkte, sicherte er ihr Ueberleben durch Geheimhaltung und Macht."
+
+REFERENCE           SITH_TROOPER_KOTOR
+LANG_ENGLISH        "A heavily armored soldier of the Sith Empire, Sith Troopers enforced Malak's rule during the Jedi Civil War. Fanatically loyal and well-equipped, they formed the core of Sith ground forces."
+LANG_GERMAN         "Als schwer gepanzerte Soldaten des Sith-Imperiums setzten Sith-Truppler Malaks Herrschaft waehrend des Jedi-Buergerkriegs durch. Fanatisch loyal und gut ausgeruestet bildeten sie den Kern der Sith-Bodentruppen."
+
+REFERENCE           NEO_CRUSADER
+LANG_ENGLISH        "A Mandalorian warrior of the Neo-Crusaders, these soldiers led the assault against the Republic during the Mandalorian Wars. Their advanced armor and discipline made them a formidable galactic threat."
+LANG_GERMAN         "Ein mandalorianischer Krieger der Neo-Kreuzritter; diese Soldaten fuehrten den Angriff gegen die Republik waehrend der Mandalorianischen Kriege an. Ihre fortschrittliche Ruestung und Disziplin machten sie zu einer gewaltigen Bedrohung fuer die Galaxis."
+
+REFERENCE           CALO_NORD
+LANG_ENGLISH        "A cold and methodical bounty hunter, Calo Nord was employed by Davik Kang and later the Sith. Known for his patience and deadly efficiency, he relentlessly pursued his assigned targets."
+LANG_GERMAN         "Ein kalter und methodischer Kopfgeldjaeger, Calo Nord arbeitete zunaechst fuer Davik Kang und spaeter fuer die Sith. Bekannt fuer seine Geduld und toedliche Effizienz verfolgte er seine Ziele unerbittlich."
+
+REFERENCE           HK47
+LANG_ENGLISH        "An assassin droid constructed by Darth Revan, HK-47 was programmed for efficiency, loyalty, and lethal sarcasm. He accompanied Revan and later the Jedi Exile, offering combat support and dark humor."
+LANG_GERMAN         "Ein von Darth Revan konstruierter Attentaeterdroide, HK-47 wurde fuer Effizienz, Loyalitaet und toedlichen Sarkasmus programmiert. Er begleitete Revan und spaeter die Jedi-Exilantin und bot sowohl Kampfhilfe als auch duesteren Humor."
+
+REFERENCE           DAVIK_KANG
+LANG_ENGLISH        "A powerful crime lord on Taris, Davik Kang controlled the planet's underworld during the Jedi Civil War. His influence ended abruptly when he was killed during a Republic escape from the city."
+LANG_GERMAN         "Ein maechtiger Verbrecherboss auf Taris, Davik Kang kontrollierte das Unterweltmilieu des Planeten waehrend des Jedi-Buergerkriegs. Sein Einfluss endete abrupt, als er waehrend einer republikanischen Flucht aus der Stadt getoetet wurde."
+
+REFERENCE           MANDALORE_ULTIMATE
+LANG_ENGLISH        "The supreme leader of the Mandalorian Neo-Crusaders, Mandalore the Ultimate led the invasion of the Republic. His defeat by Revan marked the turning point of the Mandalorian Wars."
+LANG_GERMAN         "Der oberste Anfuehrer der mandalorianischen Neo-Kreuzritter, Mandalore der Ultimative, fuehrte die Invasion der Republik an. Seine Niederlage durch Revan markierte den Wendepunkt der Mandalorianischen Kriege."
+
+REFERENCE           VISAS_MARR
+LANG_ENGLISH        "A Miraluka Force-user and servant of Darth Nihilus, Visas Marr was the sole survivor of Katarr. Bound by guilt and loyalty, she later joined the Jedi Exile in opposing her former master."
+LANG_GERMAN         "Eine miralukanische Machtnutzerin und Dienerin von Darth Nihilus, Visas Marr war die einzige Ueberlebende von Katarr. Von Schuld und Loyalitaet gepraegt, schloss sie sich spaeter der Jedi-Exilantin an, um ihren ehemaligen Meister zu bekaempfen."
+
+REFERENCE           DARK_JEDI
+LANG_ENGLISH        "Former Jedi who fell to the dark side, Dark Jedi served Sith Lords during the Old Republic's conflicts. They wielded corrupted teachings of the Force to hunt their former allies."
+LANG_GERMAN         "Ehemalige Jedi, die der dunklen Seite verfielen, dienten Dunkle Jedi den Sith-Lords waehrend der Konflikte der Alten Republik. Sie nutzten verdorbene Lehren der Macht, um ihre frueheren Verbuendeten zu jagen."
+
+REFERENCE           DARTH_VINDICAN
+LANG_ENGLISH        "A Sith Lord during the Great Galactic War, Darth Vindican trained apprentices in the ruthless traditions of the Sith. His ambition reflected the constant struggle for power within the Sith hierarchy."
+LANG_GERMAN         "Ein Sith-Lord waehrend des Grossen Galaktischen Krieges, Darth Vindican bildete Schueler in den ruecksichtslosen Traditionen der Sith aus. Sein Ehrgeiz spiegelte den staendigen Machtkampf innerhalb der Sith-Hierarchie wider."
+
+REFERENCE           EMPEROR_VALKORION
+LANG_ENGLISH        "The immortal Sith Emperor of Zakuul and the Sith Empire, Valkorion sought absolute control over the galaxy. Sustained by countless lifetimes, he manipulated wars and bloodlines to serve his vision."
+LANG_GERMAN         "Der unsterbliche Sith-Imperator von Zakuul und des Sith-Imperiums, Valkorion strebte nach absoluter Kontrolle ueber die Galaxis. Durch unzaehlige Lebensspannen erhalten, manipulierte er Kriege und Blutlinien, um seiner Vision zu dienen."
+
+REFERENCE           ARCANN
+LANG_ENGLISH        "The son of Emperor Valkorion, Arcann was a powerful Force-wielder who ruled the Eternal Empire through conquest. Consumed by anger and betrayal, his reign brought devastation to the galaxy."
+LANG_GERMAN         "Der Sohn von Imperator Valkorion, Arcann war ein maechtiger Machtnutzer, der das Ewige Imperium durch Eroberung regierte. Von Zorn und Verrat verzehrt brachte seine Herrschaft Verwuestung ueber die Galaxis."
+
+REFERENCE           THEXAN
+LANG_ENGLISH        "Twin brother to Arcann, Thexan was a noble and disciplined warrior of Zakuul. His death at Valkorion's command deeply shaped Arcann's descent into darkness."
+LANG_GERMAN         "Der Zwillingsbruder von Arcann, Thexan war ein edler und disziplinierter Krieger von Zakuul. Sein Tod auf Valkorions Befehl praegte Arcanns Abstieg in die Dunkelheit entscheidend."
+
+REFERENCE           BAO_DUR
+LANG_ENGLISH        "A Zabrak engineer and Republic veteran, Bao-Dur served under the Jedi Exile during the Mandalorian Wars. Haunted by his role in deploying the Mass Shadow Generator, he later aided in rebuilding the Jedi."
+LANG_GERMAN         "Ein zabrakischer Ingenieur und Veteran der Republik, Bao-Dur diente waehrend der Mandalorianischen Kriege unter der Jedi-Exilantin. Von seiner Rolle beim Einsatz des Massenschatten-Generators verfolgt, half er spaeter beim Wiederaufbau der Jedi."
+
+REFERENCE           SITH_KOTOR
+LANG_ENGLISH        "Sith of the Old Republic era waged war against the Jedi and the Republic through conquest and deception. Their conflicts defined the galaxy during the Jedi Civil War and beyond."
+LANG_GERMAN         "Sith der Aera der Alten Republik fuehrten durch Eroberung und Taeuschung Krieg gegen die Jedi und die Republik. Ihre Konflikte praegten die Galaxis waehrend des Jedi-Buergerkriegs und darueber hinaus."
+
+REFERENCE 			JORAK_ULN
+LANG_ENGLISH 		"An ancient Jedi Master driven mad by forbidden knowledge, Jorak Uln resided among the ruins of Korriban. Obsessed with Sith secrets, he tested Force-sensitives and served as a grim warning of the dangers of unchecked curiosity."
+LANG_GERMAN         "Der uralte Jedi-Meister Jorak Uln, von verbotenem Wissen in den Wahnsinn getrieben, lebte in den Ruinen von Korriban. Besessen von den Geheimnissen der Sith, pruefte er Machtsensitive und diente als duesteres Mahnmal fuer die Gefahren ungezuegelter Neugier."
+
+REFERENCE 			SAUL_KARATH
+LANG_ENGLISH 		"A former Republic admiral, Saul Karath defected to the Sith and became one of Darth Malak's chief commanders. His betrayal and strategic brilliance made him a deadly adversary during the Jedi Civil War."
+LANG_GERMAN         "Der ehemalige Republikadmiral Saul Karath lief zu den Sith ueber und wurde einer von Darth Malaks wichtigsten Befehlshabern. Sein Verrat und sein strategisches Genie machten ihn im Jedi-Buergerkrieg zu einem toedlichen Gegner."
+
+REFERENCE 			SITH_OFFICER
+LANG_ENGLISH 		"An authority figure within the Sith military, Sith Officers commanded fleets and garrisons under Malak's rule. Ruthless and ambitious, they enforced Sith dominance through fear and discipline."
+LANG_GERMAN         "Als Autoritaetspersonen innerhalb des Sith-Militaers befehligten Sith-Offiziere unter Malaks Herrschaft Flotten und Garnisonen. Skrupellos und ehrgeizig, sicherten sie die Sith-Dominanz durch Angst und Disziplin."
+
+REFERENCE 			UTHAR_WYNN
+LANG_ENGLISH 		"A Sith Lord and overseer of the Korriban Academy, Uthar Wynn trained apprentices in the brutal ways of the Sith. His teachings emphasized ambition and betrayal, reflecting Sith philosophy in its purest form."
+LANG_GERMAN         "Uthar Wynn, ein Sith-Lord und Aufseher der Korriban-Akademie, bildete Lehrlinge in den brutalen Methoden der Sith aus. Seine Lehren betonten Ehrgeiz und Verrat und spiegelten die Sith-Philosophie in ihrer reinsten Form wider."
+
+REFERENCE 			VANDAR_TOKARE
+LANG_ENGLISH 		"A small but powerful Jedi Master, Vandar Tokare served on the Jedi Council during the Jedi Civil War. Known for his wisdom and foresight, he guided the Order through one of its darkest periods."
+LANG_GERMAN         "Vandar Tokare, ein kleiner, aber maechtiger Jedi-Meister, diente waehrend des Jedi-Buergerkriegs im Jedi-Rat. Bekannt fuer seine Weisheit und Weitsicht, fuehrte er den Orden durch eine seiner dunkelsten Phasen."
+
+REFERENCE 			YUTHURA_BAN
+LANG_ENGLISH 		"A former slave who rose through the Sith ranks, Yuthura Ban became a prominent student at the Korriban Academy. Her ambition and inner conflict made her a pivotal figure whose fate could turn toward redemption or darkness."
+LANG_GERMAN         "Yuthura Ban, eine ehemalige Sklavin, die in den Reihen der Sith aufstieg, wurde eine angesehene Schuelerin an der Akademie von Korriban. Ihr Ehrgeiz und ihr innerer Konflikt machten sie zu einer Schluesselfigur, deren Schicksal sich entweder in Richtung Erloesung oder Dunkelheit wenden konnte."
+
+//----------------------------------------------------------
+// 	h3: REPUBLIC
+//----------------------------------------------------------
+
+REFERENCE           AAYLA_SECURA
+LANG_ENGLISH        "A Twi'lek Jedi Knight from Ryloth, Aayla Secura was known for her agility, lightsaber mastery, and calm presence in battle. She fought with distinction during the Clone Wars as a General of the Republic, serving on the front lines until her death during the execution of Order 66."
+LANG_GERMAN         "Eine Twi'lek-Jedi-Ritterin von Ryloth, Aayla Secura war bekannt fuer ihre Beweglichkeit, ihre Lichtschwertmeisterschaft und ihre ruhige Praesenz im Kampf. Waehrend der Klonkriege kaempfte sie als Generalin der Republik mit Auszeichnung an den Frontlinien, bis sie waehrend der Ausfuehrung von Order 66 starb."
+
+REFERENCE           ADI_GALLIA
+LANG_ENGLISH        "A respected Jedi Master and member of the High Council, Adi Gallia was known for her diplomatic skill and combat prowess. She served as a General during the Clone Wars and frequently undertook covert missions. Gallia met her end at the hands of Darth Maul, defending the Republic with unwavering resolve."
+LANG_GERMAN         "Eine angesehene Jedi-Meisterin und Mitglied des Hohen Rates, Adi Gallia war bekannt fuer ihre diplomatischen Faehigkeiten und ihre Kampfstaerke. Sie diente waehrend der Klonkriege als Generalin und uebernahm haeufig verdeckte Missionen. Gallia fand ihr Ende durch die Hand von Darth Maul, als sie die Republik mit unerschuetterlicher Entschlossenheit verteidigte."
+
+REFERENCE           AGEN_KOLAR
+LANG_ENGLISH        "A skilled Zabrak Jedi Master, Agen Kolar served on the Jedi High Council during the final years of the Republic. Known for his lightsaber mastery and courage, he was one of the Jedi who confronted Chancellor Palpatine, only to be swiftly struck down by Darth Sidious."
+LANG_GERMAN         "Ein erfahrener Zabrak-Jedi-Meister, Agen Kolar diente in den letzten Jahren der Republik im Hohen Jedi-Rat. Bekannt fuer seine Lichtschwertmeisterschaft und seinen Mut war er einer der Jedi, die Kanzler Palpatine konfrontierten, nur um rasch von Darth Sidious niedergestreckt zu werden."
+
+REFERENCE           AHSOKA_TANO
+LANG_ENGLISH        "Discovered by Plo Koon and trained by Anakin Skywalker, Ahsoka Tano was a Togruta Padawan who fought bravely in the Clone Wars. Disillusioned with the Jedi Order, she walked away from it and later became a key figure in the early Rebellion, surviving Order 66 and confronting both Darth Vader and the Empire."
+LANG_GERMAN         "Von Plo Koon entdeckt und von Anakin Skywalker ausgebildet, war Ahsoka Tano eine togrutanische Padawan, die tapfer in den Klonkriegen kaempfte. Desillusioniert vom Jedi-Orden verliess sie ihn und wurde spaeter zu einer Schluesselfigur der fruehen Rebellion. Sie ueberlebte Order 66 und stellte sich sowohl Darth Vader als auch dem Imperium."
+
+REFERENCE           ANAKIN_SKYWALKER
+LANG_ENGLISH        "Discovered by Qui-Gon Jinn on Tatooine, Anakin was prophesied to bring balance to the Force. As a Jedi General, he fought valiantly in the Clone Wars, but manipulation by Darth Sidious led him to destroy the Jedi and become the Sith Lord, Darth Vader."
+LANG_GERMAN         "Von Qui-Gon Jinn auf Tatooine entdeckt, wurde Anakin prophezeit, der Macht Gleichgewicht zu bringen. Als Jedi-General kaempfte er tapfer in den Klonkriegen, doch die Manipulation durch Darth Sidious fuehrte ihn dazu, die Jedi zu vernichten und zum Sith-Lord Darth Vader zu werden."
+
+REFERENCE           BARRISS_OFFEE
+LANG_ENGLISH        "Trained under Luminara Unduli, Barriss Offee was a Mirialan Jedi who served as a healer and fighter during the Clone Wars. Disillusioned by the Jedi Order's role in the war, she orchestrated a bombing of the Jedi Temple and was ultimately captured and imprisoned for treason."
+LANG_GERMAN         "Unter Luminara Unduli ausgebildet, war Barriss Offee eine mirialanische Jedi, die waehrend der Klonkriege sowohl als Heilerin als auch als Kaempferin diente. Desillusioniert von der Rolle des Jedi-Ordens im Krieg orchestrierte sie einen Bombenanschlag auf den Jedi-Tempel und wurde schliesslich wegen Verrats gefasst und inhaftiert."
+
+REFERENCE           BOLLA_ROPAL
+LANG_ENGLISH        "A Rodian Jedi Master, Bolla Ropal was the keeper of the Kyber memory crystal, which contained the identities of Force-sensitive children across the galaxy. He was captured and tortured by Cad Bane during the Clone Wars and died rather than betray the secrets of the Jedi."
+LANG_GERMAN         "Ein rodianischer Jedi-Meister, Bolla Ropal war der Hueter des Kyber-Gedaechtniskristalls, der die Identitaeten machtsensitiver Kinder in der gesamten Galaxis enthielt. Er wurde waehrend der Klonkriege von Cad Bane gefangen genommen und gefoltert und starb, anstatt die Geheimnisse der Jedi zu verraten."
+
+REFERENCE           BOSS
+LANG_ENGLISH        "Designated RC-1138, 'Boss' was the leader of Delta Squad, an elite unit of clone commandos. Calm under pressure and a natural leader, Boss led his team through some of the most dangerous missions of the Clone Wars, demonstrating tactical brilliance and unshakable loyalty."
+LANG_GERMAN         "Unter der Bezeichnung RC-1138 war 'Boss' der Anfuehrer des Delta-Kommandos, einer Eliteeinheit von Klonkommandos. Ruhig unter Druck und ein geborener Anfuehrer fuehrte Boss sein Team durch einige der gefaehrlichsten Missionen der Klonkriege und zeigte dabei taktische Brillanz und unerschuetterliche Loyalitaet."
+
+REFERENCE           BULTAR_SWAN
+LANG_ENGLISH        "A human Jedi Knight known for her discipline and devotion, Bultar Swan survived many battles during the Clone Wars. Trained by Plo Koon, she was one of the few survivors of Order 66 and later joined a group of Jedi seeking justice, only to be slain by Darth Vader."
+LANG_GERMAN         "Eine menschliche Jedi-Ritterin, bekannt fuer ihre Disziplin und Hingabe, ueberlebte Bultar Swan viele Schlachten waehrend der Klonkriege. Von Plo Koon ausgebildet war sie eine der wenigen Ueberlebenden von Order 66 und schloss sich spaeter einer Gruppe von Jedi an, die Gerechtigkeit suchten, nur um schliesslich von Darth Vader getoetet zu werden."
+
+REFERENCE           CAPTAIN_REX
+LANG_ENGLISH        "Known by his designation CT-7567, Captain Rex served under Anakin Skywalker and Ahsoka Tano during the Clone Wars. A loyal and skilled leader, he resisted the effects of Order 66 thanks to the removal of his inhibitor chip and later fought against the Empire alongside the early Rebellion."
+LANG_GERMAN         "Unter der Bezeichnung CT-7567 bekannt, diente Captain Rex waehrend der Klonkriege unter Anakin Skywalker und Ahsoka Tano. Ein loyaler und faehiger Anfuehrer widerstand er den Auswirkungen von Order 66 dank der Entfernung seines Inhibitorchips und kaempfte spaeter an der Seite der fruehen Rebellion gegen das Imperium."
+
+REFERENCE           CIN_DRALLIG
+LANG_ENGLISH        "The head of lightsaber combat training at the Jedi Temple, Cin Drallig was a legendary swordmaster. He trained countless Jedi in the art of defense and dueling, and was among the last defenders of the Temple during Anakin Skywalker's brutal attack."
+LANG_GERMAN         "Als Leiter des Lichtschwertkampftrainings im Jedi-Tempel war Cin Drallig ein legendaerer Schwertmeister. Er bildete unzaehlige Jedi in der Kunst der Verteidigung und des Duells aus und gehoerte zu den letzten Verteidigern des Tempels waehrend Anakin Skywalkers brutalem Angriff."
+
+REFERENCE           CLONE_TROOPER
+LANG_ENGLISH        "Engineered from the DNA of Jango Fett, clone troopers were created to serve the Galactic Republic in the Clone Wars. Trained from birth to fight, they formed the backbone of the Republic's military and were ultimately used to carry out Order 66 against the Jedi."
+LANG_GERMAN         "Aus der DNA von Jango Fett erschaffen, wurden Klontruppler geschaffen, um der Galaktischen Republik in den Klonkriegen zu dienen. Von Geburt an zum Kaempfen ausgebildet, bildeten sie das Rueckgrat des Militaers der Republik und wurden schliesslich eingesetzt, um Order 66 gegen die Jedi auszufuehren."
+
+REFERENCE           COLEMAN_TREBOR
+LANG_ENGLISH        "A Vurk Jedi Master and member of the High Council, Coleman Trebor was known for his wisdom and calm demeanor. He attempted to confront Count Dooku during the Battle of Geonosis but was quickly killed by Jango Fett while trying to protect the Jedi."
+LANG_GERMAN         "Ein Vurk-Jedi-Meister und Mitglied des Hohen Rates, Coleman Trebor war bekannt fuer seine Weisheit und sein ruhiges Auftreten. Er versuchte, Graf Dooku waehrend der Schlacht von Geonosis zu stellen, wurde jedoch schnell von Jango Fett getoetet, als er versuchte, die Jedi zu schuetzen."
+
+REFERENCE           COMMANDER_CODY
+LANG_ENGLISH        "An ARC Trooper and clone commander known for his strategic mind and field leadership, Commander Cody led specialized missions during the Clone Wars. Fiercely loyal to the Republic, he was respected for his discipline and courage in combat."
+LANG_GERMAN         "Ein ARC-Truppler und Klonkommandant, bekannt fuer seinen strategischen Verstand und seine Fuehrungsstaerke im Feld, fuehrte Commander Cody spezialisierte Missionen waehrend der Klonkriege an. Der Republik zutiefst loyal wurde er fuer seine Disziplin und seinen Mut im Kampf respektiert."
+
+REFERENCE           COMMANDER_FOX
+LANG_ENGLISH        "CC-1010, known as Commander Fox, led the Coruscant Guard tasked with protecting the capital and enforcing security on Coruscant. Zealous in carrying out his orders, Fox was responsible for several arrests during the Clone Wars, including that of Ahsoka Tano. He was later killed by Darth Vader."
+LANG_GERMAN         "CC-1010, bekannt als Commander Fox, fuehrte die Coruscant-Wache an, die mit dem Schutz der Hauptstadt und der Aufrechterhaltung der Sicherheit auf Coruscant betraut war. Eifrig in der Ausfuehrung seiner Befehle war Fox fuer mehrere Festnahmen waehrend der Klonkriege verantwortlich, darunter auch die von Ahsoka Tano. Spaeter wurde er von Darth Vader getoetet."
+
+REFERENCE           COMMANDER_NEYO
+LANG_ENGLISH        "Commander Neyo, designated CC-8826, was a clone officer known for his quiet demeanor and efficiency. He led the 91st Reconnaissance Corps and executed Jedi Master Stass Allie during Order 66 without hesitation, embodying the cold obedience of the clones in the Empire's rise."
+LANG_GERMAN         "Commander Neyo, mit der Bezeichnung CC-8826, war ein Klonoffizier, bekannt fuer sein ruhiges Auftreten und seine Effizienz. Er fuehrte das 91. Aufklaerungskorps an und exekutierte Jedi-Meisterin Stass Allie waehrend Order 66 ohne zu zoegern, was den kalten Gehorsam der Klone beim Aufstieg des Imperiums verkoerperte."
+
+REFERENCE           COMMANDER_VAUGHN
+LANG_ENGLISH        "Commander Vaughn served under Ahsoka Tano in the 332nd Company during the Siege of Mandalore. Loyal and competent, he fought with distinction during the final days of the Clone Wars and was killed during the execution of Order 66 while trying to locate Ahsoka."
+LANG_GERMAN         "Commander Vaughn diente unter Ahsoka Tano in der 332. Kompanie waehrend der Belagerung von Mandalore. Loyal und kompetent kaempfte er mit Auszeichnung in den letzten Tagen der Klonkriege und wurde waehrend der Ausfuehrung von Order 66 getoetet, als er versuchte, Ahsoka zu finden."
+
+REFERENCE           DEPA_BILLABA
+LANG_ENGLISH        "A former Padawan of Mace Windu, Depa Billaba became a Jedi Master and served on the High Council. She fought in the Clone Wars and mentored Caleb Dume, who would later become Kanan Jarrus. She gave her life during Order 66 to ensure her Padawan's escape."
+LANG_GERMAN         "Als ehemalige Padawan von Mace Windu wurde Depa Billaba zur Jedi-Meisterin und diente im Hohen Rat. Sie kaempfte in den Klonkriegen und unterrichtete Caleb Dume, der spaeter zu Kanan Jarrus wurde. Waehrend Order 66 gab sie ihr Leben, um die Flucht ihres Padawans zu sichern."
+
+REFERENCE           EEKAR_OKI
+LANG_ENGLISH        "A Nautolan Jedi Knight, Eekar Oki served during the Clone Wars and fought in several key battles. Little is known about his ultimate fate, but he stood among the many Jedi who defended the Republic until the rise of the Empire."
+LANG_GERMAN         "Ein nautolanischer Jedi-Ritter, Eekar Oki diente waehrend der Klonkriege und kaempfte in mehreren entscheidenden Schlachten. Ueber sein endgueltiges Schicksal ist wenig bekannt, doch gehoerte er zu den vielen Jedi, die die Republik bis zum Aufstieg des Imperiums verteidigten."
+
+REFERENCE           EETH_KOTH
+LANG_ENGLISH        "A Zabrak Jedi Master and member of the Jedi High Council, Eeth Koth survived many battles during the Clone Wars. After being presumed dead, he left the Order and started a new life, only to be tracked down and killed by Darth Vader during the Jedi Purge."
+LANG_GERMAN         "Ein zabrakischer Jedi-Meister und Mitglied des Hohen Jedi-Rates, Eeth Koth ueberlebte viele Schlachten waehrend der Klonkriege. Nachdem man ihn fuer tot gehalten hatte, verliess er den Orden und begann ein neues Leben, wurde jedoch waehrend der Jedi-Saeuberung von Darth Vader aufgespuert und getoetet."
+
+REFERENCE           EVEN_PIELL
+LANG_ENGLISH        "A Lannik Jedi Master with a fierce temperament, Even Piell served on the Jedi Council and was known for his bravery. He played a critical role in the Citadel mission during the Clone Wars, sacrificing his life to protect vital Republic intelligence from falling into enemy hands."
+LANG_GERMAN         "Ein lannikischer Jedi-Meister mit heftigem Temperament, Even Piell diente im Jedi-Rat und war fuer seinen Mut bekannt. Er spielte eine entscheidende Rolle bei der Zitadellen-Mission waehrend der Klonkriege und opferte sein Leben, um zu verhindern, dass wichtige republikanische Informationen in feindliche Haende fielen."
+
+REFERENCE           FI_EK_SIRCH
+LANG_ENGLISH        "A Nikto Jedi Knight, Fi-Ek Sirch was skilled with the lightsaber and served during the Clone Wars. He participated in the Battle of Geonosis and stood with the Jedi until his death during the Purge."
+LANG_GERMAN         "Ein niktoischer Jedi-Ritter, Fi-Ek Sirch war ein geuebter Lichtschwertkaempfer und diente waehrend der Klonkriege. Er nahm an der Schlacht von Geonosis teil und stand den Jedi bis zu seinem Tod waehrend der Saeuberung bei."
+
+REFERENCE           FIVES
+LANG_ENGLISH        "Designated CT-5555, 'Fives' was an ARC Trooper known for his courage and determination to uncover the truth behind the inhibitor chips implanted in clones. His relentless pursuit of the conspiracy led to his tragic death, but his actions planted the seeds of doubt that would later save others."
+LANG_GERMAN         "Unter der Bezeichnung CT-5555 war 'Fives' ein ARC-Truppler, bekannt fuer seinen Mut und seine Entschlossenheit, die Wahrheit hinter den in Klonen implantierten Inhibitorchips aufzudecken. Seine unerbittliche Verfolgung der Verschwoerung fuehrte zu seinem tragischen Tod, doch seine Handlungen saeten Zweifel, die spaeter andere retten sollten."
+
+REFERENCE           FIXER
+LANG_ENGLISH        "RC-1140, known as 'Fixer', was the technical expert of Delta Squad. Calm, methodical, and precise, Fixer excelled at slicing systems and demolitions, playing a crucial role in many of the squad's high-risk Clone Wars missions."
+LANG_GERMAN         "RC-1140, bekannt als 'Fixer', war der technische Experte des Delta-Kommandos. Ruhig, methodisch und praezise glaenzte Fixer im Hacken von Systemen und im Umgang mit Sprengstoffen und spielte eine entscheidende Rolle in vielen der risikoreichen Missionen des Kommandos waehrend der Klonkriege."
+
+REFERENCE           FOUL_MOUDAMA
+LANG_ENGLISH        "A Talz Jedi Knight known for his towering strength and loyalty, Foul Moudama served in the Clone Wars and fought valiantly to protect Chancellor Palpatine during the Battle of Coruscant. He was ultimately slain by General Grievous in a desperate defense."
+LANG_GERMAN         "Ein talzischer Jedi-Ritter, bekannt fuer seine gewaltige Staerke und Loyalitaet, diente Foul Moudama in den Klonkriegen und kaempfte tapfer, um Kanzler Palpatine waehrend der Schlacht von Coruscant zu schuetzen. Schliesslich wurde er in einem verzweifelten Abwehrkampf von General Grievous getoetet."
+
+REFERENCE           GREGOR
+LANG_ENGLISH        "Clone Commando CC-5576-39, or 'Gregor', was presumed dead after a crash on Sarrish but later resurfaced with memory loss. Regaining his identity, he returned to the fight against the Empire and eventually joined the Rebellion alongside Rex and Wolffe."
+LANG_GERMAN         "Klonkommando CC-5576-39, oder 'Gregor', galt nach einem Absturz auf Sarrish als tot, tauchte jedoch spaeter mit Gedaechtnisverlust wieder auf. Nachdem er seine Identitaet zurueckerlangt hatte, kehrte er in den Kampf gegen das Imperium zurueck und schloss sich schliesslich gemeinsam mit Rex und Wolffe der Rebellion an."
+
+REFERENCE           GUNGAN_WARRIOR
+LANG_ENGLISH        "Proud and loyal defenders of Naboo, Gungan warriors fought with traditional energy shields and electropoles. Their bravery during the Battle of Naboo helped repel the Trade Federation, earning them newfound respect among their allies."
+LANG_GERMAN         "Stolze und loyale Verteidiger von Naboo, kaempften Gungan-Krieger mit traditionellen Energieschilden und Elektrostaeben. Ihr Mut waehrend der Schlacht von Naboo trug dazu bei, die Handelsfoederation zurueckzuschlagen, und verschaffte ihnen neuen Respekt unter ihren Verbuendeten."
+
+REFERENCE           HALSEY
+LANG_ENGLISH        "A human Jedi Knight, Halsey served during the Clone Wars and was known for his devotion to the Jedi Code. He was killed alongside his Padawan Knox during an ambush by Savage Opress on Devaron, a brutal reminder of the growing threat of the dark side."
+LANG_GERMAN         "Ein menschlicher Jedi-Ritter, Halsey diente waehrend der Klonkriege und war bekannt fuer seine Hingabe zum Jedi-Kodex. Er wurde zusammen mit seinem Padawan Knox waehrend eines Hinterhalts von Savage Opress auf Devaron getoetet – ein brutaler Hinweis auf die wachsende Bedrohung durch die dunkle Seite."
+
+REFERENCE           IMA_GUN_DI
+LANG_ENGLISH        "A Kajain'sa'Nikto Jedi Master, Ima-Gun Di fought bravely during the Clone Wars. He made a heroic last stand on Ryloth to protect Twi'lek refugees, sacrificing his life so they could escape, exemplifying the Jedi ideal of selfless service."
+LANG_GERMAN         "Ein Kajain'sa'Nikto-Jedi-Meister, Ima-Gun Di kaempfte tapfer waehrend der Klonkriege. Er leistete auf Ryloth einen heldenhaften letzten Widerstand, um Twi'lek-Fluechtlinge zu schuetzen, und opferte sein Leben, damit sie entkommen konnten – ein Beispiel fuer das selbstlose Ideal der Jedi."
+
+REFERENCE           J_OOPI_SHE
+LANG_ENGLISH        "An eccentric and ancient Jedi Master, J'oopi She was known more for his wisdom and humor than combat skills. Despite his age and eccentricity, he remained loyal to the Jedi Code, though his fate following the Clone Wars remains uncertain."
+LANG_GERMAN         "Ein exzentrischer und uralter Jedi-Meister, J'oopi She war eher fuer seine Weisheit und seinen Humor als fuer seine Kampffaehigkeiten bekannt. Trotz seines Alters und seiner Eigenheiten blieb er dem Jedi-Kodex treu, auch wenn sein Schicksal nach den Klonkriegen ungewiss bleibt."
+
+REFERENCE           JAR_JAR_BINKS
+LANG_ENGLISH        "A clumsy but well-meaning Gungan from Naboo, Jar Jar Binks played an unexpected role in galactic events. His actions in the Senate helped grant emergency powers to Chancellor Palpatine, unknowingly aiding in the rise of the Empire."
+LANG_GERMAN         "Ein tollpatschiger, aber gutmuetiger Gungan von Naboo, Jar Jar Binks spielte eine unerwartete Rolle in den galaktischen Ereignissen. Seine Handlungen im Senat halfen, Kanzler Palpatine Notstandsvollmachten zu gewaehren, wodurch er unwissentlich zum Aufstieg des Imperiums beitrug."
+
+REFERENCE           JEDI_MASTER
+LANG_ENGLISH        "Jedi Masters were seasoned Force users recognized for their wisdom, leadership, and mastery of the Jedi arts. Often serving on the High Council or as battlefield generals, they upheld the Jedi Code and mentored younger generations of Jedi."
+LANG_GERMAN         "Jedi-Meister waren erfahrene Machtnutzer, die fuer ihre Weisheit, Fuehrungsstaerke und Beherrschung der Jedi-Kuenste anerkannt wurden. Oft dienten sie im Hohen Rat oder als Generaele auf dem Schlachtfeld, hielten den Jedi-Kodex aufrecht und unterrichteten juengere Generationen von Jedi."
+
+REFERENCE           JEDI_VETERAN
+LANG_ENGLISH        "Hardened by years of conflict, Jedi Veterans were experienced warriors who had survived countless battles during the Clone Wars. Their combat skills and strategic knowledge made them invaluable leaders and defenders of the Republic."
+LANG_GERMAN         "Durch Jahre der Konflikte gestaehlt, waren Jedi-Veteranen erfahrene Krieger, die unzaehlige Schlachten waehrend der Klonkriege ueberlebt hatten. Ihre Kampffaehigkeiten und ihr strategisches Wissen machten sie zu unverzichtbaren Anfuehrern und Verteidigern der Republik."
+
+REFERENCE           JEDI_KNIGHT
+LANG_ENGLISH        "Jedi Knights were fully trained members of the Jedi Order, often tasked with peacekeeping missions and battlefield leadership. Having passed the Trials, they served as guardians of the Republic and protectors of the innocent across the galaxy."
+LANG_GERMAN         "Jedi-Ritter waren vollstaendig ausgebildete Mitglieder des Jedi-Ordens, die haeufig mit Friedensmissionen und Fuehrungsaufgaben auf dem Schlachtfeld betraut wurden. Nachdem sie die Pruefungen bestanden hatten, dienten sie als Hueter der Republik und Beschuetzer der Unschuldigen in der gesamten Galaxis."
+
+REFERENCE           JEDI_PADAWAN
+LANG_ENGLISH        "Padawans were Jedi apprentices undergoing one-on-one training under a Jedi Knight or Master. Carrying training braids and bound by the Jedi Code, they aspired to earn the rank of Knight through courage, discipline, and mastery of the Force."
+LANG_GERMAN         "Padawane waren Jedi-Schueler, die eine persoenliche Ausbildung unter einem Jedi-Ritter oder -Meister erhielten. Mit ihren Trainingszoepfen und dem Jedi-Kodex verpflichtet, strebten sie danach, durch Mut, Disziplin und Beherrschung der Macht den Rang eines Ritters zu erlangen."
+
+REFERENCE           JEDI_BRUTE
+LANG_ENGLISH        "Jedi Brutes were powerful Force-wielders who relied more on raw strength and aggression than finesse. Though rare within the Order, these warriors were often deployed in the thick of battle, using their might to turn the tide in desperate situations."
+LANG_GERMAN         "Jedi-Bruten waren maechtige Machtnutzer, die mehr auf rohe Staerke und Aggression als auf Finesse setzten. Obwohl sie im Orden selten waren, wurden diese Krieger oft im Zentrum der Schlacht eingesetzt und nutzten ihre Kraft, um in verzweifelten Situationen das Blatt zu wenden."
+
+REFERENCE           JEDI_TEMPLE_GUARD
+LANG_ENGLISH        "Anonymous and stoic, Jedi Temple Guards were elite Jedi Knights sworn to defend the Jedi Temple on Coruscant. Clad in ceremonial robes and wielding double-bladed yellow lightsabers, they upheld peace and order within the temple, embodying absolute dedication to the Jedi Order."
+LANG_GERMAN         "Anonym und stoisch waren Jedi-Tempelwaechter Elite-Jedi-Ritter, die geschworen hatten, den Jedi-Tempel auf Coruscant zu verteidigen. In zeremoniellen Roben gekleidet und mit doppelklingigen gelben Lichtschwertern bewaffnet, hielten sie Frieden und Ordnung im Tempel aufrecht und verkoerperten absolute Hingabe an den Jedi-Orden."
+
+REFERENCE           JOCASTA_NU
+LANG_ENGLISH        "The chief librarian of the Jedi Archives, Jocasta Nu was a guardian of knowledge and history within the Jedi Temple. After surviving the initial Jedi Purge, she attempted to preserve the Jedi legacy but was ultimately tracked down and killed by Darth Vader."
+LANG_GERMAN         "Die Chefarchivarin der Jedi-Archive, Jocasta Nu, war eine Hueterin von Wissen und Geschichte im Jedi-Tempel. Nachdem sie die erste Jedi-Saeuberung ueberlebt hatte, versuchte sie, das Erbe der Jedi zu bewahren, wurde jedoch schliesslich von Darth Vader aufgespuert und getoetet."
+
+REFERENCE           KELLERAN_BEQ
+LANG_ENGLISH        "Known as the 'Sabered Hand', Jedi Master Kelleran Beq was a highly skilled duelist and protector of younglings. He played a crucial role in rescuing Grogu from the Jedi Temple during Order 66, ensuring the child's survival amidst chaos."
+LANG_GERMAN         "Bekannt als die 'Klingenhand' war Jedi-Meister Kelleran Beq ein aeusserst talentierter Duellant und Beschuetzer von Juenglingen. Er spielte eine entscheidende Rolle bei der Rettung von Grogu aus dem Jedi-Tempel waehrend Order 66 und sicherte das Ueberleben des Kindes im Chaos."
+
+REFERENCE           KI_ADI_MUNDI
+LANG_ENGLISH        "A Cerean Jedi Master and member of the High Council, Ki-Adi Mundi was a prominent figure in the Clone Wars, known for his intellect and military leadership. He led troops on Mygeeto, where he was betrayed and killed during the execution of Order 66."
+LANG_GERMAN         "Ein cereanischer Jedi-Meister und Mitglied des Hohen Rates, Ki-Adi Mundi war eine bedeutende Figur in den Klonkriegen, bekannt fuer seinen Intellekt und seine militaerische Fuehrung. Er fuehrte Truppen auf Mygeeto an, wo er waehrend der Ausfuehrung von Order 66 verraten und getoetet wurde."
+
+REFERENCE           KIT_FISTO
+LANG_ENGLISH        "A Nautolan Jedi Master from Glee Anselm, Kit Fisto was known for his friendly nature and skill in underwater combat. A veteran of many battles in the Clone Wars, he fell in battle alongside fellow Jedi while attempting to arrest Darth Sidious."
+LANG_GERMAN         "Ein nautolanischer Jedi-Meister von Glee Anselm, Kit Fisto war bekannt fuer seine freundliche Art und seine Faehigkeiten im Unterwasserkampf. Ein Veteran vieler Schlachten der Klonkriege fiel er im Kampf an der Seite anderer Jedi, als er versuchte, Darth Sidious festzunehmen."
+
+REFERENCE           KNOX
+LANG_ENGLISH        "Padawan to Jedi Knight Halsey, Knox was a young human Jedi in training during the Clone Wars. He was killed alongside his master during a surprise attack by Savage Opress on Devaron, a tragic end for a promising learner."
+LANG_GERMAN         "Als Padawan des Jedi-Ritters Halsey war Knox ein junger menschlicher Jedi in Ausbildung waehrend der Klonkriege. Er wurde zusammen mit seinem Meister bei einem Ueberraschungsangriff von Savage Opress auf Devaron getoetet – ein tragisches Ende fuer einen vielversprechenden Schueler."
+
+REFERENCE           KOFFI_ARANA
+LANG_ENGLISH        "Once a respected Jedi Knight, Koffi Arana became disillusioned with the Jedi Council and went rogue during the Clone Wars. Taking justice into his own hands, he attempted to assassinate Darth Vader but was ultimately defeated and killed in the confrontation."
+LANG_GERMAN         "Einst ein angesehener Jedi-Ritter, wurde Koffi Arana vom Jedi-Rat desillusioniert und wurde waehrend der Klonkriege zum Abtruennigen. Er nahm das Recht selbst in die Hand und versuchte, Darth Vader zu toeten, wurde jedoch letztlich im Kampf besiegt und getoetet."
+
+REFERENCE           LUMINARA_UNDULI
+LANG_ENGLISH        "A calm and disciplined Jedi Master from Mirial, Luminara Unduli served as a General during the Clone Wars and was a mentor to Barriss Offee. She was ultimately captured and executed by the Empire, her image later used in a cruel trap to lure surviving Jedi."
+LANG_GERMAN         "Eine ruhige und disziplinierte Jedi-Meisterin von Mirial, Luminara Unduli diente waehrend der Klonkriege als Generalin und war die Mentorin von Barriss Offee. Sie wurde schliesslich vom Imperium gefangen genommen und hingerichtet; ihr Bild wurde spaeter in einer grausamen Falle benutzt, um ueberlebende Jedi anzulocken."
+
+REFERENCE           MA_KIS_SHAALAS
+LANG_ENGLISH        "A muscular Nikto Jedi Master, Ma'kis'shaalas was renowned for his raw strength and bravery in battle. He fought in the Battle of Geonosis and was a loyal defender of the Jedi Order, eventually perishing during the Clone Wars."
+LANG_GERMAN         "Ein muskuloeser Nikto-Jedi-Meister, Ma'kis'shaalas war fuer seine rohe Staerke und seinen Mut im Kampf bekannt. Er kaempfte in der Schlacht von Geonosis und war ein loyaler Verteidiger des Jedi-Ordens, bis er schliesslich waehrend der Klonkriege fiel."
+
+REFERENCE           MACE_WINDU
+LANG_ENGLISH        "A revered Jedi Master and champion of the Order, Mace Windu was known for his mastery of Form VII lightsaber combat and his unwavering sense of justice. He led many missions during the Clone Wars and nearly defeated Darth Sidious before being betrayed by Anakin Skywalker."
+LANG_GERMAN         "Ein verehrter Jedi-Meister und Vorkaempfer des Ordens, Mace Windu war bekannt fuer seine Meisterschaft der Lichtschwertform VII und seinen unerschuetterlichen Sinn fuer Gerechtigkeit. Er fuehrte viele Missionen waehrend der Klonkriege an und besiegte beinahe Darth Sidious, bevor er von Anakin Skywalker verraten wurde."
+
+REFERENCE           MICAH_GIIETT
+LANG_ENGLISH        "A wise and level-headed Jedi Master, Micah Giiett was a member of the Jedi Council known for his strategic thinking and sense of humor. He gave his life during a mission to Nar Shaddaa, sacrificing himself so his team could escape."
+LANG_GERMAN         "Ein weiser und besonnener Jedi-Meister, Micah Giiett war ein Mitglied des Jedi-Rates, bekannt fuer sein strategisches Denken und seinen Sinn fuer Humor. Er gab sein Leben waehrend einer Mission auf Nar Shaddaa und opferte sich, damit sein Team entkommen konnte."
+
+REFERENCE           NAHDAR_VEBB
+LANG_ENGLISH        "A Mon Calamari Jedi Knight and former Padawan of Kit Fisto, Nahdar Vebb was courageous but impulsive. Recently knighted during the Clone Wars, he was killed by General Grievous while letting emotion cloud his judgment, revealing the dangers of straying from Jedi discipline."
+LANG_GERMAN         "Ein mon calamariischer Jedi-Ritter und ehemaliger Padawan von Kit Fisto, Nahdar Vebb war mutig, aber impulsiv. Erst kuerzlich waehrend der Klonkriege zum Ritter geschlagen, wurde er von General Grievous getoetet, nachdem er seine Emotionen sein Urteilsvermoegen trueben liess – ein Beispiel fuer die Gefahren, sich von der Jedi-Disziplin zu entfernen."
+
+REFERENCE           OBI_WAN_KENOBI
+LANG_ENGLISH        "A noble Jedi Master and skilled negotiator, Obi-Wan Kenobi served as a General in the Clone Wars and trained Anakin Skywalker. After surviving the Jedi Purge, he watched over Luke from exile on Tatooine under the name 'Ben', eventually guiding him toward the path of a Jedi."
+LANG_GERMAN         "Ein edler Jedi-Meister und geschickter Unterhaendler, Obi-Wan Kenobi diente als General in den Klonkriegen und bildete Anakin Skywalker aus. Nach dem Ueberleben der Jedi-Saeuberung wachte er im Exil auf Tatooine unter dem Namen 'Ben' ueber Luke und fuehrte ihn schliesslich auf den Weg eines Jedi."
+
+REFERENCE           OPPO_RANCISIS
+LANG_ENGLISH        "A wise and strategic Thisspiasian Jedi Master, Oppo Rancisis was a long-serving member of the Jedi High Council. Renowned for his battlefield tactics and mastery of Malacia, he played a key leadership role in the Clone Wars before being slain during the Jedi Purge."
+LANG_GERMAN         "Ein weiser und strategischer Thisspiasianischer Jedi-Meister, Oppo Rancisis war ein langjaehriges Mitglied des Hohen Jedi-Rates. Bekannt fuer seine Schlachttaktiken und seine Meisterschaft der Malacia spielte er eine wichtige Fuehrungsrolle in den Klonkriegen, bevor er waehrend der Jedi-Saeuberung getoetet wurde."
+
+REFERENCE           PABLO_JILL
+LANG_ENGLISH        "An Ongree Jedi Knight from the Outer Rim, Pablo-Jill was known for his agility and lightsaber prowess. He represented the Jedi Order in various diplomatic missions and fought in the Battle of Geonosis, later perishing during the Clone Wars."
+LANG_GERMAN         "Ein ongreeischer Jedi-Ritter aus dem Outer Rim, Pablo-Jill war bekannt fuer seine Beweglichkeit und seine Lichtschwertkuenste. Er vertrat den Jedi-Orden in verschiedenen diplomatischen Missionen und kaempfte in der Schlacht von Geonosis, bevor er spaeter waehrend der Klonkriege fiel."
+
+REFERENCE           PADME_AMIDALA
+LANG_ENGLISH        "Queen turned Senator of Naboo, Padmé Amidala was a fierce advocate for diplomacy and democracy. Secretly married to Anakin Skywalker, she worked to preserve peace during the Clone Wars and died heartbroken after his fall, giving birth to Luke and Leia Skywalker."
+LANG_GERMAN         "Als Koenigin zur Senatorin von Naboo geworden, war Padmé Amidala eine entschlossene Verfechterin von Diplomatie und Demokratie. Heimlich mit Anakin Skywalker verheiratet, arbeitete sie waehrend der Klonkriege daran, den Frieden zu bewahren, und starb gebrochenen Herzens nach seinem Fall, als sie Luke und Leia Skywalker zur Welt brachte."
+
+REFERENCE           PLO_KOON
+LANG_ENGLISH        "A Kel Dor Jedi Master from Dorin, Plo Koon was a wise and respected member of the Jedi High Council. Known for discovering Ahsoka Tano and his strong sense of justice, he served as a General in the Clone Wars until he was killed in his starfighter during Order 66."
+LANG_GERMAN         "Ein Kel-Dor-Jedi-Meister von Dorin, Plo Koon war ein weises und angesehenes Mitglied des Hohen Jedi-Rates. Bekannt dafuer, Ahsoka Tano entdeckt zu haben, und fuer seinen starken Sinn fuer Gerechtigkeit diente er als General in den Klonkriegen, bis er waehrend Order 66 in seinem Sternenjaeger getoetet wurde."
+
+REFERENCE           PONG_KRELL
+LANG_ENGLISH        "A Besalisk Jedi General, Pong Krell was known for his brutal tactics and disdain for clones. During the Umbara campaign, he betrayed the Republic, seeking power with the Sith. His treason was uncovered by his own troops, who executed him for his crimes."
+LANG_GERMAN         "Ein besaliskischer Jedi-General, Pong Krell war bekannt fuer seine brutalen Taktiken und seine Verachtung gegenueber Klonen. Waehrend der Umbara-Kampagne verriet er die Republik, da er Macht bei den Sith suchte. Sein Verrat wurde von seinen eigenen Truppen aufgedeckt, die ihn fuer seine Verbrechen hinrichteten."
+
+REFERENCE           QUE_MARS_REDATH_GOM
+LANG_ENGLISH        "A hulking Weequay Jedi Knight, Que-Mars Redath-Gom was a quiet yet imposing presence among the Jedi ranks. He fought in the Battle of Geonosis and served during the Clone Wars, ultimately falling during the dark times that followed."
+LANG_GERMAN         "Ein massiger Weequay-Jedi-Ritter, Que-Mars Redath-Gom war eine stille, aber eindrucksvolle Erscheinung in den Reihen der Jedi. Er kaempfte in der Schlacht von Geonosis und diente waehrend der Klonkriege, bis er schliesslich in den darauffolgenden dunklen Zeiten fiel."
+
+REFERENCE           QUI_GON_JINN
+LANG_ENGLISH        "A maverick Jedi Master, Qui-Gon Jinn often followed the will of the Force over the directives of the Jedi Council. He discovered Anakin Skywalker on Tatooine, believing him to be the Chosen One, and was slain by Darth Maul on Naboo. His belief in the Living Force left a lasting legacy."
+LANG_GERMAN         "Ein unkonventioneller Jedi-Meister, Qui-Gon Jinn folgte oft dem Willen der Macht statt den Anweisungen des Jedi-Rates. Er entdeckte Anakin Skywalker auf Tatooine und glaubte, er sei der Auserwaehlte. Er wurde von Darth Maul auf Naboo getoetet. Sein Glaube an die Lebendige Macht hinterliess ein dauerhaftes Vermaechtnis."
+
+REFERENCE           QUINLAN_VOS
+LANG_ENGLISH        "A Kiffar Jedi Master known for his undercover work and psychometric abilities, Quinlan Vos often walked the line between light and dark. He was sent to assassinate Count Dooku but fell in love with Asajj Ventress and struggled with his identity, ultimately returning to the light."
+LANG_GERMAN         "Ein kiffarischer Jedi-Meister, bekannt fuer seine Undercover-Arbeit und seine psychometrischen Faehigkeiten, wandelte Quinlan Vos oft auf dem schmalen Grat zwischen Licht und Dunkelheit. Er wurde entsandt, um Graf Dooku zu toeten, verliebte sich jedoch in Asajj Ventress und kaempfte mit seiner Identitaet, bevor er schliesslich zum Licht zurueckkehrte."
+
+REFERENCE           REPUBLIC_COMMANDO
+LANG_ENGLISH        "Republic Commandos were elite clone soldiers trained for high-risk missions behind enemy lines. Equipped with advanced armor and specialized gear, they operated in tight squads like Delta and Omega, handling infiltration, sabotage, and frontline assault with ruthless efficiency."
+LANG_GERMAN         "Republik-Kommandos waren Elite-Klonsoldaten, ausgebildet fuer Hochrisikomissionen hinter feindlichen Linien. Mit fortschrittlicher Ruestung und Spezialausruestung operierten sie in engen Trupps wie Delta und Omega und fuehrten Infiltration, Sabotage und Frontalangriffe mit kompromissloser Effizienz durch."
+
+REFERENCE           SAESEE_TIIN
+LANG_ENGLISH        "A powerful telepath and pilot, Saesee Tiin was an Iktotchi Jedi Master who served on the High Council. He fought valiantly during the Clone Wars and joined the mission to arrest Darth Sidious, where he was quickly struck down by the Sith Lord."
+LANG_GERMAN         "Ein maechtiger Telepath und Pilot, Saesee Tiin war ein iktotchischer Jedi-Meister, der im Hohen Rat diente. Er kaempfte tapfer waehrend der Klonkriege und nahm an der Mission teil, Darth Sidious festzunehmen, wo er jedoch schnell vom Sith-Lord niedergestreckt wurde."
+
+REFERENCE           SARISSA_JENG
+LANG_ENGLISH        "A skilled Jedi Knight and martial artist, Sarissa Jeng fought in the Battle of Geonosis with a unique and aggressive fighting style. Though little is known about her missions during the Clone Wars, she stood among the many Jedi who gave their lives in service to the Republic."
+LANG_GERMAN         "Eine talentierte Jedi-Ritterin und Kampfkuenstlerin, Sarissa Jeng kaempfte in der Schlacht von Geonosis mit einem einzigartigen und aggressiven Kampfstil. Obwohl wenig ueber ihre Missionen waehrend der Klonkriege bekannt ist, gehoerte sie zu den vielen Jedi, die ihr Leben im Dienst der Republik gaben."
+
+REFERENCE           SATINE_KRYZE
+LANG_ENGLISH        "Duchess of Mandalore and leader of the pacifist New Mandalorians, Satine Kryze was a strong-willed idealist. She shared a complicated past and unspoken love with Obi-Wan Kenobi. Her assassination during the Clone Wars marked a tragic blow to Mandalore's future."
+LANG_GERMAN         "Herzogin von Mandalore und Anfuehrerin der pazifistischen Neuen Mandalorianer, Satine Kryze war eine willensstarke Idealistin. Sie teilte eine komplizierte Vergangenheit und unausgesprochene Liebe mit Obi-Wan Kenobi. Ihre Ermordung waehrend der Klonkriege bedeutete einen tragischen Schlag fuer Mandalores Zukunft."
+
+REFERENCE           SCORCH
+LANG_ENGLISH        "RC-1262, nicknamed 'Scorch', was the explosives expert of Delta Squad. Known for his humor and technical skill, he fought in some of the Clone Wars' most dangerous operations and later became entangled in Imperial programs targeting rogue clones."
+LANG_GERMAN         "RC-1262, genannt 'Scorch', war der Sprengstoffexperte des Delta-Kommandos. Bekannt fuer seinen Humor und seine technische Begabung kaempfte er in einigen der gefaehrlichsten Operationen der Klonkriege und geriet spaeter in imperiale Programme, die abtruennige Klone ins Visier nahmen."
+
+REFERENCE           SEV
+LANG_ENGLISH        "RC-1207, or 'Sev', was Delta Squad's sniper and a fierce warrior with a grim sense of humor. During a mission on Kashyyyk, Sev was separated from his squad and declared missing in action, with his ultimate fate left unknown."
+LANG_GERMAN         "RC-1207, oder 'Sev', war der Scharfschuetze des Delta-Kommandos und ein erbitterter Krieger mit duesterem Humor. Waehrend einer Mission auf Kashyyyk wurde Sev von seinem Trupp getrennt und als vermisst gemeldet; sein endgueltiges Schicksal bleibt unbekannt."
+
+REFERENCE           SHAAK_TI
+LANG_ENGLISH        "A Togruta Jedi Master from Shili, Shaak Ti was a calm and contemplative figure who played key roles in battles across the Clone Wars. She oversaw the training of clones on Kamino and met her end during the Jedi Purge, with varying accounts of her final moments."
+LANG_GERMAN         "Eine togrutanische Jedi-Meisterin von Shili, Shaak Ti war eine ruhige und nachdenkliche Persoenlichkeit, die in vielen Schlachten der Klonkriege eine Schluesselrolle spielte. Sie ueberwachte die Ausbildung der Klone auf Kamino und fand waehrend der Jedi-Saeuberung ihr Ende, wobei es unterschiedliche Berichte ueber ihre letzten Momente gibt."
+
+REFERENCE           SHAKKRA_KIEN
+LANG_ENGLISH        "A lesser-known but skilled Jedi Knight, Shakkra Kien served during the Clone Wars. Though records of her exploits are sparse, she was among the many Jedi who fought valiantly to defend the Republic during its darkest days."
+LANG_GERMAN         "Eine weniger bekannte, aber talentierte Jedi-Ritterin, Shakkra Kien diente waehrend der Klonkriege. Obwohl Aufzeichnungen ueber ihre Taten spaerlich sind, gehoerte sie zu den vielen Jedi, die tapfer zur Verteidigung der Republik in ihren dunkelsten Tagen kaempften."
+
+REFERENCE           SORA_BULQ
+LANG_ENGLISH        "A Weequay Jedi Master and expert in lightsaber combat, Sora Bulq trained many Jedi in Form VII. Disillusioned with the Jedi Council, he fell to the dark side and aligned with Count Dooku, becoming a leader in the Separatist cause before being killed by Quinlan Vos."
+LANG_GERMAN         "Ein weequayischer Jedi-Meister und Experte im Lichtschwertkampf, Sora Bulq bildete viele Jedi in Form VII aus. Vom Jedi-Rat desillusioniert verfiel er der dunklen Seite und schloss sich Graf Dooku an, wurde zu einem Anfuehrer der Separatisten und schliesslich von Quinlan Vos getoetet."
+
+REFERENCE           SERRA_KETO
+LANG_ENGLISH        "A promising human Jedi Knight trained under Cin Drallig, Serra Keto was known for her fierce spirit and dual lightsaber technique. She defended the Jedi Temple during Anakin Skywalker's assault but was ultimately slain in battle."
+LANG_GERMAN         "Eine vielversprechende menschliche Jedi-Ritterin, ausgebildet unter Cin Drallig, war Serra Keto bekannt fuer ihren kaempferischen Geist und ihre Technik mit zwei Lichtschwertern. Sie verteidigte den Jedi-Tempel waehrend Anakin Skywalkers Angriff, wurde jedoch schliesslich im Kampf getoetet."
+
+REFERENCE           STASS_ALLIE
+LANG_ENGLISH        "A Tholothian Jedi Master and cousin of Adi Gallia, Stass Allie served on the Jedi Council and fought in the Clone Wars. While on a mission to Saleucami, she was killed when her clone troopers turned on her during the execution of Order 66."
+LANG_GERMAN         "Eine tholothianische Jedi-Meisterin und Cousine von Adi Gallia, Stass Allie diente im Jedi-Rat und kaempfte in den Klonkriegen. Waehrend einer Mission auf Saleucami wurde sie getoetet, als ihre Klontruppen sich waehrend der Ausfuehrung von Order 66 gegen sie wandten."
+
+REFERENCE           TARADOS_GON
+LANG_ENGLISH        "A Klatooinian Jedi Master, Tarados Gon was a skilled warrior who fought in the Battle of Geonosis. Loyal and brave, he served in the early Clone Wars and died in combat, one of many Jedi lost in the conflict's opening battles."
+LANG_GERMAN         "Ein klatooinianischer Jedi-Meister, Tarados Gon war ein geuebter Krieger, der in der Schlacht von Geonosis kaempfte. Loyal und mutig diente er in den fruehen Klonkriegen und fiel im Kampf – einer der vielen Jedi, die in den ersten Schlachten des Konflikts starben."
+
+REFERENCE           TERA_SINUBE
+LANG_ENGLISH        "An ancient Cosian Jedi Master, Tera Sinube was a patient teacher and keeper of the Jedi Archives. He guided younglings in wisdom and justice, aiding Ahsoka Tano in recovering her lightsaber. He was eventually captured and killed during the rise of the Empire."
+LANG_GERMAN         "Ein uralter cosianischer Jedi-Meister, Tera Sinube war ein geduldiger Lehrer und Hueter der Jedi-Archive. Er fuehrte Juenglinge mit Weisheit und Gerechtigkeit und half Ahsoka Tano, ihr Lichtschwert wiederzufinden. Schliesslich wurde er waehrend des Aufstiegs des Imperiums gefangen genommen und getoetet."
+
+REFERENCE           THONGLA_JUR
+LANG_ENGLISH        "A heroic Jedi Knight of the Clone Wars, Thongla Jur fought with valor in defense of the Republic. Though little is recorded about his deeds, his legacy endures among the fallen defenders of peace during the Jedi Purge."
+LANG_GERMAN         "Ein heldenhafter Jedi-Ritter der Klonkriege, Thongla Jur kaempfte tapfer zur Verteidigung der Republik. Obwohl wenig ueber seine Taten ueberliefert ist, lebt sein Vermaechtnis unter den gefallenen Verteidigern des Friedens waehrend der Jedi-Saeuberung weiter."
+
+REFERENCE           TIPLAR
+LANG_ENGLISH        "A Mikkian Jedi General, Tiplar served alongside her twin sister Tiplee during the Clone Wars. She was killed suddenly by clone trooper Tup due to a malfunctioning inhibitor chip, a grim foreshadowing of the tragedy of Order 66."
+LANG_GERMAN         "Eine mikkianische Jedi-Generalin, Tiplar diente waehrend der Klonkriege an der Seite ihrer Zwillingsschwester Tiplee. Sie wurde ploetzlich von Klontruppler Tup getoetet, dessen defekter Inhibitorchip eine duestere Vorahnung der Tragoedie von Order 66 darstellte."
+
+REFERENCE           TIPLEE
+LANG_ENGLISH        "Tiplee, twin sister of Tiplar, was a Mikkian Jedi Master who served in several major Clone Wars battles. After her sister's death, she continued fighting for the Republic and was later slain by Count Dooku during a confrontation with the Sith Lord."
+LANG_GERMAN         "Tiplee, die Zwillingsschwester von Tiplar, war eine mikkianische Jedi-Meisterin, die in mehreren grossen Schlachten der Klonkriege diente. Nach dem Tod ihrer Schwester kaempfte sie weiter fuer die Republik und wurde spaeter von Graf Dooku waehrend einer Konfrontation mit dem Sith-Lord getoetet."
+
+REFERENCE           TSUI_CHOI
+LANG_ENGLISH        "A diminutive Aleena Jedi Master, Tsui Choi was known for his incredible agility and strength in the Force. Surviving the initial Jedi Purge, he continued to resist the Empire before being killed by Darth Vader during a final stand."
+LANG_GERMAN         "Ein kleiner aleenischer Jedi-Meister, Tsui Choi war bekannt fuer seine unglaubliche Beweglichkeit und seine Staerke in der Macht. Er ueberlebte die erste Jedi-Saeuberung und leistete weiterhin Widerstand gegen das Imperium, bevor er in einem letzten Gefecht von Darth Vader getoetet wurde."
+
+REFERENCE           YADDLE
+LANG_ENGLISH        "A member of the same mysterious species as Yoda, Yaddle was a wise and gentle Jedi Master who served on the High Council. Known for her deep knowledge of the Force and compassion, she later stepped down from the Council and died confronting Count Dooku during the rise of the Sith."
+LANG_GERMAN         "Ein Mitglied derselben mysterioesen Spezies wie Yoda, war Yaddle eine weise und sanfte Jedi-Meisterin, die im Hohen Rat diente. Bekannt fuer ihr tiefes Wissen ueber die Macht und ihr Mitgefuehl trat sie spaeter aus dem Rat zurueck und starb im Kampf gegen Graf Dooku waehrend des Aufstiegs der Sith."
+
+REFERENCE           YARAEL_POOF
+LANG_ENGLISH        "A Quermian Jedi Master, Yarael Poof was known for his powerful mind tricks and diplomatic abilities. He served on the Jedi High Council during the final days of the Republic but died before the Clone Wars while preventing a catastrophic attack on Coruscant."
+LANG_GERMAN         "Ein quermianischer Jedi-Meister, Yarael Poof war bekannt fuer seine maechtigen Geistestricks und diplomatischen Faehigkeiten. Er diente im Hohen Jedi-Rat in den letzten Tagen der Republik, starb jedoch noch vor den Klonkriegen, als er einen katastrophalen Angriff auf Coruscant verhinderte."
+
+REFERENCE           YODA
+LANG_ENGLISH        "One of the most powerful and revered Jedi Masters in galactic history, Yoda served the Order for over 800 years. Wise, patient, and deeply attuned to the Force, he led the Jedi through the Clone Wars and into exile after their fall, guiding future generations from the shadows."
+LANG_GERMAN         "Einer der maechtigsten und verehrtesten Jedi-Meister der galaktischen Geschichte, diente Yoda dem Orden ueber 800 Jahre lang. Weise, geduldig und tief mit der Macht verbunden fuehrte er die Jedi durch die Klonkriege und nach ihrem Fall ins Exil, von wo aus er zukuenftige Generationen aus dem Schatten leitete."
+
+REFERENCE           YOUNGLING
+LANG_ENGLISH        "Force-sensitive children undergoing early training in the Jedi Temple. Guided by Masters in lightsaber combat and the Force, many younglings perished during Order 66, victims of the Empire's brutal purge."
+LANG_GERMAN         "Machtsensitive Kinder, die im Jedi-Tempel ihre fruehe Ausbildung erhielten. Von Meistern in Lichtschwertkampf und der Macht unterrichtet, starben viele Juenglinge waehrend Order 66 als Opfer der brutalen Saeuberung durch das Imperium."
+
+REFERENCE           ZETT_JUKASSA
+LANG_ENGLISH        "A young Jedi Padawan trained in the Jedi Temple, Zett Jukassa fought bravely during the assault on the Temple led by Anakin Skywalker. Despite his youth, he attempted to protect escaping Jedi and civilians, but was killed by clone troopers during Order 66."
+LANG_GERMAN         "Ein junger Jedi-Padawan, der im Jedi-Tempel ausgebildet wurde, kaempfte Zett Jukassa tapfer waehrend des Angriffs auf den Tempel unter der Fuehrung von Anakin Skywalker. Trotz seiner Jugend versuchte er, fliehende Jedi und Zivilisten zu schuetzen, wurde jedoch waehrend Order 66 von Klontruppen getoetet."
+
+REFERENCE           FALON_GREY
+LANG_ENGLISH        "A former Jedi Knight of the Old Republic era, Falon Grey left the Order to serve the Galactic Republic as a covert agent. Skilled in diplomacy and strategy, he worked behind the scenes during the Republic-Sith conflict, proving that the Force could be wielded without allegiance to the Jedi."
+LANG_GERMAN         "Ein ehemaliger Jedi-Ritter der Aera der Alten Republik, Falon Grey verliess den Orden, um der Galaktischen Republik als verdeckter Agent zu dienen. Versiert in Diplomatie und Strategie arbeitete er im Hintergrund waehrend des Konflikts zwischen Republik und Sith und bewies, dass die Macht auch ohne Zugehoerigkeit zu den Jedi genutzt werden konnte."
+
+REFERENCE           DEATH_WATCH
+LANG_ENGLISH        "A militant Mandalorian faction, Death Watch opposed the pacifist New Mandalorians and sought to restore Mandalore's warrior traditions. Active during the final years of the Republic, they allied with Sith and criminal forces, plunging Mandalore into chaos and civil war."
+LANG_GERMAN         "Eine militante mandalorianische Fraktion, Death Watch stellte sich gegen die pazifistischen Neuen Mandalorianer und versuchte, Mandalores Kriegstraditionen wiederherzustellen. Aktiv in den letzten Jahren der Republik verbuendeten sie sich mit Sith und kriminellen Kraeften und stuerzten Mandalore in Chaos und Buergerkrieg."
+
+
+
+//----------------------------------------------------------
+// 	h4: SEPARATIST
+//----------------------------------------------------------
+
+REFERENCE           ASAJJ_VENTRESS
+LANG_ENGLISH        "A Dathomirian Nightsister and former Jedi Padawan, Asajj Ventress became a deadly Sith assassin under Count Dooku. Betrayed by her master, she sought her own path, working as a bounty hunter and ultimately sacrificing herself to save Quinlan Vos, seeking redemption in her final act."
+LANG_GERMAN         "Eine dathomirianische Nachtschwester und ehemalige Jedi-Padawan, Asajj Ventress wurde unter Graf Dooku zu einer toedlichen Sith-Attentaeterin. Von ihrem Meister verraten, suchte sie ihren eigenen Weg, arbeitete als Kopfgeldjaegerin und opferte sich schliesslich, um Quinlan Vos zu retten – auf der Suche nach Erloesung in ihrem letzten Akt."
+
+REFERENCE           B1_BATTLE_DROID
+LANG_ENGLISH        "Mass-produced by the Separatists, B1 Battle Droids formed the bulk of the droid army. Easily manufactured and expendable, they were known for their poor aim and comic incompetence, but their sheer numbers made them a constant threat during the Clone Wars."
+LANG_GERMAN         "Von den Separatisten massenhaft produziert, bildeten B1-Kampfdroiden den Grossteil der Droidenarmee. Leicht herzustellen und entbehrlich waren sie fuer ihren schlechten Zielgenauigkeit und ihre komische Inkompetenz bekannt, doch ihre schiere Anzahl machte sie waehrend der Klonkriege zu einer staendigen Bedrohung."
+
+REFERENCE           B2_SUPER_BATTLE_DROID
+LANG_ENGLISH        "An upgraded model of the B1, B2 Super Battle Droids were bulkier, stronger, and lacked the need for external command units. Heavily armored and equipped with wrist blasters, they posed a greater challenge to Republic forces throughout the Clone Wars."
+LANG_GERMAN         "Ein verbessertes Modell des B1, waren B2-Superkampfdroiden massiger, staerker und benoetigten keine externen Kommandogeraete. Schwer gepanzert und mit Handgelenkblastern ausgestattet stellten sie waehrend der Klonkriege eine groessere Herausforderung fuer die republikanischen Streitkraefte dar."
+
+REFERENCE           CAD_BANE
+LANG_ENGLISH        "A ruthless Duros bounty hunter, Cad Bane was one of the galaxy's deadliest mercenaries during the Clone Wars. Known for his cunning, gadgets, and fearlessness, he worked for major clients including the Separatists and Jabba the Hutt, often outwitting Jedi and clones alike."
+LANG_GERMAN         "Ein ruecksichtsloser Duros-Kopfgeldjaeger, Cad Bane war einer der toedlichsten Soeldner der Galaxis waehrend der Klonkriege. Bekannt fuer seine Gerissenheit, seine Ausruestung und seine Furchtlosigkeit arbeitete er fuer bedeutende Auftraggeber wie die Separatisten und Jabba den Hutten und ueberlistete oft sowohl Jedi als auch Klone."
+
+REFERENCE           CLONE_ASSASSIN
+LANG_ENGLISH        "Clone Assassins were elite operatives bred for secrecy and silent execution. Used by the Republic and later the Empire, they were deployed in covert operations and Jedi purges, operating without question and eliminating targets with lethal efficiency."
+LANG_GERMAN         "Klon-Assassinen waren Eliteagenten, die fuer Geheimhaltung und lautlose Ausfuehrung gezuechtet wurden. Von der Republik und spaeter vom Imperium eingesetzt, wurden sie in verdeckten Operationen und Jedi-Saeuberungen eingesetzt, handelten ohne Fragen zu stellen und eliminierten Ziele mit toedlicher Effizienz."
+
+REFERENCE           COUNT_DOOKU
+LANG_ENGLISH        "Once a respected Jedi Master, Count Dooku fell to the dark side and became Darth Tyranus, apprentice to Darth Sidious. He led the Separatist Alliance during the Clone Wars, orchestrating chaos across the galaxy. His death at Anakin's hands marked a turning point in the Sith's rise."
+LANG_GERMAN         "Einst ein angesehener Jedi-Meister, verfiel Graf Dooku der dunklen Seite und wurde zu Darth Tyranus, dem Schueler von Darth Sidious. Er fuehrte die Separatistenallianz waehrend der Klonkriege an und orchestrierte Chaos in der gesamten Galaxis. Sein Tod durch Anakins Hand markierte einen Wendepunkt im Aufstieg der Sith."
+
+REFERENCE           DARTH_MAUL
+LANG_ENGLISH        "A Zabrak warrior trained by Darth Sidious, Darth Maul was thought killed after his duel with Obi-Wan Kenobi. Surviving through hatred, he returned with vengeance, forming criminal empires and waging war against Jedi and Sith alike, seeking revenge until his final confrontation with Kenobi."
+LANG_GERMAN         "Ein zabrakischer Krieger, ausgebildet von Darth Sidious, wurde Darth Maul nach seinem Duell mit Obi-Wan Kenobi fuer tot gehalten. Durch Hass ueberlebend kehrte er rachsuechtig zurueck, gruendete kriminelle Imperien und fuehrte Krieg gegen Jedi und Sith gleichermassen, bis zu seiner letzten Konfrontation mit Kenobi."
+
+REFERENCE           DARTH_PLAGUESIS
+LANG_ENGLISH        "A Sith Lord obsessed with immortality, Darth Plagueis was the master of Darth Sidious. His deep knowledge of the dark side allowed him to manipulate life and death, but his ambition blinded him to betrayal—he was ultimately murdered in his sleep by his own apprentice."
+LANG_GERMAN         "Ein Sith-Lord, besessen von Unsterblichkeit, war Darth Plagueis der Meister von Darth Sidious. Sein tiefes Wissen ueber die dunkle Seite erlaubte ihm, Leben und Tod zu manipulieren, doch seine Ambition machte ihn blind fuer Verrat – er wurde schliesslich im Schlaf von seinem eigenen Schueler ermordet."
+
+REFERENCE           DARTH_SIDIOUS
+LANG_ENGLISH        "Born as Sheev Palpatine on Naboo, Darth Sidious was a Sith Lord who manipulated his way to power as Supreme Chancellor of the Republic. Operating in secret for decades, he orchestrated the fall of the Jedi, the rise of the Galactic Empire, and ruled the galaxy as Emperor with dark mastery over the Force."
+LANG_GERMAN         "Geboren als Sheev Palpatine auf Naboo, war Darth Sidious ein Sith-Lord, der sich durch Manipulation zum Obersten Kanzler der Republik emporarbeitete. Jahrzehntelang im Geheimen agierend orchestrierte er den Fall der Jedi, den Aufstieg des Galaktischen Imperiums und herrschte als Imperator mit dunkler Meisterschaft ueber die Macht."
+
+REFERENCE           DROIDEKA
+LANG_ENGLISH        "Also known as Destroyer Droids, Droidekas were deadly rolling machines equipped with twin blasters and personal energy shields. Used by the Separatists, they were formidable foes, capable of overwhelming Jedi and clone squads with sheer firepower and defense."
+LANG_GERMAN         "Auch bekannt als Zerstoerer-Droiden, waren Droidekas toedliche rollende Maschinen, ausgestattet mit Zwillingsblastern und persoenlichen Energieschilden. Von den Separatisten eingesetzt, waren sie gefuerchtete Gegner, die Jedi und Klontrupps durch reine Feuerkraft und Verteidigung ueberwaeltigen konnten."
+
+REFERENCE           DURGE
+LANG_ENGLISH        "A nearly indestructible Gen'Dai bounty hunter, Durge fought for the Separatists during the Clone Wars. Possessing regenerative abilities and centuries of combat experience, he harbored a deep hatred for Mandalorians and clashed with Jedi in brutal encounters."
+LANG_GERMAN         "Ein nahezu unzerstoerbarer Gen’Dai-Kopfgeldjaeger, Durge kaempfte waehrend der Klonkriege fuer die Separatisten. Mit regenerativen Faehigkeiten und Jahrhunderten an Kampferfahrung hegte er einen tiefen Hass auf Mandalorianer und traf in brutalen Gefechten auf Jedi."
+
+REFERENCE           EMBO
+LANG_ENGLISH        "A Kyuzo bounty hunter known for his stoic demeanor and lethal skill, Embo was among the most respected hunters of the Clone Wars. Using his wide-brimmed hat as a shield and weapon, he served various clients, often guided by his own sense of honor."
+LANG_GERMAN         "Ein kyuzoischer Kopfgeldjaeger, bekannt fuer sein stoisches Auftreten und seine toedlichen Faehigkeiten, gehoerte Embo zu den angesehensten Jaegern der Klonkriege. Mit seinem breitkrempigen Hut als Schild und Waffe diente er verschiedenen Auftraggebern, oft geleitet von seinem eigenen Ehrenkodex."
+
+REFERENCE           GENERAL_GRIEVOUS
+LANG_ENGLISH        "A fearsome cyborg and Supreme Commander of the Separatist droid army, General Grievous was trained in lightsaber combat by Count Dooku. He collected the sabers of fallen Jedi and was infamous for his brutality across the Clone Wars. He was ultimately defeated by Obi-Wan Kenobi on Utapau."
+LANG_GERMAN         "Ein furchterregender Cyborg und Oberbefehlshaber der separatistischen Droidenarmee, wurde General Grievous von Graf Dooku im Lichtschwertkampf ausgebildet. Er sammelte die Lichtschwerter gefallener Jedi und war fuer seine Brutalitaet waehrend der Klonkriege beruechtigt. Schliesslich wurde er von Obi-Wan Kenobi auf Utapau besiegt."
+
+REFERENCE           HONDO_OHNAKA
+LANG_ENGLISH        "A charismatic Weequay pirate, Hondo Ohnaka led the Ohnaka Gang on Florrum. Known for his wit, unpredictability, and opportunism, he often clashed with Jedi and Sith alike but occasionally aided them when it suited him. Despite his greed, he had a peculiar code of honor."
+LANG_GERMAN         "Ein charismatischer Weequay-Pirat, Hondo Ohnaka fuehrte die Ohnaka-Bande auf Florrum an. Bekannt fuer seinen Witz, seine Unberechenbarkeit und seinen Opportunismus geriet er oft mit Jedi und Sith aneinander, half ihnen jedoch gelegentlich, wenn es ihm nuetzte. Trotz seiner Gier besass er einen eigenartigen Ehrenkodex."
+
+REFERENCE           JANGO_FETT
+LANG_ENGLISH        "A legendary Mandalorian bounty hunter, Jango Fett was chosen as the genetic template for the Republic's clone army. He demanded an unaltered clone as payment—his 'son', Boba Fett. Jango was killed in battle by Mace Windu during the First Battle of Geonosis."
+LANG_GERMAN         "Ein legendaerer mandalorianischer Kopfgeldjaeger, Jango Fett wurde als genetische Vorlage fuer die Klonarmee der Republik ausgewaehlt. Als Bezahlung verlangte er einen unveraenderten Klon – seinen 'Sohn' Boba Fett. Jango wurde in der ersten Schlacht von Geonosis von Mace Windu getoetet."
+
+REFERENCE           LORD_VADER
+LANG_ENGLISH        "Once the Jedi Knight Anakin Skywalker, Lord Vader became the enforcer of the Galactic Empire after pledging himself to Darth Sidious. As a Sith Lord, he hunted down surviving Jedi and crushed resistance across the galaxy, becoming a symbol of fear and oppression."
+LANG_GERMAN         "Einst der Jedi-Ritter Anakin Skywalker, wurde Lord Vader nach seinem Schwur an Darth Sidious zum Vollstrecker des Galaktischen Imperiums. Als Sith-Lord jagte er ueberlebende Jedi und zerschlug Widerstand in der gesamten Galaxis, wodurch er zu einem Symbol der Furcht und Unterdrueckung wurde."
+
+REFERENCE           MAGNAGUARD
+LANG_ENGLISH        "IG-100 MagnaGuards were advanced droids employed by General Grievous. Programmed to duel Jedi, they wielded electrostaffs capable of blocking lightsabers. These relentless bodyguards could continue fighting even after losing limbs or sustaining heavy damage."
+LANG_GERMAN         "IG-100-MagnaWachen waren fortschrittliche Droiden, die von General Grievous eingesetzt wurden. Fuer Duelle gegen Jedi programmiert, fuehrten sie Elektrostaebe, die Lichtschwerter blockieren konnten. Diese unerbittlichen Leibwaechter konnten selbst nach dem Verlust von Gliedmassen oder schweren Schaeden weiterkaempfen."
+
+REFERENCE           MOTHER_TALZIN
+LANG_ENGLISH        "Matriarch of the Nightsisters, Mother Talzin was a powerful dark side sorceress from Dathomir. She wielded ancient magicks and manipulated galactic events from the shadows. A rival of Darth Sidious, she sought vengeance through her son, Savage Opress, and fell in a clash with the Sith."
+LANG_GERMAN         "Als Matriarchin der Nachtschwestern war Mutter Talzin eine maechtige dunkle Zauberin von Dathomir. Sie beherrschte uralte Magie und manipulierte galaktische Ereignisse aus dem Schatten heraus. Als Rivalin von Darth Sidious suchte sie durch ihren Sohn Savage Opress Rache und fiel schliesslich in einem Kampf gegen die Sith."
+
+REFERENCE           NEIMOIDIAN_GUARD
+LANG_ENGLISH        "The Neimoidian Guard served as the armed security force of the Trade Federation. Armed with blaster rifles and clad in distinctive armor, they protected key leaders like Nute Gunray and enforced order aboard Federation vessels and installations."
+LANG_GERMAN         "Die neimoidianische Garde diente als bewaffnete Sicherheitskraft der Handelsfoederation. Mit Blastergewehren bewaffnet und in markanter Ruestung gekleidet, schuetzten sie wichtige Anfuehrer wie Nute Gunray und sorgten fuer Ordnung an Bord von Schiffen und Einrichtungen der Foederation."
+
+REFERENCE           NEIMOIDIAN_BRUTE
+LANG_ENGLISH        "Larger and more physically imposing than standard Neimoidians, Neimoidian Brutes served as enforcers and shock troopers for the Trade Federation. Rarely seen in command roles, they were employed for intimidation and brute strength during military operations."
+LANG_GERMAN         "Groesser und koerperlich imposanter als gewoehnliche Neimoidianer dienten Neimoidianische Schlaeger als Vollstrecker und Stosstruppen der Handelsfoederation. Selten in Fuehrungsrollen eingesetzt, nutzte man sie zur Einschuechterung und fuer rohe Gewalt in militaerischen Operationen."
+
+REFERENCE           NUTE_GUNRAY
+LANG_ENGLISH        "Viceroy of the Trade Federation, Nute Gunray played a pivotal role in the rise of the Separatists. Ambitious and cowardly, he conspired with Darth Sidious in the blockade of Naboo and remained a puppet leader throughout the Clone Wars. He was executed by Darth Vader on Mustafar."
+LANG_GERMAN         "Als Vizekoenig der Handelsfoederation spielte Nute Gunray eine entscheidende Rolle beim Aufstieg der Separatisten. Ehrgeizig und feige verschwoerte er sich mit Darth Sidious bei der Blockade von Naboo und blieb waehrend der Klonkriege eine Marionettenfigur. Er wurde von Darth Vader auf Mustafar hingerichtet."
+
+REFERENCE           SAVAGE_OPRESS
+LANG_ENGLISH        "A Dathomirian Zabrak transformed by dark magicks, Savage Opress was the brother of Darth Maul and apprentice to Count Dooku. Empowered by Mother Talzin, he turned against his master and waged war alongside Maul. His strength was immense, but he ultimately fell to Darth Sidious."
+LANG_GERMAN         "Ein dathomirianischer Zabrak, durch dunkle Magie verwandelt, war Savage Opress der Bruder von Darth Maul und Schueler von Graf Dooku. Von Mutter Talzin gestaerkt wandte er sich gegen seinen Meister und fuehrte gemeinsam mit Maul Krieg. Seine Staerke war gewaltig, doch fiel er schliesslich Darth Sidious zum Opfer."
+
+REFERENCE           SHU_MAI
+LANG_ENGLISH        "President of the Commerce Guild, Shu Mai was a Separatist leader who supported Count Dooku during the Clone Wars. Focused on profit and industry, she provided resources and troops for the war effort. She was executed by Darth Vader during the purge of the Separatist Council."
+LANG_GERMAN         "Als Praesidentin der Handelsgilde war Shu Mai eine separatistische Anfuehrerin, die Graf Dooku waehrend der Klonkriege unterstuetzte. Auf Profit und Industrie fokussiert stellte sie Ressourcen und Truppen fuer die Kriegsanstrengungen bereit. Sie wurde waehrend der Saeuberung des Separatistenrates von Darth Vader hingerichtet."
+
+REFERENCE           TUSKAN_RAIDER
+LANG_ENGLISH        "Also known as Sand People, Tusken Raiders were nomadic warriors native to Tatooine. Fiercely territorial and hostile to outsiders, they lived in clans and upheld ancient traditions. Feared by settlers, they played a tragic role in shaping Anakin Skywalker's destiny."
+LANG_GERMAN         "Auch bekannt als Sandmenschen, waren Tusken-Raeuber nomadische Krieger, die auf Tatooine heimisch waren. Aeusserst territorial und feindselig gegenueber Fremden lebten sie in Clans und hielten an alten Traditionen fest. Von Siedlern gefuerchtet spielten sie eine tragische Rolle in der Gestaltung von Anakin Skywalkers Schicksal."
+
+REFERENCE           WAT_TAMBOR
+LANG_ENGLISH        "Foreman of the Techno Union, Wat Tambor supplied the Separatists with advanced weaponry and droids. Encased in a pressurized suit, he oversaw brutal experiments and occupations during the Clone Wars. Like his fellow council members, he was executed on Mustafar by Darth Vader."
+LANG_GERMAN         "Als Vorarbeiter der Techno-Union versorgte Wat Tambor die Separatisten mit fortschrittlichen Waffen und Droiden. In einem Druckanzug eingeschlossen ueberwachte er brutale Experimente und Besetzungen waehrend der Klonkriege. Wie seine Ratskollegen wurde er auf Mustafar von Darth Vader hingerichtet."
+
+REFERENCE           DEATH_WATCH_MAUL
+LANG_ENGLISH        "Following the rise of Darth Maul, a faction of Death Watch pledged loyalty to the former Sith Lord after his seizure of Mandalore. These Mandalorians served as enforcers of Maul's rule, helping to overthrow Duchess Satine and install him as ruler before the group fractured amid internal betrayal and civil war."
+LANG_GERMAN         "Nach dem Aufstieg von Darth Maul schwor eine Fraktion der Death Watch dem ehemaligen Sith-Lord die Treue, nachdem er Mandalore an sich gerissen hatte. Diese Mandalorianer dienten als Vollstrecker von Mauls Herrschaft, halfen dabei, Herzogin Satine zu stuerzen und ihn als Herrscher einzusetzen, bevor die Gruppe durch inneren Verrat und Buergerkrieg zerbrach."
+
+REFERENCE           PRE_VIZSLA
+LANG_ENGLISH        "A Mandalorian warlord and leader of Death Watch, Pre Vizsla wielded the Darksaber in his campaign to reclaim Mandalore's warrior legacy. He allied with Darth Maul to overthrow the New Mandalorians, only to be challenged and slain by Maul in single combat, losing both leadership and the Darksaber."
+LANG_GERMAN         "Ein mandalorianischer Kriegsherr und Anfuehrer der Death Watch, Pre Vizsla fuehrte das Dunkelschwert in seinem Bestreben, Mandalores kriegerisches Erbe zurueckzuerobern. Er verbuendete sich mit Darth Maul, um die Neuen Mandalorianer zu stuerzen, wurde jedoch von Maul im Zweikampf herausgefordert und getoetet, wobei er sowohl die Fuehrung als auch das Dunkelschwert verlor."
+
+
+
+//----------------------------------------------------------
+// 	h5: REBELS
+//----------------------------------------------------------
+
+REFERENCE           A_SHARAD_HETT  
+LANG_ENGLISH        "A Jedi Knight raised among Tusken Raiders, A'Sharad Hett survived the Clone Wars and the Jedi Purge. Struggling with identity and loss, he later fell to the dark side and became Darth Krayt, founding the One Sith and seeking to reshape the galaxy under his rule."
+LANG_GERMAN         "Ein Jedi-Ritter, der unter Tusken-Raeubern aufwuchs, ueberlebte A’Sharad Hett die Klonkriege und die Jedi-Saeuberung. Im Kampf mit Identitaet und Verlust verfiel er spaeter der dunklen Seite und wurde zu Darth Krayt, dem Gruender der One Sith, der die Galaxis nach seinem Willen umformen wollte."
+
+REFERENCE           ADMIRAL_ACKBAR  
+LANG_ENGLISH        "A brilliant tactician of the Mon Calamari species, Admiral Ackbar led the Rebel fleet in many key battles, including the pivotal assault on the second Death Star. Known for his strategic genius and iconic warning, he remained a loyal defender of the New Republic until his death in the war against the First Order."
+LANG_GERMAN         "Ein brillanter Taktiker der Mon-Calamari-Spezies, fuehrte Admiral Ackbar die Rebellenflotte in vielen entscheidenden Schlachten, darunter der Angriff auf den zweiten Todesstern. Bekannt fuer seinen strategischen Genius und seine ikonische Warnung blieb er ein loyaler Verteidiger der Neuen Republik bis zu seinem Tod im Krieg gegen die Erste Ordnung."
+
+REFERENCE           BAIL_ORGANA  
+LANG_ENGLISH        "Senator of Alderaan and a founding member of the Rebel Alliance, Bail Organa worked covertly to oppose the Empire. A close ally to the Jedi, he adopted Leia as his daughter and helped lay the foundation for future resistance. He perished when Alderaan was destroyed by the Death Star."
+LANG_GERMAN         "Als Senator von Alderaan und Gruendungsmitglied der Rebellenallianz arbeitete Bail Organa im Geheimen gegen das Imperium. Ein enger Verbuendeter der Jedi, adoptierte er Leia als seine Tochter und legte den Grundstein fuer den spaeteren Widerstand. Er starb, als Alderaan vom Todesstern zerstoert wurde."
+
+REFERENCE           BAZE_MALBUS  
+LANG_ENGLISH        "A hardened warrior and protector of Jedha's sacred traditions, Baze Malbus once served as a Guardian of the Whills. Though disillusioned with faith, he remained loyal to his friend Chirrut Îmwe and fought bravely during the mission to steal the Death Star plans on Scarif."
+LANG_GERMAN         "Ein abgehaerteter Krieger und Beschuetzer der heiligen Traditionen von Jedha, diente Baze Malbus einst als Hueter der Whills. Obwohl er seinen Glauben verloren hatte, blieb er seinem Freund Chirrut Îmwe treu und kaempfte tapfer waehrend der Mission, die Todessternplaene auf Scarif zu stehlen."
+
+REFERENCE           BEN_KENOBI  
+LANG_ENGLISH        "Once known as Obi-Wan Kenobi, the Jedi Master took the name 'Ben' while hiding on Tatooine. Watching over Luke Skywalker from afar, he lived in exile until called to action. Though burdened by past failures, he guided the next generation with wisdom and sacrifice."
+LANG_GERMAN         "Einst als Obi-Wan Kenobi bekannt, nahm der Jedi-Meister den Namen 'Ben' an, waehrend er sich auf Tatooine versteckte. Aus der Ferne wachte er ueber Luke Skywalker und lebte im Exil, bis er erneut zum Handeln gerufen wurde. Trotz der Last vergangener Fehler fuehrte er die naechste Generation mit Weisheit und Opferbereitschaft."
+
+REFERENCE           BESPIN_SECURITY  
+LANG_ENGLISH        "Bespin Security forces served under Lando Calrissian to maintain order in Cloud City. Equipped with blasters and distinctive uniforms, they helped protect the city's operations and were drawn into the conflict during the Empire's occupation of the gas mining facility."
+LANG_GERMAN         "Die Sicherheitskraefte von Bespin dienten unter Lando Calrissian, um die Ordnung in der Wolkenstadt aufrechtzuerhalten. Mit Blastern und markanten Uniformen ausgestattet, schuetzten sie die Ablaeufe der Stadt und wurden waehrend der Besetzung durch das Imperium in den Konflikt hineingezogen."
+
+REFERENCE           BODHI_ROOK  
+LANG_ENGLISH        "An Imperial cargo pilot who defected to the Rebellion, Bodhi Rook was instrumental in delivering the message from Galen Erso that revealed the Death Star's weakness. Despite his fear, he found courage and gave his life during the mission to secure the plans on Scarif."
+LANG_GERMAN         "Ein imperialer Frachterpilot, der zur Rebellion ueberlief, spielte Bodhi Rook eine entscheidende Rolle bei der Uebermittlung von Galen Ersos Nachricht, die die Schwaeche des Todessterns enthuellte. Trotz seiner Angst fand er Mut und gab sein Leben waehrend der Mission, die Plaene auf Scarif zu sichern."
+
+REFERENCE           C3PO  
+LANG_ENGLISH        "A protocol droid fluent in over six million forms of communication, C-3PO was built by Anakin Skywalker and became a constant companion to the Skywalker family. Often anxious yet loyal, he played key roles in diplomatic missions and galactic conflicts across decades."
+LANG_GERMAN         "Ein Protokolldroide, der ueber sechs Millionen Kommunikationsformen beherrscht, wurde C-3PO von Anakin Skywalker gebaut und wurde zu einem staendigen Begleiter der Skywalker-Familie. Oft aengstlich, aber loyal spielte er ueber Jahrzehnte hinweg wichtige Rollen in diplomatischen Missionen und galaktischen Konflikten."
+
+REFERENCE           CADE_SKYWALKER  
+LANG_ENGLISH        "A descendant of Luke Skywalker, Cade was a rogue Force-sensitive who turned away from the Jedi Order after trauma and loss. Becoming a bounty hunter and self-medicating his pain, he eventually embraced his destiny to confront the Sith and redeem the Skywalker legacy in a dark era."
+LANG_GERMAN         "Ein Nachfahre von Luke Skywalker, war Cade ein abtruenniger Machtsensitiver, der sich nach Trauma und Verlust vom Jedi-Orden abwandte. Als Kopfgeldjaeger, der seinen Schmerz selbst betaeubte, stellte er sich schliesslich seinem Schicksal, die Sith zu konfrontieren und das Erbe der Skywalker in einer dunklen Aera zu retten."
+
+REFERENCE           CAL_KESTIS  
+LANG_ENGLISH        "A Jedi Padawan who survived Order 66, Cal Kestis lived in hiding until events forced him to confront the Empire. With the help of allies, he sought to restore the Jedi Order, battling Inquisitors and uncovering ancient secrets while resisting the darkness within himself."
+LANG_GERMAN         "Ein Jedi-Padawan, der Order 66 ueberlebte, lebte Cal Kestis im Verborgenen, bis Ereignisse ihn zwangen, sich dem Imperium zu stellen. Mit Hilfe von Verbuendeten versuchte er, den Jedi-Orden wiederherzustellen, kaempfte gegen Inquisitoren und entdeckte uralte Geheimnisse, waehrend er der Dunkelheit in sich selbst widerstand."
+
+REFERENCE           CALEB_DUME  
+LANG_ENGLISH        "Once a Jedi Padawan, Caleb Dume survived the Purge and assumed the name Kanan Jarrus. Hiding his identity for years, he eventually joined the Rebellion and trained Ezra Bridger, sacrificing himself in the fight for Lothal and leaving a legacy of hope and mentorship."
+LANG_GERMAN         "Einst ein Jedi-Padawan, ueberlebte Caleb Dume die Saeuberung und nahm den Namen Kanan Jarrus an. Jahrelang verbarg er seine Identitaet, schloss sich schliesslich der Rebellion an und bildete Ezra Bridger aus. Er opferte sich im Kampf um Lothal und hinterliess ein Vermaechtnis aus Hoffnung und Fuehrung."
+
+REFERENCE           CAPTAIN_REX  
+LANG_ENGLISH        "A respected clone trooper and leader of the 501st Legion, Captain Rex fought alongside Anakin Skywalker and Ahsoka Tano during the Clone Wars. He removed his control chip to resist Order 66 and later joined the Rebellion, continuing to fight for freedom in the galaxy."
+LANG_GERMAN         "Ein angesehener Klontruppler und Anfuehrer der 501. Legion, kaempfte Captain Rex waehrend der Klonkriege an der Seite von Anakin Skywalker und Ahsoka Tano. Er entfernte seinen Kontrollchip, um Order 66 zu widerstehen, und schloss sich spaeter der Rebellion an, um weiterhin fuer Freiheit in der Galaxis zu kaempfen."
+
+REFERENCE           CASSIAN_ANDOR  
+LANG_ENGLISH        "A seasoned intelligence officer and spy, Cassian Andor served the Rebellion with unwavering dedication. Shaped by years of covert warfare, he played a pivotal role in obtaining the Death Star plans. His early sacrifices laid the groundwork for future victories against the Empire."
+LANG_GERMAN         "Ein erfahrener Geheimdienstoffizier und Spion, diente Cassian Andor der Rebellion mit unerschuetterlicher Hingabe. Gepraegt von Jahren verdeckter Kriegsfuehrung spielte er eine entscheidende Rolle beim Erhalt der Todessternplaene. Seine fruehen Opfer legten den Grundstein fuer spaetere Siege ueber das Imperium."
+
+REFERENCE           CHEWBACCA  
+LANG_ENGLISH        "A towering Wookiee from Kashyyyk, Chewbacca was Han Solo's loyal co-pilot and a hero of the Rebellion. Brave, strong, and deeply honorable, he fought against tyranny from the Clone Wars through the Resistance, becoming a beloved figure across the galaxy."
+LANG_GERMAN         "Ein riesiger Wookiee von Kashyyyk, war Chewbacca Han Solos loyaler Co-Pilot und ein Held der Rebellion. Mutig, stark und zutiefst ehrenhaft kaempfte er von den Klonkriegen bis zum Widerstand gegen Tyrannei und wurde zu einer geliebten Figur in der gesamten Galaxis."
+
+REFERENCE           CHIRRUT_IMWE  
+LANG_ENGLISH        "A blind warrior-monk from Jedha, Chirrut Îmwe was deeply devoted to the Force despite not being a Jedi. With extraordinary combat skills and unshakable faith, he aided the Rogue One team on Scarif, sacrificing himself to help transmit the Death Star plans."
+LANG_GERMAN         "Ein blinder Krieger-Moench von Jedha, war Chirrut Îmwe der Macht zutiefst ergeben, obwohl er kein Jedi war. Mit aussergewoehnlichen Kampffaehigkeiten und unerschuetterlichem Glauben unterstuetzte er das Rogue-One-Team auf Scarif und opferte sich, um die Uebertragung der Todessternplaene zu ermoeglichen."
+
+REFERENCE           EZRA_BRIDGER  
+LANG_ENGLISH        "A Force-sensitive orphan from Lothal, Ezra Bridger joined the Ghost crew and trained under Kanan Jarrus. He matured into a skilled Jedi and leader, ultimately sacrificing himself by disappearing into hyperspace with Grand Admiral Thrawn to save his planet from Imperial occupation."
+LANG_GERMAN         "Ein machtsensitives Waisenkind von Lothal, schloss sich Ezra Bridger der Ghost-Crew an und wurde von Kanan Jarrus ausgebildet. Er reifte zu einem faehigen Jedi und Anfuehrer heran und opferte sich schliesslich, indem er mit Grossadmiral Thrawn in den Hyperraum verschwand, um seinen Planeten vor der imperialen Besetzung zu retten."
+
+REFERENCE           GALEN_MAREK  
+LANG_ENGLISH        "Codenamed Starkiller, Galen Marek was the secret apprentice of Darth Vader, trained to hunt Jedi. Struggling with his identity, he turned against the Empire and helped ignite the Rebel Alliance. His power and redemption left a lasting legacy in the fight for freedom."
+LANG_GERMAN         "Unter dem Codenamen Starkiller war Galen Marek der geheime Schueler von Darth Vader, ausgebildet, um Jedi zu jagen. Im Kampf mit seiner Identitaet wandte er sich gegen das Imperium und half, die Rebellenallianz zu entfachen. Seine Macht und seine Erloesung hinterliessen ein dauerhaftes Vermaechtnis im Kampf fuer die Freiheit."
+
+REFERENCE           GNK_DROID  
+LANG_ENGLISH        "Known colloquially as 'Gonk droids,' GNK power droids served as portable energy units across the galaxy. Though slow-moving and simple, their reliability made them a common sight in military and industrial environments, silently powering critical systems."
+LANG_GERMAN         "Umgangssprachlich als 'Gonk-Droiden' bekannt, dienten GNK-Energiedroiden als tragbare Energieeinheiten in der gesamten Galaxis. Obwohl langsam und einfach, machte ihre Zuverlaessigkeit sie zu einem haeufigen Anblick in militaerischen und industriellen Umgebungen, wo sie lautlos kritische Systeme versorgten."
+
+REFERENCE           HAN_SOLO  
+LANG_ENGLISH        "Once a smuggler and rogue, Han Solo became a hero of the Rebel Alliance. Known for his quick wit and flying skills, he piloted the Millennium Falcon through countless battles. Though reluctant at first, his loyalty and bravery helped turn the tide against the Empire."
+LANG_GERMAN         "Einst ein Schmuggler und Draufgaenger, wurde Han Solo zu einem Helden der Rebellenallianz. Bekannt fuer seinen schnellen Verstand und seine Flugkuenste steuerte er den Millennium Falken durch unzaehlige Schlachten. Obwohl er zunaechst zoegerte, halfen seine Loyalitaet und sein Mut, das Blatt gegen das Imperium zu wenden."
+
+REFERENCE           HERA_SYNDULLA  
+LANG_ENGLISH        "A skilled pilot and leader from Ryloth, Hera Syndulla captained the Ghost and fought tirelessly for the Rebellion. Known for her tactical brilliance and strong moral compass, she played a key role in forming the Rebel Alliance and later became a general in the New Republic."
+LANG_GERMAN         "Eine talentierte Pilotin und Anfuehrerin von Ryloth, kommandierte Hera Syndulla die Ghost und kaempfte unermuedlich fuer die Rebellion. Bekannt fuer ihre taktische Brillanz und ihren starken moralischen Kompass spielte sie eine Schluesselrolle bei der Gruendung der Rebellenallianz und wurde spaeter Generalin der Neuen Republik."
+
+REFERENCE           JAN_ORS  
+LANG_ENGLISH        "An elite operative for the Rebel Alliance, Jan Ors worked alongside Kyle Katarn on high-risk missions. Skilled in infiltration and combat, she provided critical intelligence and support in the early days of the Rebellion, helping secure vital victories against the Empire."
+LANG_GERMAN         "Eine Eliteagentin der Rebellenallianz, arbeitete Jan Ors an der Seite von Kyle Katarn in Hochrisikomissionen. Versiert in Infiltration und Kampf lieferte sie entscheidende Informationen und Unterstuetzung in den fruehen Tagen der Rebellion und half, wichtige Siege gegen das Imperium zu erringen."
+
+REFERENCE           JARO_TAPAL  
+LANG_ENGLISH        "A Lasat Jedi Master and mentor to Cal Kestis, Jaro Tapal was a fierce and disciplined warrior during the Clone Wars. He died defending his Padawan during Order 66, instilling in Cal the strength to survive and eventually confront the Empire."
+LANG_GERMAN         "Ein lasatischer Jedi-Meister und Mentor von Cal Kestis, war Jaro Tapal ein erbitterter und disziplinierter Krieger waehrend der Klonkriege. Er starb, als er seinen Padawan waehrend Order 66 verteidigte, und gab Cal die Staerke, zu ueberleben und sich schliesslich dem Imperium zu stellen."
+
+REFERENCE           JEDI_KNIGHT  
+LANG_ENGLISH        "Jedi Knights were peacekeepers of the Galactic Republic, trained in the ways of the Force and skilled with lightsabers. Tasked with defending justice and guiding others, they stood on the front lines of conflict until the Jedi Purge scattered the Order."
+LANG_GERMAN         "Jedi-Ritter waren die Friedenshueter der Galaktischen Republik, ausgebildet in den Wegen der Macht und im Umgang mit dem Lichtschwert. Mit der Aufgabe betraut, Gerechtigkeit zu verteidigen und andere zu fuehren, standen sie an den Frontlinien der Konflikte, bis die Jedi-Saeuberung den Orden zerschlug."
+
+REFERENCE           JEDI_MASTER  
+LANG_ENGLISH        "Jedi Masters represented the highest rank within the Jedi Order, known for their wisdom, mastery of the Force, and leadership. Many sat on the Jedi High Council, shaping galactic policy and mentoring the next generation of Jedi in the pursuit of peace."
+LANG_GERMAN         "Jedi-Meister stellten den hoechsten Rang innerhalb des Jedi-Ordens dar, bekannt fuer ihre Weisheit, ihre Meisterschaft der Macht und ihre Fuehrungsqualitaeten. Viele sassen im Hohen Jedi-Rat, praegten die galaktische Politik und unterrichteten die naechste Generation von Jedi im Streben nach Frieden."
+
+REFERENCE           JEDI_TRAINER  
+LANG_ENGLISH        "Jedi Trainers guided younglings and Padawans in their early development, instructing them in lightsaber techniques, Force control, and Jedi philosophy. Their teachings were foundational to the Order, instilling discipline and purpose in future Jedi."
+LANG_GERMAN         "Jedi-Ausbilder fuehrten Juenglinge und Padawane in ihrer fruehen Entwicklung, unterrichteten sie in Lichtschwerttechniken, Machtkontrolle und Jedi-Philosophie. Ihre Lehren bildeten das Fundament des Ordens und vermittelten zukuenftigen Jedi Disziplin und Zielstrebigkeit."
+
+REFERENCE           JYN_ERSO  
+LANG_ENGLISH        "The daughter of Imperial scientist Galen Erso, Jyn became a reluctant hero of the Rebellion. Hardened by a life of loss and secrecy, she led the Rogue One mission to steal the Death Star plans, giving her life so the Rebellion could strike a decisive blow."
+LANG_GERMAN         "Die Tochter des imperialen Wissenschaftlers Galen Erso, wurde Jyn widerwillig zur Heldin der Rebellion. Gehaertet durch ein Leben voller Verlust und Geheimhaltung fuehrte sie die Rogue-One-Mission an, um die Todessternplaene zu stehlen, und gab ihr Leben, damit die Rebellion einen entscheidenden Schlag fuehren konnte."
+
+REFERENCE           K2SO  
+LANG_ENGLISH        "A reprogrammed Imperial security droid, K-2SO served the Rebellion with dry wit and unwavering loyalty. Partnered with Cassian Andor, he played a crucial role in the mission to Scarif, sacrificing himself to ensure the success of the Death Star data transmission."
+LANG_GERMAN         "Ein umprogrammierter imperialer Sicherheitsdroide, diente K-2SO der Rebellion mit trockenem Humor und unerschuetterlicher Loyalitaet. An der Seite von Cassian Andor spielte er eine entscheidende Rolle in der Mission auf Scarif und opferte sich, um die erfolgreiche Uebertragung der Todesstern-Daten sicherzustellen."
+
+REFERENCE           KANAN_JARRUS  
+LANG_ENGLISH        "Born Caleb Dume, Kanan Jarrus survived Order 66 and hid his Jedi identity for years. He later joined the Ghost crew and trained Ezra Bridger, rediscovering his purpose. Kanan ultimately sacrificed himself to save his family, cementing his legacy in the Rebellion."
+LANG_GERMAN         "Geboren als Caleb Dume ueberlebte Kanan Jarrus Order 66 und verbarg seine Jedi-Identitaet jahrelang. Spaeter schloss er sich der Ghost-Crew an und bildete Ezra Bridger aus, wodurch er seinen Zweck wiederfand. Schliesslich opferte sich Kanan, um seine Familie zu retten, und festigte damit sein Vermaechtnis in der Rebellion."
+
+REFERENCE           KENTO_MAREK  
+LANG_ENGLISH        "A former Jedi Knight, Kento Marek went into hiding after Order 66. He was eventually found and killed by Darth Vader, who then took his son, Galen Marek, as his secret apprentice. Kento's death set the stage for Starkiller's conflicted destiny."
+LANG_GERMAN         "Ein ehemaliger Jedi-Ritter, ging Kento Marek nach Order 66 in den Untergrund. Schliesslich wurde er von Darth Vader gefunden und getoetet, der daraufhin seinen Sohn Galen Marek als geheimen Schueler aufnahm. Kentos Tod legte den Grundstein fuer Starkillers konfliktreiches Schicksal."
+
+REFERENCE           KOTAS_MILITIA  
+LANG_ENGLISH        "Formed by General Rahm Kota, this militia was composed of seasoned fighters unaffiliated with the Clone Army. Loyal to the Jedi cause, they resisted Imperial rule and provided critical support during early uprisings against the Empire."
+LANG_GERMAN         "Gegruendet von General Rahm Kota bestand diese Miliz aus erfahrenen Kaempfern, die nicht zur Klonarmee gehoerten. Der Sache der Jedi treu leisteten sie Widerstand gegen die imperiale Herrschaft und boten entscheidende Unterstuetzung in den fruehen Aufstaenden gegen das Imperium."
+
+REFERENCE           KYLE_KATARN  
+LANG_ENGLISH        "A former Imperial officer turned mercenary, Kyle Katarn discovered his Force sensitivity and became a Jedi. He was instrumental in recovering the Death Star plans and later trained new Jedi while confronting the dark side within himself and the galaxy."
+LANG_GERMAN         "Ein ehemaliger imperialer Offizier, der zum Soeldner wurde, entdeckte Kyle Katarn seine Machtsensitivitaet und wurde ein Jedi. Er spielte eine entscheidende Rolle bei der Beschaffung der Todessternplaene und bildete spaeter neue Jedi aus, waehrend er sich sowohl der Dunkelheit in sich selbst als auch in der Galaxis stellte."
+
+REFERENCE           LANDO_CALRISSIAN  
+LANG_ENGLISH        "A charismatic gambler, smuggler, and entrepreneur, Lando Calrissian became a hero of the Rebellion after helping save Cloud City and destroy the second Death Star. Known for his charm and style, he remained a key figure in the galaxy's fight for freedom."
+LANG_GERMAN         "Ein charismatischer Spieler, Schmuggler und Unternehmer, wurde Lando Calrissian nach der Rettung der Wolkenstadt und der Zerstoerung des zweiten Todessterns zu einem Helden der Rebellion. Bekannt fuer seinen Charme und Stil blieb er eine Schluesselfigur im Kampf der Galaxis fuer Freiheit."
+
+REFERENCE           LEIA_ORGANA  
+LANG_ENGLISH        "Princess of Alderaan, senator, and Rebel leader, Leia Organa was a fierce and compassionate warrior. Trained briefly as a Jedi and strong in the Force, she played a vital role in defeating both the Empire and the First Order, preserving hope across generations."
+LANG_GERMAN         "Prinzessin von Alderaan, Senatorin und Anfuehrerin der Rebellen, war Leia Organa eine entschlossene und mitfuehlende Kriegerin. Kurzzeitig als Jedi ausgebildet und stark in der Macht spielte sie eine entscheidende Rolle bei der Niederlage sowohl des Imperiums als auch der Ersten Ordnung und bewahrte Hoffnung ueber Generationen hinweg."
+
+REFERENCE           LUKE_SKYWALKER  
+LANG_ENGLISH        "A farm boy from Tatooine, Luke Skywalker rose to become one of the most legendary Jedi. Trained by Obi-Wan and Yoda, he redeemed his father and helped defeat the Emperor. He later sought to rebuild the Jedi Order and guide the next generation of Force users."
+LANG_GERMAN         "Ein Farmjunge von Tatooine, wurde Luke Skywalker zu einem der legendaersten Jedi. Ausgebildet von Obi-Wan und Yoda erloeste er seinen Vater und half, den Imperator zu besiegen. Spaeter versuchte er, den Jedi-Orden wieder aufzubauen und die naechste Generation von Machtnutzern anzuleiten."
+
+REFERENCE           MARA_JADE  
+LANG_ENGLISH        "Once an Emperor's Hand, Mara Jade was a deadly assassin loyal to Palpatine. After the Empire's fall, she reformed and became a Jedi Master, eventually marrying Luke Skywalker. Her journey from darkness to light made her a complex and powerful figure in Jedi history."
+LANG_GERMAN         "Einst eine Hand des Imperators, war Mara Jade eine toedliche Attentaeterin, loyal zu Palpatine. Nach dem Fall des Imperiums aenderte sie sich und wurde eine Jedi-Meisterin, die schliesslich Luke Skywalker heiratete. Ihr Weg von der Dunkelheit ins Licht machte sie zu einer komplexen und bedeutenden Figur der Jedi-Geschichte."
+
+REFERENCE           MON_MOTHMA  
+LANG_ENGLISH        "A respected senator and fierce critic of the Emperor, Mon Mothma became the political leader of the Rebel Alliance. She organized resistance efforts and later served as Chancellor of the New Republic, dedicating her life to democracy and peace in the galaxy."
+LANG_GERMAN         "Eine angesehene Senatorin und scharfe Kritikerin des Imperators, wurde Mon Mothma zur politischen Anfuehrerin der Rebellenallianz. Sie organisierte Widerstandsbewegungen und diente spaeter als Kanzlerin der Neuen Republik, wobei sie ihr Leben der Demokratie und dem Frieden in der Galaxis widmete."
+
+REFERENCE           NIEN_NUNB  
+LANG_ENGLISH        "A skilled Sullustan pilot, Nien Nunb co-piloted the Millennium Falcon alongside Lando Calrissian during the Battle of Endor. He continued to serve the New Republic and Resistance, fighting bravely in key battles against the Empire and First Order."
+LANG_GERMAN         "Ein talentierter sullustanischer Pilot, war Nien Nunb Co-Pilot des Millennium Falken an der Seite von Lando Calrissian waehrend der Schlacht von Endor. Er diente weiterhin der Neuen Republik und dem Widerstand und kaempfte tapfer in wichtigen Schlachten gegen das Imperium und die Erste Ordnung."
+
+REFERENCE           QU_RAHN  
+LANG_ENGLISH        "A wise Jedi Master who survived the Purge, Qu Rahn guided Kyle Katarn from beyond the grave. A student of the living Force, he fought against the dark side in his final years and left behind knowledge vital to the rebirth of the Jedi Order."
+LANG_GERMAN         "Ein weiser Jedi-Meister, der die Saeuberung ueberlebte, fuehrte Qu Rahn Kyle Katarn aus dem Jenseits. Als Schueler der Lebendigen Macht kaempfte er in seinen letzten Jahren gegen die dunkle Seite und hinterliess Wissen, das fuer die Wiedergeburt des Jedi-Ordens entscheidend war."
+
+REFERENCE           R2D2  
+LANG_ENGLISH        "An astromech droid with unmatched bravery and loyalty, R2-D2 served Padmé Amidala, Anakin Skywalker, and later the Rebel Alliance. From carrying secret plans to repairing starships mid-battle, his actions shaped the course of galactic history across eras."
+LANG_GERMAN         "Ein Astromechdroide mit unvergleichlichem Mut und Loyalitaet, diente R2-D2 Padmé Amidala, Anakin Skywalker und spaeter der Rebellenallianz. Vom Transport geheimer Plaene bis zur Reparatur von Raumschiffen mitten im Gefecht praegten seine Taten den Verlauf der galaktischen Geschichte ueber viele Epochen hinweg."
+
+REFERENCE           RAHM_KOTA  
+LANG_ENGLISH        "A battle-hardened Jedi General, Rahm Kota refused to use clone troopers, which spared him from Order 66. After surviving an attack by Darth Vader's apprentice, he became a mentor to Galen Marek, reigniting his faith in the Force and the fight against the Empire."
+LANG_GERMAN         "Ein kampferprobter Jedi-General, lehnte Rahm Kota den Einsatz von Klontruppen ab, was ihn vor Order 66 bewahrte. Nachdem er einen Angriff von Darth Vaders Schueler ueberlebt hatte, wurde er zum Mentor von Galen Marek und entfachte seinen Glauben an die Macht und den Kampf gegen das Imperium neu."
+
+REFERENCE           REBEL_ALLIANCE_TROOPER  
+LANG_ENGLISH        "Soldiers of the Rebel Alliance came from diverse backgrounds to resist Imperial tyranny. Armed with blasters and resolve, these troopers fought bravely on battlefronts such as Scarif, Hoth, and Endor, sacrificing much for the hope of a free galaxy."
+LANG_GERMAN         "Soldaten der Rebellenallianz stammten aus unterschiedlichsten Hintergruenden und stellten sich der imperialen Tyrannei entgegen. Mit Blastern und Entschlossenheit bewaffnet kaempften diese Truppler tapfer an Fronten wie Scarif, Hoth und Endor und opferten viel fuer die Hoffnung auf eine freie Galaxis."
+
+REFERENCE           REBEL_ALLIANCE_PILOT  
+LANG_ENGLISH        "Pilots of the Rebel Alliance flew starfighters in critical missions against the Empire. Skilled and courageous, they engaged in battles such as Yavin and Endor, delivering decisive blows with unmatched determination and sacrifice."
+LANG_GERMAN         "Piloten der Rebellenallianz flogen Sternenjaeger in entscheidenden Missionen gegen das Imperium. Talentiert und mutig kaempften sie in Schlachten wie Yavin und Endor und fuehrten mit unvergleichlicher Entschlossenheit und Opferbereitschaft entscheidende Schlaege aus."
+
+REFERENCE           ROSH_PENIN  
+LANG_ENGLISH        "A Jedi student at Luke Skywalker's academy, Rosh Penin struggled with his training and emotions. His wavering loyalty led him to briefly serve the dark side, but he ultimately sought redemption and rejoined the fight against the Sith."
+LANG_GERMAN         "Ein Jedi-Schueler an Luke Skywalkers Akademie, hatte Rosh Penin Schwierigkeiten mit seinem Training und seinen Emotionen. Seine schwankende Loyalitaet fuehrte dazu, dass er kurzzeitig der dunklen Seite diente, doch schliesslich suchte er Erloesung und schloss sich erneut dem Kampf gegen die Sith an."
+
+REFERENCE           SABINE_WREN  
+LANG_ENGLISH        "A Mandalorian warrior and graffiti artist, Sabine Wren was a former Imperial cadet who joined the Ghost crew. Skilled with explosives and lightsabers, she helped liberate Lothal and later searched the galaxy for Ezra Bridger alongside Ahsoka Tano."
+LANG_GERMAN         "Eine mandalorianische Kriegerin und Graffiti-Kuenstlerin, war Sabine Wren eine ehemalige imperiale Kadettin, die sich der Ghost-Crew anschloss. Versiert im Umgang mit Sprengstoffen und Lichtschwertern half sie bei der Befreiung von Lothal und suchte spaeter gemeinsam mit Ahsoka Tano in der Galaxis nach Ezra Bridger."
+
+REFERENCE           YUN  
+LANG_ENGLISH        "A Dark Jedi in the service of Jerec, Yun displayed compassion despite his allegiance. After being defeated by Kyle Katarn, he chose to aid the Jedi at the cost of his own life, proving that even those who fall can find redemption."
+LANG_GERMAN         "Ein Dunkler Jedi im Dienst von Jerec, zeigte Yun trotz seiner Loyalitaet Mitgefuehl. Nachdem er von Kyle Katarn besiegt worden war, entschied er sich, den Jedi zu helfen – auf Kosten seines eigenen Lebens. Er bewies, dass selbst Gefallene Erloesung finden koennen."
+
+REFERENCE           CORRAN_HORN
+LANG_ENGLISH        "A Corellian pilot turned Jedi Knight, Corran Horn served with Rogue Squadron before discovering his connection to the Force. Trained during the New Republic era, he became known for his unconventional Force abilities, later helping to rebuild the Jedi Order under Luke Skywalker."
+LANG_GERMAN         "Ein corellianischer Pilot, der zum Jedi-Ritter wurde, diente Corran Horn im Rogue Squadron, bevor er seine Verbindung zur Macht entdeckte. Waehrend der Aera der Neuen Republik ausgebildet, wurde er fuer seine unkonventionellen Machtfaehigkeiten bekannt und half spaeter beim Wiederaufbau des Jedi-Ordens unter Luke Skywalker."
+
+REFERENCE           TOBIAS_BECKETT
+LANG_ENGLISH        "A seasoned mercenary and thief, Tobias Beckett survived by trusting no one but his crew. Operating on the fringes of the growing rebellion, he embodied the harsh reality of life under Imperial rule, where loyalty was often fatal."
+LANG_GERMAN         "Ein erfahrener Soeldner und Dieb, ueberlebte Tobias Beckett, indem er niemandem ausser seiner Crew vertraute. Am Rand der wachsenden Rebellion taetig, verkoerperte er die harte Realitaet des Lebens unter imperialer Herrschaft, in der Loyalitaet oft toedlich war."
+
+REFERENCE           JO_NA_NAWOOD
+LANG_ENGLISH        "An Aldhani chieftain, Jo Na Nawood led the Dhanis while preserving their cultural traditions under Imperial occupation. His quiet resistance reflected the slow erosion of local autonomy as the Empire tightened its control."
+LANG_GERMAN         "Ein Haeuptling der Aldhani, fuehrte Jo Na Nawood die Dhanis an und bewahrte ihre kulturellen Traditionen unter imperialer Besatzung. Sein stiller Widerstand spiegelte den schleichenden Verlust lokaler Autonomie wider, waehrend das Imperium seine Kontrolle verstaerkte."
+
+REFERENCE           LUTHEN_RAEL
+LANG_ENGLISH        "A covert revolutionary operating under multiple identities, Luthen Rael orchestrated rebel activity against the Galactic Empire from the shadows. Willing to sacrifice morality and lives alike, he became a key architect of the early Rebellion."
+LANG_GERMAN         "Ein verdeckter Revolutionaer, der unter mehreren Identitaeten agierte, koordinierte Luthen Rael aus dem Schatten heraus die Aktivitaeten der Rebellen gegen das Galaktische Imperium. Bereit, sowohl Moral als auch Leben zu opfern, wurde er zu einem der zentralen Architekten der fruehen Rebellion."
+
+
+
+//----------------------------------------------------------
+// 	h6: EMPIRE
+//----------------------------------------------------------
+
+REFERENCE           ALORA  
+LANG_ENGLISH        "An ambitious Dark Side apprentice, Alora trained under Tavion during the rise of the Disciples of Ragnos. Skilled and ruthless, she sought power at any cost, ultimately clashing with Jedi Knight Jaden Korr in her pursuit of ancient Sith strength."
+LANG_GERMAN         "Eine ehrgeizige Schuelerin der dunklen Seite, wurde Alora unter Tavion waehrend des Aufstiegs der Juenger von Ragnos ausgebildet. Talentiert und ruecksichtslos suchte sie um jeden Preis nach Macht und geriet schliesslich mit dem Jedi-Ritter Jaden Korr aneinander, als sie nach alter Sith-Staerke strebte."
+
+REFERENCE           BAYLAN_SKOLL  
+LANG_ENGLISH        "A former Jedi turned mercenary, Baylan Skoll survived the Purge and grew disillusioned with the Jedi Order. As a Force-wielder with a mysterious agenda, he sought a new balance beyond light and dark, forging his own path amidst a galaxy in turmoil."
+LANG_GERMAN         "Ein ehemaliger Jedi, der zum Soeldner wurde, ueberlebte Baylan Skoll die Saeuberung und verlor den Glauben an den Jedi-Orden. Als Machtnutzer mit einer geheimnisvollen Agenda suchte er ein neues Gleichgewicht jenseits von Licht und Dunkelheit und schmiedete seinen eigenen Weg in einer Galaxis im Umbruch."
+
+REFERENCE           BOBA_FETT  
+LANG_ENGLISH        "The unaltered clone of Jango Fett, Boba Fett became one of the galaxy's most feared bounty hunters. Surviving the Sarlacc, he reclaimed his armor and forged a new legacy on Tatooine, balancing ruthless efficiency with a newfound sense of honor."
+LANG_GERMAN         "Der unveraenderte Klon von Jango Fett wurde Boba Fett zu einem der gefuerchtetsten Kopfgeldjaeger der Galaxis. Nachdem er den Sarlacc ueberlebt hatte, erlangte er seine Ruestung zurueck und schmiedete auf Tatooine ein neues Vermaechtnis, das ruecksichtslose Effizienz mit einem neu gefundenen Ehrgefuehl verband."
+
+REFERENCE           BOC  
+LANG_ENGLISH        "A deranged Dark Jedi serving under Jerec, Boc was known for his manic behavior and dual lightsaber combat. Despite his erratic nature, he posed a deadly threat to Kyle Katarn before ultimately falling in battle during the fight for the Valley of the Jedi."
+LANG_GERMAN         "Ein wahnsinniger Dunkler Jedi im Dienst von Jerec, war Boc fuer sein manisches Verhalten und seinen Kampf mit zwei Lichtschwertern bekannt. Trotz seiner Unberechenbarkeit stellte er eine toedliche Bedrohung fuer Kyle Katarn dar, bevor er im Kampf um das Tal der Jedi fiel."
+
+REFERENCE           BOSSK  
+LANG_ENGLISH        "A Trandoshan bounty hunter with a hatred for Wookiees, Bossk was feared across the galaxy for his brutal tactics. Frequently seen working alongside the galaxy's most notorious hunters, he pursued high-value targets during the Clone Wars and Galactic Civil War."
+LANG_GERMAN         "Ein trandoshanischer Kopfgeldjaeger mit tiefem Hass auf Wookiees, wurde Bossk fuer seine brutalen Taktiken in der gesamten Galaxis gefuerchtet. Oft an der Seite beruechtigter Jaeger gesehen, verfolgte er hochrangige Ziele waehrend der Klonkriege und des Galaktischen Buergerkriegs."
+
+REFERENCE           DEATH_TROOPER  
+LANG_ENGLISH        "Elite soldiers of the Empire, Death Troopers were deployed for high-level missions, serving as bodyguards and enforcers for Imperial officers like Director Krennic. Clad in black armor and equipped with advanced gear, they struck fear into Rebel forces."
+LANG_GERMAN         "Elite-Soldaten des Imperiums, wurden Death Trooper fuer hochrangige Missionen eingesetzt und dienten als Leibwaechter und Vollstrecker fuer imperiale Offiziere wie Direktor Krennic. In schwarze Ruestung gehuellt und mit fortschrittlicher Ausruestung versehen, verbreiteten sie Furcht unter den Rebellen."
+
+REFERENCE           DARK_TROOPER  
+LANG_ENGLISH        "Dark Troopers were advanced battle droids developed by the Empire, equipped with heavy armor and powerful weaponry. Designed to overwhelm infantry with brute force, they represented the pinnacle of Imperial military engineering in their era."
+LANG_GERMAN         "Dark Trooper waren fortschrittliche Kampfdroiden, die vom Imperium entwickelt wurden und schwere Panzerung sowie maechtige Waffen trugen. Entwickelt, um Infanterie mit roher Gewalt zu ueberwaeltigen, stellten sie den Hoehepunkt imperialer Militaertechnik ihrer Zeit dar."
+
+REFERENCE           DARTH_DESOLOUS  
+LANG_ENGLISH        "Once a Jedi, Darth Desolous turned to the dark side and raised a brutal army against the Jedi Order. A master of melee combat and strategy, he was ultimately defeated, but his memory endured as a deadly holographic opponent in Sith training programs."
+LANG_GERMAN         "Einst ein Jedi, verfiel Darth Desolous der dunklen Seite und stellte eine brutale Armee gegen den Jedi-Orden auf. Als Meister des Nahkampfs und der Strategie wurde er schliesslich besiegt, doch sein Andenken lebte als toedlicher holografischer Gegner in Sith-Trainingsprogrammen weiter."
+
+REFERENCE           DARTH_KRAYT  
+LANG_ENGLISH        "Born A'Sharad Hett, a former Jedi and Tusken Raider, he became Darth Krayt after embracing the dark side. Founder of the One Sith, he sought to reshape the galaxy under his rule, blending ancient Sith traditions with new philosophies of control."
+LANG_GERMAN         "Geboren als A’Sharad Hett, ein ehemaliger Jedi und Tusken-Raeuber, wurde er nach seinem Fall zur dunklen Seite zu Darth Krayt. Als Gruender der One Sith versuchte er, die Galaxis nach seinem Willen zu formen, indem er alte Sith-Traditionen mit neuen Kontrollphilosophien verband."
+
+REFERENCE           DARTH_PHOBOS  
+LANG_ENGLISH        "A seductive and manipulative Sith Lord, Darth Phobos thrived on fear and deception. Though long dead, her terrifying presence lived on through Sith training simulations, challenging apprentices with illusions and psychological warfare."
+LANG_GERMAN         "Eine verfuehrerische und manipulative Sith-Lord, gedieh Darth Phobos durch Angst und Taeuschung. Obwohl sie laengst tot war, lebte ihre furchterregende Praesenz in Sith-Trainingssimulationen weiter, wo sie Schueler mit Illusionen und psychologischer Kriegsfuehrung herausforderte."
+
+REFERENCE           DARTH_TALON  
+LANG_ENGLISH        "A loyal servant of Darth Krayt, Darth Talon was a skilled and deadly Sith assassin. Recognizable by her red skin and black tattoos, she enforced Krayt's will across the galaxy and became a symbol of fear during the rise of the One Sith."
+LANG_GERMAN         "Eine loyale Dienerin von Darth Krayt, war Darth Talon eine talentierte und toedliche Sith-Attentaeterin. Erkennbar an ihrer roten Haut und den schwarzen Taetowierungen setzte sie Krayts Willen in der gesamten Galaxis durch und wurde zu einem Symbol der Furcht waehrend des Aufstiegs der One Sith."
+
+REFERENCE           DARTH_VADER  
+LANG_ENGLISH        "Once Anakin Skywalker, a Jedi Knight and hero of the Clone Wars, he was seduced by the dark side and became Darth Vader. As the Emperor's enforcer, he hunted down Jedi and crushed rebellion, until the love for his son brought about his redemption."
+LANG_GERMAN         "Einst Anakin Skywalker, ein Jedi-Ritter und Held der Klonkriege, wurde er von der dunklen Seite verfuehrt und zu Darth Vader. Als Vollstrecker des Imperators jagte er Jedi und zerschlug Rebellionen, bis die Liebe zu seinem Sohn seine Erloesung brachte."
+
+REFERENCE           DESANN  
+LANG_ENGLISH        "A former Jedi who embraced the dark side, Desann became a formidable Sith aligned with the Empire Reborn. Towering in stature and power, he sought to recreate the Sith's strength through dark experiments, clashing with Kyle Katarn in a decisive duel."
+LANG_GERMAN         "Ein ehemaliger Jedi, der der dunklen Seite verfiel, wurde Desann zu einem maechtigen Sith, der mit dem wiedergeborenen Imperium verbuendet war. Von gewaltiger Statur und Macht versuchte er, die Staerke der Sith durch dunkle Experimente neu zu erschaffen, und traf in einem entscheidenden Duell auf Kyle Katarn."
+
+REFERENCE           DIRECTOR_ORSON_KRENNIC  
+LANG_ENGLISH        "Director Orson Krennic was the ruthless Imperial officer overseeing the Death Star project. Ambitious and cunning, he sought to secure power within the Empire by ensuring the superweapon's completion, clashing with both Rebels and rival Imperial leaders."
+LANG_GERMAN         "Direktor Orson Krennic war der ruecksichtlose imperiale Offizier, der das Todessternprojekt ueberwachte. Ehrgeizig und gerissen versuchte er, seine Macht im Imperium zu sichern, indem er die Fertigstellung der Superwaffe vorantrieb, und geriet dabei sowohl mit Rebellen als auch mit rivalisierenden imperialen Fuehrern aneinander."
+
+REFERENCE           EMPEROR_PALPATINE  
+LANG_ENGLISH        "Also known as Darth Sidious, Emperor Palpatine was the dark mastermind behind the fall of the Republic. Manipulating political and Sith power, he ruled the galaxy with fear and tyranny until his final defeat by Luke Skywalker and Anakin's redemption."
+LANG_GERMAN         "Auch bekannt als Darth Sidious, war Imperator Palpatine der dunkle Drahtzieher hinter dem Fall der Republik. Durch die Manipulation politischer und Sith-Macht herrschte er mit Angst und Tyrannei ueber die Galaxis, bis er schliesslich durch Luke Skywalker und Anakins Erloesung besiegt wurde."
+
+REFERENCE           GALAK_FYYAR  
+LANG_ENGLISH        "A mercenary and bounty hunter, Galak Fyyar was known for his relentless pursuit of targets and allegiance to dark forces. His violent nature made him a feared figure in the Outer Rim, frequently crossing paths with Jedi and criminals alike."
+LANG_GERMAN         "Ein Soeldner und Kopfgeldjaeger, war Galak Fyyar fuer seine unerbittliche Jagd auf Ziele und seine Loyalitaet gegenueber dunklen Maechten bekannt. Seine gewalttaetige Natur machte ihn zu einer gefuerchteten Figur im Outer Rim, wo er haeufig sowohl Jedi als auch Kriminellen begegnete."
+
+REFERENCE           GAMORREAN_GUARD  
+LANG_ENGLISH        "Brutish and loyal, Gamorrean Guards served as fearsome enforcers within the criminal underworld and Imperial facilities. Their raw strength and intimidating presence made them formidable bodyguards, especially in Jabba the Hutt's palace."
+LANG_GERMAN         "Grobschlaechtig und loyal dienten Gamorreanische Wachen als furchterregende Vollstrecker im kriminellen Untergrund und in imperialen Einrichtungen. Ihre rohe Staerke und einschuechternde Praesenz machten sie zu beeindruckenden Leibwaechtern, besonders in Jabba dem Hutten's Palast."
+
+REFERENCE           GORC  
+LANG_ENGLISH        "Gorc was a Force-sensitive Gamorrean who served Jabba the Hutt before being betrayed to the Galactic Empire and mutated into Sithspawn. He formed a Force-linked bond with Pic, and together they were known as the 'Brothers of the Sith', serving the Dark Jedi Inquisitor Jerec. Gorc was killed in 5 ABY by Kyle Katarn."
+LANG_GERMAN         "Gorc war ein machtsensitiver Gamorreaner, der Jabba dem Hutten diente, bevor er an das Galaktische Imperium verraten und zu einem Sith-Nachkommen mutiert wurde. Er ging eine Machtverbindung mit Pic ein, und gemeinsam waren sie als die 'Brueder der Sith' bekannt und dienten dem Dunklen Jedi-Inquisitor Jerec. Gorc wurde im Jahr 5 NSY von Kyle Katarn getoetet."
+
+REFERENCE           GRAND_ADMIRAL_THRAWN  
+LANG_ENGLISH        "A brilliant strategist and tactician, Grand Admiral Thrawn was one of the Empire's most feared commanders. Known for his calm demeanor and understanding of art, he used intellect and cunning to challenge the Rebel Alliance at every turn."
+LANG_GERMAN         "Ein brillanter Stratege und Taktiker, war Grossadmiral Thrawn einer der gefuerchtetsten Kommandanten des Imperiums. Bekannt fuer sein ruhiges Auftreten und sein Verstaendnis fuer Kunst nutzte er Intellekt und List, um die Rebellenallianz bei jeder Gelegenheit herauszufordern."
+
+REFERENCE           GRAND_MOFF_TARKIN  
+LANG_ENGLISH        "Governor of the Outer Rim and overseer of the Death Star, Grand Moff Tarkin was a ruthless Imperial leader. His doctrine of fear and decisive actions shaped the Empire's military strategy until his demise during the Battle of Yavin."
+LANG_GERMAN         "Als Gouverneur des Outer Rim und Aufseher des Todessterns war Grossmoff Tarkin ein ruecksichtsloser imperialer Fuehrer. Seine Doktrin der Angst und seine entschlossenen Massnahmen praegten die Militaerstrategie des Imperiums bis zu seinem Tod in der Schlacht von Yavin."
+
+REFERENCE           GREEDO  
+LANG_ENGLISH        "A Rodian bounty hunter notorious for his encounter with Han Solo in the Mos Eisley Cantina. Greedo's eagerness and reputation for taking dangerous jobs made him a persistent threat to smugglers and criminals in the galaxy."
+LANG_GERMAN         "Ein rodianischer Kopfgeldjaeger, beruechtigt fuer seine Begegnung mit Han Solo in der Mos Eisley Cantina. Greedos Eifer und sein Ruf, gefaehrliche Auftraege anzunehmen, machten ihn zu einer staendigen Bedrohung fuer Schmuggler und Kriminelle in der Galaxis."
+
+REFERENCE           HAZARDTROOPER  
+LANG_ENGLISH        "Elite Imperial infantry trained for hazardous environments, Hazardtroopers operated in extreme conditions with specialized gear. Their expertise in survival and combat made them key assets during high-risk missions for the Empire."
+LANG_GERMAN         "Elite-Infanteristen des Imperiums, ausgebildet fuer gefaehrliche Umgebungen, operierten Hazardtrooper mit spezieller Ausruestung unter extremen Bedingungen. Ihre Expertise in Ueberleben und Kampf machte sie zu wichtigen Kraeften bei Hochrisikomissionen des Imperiums."
+
+REFERENCE           IMPERIAL_ROYAL_GUARD  
+LANG_ENGLISH        "Clad in striking red armor, the Imperial Royal Guards were elite protectors of Emperor Palpatine. Silent and deadly, their presence symbolized the Emperor's absolute power and they were trained in advanced combat and Force defense techniques."
+LANG_GERMAN         "In auffaellige rote Ruestung gehuellt, waren die imperialen Royal Guards Elitebeschuetzer von Imperator Palpatine. Lautlos und toedlich symbolisierte ihre Praesenz die absolute Macht des Imperators, und sie waren in fortgeschrittenem Kampf und Machtverteidigungstechniken ausgebildet."
+
+REFERENCE           IMPERIAL_SHADOW_GUARD  
+LANG_ENGLISH        "A secretive division of Imperial operatives, the Shadow Guard specialized in covert missions and assassinations. Their skills in stealth and infiltration made them invaluable tools of the Emperor's will across the galaxy."
+LANG_GERMAN         "Eine geheime Abteilung imperialer Agenten, spezialisierte sich die Shadow Guard auf verdeckte Missionen und Attentate. Ihre Faehigkeiten in Heimlichkeit und Infiltration machten sie zu unverzichtbaren Werkzeugen des Willens des Imperators in der gesamten Galaxis."
+
+REFERENCE           IMPERIAL_WORKER  
+LANG_ENGLISH        "Imperial Workers maintained and operated the vast machinery of the Empire, from starship construction to base operations. Though often overlooked, their labor was essential to the efficiency and power of the Imperial war machine."
+LANG_GERMAN         "Imperiale Arbeiter warteten und betrieben die gewaltige Maschinerie des Imperiums, von Sternenschiffkonstruktion bis zu Basisbetrieb. Obwohl oft uebersehen, war ihre Arbeit entscheidend fuer die Effizienz und Staerke der imperialen Kriegsmaschinerie."
+
+REFERENCE           JEREC  
+LANG_ENGLISH        "Jerec was a powerful Miraluka Jedi Master and archaeologist who fell to the dark side and became a feared Imperial Inquisitor. Obsessed with Sith lore and the Valley of the Jedi, he sought ultimate power and to overthrow Palpatine and Vader. After the Emperor's death, Jerec briefly achieved immense power from the Valley but was ultimately defeated and killed by Kyle Katarn."
+LANG_GERMAN         "Jerec war ein maechtiger Jedi-Meister und Archaeologe der Miraluka, der der dunklen Seite verfiel und zu einem gefuerchteten imperialen Inquisitor wurde. Besessen von der Sith-Lehre und dem Tal der Jedi, strebte er nach absoluter Macht und wollte Palpatine und Vader stuerzen. Nach dem Tod des Imperators erlangte Jerec kurzzeitig immense Macht im Tal, wurde aber schliesslich von Kyle Katarn besiegt und getoetet."
+
+REFERENCE           MAW  
+LANG_ENGLISH        "Maw was a Boltrunian Jedi who fell to the dark side and served Inquisitor Jerec in the search for the Valley of the Jedi. After losing his legs in a confrontation with Jedi Master Qu Rahn, he survived using a repulsorlift and became known as the 'Half-Man'. Maw was ultimately defeated and killed by Kyle Katarn on Ruusan."
+LANG_GERMAN         "Maw war ein boltrunianischer Jedi, der der dunklen Seite verfiel und Inquisitor Jerec bei der Suche nach dem Tal der Jedi diente. Nachdem er in einem Kampf mit Jedi-Meister Qu Rahn seine Beine verloren hatte, ueberlebte er mithilfe eines Repulsorlifts und wurde als 'Halbmensch' bekannt. Maw wurde schliesslich von Kyle Katarn auf Ruusan besiegt und getoetet."
+
+REFERENCE           MOFF_GIDEON  
+LANG_ENGLISH        "A ruthless Imperial officer, Moff Gideon rose to power in the remnants of the Empire. Skilled in strategy and combat, he wields the Darksaber and commands elite forces, seeking to restore Imperial dominance amid the galaxy's chaos."
+LANG_GERMAN         "Ein ruecksichtsloser imperialer Offizier, stieg Moff Gideon in den Ueberresten des Imperiums zur Macht auf. Versiert in Strategie und Kampf fuehrt er das Dunkelschwert und kommandiert Eliteeinheiten, waehrend er versucht, die imperiale Vorherrschaft inmitten des galaktischen Chaos wiederherzustellen."
+
+REFERENCE           PIC  
+LANG_ENGLISH        "Picaroon C. Boodle, known as Pic, was a mutated Kowakian monkey-lizard and one of Inquisitor Jerec's Dark Jedi, bonded through the Force with his 'brother' Gorc. Enhanced by Imperial experiments, the pair became a deadly combination of speed and strength. After Gorc was killed by Kyle Katarn in 5 ABY, Pic attacked in a rage and was also slain."
+LANG_GERMAN         "Picaroon C. Boodle, genannt Pic, war ein mutierter Kowakianischer Echsenaffe und einer von Inquisitor Jerecs Dunklen Jedi. Durch die Macht war er mit seinem 'Bruder' Gorc verbunden. Dank imperialer Experimente bildeten die beiden eine toedliche Kombination aus Schnelligkeit und Staerke. Nachdem Gorc im Jahr 5 NSY von Kyle Katarn getoetet worden war, griff Pic ihn wutentbrannt an und wurde ebenfalls getoetet."
+
+REFERENCE           REBORN  
+LANG_ENGLISH        "The Reborn were the deadly force of the Dark Jedi. They were the result of the fulfillment of the dream of artificially transferring the Force to individuals and a tool of Lord Hethrir's grand plan to restore the ideals of Emperor Palpatine, the ways of the Sith, and the Galactic Empire itself. They served under Desann and were later used by his apprentice, Tavion."
+LANG_GERMAN         "Die Wiedergeborenen waren die toedliche Streitmacht der Dunklen Jedi. Sie waren das Ergebnis der Verwirklichung des Traums, die Macht kuenstlich auf Individuen zu uebertragen, und ein Werkzeug in Lord Hethrirs grossem Plan, die Ideale von Imperator Palpatine, die Wege der Sith und das Galaktische Imperium selbst wiederherzustellen. Sie dienten unter Desann und wurden spaeter von seinem Schueler Tavion eingesetzt."
+
+REFERENCE           PURGE_TROOPER  
+LANG_ENGLISH        "Elite Imperial soldiers trained specifically to hunt down and eliminate surviving Jedi after Order 66. Equipped with advanced armor and weapons, Purge Troopers are relentless and feared across the galaxy."
+LANG_GERMAN         "Elite-Soldaten des Imperiums, speziell ausgebildet, um ueberlebende Jedi nach Order 66 aufzuspueren und auszuschalten. Mit fortschrittlicher Ruestung und Waffen ausgestattet, sind Purge Trooper unerbittlich und in der gesamten Galaxis gefuerchtet."
+
+REFERENCE           RAX_JORIS  
+LANG_ENGLISH        "Rax Joris was a corrupt Imperial Remnant prison warden on Dosuun who cruelly hunted escaped prisoners for sport. In 14 ABY, he captured Jedi Jaden Korr and attempted the same game, taunting and attacking him with a concussion rifle. Joris was ultimately defeated by Korr, who reclaimed his lightsaber."
+LANG_GERMAN         "Rax Joris war ein korrupter Gefaengniswaerter der imperialen Reststreitkraefte auf Dosuun, der entflohene Gefangene zum Vergnuegen grausam jagte. Im Jahr 14 NSY nahm er den Jedi Jaden Korr gefangen und versuchte dasselbe Spiel, indem er ihn verspottete und mit einem Schockgewehr angriff. Schliesslich wurde Joris von Korr besiegt, der sein Lichtschwert zurueckerlangte."
+
+REFERENCE           ROCKETTROOPER  
+LANG_ENGLISH        "Specialized Imperial infantry equipped with jetpacks and heavy weaponry, Rockettroopers excelled in rapid assault and battlefield disruption. Their mobility and firepower made them formidable enemies in open combat."
+LANG_GERMAN         "Spezialisierte imperiale Infanterie, ausgestattet mit Jetpacks und schwerer Bewaffnung, zeichneten sich Rockettrooper durch schnelle Angriffe und Gefechtsstoerungen aus. Ihre Mobilitaet und Feuerkraft machten sie zu gefaehrlichen Gegnern im offenen Kampf."
+
+REFERENCE           ROYAL_COMBAT_GUARD  
+LANG_ENGLISH        "Elite warriors trained to protect Imperial royalty and key leaders. Wearing imposing armor and wielding advanced weapons, the Royal Combat Guards combine martial prowess with unwavering loyalty to the Empire."
+LANG_GERMAN         "Elitekrieger, ausgebildet zum Schutz imperialer Wuerdentraeger und wichtiger Anfuehrer. Mit imposanter Ruestung und fortschrittlichen Waffen vereinen die Royal Combat Guards Kampfkunst mit unerschuetterlicher Loyalitaet zum Imperium."
+
+REFERENCE           SABER_TRAINING_DROID  
+LANG_ENGLISH        "Automated droids designed to help Jedi apprentices practice lightsaber combat. Equipped with sensors and adaptive programming, these droids simulate various fighting styles to hone the skills of Jedi trainees."
+LANG_GERMAN         "Automatisierte Droiden, entwickelt, um Jedi-Schuelern beim Ueben des Lichtschwertkampfes zu helfen. Mit Sensoren und adaptiver Programmierung ausgestattet simulieren diese Droiden verschiedene Kampfstile, um die Faehigkeiten der Auszubildenden zu schaerfen."
+
+REFERENCE           FORCE_TRAINING_DROID  
+LANG_ENGLISH        "Droids created to assist Force-sensitive students in developing their abilities. These training units provide challenges and feedback tailored to the user's skill level, accelerating mastery of Force powers."
+LANG_GERMAN         "Droiden, die entwickelt wurden, um machtsensitive Schueler bei der Entwicklung ihrer Faehigkeiten zu unterstuetzen. Diese Trainingseinheiten bieten Herausforderungen und Rueckmeldungen, die dem Faehigkeitsniveau des Nutzers angepasst sind, und beschleunigen so das Erlernen von Machtfaehigkeiten."
+
+REFERENCE           SABOTEUR  
+LANG_ENGLISH        "Imperial Saboteurs were elite Imperial Remnant soldiers trained in stealth, sabotage, and demolitions. Equipped with advanced weapons and stealth field generators, they could operate nearly invisibly behind enemy lines. During the Galactic Civil War, they conducted missions across the galaxy and sometimes worked alongside stormtroopers for the Disciples of Ragnos."
+LANG_GERMAN         "Imperiale Saboteure waren Elitesoldaten des Imperialen Restimperiums, ausgebildet in Tarnung, Sabotage und Sprengtechnik. Ausgeruestet mit hochentwickelten Waffen und Tarnfeldgeneratoren konnten sie nahezu unsichtbar hinter den feindlichen Linien operieren. Waehrend des Galaktischen Buergerkriegs fuehrten sie Missionen in der gesamten Galaxis durch und arbeiteten mitunter Seite an Seite mit Sturmtruppen fuer die Juenger von Ragnos."
+
+REFERENCE           SARISS  
+LANG_ENGLISH        "Sariss, known as the 'Prophetess', was a Force-sensitive Human and one of Jerec's seven Dark Jedi seeking the Valley of the Jedi after the Empire's fall. Daughter of Imperial Warlord Cronal, she was trained in the Dark Side by the Prophets on Dromund Kaas and completed her apprenticeship under Jerec, becoming one of his most loyal followers."
+LANG_GERMAN         "Sariss, bekannt als die „Prophetin“, war eine machtsensitive Menschliche und eine von Jerecs sieben Dunklen Jedi, die nach dem Fall des Imperiums das Tal der Jedi suchten. Als Tochter des imperialen Kriegsherrn Cronal wurde sie von den Propheten auf Dromund Kaas in der Dunklen Seite ausgebildet und schloss ihre Lehre unter Jerec ab, wodurch sie zu einer seiner treuesten Anhaengerinnen wurde."
+
+REFERENCE           SHIN_HATI  
+LANG_ENGLISH        "Shin Hati was a Force-sensitive human and apprentice of Baylan Skoll, working with Morgan Elsbeth to track down Grand Admiral Thrawn. She dueled Sabine Wren and later confronted Ahsoka Tano while attempting to secure a Nightsister star map. She traveled to Peridea but was defeated and left to flee alone."
+LANG_GERMAN         "Shin Hati war eine machtsensitive Frau und Schuelerin von Baylan Skoll. Gemeinsam mit Morgan Elsbeth suchte sie nach Grossadmiral Thrawn. Sie duellierte sich mit Sabine Wren und traf spaeter auf Ahsoka Tano, als sie versuchte, eine Sternenkarte der Nachtschwestern zu erlangen. Sie reiste nach Peridea, wurde dort jedoch besiegt und musste allein fliehen."
+
+REFERENCE           STARKILLER  
+LANG_ENGLISH        "Born Galen Marek, Starkiller was Darth Vader's secret apprentice trained in the dark side. Torn between loyalty and redemption, his powerful Force abilities shaped key events in the battle between Sith and Jedi."
+LANG_GERMAN         "Geboren als Galen Marek war Starkiller Darth Vaders geheimer Schueler, ausgebildet in der dunklen Seite. Zwischen Loyalitaet und Erloesung hin- und hergerissen praegten seine maechtigen Machtfaehigkeiten entscheidende Ereignisse im Kampf zwischen Sith und Jedi."
+
+REFERENCE           STORMTROOPER  
+LANG_ENGLISH        "The backbone of the Imperial military, Stormtroopers enforce the Empire's will across the galaxy. Clad in iconic white armor, they maintain order through intimidation and combat, often facing off against Rebel forces."
+LANG_GERMAN         "Das Rueckgrat des imperialen Militaers, setzen Sturmtruppen den Willen des Imperiums in der gesamten Galaxis durch. In ikonische weisse Ruestung gehuellt, halten sie Ordnung durch Einschuechterung und Kampf und stehen haeufig Rebellenkraeften gegenueber."
+
+REFERENCE           TARON_MALICOS  
+LANG_ENGLISH        "Taron Malicos was a Jedi Master who fell to the dark side after surviving Order 66 and leading Dathomir's Nightbrothers. He tried to deceive Merrin and turn Cal Kestis to the dark side but was ultimately defeated and killed by Kestis and Merrin."
+LANG_GERMAN         "Taron Malicos war ein Jedi-Meister, der nach dem Ueberleben von Order 66 und seiner Fuehrung der Nachtbrueder von Dathomir der dunklen Seite verfiel. Er versuchte, Merrin zu taeuschen und Cal Kestis auf die dunkle Seite zu ziehen, wurde aber schliesslich von Kestis und Merrin besiegt und getoetet."
+
+REFERENCE           TAVION_AXMIS  
+LANG_ENGLISH        "Tavion Axmis was a Human Dark Jedi and apprentice of Desann who sought the Valley of the Jedi and later led the Disciples of Ragnos. She turned Rosh Penin to the dark side and attempted to resurrect Marka Ragnos on Korriban. Axmis was ultimately killed when Jaden Korr defeated Ragnos, whose spirit had taken over her body."
+LANG_GERMAN         "Tavion Axmis war eine menschliche Dunkle Jedi und Schuelerin von Desann. Sie suchte das Tal der Jedi und fuehrte spaeter die Juenger von Ragnos an. Sie zog Rosh Penin auf die dunkle Seite und versuchte, Marka Ragnos auf Korriban wiederzuerwecken. Axmis wurde schliesslich getoetet, als Jaden Korr Ragnos besiegte, dessen Geist von ihrem Koerper Besitz ergriffen hatte."
+
+REFERENCE           THE_GRAND_INQUISITOR  
+LANG_ENGLISH        "Once a Jedi Temple Guard, the Grand Inquisitor turned Sith hunter led the Empire's efforts to eradicate Jedi survivors. His cunning and lightsaber skills made him a feared enforcer of Imperial will."
+LANG_GERMAN         "Einst ein Jedi-Tempelwaechter, leitete der Grossinquisitor, der sich dem Sith-Jaeger zuwandte, die Bemuehungen des Imperiums zur Ausloeschung der ueberlebenden Jedi. Seine Gerissenheit und sein Koennen mit dem Lichtschwert machten ihn zu einem gefuerchteten Vollstrecker des imperialen Willens."
+
+REFERENCE           THE_EIGHTH_BROTHER  
+LANG_ENGLISH        "The Eighth Brother was a Force-sensitive Terrelian Inquisitor who hunted the Rebellion and the Spectres. He died on Malachor while attempting to escape after Kanan Jarrus damaged his lightsaber."
+LANG_GERMAN         "Der Achte Bruder war ein machtsensitiver terrelianischer Inquisitor, der die Rebellion und die Spektren jagte. Er starb auf Malachor bei dem Versuch zu fliehen, nachdem Kanan Jarrus sein Lichtschwert beschaedigt hatte."
+
+REFERENCE           THE_FIFTH_BROTHER  
+LANG_ENGLISH        "The Fifth Brother was a male Inquisitor of the Empire who hunted the Rebellion and Jedi under Darth Vader's orders. He participated in missions against Eeth Koth, Nari, and the Spectres, and was ultimately killed by Maul on Malachor."
+LANG_GERMAN         "Der Fuenfte Bruder war ein maennlicher Inquisitor des Imperiums, der im Auftrag von Darth Vader die Rebellion und die Jedi jagte. Er nahm an Missionen gegen Eeth Koth, Nari und die Spectres teil und wurde schliesslich von Maul auf Malachor getoetet."
+
+REFERENCE           THE_NINTH_SISTER  
+LANG_ENGLISH        "The Ninth Sister, formerly Jedi Masana Tide, was a Force-sensitive Dowutin Inquisitor who fell to the dark side after being captured and tortured by the Empire. Trained by the Grand Inquisitor and Darth Vader, she hunted Jedi including Ferren Barr and Cal Kestis. She was ultimately killed by Kestis on Coruscant in 9 BBY."
+LANG_GERMAN         "Die Neunte Schwester, ehemals Jedi Masana Tide, war eine machtsensitive Dowutin-Inquisitorin, die nach ihrer Gefangennahme und Folter durch das Imperium der Dunklen Seite verfiel. Ausgebildet vom Grossinquisitor und Darth Vader, jagte sie Jedi wie Ferren Barr und Cal Kestis. Sie wurde schliesslich im Jahr 9 VSY auf Coruscant von Kestis getoetet."
+
+REFERENCE           THE_SECOND_SISTER  
+LANG_ENGLISH        "The Second Sister, formerly Trilla Suduri, fell to the dark side after being captured and tortured by the Empire. She became a ruthless Inquisitor, hunting Jedi fugitives like Cal Kestis across the galaxy. After being defeated by Kestis on Nur, she was executed by Vader, leaving a lasting impact on both Kestis and her former master, Cere Junda."
+LANG_GERMAN         "Die Zweite Schwester, ehemals Trilla Suduri, verfiel der dunklen Seite, nachdem sie vom Imperium gefangen genommen und gefoltert worden war. Sie wurde zu einer skrupellosen Inquisitorin und jagte Jedi-Fluechtlinge wie Cal Kestis durch die Galaxis. Nachdem sie auf Nur von Kestis besiegt worden war, wurde sie von Vader hingerichtet, was sowohl Kestis als auch ihre ehemalige Meisterin Cere Junda nachhaltig praegte."
+
+REFERENCE           THE_SEVENTH_SISTER  
+LANG_ENGLISH        "The Seventh Sister was a Mirialan Inquisitor of the Empire who hunted Jedi and sought to replace the Grand Inquisitor. She clashed with the Spectres across multiple missions but was ultimately killed by Maul on Malachor."
+LANG_GERMAN         "Die Siebte Schwester war eine Mirialanerin, eine Inquisitorin des Imperiums, die Jedi jagte und den Grossinquisitor ersetzen wollte. Sie lieferte sich in mehreren Missionen Gefechte mit den Spektren, wurde aber schliesslich von Maul auf Malachor getoetet."
+
+REFERENCE           THE_THIRD_SISTER  
+LANG_ENGLISH        "Reva Sevander, also known as the Third Sister, was driven by revenge against Darth Vader for the Jedi Purge. She hunted Obi-Wan Kenobi and Princess Leia, while secretly seeking to kill Vader. After failing to assassinate him and being confronted by Kenobi, she abandoned her quest for vengeance and ultimately chose to let go of her past."
+LANG_GERMAN         "Reva Sevander, auch bekannt als die Dritte Schwester, war von Rachegeluesten gegen Darth Vader fuer die Jedi-Saeuberung getrieben. Sie jagte Obi-Wan Kenobi und Prinzessin Leia, waehrend sie insgeheim versuchte, Vader zu toeten. Nachdem ihr Attentat gescheitert war und sie von Kenobi zur Rede gestellt wurde, gab sie ihren Rachefeldzug auf und beschloss schliesslich, ihre Vergangenheit hinter sich zu lassen."
+
+REFERENCE           VIZAM  
+LANG_ENGLISH        "Vizam was a Kajain'sa'Nikto who served as weapons master for Jabba the Hutt. He oversaw palace security, witnessed key events like the rancor pit and Leia’s infiltration, and participated in the transport of prisoners to the Sarlacc. Vizam was ultimately killed by Luke Skywalker aboard Jabba's sail barge."
+LANG_GERMAN         "Vizam war ein Kajain'sa'Nikto und diente Jabba dem Hutten als Waffenmeister. Er war fuer die Palastsicherheit verantwortlich, wurde Zeuge wichtiger Ereignisse wie der Rancor-Grube und Leias Infiltration und beteiligte sich am Transport von Gefangenen zum Sarlacc. Schliesslich wurde Vizam von Luke Skywalker an Bord von Jabbas Segelbarke getoetet."
+
+REFERENCE           WEEQUAY  
+LANG_ENGLISH        "A species known for their toughness and warrior culture, Weequays often served as mercenaries, guards, and pirates. Their rugged appearance and fierce loyalty made them common figures in the galaxy's underworld."
+LANG_GERMAN         "Eine Spezies, bekannt fuer ihre Zaehigkeit und Kriegskultur, dienten Weequays haeufig als Soeldner, Wachen und Piraten. Ihr raues Erscheinungsbild und ihre starke Loyalitaet machten sie zu haeufigen Figuren im Untergrund der Galaxis."
+
+REFERENCE           DAGAN_GERA
+LANG_ENGLISH        "A Jedi Knight of the High Republic era, Dagan Gera was a gifted warrior who became consumed by bitterness after the loss of Tanalorr. Preserved in stasis for centuries, he awakened to a changed galaxy and ultimately fell to the dark side, clashing with Cal Kestis in a failed bid to reclaim his lost vision."
+LANG_GERMAN         "Ein Jedi-Ritter der Aera der Hohen Republik, war Dagan Gera ein begabter Krieger, der nach dem Verlust von Tanalorr von Verbitterung verzehrt wurde. Ueber Jahrhunderte in Stasis erhalten, erwachte er in einer veraenderten Galaxis und verfiel schliesslich der dunklen Seite, als er in einem gescheiterten Versuch, seine verlorene Vision zurueckzuerlangen, mit Cal Kestis kollidierte."
+
+
+//----------------------------------------------------------
+// 	h7: RESISTANCE
+//----------------------------------------------------------
+
+REFERENCE           BLACK_KRRSTANTAN  
+LANG_ENGLISH        "A fearsome Wookiee bounty hunter and former gladiator, Black Krrsantan worked for the Hutt Cartel and later aligned with Boba Fett. Known for his brutal strength and combat prowess, he earned a reputation across the galaxy as a relentless and intimidating enforcer."
+LANG_GERMAN         "Ein furchterregender Wookiee-Kopfgeldjaeger und ehemaliger Gladiator, arbeitete Black Krrsantan fuer das Huttenkartell und spaeter an der Seite von Boba Fett. Bekannt fuer seine brutale Staerke und Kampfkraft erwarb er sich in der gesamten Galaxis den Ruf eines unerbittlichen und einschuechternden Vollstreckers."
+
+REFERENCE           BO_KATAN_KRYZE  
+LANG_ENGLISH        "A proud Mandalorian warrior and former member of Death Watch, Bo-Katan sought to restore Mandalore's honor. Wielding the Darksaber and leading the Nite Owls, she played a key role in both resisting Imperial rule and supporting Din Djarin in the fight for Mandalorian unity."
+LANG_GERMAN         "Eine stolze mandalorianische Kriegerin und ehemalige Angehoerige der Death Watch, strebte Bo-Katan danach, Mandalores Ehre wiederherzustellen. Mit dem Dunkelschwert bewaffnet und als Anfuehrerin der Nite Owls spielte sie eine Schluesselrolle im Widerstand gegen die imperiale Herrschaft und unterstuetzte Din Djarin im Kampf um die Einheit der Mandalorianer."
+
+REFERENCE           BOBA_FETT  
+LANG_ENGLISH        "The cloned son of Jango Fett, Boba Fett became one of the galaxy's most feared bounty hunters. Surviving the Sarlacc pit, he reemerged to reclaim his father's armor and took over Jabba the Hutt's criminal empire, seeking to rule with respect rather than fear."
+LANG_GERMAN         "Der geklonte Sohn von Jango Fett wurde Boba Fett zu einem der gefuerchtetsten Kopfgeldjaeger der Galaxis. Nachdem er die Sarlacc-Grube ueberlebt hatte, kehrte er zurueck, um die Ruestung seines Vaters zurueckzuerlangen und uebernahm schliesslich Jabba den Hutten's Verbrecherimperium, wobei er versuchte, mit Respekt statt mit Angst zu herrschen."
+
+REFERENCE           CARA_DUNE  
+LANG_ENGLISH        "A former Rebel shock trooper from Alderaan, Cara Dune became a marshal of the New Republic. Skilled in combat and fiercely loyal, she aided Din Djarin on several missions, using her military experience to fight remnants of the Empire and uphold justice on the Outer Rim."
+LANG_GERMAN         "Eine ehemalige Schocktrupplerin der Rebellen von Alderaan, wurde Cara Dune zu einer Marschallin der Neuen Republik. Kampferfahren und aeusserst loyal unterstuetzte sie Din Djarin in mehreren Missionen und nutzte ihre militaerische Erfahrung, um Ueberreste des Imperiums zu bekaempfen und im Outer Rim fuer Gerechtigkeit zu sorgen."
+
+REFERENCE           DIN_DJARIN  
+LANG_ENGLISH        "A Mandalorian foundling raised in the creed of the Children of the Watch, Din Djarin worked as a bounty hunter before becoming the protector of Grogu. His journey led him across the galaxy, forging alliances and ultimately taking part in the fight to restore Mandalore."
+LANG_GERMAN         "Ein mandalorianisches Findelkind, erzogen nach dem Glauben der Children of the Watch, arbeitete Din Djarin als Kopfgeldjaeger, bevor er zum Beschuetzer von Grogu wurde. Seine Reise fuehrte ihn durch die gesamte Galaxis, wo er Buendnisse schmiedete und schliesslich am Kampf zur Wiederherstellung Mandalores teilnahm."
+
+REFERENCE           FENNEC_SHAND  
+LANG_ENGLISH        "An elite mercenary and assassin, Fennec Shand earned her reputation through ruthless efficiency and sharp tactics. After being saved by Boba Fett, she pledged her loyalty to him and became his trusted partner in governing the criminal underworld of Tatooine."
+LANG_GERMAN         "Eine Elite-Soeldnerin und Attentaeterin, erwarb sich Fennec Shand ihren Ruf durch kompromisslose Effizienz und scharfe Taktik. Nachdem sie von Boba Fett gerettet wurde, schwor sie ihm die Treue und wurde seine vertrauenswuerdige Partnerin bei der Fuehrung der Unterwelt von Tatooine."
+
+REFERENCE           FINN  
+LANG_ENGLISH        "Originally designated FN-2187, Finn was a First Order stormtrooper who defected after witnessing their cruelty. Joining the Resistance, he fought bravely in key battles and discovered his own sensitivity to the Force, seeking to find his place in the galaxy."
+LANG_GERMAN         "Urspruenglich als FN-2187 bezeichnet, war Finn ein Sturmtruppler der Ersten Ordnung, der nach dem Erleben ihrer Grausamkeit desertierte. Er schloss sich dem Widerstand an, kaempfte tapfer in entscheidenden Schlachten und entdeckte seine eigene Sensitivitaet zur Macht, waehrend er seinen Platz in der Galaxis suchte."
+
+REFERENCE           GREEF_KARGA  
+LANG_ENGLISH        "Once a guild magistrate on Nevarro, Greef Karga led bounty hunters and oversaw contracts. After aligning with Din Djarin, he transitioned into a leadership role, helping stabilize Nevarro and defend it from Imperial remnants and lawlessness."
+LANG_GERMAN         "Einst ein Gildenmagistrat auf Nevarro, fuehrte Greef Karga Kopfgeldjaeger an und ueberwachte Vertraege. Nachdem er sich mit Din Djarin verbuendet hatte, uebernahm er eine Fuehrungsrolle, half bei der Stabilisierung von Nevarro und verteidigte es gegen imperiale Ueberreste und Gesetzlosigkeit."
+
+REFERENCE           GROGU  
+LANG_ENGLISH        "A mysterious young being strong in the Force, Grogu was rescued from the Jedi Temple during Order 66. Raised in secrecy, he was eventually protected by Din Djarin, with whom he formed a deep bond. Trained briefly by Luke Skywalker, Grogu chose to return to the Mandalorian's side."
+LANG_GERMAN         "Ein mysterioeses junges Wesen, stark in der Macht, wurde Grogu waehrend Order 66 aus dem Jedi-Tempel gerettet. Im Geheimen aufgezogen, wurde er schliesslich von Din Djarin beschuetzt, zu dem er eine tiefe Bindung aufbaute. Kurzzeitig von Luke Skywalker ausgebildet, entschied sich Grogu, an die Seite des Mandalorianers zurueckzukehren."
+
+REFERENCE           KUIIL  
+LANG_ENGLISH        "A wise and humble Ugnaught, Kuiil was a former Imperial indentured servant who earned his freedom. Living in solitude on Arvala-7, he helped Din Djarin care for Grogu and restore IG-11. He was known for his calm wisdom and the iconic phrase, 'I have spoken.'"
+LANG_GERMAN         "Ein weiser und bescheidener Ugnaught, war Kuiil ein ehemaliger imperialer Schuldsklave, der sich seine Freiheit erarbeitete. In Einsamkeit auf Arvala-7 lebend, half er Din Djarin bei der Pflege von Grogu und der Wiederherstellung von IG-11. Er war bekannt fuer seine ruhige Weisheit und den ikonischen Satz: 'Ich habe gesprochen.'"
+
+REFERENCE           LUKE_SKYWALKER_SEQUEL  
+LANG_ENGLISH        "Years after the fall of the Empire, Luke Skywalker became a legend and sought to rebuild the Jedi Order. Haunted by failure after Ben Solo's fall, he exiled himself on Ahch-To. Ultimately, he returned in spirit, guiding the next generation and confronting his past with redemption."
+LANG_GERMAN         "Jahre nach dem Fall des Imperiums wurde Luke Skywalker zur Legende und versuchte, den Jedi-Orden wieder aufzubauen. Von Schuldgefuehlen nach Ben Solos Fall verfolgt, zog er sich nach Ahch-To ins Exil zurueck. Schliesslich kehrte er im Geiste zurueck, fuehrte die naechste Generation und stellte sich seiner Vergangenheit mit Erloesung."
+
+REFERENCE           NEW_REPUBLIC_SOLDIER  
+LANG_ENGLISH        "Soldiers of the New Republic defended the galaxy in the wake of the Empire's collapse. Often stationed in remote sectors, they patrolled trade routes, responded to unrest, and symbolized the fragile hope of galactic peace in a time of rising threats."
+LANG_GERMAN         "Soldaten der Neuen Republik verteidigten die Galaxis nach dem Zusammenbruch des Imperiums. Oft in abgelegenen Sektoren stationiert, patrouillierten sie Handelsrouten, reagierten auf Unruhen und verkoerperten die fragile Hoffnung auf galaktischen Frieden in einer Zeit wachsender Bedrohungen."
+
+REFERENCE           NEW_REPUBLIC_SECURITY_DROID  
+LANG_ENGLISH        "Tasked with enforcing law and order, New Republic security droids provided support aboard prison ships and outposts. Equipped with powerful weapons and durable chassis, they ensured compliance among prisoners and maintained security in volatile regions of the galaxy."
+LANG_GERMAN         "Mit der Durchsetzung von Recht und Ordnung betraut, unterstuetzten Sicherheitsdroiden der Neuen Republik Gefaengnisschiffe und Aussenposten. Mit starken Waffen und robusten Chassis ausgestattet, sorgten sie fuer Disziplin unter Gefangenen und hielten die Sicherheit in instabilen Regionen der Galaxis aufrecht."
+
+REFERENCE           PAZ_VIZSLA  
+LANG_ENGLISH        "A heavily armed Mandalorian warrior and member of the Tribe, Paz Vizsla was a descendant of the legendary Tarre Vizsla. Fiercely loyal to Mandalorian tradition, he clashed with Din Djarin over the Darksaber but ultimately sacrificed himself defending fellow Mandalorians from Imperial forces."
+LANG_GERMAN         "Ein schwer bewaffneter mandalorianischer Krieger und Mitglied des Stammes, war Paz Vizsla ein Nachfahre des legendaeren Tarre Vizsla. Der mandalorianischen Tradition zutiefst loyal, geriet er mit Din Djarin wegen des Dunkelschwerts aneinander, opferte sich jedoch schliesslich, um andere Mandalorianer vor imperialen Kraeften zu schuetzen."
+
+REFERENCE           POE_DAMERON  
+LANG_ENGLISH        "A daring pilot and commander in the Resistance, Poe Dameron was known for his exceptional flying skills and bold leadership. Loyal to General Leia Organa, he played a key role in battles against the First Order and helped rally the galaxy during the final conflict on Exegol."
+LANG_GERMAN         "Ein wagemutiger Pilot und Kommandant des Widerstands, war Poe Dameron fuer seine aussergewoehnlichen Flugkuenste und mutige Fuehrung bekannt. General Leia Organa treu ergeben spielte er eine Schluesselrolle in den Kaempfen gegen die Erste Ordnung und half, die Galaxis im finalen Konflikt auf Exegol zu vereinen."
+
+REFERENCE           REY  
+LANG_ENGLISH        "An orphaned scavenger from Jakku, Rey discovered her powerful connection to the Force and trained as a Jedi under Leia Organa. Confronting her lineage as the granddaughter of Emperor Palpatine, she rejected the Sith and embraced the legacy of the Jedi, taking the name Skywalker."
+LANG_GERMAN         "Eine verwaiste Schrottsammlerin von Jakku, entdeckte Rey ihre starke Verbindung zur Macht und wurde unter Leia Organa zur Jedi ausgebildet. Als sie sich ihrer Abstammung als Enkelin von Imperator Palpatine stellte, wies sie die Sith zurueck und nahm das Erbe der Jedi an, indem sie den Namen Skywalker annahm."
+
+REFERENCE           ROSE_TICO  
+LANG_ENGLISH        "A maintenance worker turned Resistance fighter, Rose Tico was driven by the loss of her sister during the war. Courageous and compassionate, she aided Finn and helped expose corruption within the galaxy, fighting for those who could not defend themselves."
+LANG_GERMAN         "Eine Wartungsarbeiterin, die zur Kaempferin des Widerstands wurde, wurde Rose Tico vom Verlust ihrer Schwester im Krieg angetrieben. Mutig und mitfuehlend unterstuetzte sie Finn und half, Korruption in der Galaxis aufzudecken, waehrend sie fuer jene kaempfte, die sich nicht selbst verteidigen konnten."
+
+REFERENCE           THE_ARMORER  
+LANG_ENGLISH        "A mysterious and revered leader among the Children of the Watch, the Armorer upheld ancient Mandalorian customs. Skilled in forging beskar and offering spiritual guidance, she helped Din Djarin and others rediscover their heritage. Her words and actions shaped the path of Mandalore's future."
+LANG_GERMAN         "Eine geheimnisvolle und verehrte Anfuehrerin der Children of the Watch, bewahrte die Ruestungsschmiedin alte mandalorianische Braeuche. Geuebt im Schmieden von Beskar und in spiritueller Fuehrung half sie Din Djarin und anderen, ihr Erbe wiederzuentdecken. Ihre Worte und Taten praegten den Weg von Mandalores Zukunft."
+
+REFERENCE 			RESISTANCE_TROOPER
+LANG_ENGLISH 		"A volunteer soldier of the Resistance, Resistance Troopers fought to oppose the First Order's expansion. Poorly supplied but determined, they carried on the legacy of the Rebel Alliance in the fight for freedom."
+LANG_GERMAN         "Als Freiwillige des Widerstands kaempften die Widerstandstruppen gegen die Expansion der Ersten Ordnung. Schlecht ausgeruestet, aber entschlossen, fuehrten sie das Erbe der Rebellenallianz im Kampf fuer die Freiheit fort."
+
+
+//----------------------------------------------------------
+// 	h8: FIRST ORDER
+//----------------------------------------------------------
+
+REFERENCE           ARMITAGE_HUX
+LANG_ENGLISH        "General Armitage Hux was a ruthless officer of the First Order, known for his fanatical loyalty and ambition. He oversaw the development of Starkiller Base and played a key role in enforcing the regime's military dominance, though internal rivalries ultimately led to his downfall."
+LANG_GERMAN         "General Armitage Hux war ein ruecksichtsloser Offizier der Ersten Ordnung, bekannt fuer seine fanatische Loyalitaet und seinen Ehrgeiz. Er ueberwachte die Entwicklung der Starkiller-Basis und spielte eine Schluesselrolle bei der Durchsetzung der militaerischen Dominanz des Regimes, auch wenn interne Rivalitaeten letztlich zu seinem Sturz fuehrten."
+
+REFERENCE           CAPTAIN_PHASMA
+LANG_ENGLISH        "Clad in chromium armor and commanding the First Order's stormtroopers, Captain Phasma was a formidable and disciplined leader. Trained in combat and unwavering in duty, she enforced order with brutal efficiency before meeting her end in battle against the Resistance."
+LANG_GERMAN         "In Chromruestung gekleidet und als Kommandantin der Sturmtruppen der Ersten Ordnung war Captain Phasma eine beeindruckende und disziplinierte Anfuehrerin. Im Kampf ausgebildet und unerschuetterlich in ihrer Pflicht setzte sie Ordnung mit brutaler Effizienz durch, bevor sie im Kampf gegen den Widerstand ihr Ende fand."
+
+REFERENCE           EMPEROR_PALPATINE_SEQUEL
+LANG_ENGLISH        "Sheev Palpatine, also known as Darth Sidious, survived the fall of the Empire through dark Sith rituals. Operating from the shadows on Exegol, he manipulated events to reclaim power as the Final Order's leader, seeking to dominate the galaxy once more before being finally destroyed by Rey."
+LANG_GERMAN         "Sheev Palpatine, auch bekannt als Darth Sidious, ueberlebte den Fall des Imperiums durch dunkle Sith-Rituale. Aus den Schatten von Exegol heraus manipulierte er Ereignisse, um als Anfuehrer der Finalen Ordnung erneut die Macht zu erlangen und die Galaxis ein weiteres Mal zu unterwerfen, bevor er schliesslich von Rey vernichtet wurde."
+
+REFERENCE           KYLO_REN
+LANG_ENGLISH        "Born Ben Solo, son of Leia Organa and Han Solo, Kylo Ren fell to the dark side under Snoke's influence. As a leader of the First Order and master of the Knights of Ren, he waged war against the Resistance before ultimately seeking redemption and sacrificing himself to save Rey."
+LANG_GERMAN         "Geboren als Ben Solo, Sohn von Leia Organa und Han Solo, verfiel Kylo Ren unter Snokes Einfluss der dunklen Seite. Als Anfuehrer der Ersten Ordnung und Meister der Ritter von Ren fuehrte er Krieg gegen den Widerstand, bevor er schliesslich Erloesung suchte und sich opferte, um Rey zu retten."
+
+REFERENCE           PRAETORIAN_GUARD
+LANG_ENGLISH        "Elite protectors of Supreme Leader Snoke, the Praetorian Guards wielded specialized melee weapons and wore crimson armor. Trained to fight even Force-wielders, they were fiercely loyal and fought to the death defending Snoke, ultimately perishing in a clash with Kylo Ren and Rey."
+LANG_GERMAN         "Elitebeschuetzer von Oberster Anfuehrer Snoke, fuehrten die Praetorianergarde spezialisierte Nahkampfwaffen und trugen scharlachrote Ruestung. Ausgebildet, selbst gegen Machtnutzer zu kaempfen, waren sie aeusserst loyal und kaempften bis zum Tod, um Snoke zu verteidigen, bevor sie in einem Kampf mit Kylo Ren und Rey fielen."
+
+REFERENCE           REN
+LANG_ENGLISH        "The original master of the Knights of Ren, Ren was a dark side warrior who led the group before Kylo Ren. Wielding a red-bladed lightsaber and enforcing the group's brutal code, he fell in combat to Ben Solo, who claimed leadership and the mantle of 'Ren' for himself."
+LANG_GERMAN         "Der urspruengliche Anfuehrer der Ritter von Ren war Ren ein Krieger der dunklen Seite, der die Gruppe vor Kylo Ren fuehrte. Mit einem rotklingigen Lichtschwert und der Durchsetzung des brutalen Kodex der Gruppe fiel er im Kampf gegen Ben Solo, der daraufhin die Fuehrung und den Titel 'Ren' fuer sich beanspruchte."
+
+REFERENCE           STORMTROOPER_FIRST_ORDER
+LANG_ENGLISH        "First Order stormtroopers were trained from childhood to obey without question. Clad in updated white armor and deployed in overwhelming numbers, they served as the primary enforcers of the regime, striking fear into Resistance forces and civilians alike."
+LANG_GERMAN         "Sturmtruppler der Ersten Ordnung wurden von Kindheit an darauf trainiert, ohne Frage zu gehorchen. In modernisierte weisse Ruestung gekleidet und in ueberwaeltigender Zahl eingesetzt, dienten sie als wichtigste Vollstrecker des Regimes und verbreiteten Angst unter Widerstandskaempfern und Zivilisten gleichermassen."
+
+REFERENCE           RIOT_STORMTROOPER_FIRST_ORDER
+LANG_ENGLISH        "Specialized for crowd control and close-quarters combat, Riot Stormtroopers were equipped with electrobatons and heavy shields. They were deployed during uprisings and protests, famously clashing with Finn during the Battle of Takodana."
+LANG_GERMAN         "Fuer Aufstandsbekaempfung und Nahkampf spezialisiert, waren Riot-Sturmtruppler mit Elektrostaeben und schweren Schilden ausgeruestet. Sie wurden bei Aufstaenden und Protesten eingesetzt und gerieten beruehmt-beruechtigt mit Finn waehrend der Schlacht von Takodana aneinander."
+
+REFERENCE           SITH_TROOPER
+LANG_ENGLISH        "Sith Troopers were elite soldiers of the Final Order, clad in crimson armor and loyal to Emperor Palpatine. Secretly bred and trained on Exegol, they represented the culmination of Sith military might and were deployed during the Emperor's final bid for galactic domination."
+LANG_GERMAN         "Sith-Truppler waren Elite-Soldaten der Finalen Ordnung, gehuellt in scharlachrote Ruestung und loyal zu Imperator Palpatine. Heimlich auf Exegol gezuechtet und ausgebildet, verkoerperten sie den Hoehepunkt der Sith-Militaermacht und wurden waehrend des letzten Versuchs des Imperators, die Galaxis zu beherrschen, eingesetzt."
+
+REFERENCE           SUPREME_LEADER_SNOKE
+LANG_ENGLISH        "A dark side puppet created by Emperor Palpatine, Supreme Leader Snoke commanded the First Order and corrupted Ben Solo into Kylo Ren. Though immensely powerful in the Force, he was ultimately betrayed and killed by his apprentice during a pivotal moment of conflict."
+LANG_GERMAN         "Ein von Imperator Palpatine erschaffener Diener der dunklen Seite, fuehrte Oberster Anfuehrer Snoke die Erste Ordnung an und verfuehrte Ben Solo zu Kylo Ren. Obwohl er in der Macht aeusserst maechtig war, wurde er schliesslich von seinem eigenen Schueler in einem entscheidenden Moment des Konflikts verraten und getoetet."
+
+ENDMARKER
+
+
+
+
+
+
+
+
+
+
+

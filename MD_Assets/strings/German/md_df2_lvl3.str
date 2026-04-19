@@ -1,0 +1,36 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           PICGORCINFO1
+LANG_ENGLISH        "It is a mystery why one would call Gorc and Pic twins."
+LANG_GERMAN         "Es ist ein Raetsel, warum man Gorc und Pic Zwillinge nennen wuerde."
+
+REFERENCE           PICGORCINFO2
+LANG_ENGLISH        "Even though one is miniature version of the other, they look nothing alike."
+LANG_GERMAN         "Obwohl das eine eine Miniaturversion des anderen ist, aehneln sie sich nicht."
+
+REFERENCE           PICGORCINFO3
+LANG_ENGLISH        "They also don't battle alike. Pic is the energy, and Gorc , the counter."
+LANG_GERMAN         "Sie kaempfen auch nicht gleich. Pic ist die Energie, und Gorc, der Zaehler."
+
+REFERENCE           PICGORCINFO4
+LANG_ENGLISH        "They are the clashing balance of opposites: one, the voice, the other, the body."
+LANG_GERMAN         "Sie sind das kollidierende Gleichgewicht der Gegensaetze: das eine, die Stimme, das andere, der Koerper."
+
+REFERENCE           PICGORCINFO5
+LANG_ENGLISH        "This combination.. is deadly."
+LANG_GERMAN         "Diese Kombination... ist toedlich."
+
+ENDMARKER

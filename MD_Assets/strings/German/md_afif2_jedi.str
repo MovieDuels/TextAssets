@@ -1,0 +1,76 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "You underestimate my power!"
+LANG_GERMAN         "Ihr unterschaetzt meine Macht!"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "Anakin: I should have known the Jedi were plotting to take over."
+LANG_GERMAN         "Anakin: Ich haette wissen muessen, dass die Jedi planen, die Herrschaft zu uebernehmen."
+
+REFERENCE           ANI3
+LANG_ENGLISH        "Anakin: From my point of view, the Jedi are evil!"
+LANG_GERMAN         "Anakin: Nach meiner Meinung sind die Jedi das Boese!"
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Anakin: This is the end for you, my Master."
+LANG_GERMAN         "Anakin: Das ist das Ende fuer euch, mein Meister."
+
+REFERENCE           ANI6
+LANG_ENGLISH        "I HATE YOU!"
+LANG_GERMAN         "ICH HASSE EUCH!"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "It's over, Anakin!\nI have the high ground."
+LANG_GERMAN         "Es ist vorbei, Anakin!\nIch stehe deutlich ueber dir."
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Don't try it!"
+LANG_GERMAN         "Versuch es nicht!"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Obi-Wan: I have failed you, Anakin. I have failed you."
+LANG_GERMAN         "Obi-Wan: Ich habe an dir versagt, Anakin. Ich habe an dir versagt."
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Obi-Wan: Anakin, Chancellor Palpatine is evil!"
+LANG_GERMAN         "Obi-Wan: Anakin, KAnzler Palpatine ist das Boese!"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "Obi-Wan: Well, then you are lost!"
+LANG_GERMAN         "Obi-Wan: Nun, dann bist du verloren!"
+
+REFERENCE           OBI6
+LANG_ENGLISH        "You were the Chosen One!"
+LANG_GERMAN         "Du warst der Auserwaehlte!"
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "It was said that you would destroy the Sith, not join them!"
+LANG_GERMAN         "Es hiess du wuerdest die Sith vernichten und nicht, dass du dich ihnen anschliesst!"
+
+REFERENCE           OBI6C
+LANG_ENGLISH        "Bring balance to the Force,\nnot leave it in darkness!"
+LANG_GERMAN         "Du wuerdest die Macht ins Gleichgewicht bringen,\nund nicht ins Dunkel stuerzen!"
+
+REFERENCE           OBI7
+LANG_ENGLISH        "You were my brother, Anakin."
+LANG_GERMAN         "Du warst mein Bruder, Anakin."
+
+REFERENCE           OBI7B
+LANG_ENGLISH        "I loved you."
+LANG_GERMAN         "Ich habe dich geliebt."
+
+ENDMARKER

@@ -1,0 +1,260 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "I saw your ship."
+LANG_GERMAN         "Ich habe dein Schiff gesehen."
+
+REFERENCE           ANI2
+LANG_ENGLISH        "What are you doing out here?"
+LANG_GERMAN         "Warum bist du hergekommen?"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "What things?"
+LANG_GERMAN         "Was denn fuer Dinge?"
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Obi-Wan is trying to turn you against me."
+LANG_GERMAN         "Obi-Wan versucht dich gegen mich einzunehmen."
+
+REFERENCE           ANI5
+LANG_ENGLISH        "Us?"
+LANG_GERMAN         "Uns?"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "Love won't save you, Padme.\nOnly my new powers can do that."
+LANG_GERMAN         "Liebe wird dein Leben nicht retten, Padme.\nDas koennen nur meine neuen Faehigkeiten."
+
+REFERENCE           ANI7
+LANG_ENGLISH        "I won't lose you the way I lost my mother."
+LANG_GERMAN         "Ich werde dich nicht verlieren, so wie ich meine Mutter verlor."
+
+REFERENCE           ANI7B
+LANG_ENGLISH        "I am becoming more powerful than any Jedi has ever dreamed of."
+LANG_GERMAN         "Ich werde maechtiger werden, als je ein Jedi zu traeumen gewagt hat."
+
+REFERENCE           ANI7C
+LANG_ENGLISH        "And I'm doing it for you.\nTo protect you."
+LANG_GERMAN         Und ich hab es fuer dich getan.\nUm dich zu beschuetzen."
+
+REFERENCE           ANI8
+LANG_ENGLISH        "Don't you see?"
+LANG_GERMAN         "Verstehst du denn nicht?"
+
+REFERENCE           ANI8B
+LANG_ENGLISH        "We don't have to run away anymore."
+LANG_GERMAN         "Wir brauchen nicht mehr wegzulaufen."
+
+REFERENCE           ANI8C
+LANG_ENGLISH        "I have brought peace to the Republic."
+LANG_GERMAN         "Ich habe der Republik den Frieden gebracht."
+
+REFERENCE           ANI8D
+LANG_ENGLISH        "I am more powerful than the Chancellor.\nI- I can over-throw him."
+LANG_GERMAN         "Ich bin maechtiger als der Kanzler.\nIch- Ich kann ihn stuerzen, wenn ich will."
+
+REFERENCE           ANI8E
+LANG_ENGLISH        "And together, you and I can rule the galaxy,\nmake things the way we want them to be!"
+LANG_GERMAN         "Und gemeinsam koennen wir, du und ich, ueber die Galaxis herrschen!\nWir schaffen ein Reich nach unseren Vorstellungen."
+
+REFERENCE           ANI9
+LANG_ENGLISH        "I don't want to hear any more about Obi-Wan."
+LANG_GERMAN         "Ich will nichts mehr von Obi-Wan hoeren, verstehst du?"
+
+REFERENCE           ANI9B
+LANG_ENGLISH        "The Jedi turned against me.\nDon't you turn against me."
+LANG_GERMAN         "Dieser Jedi hat sich gegen mich gewandt.\nWende du dich nicht auch gegen mich."
+
+REFERENCE           ANI10
+LANG_ENGLISH        "Because of Obi-Wan?"
+LANG_GERMAN         "Wegen Obi-Wan?"
+
+REFERENCE           ANI11
+LANG_ENGLISH        "LIAR!"
+LANG_GERMAN         "LUEGNERIN!"
+
+REFERENCE           ANI12
+LANG_ENGLISH        "You're with him! You brought him here to kill me!"
+LANG_GERMAN         "Du bist auf seiner Seite! Du hast ihn hergebracht, damit er mich toetet!"
+
+REFERENCE           ANI13
+LANG_ENGLISH        "You turned her against me!"
+LANG_GERMAN         "Ihr habt sie gegen mich aufgehetzt!"
+
+REFERENCE           ANI14
+LANG_ENGLISH        "You will not take her from me!"
+LANG_GERMAN         "Ihr werdet sie mir nicht wegnehmen!"
+
+REFERENCE           ANI15
+LANG_ENGLISH        "Don't lecture me, Obi-Wan."
+LANG_GERMAN         "Haltet mir keine Vortraege, Obi-Wan."
+
+REFERENCE           ANI15B
+LANG_ENGLISH        "I see through the lies of the Jedi."
+LANG_GERMAN         "Ich durchschaue jetzt die Luegen der Jedi."
+
+REFERENCE           ANI15C
+LANG_ENGLISH        "I do not fear the Dark Side, as you do."
+LANG_GERMAN         "Ich fuerchte die Dunkle Seite nicht wie Ihr."
+
+REFERENCE           ANI15D
+LANG_ENGLISH        "I have brought peace, freedom, justice,\nand security to my new empire."
+LANG_GERMAN         "Ich habe Frieden, Gerechtigkeit\nund Sicherheit fuer mein neues Imperium geschaffen."
+
+REFERENCE           ANI16
+LANG_ENGLISH        "Don't make me kill you!"
+LANG_GERMAN         "Zwingt mich nicht, Euch zu toeten."
+
+REFERENCE           ANI17
+LANG_ENGLISH        "If you're not with me,"
+LANG_GERMAN         "Wenn Ihr nicht auf meiner Seite steht,"
+
+REFERENCE           ANI17B
+LANG_ENGLISH        "then you're my enemy."
+LANG_GERMAN         "dann seid Ihr mein Feind."
+
+REFERENCE           ANI18
+LANG_ENGLISH        "You will try."
+LANG_GERMAN         "Dann versucht es."
+
+REFERENCE           OBI1
+LANG_ENGLISH        "Let her go, Anakin."
+LANG_GERMAN         "Lass sie los, Anakin."
+
+REFERENCE           OBI1B
+LANG_ENGLISH        "Let her go."
+LANG_GERMAN         "Lass sie los."
+
+REFERENCE           OBI2
+LANG_ENGLISH        "You have done that, yourself!"
+LANG_GERMAN         "Das hast du ganz allein geschafft."
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Your anger and your lust for power have already done that."
+LANG_GERMAN         "Dein Zorn und deine Gier nach Macht haben das bereits bewirkt."
+
+REFERENCE           OBI3B
+LANG_ENGLISH        "You have allowed this Dark Lord to twist your mind, until now-"
+LANG_GERMAN         "Du hast diesem Dunklen Lord gestattet, dich zu manipulieren, bis du schliesslich-"
+
+REFERENCE           OBI3C
+LANG_ENGLISH        "until now you have become the very thing you swore to destroy."
+LANG_GERMAN         "genau zu dem geworden bist, das du geschworen hattest zu vernichten."
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Your new Empire?!"
+LANG_GERMAN         "Dein neues Imperium?"
+
+REFERENCE           OBI5
+LANG_ENGLISH        "Anakin, my allegiance is to the Republic, to democracy!"
+LANG_GERMAN         "Anakin, meine Loyalitaet gilt der Republik. Der Demokratie."
+
+REFERENCE           OBI6
+LANG_ENGLISH        "Only a Sith deals in absolutes."
+LANG_GERMAN         "Nur ein Sith kennt nichts als Extreme."
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "I will do what I must."
+LANG_GERMAN         "Ich werde tun, was ich tun muss."
+
+REFERENCE           PAD1
+LANG_ENGLISH        "I was so worried about you.\n..Obi-Wan.. told me terrible things!"
+LANG_GERMAN         "Ich hab mir solche Sorgen um dich gemacht.\n..Obi-Wan.. hat mir so furchtbare Dinge erzaehlt!"
+
+REFERENCE           PAD2
+LANG_ENGLISH        "He said you've turned to the dark side."
+LANG_GERMAN         "Er hat gesagt, dass du dich der Dunklen Seite zugewandt hast."
+
+REFERENCE           PAD2B
+LANG_ENGLISH        "That you..."
+LANG_GERMAN         "Dass du..."
+
+REFERENCE           PAD2C
+LANG_ENGLISH        "killed younglings!"
+LANG_GERMAN         "Juenglinge getoetet hast!"
+
+REFERENCE           PAD3
+LANG_ENGLISH        "He cares about us."
+LANG_GERMAN         "Er macht sich Sorgen um uns."
+
+REFERENCE           PAD4
+LANG_ENGLISH        "He knows."
+LANG_GERMAN         "Er weiss es."
+
+REFERENCE           PAD4B
+LANG_ENGLISH        "He wants to help you."
+LANG_GERMAN         "Er will dir wirklich helfen."
+
+REFERENCE           PAD4D
+LANG_ENGLISH        "Anakin, all I want is your love."
+LANG_GERMAN         "Anakin, alles was ich will ist deine Liebe."
+
+REFERENCE           PAD5
+LANG_ENGLISH        "At what cost?\nYou're a good person. Don't do this."
+LANG_GERMAN         "Zu welchem Preis?\nDu bist ein guter Mensch. Du darfst das nicht tun."
+
+REFERENCE           PAD6
+LANG_ENGLISH        "Come away with me."
+LANG_GERMAN         "Komm mit mir weg von hier."
+
+REFERENCE           PAD6B
+LANG_ENGLISH        "Help me raise our child.\nLeave everything else behind while we still can."
+LANG_GERMAN         "Hilf mir, unser Kind aufzuziehen.\nWir sollten das alles hinter uns lassen, solange wir noch koennen."
+
+REFERENCE           PAD7
+LANG_ENGLISH        "I don't believe what I'm hearing."
+LANG_GERMAN         "Ich kann nicht fassen, was ich da hoere."
+
+REFERENCE           PAD7B
+LANG_ENGLISH        "Obi-Wan was right! You've changed."
+LANG_GERMAN         "Obi-Wan hatte recht! Du hast dich veraendert."
+
+REFERENCE           PAD8
+LANG_ENGLISH        "I don't know you, anymore."
+LANG_GERMAN         "Ich erkenne dich nicht wieder."
+
+REFERENCE           PAD8B
+LANG_ENGLISH        "Anakin, you're breaking my heart.."
+LANG_GERMAN         "Anakin, du brichst mir das Herz..."
+
+REFERENCE           PAD8C
+LANG_ENGLISH        "You're going down a path I can't follow."
+LANG_GERMAN         "Du begibst dich auf einen Pfad, auf dem ich dir nicht folgen kann."
+
+REFERENCE           PAD9
+LANG_ENGLISH        "Because of what you've done. What you plan to do."
+LANG_GERMAN         "Wegen dem, was du getan hast. Und dem, was du noch vorhast."
+
+REFERENCE           PAD9B
+LANG_ENGLISH        "Stop! Stop now, come back!\nI love you!"
+LANG_GERMAN         "Hoer auf. Hoer auf und kehr zu mir zurueck.\nIch liebe dich."
+
+REFERENCE           PAD10
+LANG_ENGLISH        "No!"
+LANG_GERMAN         "Nein!"
+
+REFERENCE           PAD11
+LANG_ENGLISH        "No!"
+LANG_GERMAN         "Nein!"
+
+REFERENCE           PAD11B
+LANG_ENGLISH        "..Anakin.."
+LANG_GERMAN         "#same"
+
+REFERENCE           3PO1
+LANG_ENGLISH        "Hush! Not so loud."
+LANG_GERMAN         "Scht! Nicht so laut."
+
+ENDMARKER

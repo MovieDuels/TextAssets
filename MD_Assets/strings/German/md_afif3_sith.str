@@ -1,0 +1,36 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI14
+LANG_ENGLISH        "Have faith, my love."
+LANG_GERMAN         "Hab Vertrauen, meine Liebste."
+
+REFERENCE           ANI14B
+LANG_ENGLISH        "Everything will soon be set right."
+LANG_GERMAN         "Schon bald wird alles wieder gut werden."
+
+REFERENCE           ANI15
+LANG_ENGLISH        "No, the galaxy belongs to me!"
+LANG_GERMAN         "Nein, die Galaxis gehoert mir!"
+
+REFERENCE           PAL3
+LANG_ENGLISH        "Excellent work, my Apprentice.\nThere are none left who oppose us, the galaxy is ours now!"
+LANG_GERMAN         "Gute Arbeit, mein Schueler.\nEs ist niemand mehr uebrig, um uns entgegenzutreten. Die Galaxis gehoert uns!"
+
+REFERENCE           PAL3B
+LANG_ENGLISH        "Your new weapon, Lord Vader."
+LANG_GERMAN         "Eure neue Waffe, Lord Vader."
+
+ENDMARKER

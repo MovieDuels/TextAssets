@@ -1,0 +1,100 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+REFERENCE           TIP1
+LANG_ENGLISH        "You can change the visual style of the lightsaber blade across all movies in the commands menu."
+LANG_GERMAN         "Ihr koennt den visuellen Stil der Lichtschwertklinge fuer alle Filme im Command-menue aendern."
+
+REFERENCE           TIP2
+LANG_ENGLISH        "Use the NPC commands menu to customize NPC behaviour such as team, weapon, force powers and more."
+LANG_GERMAN         "Verwende das NSC-Befehlsmenue, um das NSC-Verhalten wie Team, Waffe, Machtkraefte und mehr anzupassen"
+
+REFERENCE           TIP3
+LANG_ENGLISH        "You can customize the MD combat system in the settings menu, such as swing speeds and slow-motion."
+LANG_GERMAN         "Ihr koennt das MD-Kampfsystem im Einstellungsmenue anpassen, z. B. Schwunggeschwindigkeiten und Zeitlupe."
+
+REFERENCE           TIP4
+LANG_ENGLISH        "In MD/MDA mode, drain your opponent’s force/block points by perfect blocking to make them vulnerable."
+LANG_GERMAN         "Entziehe im MD/MDA-Modus die Macht-/Blockpunkte deines Gegners durch perfektes Blocken, um ihn angreifbar zu machen."
+
+REFERENCE           TIP5
+LANG_ENGLISH        "Holding the USE key in MD/MDA mode can be used to perform a dash and force opponents into saber locks."
+LANG_GERMAN         "Das Halten der USE-Taste im MD/MDA-Modus kann verwendet werden, um einen Sprint auszufuehren und Gegner in Lichtschloesser zu zwingen."
+
+REFERENCE           TIP6
+LANG_ENGLISH        "Found a bug or have any suggestions? Join our Discord server to share them and get news about the mod."
+LANG_GERMAN         "Fehler gefunden oder Anregungen? Trete unserem Discord-Server bei, um sie zu teilen und Neuigkeiten ueber die Mod zu erhalten."
+
+REFERENCE           TIP7
+LANG_ENGLISH        "In MD/MDA mode, crouching or meditating will multiply the force/block points regeneration rate by 2."
+LANG_GERMAN         "Im MD/MDA-Modus wird die Regenerationsrate der Macht-/Blockierungspunkte durch Hocken oder Meditieren mit 2 multipliziert. "
+
+REFERENCE           TIP8
+LANG_ENGLISH        "Explore the controls menu to bind keys to perform actions such as surrender and manual blocking."
+LANG_GERMAN         "Erkunde das Steuermenue, um Tasten zu belegen, um Aktionen wie Kapitulation und manuelles Blockieren auszufuehren. "
+
+REFERENCE           TIP9
+LANG_ENGLISH        "There are 3 combat systems; JKA mode, MD mode and MDA mode. These can be enabled in the settings menu."
+LANG_GERMAN         "Es gibt 3 Kampfsysteme, JKA-Modus, MD-Modus und MDA-Modus. Diese koennen im Einstellungsmenue aktiviert werden."
+
+REFERENCE           TIP10
+LANG_ENGLISH        "In MDA mode, spamming attacks and blocks will reduce stamina and block points, making you vulnerable."
+LANG_GERMAN         "Im MDA-Modus reduzieren Spam-Angriffe und -Blocks Ausdauer und Blockpunkte, wodurch ihr verwundbar werdet."
+
+REFERENCE           TIP11
+LANG_ENGLISH        "In MDA mode, low stamina will make attacks weaker, blocking less effective and shooting less accurate."
+LANG_GERMAN         "Im MDA-Modus werden die Angriffe durch eine geringe Ausdauer schwaecher, das Blocken weniger effektiv und das Schiessen weniger genau."
+
+REFERENCE           TIP12
+LANG_ENGLISH        "You can customize the camera settings in the camera menu, including first-person and disable hud."
+LANG_GERMAN         "Ihr koennt die Kameraeinstellungen im Kameramenue anpassen, einschliesslich Egoansicht und deaktiviertem Interface."
+
+REFERENCE           TIP13
+LANG_ENGLISH        "You can view previews, gameplay and tutorials on the mod from our Movie Duels YouTube channel."
+LANG_GERMAN         "Ihr koennt Vorschauen, Gameplay und Tutorials zum Mod auf unserem Movie Duels YouTube-Kanal ansehen."
+
+REFERENCE           TIP14
+LANG_ENGLISH        "In MD/MDA mode, you can block lightning attacks with melee equipped by holding the manual block key."
+LANG_GERMAN         "Im MD/MDA-Modus koennt ihr Blitzangriffe mit Nahkampfausruestung blockieren, indem ihr die manuelle Blocktaste gedrueckt haltet."
+
+REFERENCE           TIP15
+LANG_ENGLISH        "Unsure on how to perform a specific attack/animation? Press TAB and explore the MOVES section."
+LANG_GERMAN         "Du bist dir nicht sicher, wie du einen bestimmten Angriff/eine bestimmte Animation ausfuehren sollst? Druecke TAB und erkunde den Abschnitt MOVES."
+
+REFERENCE           TIP16
+LANG_ENGLISH        "Command friendly NPCs to attack (if it is safe) by looking at an enemy NPC and pressing the USE key."
+LANG_GERMAN         "Befehlt befreundeten NPCs, anzugreifen (wenn es sicher ist), indem ihr einen feindlichen NPC anseht und die BENUTZEN-Taste drueckt."
+
+REFERENCE           TIP17
+LANG_ENGLISH        "Holding the manual block key when running will make your character sprint for a short while."
+LANG_GERMAN         "Wenn ihr beim Laufen die manuelle Blockiertaste gedrueckt haltet, wird der Charakter fuer kurze Zeit sprinten."
+
+REFERENCE           TIP18
+LANG_ENGLISH        "You can activate ledge grab in the settings menu to allow your character to grab onto nearby ledges."
+LANG_GERMAN         "Ihr koennt im Einstellungsmenue den Kantengriff aktivieren, damit der Charakter auf nahe gelegene Kanten greifen kann."
+
+REFERENCE           TIP19
+LANG_ENGLISH        "Activating force sense when using a blaster will give 100% accuracy and no weapon overheating."
+LANG_GERMAN         "Die Aktivierung des Macht-Gespuers bei der Verwendung eines Blasters bietet 100% Genauigkeit und keine ueberhitzung der Waffe."
+
+REFERENCE           TIP20
+LANG_ENGLISH        "Setup quick keys in the controls menu to quickly access menus and execute various actions."
+LANG_GERMAN         "Richtet Schnelltasten im Steuerungsmenue ein, um schnell auf Menues zuzugreifen und verschiedene Aktionen auszufuehren."
+
+ENDMARKER
+
+
+
+

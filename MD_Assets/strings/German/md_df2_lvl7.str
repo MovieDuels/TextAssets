@@ -1,0 +1,32 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           JERECINFO1
+LANG_ENGLISH        "His heavy brow overshadows the empty recesses that normally embrace eyes."
+LANG_GERMAN         "Seine dicke Braue ueberschattet die leeren Nischen, die normalerweise die Augen umfassen."
+
+REFERENCE           JERECINFO2
+LANG_ENGLISH        "Jerec has the uncanny power to absorb and overshadow one's connection to the Force..."
+LANG_GERMAN         "Jerec hat die unheimliche Macht, die eigene Verbindung zur Macht zu absorbieren und zu ueberschatten..."
+
+REFERENCE           JERECINFO3
+LANG_ENGLISH        "like a dark cloud."
+LANG_GERMAN         "wie eine dunkle Wolke."
+
+REFERENCE           JERECINFO4
+LANG_ENGLISH        "A deep, empowering grasp of your will is what you need."
+LANG_GERMAN         "Ein tiefes, ermaechtigendes Verstaendnis Ihres Willens ist das, was Sie brauchen."
+
+ENDMARKER

@@ -1,0 +1,145 @@
+REFERENCE           SETUP_VIDEO_MODE
+LANG_ENGLISH        "Video Mode:"
+LANG_GERMAN         "Video Modus:"
+
+REFERENCE           SETUP_VIDEO_MODE_DESC
+LANG_ENGLISH        "Change the display resolution."
+LANG_GERMAN         "aendere die Bildschirmaufloesung."
+
+REFERENCE           SETUP_RES1
+LANG_ENGLISH        "640 X 480"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES2
+LANG_ENGLISH        "800 X 600"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES3
+LANG_ENGLISH        "1024 X 768"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES4
+LANG_ENGLISH        "1152 X 864"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES5
+LANG_ENGLISH        "1280 X 1024"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES6
+LANG_ENGLISH        "1600 X 1200"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES7
+LANG_ENGLISH        "2048 X 1536"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES8
+LANG_ENGLISH        "2400 X 600 (surround)"
+LANG_GERMAN         "#same"
+
+REFERENCE           SETUP_RES9
+LANG_ENGLISH        "Desktop Resolution"
+LANG_GERMAN         "Desktop-Aufloesung"
+
+REFERENCE           SETUP_RES10
+LANG_ENGLISH        "Custom Resolution"
+LANG_GERMAN         "Benutzerdefinierte Aufloesung"
+
+REFERENCE           SETUP_CUSTOM_RES
+LANG_ENGLISH        "Width X Height:"
+LANG_GERMAN         "Breite X Hoehe:"
+
+REFERENCE           SETUP_CUSTOM_WIDTH_DESC
+LANG_ENGLISH        "Set custom width"
+LANG_GERMAN         "Benutzerdefinierte Breite festlegen"
+
+REFERENCE           SETUP_CUSTOM_HEIGHT_DESC
+LANG_ENGLISH        "Set custom height"
+LANG_GERMAN         "Benutzerdefinierte Hoehe festlegen"
+
+REFERENCE           SETUP_SABER_REALISTIC
+LANG_ENGLISH        "Saber Damage:"
+LANG_GERMAN         "Schwertschaden:"
+
+REFERENCE           SETUP_SABER_REALISTIC_DESC
+LANG_ENGLISH        "Set the damage level dealt by lightsabers."
+LANG_GERMAN         "Stelle die Schadensstufe ein, die von Lichtschwertern verursacht wird."
+
+REFERENCE           SETUP_SABER_LOCK
+LANG_ENGLISH        "Saberlock:"
+LANG_GERMAN         "Schwertsperre:"
+
+REFERENCE           SETUP_SABER_LOCK_DESC
+LANG_ENGLISH        "Select how often saber-lock occurs."
+LANG_GERMAN         "Waehle aus, wie oft Schwertsperre auftritt. "
+
+REFERENCE           SETUP_OFTEN
+LANG_ENGLISH        "Often"
+LANG_GERMAN         "Oft"
+
+REFERENCE           SETUP_SOMETIMES
+LANG_ENGLISH        "Sometimes"
+LANG_GERMAN         "Manchmal"
+
+REFERENCE           SETUP_RARELY
+LANG_ENGLISH        "Rarely"
+LANG_GERMAN         "Selten"
+
+REFERENCE           SETUP_CORPSE_REMOVAL
+LANG_ENGLISH        "Corpse Removal Time:"
+LANG_GERMAN         "Leichenentfernungszeit:"
+
+REFERENCE           SETUP_CORPSE_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which corpses will disappear."
+LANG_GERMAN         "Stelle die Zeit ein, nach der Leichen verschwinden."
+
+REFERENCE           SETUP_10SEC
+LANG_ENGLISH        "10 seconds"
+LANG_GERMAN         "10 sekunden"
+
+REFERENCE           SETUP_30SEC
+LANG_ENGLISH        "30 seconds"
+LANG_GERMAN         "30 sekunden"
+
+REFERENCE           SETUP_1MIN
+LANG_ENGLISH        "1 minute"
+LANG_GERMAN         "1 minute"
+
+REFERENCE           SETUP_2MIN
+LANG_ENGLISH        "2 minutes"
+LANG_GERMAN         "2 minuten"
+
+REFERENCE           SETUP_5MIN
+LANG_ENGLISH        "5 minutes"
+LANG_GERMAN         "5 minuten"
+
+REFERENCE           SETUP_NEVER
+LANG_ENGLISH        "Never"
+LANG_GERMAN         "Nie"
+
+REFERENCE           SETUP_IGNITE_TWIRL
+LANG_ENGLISH        "Ignition twirl:"
+LANG_GERMAN         "Zuendwirbel:"
+
+REFERENCE           SETUP_IGNITE_TWIRL_DESC
+LANG_ENGLISH        "Twirl the lightsaber when turning on and off."
+LANG_GERMAN         "Drehe das Lichtschwert beim Ein- und Ausschalten."
+
+REFERENCE           SETUP_SABER_IMPACT
+LANG_ENGLISH        "Saber Combat Mode:"
+LANG_GERMAN         "Schwert-Kampfmodus:"
+
+REFERENCE           SETUP_SABER_IMPACT_DESC
+LANG_ENGLISH        "Activate Manual Saber Blocking Mode, See the Controls menu to use Manual Block."
+LANG_GERMAN         "Aktiviere den manuellen Schwert-Block-Modus. Schau ins Controls-Menue, um den manuellen Block zu verwenden."
+
+REFERENCE           SETUP_JKA_MODE
+LANG_ENGLISH        "JKA Mode"
+LANG_GERMAN         "JKA-Modus"
+
+REFERENCE           SETUP_MD_MODE
+LANG_ENGLISH        "MD Mode"
+LANG_GERMAN         "MD-Modus"
+
+ENDMARKER
