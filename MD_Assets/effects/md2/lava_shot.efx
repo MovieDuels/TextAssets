@@ -1,0 +1,335 @@
+repeatDelay				300
+
+Particle
+{
+	spawnFlags			evenDistribution
+
+	count				20 60
+
+	life				5000 4000
+
+	delay				0 950
+
+	origin				0 40 0 0 20 0
+
+	velocity			1200 -180 -180 950 180 180
+
+	gravity				-450 -600
+
+	rgb
+	{
+		start			0.5333 0 0 0.9882 0.4235 0.01176
+	}
+
+	size
+	{
+		start			5 0.5
+		end				5 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow
+	]
+}
+
+Particle
+{
+	name				Copy of Unnamed Particle 3
+
+	spawnFlags			evenDistribution
+
+	count				20 60
+
+	life				5000 4000
+
+	delay				0 950
+
+	origin				0 -40 0 0 -20 0
+
+	velocity			1200 -180 -180 950 180 180
+
+	gravity				-450 -600
+
+	rgb
+	{
+		start			0.5333 0 0 0.9882 0.4235 0.01176
+	}
+
+	size
+	{
+		start			5 0.5
+		end				5 2
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteglow
+	]
+}
+
+Light
+{
+	life				5000
+
+	rgb
+	{
+		start			1 0 0
+	}
+
+	size
+	{
+		start			500
+	}
+}
+
+Tail
+{
+	name				Copy of Copy of Copy of Unnamed
+
+	spawnFlags			cheapOrgCalc rgbComponentInterpolation
+
+	count				4 8
+
+	life				1800 2000
+
+	velocity			8 -2 -2 10 2 2
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			1 0.5765 0 0.5333 0 0
+	}
+
+	alpha
+	{
+		start			0.1 0.3
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			325 100
+		end				50 130
+		parm			50
+		flags			linear
+	}
+
+	length
+	{
+		start			-4 -2
+		end				-2220 -2720
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/ftail
+		gfx/effects/rocket_muz
+		gfx/effects/rocket_muz2
+		gfx/effects/water_splash
+	]
+}
+
+Particle
+{
+	spawnFlags			evenDistribution
+
+	count				30 50
+
+	life				3000 4000
+
+	delay				0 1500
+
+	velocity			1500 -40 -40 1340 40 40
+
+	gravity				-1300 -1700
+
+	rgb
+	{
+		start			1 0 0 0.4235 0 0
+	}
+
+	alpha
+	{
+		start			0.1 0.2
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			100 210
+		end				200 185
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/steam
+		gfx/misc/steam2
+		gfx/misc/steam3
+	]
+}
+
+Tail
+{
+	name				Copy of Copy of Copy of Copy of
+
+	spawnFlags			cheapOrgCalc rgbComponentInterpolation
+
+	count				4 8
+
+	life				1800 2000
+
+	velocity			8 -2 -2 10 2 2
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			1 0.5765 0 0.5333 0 0
+	}
+
+	alpha
+	{
+		start			0.1 0.3
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			325 100
+		end				50 130
+		parm			50
+		flags			linear
+	}
+
+	length
+	{
+		start			-4 -2
+		end				-2220 -2720
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/ftail
+		gfx/effects/rocket_muz
+		gfx/effects/rocket_muz2
+		gfx/effects/water_splash
+	]
+}
+
+Tail
+{
+	name				Copy of Copy of Copy of Copy of
+
+	spawnFlags			cheapOrgCalc rgbComponentInterpolation
+
+	count				4 8
+
+	life				1800 2000
+
+	velocity			8 -2 -2 10 2 2
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			1 0.5765 0 0.5333 0 0
+	}
+
+	alpha
+	{
+		start			0.1 0.3
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			325 100
+		end				50 130
+		parm			50
+		flags			linear
+	}
+
+	length
+	{
+		start			-4 -2
+		end				-2220 -2720
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/ftail
+		gfx/effects/rocket_muz
+		gfx/effects/rocket_muz2
+		gfx/effects/water_splash
+	]
+}
+
+Tail
+{
+	name				Copy of Copy of Copy of Copy of
+
+	spawnFlags			cheapOrgCalc rgbComponentInterpolation
+
+	count				4 8
+
+	life				1800 2000
+
+	velocity			8 -2 -2 10 2 2
+
+	gravity				-2 -1
+
+	rgb
+	{
+		start			1 0.5765 0 0.5333 0 0
+	}
+
+	alpha
+	{
+		start			0.1 0.3
+		end				0
+		parm			40 50
+		flags			linear
+	}
+
+	size
+	{
+		start			325 100
+		end				50 130
+		parm			50
+		flags			linear
+	}
+
+	length
+	{
+		start			-4 -2
+		end				-2220 -2720
+		parm			30 50
+		flags			linear clamp
+	}
+
+	shaders
+	[
+		gfx/effects/ftail
+		gfx/effects/rocket_muz
+		gfx/effects/rocket_muz2
+		gfx/effects/water_splash
+	]
+}

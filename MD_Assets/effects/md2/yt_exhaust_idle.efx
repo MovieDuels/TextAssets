@@ -1,0 +1,16 @@
+repeatDelay				1000
+
+Particle
+{
+	life				1000
+
+	size
+	{
+		start			30
+	}
+
+	shaders
+	[
+		gfx/effects/engine
+	]
+}

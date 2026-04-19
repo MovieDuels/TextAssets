@@ -1,0 +1,184 @@
+Electricity
+{
+	name				zzzz
+
+	flags				useModel usePhysics
+
+	spawnFlags			orgOnCylinder axisFromSphere
+
+	count				20
+
+	life				10
+
+	delay				10
+
+	bounce				2 5
+
+	origin				0 -5 -5 0 5 5
+
+	origin2				-10 -10 -10 10 10 10
+
+	radius				2
+
+	height				2
+
+	size
+	{
+		start			0.5
+		end				0.5
+		parm			70
+	}
+
+	shaders
+	[
+		gfx/effects/yellowLine
+	]
+}
+
+Electricity
+{
+	name				zzzz2
+
+	flags				useModel usePhysics
+
+	spawnFlags			orgOnCylinder axisFromSphere
+
+	count				20
+
+	life				10
+
+	delay				10
+
+	bounce				2 5
+
+	origin				0 -5 -5 0 5 5
+
+	origin2				-10 -10 -10 10 10 10
+
+	radius				2
+
+	height				2
+
+	size
+	{
+		start			0.5
+		end				0.5
+		parm			70
+	}
+
+	shaders
+	[
+		gfx/effects/yellowLine
+	]
+}
+
+Electricity
+{
+	name				zzzz3
+
+	flags				useModel usePhysics
+
+	spawnFlags			orgOnCylinder axisFromSphere
+
+	count				20
+
+	life				10
+
+	delay				10
+
+	bounce				2 5
+
+	origin				0 -5 -5 0 5 5
+
+	origin2				-10 -10 -10 10 10 10
+
+	radius				2
+
+	height				2
+
+	size
+	{
+		start			0.5
+		end				0.5
+		parm			70
+	}
+
+	shaders
+	[
+		gfx/effects/yellowLine
+	]
+}
+
+Electricity
+{
+	name				zzzz4
+
+	flags				useModel usePhysics
+
+	spawnFlags			orgOnCylinder axisFromSphere
+
+	count				20
+
+	life				10
+
+	delay				10
+
+	bounce				2 5
+
+	origin				0 -5 -5 0 5 5
+
+	origin2				-10 -10 -10 10 10 10
+
+	radius				2
+
+	height				2
+
+	size
+	{
+		start			0.5
+		end				0.5
+		parm			70
+	}
+
+	shaders
+	[
+		gfx/effects/yellowLine
+	]
+}
+
+Electricity
+{
+	name				zzzz5
+
+	flags				useModel usePhysics
+
+	spawnFlags			orgOnCylinder axisFromSphere
+
+	count				20
+
+	life				10
+
+	delay				10
+
+	bounce				2 5
+
+	origin				0 -5 -5 0 5 5
+
+	origin2				-10 -10 -10 10 10 10
+
+	radius				2
+
+	height				2
+
+	size
+	{
+		start			0.5
+		end				0.5
+		parm			70
+	}
+
+	shaders
+	[
+		gfx/effects/yellowLine
+	]
+}

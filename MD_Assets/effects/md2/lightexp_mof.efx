@@ -1,0 +1,41 @@
+repeatDelay				50
+
+Particle
+{
+	name				Copy of Unnamed Particle 0
+
+	spawnFlags			evenDistribution
+
+	count				10
+
+	life				500
+
+	rotation			0 360
+
+	rotationDelta		0 360
+
+	rgb
+	{
+		start			0 0 1
+		end				0.3373 0.8196 0.9804 1 1 1
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			0
+		end				250
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/force_shield
+	]
+}

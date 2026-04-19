@@ -1,0 +1,38 @@
+repeatDelay				50
+
+Particle
+{
+	spawnFlags			evenDistribution
+
+	count				3
+
+	life				300
+
+	delay				50
+
+	rotation			0 360
+
+	rotationDelta		0 360
+
+	rgb
+	{
+		start			0 0 1
+		end				0 1 1 1 1 1
+		flags			linear
+	}
+
+	alpha
+	{
+		flags			linear
+	}
+
+	size
+	{
+		start			10
+	}
+
+	shaders
+	[
+		gfx/effects/force_shield
+	]
+}

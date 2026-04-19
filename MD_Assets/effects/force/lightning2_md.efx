@@ -1,0 +1,60 @@
+repeatDelay				50
+
+Electricity
+{
+	flags				usePhysics impactFx
+
+	spawnFlags			org2fromTrace traceImpactFx
+
+	count				1 0
+
+	life				80
+
+	bounce				2.5 -2.5
+
+	origin				2 -2.3 -2 2 2.2 -1.5
+
+	origin2				240 -10 -7 230 20 -13
+
+	radius				5
+
+	height				0
+
+	alpha
+	{
+		start			1 0.8
+	}
+
+	size
+	{
+		start			4 1
+		parm			0 50
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/blueLine
+	]
+
+	impactfx
+	[
+		force/lightning_impact
+	]
+}
+
+Light
+{
+	life				55
+
+	rgb
+	{
+		start			0 0.5216 1
+	}
+
+	size
+	{
+		start			3
+		end				25
+	}
+}

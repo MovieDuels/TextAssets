@@ -1,0 +1,137 @@
+repeatDelay				50
+
+Electricity
+{
+	flags				useModel useBBox usePhysics impactFx
+
+	count				2 4
+
+	life				50 60
+
+	bounce				0.8 2
+
+	origin2				500 -384 -2 524 384 2
+
+	size
+	{
+		start			3 7
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/purpleLine
+	]
+
+	impactfx
+	[
+		force/lightning_impact
+	]
+}
+
+Light
+{
+	life				55
+
+	rgb
+	{
+		start			0 0.5216 1
+	}
+
+	size
+	{
+		start			35
+		end				25
+	}
+}
+
+Particle
+{
+	name				ElectricityBurst
+
+	life				50 80
+
+	rotation			-180 180
+
+	rgb
+	{
+		end				1 0.9843 0.9412
+	}
+
+	size
+	{
+		start			2 3
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/lightningFlash
+	]
+}
+
+Particle
+{
+	name				LightBeam
+
+	life				50 100
+
+	cullrange			300
+
+	origin				3 0 0 5 0 0
+
+	rgb
+	{
+		start			0 0.007843 0.1333 0.02353 0 0.1686
+	}
+
+	size
+	{
+		start			10 16
+		end				50 60
+		flags			random linear
+	}
+
+	shaders
+	[
+		gfx/effects/saberflare
+	]
+}
+
+Light
+{
+	name				Illumination
+
+	origin				5 0 0 150 0 0
+
+	rgb
+	{
+		start			0.3294 0.2588 0.5176 0.2196 0.2471 0.3529
+	}
+
+	size
+	{
+		start			30 50
+		flags			random
+	}
+}
+
+Emitter
+{
+	name				IlluminationBeam
+
+	flags				expensivePhysics usePhysics impactKills emitFx
+
+	life				50 80
+
+	velocity			4000 -200 -100 8000 200 100
+
+	density				8
+
+	variance			8
+
+	emitfx
+	[
+		force/lightning2
+	]
+}

@@ -1,0 +1,36 @@
+repeatDelay				50
+
+Particle
+{
+	count				2
+
+	life				600 900
+
+	velocity			50 0 10
+
+	gravity				35 55
+
+	rgb
+	{
+		start			0.5765 0.1725 0
+	}
+
+	alpha
+	{
+		start			0.5
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			9 12
+		end				14 28
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/blood_mist
+	]
+}

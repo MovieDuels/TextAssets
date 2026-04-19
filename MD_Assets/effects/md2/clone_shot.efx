@@ -1,0 +1,69 @@
+repeatDelay				300
+
+Line
+{
+	flags				useAlpha
+
+	origin				100 0 0
+
+	origin2				-100 0 0
+
+	rgb
+	{
+		start			0 0 1 0.3373 0.8196 0.9804
+	}
+
+	size
+	{
+		start			8
+	}
+
+	shaders
+	[
+		gfx/effects/clone_blob
+	]
+}
+
+Line
+{
+	origin				120 0 0
+
+	origin2				-120 0 0
+
+	rgb
+	{
+		start			0 0 1 0.3373 0.8196 0.9804
+	}
+
+	size
+	{
+		start			15
+	}
+
+	shaders
+	[
+		gfx/effects/whiteGlow
+	]
+}
+
+Particle
+{
+	spawnFlags			rgbComponentInterpolation
+
+	count				2
+
+	rgb
+	{
+		start			0 0 1
+	}
+
+	size
+	{
+		start			7.3
+	}
+
+	shaders
+	[
+		gfx/effects/whiteGlow
+	]
+}

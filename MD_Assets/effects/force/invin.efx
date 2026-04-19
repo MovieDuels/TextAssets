@@ -1,0 +1,41 @@
+Particle
+{
+	name				head
+
+	spawnFlags			orgOnSphere rgbComponentInterpolation
+
+	count				10
+
+	life				150 200
+
+	origin				5 0 0
+
+	radius				32 38
+
+	height				45 50
+
+	rotation			88 92
+
+	rotationDelta		-4 4
+
+	gravity				10 100
+
+	alpha
+	{
+		end				0
+		parm			50
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0
+		end				3 4
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/whiteFlareMult
+	]
+}
