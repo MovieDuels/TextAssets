@@ -1,0 +1,3139 @@
+//----------------------------------------------------------------------------------------------
+//
+//	PREQUEL1 CHARACTERS MENU
+//
+//----------------------------------------------------------------------------------------------
+{
+	menuDef
+	{
+		name					"ingamecharacterprequel1Menu"
+		fullScreen				1									// MENU_TRUE
+		rect					0 0 640 480							// Size and position of the menu
+		focusColor				1 1 1 1				// Focus color for text and items
+		descX					320
+		descY					440
+		descScale				0.7
+		descColor				1 1 1 0.9
+		descAlignment			ITEM_ALIGN_CENTER
+		visible					0								// Visible on open
+
+		fadeClamp				1.0						// sets the fadeup alpha
+		fadeCycle				10						// how often fade happens in milliseconds
+		fadeAmount				0.1					// amount to adjust alpha per cycle
+
+		onOpen
+		{
+			setfocus			resume ;
+			hide				glowicons
+		}
+
+		onESC
+		{
+			play				"sound/interface/esc.wav" 
+			close				all
+			open				ingamecharactereraMenu
+			show 			iconsPREQUEL1page ;
+			hide 			subIconsBackButton ;
+			hide 			yoda ;
+			hide 			mace ; 
+			hide 			obi ; 
+			hide 			ani ; 
+			hide 			qui ; 
+			hide 			kit ; 
+			hide 			drallig ; 
+			hide 			saesee ;
+			hide 			plo ;  
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				background
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/ingame/characternpcspawn/background_preq1"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				backgroundpanel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 453.3 640 30
+			background			"gfx/menus/ingame/ingamemenupanel"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo
+			group				logo
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/ingame/characternpcspawn/sw_logo_gold"
+			rect				252 9 132 92
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		/*
+		// Era Cards
+
+		itemDef 
+		{
+			name				Prequelbutton
+			group				era
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_SHADER
+			rect				160 422 38 78
+			background			"gfx/menus/ingame/characternpcspawn/prequelselectbk"
+			forecolor			1 1 1 0.6
+			visible				1
+  			
+			mouseEnter
+			{
+				setitemcolor	Prequelbutton forecolor	1 1 1 1
+				transition2		Prequelbutton	159 398 40 82 10 15
+				setitembackground	Prequelbutton	"gfx/menus/ingame/characternpcspawn/prequelselectbkgold"
+			}
+			mouseExit
+			{
+				setitemcolor	Prequelbutton forecolor	1 1 1 0.6
+				transition2		Prequelbutton	160 422 38 78 10 15
+				setitembackground	Prequelbutton	"gfx/menus/ingame/characternpcspawn/prequelselectbk"
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav"  
+				close			all ; 
+				open			ingamecharacterprequel1Menu 
+			}
+		}
+
+		itemDef 
+		{
+			name				Originalbutton
+			group				era
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_SHADER
+			rect				200 422 38 78
+			background			"gfx/menus/ingame/characternpcspawn/Originalselectbk"
+			forecolor			1 1 1 0.6
+			visible				1
+  			
+			mouseEnter
+			{
+				setitemcolor	Originalbutton forecolor	1 1 1 1
+				transition2		Originalbutton	199 408 40 82 10 15
+				setitembackground	Originalbutton	"gfx/menus/ingame/characternpcspawn/originalselectbkgold"
+			}
+			mouseExit
+			{
+				setitemcolor	Originalbutton forecolor	1 1 1 0.6
+				transition2		Originalbutton	200 422 38 78 10 15
+				setitembackground	Originalbutton	"gfx/menus/ingame/characternpcspawn/originalselectbk"
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav"  
+				close			all ; 
+				open			ingamecharacteroriginalMenu 
+			}
+		}
+
+		itemDef 
+		{
+			name				sequelbutton
+			group				era
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_SHADER
+			rect				240 422 38 78
+			background			"gfx/menus/ingame/characternpcspawn/sequelselectbk"
+			forecolor			1 1 1 0.6
+			visible				1
+  			
+			mouseEnter
+			{
+				setitemcolor	sequelbutton forecolor	1 1 1 1
+				transition2		sequelbutton	239 408 40 82 10 15
+				setitembackground	sequelbutton	"gfx/menus/ingame/characternpcspawn/sequelselectbkgold"
+			}
+			mouseExit
+			{
+				setitemcolor	sequelbutton forecolor	1 1 1 0.6
+				transition2		sequelbutton	240 422 38 78 10 15
+				setitembackground	sequelbutton	"gfx/menus/ingame/characternpcspawn/sequelselectbk"
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav"  
+				close			all ; 
+				open			ingamecharactersequelMenu 
+			}
+		}
+
+		itemDef 
+		{
+			name				legendsbutton
+			group				era
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_SHADER
+			rect				280 422 38 78
+			background			"gfx/menus/ingame/characternpcspawn/legendsselectbk"
+			forecolor			1 1 1 0.6
+			visible				1
+  			
+			mouseEnter
+			{
+				setitemcolor	legendsbutton forecolor	1 1 1 1
+				transition2		legendsbutton	279 408 40 82 10 15
+				setitembackground	legendsbutton	"gfx/menus/ingame/characternpcspawn/legendsselectbkgold"
+			}
+			mouseExit
+			{
+				setitemcolor	legendsbutton forecolor	1 1 1 0.6
+				transition2		legendsbutton	280 422 38 78 10 15
+				setitembackground	legendsbutton	"gfx/menus/ingame/characternpcspawn/legendsselectbk"
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav"  
+				close			all ; 
+				open			ingamecharacterlegends1Menu 
+			}
+		}
+		*/
+
+		//Arrows In Right Corner
+
+		itemDef 
+		{
+			name				forward_glow
+			group				arrowsglow
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/forward_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				back_glow
+			group				arrowsglow
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/back_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_MDIngameMenuPanelGold
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				0 453.8 640 30
+			background			"gfx/menus/ingame/ingamemenupanelgold"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk2_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk2_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk3_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk3_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk4_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk4_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk5_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk5_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Character Icons
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		//------------------------
+		//	Yoda
+		//------------------------	
+
+		itemDef 
+		{
+			name				yoda_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 110 85 85
+			background			"gfx/menus/charactericons/yod3_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_YODA
+
+			mouseEnter 
+			{ 
+				show			yod3_glow
+				setitemrect		yod3_glow	38 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yod3_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			yod3_glow ;
+				show			yoda 	
+			}
+		}
+
+		//------------------------
+		//       Mace Windu
+		//------------------------	
+
+		itemDef 
+		{
+			name				mace_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 110 85 85
+			background			"gfx/menus/charactericons/win_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_MACE
+
+			mouseEnter 
+			{ 
+				show			win_robe_glow
+				setitemrect		win_robe_glow	134 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			win_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide 			win_robe_glow ;
+				show			mace
+			}
+		}
+
+		//------------------------
+		//     Obi-Wan Kenobi Ep3
+		//------------------------	
+
+		itemDef 
+		{
+			name				obi3_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 110 85 85
+			background			"gfx/menus/charactericons/obi3c_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_OBI
+
+			mouseEnter 
+			{ 
+				show			obi3c_glow
+				setitemrect		obi3c_glow	230 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi3c_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			obi3c_glow ;
+				show			obi 	
+			}
+		}
+
+		//------------------------
+		//     Anakin Skywalker Ep3
+		//------------------------	
+
+		itemDef 
+		{
+			name				ani3_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 110 85 85
+			background			"gfx/menus/charactericons/ani3_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_ANAKIN
+
+			mouseEnter 
+			{ 
+				show			ani3_glow
+				setitemrect		ani3_glow	326 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani3_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			ani3_glow ;
+				show			ani 	
+			}
+		}
+
+		//------------------------
+		//      Qui-Gon Jinn
+		//------------------------	
+
+		itemDef 
+		{
+			name				qui_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 110 85 85
+			background			"gfx/menus/charactericons/qui_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_QUI
+
+			mouseEnter 
+			{ 
+				show			qui_glow
+				setitemrect		qui_glow	422 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			qui_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			qui_glow ;
+				show			qui 	
+			}
+		}
+
+		//------------------------
+		//        Kit Fisto
+		//------------------------	
+
+		itemDef 
+		{
+			name				kit_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 110 85 85
+			background			"gfx/menus/charactericons/kit_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_KIT
+
+			mouseEnter 
+			{ 
+				show			kit_robe_glow
+				setitemrect		kit_robe_glow	518 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kit_robe_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			kit_robe_glow ;
+				show			kit 	
+			}
+		}
+
+		//------------------------
+		//       Cin Drallig
+		//------------------------	
+
+		itemDef 
+		{
+			name				drallig_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 206 85 85
+			background			"gfx/menus/charactericons/cin_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_CIN
+
+			mouseEnter 
+			{ 
+				show			cin_glow
+				setitemrect		cin_glow	38 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			cin_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			cin_glow ;
+				show			drallig 	
+			}
+		}
+
+		//------------------------
+		//      Saesee Tiin
+		//------------------------	
+
+		itemDef 
+		{
+			name				saesee_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 206 85 85
+			background			"gfx/menus/charactericons/sae_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_SAESEE
+
+			mouseEnter 
+			{ 
+				show			sae_robe_glow
+				setitemrect		sae_robe_glow	134 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sae_robe_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			sae_robe_glow ;
+				show			saesee	
+			}
+		}
+
+		//------------------------
+		//     Ki-Adi-Mundi
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/mun_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_KI
+
+			mouseEnter 
+			{ 
+				show			mun_glow
+				setitemrect		mun_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mun_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/ki_adi_mundi/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model ki_adi_mundi"
+			}
+		}
+
+		//------------------------
+		//     Depa Billaba
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/dep_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_DEPA
+
+			mouseEnter 
+			{ 
+				show			dep_glow
+				setitemrect		dep_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			dep_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/depabillaba/misc/taunt2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model depabillaba"
+			}
+		}
+
+		//------------------------
+		//    Aayla Secura
+		//------------------------		
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 206 85 85
+			background			"gfx/menus/charactericons/sec_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_AAYLA
+
+			mouseEnter 
+			{ 
+				show			sec_glow
+				setitemrect		sec_glow	422 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sec_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/aayla/misc/gloat3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model aayla"
+			}
+		}
+
+		//------------------------
+		//    Luminara Unduli
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 206 85 85
+			background			"gfx/menus/charactericons/lum_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_LUMINARA
+
+			mouseEnter 
+			{ 
+				show			lum_glow
+				setitemrect		lum_glow	 518 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			lum_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/luminara/misc/gloat3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model luminara"
+			}
+		}
+
+		//------------------------
+		//     Plo Koon
+		//------------------------	
+
+		itemDef 
+		{
+			name				plo_icon_main
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 302 85 85
+			background			"gfx/menus/charactericons/plo2_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_PLO
+
+			mouseEnter 
+			{ 
+				show			plo2_glow
+				setitemrect		plo2_glow	38 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			plo2_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsPREQUEL1page ;
+				show 			subIconsBackButton ;
+				hide			plo2_glow ;
+				show			plo	
+			}
+		}
+
+		//------------------------
+		//       Shaak Ti
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 302 85 85
+			background			"gfx/menus/charactericons/sha_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_SHAAK
+
+			mouseEnter 
+			{ 
+				show			sha_glow
+				setitemrect		sha_glow	134 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sha_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/shaak_ti/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model shaak_ti"
+			}
+		}
+
+		//------------------------
+		//       Adi Gallia
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 302 85 85
+			background			"gfx/menus/charactericons/adi_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_ADI
+
+			mouseEnter 
+			{ 
+				show			adi_robe_glow
+				setitemrect		adi_robe_glow	230 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			adi_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/adi_gallia/misc/gloat2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model adi_gallia/robed"
+			}
+		}
+
+		//------------------------
+		//     Yarael Poof
+		//------------------------		
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 302 85 85
+			background			"gfx/menus/charactericons/yar_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_YARAEL
+
+			mouseEnter 
+			{ 
+				show			yar_glow
+				setitemrect		yar_glow	326 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yar_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/yarael/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model yarael"
+			}
+		}
+
+		//------------------------
+		//       Yaddle
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 302 85 85
+			background			"gfx/menus/charactericons/yaddle_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_YADDLE
+
+			mouseEnter 
+			{ 
+				show			yaddle_glow
+				setitemrect		yaddle_glow	422 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yaddle_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/depabillaba/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model yaddle"
+			}
+		}
+
+		//------------------------
+		//    Coleman Trebor
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsPREQUEL1page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 302 85 85
+			background			"gfx/menus/charactericons/col_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_COLEMAN
+
+			mouseEnter 
+			{ 
+				show			col_glow
+				setitemrect		col_glow	518 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			col_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/coleman/misc/taunt3.mp3" ;  
+				close			all ; open ingame_saber3
+				exec			"model coleman"
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Character Icons/Models Submenus
+		//
+		//----------------------------------------------------------------------------------------------
+
+		//------------------------
+		//	Yoda
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				yoda
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				86 206 85 85
+			background			"gfx/menus/charactericons/yod2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_YODA_EP2
+
+			mouseEnter 
+			{ 
+				show			yod2_glow
+				setitemrect		yod2_glow	86 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yod2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/yoda/misc/taunt3.mp3" ; 
+				exec			"model yoda/ep2"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				yoda
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/yod3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_YODA_EP3
+
+			mouseEnter 
+			{ 
+				show			yod3_glow
+				setitemrect		yod3_glow	182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yod3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/yoda/misc/taunt1.mp3" ; 
+				exec			"model yoda"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				yoda
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/yod_hr_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_YODA_HR
+
+			mouseEnter 
+			{ 
+				show			yod_hr_glow
+				setitemrect		yod_hr_glow	278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yod_hr_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/yoda/misc/taunt1.mp3" ; 
+				exec			"model yoda/hr"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				yoda
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/yod_cw_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_YODA_CW
+
+			mouseEnter 
+			{ 
+				show			yod_cw_glow
+				setitemrect		yod_cw_glow	374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yod_cw_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/yoda/misc/taunt1.mp3" ;
+				exec			"model yoda/cw"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				yoda
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				470 206 85 85
+			background			"gfx/menus/charactericons/yoda_ghost_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_YODA_GHOST
+
+			mouseEnter 
+			{ 
+				show			yoda_ghost_glow
+				setitemrect		yoda_ghost_glow	470 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			yoda_ghost_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/yoda/misc/taunt1.mp3" ; 
+				exec			"model yoda/ghost"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		//------------------------
+		//     Mace Windu
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mace
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 206 85 85
+			background			"gfx/menus/charactericons/win_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MACE
+
+			mouseEnter 
+			{ 
+				show			win_glow
+				setitemrect		win_glow	134 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			win_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/mace_windu/misc/victory2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model macewindu"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mace
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/win_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MACE_ROBE
+
+			mouseEnter 
+			{ 
+				show			win_robe_glow
+				setitemrect		win_robe_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			win_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/mace_windu/misc/victory3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model macewindu/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mace
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/win_hood_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MACE_HOOD
+
+			mouseEnter 
+			{ 
+				show			win_hood_glow
+				setitemrect		win_hood_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			win_hood_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/mace_windu/misc/victory3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model macewindu/hooded"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mace
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 206 85 85
+			background			"gfx/menus/charactericons/windu_ghost_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MACE_GHOST
+
+			mouseEnter 
+			{ 
+				show			windu_ghost_glow
+				setitemrect		windu_ghost_glow	422 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			windu_ghost_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/mace_windu/misc/victory3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model macewindu/ghost"
+			}
+		}
+
+		//------------------------
+		//  Obi-Wan Kenobi EP1
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 158 85 85
+			background			"gfx/menus/charactericons/obi1_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP1
+
+			mouseEnter 
+			{ 
+				show			obi1_glow
+				setitemrect		obi1_glow	38 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi1_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep1/misc/taunt1.mp3" ; 
+				exec			"model obiwan_ep1"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 158 85 85
+			background			"gfx/menus/charactericons/obi1_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP1_ROBE
+
+			mouseEnter 
+			{ 
+				show			obi1_robe_glow
+				setitemrect		obi1_robe_glow	134 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi1_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep1/misc/taunt1.mp3" ; 
+				exec			"model obiwan_ep1/robed"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 158 85 85
+			background			"gfx/menus/charactericons/obi1_hood_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP1_HOOD
+
+			mouseEnter 
+			{ 
+				show			obi1_hood_glow
+				setitemrect		obi1_hood_glow	230 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi1_hood_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep1/misc/taunt1.mp3" ; 
+				exec			"model obiwan_ep1/hooded"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		//------------------------
+		//  Obi-Wan Kenobi EP2
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 158 85 85
+			background			"gfx/menus/charactericons/obi2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP2
+
+			mouseEnter 
+			{ 
+				show			obi2_glow
+				setitemrect		obi2_glow	326 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep2/misc/taunt4.mp3" ;
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep2"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 158 85 85
+			background			"gfx/menus/charactericons/obi2_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP2_ROBE
+
+			mouseEnter 
+			{ 
+				show			obi2_robe_glow
+				setitemrect		obi2_robe_glow	422 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi2_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep2/misc/taunt4.mp3" ;
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep2/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 158 85 85
+			background			"gfx/menus/charactericons/obi2_hood_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP2_HOOD
+
+			mouseEnter 
+			{ 
+				show			obi2_hood_glow
+				setitemrect		obi2_hood_glow	518 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi2_hood_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep2/misc/taunt4.mp3" ;
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep2/hooded"
+			}
+		}
+
+		//------------------------
+		//   Obi-Wan Kenobi Ep3
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 254 85 85
+			background			"gfx/menus/charactericons/obi3b_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP3
+
+			mouseEnter 
+			{ 
+				show			obi3b_glow
+				setitemrect		obi3b_glow	134 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi3b_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep3/misc/taunt2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep3"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2_obi_robed
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 254 85 85
+			background			"gfx/menus/charactericons/obi3_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP3_ROBE
+
+			mouseEnter 
+			{ 
+				show			obi3_robe_glow
+				setitemrect		obi3_robe_glow	230 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi3_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep3/misc/taunt2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep3/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2_obi_hooded
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 254 85 85
+			background			"gfx/menus/charactericons/obi3_hood_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP3_HOOD
+
+			mouseEnter 
+			{ 
+				show			obi3_hood_glow
+				setitemrect		obi3_hood_glow	326 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi3_hood_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep3/misc/taunt2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep3/hood"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2_obi_mus
+			group				obi
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 254 85 85
+			background			"gfx/menus/charactericons/obi3_mus_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_OBI_EP3_MUS
+
+			mouseEnter 
+			{ 
+				show			obi3_mus_glow
+				setitemrect		obi3_mus_glow	422 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			obi3_mus_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/obiwan_ep3/misc/taunt2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model obiwan_ep3/bw"
+			}
+		}
+
+		//------------------------
+		//  Anakin Skywalker EP2
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				ani
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 206 85 85
+			background			"gfx/menus/charactericons/ani2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ANAKIN_EP2
+
+			mouseEnter 
+			{ 
+				show			ani2_glow
+				setitemrect		ani2_glow	38 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/anakin_ep2/misc/taunt4.mp3" ;  
+				close			all ; open ingame_saber3
+				exec			"model anakin_ep2"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				ani
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 206 85 85
+			background			"gfx/menus/charactericons/ani2_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ANAKIN_EP2_ROBE
+
+			mouseEnter 
+			{ 
+				show			ani2_robe_glow
+				setitemrect		ani2_robe_glow	134 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani2_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/anakin_ep2/misc/taunt4.mp3" ;  
+				close			all ; open ingame_saber3
+				exec			"model anakin_ep2/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				ani
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/ani2b_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ANAKIN_EP2_DUAL
+
+			mouseEnter 
+			{ 
+				show			ani2b_glow
+				setitemrect		ani2b_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani2b_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/anakin_ep2/misc/taunt4.mp3" ;  
+				close			all ; open ingame_saber3
+				exec			"model anakin_ep2"
+			}
+		}
+
+
+		//------------------------
+		//   Anakin Skywalker Ep3
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				ani
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/ani3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ANAKIN_EP3
+
+			mouseEnter 
+			{ 
+				show			ani3_glow
+				setitemrect		ani3_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/anakin_ep3/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model anakin"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3_ani_robed
+			group				ani
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 206 85 85
+			background			"gfx/menus/charactericons/ani3_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ANAKIN_EP3_ROBE
+
+			mouseEnter 
+			{ 
+				show			ani3_robe_glow
+				setitemrect		ani3_robe_glow	422 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani3_robe_glow
+			}	 
+ 	  
+			action 
+			{
+				play			"sound/chars/anakin_ep3/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model anakin/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3_ani_hooded
+			group				ani
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 206 85 85
+			background			"gfx/menus/charactericons/ani3_hood_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ANAKIN_EP3_HOOD
+
+			mouseEnter 
+			{ 
+				show			ani3_hood_glow
+				setitemrect		ani3_hood_glow	518 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ani3_hood_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/anakin_ep3/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model anakin/hood"
+			}
+		}
+
+		//------------------------
+		//     Qui-Gon Jinn
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				qui
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 206 85 85
+			background			"gfx/menus/charactericons/qui_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_QUI
+
+			mouseEnter 
+			{ 
+				show			qui_glow
+				setitemrect		qui_glow	134 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			qui_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/quigon/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model quigon"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3_qui_robed
+			group				qui
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/qui_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_QUI_ROBE
+
+			mouseEnter 
+			{ 
+				show			qui_robe_glow
+				setitemrect		qui_robe_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			qui_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/quigon/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model quigon/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3_qui_poncho
+			group				qui
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/qui2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_QUI_PONCHO
+
+			mouseEnter 
+			{ 
+				show			qui2_glow
+				setitemrect		qui2_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			qui2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/quigon/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model quigon/poncho"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3_qui_ghost
+			group				qui
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 206 85 85
+			background			"gfx/menus/charactericons/quigon_ghost_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_QUI_GHOST
+
+			mouseEnter 
+			{ 
+				show			quigon_ghost_glow
+				setitemrect		quigon_ghost_glow	422 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			quigon_ghost_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/quigon/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model quigon/ghost"
+			}
+		}
+
+		//------------------------
+		//         Kit Fisto
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				kit
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/kit_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KIT
+
+			mouseEnter 
+			{ 
+				show			kit_glow
+				setitemrect		kit_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kit_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/fisto/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model fisto"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3_kit_robed
+			group				kit
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/kit_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KIT_ROBE
+
+			mouseEnter 
+			{ 
+				show			kit_robe_glow
+				setitemrect		kit_robe_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kit_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/fisto/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model fisto/robed"
+			}
+		}
+
+		//------------------------
+		//       Cin Drallig
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				drallig
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/cin_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_CIN
+
+			mouseEnter 
+			{ 
+				show			cin_glow
+				setitemrect		cin_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			cin_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/cin_drallig/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model cin_drallig"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				drallig
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/cin_old_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_CIN_LEGENDS
+
+			mouseEnter 
+			{ 
+				show			cin_old_glow
+				setitemrect		cin_old_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			cin_old_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/cin_drallig/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model cin_drallig/old"
+			}
+		}
+
+		//------------------------
+		//      Saesee Tiin
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3_saesee_default
+			group				saesee
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/sae_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_SAESEE
+
+			mouseEnter 
+			{ 
+				show			sae_glow
+				setitemrect		sae_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sae_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/saesee/misc/taunt3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model saesee_tiin"
+			}
+		}	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				saesee
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/sae_robe_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_SAESEE_ROBE
+
+			mouseEnter 
+			{ 
+				show			sae_robe_glow
+				setitemrect		sae_robe_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sae_robe_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/saesee/misc/taunt3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model saesee_tiin/robed"
+			}
+		}
+
+		//------------------------
+		//      Plo Koon
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				plo
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/plo2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_PLO
+
+			mouseEnter 
+			{ 
+				show			plo2_glow
+				setitemrect		plo2_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			plo2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/plo_koon/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model plo_koon"
+			}
+		}	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				plo
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/plo3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_PLO_JPB
+
+			mouseEnter 
+			{ 
+				show			plo3_glow
+				setitemrect		plo3_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			plo3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/plo_koon/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model plo_koon/jpb"
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   BACK BUTTON for submenus and ARROWS
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		itemDef 
+		{
+			name				subIconsBackButton
+			group				back
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				255 415 130 40 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			65
+			textaligny			6
+			forecolor			1 1 1 0.9
+			visible				0
+	  
+			action 
+			{ 
+				play			"sound/interface/esc.wav"
+				show 			iconsPREQUEL1page ;
+				hide 			subIconsBackButton ;
+				hide 			yoda ;
+				hide 			mace ; 
+				hide 			obi ; 
+				hide 			ani ; 
+				hide 			qui ; 
+				hide 			kit ; 
+				hide 			drallig ; 
+				hide 			saesee ;
+				hide 			plo ;  
+			}
+		}
+
+		//Arrows In Right Corner
+		
+		itemDef 
+		{
+			name				rightarrowToPrequel2
+			group				arrows
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				534 420 30 30
+			background			"gfx/menus/forward_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+
+			mouseEnter 
+			{ 
+				show			forward_glow
+				setitemrect		forward_glow	534 420 30 30
+			}
+
+			mouseExit 
+			{ 
+				hide			forward_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show 			iconsPREQUEL1page ;
+				hide 			arrowsglow ;
+				hide 			subIconsBackButton ;
+				hide 			yoda ;
+				hide 			mace ; 
+				hide 			obi ; 
+				hide 			ani ; 
+				hide 			qui ; 
+				hide 			kit ; 
+				hide 			drallig ; 
+				hide 			saesee ;
+				hide 			plo ;   
+
+				close			all
+				open			ingamecharacterprequel2Menu
+			}
+		}
+
+		itemDef 
+		{
+			name				leftarrowToLegends2
+			group				arrows
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				474 420 30 30
+			background			"gfx/menus/back_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+
+			mouseEnter 
+			{ 
+				show			back_glow
+				setitemrect		back_glow	474 420 30 30
+			}
+
+			mouseExit 
+			{ 
+				hide			back_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show 			iconsPREQUEL1page ;
+				hide 			arrowsglow ;
+				hide 			subIconsBackButton ;
+				hide 			yoda ;
+				hide 			mace ; 
+				hide 			obi ; 
+				hide 			ani ; 
+				hide 			qui ; 
+				hide 			kit ; 
+				hide 			drallig ; 
+				hide 			saesee ;
+				hide 			plo ;   
+
+				close			all
+				open			ingamecharacterlegends2Menu
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Glow Icons
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		itemDef 
+		{
+			name				yod3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yod3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				yod2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yod2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				yod_hr_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yod_hr_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				yod_cw_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yod_cw_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				yoda_ghost_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yoda_ghost_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				win_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/win_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				win_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/win_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				win_hood_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/win_hood_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				windu_ghost_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/windu_ghost_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi1_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi1_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi1_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi1_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi1_hood_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi1_hood_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi2_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi2_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi2_hood_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi2_hood_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi3b_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi3b_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi3c_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi3c_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi3_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi3_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi3_hood_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi3_hood_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				obi3_mus_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/obi3_mus_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ani2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ani2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ani2_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ani2_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ani2b_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ani2b_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ani3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ani3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ani3_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ani3_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ani3_hood_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ani3_hood_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				qui_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/qui_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				qui_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/qui_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				qui2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/qui2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				quigon_ghost_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/quigon_ghost_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mun_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mun_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				dep_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/dep_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}		
+
+		itemDef 
+		{
+			name				sec_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sec_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				lum_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/lum_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				plo2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/plo2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				plo3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/plo3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				kit_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/kit_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				kit_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/kit_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sha_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sha_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				cin_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/cin_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				cin_old_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/cin_old_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}		
+
+		itemDef 
+		{
+			name				adi_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/adi_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sae_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sae_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sae_robe_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sae_robe_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				yar_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yar_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				yaddle_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/yaddle_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				col_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/col_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	OTHER MAIN MENU BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------
+
+		// Big button "BACK"
+		itemDef 
+		{
+			name				backbutton
+			group				back
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				70 458 101 24
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible				1
+  			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk_MDIngamePanelGoldDivider1 116 468 0 0 70 465 22 12 10 15
+					transition		bk_MDIngamePanelGoldDivider2 116 468 0 0 163 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk_MDIngamePanelGoldDivider1 70 465 22 12 116 468 0 0 10 15
+					transition		bk_MDIngamePanelGoldDivider2 163 465 22 12 116 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/esc.wav"  
+				close			all ; 
+				open			ingamecharactereramenu 
+				show 			iconsPREQUEL1page ;
+				hide 			subIconsBackButton ;
+				hide 			yoda ;
+				hide 			mace ; 
+				hide 			obi ; 
+				hide 			ani ; 
+				hide 			qui ; 
+				hide 			kit ; 
+				hide 			drallig ; 
+				hide 			saesee ; 
+				hide 			plo ; 
+			}
+		}
+/*
+		// Player Dark Side Faction
+        itemDef
+		{
+			name				dark
+			group				pause1
+			type				ITEM_TYPE_BUTTON
+			rect				170 458 101 24 
+			text				@MD_MENU_MAIN_DARK_SIDE
+			font				5
+			textscale			0.19
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk2_MDIngamePanelGoldDivider1 216 468 0 0 170 465 22 12 10 15
+					transition		bk2_MDIngamePanelGoldDivider2 216 468 0 0 263 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk2_MDIngamePanelGoldDivider1 170 465 22 12 216 468 0 0 10 15
+					transition		bk2_MDIngamePanelGoldDivider2 263 465 22 12 216 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action
+			{
+				play			"sound/chars/side/dark.mp3"
+			    //exec			"helpusobi 1"
+				//exec			"playerTeam enemy"
+				exec			"echo ^1JOINED ^1DARK ^1SIDE ^1TEAM"
+			}
+		}
+
+		// Big button "SP CHARACTER"
+		itemDef 
+		{
+			name				spcharactermenu
+			group				pause
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				270 458 101 24 
+			text				@MD_MENU_MAIN_JKA
+			descText			@MD_MENU_MAIN_JKA_DESC
+			font				5
+			textscale			0.19
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			forecolor			1 1 1 0.9
+			visible				1
+	  	  
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk3_MDIngamePanelGoldDivider1 316 468 0 0 270 465 22 12 10 15
+					transition		bk3_MDIngamePanelGoldDivider2 316 468 0 0 363 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk3_MDIngamePanelGoldDivider1 270 465 22 12 316 468 0 0 10 15
+					transition		bk3_MDIngamePanelGoldDivider2 363 465 22 12 316 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+			    //exec			"model player"
+				close			all
+				open			ingamespcharacterMenu
+			}
+		}
+
+		// Player Light Side Faction
+        itemDef
+		{
+			name				light
+			group				pause
+			type				ITEM_TYPE_BUTTON
+			text				@MD_MENU_MAIN_LIGHT_SIDE
+			rect				370 458 101 24 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk4_MDIngamePanelGoldDivider1 416 468 0 0 370 465 22 12 10 15
+					transition		bk4_MDIngamePanelGoldDivider2 416 468 0 0 463 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk4_MDIngamePanelGoldDivider1 370 465 22 12 416 468 0 0 10 15
+					transition		bk4_MDIngamePanelGoldDivider2 463 465 22 12 416 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action
+			{
+				play			"sound/chars/side/light.mp3"
+				//exec			"helpusobi 1"
+				//exec			"playerTeam player"
+				exec			"echo ^2JOINED ^2LIGHT ^2SIDE ^2TEAM"
+			}
+		}
+*/
+		// RESUME button in the lower right corner
+		itemDef 
+		{
+			name				resume
+			group				resume
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				470 458 101 24
+			text				@MD_MENU_MAIN_RESUME
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible			1
+  	  
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk5_MDIngamePanelGoldDivider1 516 468 0 0 470 465 22 12 10 15
+					transition		bk5_MDIngamePanelGoldDivider2 516 468 0 0 563 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk5_MDIngamePanelGoldDivider1 470 465 22 12 516 468 0 0 10 15
+					transition		bk5_MDIngamePanelGoldDivider2 563 465 22 12 516 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				uiScript		closeingame					
+			}
+		}
+	}
+}

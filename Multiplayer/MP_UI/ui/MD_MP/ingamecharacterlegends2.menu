@@ -1,0 +1,2561 @@
+//----------------------------------------------------------------------------------------------
+//
+//	CUSTOM CAMERA MENU
+//
+//----------------------------------------------------------------------------------------------
+{
+	menuDef
+	{
+		name					"ingamecharacterlegends2Menu"
+		fullScreen				1									// MENU_TRUE
+		rect					0 0 640 480							// Size and position of the menu
+		focusColor				1 1 1 1				// Focus color for text and items
+		descX					320
+		descY					440
+		descScale				0.7
+		descColor				1 1 1 0.9
+		descAlignment			ITEM_ALIGN_CENTER
+		visible					0								// Visible on open
+
+		fadeClamp				1.0						// sets the fadeup alpha
+		fadeCycle				10						// how often fade happens in milliseconds
+		fadeAmount				0.1					// amount to adjust alpha per cycle
+
+		onOpen
+		{
+			setfocus			resume ;
+			hide				glowicons
+		}
+
+		onESC
+		{
+			play				"sound/interface/esc.wav" 
+			close				all
+			open				ingamecharactereraMenu
+			show 			iconsLEGENDS2page ;
+			hide 			subIconsBackButton ;
+			hide 			hett ;
+			hide 			galen ;
+			hide 			kota ;
+			hide 			kento ; 
+			hide			sta ;
+			hide			maul ;
+			hide			trainingdroid ;
+			hide			revan ;
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				background
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/ingame/characternpcspawn/background_leg2"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				backgroundpanel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 453.3 640 30
+			background			"gfx/menus/ingame/ingamemenupanel"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo
+			group				logo
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/ingame/characternpcspawn/sw_logo_legends"
+			rect				252 9 132 92
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		//Arrows In Right Corner
+
+		itemDef 
+		{
+			name				forward_glow
+			group				arrowsglow
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/forward_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				back_glow
+			group				arrowsglow
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/back_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_MDIngameMenuPanelGold
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				0 453.8 640 30
+			background			"gfx/menus/ingame/ingamemenupanelgold"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk2_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk2_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk3_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk3_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk4_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk4_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk5_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk5_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Character Icons (LEGENDS 2)
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		//------------------------
+		//      Galen Marek
+		//------------------------	
+
+		itemDef 
+		{
+			name				galen_icon_main
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				86 110 85 85
+			background			"gfx/menus/charactericons/gal_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_GALEN
+
+			mouseEnter 
+			{ 
+				show			gal_glow
+				setitemrect		gal_glow	86 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			gal_glow ;
+				show			galen 	
+			}
+		}
+
+		//------------------------
+		//       Starkiller
+		//------------------------	
+
+		itemDef 
+		{
+			name				sta_icon_main
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 110 85 85
+			background			"gfx/menus/charactericons/sta_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_STARKILLER
+
+			mouseEnter 
+			{ 
+				show			sta_glow
+				setitemrect		sta_glow	182 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sta_glow
+			}	 
+ 	  
+			action 
+			{ 
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide 			sta_glow ;
+				show			sta
+			}
+		}
+
+		//------------------------
+		//      Rahm Kota
+		//------------------------
+
+		itemDef 
+		{
+			name				kota_icon_main
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 110 85 85
+			background			"gfx/menus/charactericons/rah_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_RAHM
+
+			mouseEnter 
+			{ 
+				show			rah_glow
+				setitemrect		rah_glow	278 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rah_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			rah_glow ;
+				show			kota 	
+			}
+		}
+
+		//------------------------
+		//      Shaak Ti TFU
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 110 85 85
+			background			"gfx/menus/charactericons/sha2_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_SHAAK_TFU
+
+			mouseEnter 
+			{ 
+				show			sha2_glow
+				setitemrect		sha2_glow	374 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sha2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/shaak_ti/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model shaakti_tfu"
+			}
+		}
+
+		//------------------------
+		//     Kento Marek
+		//------------------------
+
+		itemDef 
+		{
+			name				kento_icon_main
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				470 110 85 85
+			background			"gfx/menus/charactericons/kento_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_KENTO
+
+			mouseEnter 
+			{ 
+				show			kento_glow
+				setitemrect		kento_glow	470 110 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kento_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			kento_glow ;
+				show			kento 	
+			}
+		}
+
+		//------------------------
+		//     Darth Phobos
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				86 206 85 85
+			background			"gfx/menus/charactericons/phobos_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_PHOBOS
+
+			mouseEnter 
+			{ 
+				show			phobos_glow
+				setitemrect		phobos_glow	86 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			phobos_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/darthphobos/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model darthphobos"
+			}
+		}
+
+		//------------------------
+		//     Darth Desolous
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/desolous_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_DESOLOUS
+
+			mouseEnter 
+			{ 
+				show			desolous_glow
+				setitemrect		desolous_glow	182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			desolous_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/darthdesolous/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model darthdesolous"
+			}
+		}
+
+		//------------------------
+		//  Training Droid
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/sabertraining_droid_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_TRAININGDROIDS_TFU
+
+			mouseEnter 
+			{ 
+				show			sabertraining_droid_glow
+				setitemrect		sabertraining_droid_glow 278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sabertraining_droid_glow
+			}	 
+ 	  
+			action 
+			{ 
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			sabertraining_droid_glow ;
+				show			trainingdroid
+			}
+		}
+
+		//------------------------
+		//     A'Sharad Hett
+		//------------------------	
+
+		itemDef 
+		{
+			name				hett_icon_main
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/hett_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_ASHARAD
+
+			mouseEnter 
+			{ 
+				show			hett_glow
+				setitemrect		hett_glow	374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			hett_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			hett_glow ;
+				show			hett	
+			}
+		}
+
+		//------------------------
+		//  Cyber Darth Maul
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				470 206 85 85
+			background			"gfx/menus/charactericons/mau_cyber_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_MAUL_CYBER
+
+			mouseEnter 
+			{ 
+				show			mau_cyber_glow
+				setitemrect		mau_cyber_glow	470 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_cyber_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			mau_cyber_glow ;
+				show			maul 	
+			}
+		}
+
+		//------------------------
+		//     Cade Skywalker
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				86 302 85 85
+			background			"gfx/menus/charactericons/cade_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_CADE
+
+			mouseEnter 
+			{ 
+				show			cade_glow
+				setitemrect		cade_glow	86 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			cade_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/cade/misc/taunt6.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model cade"
+			}
+		}
+
+		//------------------------
+		//     Darth Talon
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 302 85 85
+			background			"gfx/menus/charactericons/talon_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_TALON
+
+			mouseEnter 
+			{ 
+				show			talon_glow
+				setitemrect		talon_glow	182 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			talon_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/darthtalon/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model darthtalon"
+			}
+		}
+
+		//------------------------
+		//     Darth Plagueis
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 302 85 85
+			background			"gfx/menus/charactericons/plagueis_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_PLAGUEIS
+
+			mouseEnter 
+			{ 
+				show			plagueis_glow
+				setitemrect		plagueis_glow	278 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			plagueis_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/darthplagueis/misc/victory1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model darthplagueis"
+			}
+		}
+
+		//------------------------
+		//      Darth Revan
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 302 85 85
+			background			"gfx/menus/charactericons/revan_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_REVAN
+
+			mouseEnter 
+			{ 
+				show			revan_glow
+				setitemrect		revan_glow	374 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			revan_glow
+			}	 
+ 	  
+			action 
+			{ 
+				hide 			iconsLEGENDS2page ;
+				show 			subIconsBackButton ;
+				hide			revan_glow ;
+				show			revan 	
+			}
+		}
+
+		//------------------------
+		//      Bastila Shan
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsLEGENDS2page
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				470 302 85 85
+			background			"gfx/menus/charactericons/bastila_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_BASTILA
+
+			mouseEnter 
+			{ 
+				show			bastila_glow
+				setitemrect		bastila_glow	470 302 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			bastila_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/bastila/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model bastila"
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Character Icons/Models Submenu
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		//------------------------
+		//     Galen Marek
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 158 85 85
+			background			"gfx/menus/charactericons/gal_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_ADVENTURE
+
+			mouseEnter 
+			{ 
+				show			gal_glow
+				setitemrect		gal_glow	 134 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model stk_adventure_robes"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 158 85 85
+			background			"gfx/menus/charactericons/gal2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_TEMPLE
+
+			mouseEnter 
+			{ 
+				show			gal2_glow
+				setitemrect		gal2_glow	230 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model stk_temple_eg"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 158 85 85
+			background			"gfx/menus/charactericons/gal4_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_CORELLIAN
+
+			mouseEnter 
+			{ 
+				show			gal4_glow
+				setitemrect		gal4_glow	326 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal4_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model stk_corellian_fs"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 158 85 85
+			background			"gfx/menus/charactericons/gal3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_CEREMONIAL
+
+			mouseEnter 
+			{ 
+				show			gal3_glow
+				setitemrect		gal3_glow	422 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model stk_ceremonial_robes"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 254 85 85
+			background			"gfx/menus/charactericons/gal5_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_KAMINO
+
+			mouseEnter 
+			{ 
+				show			gal5_glow
+				setitemrect		gal5_glow	134 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal5_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model starkiller_tfu2/kamino_tsg"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 254 85 85
+			background			"gfx/menus/charactericons/gal6_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_TIE
+
+			mouseEnter 
+			{ 
+				show			gal6_glow
+				setitemrect		gal6_glow	230 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal6_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model starkiller_tfu2/tie_fs"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 254 85 85
+			background			"gfx/menus/charactericons/gal7_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_ARENA
+
+			mouseEnter 
+			{ 
+				show			gal7_glow
+				setitemrect		gal7_glow	326 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal7_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model starkiller_tfu2"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				galen
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 254 85 85
+			background			"gfx/menus/charactericons/gal8_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_GALEN_HERO
+
+			mouseEnter 
+			{ 
+				show			gal8_glow
+				setitemrect		gal8_glow	422 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			gal8_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller2/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model starkiller_tfu2/hero_armor"
+			}
+		}
+
+		//------------------------
+		//       Starkiller
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				sta
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				86 206 85 85
+			background			"gfx/menus/charactericons/sta_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_STARKILLER
+
+			mouseEnter 
+			{ 
+				show			sta_glow
+				setitemrect		sta_glow	86 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sta_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller/misc/taunt.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model stk_training_gear"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				sta
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/sta2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_SITHSTALKER
+
+			mouseEnter 
+			{ 
+				show			sta2_glow
+				setitemrect		sta2_glow	182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sta2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/sithstalker/misc/taunt.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model sithstalker"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				sta
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/sta3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_LORD_STARKILLER
+
+			mouseEnter 
+			{ 
+				show			sta3_glow
+				setitemrect		sta3_glow	278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sta3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/lord_stk/misc/taunt.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model lord_stk"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				sta
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/sta4_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_LORD_STARKILLER_DESERT
+
+			mouseEnter 
+			{ 
+				show			sta4_glow
+				setitemrect		sta4_glow	374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sta4_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/lord_stk/misc/taunt.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model lord_stk_tat"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				sta
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				470 206 85 85
+			background			"gfx/menus/charactericons/sta5_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_STARKILLER_JHUNTER
+
+			mouseEnter 
+			{ 
+				show			sta5_glow
+				setitemrect		sta5_glow	470 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sta5_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/starkiller/misc/taunt.wav" ; 
+				close			all ; 
+				//exec			"helpusobi 1" ; uiScript "clearweapons"
+				//exec			"setforceall 0"
+				exec			"model md_stk_jhunter"
+				//exec			"playerTeam enemy"
+				//exec			"setsaberstyle dual"
+				//exec			"addsaberstyle staff"
+				//exec			"cg_fov 84" 
+				//exec			"cg_thirdpersonrange 85"
+				//exec			"cg_thirdpersonpitchoffset 0"
+				//exec			"cg_thirdpersonvertoffset 16"
+				//exec			"cg_thirdpersonangle 0"
+			}
+		}
+
+		//------------------------
+		//      Rahm Kota
+		//------------------------	
+		
+		itemDef 
+		{
+			name				challenge_begin3
+			group				kota
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/rah_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_RAHM
+
+			mouseEnter 
+			{ 
+				show			rah_glow
+				setitemrect		rah_glow	182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rah_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kota/misc/taunt2.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model kota"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				kota
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/rah2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_RAHM_DRUNK
+
+			mouseEnter 
+			{ 
+				show			rah2_glow
+				setitemrect		rah2_glow	278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rah2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kota_drunk/misc/victory1.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model kota_drunk"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				kota
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/rah3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_RAHM_ALLIANCE
+
+			mouseEnter 
+			{ 
+				show			rah3_glow
+				setitemrect		rah3_glow	374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rah3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kota/misc/taunt2.wav" ; 
+				close			all ; open ingame_saber3
+				exec			"model kota/blind"
+			}
+		}
+
+		//------------------------
+		//    Kento Marek
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				kento
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/kento_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KENTO
+
+			mouseEnter 
+			{ 
+				show			kento_glow
+				setitemrect		kento_glow	 230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kento_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kentomarek/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model kentomarek"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				kento
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/kento2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KENTO_KROME
+
+			mouseEnter 
+			{ 
+				show			kento2_glow
+				setitemrect		kento2_glow	 326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kento2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kentomarek/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model kentomarek/wii"
+			}
+		}
+
+		//------------------------
+		//  Training Droid
+		//------------------------
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				trainingdroid
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/sabertraining_droid_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_TRAININGDROID_SABER
+
+			mouseEnter 
+			{ 
+				show			sabertraining_droid_glow
+				setitemrect		sabertraining_droid_glow 230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sabertraining_droid_glow
+			}	 
+ 	  
+			action 
+			{ 
+				//play			"sound/chars/proxy/misc/taunt1.mp3";
+				exec			"model sabertraining_droid"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				trainingdroid
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/combattraining_droid_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_TRAININGDROID_FORCE
+
+			mouseEnter 
+			{ 
+				show			combattraining_droid_glow
+				setitemrect		combattraining_droid_glow 326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			combattraining_droid_glow
+			}	 
+ 	  
+			action 
+			{ 
+				//play			"sound/chars/proxy/misc/taunt1.mp3";
+				exec			"model sabertraining_droid"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		//------------------------
+		//    A'Sharad Hett
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				hett
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 206 85 85
+			background			"gfx/menus/charactericons/hett_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ASHARAD
+
+			mouseEnter 
+			{ 
+				show			hett_glow
+				setitemrect		hett_glow	 134 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			hett_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/asharad_hett/misc/taunt3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model asharad_hett"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				hett
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/hett2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_ASHARAD_TUSKEN
+
+			mouseEnter 
+			{ 
+				show			hett2_glow
+				setitemrect		hett2_glow	 230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			hett2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/asharad_hett/misc/taunt3.mp3" ; 
+				close			all ; 
+				//exec			"helpusobi 1" ; uiScript "clearweapons"
+				//exec			"setforceall 0"
+				exec			"model asharad_hett/tusken"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				hett
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/krayt_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KRAYT
+
+			mouseEnter 
+			{ 
+				show			krayt_glow
+				setitemrect		krayt_glow	 326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			krayt_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/darthkrayt/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model darthkrayt"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				hett
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 206 85 85
+			background			"gfx/menus/charactericons/krayt2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KRAYT_REBORN
+
+			mouseEnter 
+			{ 
+				show			krayt2_glow
+				setitemrect		krayt2_glow	 422 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			krayt2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/darthkrayt/misc/taunt5.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model darthkrayt_r"
+			}
+		}
+
+		//------------------------
+		//  Cyber Darth Maul
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				maul
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/mau_cyber_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_CYBER
+
+			mouseEnter 
+			{ 
+				show			mau_cyber_glow
+				setitemrect		mau_cyber_glow	182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_cyber_glow
+			}	 
+ 	  
+			action 
+			{  
+				play			"sound/chars/cyber_maul/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model cyber_maul"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				maul
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/mau_cyber_robed_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_CYBER_ROBE
+
+			mouseEnter 
+			{ 
+				show			mau_cyber_robed_glow
+				setitemrect		mau_cyber_robed_glow	278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_cyber_robed_glow
+			}	 
+ 	  
+			action 
+			{  
+				play			"sound/chars/cyber_maul/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model cyber_maul/robed"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				maul
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/mau_cyber_hooded_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_CYBER_HOOD
+
+			mouseEnter 
+			{ 
+				show			mau_cyber_hooded_glow
+				setitemrect		mau_cyber_hooded_glow	374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_cyber_hooded_glow
+			}	 
+ 	  
+			action 
+			{  
+				play			"sound/chars/cyber_maul/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model cyber_maul/hood"
+			}
+		}
+
+		//------------------------
+		//      Darth Revan
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				revan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/revan_single_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_REVAN
+
+			mouseEnter 
+			{ 
+				show			revan_single_glow
+				setitemrect		revan_single_glow	182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			revan_single_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/revan/misc/victory1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model revan"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				revan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/revan_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_REVAN_DUAL
+
+			mouseEnter 
+			{ 
+				show			revan_glow
+				setitemrect		revan_glow	278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			revan_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/revan/misc/victory1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model revan"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				revan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/revan_jedi_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_REVAN_JEDI
+
+			mouseEnter 
+			{ 
+				show			revan_jedi_glow
+				setitemrect		revan_jedi_glow	374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			revan_jedi_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/revan/misc/victory1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model revan_jedi"
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   BACK BUTTON for submenus and ARROWS
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		itemDef 
+		{
+			name				subIconsBackButton
+			group				back
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				255 415 130 40 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			65
+			textaligny			6
+			forecolor			1 1 1 0.9
+			visible				0
+	  
+			action 
+			{ 
+				play			"sound/interface/esc.wav"
+				show 			iconsLEGENDS2page ;
+				hide 			subIconsBackButton ;
+				hide 			hett ;
+				hide 			galen ;
+				hide 			kota ;
+				hide 			kento ; 
+				hide			sta ;
+				hide			maul ;
+				hide			trainingdroid ;
+				hide			revan ;
+			}
+		}
+
+		//Arrows In Right Corner
+		
+		itemDef 
+		{
+			name				rightarrowToPrequel1
+			group				arrows
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				534 420 30 30
+			background			"gfx/menus/forward_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+
+			mouseEnter 
+			{ 
+				show			forward_glow
+				setitemrect		forward_glow	534 420 30 30
+			}
+
+			mouseExit 
+			{ 
+				hide			forward_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show 			iconsLEGENDS2page ;
+				hide 			arrowsglow ;
+				hide 			subIconsBackButton ;
+				hide 			hett ;
+				hide 			galen ;
+				hide 			kota ;
+				hide 			kento ; 
+				hide			sta ;
+				hide			maul ;
+				hide			trainingdroid ;
+				hide			revan ;
+
+				close			all
+				open			ingamecharacterprequel1Menu
+			}
+		}
+
+		itemDef 
+		{
+			name				leftarrowToLegends1
+			group				arrows
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				474 420 30 30
+			background			"gfx/menus/back_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+
+			mouseEnter 
+			{ 
+				show			back_glow
+				setitemrect		back_glow	474 420 30 30
+			}
+
+			mouseExit 
+			{ 
+				hide			back_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show 			iconsLEGENDS2page ;
+				hide 			arrowsglow ;
+				hide 			subIconsBackButton ;
+				hide 			hett ;
+				hide 			galen ;
+				hide 			kota ;
+				hide 			kento ; 
+				hide			sta ;
+				hide			maul ;
+				hide			trainingdroid ;
+				hide			revan ;
+
+				close			all
+				open			ingamecharacterLegends1Menu
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Glow Icons
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		//Legends 2 Icon Glows
+
+		itemDef 
+		{
+			name				gal_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal4_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal4_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal5_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal5_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal6_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal6_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal7_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal7_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				gal8_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/gal8_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sta_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sta_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sta2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sta2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sta3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sta3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sta4_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sta4_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sta5_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sta5_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				rah_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/rah_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				rah2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/rah2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				rah3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/rah3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				hett_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/hett_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				hett2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/hett2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				phobos_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/phobos_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				desolous_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/desolous_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_cyber_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_cyber_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}	
+
+		itemDef 
+		{
+			name				mau_cyber_robed_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_cyber_robed_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}	
+
+		itemDef 
+		{
+			name				mau_cyber_hooded_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_cyber_hooded_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}	
+
+		itemDef 
+		{
+			name				sabertraining_droid_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sabertraining_droid_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}	
+
+		itemDef 
+		{
+			name				combattraining_droid_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/combattraining_droid_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				kento_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/kento_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				kento2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/kento2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sha2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sha2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				plagueis_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/plagueis_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				revan_single_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/revan_single_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				revan_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/revan_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				revan_jedi_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/revan_jedi_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bastila_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/bastila_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				krayt_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/krayt_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				krayt2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/krayt2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				talon_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/talon_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				cade_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/cade_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}		
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	OTHER MAIN MENU BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------
+
+		// Big button "BACK"
+		itemDef 
+		{
+			name				backbutton
+			group				back
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				70 458 101 24
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible				1
+  			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk_MDIngamePanelGoldDivider1 116 468 0 0 70 465 22 12 10 15
+					transition		bk_MDIngamePanelGoldDivider2 116 468 0 0 163 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk_MDIngamePanelGoldDivider1 70 465 22 12 116 468 0 0 10 15
+					transition		bk_MDIngamePanelGoldDivider2 163 465 22 12 116 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/esc.wav"  
+				close			all ; 
+				open			ingamecharactereramenu 
+				show 			iconsLEGENDS2page ;
+				hide 			subIconsBackButton ;
+				hide 			hett ;
+				hide 			galen ;
+				hide 			kota ;
+				hide 			kento ; 
+				hide			sta ;
+				hide			maul ;
+				hide			trainingdroid ;
+				hide			revan ;
+			}
+		}
+/*
+		// Player Dark Side Faction
+        itemDef
+		{
+			name				dark
+			group				pause1
+			type				ITEM_TYPE_BUTTON
+			rect				170 458 101 24 
+			text				@MD_MENU_MAIN_DARK_SIDE
+			font				5
+			textscale			0.19
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk2_MDIngamePanelGoldDivider1 216 468 0 0 170 465 22 12 10 15
+					transition		bk2_MDIngamePanelGoldDivider2 216 468 0 0 263 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk2_MDIngamePanelGoldDivider1 170 465 22 12 216 468 0 0 10 15
+					transition		bk2_MDIngamePanelGoldDivider2 263 465 22 12 216 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action
+			{
+				play			"sound/chars/side/dark.mp3"
+			    //exec			"helpusobi 1"
+				//exec			"playerTeam enemy"
+				exec			"echo ^1JOINED ^1DARK ^1SIDE ^1TEAM"
+			}
+		}
+
+		// Big button "SP CHARACTER"
+		itemDef 
+		{
+			name				spcharactermenu
+			group				pause
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				270 458 101 24 
+			text				@MD_MENU_MAIN_JKA
+			descText			@MD_MENU_MAIN_JKA_DESC
+			font				5
+			textscale			0.19
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			forecolor			1 1 1 0.9
+			visible				1
+	  	  
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk3_MDIngamePanelGoldDivider1 316 468 0 0 270 465 22 12 10 15
+					transition		bk3_MDIngamePanelGoldDivider2 316 468 0 0 363 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk3_MDIngamePanelGoldDivider1 270 465 22 12 316 468 0 0 10 15
+					transition		bk3_MDIngamePanelGoldDivider2 363 465 22 12 316 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+			    //exec			"model player"
+				close			all
+				open			ingamespcharacterMenu
+			}
+		}
+
+		// Player Light Side Faction
+        itemDef
+		{
+			name				light
+			group				pause
+			type				ITEM_TYPE_BUTTON
+			text				@MD_MENU_MAIN_LIGHT_SIDE
+			rect				370 458 101 24 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk4_MDIngamePanelGoldDivider1 416 468 0 0 370 465 22 12 10 15
+					transition		bk4_MDIngamePanelGoldDivider2 416 468 0 0 463 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk4_MDIngamePanelGoldDivider1 370 465 22 12 416 468 0 0 10 15
+					transition		bk4_MDIngamePanelGoldDivider2 463 465 22 12 416 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action
+			{
+				play			"sound/chars/side/light.mp3"
+				//exec			"helpusobi 1"
+				//exec			"playerTeam player"
+				exec			"echo ^2JOINED ^2LIGHT ^2SIDE ^2TEAM"
+			}
+		}
+*/
+		// RESUME button in the lower right corner
+		itemDef 
+		{
+			name				resume
+			group				resume
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				470 458 101 24
+			text				@MD_MENU_MAIN_RESUME
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible			1
+  	  
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk5_MDIngamePanelGoldDivider1 516 468 0 0 470 465 22 12 10 15
+					transition		bk5_MDIngamePanelGoldDivider2 516 468 0 0 563 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk5_MDIngamePanelGoldDivider1 470 465 22 12 516 468 0 0 10 15
+					transition		bk5_MDIngamePanelGoldDivider2 563 465 22 12 516 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				uiScript		closeingame					
+			}
+		}
+
+	}
+}

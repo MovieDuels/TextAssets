@@ -1,0 +1,1784 @@
+//----------------------------------------------------------------------------------------------
+//
+//	REBELS CHARACTER MENU
+//
+//----------------------------------------------------------------------------------------------
+{
+	menuDef
+	{
+		name					"ingamecharacterrebelsMenu"
+		fullScreen				1									// MENU_TRUE
+		rect					0 0 640 480							// Size and position of the menu
+		focusColor				1 1 1 1				// Focus color for text and items
+		descX					320
+		descY					440
+		descScale				0.7
+		descColor				1 1 1 0.9
+		descAlignment			ITEM_ALIGN_CENTER
+		visible					0								// Visible on open
+
+		fadeClamp				1.0						// sets the fadeup alpha
+		fadeCycle				10						// how often fade happens in milliseconds
+		fadeAmount				0.1					// amount to adjust alpha per cycle
+
+		onOpen
+		{
+			setfocus			resume ;
+			hide				glowicons
+		}
+
+		onESC
+		{
+			play				"sound/interface/esc.wav" 
+			close				all
+			open				ingamecharactereraMenu
+			show 			iconsREBELSpage ;
+			hide 			subIconsBackButton ;
+			hide 			ezr ;
+			hide 			mau_reb ; 
+			hide			kanan ;
+			hide			rex ;
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	MENU BACKGROUND
+		//
+		//----------------------------------------------------------------------------------------------
+
+		itemDef 
+		{
+			name				background
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 640 480
+			background			"gfx/menus/ingame/characternpcspawn/background_reb"
+			forecolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				backgroundpanel
+			group				none
+			style				WINDOW_STYLE_SHADER
+			rect				0 453.3 640 30
+			background			"gfx/menus/ingame/ingamemenupanel"
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name				background_logo
+			group				logo
+			style				WINDOW_STYLE_FILLED
+			background			"gfx/menus/mission/rebels/rebelsLogo"
+			rect				235 4 163 108
+			backcolor			1 1 1 1
+			visible				1
+			decoration
+		}
+
+		//Arrows In Right Corner
+
+		itemDef 
+		{
+			name				forward_glow
+			group				arrowsglow
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/forward_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				back_glow
+			group				arrowsglow
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/back_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				background_MDIngameMenuPanelGold
+			group				mainpanelgold
+			style				WINDOW_STYLE_SHADER
+			rect				0 453.8 640 30
+			background			"gfx/menus/ingame/ingamemenupanelgold"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk2_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk2_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk3_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk3_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk4_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk4_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk5_MDIngamePanelGoldDivider1
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerright"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				bk5_MDIngamePanelGoldDivider2
+			group				bk_MDIngamePanelGoldDivider
+			style				WINDOW_STYLE_FILLED
+			rect				170 462 24 14
+			background			"gfx/menus/ingame/ingamemenupanelgolddividerleft"
+			backcolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Character Icons/Models
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		//------------------------
+		//     Kanan Jarrus
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 158 85 85
+			background			"gfx/menus/charactericons/kan_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_KANAN
+
+			mouseEnter 
+			{ 
+				show			kan_glow
+				setitemrect		kan_glow	 38 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kan_glow
+			}	 
+ 	  
+			action 
+			{ 
+				hide 			iconsREBELSpage ;
+				show 			subIconsBackButton ;
+				hide			kan_glow ;
+				show			kanan 	
+			}
+		}
+
+		//------------------------
+		//   Ezra Bridger
+		//------------------------	
+
+		itemDef 
+		{
+			name				ezr_icon_main
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 158 85 85
+			background			"gfx/menus/charactericons/ezr_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_EZRA
+
+			mouseEnter 
+			{ 
+				show			ezr_glow
+				setitemrect		ezr_glow 134 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ezr_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsREBELSpage ;
+				show 			subIconsBackButton ;
+				hide			ezr_glow ;
+				show			ezr 	
+			}
+		}
+
+		//------------------------
+		//    Sabine Wren
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 158 85 85
+			background			"gfx/menus/charactericons/sab_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_SABINE
+
+
+			mouseEnter 
+			{ 
+				show			sab_glow
+				setitemrect		sab_glow		230 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			sab_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/sabine/misc/taunt4.mp3" ;
+				exec			"model sabine"
+				close			all ; 
+			}
+		}
+
+		//------------------------
+		//    Hera
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 158 85 85
+			background			"gfx/menus/charactericons/hera_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_HERA
+
+
+			mouseEnter 
+			{ 
+				show			hera_glow
+				setitemrect		hera_glow		326 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			hera_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/hera/misc/victory2.mp3" ;
+				exec			"model hera"
+				close			all ; 
+			}
+		}
+
+		//------------------------
+		//  Ahsoka Tano (Rebels)
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 158 85 85
+			background			"gfx/menus/charactericons/tan3_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_AHSOKA_REBELS
+
+
+			mouseEnter 
+			{ 
+				show			tan3_glow
+				setitemrect		tan3_glow	422 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			tan3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/ahsoka_rebels/misc/taunt2.mp3" ;
+				exec			"model ahsoka_rebels"
+				close			all ; open ingame_saber3
+			}
+		}
+
+		//------------------------
+		//   Rex
+		//------------------------	
+
+		itemDef 
+		{
+			name				rex_icon_main
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 158 85 85
+			background			"gfx/menus/charactericons/rex_old_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_REX_OLD
+
+			mouseEnter 
+			{ 
+				show			rex_old_glow
+				setitemrect		rex_old_glow 518 158 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rex_old_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsREBELSpage ;
+				show 			subIconsBackButton ;
+				hide			rex_old_glow ;
+				show			rex 	
+			}
+		}
+
+		//------------------------
+		//    Thrawn
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 254 85 85
+			background			"gfx/menus/charactericons/thrawn_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_THRAWN
+
+			mouseEnter 
+			{ 
+				show			thrawn_glow
+				setitemrect		thrawn_glow	38 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			thrawn_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/thrawn/misc/taunt1.mp3" ; 
+				close			all ;
+				exec			"model thrawn"
+			}
+		}
+
+		//------------------------
+		//    Grand Inquisitor
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 254 85 85
+			background			"gfx/menus/charactericons/inq_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_GRAND_INQUISITOR
+
+			mouseEnter 
+			{ 
+				show			inq_glow
+				setitemrect		inq_glow	134 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			inq_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/inquisitor/misc/taunt2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model grandinquisitor"
+			}
+		}
+
+		//------------------------
+		//       7th Sister
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 254 85 85
+			background			"gfx/menus/charactericons/7thsis_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_SEVENTHSISTER
+
+			mouseEnter 
+			{ 
+				show			seventhsis_glow
+				setitemrect		seventhsis_glow	230 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			seventhsis_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/7th_sister/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model 7thsister"
+			}
+		}
+
+		//------------------------
+		//      5th Brother
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 254 85 85
+			background			"gfx/menus/charactericons/5thbro_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_FIFTHBROTHER
+
+			mouseEnter 
+			{ 
+				show			fifthbro_glow
+				setitemrect		fifthbro_glow	326 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			fifthbro_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/5th_brother/misc/taunt3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model 5thbrother"
+			}
+		}
+
+		//------------------------
+		//      8th Brother
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 254 85 85
+			background			"gfx/menus/charactericons/8thbro_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_EIGHTHBROTHER
+
+			mouseEnter 
+			{ 
+				show			eighthbro_glow
+				setitemrect		eighthbro_glow	422 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			eighthbro_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/5th_brother/misc/taunt3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model 8thbrother"
+			}
+		}
+
+		//------------------------
+		//  Darth Maul (Rebels)
+		//------------------------
+	
+		itemDef 
+		{
+			name				mau_reb_icon_main
+			group				iconsREBELSpage
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 254 85 85
+			background			"gfx/menus/charactericons/mau_reb3_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+			descText			@MD_MENU_CHARS_MAUL_REBELS
+
+			mouseEnter 
+			{ 
+				show			mau_reb3_glow
+				setitemrect		mau_reb3_glow 518 254 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb3_glow
+			}	 
+ 	  
+			action 
+			{  
+				hide 			iconsREBELSpage ;
+				show 			subIconsBackButton ;
+				hide			mau_reb3_glow ;
+				show			mau_reb 	
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Character Icons/Models Submenus
+		//
+		//----------------------------------------------------------------------------------------------
+
+		//------------------------
+		//     Caleb Dume
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				kanan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				86 206 85 85
+			background			"gfx/menus/charactericons/caleb_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_CALEB
+
+			mouseEnter 
+			{ 
+				show			caleb_glow
+				setitemrect		caleb_glow	 86 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			caleb_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/caleb_dume/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model caleb_dume"
+				exec			"cg_fov 84"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				kanan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				182 206 85 85
+			background			"gfx/menus/charactericons/caleb2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_CALEB_ROBE
+
+			mouseEnter 
+			{ 
+				show			caleb2_glow
+				setitemrect		caleb2_glow	 182 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			caleb2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/caleb_dume/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model caleb_dume/robed"
+				exec			"cg_fov 84"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				kanan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				278 206 85 85
+			background			"gfx/menus/charactericons/caleb3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_CALEB_HOOD
+
+			mouseEnter 
+			{ 
+				show			caleb3_glow
+				setitemrect		caleb3_glow	 278 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			caleb3_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/caleb_dume/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model caleb_dume/hooded"
+				exec			"cg_fov 84"
+			}
+		}
+
+		//------------------------
+		//     Kanan Jarrus
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				kanan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				374 206 85 85
+			background			"gfx/menus/charactericons/kan_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KANAN
+
+			mouseEnter 
+			{ 
+				show			kan_glow
+				setitemrect		kan_glow	 374 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kan_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kanan/misc/victory2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model kanan"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				kanan
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				470 206 85 85
+			background			"gfx/menus/charactericons/kan2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_KANAN_BLIND
+
+			mouseEnter 
+			{ 
+				show			kan2_glow
+				setitemrect		kan2_glow	470 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			kan2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/kanan/misc/gloat2.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model kanan/blind"
+			}
+		}
+
+		//------------------------
+		//   Ezra Bridger S1-2
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				ezr
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/ezr2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_EZRA_S1
+
+			mouseEnter 
+			{ 
+				show			ezr2_glow
+				setitemrect		ezr2_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ezr2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/ezra/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model ezra"
+			}
+		}
+
+		//------------------------
+		//   Ezra Bridger S3-4
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				ezr
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/ezr_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_EZRA_S3
+
+			mouseEnter 
+			{ 
+				show			ezr_glow
+				setitemrect		ezr_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			ezr_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/ezra/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model ezrabridger"
+			}
+		}
+
+		//------------------------
+		//     Rex
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin2
+			group				rex
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/rex_old_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_REX_OLD
+
+			mouseEnter 
+			{ 
+				show			rex_old_glow
+				setitemrect		rex_old_glow	 230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rex_old_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/rex_rebels/misc/taunt1.mp3" ; 
+				close			all ;
+				exec			"model rex_old"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				rex
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/rex_endor_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_REX_ENDOR
+
+			mouseEnter 
+			{ 
+				show			rex_endor_glow
+				setitemrect		rex_endor_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			rex_endor_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/rex_rebels/misc/victory1.mp3" ; 
+				close			all ;
+				exec			"model rex_endor"
+			}
+		}
+
+		//------------------------
+		//  Darth Maul (Rebels)
+		//------------------------	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mau_reb
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				38 206 85 85
+			background			"gfx/menus/charactericons/mau_reb1_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_REBELS_HOOD
+
+			mouseEnter 
+			{ 
+				show			mau_reb1_glow
+				setitemrect		mau_reb1_glow	38 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb1_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/maul_rebels/misc/gloat1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model maul_rebels/shirtless_hooded"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mau_reb
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				134 206 85 85
+			background			"gfx/menus/charactericons/mau_reb2_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_REBELS_COWEL
+
+			mouseEnter 
+			{ 
+				show			mau_reb2_glow
+				setitemrect		mau_reb2_glow	134 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb2_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/maul_rebels/misc/gloat3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model maul_rebels/shirtless_cowelbase"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mau_reb
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				230 206 85 85
+			background			"gfx/menus/charactericons/mau_reb_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_REBELS_SHIRTLESS
+
+			mouseEnter 
+			{ 
+				show			mau_reb_glow
+				setitemrect		mau_reb_glow	230 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb_glow
+			}	 
+ 	  
+			action 
+			{
+				play			"sound/chars/maul_rebels/misc/gloat3.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model maul_rebels/shirtless"
+			}
+		}	
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mau_reb
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				326 206 85 85
+			background			"gfx/menus/charactericons/mau_reb3_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_REBELS
+
+			mouseEnter 
+			{ 
+				show			mau_reb3_glow
+				setitemrect		mau_reb3_glow	326 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb3_glow
+			}	 
+ 	  
+			action 
+			{
+				play			"sound/chars/maul_rebels/misc/taunt1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model maul_rebels"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mau_reb
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				422 206 85 85
+			background			"gfx/menus/charactericons/mau_reb4_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_REBELS_DESERT
+
+			mouseEnter 
+			{ 
+				show			mau_reb4_glow
+				setitemrect		mau_reb4_glow	422 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb4_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/chars/maul_rebels/misc/anger1.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model maul_rebels/desert"
+			}
+		}
+
+		itemDef 
+		{
+			name				challenge_begin3
+			group				mau_reb
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				518 206 85 85
+			background			"gfx/menus/charactericons/mau_reb5_icon"
+			forecolor			1 1 1 0.8
+			visible				0
+			descText			@MD_MENU_CHARS_MAUL_REBELS_TWINSUNS
+
+			mouseEnter 
+			{ 
+				show			mau_reb5_glow
+				setitemrect		mau_reb5_glow	518 206 85 85
+			}
+
+			mouseExit 
+			{ 
+				hide			mau_reb5_glow
+			}	 
+ 	  
+			action 
+			{
+				play			"sound/chars/maul_rebels/misc/taunt4.mp3" ; 
+				close			all ; open ingame_saber3
+				exec			"model maul_rebels/twinsuns"
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   BACK BUTTON for submenus and ARROWS
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		itemDef 
+		{
+			name				subIconsBackButton
+			group				back
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				255 415 130 40 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			65
+			textaligny			6
+			forecolor			1 1 1 0.9
+			visible				0
+	  
+			action 
+			{ 
+				play			"sound/interface/esc.wav"
+				show 			iconsREBELSpage ;
+				hide 			subIconsBackButton ;
+				hide 			ezr ;
+				hide 			mau_reb ; 
+				hide			kanan ;
+				hide			rex ;
+			}
+		}
+
+		//Arrows In Right Corner
+		
+		itemDef 
+		{
+			name				rightarrowToSequel
+			group				arrows
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				534 420 30 30
+			background			"gfx/menus/forward_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+
+			mouseEnter 
+			{ 
+				show			forward_glow
+				setitemrect		forward_glow	534 420 30 30
+			}
+
+			mouseExit 
+			{ 
+				hide			forward_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show 			iconsREBELSpage ;
+				hide 			arrowsglow ;
+				hide 			subIconsBackButton ;
+				hide 			ezr ;
+				hide 			mau_reb ; 
+				hide			kanan ;
+				hide			rex ;
+
+				close			all
+				open			ingamecharactersequelMenu
+			}
+		}
+
+		itemDef 
+		{
+			name				leftarrowToOriginal2
+			group				arrows
+			style				WINDOW_STYLE_SHADER
+			type				ITEM_TYPE_BUTTON
+			rect				474 420 30 30
+			background			"gfx/menus/back_icon"
+			forecolor			1 1 1 0.8
+			visible				1
+
+			mouseEnter 
+			{ 
+				show			back_glow
+				setitemrect		back_glow	474 420 30 30
+			}
+
+			mouseExit 
+			{ 
+				hide			back_glow
+			}	 
+ 	  
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				show 			iconsREBELSpage ;
+				hide 			arrowsglow ;
+				hide 			subIconsBackButton ;
+				hide 			ezr ;
+				hide 			mau_reb ; 
+				hide			kanan ;
+				hide			rex ;
+
+				close			all
+				open			ingamecharacteroriginal2Menu
+			}
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//   Glow Icons
+		//
+		//----------------------------------------------------------------------------------------------		
+
+		//Rebels Icon Glows
+		itemDef 
+		{
+			name				kan_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/kan_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				kan2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/kan2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				caleb_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/caleb_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				caleb2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/caleb2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				caleb3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/caleb3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ezr_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ezr_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				ezr2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/ezr2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				tan3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/tan3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				sab_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/sab_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				hera_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/hera_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				rex_old_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/rex_old_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				rex_endor_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/rex_endor_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				thrawn_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/thrawn_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				inq_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/inq_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				seventhsis_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/7thsis_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				fifthbro_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/5thbro_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				eighthbro_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/8thbro_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_reb_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_reb_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_reb1_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_reb1_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_reb2_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_reb2_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_reb3_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_reb3_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_reb4_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_reb4_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		itemDef 
+		{
+			name				mau_reb5_glow
+			group				glowicons
+			style				WINDOW_STYLE_SHADER
+			rect				0 0 0 0
+			background			"gfx/menus/charactericons/mau_reb5_icon_glow"
+			forecolor			1 1 1 1
+			visible				0
+			decoration
+		}
+
+		//----------------------------------------------------------------------------------------------
+		//
+		//	OTHER MAIN MENU BUTTONS
+		//
+		//----------------------------------------------------------------------------------------------
+
+		// Big button "BACK"
+		itemDef 
+		{
+			name				backbutton
+			group				back
+			text				@MD_MENU_MAIN_BACK
+			type				ITEM_TYPE_BUTTON
+			style				WINDOW_STYLE_EMPTY
+			rect				70 458 101 24
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible				1
+  			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk_MDIngamePanelGoldDivider1 116 468 0 0 70 465 22 12 10 15
+					transition		bk_MDIngamePanelGoldDivider2 116 468 0 0 163 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk_MDIngamePanelGoldDivider1 70 465 22 12 116 468 0 0 10 15
+					transition		bk_MDIngamePanelGoldDivider2 163 465 22 12 116 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/esc.wav"  
+				close			all ; 
+				open			ingamecharactereramenu 
+				show 			iconsREBELSpage ;
+				hide 			subIconsBackButton ;
+				hide 			ezr ;
+				hide 			mau_reb ; 
+				hide			kanan ;
+				hide			rex ;
+			}
+		}
+/*
+		// Player Dark Side Faction
+        itemDef
+		{
+			name				dark
+			group				pause1
+			type				ITEM_TYPE_BUTTON
+			rect				170 458 101 24 
+			text				@MD_MENU_MAIN_DARK_SIDE
+			font				5
+			textscale			0.19
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk2_MDIngamePanelGoldDivider1 216 468 0 0 170 465 22 12 10 15
+					transition		bk2_MDIngamePanelGoldDivider2 216 468 0 0 263 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk2_MDIngamePanelGoldDivider1 170 465 22 12 216 468 0 0 10 15
+					transition		bk2_MDIngamePanelGoldDivider2 263 465 22 12 216 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action
+			{
+				play			"sound/chars/side/dark.mp3"
+			    //exec			"helpusobi 1"
+				//exec			"playerTeam enemy"
+				exec			"echo ^1JOINED ^1DARK ^1SIDE ^1TEAM"
+			}
+		}
+
+		// Big button "SP CHARACTER"
+		itemDef 
+		{
+			name				spcharactermenu
+			group				pause
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				270 458 101 24 
+			text				@MD_MENU_MAIN_JKA
+			descText			@MD_MENU_MAIN_JKA_DESC
+			font				5
+			textscale			0.19
+			textaligny			0
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			forecolor			1 1 1 0.9
+			visible				1
+	  	  
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk3_MDIngamePanelGoldDivider1 316 468 0 0 270 465 22 12 10 15
+					transition		bk3_MDIngamePanelGoldDivider2 316 468 0 0 363 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk3_MDIngamePanelGoldDivider1 270 465 22 12 316 468 0 0 10 15
+					transition		bk3_MDIngamePanelGoldDivider2 363 465 22 12 316 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+			    //exec			"model player"
+				close			all
+				open			ingamespcharacterMenu
+			}
+		}
+
+		// Player Light Side Faction
+        itemDef
+		{
+			name				light
+			group				pause
+			type				ITEM_TYPE_BUTTON
+			text				@MD_MENU_MAIN_LIGHT_SIDE
+			rect				370 458 101 24 
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible				1
+			
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk4_MDIngamePanelGoldDivider1 416 468 0 0 370 465 22 12 10 15
+					transition		bk4_MDIngamePanelGoldDivider2 416 468 0 0 463 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk4_MDIngamePanelGoldDivider1 370 465 22 12 416 468 0 0 10 15
+					transition		bk4_MDIngamePanelGoldDivider2 463 465 22 12 416 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action
+			{
+				play			"sound/chars/side/light.mp3"
+				//exec			"helpusobi 1"
+				//exec			"playerTeam player"
+				exec			"echo ^2JOINED ^2LIGHT ^2SIDE ^2TEAM"
+			}
+		}
+*/
+		// RESUME button in the lower right corner
+		itemDef 
+		{
+			name				resume
+			group				resume
+			style				WINDOW_STYLE_EMPTY
+			type				ITEM_TYPE_BUTTON
+			rect				470 458 101 24
+			text				@MD_MENU_MAIN_RESUME
+			font				5
+			textscale			0.19
+			textalign			ITEM_ALIGN_CENTER
+			textstyle			3
+			textalignx			50
+			textaligny			0
+			forecolor			1 1 1 0.9
+			visible			1
+  	  
+			mouseEnter
+			{
+					show			background_MDIngameMenuPanelGold
+
+					transition		bk5_MDIngamePanelGoldDivider1 516 468 0 0 470 465 22 12 10 15
+					transition		bk5_MDIngamePanelGoldDivider2 516 468 0 0 563 465 22 12 10 15
+			}
+			mouseExit
+			{
+					transition		bk5_MDIngamePanelGoldDivider1 470 465 22 12 516 468 0 0 10 15
+					transition		bk5_MDIngamePanelGoldDivider2 563 465 22 12 516 468 0 0 10 15
+
+					hide			background_MDIngameMenuPanelGold
+			}
+			action 
+			{ 
+				play			"sound/interface/button1.wav" ; 
+				uiScript		closeingame					
+			}
+		}
+
+	}
+}

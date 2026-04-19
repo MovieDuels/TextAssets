@@ -1,0 +1,41 @@
+// menu defs
+// 
+{	
+	loadMenu { "ui/MD_MP/main.menu" }
+ 	loadMenu { "ui/MD_MP/joinserver.menu" }
+ 	loadMenu { "ui/MD_MP/player.menu" }
+ 	loadMenu { "ui/MD_MP/player2.menu" }
+	loadMenu { "ui/MD_MP/playerjedi.menu" }
+	loadMenu { "ui/MD_MP/playersith.menu" }
+ 	loadMenu { "ui/MD_MP/playergunner.menu" }
+ 	loadMenu { "ui/MD_MP/createserver.menu" }
+	loadMenu { "ui/MD_MP/connect.menu" }
+ 	loadMenu { "ui/MD_MP/rules.menu" }
+ 	loadMenu { "ui/MD_MP/rules_games.menu" }
+ 	loadMenu { "ui/MD_MP/rules_force.menu" }
+ 	loadMenu { "ui/MD_MP/rules_weapons.menu" }
+ 	loadMenu { "ui/MD_MP/rules_items.menu" }
+ 	loadMenu { "ui/MD_MP/rules_moves.menu" }
+	loadMenu { "ui/MD_MP/controls.menu" }
+ 	loadMenu { "ui/MD_MP/setup.menu" }
+	loadMenu { "ui/MD_MP/demo.menu" }
+	loadMenu { "ui/MD_MP/password.menu" }
+	loadMenu { "ui/MD_MP/quit.menu" }
+	loadMenu { "ui/MD_MP/error.menu" }
+	loadMenu { "ui/MD_MP/serverinfo.menu" }
+	loadMenu { "ui/MD_MP/findplayer.menu" }
+	loadMenu { "ui/MD_MP/createfavorite.menu" }
+ 	loadMenu { "ui/MD_MP/multiplayer.menu" }
+ 	loadMenu { "ui/MD_MP/advancedcreateserver.menu" }
+ 	loadMenu { "ui/MD_MP/saber.menu" }
+ 	loadMenu { "ui/MD_MP/quickgame.menu" }
+ 	loadMenu { "ui/MD_MP/quickgame2.menu" }
+ 	loadMenu { "ui/MD_MP/quickbots.menu" }
+	
+	loadMenu { "ui/MD_MP/credits.menu" }
+
+	loadMenu { "ui/MD_MP/vid_warning.menu" }
+	loadMenu { "ui/MD_MP/videodriver.menu" }
+	loadMenu { "ui/MD_MP/password_request.menu" }
+
+}

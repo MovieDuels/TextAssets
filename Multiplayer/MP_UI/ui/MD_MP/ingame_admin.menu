@@ -1,0 +1,786 @@
+// ADMINISTRATION CONTROL PANEL MENU
+{
+    menuDef
+    {
+        name            "ingame_admin"
+        visible         0
+        fullscreen      0
+        rect            50 40 550 431
+        focusColor      1 1 1 1
+        style           1
+        border          1
+
+        // Bottom-screen description text (keep exactly as you wanted)
+        descX           300
+        descY           445
+        descScale       1
+        descColor       1 .682 0 .8
+        descAlignment   ITEM_ALIGN_CENTER
+
+        onopen
+        {
+            uiscript clearmouseover kick;
+            uiscript clearmouseover changemap;
+            uiScript loadArenas;
+            uiscript resetmaplist;
+            uiScript update "ui_GetAdminPass";
+
+            hide grpACP;
+            hide doneButton;
+        }
+
+        // ---------------------------------------------------------
+        // BACKGROUND IMAGE
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name        background_pic
+            group       none
+            style       WINDOW_STYLE_SHADER
+            rect        -20 -40 950 465
+            background  "gfx/menus/menu_box_ingame"
+            forecolor   1 1 1 1
+            visible     1
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // TITLE BAR
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            playerconfigtitle
+            style           WINDOW_STYLE_SHADER
+            background      "gfx/menus/menu_blendbox"
+            text            @MD_MP_MENU_ADMIN_TITLE
+            rect            10 -30 340 30
+            textalign       ITEM_ALIGN_CENTER
+            textalignx      170
+            textaligny      5
+            font            3
+            textscale       0.8
+            forecolor       .549 .854 1 1
+            visible         1
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // BLUE PANEL BACKGROUND (shared by all panels)
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            setup_background2
+            group           grpACP
+            style           WINDOW_STYLE_FILLED
+            rect            298 35 270 205
+            backcolor       0 0 .6 .5
+            forecolor       1 1 1 1
+            border          1
+            bordercolor     0 0 .6 1
+            visible         0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // OK BUTTON GLOW (shared)
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name        doneButton
+            group       none
+            style       WINDOW_STYLE_SHADER
+            rect        300 186 80 30
+            background  "gfx/menus/menu_buttonback"
+            forecolor   1 1 1 1
+            visible     0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // CLOSE BUTTON GLOW
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name        closeButton
+            group       none
+            style       WINDOW_STYLE_SHADER
+            rect        495 392 80 30
+            background  "gfx/menus/menu_blendbox"
+            forecolor   1 1 1 1
+            visible     0
+            decoration
+        }
+
+                // ---------------------------------------------------------
+        // LEFT-SIDE BUTTON GLOWS
+        // ---------------------------------------------------------
+
+        itemDef
+        {
+            name        punish_glow
+            group       glows
+            style       WINDOW_STYLE_SHADER
+            rect        0 5 120 30
+            background  "gfx/menus/menu_blendbox2"
+            forecolor   1 1 1 1
+            visible     0
+            decoration
+        }
+
+        itemDef
+        {
+            name        kick_glow
+            group       glows
+            style       WINDOW_STYLE_SHADER
+            rect        0 35 120 30
+            background  "gfx/menus/menu_blendbox2"
+            forecolor   1 1 1 1
+            visible     0
+            decoration
+        }
+
+        itemDef
+        {
+            name        changemap_glow
+            group       glows
+            style       WINDOW_STYLE_SHADER
+            rect        0 65 120 30
+            background  "gfx/menus/menu_blendbox2"
+            forecolor   1 1 1 1
+            visible     0
+            decoration
+        }
+
+        itemDef
+        {
+            name        addholocron_glow
+            group       glows
+            style       WINDOW_STYLE_SHADER
+            rect        0 95 120 30
+            background  "gfx/menus/menu_blendbox2"
+            forecolor   1 1 1 1
+            visible     0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // LEFT-SIDE BUTTONS
+        // ---------------------------------------------------------
+
+        // --------------------
+        // PUNISH BUTTON
+        // --------------------
+        itemDef
+        {
+            name            punishbutton
+            group           grpbutton
+            text            "PUNISH"
+            descText        @MD_MP_MENU_PUNISH_CLIENT
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_EMPTY
+            rect            10 5 103 30
+            font            3
+            textscale       0.7
+            textalign       ITEM_ALIGN_RIGHT
+            textalignx      100
+            textaligny      5
+            textstyle       3
+            forecolor       1 .682 0 1
+            visible         1
+
+            action
+            {
+                play "sound/interface/button1.wav";
+
+                hide grpACP;
+                show setup_background2;
+
+                show punish_title;
+                show punish_list;
+                show punish_ok;
+
+                hide kick_title;
+                hide kick_list;
+                hide kick_ok;
+
+                hide changemap_title;
+                hide changemap_list;
+                hide changemap_ok;
+
+                hide holocron_title;
+                hide holocron_list;
+                hide holocron_ok;
+
+                setitemcolor grpbutton forecolor 1 .682 0 1;
+                setitemcolor punishbutton forecolor 1 1 1 1;
+            }
+
+            mouseEnter { show punish_glow; }
+            mouseExit  { hide punish_glow; }
+        }
+
+        // --------------------
+        // KICK BUTTON
+        // --------------------
+        itemDef
+        {
+            name            kickbutton
+            group           grpbutton
+            text            "KICK"
+            descText        @MD_MP_MENU_KICK_CLIENT
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_EMPTY
+            rect            10 35 103 30
+            font            3
+            textscale       0.7
+            textalign       ITEM_ALIGN_RIGHT
+            textalignx      100
+            textaligny      5
+            textstyle       3
+            forecolor       1 .682 0 1
+            visible         1
+
+            action
+            {
+                play "sound/interface/button1.wav";
+
+                hide grpACP;
+                show setup_background2;
+
+                show kick_title;
+                show kick_list;
+                show kick_ok;
+
+                hide punish_title;
+                hide punish_list;
+                hide punish_ok;
+
+                hide changemap_title;
+                hide changemap_list;
+                hide changemap_ok;
+
+                hide holocron_title;
+                hide holocron_list;
+                hide holocron_ok;
+
+                setitemcolor grpbutton forecolor 1 .682 0 1;
+                setitemcolor kickbutton forecolor 1 1 1 1;
+            }
+
+            mouseEnter { show kick_glow; }
+            mouseExit  { hide kick_glow; }
+        }
+
+        // --------------------
+        // CHANGEMAP BUTTON
+        // --------------------
+        itemDef
+        {
+            name            changemapbutton
+            group           grpbutton
+            text            "CHANGEMAP"
+            descText        @MD_MP_MENU_CHANGEMAP
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_EMPTY
+            rect            10 65 103 30
+            font            3
+            textscale       0.7
+            textalign       ITEM_ALIGN_RIGHT
+            textalignx      100
+            textaligny      5
+            textstyle       3
+            forecolor       1 .682 0 1
+            visible         1
+
+            action
+            {
+                play "sound/interface/button1.wav";
+
+                hide grpACP;
+                show setup_background2;
+
+                show changemap_title;
+                show changemap_list;
+                show changemap_ok;
+
+                hide punish_title;
+                hide punish_list;
+                hide punish_ok;
+
+                hide kick_title;
+                hide kick_list;
+                hide kick_ok;
+
+                hide holocron_title;
+                hide holocron_list;
+                hide holocron_ok;
+
+                setitemcolor grpbutton forecolor 1 .682 0 1;
+                setitemcolor changemapbutton forecolor 1 1 1 1;
+            }
+
+            mouseEnter { show changemap_glow; }
+            mouseExit  { hide changemap_glow; }
+        }
+
+        // --------------------
+        // ADD HOLOCRON BUTTON
+        // --------------------
+        itemDef
+        {
+            name            addholocron
+            group           grpbutton
+            text            "ADD HOLOCRON"
+            descText        @MD_MP_MENU_ADD_HOLOCRON
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_EMPTY
+            rect            10 95 103 30
+            font            3
+            textscale       0.7
+            textalign       ITEM_ALIGN_RIGHT
+            textalignx      100
+            textaligny      5
+            textstyle       3
+            forecolor       1 .682 0 1
+            visible         1
+
+            action
+            {
+                play "sound/interface/button1.wav";
+
+                hide grpACP;
+                show setup_background2;
+
+                show holocron_title;
+                show holocron_list;
+                hide holocron_ok;
+
+                hide punish_title;
+                hide punish_list;
+                hide punish_ok;
+
+                hide kick_title;
+                hide kick_list;
+                hide kick_ok;
+
+                hide changemap_title;
+                hide changemap_list;
+                hide changemap_ok;
+                setcvar ui_selectedHolocron "";
+
+
+                setitemcolor grpbutton forecolor 1 .682 0 1;
+                setitemcolor addholocron forecolor 1 1 1 1;
+            }
+
+            mouseEnter { show addholocron_glow; }
+            mouseExit  { hide addholocron_glow; }
+        }
+
+        // --------------------
+        // CLOSE BUTTON
+        // --------------------
+        itemDef
+        {
+            name            close
+            group           grpbutton
+            text            "Close"
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_EMPTY
+            rect            495 392 80 30
+            textalign       ITEM_ALIGN_CENTER
+            textalignx      40
+            textaligny      0
+            font            3
+            textscale       1
+            forecolor       1 .682 0 1
+            visible         1
+
+            action
+            {
+                play "sound/interface/button1.wav";
+                uiScript closeingame;
+            }
+
+            mouseEnter { show closeButton; }
+            mouseExit  { hide closeButton; }
+        }
+
+                // ---------------------------------------------------------
+        // PUNISH PANEL — TITLE
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            punish_title
+            group           grpACP
+            text            @MD_MP_MENU_PUNISH_DESC
+            rect            300 35 230 20
+            textalign       ITEM_ALIGN_LEFT
+            textalignx      5
+            textaligny      -2
+            font            3
+            textscale       .8
+            forecolor       .549 .854 1 1
+            visible         0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // PUNISH PANEL — LISTBOX
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name                punish_list
+            group               grpACP
+            descText            @MENU_PUNISH_SELECT_CLIENT
+            rect                300 55 230 108
+            style               WINDOW_STYLE_FILLED
+            type                ITEM_TYPE_LISTBOX
+            elementwidth        120
+            elementheight       15
+            elementtype         LISTBOX_TEXT
+            feeder              FEEDER_PLAYER_LIST
+            border              1
+            bordercolor         1 .682 0 .8
+            backcolor           0 0 .5 .25
+            outlinecolor        .1 .1 .7 .5
+            font                3
+            textaligny          12
+            textscale           .8
+            forecolor           .615 .615 .956 1
+            visible             0
+
+            mouseEnter
+            {
+                fadein message_arena;
+                setitemcolor punish_list bordercolor .7 0 0 1;
+            }
+
+            mouseExit
+            {
+                fadeout message_arena;
+                setitemcolor punish_list bordercolor .5 .5 .5 1;
+            }
+
+            action
+            {
+                play "sound/interface/button1.wav";
+            }
+        }
+
+        // ---------------------------------------------------------
+        // PUNISH PANEL — OK BUTTON
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            punish_ok
+            group           grpACP
+            text            @MD_MP_MENU_OKAY
+            descText        @MD_MP_MENU_BEGIN_PUNISH
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_FILLED
+            rect            320 186 80 30
+            textalign       ITEM_ALIGN_CENTER
+            textalignx      40
+            textaligny      0
+            font            3
+            textscale       1
+            forecolor       1 .682 0 1
+            visible         0
+
+            action
+            {
+                play "sound/interface/button1.wav";
+                uiScript AdminMenuPunish;
+                uiScript closeingame;
+            }
+
+            mouseEnter { show doneButton; }
+            mouseExit  { hide doneButton; }
+        }
+
+                // ---------------------------------------------------------
+        // KICK PANEL — TITLE
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            kick_title
+            group           grpACP
+            text            "Kick a client"
+            rect            300 35 230 20
+            textalign       ITEM_ALIGN_LEFT
+            textalignx      5
+            textaligny      -2
+            font            3
+            textscale       .8
+            forecolor       .549 .854 1 1
+            visible         0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // KICK PANEL — LISTBOX
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name                kick_list
+            group               grpACP
+            descText            @MENU_KICK_SELECT_CLIENT
+            rect                300 55 230 108
+            style               WINDOW_STYLE_FILLED
+            type                ITEM_TYPE_LISTBOX
+            elementwidth        120
+            elementheight       15
+            elementtype         LISTBOX_TEXT
+            feeder              FEEDER_PLAYER_LIST
+            border              1
+            bordercolor         1 .682 0 .8
+            backcolor           0 0 .5 .25
+            outlinecolor        .1 .1 .7 .5
+            font                3
+            textaligny          12
+            textscale           .8
+            forecolor           .615 .615 .956 1
+            visible             0
+
+            mouseEnter
+            {
+                fadein message_arena;
+                setitemcolor kick_list bordercolor .7 0 0 1;
+            }
+
+            mouseExit
+            {
+                fadeout message_arena;
+                setitemcolor kick_list bordercolor .5 .5 .5 1;
+            }
+
+            action
+            {
+                play "sound/interface/button1.wav";
+            }
+        }
+
+        // ---------------------------------------------------------
+        // KICK PANEL — OK BUTTON
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            kick_ok
+            group           grpACP
+            text            @MD_MP_MENU_OKAY
+            descText        @MD_MP_MENU_BEGIN_KICK
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_FILLED
+            rect            320 186 80 30
+            textalign       ITEM_ALIGN_CENTER
+            textalignx      40
+            textaligny      0
+            font            3
+            textscale       1
+            forecolor       1 .682 0 1
+            visible         0
+
+            action
+            {
+                play "sound/interface/button1.wav";
+                uiScript AdminMenuKick;
+                uiScript closeingame;
+            }
+
+            mouseEnter { show doneButton; }
+            mouseExit  { hide doneButton; }
+        }
+
+                // ---------------------------------------------------------
+        // CHANGEMAP PANEL — TITLE
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            changemap_title
+            group           grpACP
+            text            "Select a map"
+            rect            300 35 230 20
+            textalign       ITEM_ALIGN_LEFT
+            textalignx      5
+            textaligny      -2
+            font            3
+            textscale       .8
+            forecolor       .549 .854 1 1
+            visible         0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // CHANGEMAP PANEL — LISTBOX
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name                changemap_list
+            group               grpACP
+            descText            @MD_MP_MENU_SELECT_DESIRED_MAP
+            rect                300 55 230 108
+            type                ITEM_TYPE_LISTBOX
+            style               WINDOW_STYLE_FILLED
+            elementwidth        120
+            elementheight       15
+            elementtype         LISTBOX_TEXT
+            feeder              FEEDER_ALLMAPS
+            border              1
+            bordercolor         1 .682 0 .8
+            backcolor           0 0 .5 .25
+            outlinecolor        .1 .1 .7 .5
+            font                3
+            textaligny          12
+            textscale           .8
+            forecolor           .615 .615 .956 1
+            visible             0
+
+            mouseEnter
+            {
+                fadein message_arena;
+                setitemcolor changemap_list bordercolor .7 0 0 1;
+            }
+
+            mouseExit
+            {
+                fadeout message_arena;
+                setitemcolor changemap_list bordercolor .5 .5 .5 1;
+            }
+
+            action
+            {
+                play "sound/interface/button1.wav";
+            }
+        }
+
+        // ---------------------------------------------------------
+        // CHANGEMAP PANEL — OK BUTTON
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            changemap_ok
+            group           grpACP
+            text            @MD_MP_MENU_OKAY
+            descText        @MD_MP_MENU_BEGIN_CHANGEMAP
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_FILLED
+            rect            320 186 80 30
+            textalign       ITEM_ALIGN_CENTER
+            textalignx      40
+            textaligny      0
+            font            3
+            textscale       1
+            forecolor       1 .682 0 1
+            visible         0
+
+            action
+            {
+                play "sound/interface/button1.wav";
+                uiScript AdminMenuChangeMap;
+                uiScript closeingame;
+            }
+
+            mouseEnter { show doneButton; }
+            mouseExit  { hide doneButton; }
+        }
+                // ---------------------------------------------------------
+        // HOLOCRON PANEL — TITLE
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            holocron_title
+            group           grpACP
+            text            "Select a holocron type"
+            rect            300 35 230 20
+            textalign       ITEM_ALIGN_LEFT
+            textalignx      5
+            textaligny      -2
+            font            3
+            textscale       .8
+            forecolor       .549 .854 1 1
+            visible         0
+            decoration
+        }
+
+        // ---------------------------------------------------------
+        // HOLOCRON PANEL — LISTBOX
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name                holocron_list
+            group               grpACP
+            descText            @MD_MP_MENU_SELECT_HOLOCRON
+            rect                300 55 230 108
+            style               WINDOW_STYLE_FILLED
+            type                ITEM_TYPE_LISTBOX
+            elementwidth        120
+            elementheight       15
+            elementtype         LISTBOX_TEXT
+            feeder              FEEDER_HOLOCRON_LIST
+            border              1
+            bordercolor         1 .682 0 .8
+            backcolor           0 0 .5 .25
+            outlinecolor        .1 .1 .7 .5
+            font                3
+            textaligny          12
+            textscale           .8
+            forecolor           .615 .615 .956 1
+            visible             0
+
+            mouseEnter
+            {
+                fadein message_arena;
+                setitemcolor holocron_list bordercolor .7 0 0 1;
+            }
+
+            mouseExit
+            {
+                fadeout message_arena;
+                setitemcolor holocron_list bordercolor .5 .5 .5 1;
+            }
+
+            action
+            {
+                play "sound/interface/button1.wav";
+                show holocron_ok;
+            }
+        }
+
+        // ---------------------------------------------------------
+        // HOLOCRON PANEL — OK BUTTON
+        // ---------------------------------------------------------
+        itemDef
+        {
+            name            holocron_ok
+            group           grpACP
+            text            @MD_MP_MENU_OKAY
+            descText        @MD_MP_MENU_SPAWN_HOLOCRON
+            type            ITEM_TYPE_BUTTON
+            style           WINDOW_STYLE_FILLED
+            rect            320 186 80 30
+            textalign       ITEM_ALIGN_CENTER
+            textalignx      40
+            textaligny      0
+            font            3
+            textscale       1
+            forecolor       1 .682 0 1
+            visible         0
+
+            action
+            {
+                play "sound/interface/button1.wav";
+                uiScript AdminMenuSpawnHolocron;
+                uiScript closeingame;
+            }
+
+            mouseEnter { show doneButton; }
+            mouseExit  { hide doneButton; }
+        }
+    }
+}
+
+
+
+
+

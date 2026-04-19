@@ -1,0 +1,51 @@
+//---------------------------------------------------------
+// MD-MP-ingame.txt 
+// 
+// .menu files to load for the MD-MP ingame menu system
+//
+//---------------------------------------------------------
+{
+	loadMenu { "ui/MD_MP/connect.menu"			}
+
+	loadMenu { "ui/MD_MP/ingame_about.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_addbot.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_callvote.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_controls.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_join.menu" 			}
+
+	loadMenu { "ui/MD_MP/ingame_leave.menu" 		}
+ 	loadMenu { "ui/MD_MP/ingame.menu" 			}
+	loadMenu { "ui/MD_MP/ingame_player.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_player2.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_player3.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_playerforce.menu" 		}
+	loadMenu { "ui/MD_MP/ingameviewMP.menu" 		}
+
+	loadMenu { "ui/MD_MP/ingame_saber.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_saber2.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_saber3.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_setup.menu" 		}
+	loadMenu { "ui/MD_MP/ingame_vote.menu" 			}
+	loadMenu { "ui/sjemp/ingame_orders.menu" 		}
+
+	loadMenu { "ui/MD_MP/ingame_voicechat.menu" 		}
+	loadMenu { "ui/MD_MP/vid_warning.menu" 			}
+
+	loadMenu { "ui/MD_MP/ingame_objectives.menu" 		}
+
+	loadMenu { "ui/MD_MP/ingamecharacterera.menu"		}
+	loadMenu { "ui/MD_MP/ingamecharacterprequel1.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharacterprequel2.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharacterprequel3.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharactercw1.menu"		}
+	loadMenu { "ui/MD_MP/ingamecharactercw2.menu"		}
+	loadMenu { "ui/MD_MP/ingamecharacteroriginal.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharacteroriginal2.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharacterrebels.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharactersequel.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharactersequel2.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharacterlegends1.menu"	}
+	loadMenu { "ui/MD_MP/ingamecharacterlegends2.menu"	}
+	loadMenu { "ui/MD_MP/ingame_admin.menu" 		}
+}
+

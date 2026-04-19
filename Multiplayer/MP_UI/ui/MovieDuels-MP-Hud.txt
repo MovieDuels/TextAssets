@@ -1,0 +1,5 @@
+// hud menu defs
+// 
+{
+	loadMenu { "ui/MD_MP/MovieDuels-MP-Hud.menu" }
+}
