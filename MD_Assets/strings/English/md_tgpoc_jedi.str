@@ -1,0 +1,34 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           C3PO1
+LANG_ENGLISH        "Victims of the almighty Sarlacc: His Excellency hopes that you will die honorably."
+
+REFERENCE           C3PO2
+LANG_ENGLISH        "But should any of you wish to beg for mercy, the great Jabba the Hutt will now listen to your pleas."
+
+REFERENCE           HAN1
+LANG_ENGLISH        "Threepio, you tell that slimy piece of... worm-ridden filth he'll get no such pleasure from us. Right?"
+
+REFERENCE           BOBADEAD
+LANG_ENGLISH        "Boba  Fett?!  Boba  Fett?!  Where?"
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "Jabba! This is your last chance. Free us or die."
+
+REFERENCE           LANDO1
+LANG_ENGLISH        "Han!  Chewie?"
+
+ENDMARKER

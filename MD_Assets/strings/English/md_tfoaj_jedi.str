@@ -1,0 +1,70 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           INQUISITOR1
+LANG_ENGLISH        "I wondered when you would return."
+
+REFERENCE           INQUISITOR2
+LANG_ENGLISH        "Try to fight, and you will fail. The Rebellion will be destroyed. You will die, and your apprentice will become a servant of evil."
+
+REFERENCE           INQUISITOR3
+LANG_ENGLISH        "The dark side. It pulls at him, it calls to him. Eventually, he will be consumed by it."
+
+REFERENCE           INQUISITOR4
+LANG_ENGLISH        "Stand aside. The boy must be eliminated before he embraces the darkness."
+
+REFERENCE           INQUISITOR5
+LANG_ENGLISH        "Is this the limit of your knowledge?"
+
+REFERENCE           INQUISITOR6
+LANG_ENGLISH        "I think not."
+
+REFERENCE           INQUISITOR7
+LANG_ENGLISH        "You will never be strong enough to protect your pupil, and you will perish for your failure."
+
+REFERENCE           INQUISITOR8
+LANG_ENGLISH        "Even now, the servants of the dark side come for your apprentice. You cannot fight forever."
+
+REFERENCE           INQUISITOR9
+LANG_ENGLISH        "By the right of the Council, by the will of the Force... Kanan Jarrus, you may rise."
+
+REFERENCE           INQUISITOR10
+LANG_ENGLISH        "It means you are what I once was. A knight of the Jedi Order."
+
+REFERENCE           INQUISITOR11
+LANG_ENGLISH        "The temple is falling. Go. I will delay the enemy."
+
+REFERENCE           KANAN1
+LANG_ENGLISH        "A temple guard."
+
+REFERENCE           KANAN1B
+LANG_ENGLISH        "I've come for knowledge. I need to know how to defeat Vader and his Inquisitors."
+
+REFERENCE           KANAN2
+LANG_ENGLISH        "What are you talking about?"
+
+REFERENCE           KANAN3
+LANG_ENGLISH        "I won't let that happen."
+
+REFERENCE           KANAN4
+LANG_ENGLISH        "I learned enough."
+
+REFERENCE           KANAN5
+LANG_ENGLISH        "You're right. I can't protect Ezra forever. Not even from himself. All I can do is what I've done... train him the best I could."
+
+REFERENCE           KANAN6
+LANG_ENGLISH        "Wait, what does this mean?"
+
+ENDMARKER

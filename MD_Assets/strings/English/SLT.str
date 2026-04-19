@@ -1,0 +1,34 @@
+REFERENCE           OBJECTIVE
+LANG_ENGLISH        "Defeat All Enemies To Complete Your Final Task!"
+
+REFERENCE           WAVE2
+LANG_ENGLISH        "Module 2: Kota's Militia"
+
+REFERENCE           WAVE3
+LANG_ENGLISH        "Module 3: Imperial Assault Squad"
+
+REFERENCE           WAVE4
+LANG_ENGLISH        "Module 4: Imperial Armed Recon Squad"
+
+REFERENCE           WAVE5
+LANG_ENGLISH        "Module 5: AT-ST"
+
+REFERENCE           WAVE6
+LANG_ENGLISH        "Module 6: Imperial Royal Guard"
+
+REFERENCE           WAVE7
+LANG_ENGLISH        "Module 7: Obi-Wan Kenobi"
+
+REFERENCE           WAVE8
+LANG_ENGLISH        "Module 8: Boba Fett"
+
+REFERENCE           WAVE9
+LANG_ENGLISH        "Module 9: Shaak Ti"
+
+REFERENCE           STAGECOMPLETE
+LANG_ENGLISH        "Module Complete!"
+
+REFERENCE           STAGE10COMPLETE
+LANG_ENGLISH        "All Modules Complete, You Have Passed Your Final Trial!"
+
+ENDMARKER

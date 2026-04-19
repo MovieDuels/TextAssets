@@ -1,0 +1,190 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "You can't!"
+
+REFERENCE           ANI1B
+LANG_ENGLISH        "He must stand trial!"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "It's not the Jedi way."
+
+REFERENCE           ANI2B
+LANG_ENGLISH        "He must live!"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "Anakin: I need him!"
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Anakin: No!"
+
+REFERENCE           ANI5
+LANG_ENGLISH        "What have I done?!"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "[ Breathing ]"
+
+REFERENCE           ANI6B
+LANG_ENGLISH        "I will do whatever you ask."
+
+REFERENCE           ANI7
+LANG_ENGLISH        "Just help me save Padme's life."
+
+REFERENCE           ANI7B
+LANG_ENGLISH        "I can't live without her."
+
+REFERENCE           ANI8
+LANG_ENGLISH        "I pledge myself..."
+
+REFERENCE           ANI8B
+LANG_ENGLISH        "to your teachings."
+ 
+REFERENCE           ANI9
+LANG_ENGLISH        "Thank you, my master."
+
+REFERENCE           PAL1
+LANG_ENGLISH        "[Palpatine's Voice]\nYou do know, don't you.."
+
+REFERENCE           PAL1B
+LANG_ENGLISH        "[Palpatine's Voice]\nIf the Jedi destroy me, any chance of saving her will be lost."
+
+REFERENCE           PAL2
+LANG_ENGLISH        "Master Windu.\nI take it General Grievous has been destroyed then."
+
+REFERENCE           PAL2B
+LANG_ENGLISH        "I must say you're here sooner than expected."
+
+REFERENCE           PAL3
+LANG_ENGLISH        "Are you threatening me, Master Jedi?"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "I am the senate."
+
+REFERENCE           PAL5
+LANG_ENGLISH        "It's treason then."
+
+REFERENCE           PAL6
+LANG_ENGLISH        "[ Snarls ]"
+
+REFERENCE           PAL8
+LANG_ENGLISH        "Anakin, I told you it would come to this."
+
+REFERENCE           PAL8B
+LANG_ENGLISH        "I was right. The Jedi are taking over!"
+
+REFERENCE           PAL9
+LANG_ENGLISH        "No. No. NO! You will die!..\nHe's a traitor!"
+
+REFERENCE           PAL9B
+LANG_ENGLISH        "I have the power to save the one you love.\nYou must choose."
+
+REFERENCE           PAL9C
+LANG_ENGLISH        "Don't let him kill me. I can't hold it any longer. I- I- I- I can't. I- I- I'm weak. I'm- I'm too weak.\nAnakin. Help me. Help me! [Groans] I- I- I can't hold on any longer."
+
+REFERENCE           PAL10
+LANG_ENGLISH        "I'm too weak. Oh. Don't kill me. Please."
+
+REFERENCE           PAL11
+LANG_ENGLISH        "Palpatine: Please don't."
+
+REFERENCE           PAL12
+LANG_ENGLISH        "Palpatine: Please don't!"
+
+REFERENCE           PAL13
+LANG_ENGLISH        "Power!"
+
+REFERENCE           PAL13B
+LANG_ENGLISH        "Unlimited Power!"
+
+REFERENCE           PAL13C
+LANG_ENGLISH        "[ Sighs ]"
+
+REFERENCE           PAL14
+LANG_ENGLISH        "You're fulfilling your destiny, Anakin."
+
+REFERENCE           PAL14B
+LANG_ENGLISH        "Become my apprentice.\nLearn to use the dark side of the Force."
+
+REFERENCE           PAL15B
+LANG_ENGLISH        "Good."
+
+REFERENCE           PAL16
+LANG_ENGLISH        "[ Raspy Breathing ]"
+
+REFERENCE           PAL16B
+LANG_ENGLISH        "To cheat death is a power only one has achieved, but if we work together, I know we can discover the secret."
+
+REFERENCE           PAL17
+LANG_ENGLISH        "Good."
+
+REFERENCE           PAL17B
+LANG_ENGLISH        "Good..."
+
+REFERENCE           PAL17C
+LANG_ENGLISH        "[ Raspy Breathing ]"
+
+REFERENCE           PAL17D
+LANG_ENGLISH        "The Force is strong with you."
+
+REFERENCE           PAL17E
+LANG_ENGLISH        "A powerful Sith you will become."
+
+REFERENCE           PAL17F
+LANG_ENGLISH        "Henceforth you shall be known as..."
+
+REFERENCE           PAL17G
+LANG_ENGLISH        "Darth..."
+
+REFERENCE           PAL17H
+LANG_ENGLISH        "Vader."
+
+REFERENCE           PAL18B
+LANG_ENGLISH        "Rise."
+
+REFERENCE           WIN1
+LANG_ENGLISH        "In the name of the Galactic Senate of the Republic."
+
+REFERENCE           WIN1B
+LANG_ENGLISH        "You're under arrest, Chancellor."
+
+REFERENCE           WIN2
+LANG_ENGLISH        "The Senate will decide your fate."
+
+REFERENCE           WIN3
+LANG_ENGLISH        "Not yet."
+
+REFERENCE           WIN4
+LANG_ENGLISH        "You are under arrest, my lord."
+
+REFERENCE           WIN5
+LANG_ENGLISH        "The oppression of the Sith will never return."
+
+REFERENCE           WIN5B
+LANG_ENGLISH        "You have lost."
+
+REFERENCE           WIN5C
+LANG_ENGLISH        "He is the traitor!\n[ Groaning ]"
+
+REFERENCE           WIN5D
+LANG_ENGLISH        "Don't listen to him, Anakin!"
+
+REFERENCE           WIN6
+LANG_ENGLISH        "I am going to end this, once and for all!"
+
+REFERENCE           WIN7
+LANG_ENGLISH        "He has control of the Senate and the courts.\nHe's too dangerous to be left alive."
+
+ENDMARKER

@@ -1,0 +1,62 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KOT1
+LANG_ENGLISH        "He's beaten. Let it go!"
+
+REFERENCE           KOT2
+LANG_ENGLISH        "Maybe so. But if you strike him down in anger, you'll be right back where you began."
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Yes! Kill him! He was weak, broken! Kill him and you take your rightful place at my side!"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "You have restored peace and justice to the Galaxy."
+
+REFERENCE           PAL3
+LANG_ENGLISH        "You were destined to destroy me. Do it! Give in to your hatred!"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "Then he is now more powerful than ever."
+
+REFERENCE           STA1
+LANG_ENGLISH        "You have nothing left to teach me!"
+
+REFERENCE           STA2
+LANG_ENGLISH        "What is thy bidding, my Master?"
+
+REFERENCE           STA3
+LANG_ENGLISH        "It's a trick. He's stronger than you know. And he deserves to die for what he's done to me."
+
+REFERENCE           STA4
+LANG_ENGLISH        "Get Bail and the others out of here. I'll be right behind you."
+
+REFERENCE           STA5
+LANG_ENGLISH        "Go! Hurry! Protect the Senators!"
+
+REFERENCE           VAD1
+LANG_ENGLISH        "I've trained you well, but you still have much to learn."
+
+REFERENCE           VAD2
+LANG_ENGLISH        "This was your destiny. To bring the Emperor's enemies together. And die here alone."
+
+REFERENCE           VAD4
+LANG_ENGLISH        "There will be another."
+
+REFERENCE           VAD5
+LANG_ENGLISH        "He is dead."
+
+
+ENDMARKER

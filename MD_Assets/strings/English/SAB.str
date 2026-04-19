@@ -1,0 +1,282 @@
+REFERENCE          	SFX_SABERS
+LANG_ENGLISH        "SFX Sabers:"
+
+REFERENCE          	SFX_SABERS_DESC
+LANG_ENGLISH        "Switch On / Off enhanced lightsaber effects"
+
+REFERENCE          	SFX_GLOW
+LANG_ENGLISH        "Glow:"
+
+REFERENCE          	SFX_GLOW_DESC
+LANG_ENGLISH        "Customize the intensity of lightsaber glow"
+
+REFERENCE          	SFX_CORE
+LANG_ENGLISH        "Core:"
+
+REFERENCE          	SFX_CORE_DESC
+LANG_ENGLISH        "Customize the size of lightsaber core"
+
+REFERENCE           AAYLA
+LANG_ENGLISH        "Aayla Secura"
+
+REFERENCE           ADI
+LANG_ENGLISH        "Adi Gallia"
+
+REFERENCE           AHSOKA
+LANG_ENGLISH        "Ahsoka Tano [Clone Wars]"
+
+REFERENCE           AHSOKA_SHORT
+LANG_ENGLISH        "Ahsoka Tano (Shoto) [Clone Wars]"
+
+REFERENCE           AHSOKA_REBELS
+LANG_ENGLISH        "Ahsoka Tano [Rebels]"
+
+REFERENCE           AHSOKA_REBELS_SHORT
+LANG_ENGLISH        "Ahsoka Tano (Shoto) [Rebels]"
+
+REFERENCE           ANAKIN_EP2
+LANG_ENGLISH        "Anakin Skywalker [Ep. II]"
+
+REFERENCE           ANAKIN_EP3
+LANG_ENGLISH        "Anakin Skywalker [Ep. III]"
+
+REFERENCE           ASHARAD
+LANG_ENGLISH        "A'Sharad Hett"
+
+REFERENCE           ASHARAD_ALT
+LANG_ENGLISH        "A'Sharad Hett [Alternate]"
+
+REFERENCE           VENTRESS_CW
+LANG_ENGLISH        "Asajj Ventress [CW]"
+
+REFERENCE           VENTRESS_TCW
+LANG_ENGLISH        "Asajj Ventress [TCW]"
+
+REFERENCE           VENTRESS_STAFF
+LANG_ENGLISH        "Asajj Ventress [Staff]"
+
+REFERENCE           BARRISS
+LANG_ENGLISH        "Barriss Offee"
+
+REFERENCE           BOC
+LANG_ENGLISH        "Boc Aseca"
+
+REFERENCE           CAL_KESTIS
+LANG_ENGLISH        "Cal Kestis"
+
+REFERENCE           COLEMAN
+LANG_ENGLISH        "Coleman Trebor"
+
+REFERENCE           COUNT_DOOKU
+LANG_ENGLISH        "Count Dooku"
+
+REFERENCE           DARKSABER_TCW
+LANG_ENGLISH        "Darksaber [TCW]"
+
+REFERENCE           DARKSABER_REBELS
+LANG_ENGLISH        "Darksaber [Rebels]"
+
+REFERENCE           D_MAUL
+LANG_ENGLISH        "Darth Maul [Damaged]"
+
+REFERENCE           D_MAUL_STAFF
+LANG_ENGLISH        "Darth Maul"
+
+REFERENCE           D_MAUL_TCW
+LANG_ENGLISH        "Darth Maul [TCW]"
+
+REFERENCE           D_MAUL_REBELS
+LANG_ENGLISH        "Maul [Rebels]"
+
+REFERENCE           D_SIDIOUS
+LANG_ENGLISH        "Darth Sidious"
+
+REFERENCE           D_SIDIOUS_ALT
+LANG_ENGLISH        "Darth Sidious [Alternate]"
+
+REFERENCE           D_VADER_EP3
+LANG_ENGLISH        "Darth Vader [Ep.III]"
+
+REFERENCE           D_VADER_EP4
+LANG_ENGLISH        "Darth Vader [Ep.IV]"
+
+REFERENCE           D_VADER_EP5
+LANG_ENGLISH        "Darth Vader [Ep.V]"
+
+REFERENCE           D_VADER_EP6
+LANG_ENGLISH        "Darth Vader [Ep.VI]"
+
+REFERENCE           DEPA
+LANG_ENGLISH        "Depa Billaba"
+
+REFERENCE           DESANN
+LANG_ENGLISH        "Desann"
+
+REFERENCE           ELECTROSTAFF
+LANG_ENGLISH        "Electrostaff"
+
+REFERENCE           EVEN
+LANG_ENGLISH        "Even Piell"
+
+REFERENCE           EZRA
+LANG_ENGLISH        "Ezra Bridger"
+
+REFERENCE           EZRA_S3
+LANG_ENGLISH        "Ezra Bridger [Jedi]"
+
+REFERENCE           GALEN_MAREK
+LANG_ENGLISH        "Galen Marek [TFU2]"
+
+REFERENCE           GALEN_MAREK_ALT
+LANG_ENGLISH        "Galen Marek [TFU2 Alt]"
+
+REFERENCE           GALEN_MAREK_CJR
+LANG_ENGLISH        "Galen Marek [Jedi]"
+
+REFERENCE           GORC
+LANG_ENGLISH        "Gorc"
+
+REFERENCE           GRANDINQUISITOR
+LANG_ENGLISH        "Grand Inquisitor"
+
+REFERENCE           FIFTHBROTHER
+LANG_ENGLISH        "Fifth Brother"
+
+REFERENCE           SEVENTHSISTER
+LANG_ENGLISH        "Seventh Sister"
+
+REFERENCE           EIGHTHBROTHER
+LANG_ENGLISH        "Eighth Brother"
+
+REFERENCE           INQUISITOR_STAFF
+LANG_ENGLISH        "Grand Inquisitor"
+
+REFERENCE           JT_GUARD
+LANG_ENGLISH        "Jedi Temple Guard"
+
+REFERENCE           JEREC
+LANG_ENGLISH        "Jerec"
+
+REFERENCE           KANAN
+LANG_ENGLISH        "Kanan Jarrus"
+
+REFERENCE           KI_ADI
+LANG_ENGLISH        "Ki-Adi Mundi"
+
+REFERENCE           KIT
+LANG_ENGLISH        "Kit Fisto"
+
+REFERENCE           KYLE
+LANG_ENGLISH        "Kyle Katarn"
+
+REFERENCE           KYLO
+LANG_ENGLISH        "Kylo Ren"
+
+REFERENCE           LEIA_EP9
+LANG_ENGLISH        "Leia Organa"
+
+REFERENCE           LUKE_EP4
+LANG_ENGLISH        "Luke Skywalker [Ep. IV]"
+
+REFERENCE           LUKE_EP5
+LANG_ENGLISH        "Luke Skywalker [Ep. V]"
+
+REFERENCE           LUKE_EP6
+LANG_ENGLISH        "Luke Skywalker [Ep. VI]"
+
+REFERENCE           LUMINARA
+LANG_ENGLISH        "Luminara Unduli"
+
+REFERENCE           MACE_EP1
+LANG_ENGLISH        "Mace Windu [Ep. I]"
+
+REFERENCE           MACE
+LANG_ENGLISH        "Mace Windu [Ep. II-III]"
+
+REFERENCE           MARA
+LANG_ENGLISH        "Mara Jade"
+
+REFERENCE           MARA_MOTS
+LANG_ENGLISH        "Mara Jade [MOTS]"
+
+REFERENCE           MAW
+LANG_ENGLISH        "Maw"
+
+REFERENCE           OBI_EP1
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. I-II]"
+
+REFERENCE           OBI_EP3
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. III]"
+
+REFERENCE           OBI_EP4
+LANG_ENGLISH        "Obi-Wan Kenobi [Ep. IV]"
+
+REFERENCE           PIC
+LANG_ENGLISH        "Pic"
+
+REFERENCE           PLO
+LANG_ENGLISH        "Plo Koon"
+
+REFERENCE           QUI
+LANG_ENGLISH        "Qui-Gon Jinn"
+
+REFERENCE           QUINLAN
+LANG_ENGLISH        "Quinlan Vos"
+
+REFERENCE           RAHN
+LANG_ENGLISH        "Qu Rahn"
+
+REFERENCE           KOTA
+LANG_ENGLISH        "Rahm Kota"
+
+REFERENCE           REY_EP7
+LANG_ENGLISH        "Rey [Ep.VII-VIII]"
+
+REFERENCE           REY_EP9
+LANG_ENGLISH        "Rey [Ep.IX]"
+
+REFERENCE           REY_DARKFOLD_EP9
+LANG_ENGLISH        "Rey (Dark - Folded) [Ep.IX]"
+
+REFERENCE           REY_DARKSTAFF_EP9
+LANG_ENGLISH        "Rey (Dark - Staff) [Ep.IX]"
+
+REFERENCE           SAESSEE
+LANG_ENGLISH        "Saessee Tiin"
+
+REFERENCE           SAVAGE
+LANG_ENGLISH        "Savage Opress"
+
+REFERENCE           SARISS
+LANG_ENGLISH        "Sariss"
+
+REFERENCE           SECONDSISTER
+LANG_ENGLISH        "Second Sister"
+
+REFERENCE           STALKER
+LANG_ENGLISH        "Sith Stalker"
+
+REFERENCE           STARKILLER
+LANG_ENGLISH        "Starkiller"
+
+REFERENCE           SHAAK
+LANG_ENGLISH        "Shaak Ti"
+
+REFERENCE           STINGER
+LANG_ENGLISH        "Stinger"
+
+REFERENCE           TAVION
+LANG_ENGLISH        "Tavion Axmis"
+
+REFERENCE           YARAEL
+LANG_ENGLISH        "Yarael Poof"
+
+REFERENCE           YODA
+LANG_ENGLISH        "Yoda"
+
+REFERENCE           YUN
+LANG_ENGLISH        "Yun"
+
+ENDMARKER
+
+
