@@ -1,0 +1,121 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           OBI6
+LANG_ENGLISH        "Do you believe what Count Dooku said about Sidious controlling the Senate?"
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "It doesn't feel right."
+
+REFERENCE           OBI7
+LANG_ENGLISH        "On his way to Naboo. Escorting Senator Amidala home.."
+
+REFERENCE           OBI7B
+LANG_ENGLISH        "I have to admit that without the Clones, it would not have been a victory."
+
+REFERENCE           WIN1
+LANG_ENGLISH        "It is done, then."
+
+REFERENCE           WIN2
+LANG_ENGLISH        "Nevertheless, I feel we should keep a closer eye on the Senate."
+
+REFERENCE           WIN3
+LANG_ENGLISH        "Where is your apprentice?"
+
+REFERENCE           YOD4
+LANG_ENGLISH        "Joined the Dark Side, Dooku has. Mmm."
+
+REFERENCE           YOD4B
+LANG_ENGLISH        "Lies, deceit, creating mistrust are his ways now."
+
+REFERENCE           YOD5
+LANG_ENGLISH        "I agree."
+
+REFERENCE           YOD6
+LANG_ENGLISH        "Victory?"
+
+REFERENCE           YOD6B
+LANG_ENGLISH        "Victory, you say?"
+
+REFERENCE           YOD6C
+LANG_ENGLISH        "Master Obi-Wan, not victory."
+
+REFERENCE           YOD6D
+LANG_ENGLISH        "The shroud of the Dark Side has fallen."
+
+REFERENCE           YOD6E
+LANG_ENGLISH        "Begun, the Clone War has."
+
+REFERENCE           ANI1
+LANG_ENGLISH        "You're gonna pay for all the Jedi that you killed today, Dooku!"
+ 
+REFERENCE           ANI2
+LANG_ENGLISH        "No, I'm taking him now!"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "I am a slow learner."
+
+REFERENCE           DOK1
+LANG_ENGLISH        "As you see, my Jedi powers are far beyond yours. Now.. Back down!"
+
+REFERENCE           DOK2
+LANG_ENGLISH        "Master Kenobi, you disappoint me. Yoda holds you in such high esteem."
+
+REFERENCE           DOK2B
+LANG_ENGLISH        "Surely you can do better?!"
+
+REFERENCE           DOK3
+LANG_ENGLISH        "Dooku: Brave of you, boy."
+
+REFERENCE           DOK3B
+LANG_ENGLISH        "Dooku: But I would have thought you had learned your lesson."
+
+REFERENCE           DOK4
+LANG_ENGLISH        "Master Yoda!"
+
+REFERENCE           DOK5
+LANG_ENGLISH        "You have interfered with our affairs, for the last time!"
+
+REFERENCE           DOK6
+LANG_ENGLISH        "It is obvious that this contest cannot be decided by our knowledge of the Force."
+
+REFERENCE           DOK6B
+LANG_ENGLISH        "But by our skills with a lightsaber."
+
+REFERENCE           DOK7
+LANG_ENGLISH        "This is just the beginning!"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "We'll take him together. You'll go in slowly, on the left.."
+
+REFERENCE           OBI2
+LANG_ENGLISH        "No, Anakin! No! No!"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "I don't think so."
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Anakin!"
+
+REFERENCE           YOD1
+LANG_ENGLISH        "Count Dooku."
+
+REFERENCE           YOD2
+LANG_ENGLISH        "Fought well you have, my old Padawan."
+
+REFERENCE           YOD3
+LANG_ENGLISH        "Much to learn, you still have."
+
+ENDMARKER

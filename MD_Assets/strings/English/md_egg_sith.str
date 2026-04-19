@@ -1,0 +1,52 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           GRI1
+LANG_ENGLISH        "General Kenobi?!"
+
+REFERENCE           GRI1B
+LANG_ENGLISH        "You are a bold one."
+
+REFERENCE           GRI1C
+LANG_ENGLISH        "Kill him!"
+
+REFERENCE           GRI2
+LANG_ENGLISH        "Back away! I will deal with this Jedi slime, myself."
+
+REFERENCE           GRI3
+LANG_ENGLISH        "You fool! I've been trained in your Jedi arts, by Count Dooku!"
+
+REFERENCE           GRI4
+LANG_ENGLISH        "Attack, Kenobi!"
+
+REFERENCE           GRI5
+LANG_ENGLISH        "Army or not.."
+
+REFERENCE           GRI5B
+LANG_ENGLISH        "You must realize.."
+
+REFERENCE           GRI5C
+LANG_ENGLISH        "You are doomed!"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "Hello there!"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Your move."
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Oh, I don't think so."
+
+ENDMARKER

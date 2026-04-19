@@ -1,0 +1,82 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "No!"
+
+REFERENCE           LUKE3
+LANG_ENGLISH        "I'll never join you!"
+
+REFERENCE           LUKE4
+LANG_ENGLISH        "He told me enough!"
+
+REFERENCE           LUKE5
+LANG_ENGLISH        "He told me you killed him."
+
+REFERENCE           LUKE6
+LANG_ENGLISH        "No. No. That's not true! That's impossible!"
+
+REFERENCE           LUKE7
+LANG_ENGLISH        "No! No! No!"
+
+REFERENCE           VADER1
+LANG_ENGLISH        "The Force is with you, young Skywalker. But you are not a Jedi yet."
+
+REFERENCE           VADER2
+LANG_ENGLISH        "You have learned much, young one.\nYou'll find I'm full of surprises."
+
+REFERENCE           VADER3
+LANG_ENGLISH        "Your destiny lies with me, Skywalker. Obi-Wan knew this to be true."
+
+REFERENCE           VADER4
+LANG_ENGLISH        "All to easy."
+
+REFERENCE           VADER5
+LANG_ENGLISH        "Perhaps you are not as strong as the Emperor thought."
+
+REFERENCE           VADER6
+LANG_ENGLISH        "Impressive... most impressive."
+
+REFERENCE           VADER7
+LANG_ENGLISH        "Obi-Wan has taught you well. You have controlled your fear..."
+
+REFERENCE           VADER8
+LANG_ENGLISH        "Now release your anger. Only your hatred can destroy me."
+
+REFERENCE           VADER9
+LANG_ENGLISH        "You are beaten. It is useless to resist. Don't let yourself be destroyed as Obi-Wan did."
+
+REFERENCE           VADER11
+LANG_ENGLISH        "There is no escape.  Don't make me destroy you."
+
+REFERENCE           VADER12
+LANG_ENGLISH        "You do not yet realize your importance. You have only begun to discover your power. Join me and I will complete your training.  With our combined strength, we can end this destructive conflict and bring order to the galaxy."
+
+REFERENCE           VADER13
+LANG_ENGLISH        "If you only knew the power of the  dark side. Obi-Wan never told you what happened to your father."
+
+REFERENCE           VADER14
+LANG_ENGLISH        "No. I am your father."
+
+REFERENCE           VADER15
+LANG_ENGLISH        "Search your feelings. You know it to be true."
+
+REFERENCE           VADER16
+LANG_ENGLISH        "Luke.  You can destroy the Emperor. He has foreseen this. It is your destiny. Join me, and together we can rule the galaxy as father and son."
+
+REFERENCE           VADER17
+LANG_ENGLISH        "Come with me. It is the only way."
+
+ENDMARKER

@@ -1,0 +1,5551 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Movie Duels Menus"
+
+//----------------------------------------------------------
+//	-- CONTENTS/HEADINGS: --
+//
+//	- MAIN MENUS: -
+//	h1: COMMON
+//	h2: MAIN/LOAD/QUIT/FAILED/NEWGAME MENUS
+//	h3: CREDITS MENU
+//	h4: CAMERA MENU
+//	h5: MISSION NAMES
+//	h6: MISSION DIFFICULTY
+//	h7: DUEL MAPS
+//	h8: JEDI OUTCAST & JEDI ACADEMY SP LEVELS
+//	h9: CHALLENGE LEVELS
+//	h10: CHARACTER MENUS
+//	h11: COMMANDS MENU
+//	h12: SPAWN MENU
+//	h13: SCRIPT MENUS (ON WOUNDED, ON KILLED, ON PAIN, SET FORCE, SET WEAPONS...)
+//	h14: EFFECTS MENU
+//	h15: MUSIC MENU
+//	h16: WEAPONS MENU
+//	h17: STATS OVERVIEW
+//	h18: FORCE POWERS MENU
+//	h19: TALES OF THE GALAXY
+//
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 			MAIN MENUS
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	h1: COMMON
+//----------------------------------------------------------
+
+REFERENCE           NEXT
+LANG_ENGLISH        "NEXT"
+
+REFERENCE           PREVIOUS
+LANG_ENGLISH        "PREVIOUS"
+
+REFERENCE           BACK
+LANG_ENGLISH        "BACK"
+
+REFERENCE           CLOSE
+LANG_ENGLISH        "CLOSE"
+
+REFERENCE           CONTINUE
+LANG_ENGLISH        "CONTINUE"
+
+REFERENCE           QUIT
+LANG_ENGLISH        "QUIT"
+
+REFERENCE           EXIT
+LANG_ENGLISH        "EXIT"
+
+REFERENCE           YES
+LANG_ENGLISH        "YES"
+
+REFERENCE           NO
+LANG_ENGLISH        "NO"
+
+REFERENCE           LOAD
+LANG_ENGLISH        "LOAD"
+
+REFERENCE           SETTINGS
+LANG_ENGLISH        "SETTINGS"
+
+REFERENCE           SAVE
+LANG_ENGLISH        "SAVE"
+
+REFERENCE           SAVE_GAME
+LANG_ENGLISH        "SAVE GAME"
+
+REFERENCE           RESUME
+LANG_ENGLISH        "RESUME"
+
+REFERENCE           ACKNOWLEDGE
+LANG_ENGLISH        "ACKNOWLEDGE"
+
+REFERENCE           HELP
+LANG_ENGLISH        "HELP"
+
+
+//----------------------------------------------------------
+// 	h2: MAIN/LOAD/QUIT/FAILED/NEWGAME MENUS
+//----------------------------------------------------------
+
+REFERENCE	    PAUSE_MENU
+LANG_ENGLISH	    "PAUSE MENU"
+
+REFERENCE	    CHARACTER
+LANG_ENGLISH	    "CHARACTER"
+
+REFERENCE	    CHARACTER_DESC
+LANG_ENGLISH	    "Character:"
+
+REFERENCE	    NPC_SPAWN
+LANG_ENGLISH	    "NPC SPAWN"
+
+REFERENCE	    NPC_SPAWN_DESC
+LANG_ENGLISH	    "Spawn"
+
+REFERENCE	    COMMANDS
+LANG_ENGLISH	    "COMMANDS"
+
+REFERENCE	    CAMERA
+LANG_ENGLISH	    "CAMERA"
+
+REFERENCE	    EFFECTS
+LANG_ENGLISH		"EFFECTS"
+
+REFERENCE	    MUSIC
+LANG_ENGLISH	    "MUSIC"
+
+REFERENCE	    DUEL_MAPS
+LANG_ENGLISH	    "DUEL MAPS"
+
+REFERENCE	    DARK_SIDE
+LANG_ENGLISH	    "DARK SIDE"
+
+REFERENCE	    TEAM
+LANG_ENGLISH	    "TEAM:"
+
+REFERENCE	    DARK_SIDE_DESC
+LANG_ENGLISH	    "Join Team Enemy"
+
+REFERENCE	    LIGHT_SIDE
+LANG_ENGLISH	    "LIGHT SIDE"
+
+REFERENCE	    LIGHT_SIDE_DESC
+LANG_ENGLISH	    "Join Team Player"
+
+REFERENCE           NEW_GAME
+LANG_ENGLISH        "NEW GAME"
+
+REFERENCE           JEDI_ACADEMY_CAMPAIGN
+LANG_ENGLISH        "JEDI ACADEMY CAMPAIGN"
+
+REFERENCE           JEDI_OUTCAST_CAMPAIGN
+LANG_ENGLISH        "JEDI OUTCAST CAMPAIGN"
+
+REFERENCE           LEVEL_SELECT
+LANG_ENGLISH        "LEVEL SELECT"
+
+REFERENCE           EXIT_MOVIE_DUELS
+LANG_ENGLISH        "EXIT MOVIE DUELS?"
+
+REFERENCE           EXIT_TO_MAIN_MENU
+LANG_ENGLISH        "EXIT TO MAIN MENU?"
+
+REFERENCE           ABANDON_GAME
+LANG_ENGLISH        "ABANDON GAME"
+
+REFERENCE           QUIT_MOVIE_DUELS
+LANG_ENGLISH        "QUIT MOVIE DUELS?"
+
+REFERENCE           QUIT_PROGRAM
+LANG_ENGLISH        "QUIT PROGRAM"
+
+REFERENCE           NEXT_PAGE
+LANG_ENGLISH	    "NEXT PAGE"
+
+REFERENCE           PREVIOUS_PAGE
+LANG_ENGLISH	    "PREVIOUS PAGE"
+
+REFERENCE           HOW_TO_PLAY
+LANG_ENGLISH        "HOW TO PLAY"
+
+REFERENCE           HOW_TO_PLAY_JKO
+LANG_ENGLISH        "HOW TO PLAY JEDI KNIGHT: JEDI OUTCAST IN MD"
+
+REFERENCE           JKOHTP
+LANG_ENGLISH        "1) You must own Jedi Knight: Jedi Outcast.\n 2) Download the Movie Duels JKO addon file from ModDB and install it into your MD folder.\n 3) Go into your JKO GameData > base folder and rename the first 3 assets.pk3 files so they start with "0-".\n 4) Copy and paste the 3 renamed assets.pk3 files into your JKA base folder so it looks like the image below.\n\n You are now ready to start playing Jedi Outcast in MD."
+
+REFERENCE           JEDI_ACADEMY_BASE_FOLDER
+LANG_ENGLISH        "Jedi Academy base folder:"
+
+REFERENCE           DARK_FORCES_DUELS
+LANG_ENGLISH        "DARK FORCES DUELS"
+
+REFERENCE           CHOOSE_YOUR_DESTINY
+LANG_ENGLISH        "CHOOSE YOUR DESTINY..."
+
+REFERENCE           MISSIONS
+LANG_ENGLISH        "MISSIONS"
+
+REFERENCE           CHALLENGE
+LANG_ENGLISH        "CHALLENGE"
+
+REFERENCE           ARENA
+LANG_ENGLISH        "ARENAS"
+
+REFERENCE           EXTRAS
+LANG_ENGLISH        "EXTRAS"
+
+REFERENCE           JEDI_KNIGHT_DARK_FORCES
+LANG_ENGLISH        "COMING SOON" // "JEDI KNIGHT: DARK FORCES"
+
+REFERENCE           JEDI_KNIGHT_JEDI_OUTCAST
+LANG_ENGLISH        "JEDI KNIGHT: JEDI OUTCAST"
+
+REFERENCE           JEDI_KNIGHT_JEDI_ACADEMY
+LANG_ENGLISH        "JEDI KNIGHT: JEDI ACADEMY"
+
+REFERENCE           ENTER_EXTRAS_ARENA
+LANG_ENGLISH        "ENTER EXTRAS ARENA?"
+
+REFERENCE           ENTER_CHALLENGE_ARENA
+LANG_ENGLISH        "ENTER CHALLENGE ARENA?"
+
+REFERENCE           CHALLENGE_ARENAS
+LANG_ENGLISH        "CHALLENGE ARENAS"
+
+REFERENCE           ARENA1
+LANG_ENGLISH        "THEED POWER GENERATOR"
+
+REFERENCE           ARENA2
+LANG_ENGLISH        "VALLEY OF THE JEDI"
+
+REFERENCE           ARENA3
+LANG_ENGLISH        "TOMB OF MARKA RAGNOS"
+
+REFERENCE           ARENA4
+LANG_ENGLISH        "JEDI TEMPLE"
+
+REFERENCE           ARENA5
+LANG_ENGLISH        "THE SUPREMACY"
+
+REFERENCE           GAME_OVER
+LANG_ENGLISH        "GAME OVER"
+
+REFERENCE           RESTART_LEVEL
+LANG_ENGLISH        "LOAD CHECKPOINT"
+
+REFERENCE           LOAD_GAME
+LANG_ENGLISH        "LOAD GAME"
+
+REFERENCE           LOAD_GAME_DESC
+LANG_ENGLISH        "Open the load game menu to load a save"
+
+REFERENCE           QUICK_LOAD
+LANG_ENGLISH        "QUICK LOAD"
+
+REFERENCE           QUICK_LOAD_DESC
+LANG_ENGLISH        "Load a quick save"
+
+REFERENCE           QUIT_TO_MAIN_MENU
+LANG_ENGLISH        "QUIT TO MAIN MENU"
+
+REFERENCE           QUIT_TO_MAIN_MENU_DESC
+LANG_ENGLISH        "Leave the current mission and go to the main menu"
+
+REFERENCE           CLICK_TO_CONTINUE
+LANG_ENGLISH        "Click To Continue"
+
+REFERENCE           WARNING_BAD_INSTALLATION
+LANG_ENGLISH        "WARNING: BAD INSTALLATION"
+
+REFERENCE           PLEASE_REINSTALL_THE_UPDATE4_PATCH
+LANG_ENGLISH        "Please Re-Install The Update 4 Patch"
+
+REFERENCE           NEXT_MISSION
+LANG_ENGLISH        "Next Mission"
+
+REFERENCE           RETURN_TO_ACADEMY
+LANG_ENGLISH        "Return to Academy"
+
+//----------------------------------------------------------
+// 	h3: CREDITS MENU
+//----------------------------------------------------------
+
+REFERENCE           NEW_UPDATE_TITLE
+LANG_ENGLISH        "UPDATE 7 IS HERE!"
+
+REFERENCE           MD_TEAM
+LANG_ENGLISH        "MD TEAM"
+
+REFERENCE           VIEW_PAGE_1
+LANG_ENGLISH        "VIEW PAGE 1"
+
+REFERENCE           VIEW_PAGE_2
+LANG_ENGLISH        "VIEW PAGE 2"
+
+REFERENCE           VIEW_PAGE_3
+LANG_ENGLISH        "VIEW PAGE 3"
+
+REFERENCE           VIEW_PAGE_4
+LANG_ENGLISH        "VIEW PAGE 4"
+
+REFERENCE           VIEW_PAGE_5
+LANG_ENGLISH        "VIEW PAGE 5"
+
+REFERENCE           VIEW_PAGE_6
+LANG_ENGLISH        "VIEW PAGE 6"
+
+REFERENCE           MODELS
+LANG_ENGLISH        "MODELS"
+
+REFERENCE           MAPS
+LANG_ENGLISH        "MAPS"
+
+REFERENCE           WEAPONS
+LANG_ENGLISH        "WEAPONS"
+
+REFERENCE           EFFECTS_UI
+LANG_ENGLISH        "EFFECTS/UI"
+
+REFERENCE           VIEW_UPDATE_6_PATCH
+LANG_ENGLISH        "VIEW UPDATE 6 PATCH"
+
+REFERENCE           VIEW_UPDATE_6_PAGE1
+LANG_ENGLISH        "VIEW UPDATE 6 PAGE 1"
+
+REFERENCE           VIEW_UPDATE_6_PAGE2
+LANG_ENGLISH        "VIEW UPDATE 6 PAGE 2"
+
+REFERENCE           VIEW_UPDATE_6_PAGE3
+LANG_ENGLISH        "VIEW UPDATE 6 PAGE 3"
+
+REFERENCE           VIEW_UPDATE_5
+LANG_ENGLISH        "VIEW UPDATE 5"
+
+REFERENCE           VIEW_UPDATE_4_PATCH
+LANG_ENGLISH        "VIEW UPDATE 4 PATCH"
+
+REFERENCE           VIEW_UPDATE_4
+LANG_ENGLISH        "VIEW UPDATE 4"
+
+REFERENCE           VIEW_UPDATE_4_PAGE_2
+LANG_ENGLISH        "VIEW UPDATE 4 PAGE 2"
+
+REFERENCE           VIEW_UPDATE_3
+LANG_ENGLISH        "VIEW UPDATE 3"
+
+REFERENCE           VIEW_UPDATE_2
+LANG_ENGLISH        "VIEW UPDATE 2"
+
+REFERENCE           VIEW_BETA_2
+LANG_ENGLISH        "VIEW BETA 2"
+
+REFERENCE           VIEW_CHANGELOG
+LANG_ENGLISH        "VIEW CHANGELOG"
+
+REFERENCE           VIEW_COMBAT_ADDON
+LANG_ENGLISH        "VIEW COMBAT ADDON"
+
+REFERENCE           VIEW_CREDITS
+LANG_ENGLISH        "VIEW CREDITS"
+
+REFERENCE           FOLLOW_THE_MOD
+LANG_ENGLISH        "Follow the mod and join our Discord community - Links are found on our ModDB page!"
+
+
+//----------------------------------------------------------
+// 	h4: CAMERA MENU
+//----------------------------------------------------------
+
+REFERENCE	    CAMERA_PRESETS
+LANG_ENGLISH	    "CAMERA PRESETS"
+
+REFERENCE	    NORMAL2
+LANG_ENGLISH	    "NORMAL"
+
+REFERENCE	    CLOSE_CAM
+LANG_ENGLISH	    "CLOSE"
+
+REFERENCE	    FAR
+LANG_ENGLISH	    "FAR"
+
+REFERENCE	    VERY_FAR
+LANG_ENGLISH	    "VERY FAR"
+
+REFERENCE	    BATTLEFRONT
+LANG_ENGLISH	    "BATTLEFRONT"
+
+REFERENCE	    BATTLE_MASTER
+LANG_ENGLISH	    "BATTLE MASTER"
+
+REFERENCE	    KOTOR
+LANG_ENGLISH	    "KOTOR"
+
+REFERENCE	    IN_FRONT
+LANG_ENGLISH	    "IN FRONT"
+
+REFERENCE	    LOCK_CAMERA
+LANG_ENGLISH	    "LOCK CAMERA"
+
+REFERENCE	    FREECAM
+LANG_ENGLISH	    "FREECAM"
+
+REFERENCE	    FREECAM_DESC
+LANG_ENGLISH	    "Toggles noclip, god, notarget, first person for a spectator view"
+
+REFERENCE	    FREECAM_OFF
+LANG_ENGLISH	    "FREECAM OFF"
+
+REFERENCE	    FREECAM_ON
+LANG_ENGLISH	    "FREECAM ON"
+
+REFERENCE	    TRUE_FIRST_PERSON_ON
+LANG_ENGLISH	    "TRUE FIRST PERSON: ON"
+
+REFERENCE	    TRUE_FIRST_PERSON_OFF
+LANG_ENGLISH	    "TRUE FIRST PERSON: OFF"
+
+REFERENCE	    DISPLAY_HUD
+LANG_ENGLISH	    "DISPLAY HUD:"
+
+REFERENCE	    ON
+LANG_ENGLISH	    "ON"
+
+REFERENCE	    OFF
+LANG_ENGLISH	    "OFF"
+
+REFERENCE	    CAMERA_ZOOM
+LANG_ENGLISH	    "CAMERA ZOOM"
+
+REFERENCE	    FOV
+LANG_ENGLISH	    "FOV"
+
+REFERENCE	    RANGE
+LANG_ENGLISH	    "RANGE"
+
+REFERENCE	    CAMERA_PAN
+LANG_ENGLISH	    "CAMERA PAN"
+
+REFERENCE	    VERTICAL
+LANG_ENGLISH	    "VERTICAL"
+
+REFERENCE	    HORIZONTAL
+LANG_ENGLISH	    "HORIZONTAL"
+
+REFERENCE	    CAMERA_MOVE
+LANG_ENGLISH	    "CAMERA MOVE"
+
+REFERENCE	    CAMERA_DAMP
+LANG_ENGLISH	    "CAMERA DAMP"
+
+REFERENCE	    CAMERA_DAMP_DESC
+LANG_ENGLISH	    "Sets how tight the camera is to the character."
+
+REFERENCE	    THIRD_PERSON_TOGGLE
+LANG_ENGLISH	    "THIRD PERSON TOGGLE:"
+
+//----------------------------------------------------------
+// 	h5: MISSION NAMES
+//----------------------------------------------------------
+
+REFERENCE           SN
+LANG_ENGLISH        "SHORT NEGOTIATIONS"
+
+REFERENCE           EITD
+LANG_ENGLISH        "ENCOUNTER IN THE DESERT"
+
+REFERENCE           DOTF
+LANG_ENGLISH        "DUEL OF THE FATES"
+
+REFERENCE           EJF
+LANG_ENGLISH        "BOUNTY HUNTER'S ESCAPE"
+
+REFERENCE           AIL
+LANG_ENGLISH        "AN IMPORTANT LESSON"
+
+REFERENCE           TC
+LANG_ENGLISH        "A MOTHER'S CRY"
+
+REFERENCE           PA
+LANG_ENGLISH        "PETRANAKI ARENA"
+
+REFERENCE           BOG
+LANG_ENGLISH        "BATTLE OF GEONOSIS"
+
+REFERENCE           TCR
+LANG_ENGLISH        "THE COUNT'S RETREAT"
+
+REFERENCE           ROC
+LANG_ENGLISH        "RESCUE OVER CORUSCANT"
+
+REFERENCE           EGG
+LANG_ENGLISH        "SHOWDOWN WITH GRIEVOUS"
+
+REFERENCE           PO
+LANG_ENGLISH        "ARREST THE CHANCELLOR"
+
+REFERENCE           JT
+LANG_ENGLISH        "OPERATION: KNIGHTFALL"
+
+REFERENCE           AM
+LANG_ENGLISH        "ASSASSINATION ON MUSTAFAR"
+
+REFERENCE           RT
+LANG_ENGLISH        "AFTERMATH IN THE TEMPLE"
+
+REFERENCE           MOF
+LANG_ENGLISH        "MASTERS OF THE FORCE"
+
+REFERENCE           MUS
+LANG_ENGLISH        "A FRIENDSHIP IN FLAMES"
+
+REFERENCE           AOTTIV
+LANG_ENGLISH        "ASSAULT ON THE TANTIVE IV"
+
+REFERENCE           OLS
+LANG_ENGLISH        "OBI-WAN'S LAST STAND"
+
+REFERENCE           AGD
+LANG_ENGLISH        "A GREAT DISTURBANCE"
+
+REFERENCE           CUTSCENE_PREVIEW_NOTE
+LANG_ENGLISH        "NOTE: THIS IS ONLY A CUTSCENE THAT WILL SERVE AS A PROLOGUE OR EPILOGUE FOR A FUTURE MISSION."
+
+REFERENCE           MISSION_NOT_READY
+LANG_ENGLISH        "NOTE: THIS MISSION DIDN'T MAKE THE INITIAL RELEASE BUT WILL BE AVAILABLE SOON IN A PATCH."
+
+REFERENCE           MISSION_FPS_WARNING
+LANG_ENGLISH        "PERFORMANCE WARNING: WE RECOMMEND TO DISABLE DYNAMIC GLOW AND AVOID THE CENTER OF THE ARENA. FORCE SPEED ALSO HELPS."
+
+REFERENCE           TOAJ
+LANG_ENGLISH        "TRIALS OF A JEDI"
+
+REFERENCE           DWTDL
+LANG_ENGLISH        "DUEL WITH THE DARK LORD"
+
+REFERENCE           TGPOC
+LANG_ENGLISH        "THE GREAT PIT OF CARKOON"
+
+REFERENCE           FAS
+LANG_ENGLISH        "FATHER AND SON"
+
+REFERENCE           ACC
+LANG_ENGLISH        "A COLD CONFRONTATION"
+
+REFERENCE           SF
+LANG_ENGLISH        "SNOKE'S FALL"
+
+REFERENCE           FT
+LANG_ENGLISH        "FAMILY TIES"
+
+REFERENCE           HOD
+LANG_ENGLISH        "COMING SOON" //"HERITAGE OF DARKNESS"
+
+REFERENCE           OLL
+LANG_ENGLISH        "COMING SOON" // "ONE LAST LESSON"
+
+REFERENCE           DVR
+LANG_ENGLISH        "DARTH VADER'S REDEMPTION"
+
+REFERENCE           TFOAJ
+LANG_ENGLISH        "THE FEAR OF A JEDI"
+
+REFERENCE           TS
+LANG_ENGLISH        "TWIN SUNS"
+
+REFERENCE           LOD
+LANG_ENGLISH        "LIVE OR DIE"
+
+REFERENCE           AOE
+LANG_ENGLISH        "AN OLD ENEMY"
+
+REFERENCE           SLT
+LANG_ENGLISH        "STARKILLER'S LAST TRIAL"
+
+REFERENCE           FH
+LANG_ENGLISH        "FORGOTTEN HERITAGE"
+
+REFERENCE           RTR
+LANG_ENGLISH        "RESCUING THE REBELS"
+
+REFERENCE           WOTE
+LANG_ENGLISH        "WRATH OF THE EMPIRE"
+
+REFERENCE           AFH
+LANG_ENGLISH        "A FRAGILE HOPE"
+
+REFERENCE           UNAVAILABLE
+LANG_ENGLISH        "UNAVAILABLE"
+
+REFERENCE           DVL
+LANG_ENGLISH        "DARK VERSUS LIGHT"
+
+REFERENCE           FWTA
+LANG_ENGLISH        "FIGHT WITH THE APPRENTICE"
+
+REFERENCE           TBOTS
+LANG_ENGLISH        "THE BROTHERS OF THE SITH"
+
+REFERENCE           TR
+LANG_ENGLISH        "THE REVENGE"
+
+REFERENCE           TJB
+LANG_ENGLISH        "THE JEDI BATTLEGROUND"
+
+REFERENCE           TCRU
+LANG_ENGLISH        "THE CRUDE"
+
+REFERENCE           TFW
+LANG_ENGLISH        "THE FORCE WITHIN"
+
+REFERENCE           TVS
+LANG_ENGLISH        "TEACHER VS STUDENT"
+
+REFERENCE           BONUS_MISSION
+LANG_ENGLISH        "(BONUS MISSION)"
+
+REFERENCE           PLAY_BONUS_LEVEL
+LANG_ENGLISH        "PLAY BONUS LEVEL"
+
+REFERENCE           NEXT_LEVEL
+LANG_ENGLISH        "NEXT LEVEL:"
+
+REFERENCE           JEDI
+LANG_ENGLISH        "JEDI"
+
+REFERENCE           SITH
+LANG_ENGLISH        "/ SITH"
+
+//----------------------------------------------------------
+// 	h6: MISSION DIFFICULTY 
+//----------------------------------------------------------
+
+REFERENCE           SELECT_DIFFICULTY
+LANG_ENGLISH        "SELECT DIFFICULTY"
+
+REFERENCE           PADAWAN
+LANG_ENGLISH        "PADAWAN"
+
+REFERENCE           JEDI
+LANG_ENGLISH        "JEDI"
+
+REFERENCE           JEDI_KNIGHT
+LANG_ENGLISH        "JEDI KNIGHT"
+
+REFERENCE           JEDI_MASTER
+LANG_ENGLISH        "JEDI MASTER"
+
+REFERENCE           APPRENTICE
+LANG_ENGLISH        "APPRENTICE"
+
+REFERENCE           SITH_WARRIOR
+LANG_ENGLISH        "SITH WARRIOR"
+
+REFERENCE           SITH_MASTER
+LANG_ENGLISH        "SITH MASTER"
+
+REFERENCE           SITH_LORD
+LANG_ENGLISH        "SITH LORD"
+
+REFERENCE           JOURNEYMAN
+LANG_ENGLISH        "JOURNEYMAN"
+
+REFERENCE           MERCENARY
+LANG_ENGLISH        "MERCENARY"
+
+REFERENCE           BOUNTY_HUNTER
+LANG_ENGLISH        "BOUNTY HUNTER"
+
+REFERENCE           MANDALORIAN
+LANG_ENGLISH        "MANDALORIAN"
+
+
+//----------------------------------------------------------
+// 	h7: DUEL MAPS
+//----------------------------------------------------------
+
+REFERENCE           DM_EPISODE_1
+LANG_ENGLISH        "----- EPISODE 1 -----"
+
+REFERENCE           DM_EPISODE_2
+LANG_ENGLISH        "----- EPISODE 2 -----"
+
+REFERENCE           DM_EPISODE_3
+LANG_ENGLISH        "----- EPISODE 3 -----"
+
+REFERENCE           DM_EPISODE_4
+LANG_ENGLISH        "----- EPISODE 4 -----"
+
+REFERENCE           DM_EPISODE_5
+LANG_ENGLISH        "----- EPISODE 5 -----"
+
+REFERENCE           DM_EPISODE_6
+LANG_ENGLISH        "----- EPISODE 6 -----"
+
+REFERENCE           DM_EPISODE_7
+LANG_ENGLISH        "----- EPISODE 7 -----"
+
+REFERENCE           DM_EPISODE_8
+LANG_ENGLISH        "----- EPISODE 8 -----"
+
+REFERENCE           DM_EPISODE_9
+LANG_ENGLISH        "----- EPISODE 9 -----"
+
+REFERENCE           DM_CW_REBELS
+LANG_ENGLISH        "----- CLONE WARS & REBELS -----"
+
+REFERENCE           DM_THE_FORCE_UNLEASHED
+LANG_ENGLISH        "----- THE FORCE UNLEASHED -----"
+
+REFERENCE           DM_ROGUE_ONE
+LANG_ENGLISH        "----- ROGUE ONE -----"
+
+REFERENCE           DM_KOTOR
+LANG_ENGLISH        "----- KOTOR -----"
+
+REFERENCE           DM_EXTRA
+LANG_ENGLISH        "----- EXTRA -----"
+
+REFERENCE           DM_DARK_FORCES_2
+LANG_ENGLISH        "----- DARK FORCES 2 -----"
+
+REFERENCE           DM_JEDI_OUTCAST
+LANG_ENGLISH        "----- JEDI OUTCAST -----"
+
+REFERENCE           DM_JEDI_ACADEMY
+LANG_ENGLISH        "----- JEDI ACADEMY -----"
+
+REFERENCE           DM_TRAVEL_TO_LOCATION
+LANG_ENGLISH        "TRAVEL TO LOCATION"
+
+REFERENCE           DM_UNFINISHED
+LANG_ENGLISH        "Note: This map is unfinished and still in development."
+
+REFERENCE           DM_JKO_DESC
+LANG_ENGLISH        "This map requires Jedi Outcast to be installed."
+
+REFERENCE           DM_N_TFF
+LANG_ENGLISH        "Naboo - Trade Federation Flagship"
+
+REFERENCE           DM_N_TFF_DESC
+LANG_ENGLISH        "Naboo - Trade Federation Flagship\nA massive, heavily-armed warship, designed for command and military operations. Its imposing design reflects the power and authority of the Trade Federation."
+
+REFERENCE           DM_N_COT
+LANG_ENGLISH        "Naboo - City Of Theed"
+
+REFERENCE 			DM_N_COT_DESC
+LANG_ENGLISH 		"Naboo - City Of Theed\nTheed is the capital city of Naboo, known for its stunning architecture, lush landscapes, and the iconic Theed Palace. It's a peaceful and culturally rich center of government and diplomacy."
+
+REFERENCE           DM_N_OG
+LANG_ENGLISH        "Naboo - Otoh Gunga"
+
+REFERENCE           DM_N_OG_DESC
+LANG_ENGLISH        "Naboo - Otoh Gunga\nAn underwater city known for its bubble-like architecture and peaceful, aquatic environment. Otoh Gunga serves as the heart of Gungan culture and leadership."
+
+REFERENCE           DM_T_MES
+LANG_ENGLISH        "Tatooine - Mos Espa Spaceport"
+
+REFERENCE           DM_T_MES_DESC
+LANG_ENGLISH        "Tatooine - Mos Espa Spaceport\nA bustling trade hub on the desert planet Tatooine, known for its bustling market and podracing events. Mos Espa serves as a key point for travelers and traders in the Outer Rim."
+
+REFERENCE           DM_N_TGC
+LANG_ENGLISH        "Naboo - Theed Generator Complex"
+
+REFERENCE           DM_N_TGC_DESC
+LANG_ENGLISH        "Naboo - Theed Generator Complex\nA vital power station on Naboo, the Theed Generator Complex provides energy to the capital city. Its advanced technology plays a key role in supporting the peaceful society of Naboo."
+
+REFERENCE           DM_N_QGF
+LANG_ENGLISH        "Naboo - Qui-Gon's Funeral"
+
+REFERENCE           DM_N_QGF_DESC
+LANG_ENGLISH        "Naboo - Qui-Gon's Funeral\nA solemn location where the funeral of Jedi Master Qui-Gon Jinn took place. The serene surroundings reflect the loss of a great leader and mentor."
+
+REFERENCE           DM_K_CF
+LANG_ENGLISH        "Kamino - Cloning Facility"
+
+REFERENCE           DM_K_CF_DESC
+LANG_ENGLISH        "Kamino - Cloning Facility\nAn advanced facility on the stormy world of Kamino, where the cloning process for the Grand Army of the Republic takes place. The facility is known for its towering architecture and endless rain."
+
+REFERENCE           DM_K_LP
+LANG_ENGLISH        "Kamino - Landing Platform"
+
+REFERENCE           DM_K_LP_DESC
+LANG_ENGLISH        "Kamino - Landing Platform\nA high-tech landing platform on Kamino, used for transporting visitors and supplies to and from the cloning facilities. It offers a stunning view of the planet's relentless storms."
+
+REFERENCE           DM_T_TC
+LANG_ENGLISH        "Tatooine - Tusken Camp"
+
+REFERENCE           DM_T_TC_DESC
+LANG_ENGLISH        "Tatooine - Tusken Camp\nA remote camp on the desert planet Tatooine, home to the nomadic Tusken Raiders. The harsh environment and primitive structures reflect the harsh life of the desert dwellers."
+
+REFERENCE           DM_G_PA
+LANG_ENGLISH        "Geonosis - Petranaki Arena"
+
+REFERENCE           DM_G_PA_DESC
+LANG_ENGLISH        "Geonosis - Petranaki Arena\nAn ancient arena on Geonosis where deadly battles take place. The Petranaki Arena is infamous for its brutal gladiatorial combat, particularly during the Battle of Geonosis."
+
+REFERENCE           DM_G_B
+LANG_ENGLISH        "Geonosis - Battlefield"
+
+REFERENCE           DM_G_B_DESC
+LANG_ENGLISH        "Geonosis - Battlefield\nThe war-torn landscape of Geonosis, site of the first major battle of the Clone Wars. The battlefield is littered with wreckage and evidence of the brutal conflict between the Separatists and the Republic."
+
+REFERENCE           DM_G_DSH
+LANG_ENGLISH        "Geonosis - Dooku's Secret Hangar"
+
+REFERENCE           DM_G_DSH_DESC
+LANG_ENGLISH        "Geonosis - Dooku's Secret Hangar\nA hidden hangar on Geonosis, used by Count Dooku to secretly store ships and equipment. Its concealed nature reflects the secrecy surrounding Dooku's plans for the galaxy."
+
+REFERENCE           DM_C_TIH
+LANG_ENGLISH        "Coruscant - The Invisible Hand"
+
+REFERENCE           DM_C_TIH_DESC
+LANG_ENGLISH        "Coruscant - The Invisible Hand\nA powerful flagship of the Confederacy, The Invisible Hand serves as Count Dooku's command ship. Its intimidating design and size reflect the might of the Separatist Alliance."
+
+REFERENCE           DM_U_PC
+LANG_ENGLISH        "Utapau - Pau City"
+
+REFERENCE           DM_U_PC_DESC
+LANG_ENGLISH        "Utapau - Pau City\nA sprawling city built into the deep sinkholes of Utapau, known for its towering spires and unique, cliffside architecture. Pau City is home to the planet's native species, the Pau'ans."
+
+REFERENCE           DM_U_SLP
+LANG_ENGLISH        "Utapau - Secret Landing Platform"
+
+REFERENCE           DM_U_SLP_DESC
+LANG_ENGLISH        "Utapau - Secret Landing Platform\nA hidden landing platform located deep within the sinkholes of Utapau. It serves as a discreet landing point for important visitors, away from the city's main entrances."
+
+REFERENCE           DM_M_B
+LANG_ENGLISH        "Mygeeto - Bridge"
+
+REFERENCE           DM_M_B_DESC
+LANG_ENGLISH        "Mygeeto - Bridge\nA strategically important bridge on the icy world of Mygeeto, linking two vast sections of the planet's frozen landscape. It was a key location during the Clone Wars, with fierce battles fought to control it."
+
+REFERENCE           DM_C_C
+LANG_ENGLISH        "Coruscant - City"
+
+REFERENCE           DM_C_C_DESC
+LANG_ENGLISH        "Coruscant - City\nThe vast, urban expanse of Coruscant, the galactic capital, is home to countless levels of cityscape, from towering skyscrapers to sprawling districts. It is the heart of political power in the galaxy."
+
+REFERENCE           DM_C_PA
+LANG_ENGLISH        "Coruscant - Padme's Apartment"
+
+REFERENCE           DM_C_PA_DESC
+LANG_ENGLISH        "Coruscant - Padme's Apartment\nA luxurious residence in the heart of Coruscant, Padme Amidala's apartment offers stunning views of the cityscape. It serves as a quiet retreat from the chaos of galactic politics."
+
+REFERENCE           DM_C_PO
+LANG_ENGLISH        "Coruscant - Palpatine's Office"
+
+REFERENCE           DM_C_PO_DESC
+LANG_ENGLISH        "Coruscant - Palpatine's Office\nLocated within the Senate building, Palpatine's office is a place of both political strategy and manipulation. The office offers a commanding view of Coruscant and reflects the Chancellor's growing influence."
+
+REFERENCE           DM_C_JTO
+LANG_ENGLISH        "Coruscant - Jedi Temple Outside"
+
+REFERENCE           DM_C_JTO_DESC
+LANG_ENGLISH        "Coruscant - Jedi Temple Outside\nThe grand exterior of the Jedi Temple, located at the heart of Coruscant. Its towering spires and vast courtyards reflect the temple's significance as the center of Jedi teachings and wisdom."
+
+REFERENCE           DM_C_JT
+LANG_ENGLISH        "Coruscant - Jedi Temple"
+
+REFERENCE           DM_C_JT_DESC
+LANG_ENGLISH        "Coruscant - Jedi Temple\nThe sacred home of the Jedi Order on Coruscant, this temple is the heart of Jedi training and philosophy. It houses vast libraries and is a symbol of peace and knowledge across the galaxy."
+
+REFERENCE           DM_JT_TR
+LANG_ENGLISH        "Jedi Temple - Training Room"
+
+REFERENCE           DM_JT_TR_DESC
+LANG_ENGLISH        "Jedi Temple - Training Room\nA dedicated space within the Jedi Temple for young Jedi to hone their skills. The training room features combat droids and holographic simulations for various forms of combat and discipline."
+
+REFERENCE           DM_JT_LA
+LANG_ENGLISH        "Jedi Temple - Ruins"
+
+REFERENCE           DM_JT_LA_DESC
+LANG_ENGLISH        "Jedi Temple - Ruins\nThe remnants of the once majestic Jedi Temple, now a site of devastation and loss. The ruins stand as a somber reminder of the fall of the Jedi Order and the rise of the Empire."
+
+REFERENCE           DM_JT_LP
+LANG_ENGLISH        "Jedi Temple - Landing Platform"
+
+REFERENCE           DM_JT_LP_DESC
+LANG_ENGLISH        "Jedi Temple - Landing Platform\nA landing platform situated atop the Jedi Temple, used for docking ships and receiving important visitors. It offers a breathtaking view of Coruscant's vast cityscape."
+
+REFERENCE           DM_C_SC
+LANG_ENGLISH        "Coruscant - Senate Complex"
+
+REFERENCE           DM_C_SC_DESC
+LANG_ENGLISH        "Coruscant - Senate Complex\nThe massive and intricate Senate Complex on Coruscant, where galactic politics unfold. This sprawling structure houses the Galactic Senate and serves as the center of legislative power in the Republic."
+
+REFERENCE           DM_M_MF
+LANG_ENGLISH        "Mustafar - Mining Facility"
+
+REFERENCE           DM_M_MF_DESC
+LANG_ENGLISH        "Mustafar - Mining Facility\nA harsh industrial complex on the volcanic planet Mustafar, where valuable resources are extracted under extreme conditions. The facility is a key location for the Separatists during the Clone Wars."
+
+REFERENCE           DM_M_MFD
+LANG_ENGLISH        "Mustafar - Mining Facility Duel"
+
+REFERENCE           DM_M_MFD_DESC
+LANG_ENGLISH        "Mustafar - Mining Facility Duel\nA fiery and treacherous location within the mining facility on Mustafar, where Obi-Wan Kenobi and Anakin Skywalker engage in their final, fateful duel. The surroundings are dominated by molten lava and intense heat."
+
+REFERENCE           DM_M_SPD
+LANG_ENGLISH        "Mandalore - Sundari Palace (Day)"
+
+REFERENCE           DM_M_SPD_DESC
+LANG_ENGLISH        "Mandalore - Sundari Palace (Day)\nThe grand palace of Mandalore, located in the city of Sundari. During the day, the palace shines under the bright sun, reflecting the regal power and history of Mandalore's leadership."
+
+REFERENCE           DM_M_SPN
+LANG_ENGLISH        "Mandalore - Sundari Palace (Night)"
+
+REFERENCE           DM_M_SPN_DESC
+LANG_ENGLISH        "Mandalore - Sundari Palace (Night)\nThe Sundari Palace at night, illuminated by the soft glow of lights against the dark Mandalorian sky. The palace exudes a calm yet imposing presence, reflecting the strength and resilience of Mandalore's rulers."
+
+REFERENCE           DM_RS_TR
+LANG_ENGLISH        "Rogue Shadow - Training Room"
+
+REFERENCE           DM_RS_TR_DESC
+LANG_ENGLISH        "Rogue Shadow - Training Room\nA training facility aboard the Rogue Shadow, used to hone combat skills and prepare for dangerous missions. The room is equipped with advanced simulations and droid combatants."
+
+REFERENCE           DM_DS_TFU
+LANG_ENGLISH        "Death Star - The Force Unleashed"
+
+REFERENCE           DM_DS_TFU_DESC
+LANG_ENGLISH        "Death Star - The Force Unleashed\nA chamber on the Death Star where intense battles unfold. The location is tied to the secret training and experiments of the Sith, where dark power and destruction are unleashed."
+
+REFERENCE           DM_S_WBW
+LANG_ENGLISH        "Space - World Between Worlds"
+
+REFERENCE           DM_S_WBW_DESC
+LANG_ENGLISH        "Space - World Between Worlds\nA mystical, dimension-bending space that exists outside the known galaxy. The World Between Worlds serves as a portal to alternate realities and key moments in history, a place of great mystery and danger."
+
+REFERENCE           DM_J_HC
+LANG_ENGLISH        "Jedha - Holy City"
+
+REFERENCE           DM_J_HC_DESC
+LANG_ENGLISH        "Jedha - Holy City\nThe ancient city of Jedha, a sacred place for those who follow the Force. It is home to ancient temples and ruins, a center of pilgrimage for Force users before it was destroyed during the Galactic Empire's conquest."
+
+REFERENCE           DM_M_VC
+LANG_ENGLISH        "Mustafar - Vader's Castle"
+
+REFERENCE           DM_M_VC_DESC
+LANG_ENGLISH        "Mustafar - Vader's Castle\nA towering fortress on the volcanic world of Mustafar, built by Darth Vader to symbolize his power and to meditate in isolation. The castle is a haunting place of dark energy and intense heat."
+
+REFERENCE           DM_S_ISC
+LANG_ENGLISH        "Scarif - Imperial Security Complex"
+
+REFERENCE           DM_S_ISC_DESC
+LANG_ENGLISH        "Scarif - Imperial Security Complex\nA heavily fortified complex on Scarif, housing the Empire's top secret operations. The facility's remote location and high security make it a key strategic asset for the Empire."
+
+REFERENCE           DM_SC_PH
+LANG_ENGLISH        "Star Cruiser - Profundity Hallway"
+
+REFERENCE           DM_SC_PH_DESC
+LANG_ENGLISH        "Star Cruiser - Profundity Hallway\nA long, sleek hallway aboard the Profundity, a Rebel Alliance star cruiser. The hallway connects key areas of the ship, featuring utilitarian design and the constant hum of activity during fleet operations."
+
+REFERENCE           DM_T_RBR
+LANG_ENGLISH        "Tantive IV - Rebel Blockade Runner"
+
+REFERENCE           DM_T_RBR_DESC
+LANG_ENGLISH        "Tantive IV - Rebel Blockade Runner\nThe Tantive IV, a Rebel blockade runner, is a fast and agile ship used for stealth and escape. The ship's design combines speed with practicality, serving as a vital tool for the Rebel Alliance."
+
+REFERENCE           DM_T_LHO
+LANG_ENGLISH        "Tatooine - Lars Homestead Outside"
+
+REFERENCE           DM_T_LHO_DESC
+LANG_ENGLISH        "Tatooine - Lars Homestead Outside\nThe quiet, moisture farm of the Lars family on Tatooine, surrounded by harsh desert. This humble home serves as a refuge for Luke Skywalker, and its simple structure reflects the desert life of its inhabitants."
+
+REFERENCE           DM_T_TS
+LANG_ENGLISH        "Tatooine - Twin Suns"
+
+REFERENCE           DM_T_TS_DESC
+LANG_ENGLISH        "Tatooine - Twin Suns\nSet under the starry sky of Tatooine at night, this desert landscape is marked by sweeping sands. The location is iconic for its quiet, tense atmosphere, where the final confrontation between Maul and Obi-Wan took place."
+
+REFERENCE           DM_T_O
+LANG_ENGLISH        "Tatooine - Outpost"
+
+REFERENCE           DM_T_O_DESC
+LANG_ENGLISH        "Tatooine - Outpost\nA remote outpost in the deserts of Tatooine, serving as a waypoint for travelers and traders. The outpost is a lifeline in the harsh desert, with minimal resources and constant danger."
+
+REFERENCE           DM_TE_MC
+LANG_ENGLISH        "The Executor - Vader's Flagship"
+
+REFERENCE           DM_TE_MC_DESC
+LANG_ENGLISH        "The Executor - Vader's Flagship\nThe Executor is Darth Vader's massive flagship, a symbol of Imperial might. With its imposing size and firepower, it serves as a command center for the fleet, carrying out the will of the Empire."
+
+REFERENCE           DM_DS_SS
+LANG_ENGLISH        "Death Star - Space Station"
+
+REFERENCE           DM_DS_SS_DESC
+LANG_ENGLISH        "Death Star - Space Station\nA colossal space station and superweapon, the Death Star is capable of destroying entire planets. It is a symbol of the Empire's terror, with its cold, mechanical design and overwhelming power."
+
+REFERENCE           DM_Y_TGT
+LANG_ENGLISH        "Yavin IV - The Great Temple"
+
+REFERENCE           DM_Y_TGT_DESC
+LANG_ENGLISH        "Yavin IV - The Great Temple\nAn ancient, jungle-covered temple on Yavin IV, once home to the massassi warriors. It became the Rebel Alliance's base of operations during the Battle of Yavin, where the Death Star was destroyed."
+
+REFERENCE           DM_Y_CH
+LANG_ENGLISH        "Yavin IV - Ceremonial Hall"
+
+REFERENCE           DM_Y_CH_DESC
+LANG_ENGLISH        "Yavin IV - Ceremonial Hall\nA large, open hall within the Great Temple on Yavin IV, where the Rebel Alliance holds ceremonies and meetings. The hall is a place of reflection and celebration, most famously for the heroes of the Battle of Yavin."
+
+REFERENCE           DM_H_EB
+LANG_ENGLISH        "Hoth - Echo Base"
+
+REFERENCE           DM_H_EB_DESC
+LANG_ENGLISH        "Hoth - Echo Base\nA secret Rebel base located on the icy planet of Hoth. Echo Base is a fortress carved into the planet's frozen caverns, serving as the staging ground for the Rebel Alliance's fight against the Empire."
+
+REFERENCE           DM_B_CC
+LANG_ENGLISH        "Bespin - Cloud City"
+
+REFERENCE           DM_B_CC_DESC
+LANG_ENGLISH        "Bespin - Cloud City\nA floating city in the skies of Bespin, Cloud City is a mining colony that specializes in tibanna gas extraction. Known for its stunning views and industrial design, it serves as a hub for commerce and intrigue."
+
+REFERENCE           DM_B_CFC
+LANG_ENGLISH        "Bespin - Carbon Freezing Chamber"
+
+REFERENCE           DM_B_CFC_DESC
+LANG_ENGLISH        "Bespin - Carbon Freezing Chamber\nA cold, industrial chamber located within Cloud City, used for the freezing of subjects in carbonite. The chamber is infamous for the capture of Han Solo by Darth Vader."
+
+REFERENCE           DM_T_GPOC
+LANG_ENGLISH        "Tatooine - Great Pit of Carkoon"
+
+REFERENCE           DM_T_GPOC_DESC
+LANG_ENGLISH        "Tatooine - Great Pit of Carkoon\nA vast, deadly pit in the desert of Tatooine, home to the fearsome Sarlacc. It is the site where Jabba the Hutt imprisons his enemies, and serves as the backdrop for a daring escape by Han Solo and his friends."
+
+REFERENCE           DM_T_JPD
+LANG_ENGLISH        "Tatooine - Jabba's Palace (Day)"
+
+REFERENCE           DM_T_JPD_DESC
+LANG_ENGLISH        "Tatooine - Jabba's Palace (Day)\nThe imposing palace of Jabba the Hutt, located in the deserts of Tatooine. By day, the palace is a fortress filled with intrigue, crime, and dangerous creatures under the control of the infamous gangster."
+
+REFERENCE           DM_T_JPN
+LANG_ENGLISH        "Tatooine - Jabba's Palace (Night)"
+
+REFERENCE           DM_T_JPN_DESC
+LANG_ENGLISH        "Tatooine - Jabba's Palace (Night)\nAt night, Jabba's Palace becomes a darker, more mysterious place, with shadowy figures moving through its halls. The desert heat cools, but the palace remains a place of power and treachery."
+
+REFERENCE           DM_DS_ETR
+LANG_ENGLISH        "Death Star II - Emperor's Throne Room"
+
+REFERENCE           DM_DS_ETR_DESC
+LANG_ENGLISH        "Death Star II - Emperor's Throne Room\nA grand, ominous chamber located on the second Death Star, where Emperor Palpatine sits on his throne, watching over the galaxy's fate. The room is a symbol of the Empire's control and the Emperor's dark influence."
+
+REFERENCE           DM_J_T
+LANG_ENGLISH        "Jakku - Tuanul"
+
+REFERENCE           DM_J_T_DESC
+LANG_ENGLISH        "Jakku - Tuanul\nTuanul is a remote settlement on the desert planet Jakku, where scavengers and travelers make their home. The settlement is a harsh, barren place, but it plays a key role in the events leading to the rise of the Resistance."
+
+REFERENCE           DM_E_BF
+LANG_ENGLISH        "Eravana - Bulk Freighter"
+
+REFERENCE           DM_E_BF_DESC
+LANG_ENGLISH        "Eravana - Bulk Freighter\nThe Eravana is a large, aging bulk freighter that travels the galaxy, often carrying cargo and passengers through dangerous sectors. Its worn-down design and cramped interior reflect its history as a smuggler's vessel."
+
+REFERENCE           DM_SB_C
+LANG_ENGLISH        "Starkiller Base - Complex"
+
+REFERENCE           DM_SB_C_DESC
+LANG_ENGLISH        "Starkiller Base - Complex\nThe Starkiller Base complex is a massive military installation built into the heart of a planet. It is designed for strategic operations and housing the weapon capable of destroying entire star systems."
+
+REFERENCE           DM_SB_F
+LANG_ENGLISH        "Starkiller Base - Forest"
+
+REFERENCE           DM_SB_F_DESC
+LANG_ENGLISH        "Starkiller Base - Forest\nA lush, dark forest located on Starkiller Base, this forest stands in stark contrast to the planet's destructive potential. It serves as the backdrop for the final confrontation between the Resistance and the First Order."
+
+REFERENCE           DM_TS_STR
+LANG_ENGLISH        "The Supremacy - Snoke's Throne Room"
+
+REFERENCE           DM_TS_STR_DESC
+LANG_ENGLISH        "The Supremacy - Snoke's Throne Room\nAn imposing throne room aboard the Supremacy, Supreme Leader Snoke's flagship. The room is a symbol of his power and authority, with a view of the galaxy that reflects his control over it."
+
+REFERENCE           DM_C_RO
+LANG_ENGLISH        "Crait - Resistance Outpost"
+
+REFERENCE           DM_C_RO_DESC
+LANG_ENGLISH        "Crait - Resistance Outpost\nA secret Resistance outpost on the mineral-rich planet Crait, known for its stark white surface and red dust. The outpost served as a last stand for the Resistance against the overwhelming forces of the First Order."
+
+REFERENCE           DM_E_SC
+LANG_ENGLISH        "Exegol - Sith Citadel"
+
+REFERENCE           DM_E_SC_DESC
+LANG_ENGLISH        "Exegol - Sith Citadel\nA dark and foreboding citadel located on the hidden world of Exegol. The Sith Citadel serves as the base of operations for the Sith Eternal, where dark rituals and plans for galactic domination are carried out in secrecy."
+
+REFERENCE           DM_C_CA
+LANG_ENGLISH        "Corvus - Calodan"
+
+REFERENCE           DM_C_CA_DESC
+LANG_ENGLISH        "Corvus - Calodan\nA desolate settlement on the planet Corvus. Once a thriving town, it now serves as the base of operations for Morgan Elsbeth, where dark dealings and dangerous confrontations unfold."
+
+REFERENCE           DM_JT_D
+LANG_ENGLISH        "Jedi Temple - Dojo"
+
+REFERENCE           DM_JT_D_DESC
+LANG_ENGLISH        "Jedi Temple - Dojo\nA dedicated training chamber within the Jedi Temple on Coruscant. The Dojo is where Jedi refine their lightsaber skills and strengthen their connection to the Force."
+
+REFERENCE           DM_K_F
+LANG_ENGLISH        "Khofar - Forest"
+
+REFERENCE           DM_K_F_DESC
+LANG_ENGLISH        "Khofar - Forest\nA dense and humid forest world, Khofar is marked by towering trees and hidden dangers. Its wild terrain conceals secrets that draw both Jedi and those who hunt them."
+
+REFERENCE           DM_T_LHD
+LANG_ENGLISH        "Tatooine - Lars Homestead (Day)"
+
+REFERENCE           DM_T_LHD_DESC
+LANG_ENGLISH        "Tatooine - Lars Homestead (Day)\nThe quiet, moisture farm of the Lars family on Tatooine, surrounded by harsh desert. This humble home serves as a refuge for Luke Skywalker, and its simple structure reflects the desert life of its inhabitants."
+
+REFERENCE           DM_T_LHS
+LANG_ENGLISH        "Tatooine - Lars Homestead (Sunset)"
+
+REFERENCE           DM_T_LHS_DESC
+LANG_ENGLISH        "Tatooine - Lars Homestead (Sunset)\nThe quiet, moisture farm of the Lars family on Tatooine, surrounded by harsh desert. This humble home serves as a refuge for Luke Skywalker, and its simple structure reflects the desert life of its inhabitants."
+
+REFERENCE           DM_T_LHN
+LANG_ENGLISH        "Tatooine - Lars Homestead (Night)"
+
+REFERENCE           DM_T_LHN_DESC
+LANG_ENGLISH        "Tatooine - Lars Homestead (Night)\nThe quiet, moisture farm of the Lars family on Tatooine, surrounded by harsh desert. This humble home serves as a refuge for Luke Skywalker, and its simple structure reflects the desert life of its inhabitants."
+
+REFERENCE           DM_SD_TFH
+LANG_ENGLISH        "Star Destroyer - TIE Fighter Hangar"
+
+REFERENCE           DM_SD_TFH_DESC
+LANG_ENGLISH        "Star Destroyer - TIE Fighter Hangar\nA hangar aboard an Imperial Star Destroyer, lined with TIE fighters. It serves as the launch point for Imperial starfighters and a hub of military activity."
+
+REFERENCE           DM_K_TC
+LANG_ENGLISH        "Kamino - Training Chamber"
+
+REFERENCE           DM_K_TC_DESC
+LANG_ENGLISH        "Kamino - Training Chamber\nA high-tech training chamber on Kamino where Starkiller hones his Force abilities. The room is filled with simulations and equipment designed to push a Sith apprentice to his limits."
+
+REFERENCE           DM_YV_DA
+LANG_ENGLISH        "Yuuzhan Vong - Duel Arena"
+
+REFERENCE           DM_YV_DA_DESC
+LANG_ENGLISH        "Yuuzhan Vong - Duel Arena\nAn ancient combat arena on a Yuuzhan Vong homeworld. Organic architecture and alien carvings surround the battlefield, designed for duels and ritual combat in the Vong tradition."
+
+REFERENCE           DM_DA_EN
+LANG_ENGLISH        "Dantooine - Enclave"
+
+REFERENCE           DM_DA_EN_DESC
+LANG_ENGLISH        "Dantooine - Enclave\nA secluded Jedi Enclave on the peaceful world of Dantooine. The grounds serve as a place of study and meditation, where Jedi train in the ways of the Force."
+
+REFERENCE           DM_K_SA
+LANG_ENGLISH        "Korriban - Sith Academy"
+
+REFERENCE           DM_K_SA_DESC
+LANG_ENGLISH        "Korriban - Sith Academy\nThe dark training grounds of the Sith on Korriban. Aspirants are taught the ways of the Dark Side amid ancient tombs and foreboding architecture."
+
+REFERENCE           DM_L_B
+LANG_ENGLISH        "Leviathan - Bridge"
+
+REFERENCE           DM_L_B_DESC
+LANG_ENGLISH        "Leviathan - Bridge\nThe central bridge of the Leviathan starship. Sleek and functional, it serves as the command hub where critical operations are coordinated."
+
+REFERENCE           DM_M_TA
+LANG_ENGLISH        "Malachor - Trayus Academy"
+
+REFERENCE           DM_M_TA_DESC
+LANG_ENGLISH        "Malachor - Trayus Academy\nA dark and foreboding academy on Malachor. Here, Sith teachings and experiments push the limits of the Force in a place steeped in shadow."
+
+REFERENCE           DM_M_TC
+LANG_ENGLISH        "Malachor - Trayus Core"
+
+REFERENCE           DM_M_TC_DESC
+LANG_ENGLISH        "Malachor - Trayus Core\nThe heart of the Trayus Academy, a massive chamber filled with dark energy and remnants of ancient Sith rituals. A place of immense power and danger."
+
+REFERENCE           DM_I_OP
+LANG_ENGLISH        "Iziz - Onderon Palace"
+
+REFERENCE           DM_I_OP_DESC
+LANG_ENGLISH        "Iziz - Onderon Palace\nThe Royal Palace of Iziz was the home of the Royal Family of Onderon throughout the city's history, serving many regimes as the city changed hands over the millennia."
+
+REFERENCE           DM_P_OD
+LANG_ENGLISH        "Peragus - Observation Deck"
+
+REFERENCE           DM_P_OD_DESC
+LANG_ENGLISH        "Peragus - Observation Deck\nA vantage point aboard the Peragus mining facility. The observation deck overlooks the station's machinery and corridors, where security droids like HK-50 maintain strict control over the complex."
+
+REFERENCE           DM_R_OD
+LANG_ENGLISH        "Ravager - Observation Deck"
+
+REFERENCE           DM_R_OD_DESC
+LANG_ENGLISH        "Ravager - Observation Deck\nA Centurion-class battlecruiser once used by the Republic Navy during the Mandalorian Wars. After being crippled by the Mass Shadow Generator, it now serves under Darth Nihilus."
+
+REFERENCE           DM_T_H
+LANG_ENGLISH        "Taris - Horizons"
+
+REFERENCE           DM_T_H_DESC
+LANG_ENGLISH        "Taris - Horizons\nThe bustling upper levels of Taris, filled with towers, platforms, and traffic. Horizons showcase the city's scale and the diversity of its inhabitants."
+
+REFERENCE           DM_T_CS
+LANG_ENGLISH        "Telos - Citadel Station"
+
+REFERENCE           DM_T_CS_DESC
+LANG_ENGLISH        "Telos - Citadel Station\nThe central hub of Telos, serving as a command and administrative center. Citadel Station oversees the planet's operations and maintains order."
+
+REFERENCE           DM_T_PA
+LANG_ENGLISH        "Telos - Polar Academy"
+
+REFERENCE           DM_T_PA_DESC
+LANG_ENGLISH        "Telos - Polar Academy\nA remote training facility located in Telos' polar region. The academy is dedicated to study and discipline, offering harsh conditions to strengthen its trainees."
+
+REFERENCE           DM_R_VOTJ
+LANG_ENGLISH        "DF2 - Valley Of The Jedi"
+
+REFERENCE           DM_R_VOTJ_DESC
+LANG_ENGLISH        "DF2 - Valley Of The Jedi\nThe Valley of the Jedi is a mystical, ancient site on the planet Ruusan, filled with powerful Force energy. It is a place where Jedi and Sith alike are drawn to harness the power of the Force."
+
+REFERENCE           DM_K_TOR
+LANG_ENGLISH        "Korriban - Tomb Of Ragnos"
+
+REFERENCE           DM_K_TOR_DESC
+LANG_ENGLISH        "Korriban - Tomb Of Ragnos\nThe Tomb of Ragnos on Korriban is a sacred burial site for the ancient Sith Lords. Its dark, foreboding atmosphere is filled with the remnants of long-dead Sith, with many dark secrets hidden beneath its sands."
+
+REFERENCE           DM_D1_BC
+LANG_ENGLISH        "Duel1 - Bespin Courtyard"
+
+REFERENCE           DM_D1_BC_DESC
+LANG_ENGLISH        "Duel1 - Bespin Courtyard\nA grand courtyard set on the floating city of Bespin, this location serves as the stage for intense duels."
+
+REFERENCE           DM_D3_IS
+LANG_ENGLISH        "Duel3 - Imperial Shaft"
+
+REFERENCE           DM_D3_IS_DESC
+LANG_ENGLISH        "Duel3 - Imperial Shaft\nA dark, industrial shaft deep within an Imperial facility. Its narrow, vertical design makes it an ideal setting for intense, close-quarters duels, with little room for escape."
+
+REFERENCE           DM_D4_ICR
+LANG_ENGLISH        "Duel4 - Imperial Control Room"
+
+REFERENCE           DM_D4_ICR_DESC
+LANG_ENGLISH        "Duel4 - Imperial Control Room\nA high-tech, command center aboard an Imperial ship. The Imperial Control Room is the nerve center of operations, with its vast displays and futuristic equipment creating a tense atmosphere for combat."
+
+REFERENCE           DM_D5_TL
+LANG_ENGLISH        "Duel5 - Taspir Landing"
+
+REFERENCE           DM_D5_TL_DESC
+LANG_ENGLISH        "Duel5 - Taspir Landing\nA desolate, barren landing site on the planet Taspir, surrounded by rocky terrain and lava. The open space and hostile environment make it a challenging location for combatants."
+
+REFERENCE           DM_D6_YTG
+LANG_ENGLISH        "Duel6 - Yavin Training Grounds"
+
+REFERENCE           DM_D6_YTG_DESC
+LANG_ENGLISH        "Duel6 - Yavin Training Grounds\nThe Yavin Training Grounds are an expansive, open-air area filled with training droids and obstacles. It is the perfect place for honing combat skills in a more controlled environment."
+
+REFERENCE           DM_D7_RP
+LANG_ENGLISH        "Duel7 - Rancor Pit"
+
+REFERENCE           DM_D7_RP_DESC
+LANG_ENGLISH        "Duel7 - Rancor Pit\nA dark, ominous pit used for the display of the feared Rancor, a deadly creature. The pit is a location for combatants to fight, with the threat of the Rancor looming over the duels."
+
+REFERENCE           DM_D8_AC
+LANG_ENGLISH        "Duel8 - Abandoned City"
+
+REFERENCE           DM_D8_AC_DESC
+LANG_ENGLISH        "Duel8 - Abandoned City\nAn eerie, forgotten city filled with crumbling buildings and deserted streets. The abandoned city offers a dangerous environment where duelists must navigate the ruins as they face off against each other."
+
+REFERENCE           DM_D10_VFP
+LANG_ENGLISH        "Duel10 - Vjun Fuel Processing"
+
+REFERENCE           DM_D10_VFP_DESC
+LANG_ENGLISH        "Duel10 - Vjun Fuel Processing\nA harsh, industrial facility on the planet Vjun. The fuel processing plant is filled with machinery and dark, toxic environments, providing a grim backdrop for fierce duels."
+
+REFERENCE           DM_CTF1_IDZ
+LANG_ENGLISH        "CTF1 - Imperial Drop Zone"
+
+REFERENCE           DM_CTF1_IDZ_DESC
+LANG_ENGLISH        "CTF1 - Imperial Drop Zone\nA fortified Imperial drop zone, where heavy military activity takes place. The area is littered with corridors and advantage points offering tactical advantages for both teams in capture the flag matches."
+
+REFERENCE           DM_CF2_HW
+LANG_ENGLISH        "CTF2 - Hoth Wasteland"
+
+REFERENCE           DM_CF2_HW_DESC
+LANG_ENGLISH        "CTF2 - Hoth Wasteland\nA frozen, desolate wasteland on the icy planet of Hoth, covered in snowdrifts and ice. The harsh environment makes movement difficult, but offers plenty of opportunities for tactical positioning in capture the flag."
+
+REFERENCE           DM_CF3_YH
+LANG_ENGLISH        "CTF3 - Yavin Hilltops"
+
+REFERENCE           DM_CF3_YH_DESC
+LANG_ENGLISH        "CTF3 - Yavin Hilltops\nThe hilltops of Yavin IV, overlooking the jungle-covered landscape. This elevated position offers wide-ranging views and strategic vantage points for capture the flag gameplay."
+
+REFERENCE           DM_CF4_CS
+LANG_ENGLISH        "CTF4 - Coruscant Streets"
+
+REFERENCE           DM_CF4_CS_DESC
+LANG_ENGLISH        "CTF4 - Coruscant Streets\nThe bustling, urban streets of Coruscant provide an exciting and dynamic environment for capture the flag. The densely packed cityscape offers plenty of cover and opportunities for ambushes."
+
+REFERENCE           DM_CF5_F
+LANG_ENGLISH        "CTF5 - Factory"
+
+REFERENCE           DM_CF5_F_DESC
+LANG_ENGLISH        "CTF5 - Factory\nA large, industrial factory filled with towering machines and narrow catwalks. The factory's complex layout creates both obstacles and advantages for teams in capture the flag matches."
+
+REFERENCE           DM_FFA1_VS
+LANG_ENGLISH        "FFA1 - Vjun Sentinel"
+
+REFERENCE           DM_FFA1_VS_DESC
+LANG_ENGLISH        "FFA1 - Vjun Sentinel\nA dark, stormy world with a gothic atmosphere, Vjun Sentinel features towering structures and a foreboding landscape. The terrain offers dangerous drops and narrow platforms for intense free-for-all combat."
+
+REFERENCE           DM_FFA2_K
+LANG_ENGLISH        "FFA2 - Korriban"
+
+REFERENCE           DM_FFA2_K_DESC
+LANG_ENGLISH        "FFA2 - Korriban\nThe ancient, desert world of Korriban, home to the tombs of Sith Lords. Its eerie, tomb-laden landscape creates a haunting setting for intense, chaotic battles between combatants."
+
+REFERENCE           DM_FFA3_T
+LANG_ENGLISH        "FFA3 - Tatooine"
+
+REFERENCE           DM_FFA3_T_DESC
+LANG_ENGLISH        "FFA3 - Tatooine\nThe harsh desert planet of Tatooine, with vast open spaces, rocky terrain, and sparse settlements. This location offers both wide views and tight, perilous corners perfect for free-for-all confrontations."
+
+REFERENCE           DM_FFA4_RS
+LANG_ENGLISH        "FFA4 - Rift Sanctuary"
+
+REFERENCE           DM_FFA4_RS_DESC
+LANG_ENGLISH        "FFA4 - Rift Sanctuary\nA mysterious, secluded sanctuary surrounded by dangerous rifts in the landscape. Its crumbling architecture and hazardous environment make for a volatile battleground where danger lurks at every turn."
+
+REFERENCE           DM_FFA5_T
+LANG_ENGLISH        "FFA5 - Taspir"
+
+REFERENCE           DM_FFA5_T_DESC
+LANG_ENGLISH        "FFA5 - Taspir\nA desolate, rocky planet with harsh terrain and minimal shelter. Taspir's rugged environment forces players to rely on quick reflexes and strategic positioning in free-for-all battles."
+
+REFERENCE           DM_SIEGE_DR
+LANG_ENGLISH        "Siege - Desert Rescue"
+
+REFERENCE           DM_SIEGE_DR_DESC
+LANG_ENGLISH        "Siege - Desert Rescue\nA barren desert planet, where an intense rescue mission is underway. The vast, sandy landscape provides few places to hide, creating a tense atmosphere for both defenders and attackers in siege-style combat."
+
+REFERENCE           DM_SIEGE_K
+LANG_ENGLISH        "Siege - Korriban"
+
+REFERENCE           DM_SIEGE_K_DESC
+LANG_ENGLISH        "Siege - Korriban\nA powerful, ancient Sith world, Korriban's dark temples and tombs set the stage for brutal siege warfare. The harsh desert terrain and tight corridors make it a perfect location for high-stakes battles."
+
+REFERENCE           DM_SF_OD
+LANG_ENGLISH        "Star Forge - Observation Deck"
+
+REFERENCE           DM_SF_OD_DESC
+LANG_ENGLISH        "Star Forge - Observation Deck\nA sleek, metallic observation deck aboard the Star Forge. The cold, industrial design offers little cover but provides wide views of the Forge's inner workings, making for a tense battleground."
+
+REFERENCE           DM_DF2_SC
+LANG_ENGLISH        "MOTS - Sith Catacombs"
+
+REFERENCE           DM_DF2_SC_DESC
+LANG_ENGLISH        "MOTS - Sith Catacombs\nDeep beneath the Sith stronghold, the Sith Catacombs are filled with dark passages and ancient traps. The eerie, tomb-like atmosphere makes it a treacherous environment for any combatant."
+
+REFERENCE           DM_DF2_TV
+LANG_ENGLISH        "DF2 - The Vengeance"
+
+REFERENCE           DM_DF2_TV_DESC
+LANG_ENGLISH        "DF2 - The Vengeance\nA slender, black KDY Super Star Destroyer that served as the flagship of the Dark Jedi Jerec in the years before and after the Battle of Endor. It was commanded by Captain Sysco."
+
+REFERENCE           DM_DF2_DP
+LANG_ENGLISH        "DF2 - Dark Palace"
+
+REFERENCE           DM_DF2_DP_DESC
+LANG_ENGLISH        "DF2 - Dark Palace\nA lavish yet sinister palace filled with dark energy. The towering spires and ornate chambers of the Dark Palace offer both beauty and danger, with traps and ambush points around every corner."
+
+REFERENCE           DM_DF2_SS
+LANG_ENGLISH        "DF2 - Sulon Star"
+
+REFERENCE           DM_DF2_SS_DESC
+LANG_ENGLISH        "DF2 - Sulon Star\nA massive, derelict freighter drifting in space. The dark, industrial corridors provide a perfect backdrop for the deadly confrontation with the Dark Jedi, Pic and Gorc, in this claustrophobic, high-stakes battle."
+
+REFERENCE           DM_DF2_JB
+LANG_ENGLISH        "DF2 - Jedi Battleground"
+
+REFERENCE           DM_DF2_JB_DESC
+LANG_ENGLISH        "DF2 - Jedi Battleground\nA desolate, ruined landscape where the wreckage of a crashed ship lies amidst ancient ruins. The location marks the final confrontation between Kyle and Sarris, after the defeat of Maw, in a chaotic and explosive battle."
+
+REFERENCE           DM_DF2_R
+LANG_ENGLISH        "DF2 - Tower"
+
+REFERENCE           DM_DF2_R_DESC
+LANG_ENGLISH        "DF2 - Tower\nAn imposing, dark tower, where Kyle must confront the twisted Dark Jedi, Maw. The high-altitude battleground features narrow ledges and a sense of vertigo, adding to the intensity of the final fight."
+
+REFERENCE           DM_JKO_D_BA
+LANG_ENGLISH        "Duel1 - Bay"
+
+REFERENCE           DM_JKO_D_BA_DESC
+LANG_ENGLISH        "Duel1 - Bay (Requires Jedi Outcast)\nA spacious, industrial bay filled for ships. The open space offers plenty of room for combatants to maneuver, but also presents risks with the environment's hazards."
+
+REFERENCE           DM_JKO_D_BE
+LANG_ENGLISH        "Duel2 - Bespin"
+
+REFERENCE           DM_JKO_D_BE_DESC
+LANG_ENGLISH        "Duel2 - Bespin (Requires Jedi Outcast)\nSet in the floating city of Bespin. The environment provides small platforms for intense dueling."
+
+REFERENCE           DM_JKO_D_HA
+LANG_ENGLISH        "Duel3 - Hangar"
+
+REFERENCE           DM_JKO_D_HA_DESC
+LANG_ENGLISH        "Duel3 - Hangar (Requires Jedi Outcast)\nA large hangar bay filled with cargo, and industrial equipment. The cluttered environment provides plenty of cover for stealthy maneuvers, but also creates dangerous obstacles for combatants."
+
+REFERENCE           DM_JKO_D_PI
+LANG_ENGLISH        "Duel4 - Pit"
+
+REFERENCE           DM_JKO_D_PI_DESC
+LANG_ENGLISH        "Duel4 - Pit (Requires Jedi Outcast)\nA dark, ominous pit surrounded by platforms and steep drops. This confined space forces duelists into close-quarters combat, with little room for escape or evasion."
+
+REFERENCE           DM_JKO_F_BE
+LANG_ENGLISH        "FFA1 - Bespin"
+
+REFERENCE           DM_JKO_F_BE_DESC
+LANG_ENGLISH        "FFA1 - Bespin (Requires Jedi Outcast)\nA bustling environment in Bespin's floating city, with a mix of open air platforms and narrow passageways. The city's futuristic architecture provides plenty of opportunities for both long-range and close-quarters combat."
+
+REFERENCE           DM_JKO_F_DE
+LANG_ENGLISH        "FFA2 - Death Star"
+
+REFERENCE           DM_JKO_F_DE_DESC
+LANG_ENGLISH        "FFA2 - Death Star (Requires Jedi Outcast)\nThe Emperor's Throne Room with tight spaces and cold, metallic design create a hostile environment for free-for-all battles."
+
+REFERENCE           DM_JKO_F_IM
+LANG_ENGLISH        "FFA3 - Imperial"
+
+REFERENCE           DM_JKO_F_IM_DESC
+LANG_ENGLISH        "FFA3 - Imperial (Requires Jedi Outcast)\nA cold, stark environment within an Imperial star destroyer. The sterile, industrial design offers little cover, making it a high-risk arena for combatants looking for quick and decisive engagements."
+
+REFERENCE           DM_JKO_F_NH
+LANG_ENGLISH        "FFA4 - Hideout"
+
+REFERENCE           DM_JKO_F_NH_DESC
+LANG_ENGLISH        "FFA4 - Hideout (Requires Jedi Outcast)\nA hidden, underground hideout filled with narrow corridors and cluttered rooms. The environment's tight spaces force players to be quick and stealthy, using the surroundings to their advantage."
+
+REFERENCE           DM_JKO_F_NS
+LANG_ENGLISH        "FFA5 - Streets"
+
+REFERENCE           DM_JKO_F_NS_DESC
+LANG_ENGLISH        "FFA5 - Streets (Requires Jedi Outcast)\nA dense, urban environment filled with narrow alleys and open streets. The cityscape offers plenty of places for ambushes and surprise attacks, making it a chaotic setting for free-for-all battles."
+
+REFERENCE           DM_JKO_F_RA
+LANG_ENGLISH        "FFA6 - Raven"
+
+REFERENCE           DM_JKO_F_RA_DESC
+LANG_ENGLISH        "FFA6 - Raven (Requires Jedi Outcast)\nA dark, mysterious environment set in a crumbling, ancient structure. The ruinous design offers plenty of shadows and verticality, with hazards lurking at every corner for those brave enough to fight here."
+
+REFERENCE           DM_JKO_F_YA
+LANG_ENGLISH        "FFA7 - Yavin"
+
+REFERENCE           DM_JKO_F_YA_DESC
+LANG_ENGLISH        "FFA7 - Yavin (Requires Jedi Outcast)\nThe ancient temple provides the perfect arena for chaotic close-quarters combat in free-for-all battles."
+
+REFERENCE           DM_JKO_C_IM
+LANG_ENGLISH        "CTF1 - Imperial"
+
+REFERENCE           DM_JKO_C_IM_DESC
+LANG_ENGLISH        "CTF1 - Imperial (Requires Jedi Outcast)\nA fortress-like Imperial base, with well-defended corridors and strategic points for capture the flag matches. The imposing structure offers both tactical advantages and risks for players seeking control."
+
+REFERENCE           DM_JKO_C_YA
+LANG_ENGLISH        "CTF2 - Yavin"
+
+REFERENCE           DM_JKO_C_YA_DESC
+LANG_ENGLISH        "CTF2 - Yavin (Requires Jedi Outcast)\nThe ancient ruins provide a mix of open spaces and tight, hidden spots for capture the flag gameplay. The environment rewards stealth and strategy."
+
+//----------------------------------------------------------
+// 	h8: JEDI OUTCAST & JEDI ACADEMY SP LEVELS
+//----------------------------------------------------------
+
+REFERENCE           JKO_K_IO
+LANG_ENGLISH        "Kejim - Imperial Outpost"
+
+REFERENCE           JKO_K_B
+LANG_ENGLISH        "Kejim - Base"
+
+REFERENCE           JKO_A_M
+LANG_ENGLISH        "Artus - Mine"
+
+REFERENCE           JKO_A_D
+LANG_ENGLISH        "Artus - Detention"
+
+REFERENCE           JKO_A_T
+LANG_ENGLISH        "Artus - Topside"
+
+REFERENCE           JKO_Y_JTE
+LANG_ENGLISH        "Yavin IV - Jedi Temple"
+
+REFERENCE           JKO_Y_JTR
+LANG_ENGLISH        "Yavin IV - Jedi Trials"
+
+REFERENCE           JKO_NS_STR
+LANG_ENGLISH        "Nar Shaddaa - Streets"
+
+REFERENCE           JKO_NS_H
+LANG_ENGLISH        "Nar Shaddaa - Hideout"
+
+REFERENCE           JKO_NS_STA
+LANG_ENGLISH        "Nar Shaddaa - Starpad"
+
+REFERENCE           JKO_B_U
+LANG_ENGLISH        "Bespin - Undercity"
+
+REFERENCE           JKO_B_STR
+LANG_ENGLISH        "Bespin - Streets"
+
+REFERENCE           JKO_B_LP
+LANG_ENGLISH        "Bespin - Landing Platform"
+
+REFERENCE           JKO_C_HB
+LANG_ENGLISH        "Cairn - Hangar Bay"
+
+REFERENCE           JKO_C_A
+LANG_ENGLISH        "Cairn - Assembly"
+
+REFERENCE           JKO_C_R
+LANG_ENGLISH        "Cairn - Reactor"
+
+REFERENCE           JKO_C_D
+LANG_ENGLISH        "Cairn - Dock"
+
+REFERENCE           JKO_D_C
+LANG_ENGLISH        "Doomgiver - Communications"
+
+REFERENCE           JKO_D_DA
+LANG_ENGLISH        "Doomgiver - Detention Area"
+
+REFERENCE           JKO_D_S
+LANG_ENGLISH        "Doomgiver - Shields"
+
+REFERENCE           JKO_Y_S
+LANG_ENGLISH        "Yavin IV - Swamp"
+
+REFERENCE           JKO_Y_CA
+LANG_ENGLISH        "Yavin IV - Canyon"
+
+REFERENCE           JKO_Y_CO
+LANG_ENGLISH        "Yavin IV - Courtyard"
+
+REFERENCE           JKO_Y_FB
+LANG_ENGLISH        "Yavin IV - Final Battle"
+
+REFERENCE           JKO_A_DE
+LANG_ENGLISH        "Alzoc III - JKO Demo"
+
+REFERENCE           JKA_Y_F
+LANG_ENGLISH        "Yavin IV - Forest"
+
+REFERENCE           JKA_Y_TG
+LANG_ENGLISH        "Yavin IV - Training Grounds"
+
+REFERENCE           JKA_T_MA
+LANG_ENGLISH        "Tatooine - Mercenary Activity"
+
+REFERENCE           JKA_T_DR
+LANG_ENGLISH        "Tatooine - Droid Recovery"
+
+REFERENCE           JKA_B_EA
+LANG_ENGLISH        "Bakura - Emergency Assistance"
+
+REFERENCE           JKA_B_MR
+LANG_ENGLISH        "Blenjeel - Merchant Rescue"
+
+REFERENCE           JKA_C_CI
+LANG_ENGLISH        "Corellia - Cult Investigation"
+
+REFERENCE           JKA_H_FEB
+LANG_ENGLISH        "Hoth - Finding Echo Base"
+
+REFERENCE           JKA_H_EB
+LANG_ENGLISH        "Hoth - Echo Base"
+
+REFERENCE           JKA_NK_RM
+LANG_ENGLISH        "Nar Kreeta - Rescue Mission"
+
+REFERENCE           JKA_Z_MTC
+LANG_ENGLISH        "Zonju V - Meet The Contact"
+
+REFERENCE           JKA_K_CO
+LANG_ENGLISH        "Kril'dor - Covert Operation"
+
+REFERENCE           JKA_C_CCL
+LANG_ENGLISH        "Coruscant - Capture Crime Lord"
+
+REFERENCE           JKA_D_CI
+LANG_ENGLISH        "Dosuun - Cult Investigation"
+
+REFERENCE           JKA_V_OBC
+LANG_ENGLISH        "Vjun - Outside Bast Castle"
+
+REFERENCE           JKA_V_BCU
+LANG_ENGLISH        "Vjun - Bast Castle Underworks"
+
+REFERENCE           JKA_V_BC
+LANG_ENGLISH        "Vjun - Bast Castle"
+
+REFERENCE           JKA_CH_CS
+LANG_ENGLISH        "Chandrila - Cult Sighting"
+
+REFERENCE           JKA_T_CI
+LANG_ENGLISH        "Tanaab - Cult Investigation"
+
+REFERENCE           JKA_Y_DTE
+LANG_ENGLISH        "Yalara - Dismantle The Device"
+
+REFERENCE           JKA_B_FTI
+LANG_ENGLISH        "Byss - Force Theft Investigation"
+
+REFERENCE           JKA_OM_WD
+LANG_ENGLISH        "Ord Mantell - Weapon Destruction"
+
+REFERENCE           JKA_T_OCF
+LANG_ENGLISH        "Taspir - Outside Cult Facility"
+
+REFERENCE           JKA_T_ICF
+LANG_ENGLISH        "Taspir - Inside Cult Facility"
+
+REFERENCE           JKA_K_SC
+LANG_ENGLISH        "Korriban - Sith Catacombs"
+
+REFERENCE           JKA_K_TR
+LANG_ENGLISH        "Korriban - Tomb of Ragnos"
+
+
+//----------------------------------------------------------
+// 	h9: CHALLENGE LEVELS
+//----------------------------------------------------------
+
+REFERENCE           CHAL1
+LANG_ENGLISH        "Level I - Battle Droids"
+
+REFERENCE           CHAL2
+LANG_ENGLISH        "Level II - Qui-Gon Jinn"
+
+REFERENCE           CHAL3
+LANG_ENGLISH        "Level III - General Grievous"
+
+REFERENCE           CHAL4
+LANG_ENGLISH        "Level IV - Count Dooku"
+
+REFERENCE           CHAL5
+LANG_ENGLISH        "Level V - Cin Drallig, Serra Keto"
+
+REFERENCE           CHAL6
+LANG_ENGLISH        "Level VI - Mace Windu"
+
+REFERENCE           CHAL7
+LANG_ENGLISH        "Level VII - Yoda"
+
+REFERENCE           CHAL8
+LANG_ENGLISH        "Level VIII - Palpatine"
+
+REFERENCE           CHAL9
+LANG_ENGLISH        "Level IX - Rahm Kota"
+
+REFERENCE           CHAL10
+LANG_ENGLISH        "Level X - Starkiller"
+
+REFERENCE           CHAL11
+LANG_ENGLISH        "Level XI - Darth Vader"
+
+REFERENCE           CHAL12
+LANG_ENGLISH        "Level XII - Ben Kenobi"
+
+REFERENCE           CHAL13
+LANG_ENGLISH        "Level XIII - Ahsoka Tano"
+
+REFERENCE           CHAL14
+LANG_ENGLISH        "Level XIV - Rancor"
+
+REFERENCE           CHAL15
+LANG_ENGLISH        "Level XV - Luke, Kyle, Rosh"
+
+REFERENCE           CHAL16
+LANG_ENGLISH        "Level XVI - Tavion"
+
+REFERENCE           CHAL17
+LANG_ENGLISH        "Level XVII - Rey"
+
+REFERENCE           CHAL18
+LANG_ENGLISH        "Level XVIII - Kylo Ren"
+
+REFERENCE           CHAL19
+LANG_ENGLISH        "Level XIX - Luke Skywalker"
+
+REFERENCE           CHAL20
+LANG_ENGLISH        "Level XX - Snoke"
+
+REFERENCE           CHAL21
+LANG_ENGLISH        "Level XXI - Jedi"
+
+REFERENCE           CHAL22
+LANG_ENGLISH        "Level XXII - Sith"
+
+REFERENCE           CHAL23
+LANG_ENGLISH        "Level XVI - Emperor Palpatine"
+
+
+//----------------------------------------------------------
+// 	h10: CHARACTER MENUS
+//----------------------------------------------------------
+
+REFERENCE           SP_CHARACTER
+LANG_ENGLISH        "SP CHARACTER"
+
+REFERENCE           JKA
+LANG_ENGLISH        "JKA"
+
+REFERENCE           JKA_DESC
+LANG_ENGLISH        "Customize JKA Character and Lightsaber"
+
+REFERENCE           CHARACTER_MENU
+LANG_ENGLISH        "CHARACTER MENU"
+
+REFERENCE           CHARACTER_MENU_DESC
+LANG_ENGLISH        "Open NPC Era Menu"
+
+REFERENCE           PREQUEL_TITLE
+LANG_ENGLISH        "AGE OF THE REPUBLIC"
+
+REFERENCE           PREQUEL_TEXT
+LANG_ENGLISH        "'BEFORE THE DARK TIMES, BEFORE THE EMPIRE'" // "'BEFORE THE DARK TIMES'"
+
+REFERENCE           PREQUEL_TEXT2
+LANG_ENGLISH        "'THIS IS WHERE THE FUN BEGINS'"
+
+REFERENCE           ORIGINAL_TITLE
+LANG_ENGLISH        "AGE OF THE EMPIRE"
+
+REFERENCE           ORIGINAL_TEXT
+LANG_ENGLISH        "'I FIND YOUR LACK OF FAITH DISTURBING'" // "'THAT'S NO MOON'"
+
+REFERENCE           ORIGINAL_TEXT2
+LANG_ENGLISH        "'EVERYTHING IS PROCEEDING AS I HAVE FORESEEN'"
+
+REFERENCE           SEQUEL_TITLE
+LANG_ENGLISH        "AGE OF THE RESISTANCE"
+
+REFERENCE           SEQUEL_TEXT
+LANG_ENGLISH        "'I'LL SHOW YOU... THE DARK SIDE'"
+
+REFERENCE           SEQUEL_TEXT2
+LANG_ENGLISH        "'CONFRONTING FEAR IS THE DESTINY OF A JEDI'" // "'LONG LIVE THE SUPREME LEADER'" // "'BOW TO THE FIRST ORDER'"
+
+REFERENCE           LEGENDS_TITLE
+LANG_ENGLISH        "LEGENDS"
+
+REFERENCE           LEGENDS_TEXT
+LANG_ENGLISH        "'TALES OF HEROES AND VILLAINS'"
+
+REFERENCE           CHARACTER_CREATION
+LANG_ENGLISH        "CHARACTER CREATION"
+
+REFERENCE           CHOOSE_FROM_THE_SPECIES
+LANG_ENGLISH        "CHOOSE FROM THE SPECIES"
+
+REFERENCE           MALE
+LANG_ENGLISH        "MALE"
+
+REFERENCE           FEMALE
+LANG_ENGLISH        "FEMALE"
+
+REFERENCE           CHARACTER2
+LANG_ENGLISH        "CHARACTER:"
+
+REFERENCE           PRESETS
+LANG_ENGLISH        "PRESETS"
+
+REFERENCE           PRESETS_DESC
+LANG_ENGLISH        "Preset Color Menu"
+
+REFERENCE           RGB
+LANG_ENGLISH        "RGB"
+
+REFERENCE           RGB_DESC
+LANG_ENGLISH        "RGB Colors Menu"
+
+REFERENCE           CHOOSE_YOUR_THEME
+LANG_ENGLISH        "CHOOSE YOUR THEME"
+
+REFERENCE           CUSTOMIZE_CHARACTER_AND_LIGHTSABER
+LANG_ENGLISH        "Customize JKA Character And Lightsaber"
+
+REFERENCE           CHARACTER_CUSTOMIZATION
+LANG_ENGLISH        "CHARACTER CUSTOMIZATION"
+
+REFERENCE           CHARACTER_CUSTOMIZATION_DESC
+LANG_ENGLISH        "Customize Lightsaber, Force Powers and Weapon Loadout For Current Playermodel"
+
+REFERENCE           CHARACTER_ROTATE
+LANG_ENGLISH        "Click and drag to rotate"
+
+REFERENCE           OLD_REPUBLIC
+LANG_ENGLISH        "OLD REPUBLIC"
+
+REFERENCE           SITH_EMPIRE
+LANG_ENGLISH        "SITH EMPIRE"
+
+REFERENCE           GALACTIC_REPUBLIC
+LANG_ENGLISH        "GALACTIC REPUBLIC"
+
+REFERENCE           SEPARATIST_ALLIANCE
+LANG_ENGLISH        "SEPARATISTS"
+
+REFERENCE           REBEL_ALLIANCE
+LANG_ENGLISH        "REBEL ALLIANCE"
+
+REFERENCE          	GALACTIC_EMPIRE
+LANG_ENGLISH        "GALACTIC EMPIRE"
+
+REFERENCE           RESISTANCE
+LANG_ENGLISH        "RESISTANCE"
+
+REFERENCE           FIRST_ORDER
+LANG_ENGLISH        "FIRST ORDER"
+
+REFERENCE           SELECT_CHARACTER
+LANG_ENGLISH        "SELECT CHARACTER"
+
+REFERENCE           SELECT_CHARACTER_DESC
+LANG_ENGLISH        "Play as the selected character"
+
+REFERENCE           SPAWN_CHARACTER
+LANG_ENGLISH        "SPAWN NPC"
+
+REFERENCE           SPAWN_CHARACTER_DESC
+LANG_ENGLISH        "Spawn the selected character"
+
+REFERENCE           CHARACTER_TEAM_DESC
+LANG_ENGLISH        "Set the character's team"
+
+REFERENCE           CHARACTER_HEALTH
+LANG_ENGLISH        "HEALTH:"
+
+REFERENCE           CHARACTER_HEALTH_DESC
+LANG_ENGLISH        "Set the character's health"
+
+REFERENCE           DEFAULT_CAPS
+LANG_ENGLISH        "DEFAULT"
+
+REFERENCE           SELECT_CHARACTER_MUTE_DESC
+LANG_ENGLISH        "Mute voice lines on character select"
+
+
+//----------------------------------------------------------
+// 	h11: COMMANDS MENU
+//----------------------------------------------------------
+
+REFERENCE	    COMMANDS_MENU
+LANG_ENGLISH	"COMMANDS MENU"
+
+REFERENCE	    INVINCIBLE
+LANG_ENGLISH	"Invincible"
+
+REFERENCE	    INVINCIBLE_DESC
+LANG_ENGLISH	"Gives Unlimited Health (Unkillable)"
+
+REFERENCE	    NOCLIP
+LANG_ENGLISH	"Noclip"
+
+REFERENCE	    NOCLIP_DESC
+LANG_ENGLISH	"Gives The Ability To Fly"
+
+REFERENCE	    NOTARGET
+LANG_ENGLISH	"No Target"
+
+REFERENCE	    NOTARGET_DESC
+LANG_ENGLISH	"Enemy NPCs Will Not Attack The Player"
+
+REFERENCE	    GIVE_ALL_WEAPONS
+LANG_ENGLISH	"Give All Weapons"
+
+REFERENCE	    GIVE_ALL_WEAPONS_DESC
+LANG_ENGLISH	"Gives All Weapons"
+
+REFERENCE	    GIVE_ALL_FORCE_POWERS
+LANG_ENGLISH	"Give All Force Powers"
+
+REFERENCE	    GIVE_ALL_FORCE_POWERS_DESC
+LANG_ENGLISH	"Gives All Force Powers At Max Level"
+
+REFERENCE	    GIVE_HEALTH_AND_ARMOR
+LANG_ENGLISH	"Give Health and Armor"
+
+REFERENCE	    GIVE_HEALTH_AND_ARMOR_DESC
+LANG_ENGLISH	"Gives Full Health And Armor"
+
+REFERENCE	    GAME_DIFFICULTY
+LANG_ENGLISH	"Game Difficulty:"
+
+REFERENCE	    GAME_DIFFICULTY_DESC
+LANG_ENGLISH	"Set The Game Difficulty"
+
+REFERENCE	    EASY
+LANG_ENGLISH	"Easy"
+
+REFERENCE	    NORMAL
+LANG_ENGLISH	"Normal"
+
+REFERENCE	    HARD
+LANG_ENGLISH	"Hard"
+
+REFERENCE	    EXTREME
+LANG_ENGLISH	"Extreme"
+
+REFERENCE	    LIGHTSABER_BLADE
+LANG_ENGLISH	"Lightsaber Blade:"
+
+REFERENCE	    LIGHTSABER_BLADE_DESC
+LANG_ENGLISH	"Changes The Blade Type Of The Lightsaber"
+
+REFERENCE	    FREEZE_NPCS
+LANG_ENGLISH	"Freeze NPCS:"
+
+REFERENCE	    FREEZE_NPCS_DESC
+LANG_ENGLISH	"Freezes All NPCs So They Can't Move"
+
+REFERENCE	    FORCE_REGEN
+LANG_ENGLISH	"Unlimited Force Points"
+
+REFERENCE	    FORCE_REGEN_DESC
+LANG_ENGLISH	"Regenerates Force Points At A Super Fast Rate"
+
+REFERENCE	    BLOCK_REGEN
+LANG_ENGLISH	"Unlimited Block Points"
+
+REFERENCE	    BLOCK_REGEN_DESC
+LANG_ENGLISH	"Regenerates Block Points At A Super Fast Rate"
+
+REFERENCE	    NOPRINT
+LANG_ENGLISH	"Console Text:"
+
+REFERENCE	    NOPRINT_DESC
+LANG_ENGLISH	"Toggle Text Printing To The Console"
+
+REFERENCE	    INVISIBLE_OFF
+LANG_ENGLISH	"Invisible: Off"
+
+REFERENCE	    INVISIBLE_ON
+LANG_ENGLISH	"Invisible: On"
+
+REFERENCE	    INVISIBLE_DESC
+LANG_ENGLISH	"Toggle Invisibility"
+
+REFERENCE	    MORELIGHT_OFF
+LANG_ENGLISH	"More Light: Off"
+
+REFERENCE	    MORELIGHT_ON
+LANG_ENGLISH	"More Light: On"
+
+REFERENCE	    MORELIGHT_DESC
+LANG_ENGLISH	"Increases The Brightness Of Your Character"
+
+//----------------------------------------------------------
+// 	h12: SPAWN MENU
+//----------------------------------------------------------
+
+REFERENCE           NPC_SPAWN_MENU
+LANG_ENGLISH        "NPC SPAWN MENU"
+
+REFERENCE           NPC_SPAWN_MENU_DESC
+LANG_ENGLISH        "Open Character Era Menu"
+
+REFERENCE           SOLO
+LANG_ENGLISH        "SOLO"
+
+REFERENCE           SOLO_DESC
+LANG_ENGLISH        "Join Team Solo"
+
+REFERENCE           NEUTRAL
+LANG_ENGLISH        "NEUTRAL"
+
+REFERENCE           NEUTRAL_DESC
+LANG_ENGLISH        "Join Team Neutral"
+
+REFERENCE           NPC
+LANG_ENGLISH        "NPC"
+
+REFERENCE           NPC_DESC
+LANG_ENGLISH        "Open NPC Commands Menu"
+
+REFERENCE           TEAM_LIGHT_SIDE
+LANG_ENGLISH        "Team Light Side"
+
+REFERENCE           TEAM_LIGHT_SIDE_DESC
+LANG_ENGLISH        "Switches NPC To Player Team"
+
+REFERENCE           TEAM_DARK_SIDE
+LANG_ENGLISH        "Team Dark Side"
+
+REFERENCE           TEAM_DARK_SIDE_DESC
+LANG_ENGLISH        "Switches NPC To Enemy Team"
+
+REFERENCE           TEAM_SOLO
+LANG_ENGLISH        "Team Solo"
+
+REFERENCE           TEAM_SOLO_DESC
+LANG_ENGLISH        "Switches NPC To Solo Team (NPC Will Attack Everyone)"
+
+REFERENCE           TEAM_NEUTRAL
+LANG_ENGLISH        "Team Neutral"
+
+REFERENCE           TEAM_NEUTRAL_DESC
+LANG_ENGLISH        "Switches NPC To Neutral Team (NPC Will Not Attack)"
+
+REFERENCE           NPC_FOLLOW
+LANG_ENGLISH        "NPC Follow"
+
+REFERENCE           NPC_FOLLOW_DESC
+LANG_ENGLISH        "(Toggle) NPC Will Follow The Player"
+
+REFERENCE           NPC_DONT_FOLLOW
+LANG_ENGLISH        "NPC Don't Follow"
+
+REFERENCE           NPC_FOLLOW_CLOSE
+LANG_ENGLISH        "NPC Follow Close"
+
+REFERENCE           NPC_FOLLOW_FAR
+LANG_ENGLISH        "NPC Follow Far"
+
+REFERENCE           NPC_HEALTH_50
+LANG_ENGLISH        "NPC Health 50"
+
+REFERENCE           NPC_HEALTH_250
+LANG_ENGLISH        "NPC Health 250"
+
+REFERENCE           NPC_HEALTH_500
+LANG_ENGLISH        "NPC Health 500"
+
+REFERENCE           NPC_HEALTH_1000
+LANG_ENGLISH        "NPC Health 1000"
+
+REFERENCE           NPC_INVINCIBLE
+LANG_ENGLISH        "NPC Invincible"
+
+REFERENCE           NPC_INVINCIBLE_DESC
+LANG_ENGLISH        "(Toggle) NPC Cannot Be Killed"
+
+REFERENCE           NPC_KILLABLE
+LANG_ENGLISH        "NPC Killable"
+
+REFERENCE           SPAWN_LAST
+LANG_ENGLISH        "Spawn Last"
+
+REFERENCE           KILL_LAST
+LANG_ENGLISH        "Kill Last"
+
+REFERENCE           KILL_ALL
+LANG_ENGLISH        "Kill All"
+
+REFERENCE           CONTROL_LAST
+LANG_ENGLISH        "Control Last"
+
+REFERENCE           NPC_COMMANDS
+LANG_ENGLISH        "NPC COMMANDS"
+
+REFERENCE           SELECT_AN_NPC
+LANG_ENGLISH        "SELECT AN NPC"
+
+REFERENCE           KILL_LAST
+LANG_ENGLISH        "Kill Last"
+
+REFERENCE           VEHICLES
+LANG_ENGLISH        "VEHICLES"
+
+REFERENCE           OBJECTS
+LANG_ENGLISH        "OBJECTS"
+
+REFERENCE           OBJECTS_VEHICLES
+LANG_ENGLISH        "OBJECTS/VEHICLES"
+
+REFERENCE           SPAWN_RANDOM
+LANG_ENGLISH        "SPAWN RANDOM"
+
+REFERENCE           SPAWN_RANDOM_DESC
+LANG_ENGLISH        "Spawn a random NPC from this page"
+
+REFERENCE           SPAWN_RANDOM_LIGHT
+LANG_ENGLISH        "Spawn Random - Light Side"
+
+REFERENCE           SPAWN_RANDOM_LIGHT_DESC
+LANG_ENGLISH        "Spawn A Random NPC From The Light Side"
+
+REFERENCE           SPAWN_RANDOM_DARK
+LANG_ENGLISH        "Spawn Random - Dark Side"
+
+REFERENCE           SPAWN_RANDOM_DARK_DESC
+LANG_ENGLISH        "Spawn A Random NPC From The Dark Side"
+
+REFERENCE           SPAWN_RANDOM_ANY
+LANG_ENGLISH        "Spawn Random - Any"
+
+REFERENCE           SPAWN_RANDOM_ANY_DESC
+LANG_ENGLISH        "Spawn A Random NPC From Any Side"
+
+REFERENCE           SPAWN_RANDOM_ANY_SABER
+LANG_ENGLISH        "Spawn Random - Any Saber"
+
+REFERENCE           SPAWN_RANDOM_ANY_SABER_DESC
+LANG_ENGLISH        "Spawn A Random NPC From Any Side With A Saber"
+
+REFERENCE           SPAWN_RANDOM_ANY_BLASTER
+LANG_ENGLISH        "Spawn Random - Any Blaster"
+
+REFERENCE           SPAWN_RANDOM_ANY_BLASTER_DESC
+LANG_ENGLISH        "Spawn A Random NPC From Any Side With A Blaster"
+
+REFERENCE           TOSS_HEATER
+LANG_ENGLISH        "Heater"
+
+REFERENCE           TOSS_BED
+LANG_ENGLISH        "Bed"
+
+REFERENCE           TOSS_TABLE
+LANG_ENGLISH        "Table"
+
+REFERENCE           TOSS_BARREL
+LANG_ENGLISH        "Barrel"
+
+REFERENCE           TOSS_CARGO_BIG
+LANG_ENGLISH        "Cargo Big"
+
+REFERENCE           TOSS_CARGO_SMALL
+LANG_ENGLISH        "Cargo Small"
+
+REFERENCE           TOSS_CORE
+LANG_ENGLISH        "Core"
+
+REFERENCE           TOSS_EMOD
+LANG_ENGLISH        "E-Mod"
+
+REFERENCE           TOSS_CRATE01
+LANG_ENGLISH        "Crate 01"
+
+REFERENCE           TOSS_CRATE02
+LANG_ENGLISH        "Crate 02"
+
+REFERENCE           TOSS_CRATE03
+LANG_ENGLISH        "Crate 03"
+
+REFERENCE           TOSS_CRATE04
+LANG_ENGLISH        "Crate 04"
+
+REFERENCE           TOSS_PILLARBASE
+LANG_ENGLISH        "Pillar Base"
+
+REFERENCE           TOSS_STATUE
+LANG_ENGLISH        "Statue"
+
+REFERENCE           TOSS_STORAGEUNIT
+LANG_ENGLISH        "Storage Unit"
+
+REFERENCE           ATST
+LANG_ENGLISH        "AT-ST"
+
+REFERENCE           TIEFIGHTER
+LANG_ENGLISH        "Tie Fighter"
+
+REFERENCE           TIEBOMBER
+LANG_ENGLISH        "Tie Bomber"
+
+REFERENCE           IMPERIALSHUTTLE
+LANG_ENGLISH        "Imperial Shuttle"
+
+REFERENCE           SITHSPEEDER
+LANG_ENGLISH        "Sith Speeder"
+
+REFERENCE           RANCOR
+LANG_ENGLISH        "Rancor"
+
+REFERENCE           SWOOP
+LANG_ENGLISH        "Swoop"
+
+REFERENCE           Z95
+LANG_ENGLISH        "Z-95"
+
+REFERENCE           XWING
+LANG_ENGLISH        "X-Wing"
+
+REFERENCE           MILLENNIUMFALCON
+LANG_ENGLISH        "Millennium Falcon"
+
+REFERENCE           BANTHA
+LANG_ENGLISH        "Bantha"
+
+REFERENCE           WAMPA
+LANG_ENGLISH        "Wampa"
+
+REFERENCE           TAUNTAUN
+LANG_ENGLISH        "Tauntaun"
+
+REFERENCE           WILDTAUNTAUN
+LANG_ENGLISH        "Wild_Tauntaun"
+
+
+//----------------------------------------------------------
+// 	h13: SCRIPT MENUS
+//----------------------------------------------------------
+
+REFERENCE           NPC_COMMANDS_MENU
+LANG_ENGLISH        "NPC COMMANDS MENU"
+
+REFERENCE           CLOSE_HELP
+LANG_ENGLISH        "CLOSE/HELP"
+
+REFERENCE           CLOSE_HELP_DESC
+LANG_ENGLISH        "Look At An NPC And Then Open This Menu (See Quick Keys In Controls) To Use These Commands"
+
+REFERENCE           FREEZE_NPC
+LANG_ENGLISH        "FREEZE NPCS:"
+
+REFERENCE           FREEZE_NPC_DESC
+LANG_ENGLISH        "Freezes All NPCs So They Can't Move - Useful For Setting Up Commands"
+
+REFERENCE           NPC_TEAM
+LANG_ENGLISH        "NPC TEAM"
+
+REFERENCE           NPC_TEAM_DESC
+LANG_ENGLISH        "View The List Of NPC Commands To Set NPC Team And Behaviour"
+
+REFERENCE           NPC_HEALTH
+LANG_ENGLISH        "NPC HEALTH"
+
+REFERENCE           NPC_HEALTH_DESC
+LANG_ENGLISH        "View The List Of NPC Commands To Set NPC Health And Armor"
+
+REFERENCE           NPC_SCRIPTS
+LANG_ENGLISH        "NPC SCRIPTS"
+
+REFERENCE           NPC_SCRIPTS_DESC
+LANG_ENGLISH        "View The List Of NPC Scripts To Set NPC Behaviour"
+
+REFERENCE           NPC_ACTION
+LANG_ENGLISH        "NPC ACTION"
+
+REFERENCE           NPC_ACTION_DESC
+LANG_ENGLISH        "View The List Of NPC Commands To Set NPC Animations"
+
+REFERENCE           NPC_FORCE
+LANG_ENGLISH        "NPC FORCE"
+
+REFERENCE           NPC_FORCE_DESC
+LANG_ENGLISH        "View The List Of NPC Commands To Set NPC Force Powers"
+
+REFERENCE           NPC_WEAPON
+LANG_ENGLISH        "NPC WEAPON"
+
+REFERENCE           NPC_WEAPON_DESC
+LANG_ENGLISH        "View The List Of NPC Commands To Set NPC Weapon"
+
+REFERENCE           NPC_FREEZE
+LANG_ENGLISH        "Freeze NPC"
+
+REFERENCE           NPC_FREEZE_DESC
+LANG_ENGLISH        "(Toggle) Freeze NPC So It Can't Move"
+
+REFERENCE           NPC_AUTO_FOLLOW
+LANG_ENGLISH        "NPC Follow:"
+
+REFERENCE           NPC_AUTO_FOLLOW_DESC
+LANG_ENGLISH        "Set Whether Friendly NPCs Will Automatically Follow You (Must Be Set Before Spawned)"
+
+REFERENCE           NPC_CONTROL
+LANG_ENGLISH        "Control NPC"
+
+REFERENCE           NPC_CONTROL_DESC
+LANG_ENGLISH        "Control The NPC"
+
+REFERENCE           NPC_CONTROL_STOP
+LANG_ENGLISH        "Control NPC Stop"
+
+REFERENCE           NPC_CONTROL_STOP_DESC
+LANG_ENGLISH        "Stop Controlling The NPC"
+
+REFERENCE           NPC_NOTARGET
+LANG_ENGLISH        "NPC No Target"
+
+REFERENCE           NPC_NOTARGET_DESC
+LANG_ENGLISH        "(Toggle) Cannot Be Seen By Enemy NPCs"
+
+REFERENCE	    NPC_FORCE_REGEN
+LANG_ENGLISH	    "NPC Force Points"
+
+REFERENCE	    NPC_FORCE_REGEN_DESC
+LANG_ENGLISH	    "(Toggle) Makes NPC Regenerate Force Points At A Super Fast Rate"
+
+REFERENCE	    NPC_BLOCK_REGEN
+LANG_ENGLISH	    "NPC Block Points"
+
+REFERENCE	    NPC_BLOCK_REGEN_DESC
+LANG_ENGLISH	    "(Toggle) Makes NPC Regenerate Block Points At A Super Fast Rate"
+
+REFERENCE           NPC_HEALTH_1
+LANG_ENGLISH        "NPC Health 1"
+
+REFERENCE           NPC_HEALTH_1_DESC
+LANG_ENGLISH        "Sets NPC's Health To 1"
+
+REFERENCE           NPC_HEALTH_10
+LANG_ENGLISH        "NPC Health 10"
+
+REFERENCE           NPC_HEALTH_10_DESC
+LANG_ENGLISH        "Sets NPC's Health To 10"
+
+REFERENCE           NPC_HEALTH_25
+LANG_ENGLISH        "NPC Health 25"
+
+REFERENCE           NPC_HEALTH_25_DESC
+LANG_ENGLISH        "Sets NPC's Health To 25"
+
+REFERENCE           NPC_HEALTH_50
+LANG_ENGLISH        "NPC Health 50"
+
+REFERENCE           NPC_HEALTH_50_DESC
+LANG_ENGLISH        "Sets NPC's Health To 50"
+
+REFERENCE           NPC_HEALTH_100
+LANG_ENGLISH        "NPC Health 100"
+
+REFERENCE           NPC_HEALTH_100_DESC
+LANG_ENGLISH        "Sets NPC's Health To 100"
+
+REFERENCE           NPC_HEALTH_150
+LANG_ENGLISH        "NPC Health 150"
+
+REFERENCE           NPC_HEALTH_150_DESC
+LANG_ENGLISH        "Sets NPC's Health To 150"
+
+REFERENCE           NPC_HEALTH_200
+LANG_ENGLISH        "NPC Health 200"
+
+REFERENCE           NPC_HEALTH_200_DESC
+LANG_ENGLISH        "Sets NPC's Health To 200"
+
+REFERENCE           NPC_HEALTH_250
+LANG_ENGLISH        "NPC Health 250"
+
+REFERENCE           NPC_HEALTH_250_DESC
+LANG_ENGLISH        "Sets NPC's Health To 250"
+
+REFERENCE           NPC_HEALTH_300
+LANG_ENGLISH        "NPC Health 300"
+
+REFERENCE           NPC_HEALTH_300_DESC
+LANG_ENGLISH        "Sets NPC's Health To 300"
+
+REFERENCE           NPC_HEALTH_500
+LANG_ENGLISH        "NPC Health 500"
+
+REFERENCE           NPC_HEALTH_500_DESC
+LANG_ENGLISH        "Sets NPC's Health To 500"
+
+REFERENCE           NPC_HEALTH_750
+LANG_ENGLISH        "NPC Health 750"
+
+REFERENCE           NPC_HEALTH_750_DESC
+LANG_ENGLISH        "Sets NPC's Health To 750"
+
+REFERENCE           NPC_HEALTH_1000
+LANG_ENGLISH        "NPC Health 1000"
+
+REFERENCE           NPC_HEALTH_1000_DESC
+LANG_ENGLISH        "Sets NPC's Health To 1000"
+
+REFERENCE           NPC_HEALTH_1500
+LANG_ENGLISH        "NPC Health 1500"
+
+REFERENCE           NPC_HEALTH_1500_DESC
+LANG_ENGLISH        "Sets NPC's Health To 1500"
+
+REFERENCE           NPC_HEALTH_2000
+LANG_ENGLISH        "NPC Health 2000"
+
+REFERENCE           NPC_HEALTH_2000_DESC
+LANG_ENGLISH        "Sets NPC's Health To 2000"
+
+REFERENCE           NPC_HEALTH_3000
+LANG_ENGLISH        "NPC Health 3000"
+
+REFERENCE           NPC_HEALTH_3000_DESC
+LANG_ENGLISH        "Sets NPC's Health To 3000"
+
+REFERENCE           NPC_HEALTH_5000
+LANG_ENGLISH        "NPC Health 5000"
+
+REFERENCE           NPC_HEALTH_5000_DESC
+LANG_ENGLISH        "Sets NPC's Health To 5000"
+
+REFERENCE           NPC_ARMOR_0
+LANG_ENGLISH        "NPC Armor 0"
+
+REFERENCE           NPC_ARMOR_0_DESC
+LANG_ENGLISH        "Sets NPC's Armor To 0"
+
+REFERENCE           NPC_ARMOR_50
+LANG_ENGLISH        "NPC Armor 50"
+
+REFERENCE           NPC_ARMOR_50_DESC
+LANG_ENGLISH        "Sets NPC's Armor To 50"
+
+REFERENCE           NPC_ARMOR_100
+LANG_ENGLISH        "NPC Armor 100"
+
+REFERENCE           NPC_ARMOR_100_DESC
+LANG_ENGLISH        "Sets NPC's Armor To 100"
+
+REFERENCE           NPC_ARMOR_250
+LANG_ENGLISH        "NPC Armor 250"
+
+REFERENCE           NPC_ARMOR_250_DESC
+LANG_ENGLISH        "Sets NPC's Armor To 250"
+
+REFERENCE           NPC_ARMOR_500
+LANG_ENGLISH        "NPC Armor 500"
+
+REFERENCE           NPC_ARMOR_500_DESC
+LANG_ENGLISH        "Sets NPC's Armor To 500"
+
+REFERENCE           NPC_ARMOR_1000
+LANG_ENGLISH        "NPC Armor 1000"
+
+REFERENCE           NPC_ARMOR_1000_DESC
+LANG_ENGLISH        "Sets NPC's Armor To 1000"
+
+REFERENCE           NPC_BLASTER_SHIELD
+LANG_ENGLISH        "NPC Blaster Sheild"
+
+REFERENCE           NPC_BLASTER_SHIELD_DESC
+LANG_ENGLISH        "(Toggle) Makes NPC Protected Against Blaster Fire"
+
+REFERENCE           NPC_UNDYING
+LANG_ENGLISH        "NPC Undying"
+
+REFERENCE           NPC_UNDYING_DESC
+LANG_ENGLISH        "(Toggle) NPC Takes Damage But Cannot Be Killed"
+
+REFERENCE           NPC_KILL
+LANG_ENGLISH        "Kill NPC"
+
+REFERENCE           NPC_KILL_DESC
+LANG_ENGLISH        "Kills The NPC"
+
+REFERENCE           NPC_KILL_ALL
+LANG_ENGLISH        "Kill All NPCs"
+
+REFERENCE           NPC_KILL_ALL_DESC
+LANG_ENGLISH        "Kill All NPCs On The Map"
+
+REFERENCE           NPC_GENERAL_SCRIPT
+LANG_ENGLISH        "General"
+
+REFERENCE           NPC_GENERAL_SCRIPT_DESC
+LANG_ENGLISH        "Script To Run Instantly"
+
+REFERENCE           NPC_WOUNDED
+LANG_ENGLISH        "On Wounded"
+
+REFERENCE           NPC_WOUNDED_DESC
+LANG_ENGLISH        "Script To Run When NPC Is On Low Health"
+
+REFERENCE           NPC_PAIN
+LANG_ENGLISH        "On Pain"
+
+REFERENCE           NPC_PAIN_DESC
+LANG_ENGLISH        "Script To Run When NPC Takes Damage"
+
+REFERENCE           NPC_KILLED
+LANG_ENGLISH        "On Death"
+
+REFERENCE           NPC_KILLED_DESC
+LANG_ENGLISH        "Script To Run When NPC Is Killed (May Not Always Work)"
+
+REFERENCE           NPC_VICTORY
+LANG_ENGLISH        "On Victory"
+
+REFERENCE           NPC_VICTORY_DESC
+LANG_ENGLISH        "Script To Run When NPC Has Killed An Enemy"
+
+REFERENCE           NPC_SEEN
+LANG_ENGLISH        "On See/Detect"
+
+REFERENCE           NPC_SEEN_DESC
+LANG_ENGLISH        "Script To Run When NPC Sees/Detects An Enemy"
+
+REFERENCE           NPC_GENERAL_FOLLOW_CLOSE
+LANG_ENGLISH        "Follow Close"
+
+REFERENCE           NPC_GENERAL_FOLLOW_CLOSE_DESC
+LANG_ENGLISH        "Set NPC To Follow Close"
+
+REFERENCE           NPC_GENERAL_FOLLOW_FAR
+LANG_ENGLISH        "Follow Far"
+
+REFERENCE           NPC_GENERAL_FOLLOW_FAR_DESC
+LANG_ENGLISH        "Set NPC To Follow Far"
+
+REFERENCE           NPC_GENERAL_SHOOT
+LANG_ENGLISH        "Do Shoot"
+
+REFERENCE           NPC_GENERAL_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Shoot Weapon"
+
+REFERENCE           NPC_GENERAL_DONT_SHOOT
+LANG_ENGLISH        "Don't Shoot"
+
+REFERENCE           NPC_GENERAL_DONT_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Not Shoot Weapon"
+
+REFERENCE           NPC_GENERAL_DEFAULT
+LANG_ENGLISH        "Default"
+
+REFERENCE           NPC_GENERAL_DEFAULT_DESC
+LANG_ENGLISH        "Set NPC To Default Behaviour"
+
+REFERENCE           NPC_GENERAL_SEARCH
+LANG_ENGLISH        "Search"
+
+REFERENCE           NPC_GENERAL_SEARCH_DESC
+LANG_ENGLISH        "Set NPC To Search Behaviour"
+
+REFERENCE           NPC_GENERAL_FLEE
+LANG_ENGLISH        "Flee"
+
+REFERENCE           NPC_GENERAL_FLEE_DESC
+LANG_ENGLISH        "Set NPC To Flee Behaviour"
+
+REFERENCE           NPC_GENERAL_DO_CHASE
+LANG_ENGLISH        "Do Chase"
+
+REFERENCE           NPC_GENERAL_DO_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Chase Enemies"
+
+REFERENCE           NPC_GENERAL_DONT_CHASE
+LANG_ENGLISH        "Don't Chase"
+
+REFERENCE           NPC_GENERAL_DONT_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Not Chase Enemies"
+
+REFERENCE           NPC_GENERAL_IGNORE_PAIN
+LANG_ENGLISH        "Ignore Pain"
+
+REFERENCE           NPC_GENERAL_IGNORE_PAIN_DESC
+LANG_ENGLISH        "Set NPC To Not React To Pain/Damage (Includes No Pain Sounds)"
+
+REFERENCE           NPC_GENERAL_LOOK_AT_PLAYER
+LANG_ENGLISH        "Look At Player"
+
+REFERENCE           NPC_GENERAL_LOOK_AT_PLAYER_DESC
+LANG_ENGLISH        "Set NPC To Look At You"
+
+REFERENCE           NPC_GENERAL_SABER_ACTIVE
+LANG_ENGLISH        "Saber Active"
+
+REFERENCE           NPC_GENERAL_SABER_ACTIVE_DESC
+LANG_ENGLISH        "Set NPC To Ignite Saber"
+
+REFERENCE           NPC_GENERAL_CROUCH
+LANG_ENGLISH        "Crouch"
+
+REFERENCE           NPC_GENERAL_CROUCH_DESC
+LANG_ENGLISH        "Set NPC To Crouch"
+
+REFERENCE           NPC_GENERAL_WALK
+LANG_ENGLISH        "Walk"
+
+REFERENCE           NPC_GENERAL_WALK_DESC
+LANG_ENGLISH        "Set NPC To Walk"
+
+REFERENCE           NPC_GENERAL_RUN
+LANG_ENGLISH        "Run"
+
+REFERENCE           NPC_GENERAL_RUN_DESC
+LANG_ENGLISH        "Set NPC To Run"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_HEAD
+LANG_ENGLISH        "Dismember Head"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_HEAD_DESC
+LANG_ENGLISH        "Set NPC To Dismember Head"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_ARMS
+LANG_ENGLISH        "Dismember Arms"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_ARMS_DESC
+LANG_ENGLISH        "Set NPC To Dismember Arms"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_LEFT_ARM
+LANG_ENGLISH        "Dismember Left Arm"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_LEFT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Arm"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_RIGHT_ARM
+LANG_ENGLISH        "Dismember Right Arm"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_RIGHT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Arm"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_LEFT_HAND
+LANG_ENGLISH        "Dismember Left Hand"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_LEFT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Hand"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_RIGHT_HAND
+LANG_ENGLISH        "Dismember Right Hand"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_RIGHT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Hand"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_LEFT_LEG
+LANG_ENGLISH        "Dismember Left Leg"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_LEFT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Leg"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_RIGHT_LEG
+LANG_ENGLISH        "Dismember Right Leg"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_RIGHT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Leg"
+
+REFERENCE           NPC_GENERAL_INVISIBLE
+LANG_ENGLISH        "Invisible"
+
+REFERENCE           NPC_GENERAL_INVISIBLE_DESC
+LANG_ENGLISH        "Make NPC Invisible"
+
+REFERENCE           NPC_GENERAL_VISIBLE
+LANG_ENGLISH        "Visible"
+
+REFERENCE           NPC_GENERAL_VISIBLE_DESC
+LANG_ENGLISH        "Make NPC Visible"
+
+REFERENCE			NPC_GENERAL_MORE_LIGHT
+LANG_ENGLISH		"More Light"
+
+REFERENCE			NPC_GENERAL_MORE_LIGHT_DESC
+LANG_ENGLISH		"Increase NPC Brightness"
+
+REFERENCE			NPC_GENERAL_NORMAL_LIGHT
+LANG_ENGLISH		"Normal Light"
+
+REFERENCE			NPC_GENERAL_NORMAL_LIGHT_DESC
+LANG_ENGLISH		"Set NPC To Default Brightness"
+
+REFERENCE			NPC_GENERAL_SOLID
+LANG_ENGLISH		"Solid"
+
+REFERENCE			NPC_GENERAL_SOLID_DESC
+LANG_ENGLISH		"Set NPC To Solid"
+
+REFERENCE			NPC_GENERAL_NOT_SOLID
+LANG_ENGLISH		"Not Solid"
+
+REFERENCE			NPC_GENERAL_NOT_SOLID_DESC
+LANG_ENGLISH		"Set NPC To Not Solid"
+
+REFERENCE			NPC_GENERAL_DO_ALT_FIRE
+LANG_ENGLISH		"Alt Fire"
+
+REFERENCE			NPC_GENERAL_DO_ALT_FIRE_DESC
+LANG_ENGLISH		"Set NPC To Use Alt Fire"
+
+REFERENCE			NPC_GENERAL_NO_ALT_FIRE
+LANG_ENGLISH		"No Alt Fire"
+
+REFERENCE			NPC_GENERAL_NO_ALT_FIRE_DESC
+LANG_ENGLISH		"Set NPC To Not Use Alt Fire"
+
+REFERENCE			NPC_GENERAL_ITEM_BEERGLASS
+LANG_ENGLISH		"Give Beer Glass"
+
+REFERENCE			NPC_GENERAL_ITEM_BEERGLASS_DESC
+LANG_ENGLISH		"Give NPC Beer Glass"
+
+REFERENCE			NPC_GENERAL_ITEM_COMLINK
+LANG_ENGLISH		"Give Comlink"
+
+REFERENCE			NPC_GENERAL_ITEM_COMLINK_DESC
+LANG_ENGLISH		"Give NPC Comlink"
+
+REFERENCE			NPC_GENERAL_ITEM_DATAPAD
+LANG_ENGLISH		"Give Datapad"
+
+REFERENCE			NPC_GENERAL_ITEM_DATAPAD_DESC
+LANG_ENGLISH		"Give NPC Datapad"
+
+REFERENCE			NPC_GENERAL_REMOVE_ITEMS
+LANG_ENGLISH		"Remove Items"
+
+REFERENCE			NPC_GENERAL_REMOVE_ITEMS_DESC
+LANG_ENGLISH		"Remove Items Currently In The NPC's Hand"
+
+REFERENCE           NPC_GENERAL_CINEMATIC
+LANG_ENGLISH        "Cinematic"
+
+REFERENCE           NPC_GENERAL_CINEMATIC_DESC
+LANG_ENGLISH        "Set NPC To Cinematic Behaviour (NPC Will Do Nothing)"
+
+REFERENCE			NPC_GENERAL_FACE_PLAYER
+LANG_ENGLISH		"Face Player"
+
+REFERENCE			NPC_GENERAL_FACE_PLAYER_DESC
+LANG_ENGLISH		"Set NPC To Face Player"
+
+REFERENCE			NPC_GENERAL_RESET_MOVEMENT
+LANG_ENGLISH		"Reset Movement"
+
+REFERENCE			NPC_GENERAL_RESET_MOVEMENT_DESC
+LANG_ENGLISH		"Reset NPC Movement If Crouched, Running or Walking"
+
+REFERENCE			NPC_GENERAL_CLOSE_EYES
+LANG_ENGLISH		"Close Eyes"
+
+REFERENCE			NPC_GENERAL_CLOSE_EYES_DESC
+LANG_ENGLISH		"Set NPC To Close Their Eyes"
+
+REFERENCE			NPC_GENERAL_OPEN_EYES
+LANG_ENGLISH		"Open Eyes"
+
+REFERENCE			NPC_GENERAL_OPEN_EYES_DESC
+LANG_ENGLISH		"Set NPC To Open Their Eyes"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_WAIST
+LANG_ENGLISH        "Dismember Waist"
+
+REFERENCE           NPC_GENERAL_DISMEMBER_WAIST_DESC
+LANG_ENGLISH        "Set NPC To Dismember Waist"
+
+REFERENCE           NPC_WOUNDED_TEAM_LIGHT_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Light Side Team When Wounded"
+
+REFERENCE           NPC_WOUNDED_TEAM_DARK_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Dark Side Team When Wounded"
+
+REFERENCE           NPC_WOUNDED_TEAM_SOLO_DESC
+LANG_ENGLISH        "Set NPC To Join Solo Team When Wounded"
+
+REFERENCE           NPC_WOUNDED_TEAM_NEUTRAL_DESC
+LANG_ENGLISH        "Set NPC To Join Neutral Team When Wounded"
+
+REFERENCE           NPC_WOUNDED_FOLLOW
+LANG_ENGLISH        "Follow"
+
+REFERENCE           NPC_WOUNDED_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Follow Player When Wounded"
+
+REFERENCE           NPC_WOUNDED_DONT_FOLLOW
+LANG_ENGLISH        "Don't Follow"
+
+REFERENCE           NPC_WOUNDED_DONT_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Not Follow When Wounded"
+
+REFERENCE           NPC_WOUNDED_FOLLOW_CLOSE
+LANG_ENGLISH        "Follow Close"
+
+REFERENCE           NPC_WOUNDED_FOLLOW_CLOSE_DESC
+LANG_ENGLISH        "Set NPC To Follow Close When Wounded"
+
+REFERENCE           NPC_WOUNDED_FOLLOW_FAR
+LANG_ENGLISH        "Follow Far"
+
+REFERENCE           NPC_WOUNDED_FOLLOW_FAR_DESC
+LANG_ENGLISH        "Set NPC To Follow Far When Wounded"
+
+REFERENCE           NPC_WOUNDED_SHOOT
+LANG_ENGLISH        "Do Shoot"
+
+REFERENCE           NPC_WOUNDED_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Shoot Weapon When Wounded"
+
+REFERENCE           NPC_WOUNDED_DONT_SHOOT
+LANG_ENGLISH        "Don't Shoot"
+
+REFERENCE           NPC_WOUNDED_DONT_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Not Shoot Weapon When Wounded"
+
+REFERENCE           NPC_WOUNDED_GIVE_NO_WEAPON
+LANG_ENGLISH        "Give No Weapon"
+
+REFERENCE           NPC_WOUNDED_GIVE_NO_WEAPON_DESC
+LANG_ENGLISH        "Give NPC No Weapon When Wounded"
+
+REFERENCE           NPC_WOUNDED_GIVE_MELEE
+LANG_ENGLISH        "Give Melee"
+
+REFERENCE           NPC_WOUNDED_GIVE_MELEE_DESC
+LANG_ENGLISH        "Give NPC Melee When Wounded"
+
+REFERENCE           NPC_WOUNDED_GIVE_BLASTER
+LANG_ENGLISH        "Give Blaster"
+
+REFERENCE           NPC_WOUNDED_GIVE_BLASTER_DESC
+LANG_ENGLISH        "Give NPC Blaster When Wounded"
+
+REFERENCE           NPC_WOUNDED_GIVE_PISTOL
+LANG_ENGLISH        "Give Pistol"
+
+REFERENCE           NPC_WOUNDED_GIVE_PISTOL_DESC
+LANG_ENGLISH        "Give NPC Blaster Pistol When Wounded"
+
+REFERENCE           NPC_WOUNDED_GIVE_SABER
+LANG_ENGLISH        "Give Saber"
+
+REFERENCE           NPC_WOUNDED_GIVE_SABER_DESC
+LANG_ENGLISH        "Give NPC Lightsaber When Wounded"
+
+REFERENCE           NPC_WOUNDED_GIVE_GUNNER_SABER
+LANG_ENGLISH        "Give Gunner Saber"
+
+REFERENCE           NPC_WOUNDED_GIVE_GUNNER_SABER_DESC
+LANG_ENGLISH        "Give Gunner NPC Lightsaber When Wounded"
+
+REFERENCE           NPC_WOUNDED_DEFAULT
+LANG_ENGLISH        "Default"
+
+REFERENCE           NPC_WOUNDED_DEFAULT_DESC
+LANG_ENGLISH        "Set NPC To Default Behaviour When Wounded"
+
+REFERENCE           NPC_WOUNDED_SEARCH
+LANG_ENGLISH        "Search"
+
+REFERENCE           NPC_WOUNDED_SEARCH_DESC
+LANG_ENGLISH        "Set NPC To Search Behaviour When Wounded"
+
+REFERENCE           NPC_WOUNDED_FLEE
+LANG_ENGLISH        "Flee"
+
+REFERENCE           NPC_WOUNDED_FLEE_DESC
+LANG_ENGLISH        "Set NPC To Flee Behaviour When Wounded"
+
+REFERENCE           NPC_WOUNDED_DO_CHASE
+LANG_ENGLISH        "Do Chase"
+
+REFERENCE           NPC_WOUNDED_DO_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Chase Enemies When Wounded"
+
+REFERENCE           NPC_WOUNDED_DONT_CHASE
+LANG_ENGLISH        "Don't Chase"
+
+REFERENCE           NPC_WOUNDED_DONT_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Not Chase Enemies When Wounded"
+
+REFERENCE           NPC_WOUNDED_IGNORE_PAIN
+LANG_ENGLISH        "Ignore Pain"
+
+REFERENCE           NPC_WOUNDED_IGNORE_PAIN_DESC
+LANG_ENGLISH        "Set NPC To Not React To Pain/Damage When Wounded (Includes No Pain Sounds)"
+
+REFERENCE           NPC_WOUNDED_LOOK_AT_PLAYER
+LANG_ENGLISH        "Look At Player"
+
+REFERENCE           NPC_WOUNDED_LOOK_AT_PLAYER_DESC
+LANG_ENGLISH        "Set NPC To Look At You When Wounded"
+
+REFERENCE           NPC_WOUNDED_SABER_ACTIVE
+LANG_ENGLISH        "Saber Active"
+
+REFERENCE           NPC_WOUNDED_SABER_ACTIVE_DESC
+LANG_ENGLISH        "Set NPC To Ignite Saber When Wounded"
+
+REFERENCE           NPC_WOUNDED_CROUCH
+LANG_ENGLISH        "Crouch"
+
+REFERENCE           NPC_WOUNDED_CROUCH_DESC
+LANG_ENGLISH        "Set NPC To Crouch When Wounded"
+
+REFERENCE           NPC_WOUNDED_WALK
+LANG_ENGLISH        "Walk"
+
+REFERENCE           NPC_WOUNDED_WALK_DESC
+LANG_ENGLISH        "Set NPC To Walk When Wounded"
+
+REFERENCE           NPC_WOUNDED_RUN
+LANG_ENGLISH        "Run"
+
+REFERENCE           NPC_WOUNDED_RUN_DESC
+LANG_ENGLISH        "Set NPC To Run When Wounded"
+
+REFERENCE           NPC_WOUNDED_TALK
+LANG_ENGLISH        "Talk"
+
+REFERENCE           NPC_WOUNDED_TALK_DESC
+LANG_ENGLISH        "Set NPC Animation To Talk When Wounded"
+
+REFERENCE           NPC_WOUNDED_TAUNT
+LANG_ENGLISH        "Taunt"
+
+REFERENCE           NPC_WOUNDED_TAUNT_DESC
+LANG_ENGLISH        "Set NPC Animation To Taunt When Wounded"
+
+REFERENCE           NPC_WOUNDED_WOUNDED
+LANG_ENGLISH        "Wounded"
+
+REFERENCE           NPC_WOUNDED_WOUNDED_DESC
+LANG_ENGLISH        "Set NPC Animation To Wounded When Wounded"
+
+REFERENCE           NPC_WOUNDED_ON_KNEES
+LANG_ENGLISH        "On Knees"
+
+REFERENCE           NPC_WOUNDED_ON_KNEES_DESC
+LANG_ENGLISH        "Set NPC Animation To On Knees When Wounded"
+
+REFERENCE           NPC_WOUNDED_DEAD
+LANG_ENGLISH        "Dead"
+
+REFERENCE           NPC_WOUNDED_DEAD_DESC
+LANG_ENGLISH        "Set NPC Animation To Dead When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_HEAD
+LANG_ENGLISH        "Dismember Head"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_HEAD_DESC
+LANG_ENGLISH        "Set NPC To Dismember Head When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_ARMS
+LANG_ENGLISH        "Dismember Arms"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_ARMS_DESC
+LANG_ENGLISH        "Set NPC To Dismember Arms When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_LEFT_ARM
+LANG_ENGLISH        "Dismember Left Arm"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_LEFT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Arm When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_RIGHT_ARM
+LANG_ENGLISH        "Dismember Right Arm"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_RIGHT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Arm When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_LEFT_HAND
+LANG_ENGLISH        "Dismember Left Hand"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_LEFT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Hand When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_RIGHT_HAND
+LANG_ENGLISH        "Dismember Right Hand"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_RIGHT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Hand When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_LEFT_LEG
+LANG_ENGLISH        "Dismember Left Leg"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_LEFT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Leg When Wounded"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_RIGHT_LEG
+LANG_ENGLISH        "Dismember Right Leg"
+
+REFERENCE           NPC_WOUNDED_DISMEMBER_RIGHT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Leg When Wounded"
+
+REFERENCE           NPC_PAIN_TEAM_LIGHT_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Light Side Team When Hurt"
+
+REFERENCE           NPC_PAIN_TEAM_DARK_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Dark Side Team When Hurt"
+
+REFERENCE           NPC_PAIN_TEAM_NEUTRAL_DESC
+LANG_ENGLISH        "Set NPC To Join Solo Team When Hurt"
+
+REFERENCE           NPC_PAIN_TEAM_SOLO_DESC
+LANG_ENGLISH        "Set NPC To Join Neutral Team When Hurt"
+
+REFERENCE           NPC_PAIN_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Follow Player When Hurt"
+
+REFERENCE           NPC_PAIN_DONT_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Not Follow When Hurt"
+
+REFERENCE           NPC_PAIN_FOLLOW_CLOSE_DESC
+LANG_ENGLISH        "Set NPC To Follow Close When Hurt"
+
+REFERENCE           NPC_PAIN_FOLLOW_FAR_DESC
+LANG_ENGLISH        "Set NPC To Follow Far When Hurt"
+
+REFERENCE           NPC_PAIN_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Shoot Weapon When Hurt"
+
+REFERENCE           NPC_PAIN_DONT_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Not Shoot Weapon When Hurt"
+
+REFERENCE           NPC_PAIN_GIVE_NO_WEAPON_DESC
+LANG_ENGLISH        "Set NPC To Not Shoot Weapon When Hurt"
+
+REFERENCE           NPC_PAIN_GIVE_MELEE_DESC
+LANG_ENGLISH        "Give NPC Melee When Hurt"
+
+REFERENCE           NPC_PAIN_GIVE_BLASTER_DESC
+LANG_ENGLISH        "Give NPC Blaster When Hurt"
+
+REFERENCE           NPC_PAIN_GIVE_PISTOL_DESC
+LANG_ENGLISH        "Give NPC Blaster Pistol When Hurt"
+
+REFERENCE           NPC_PAIN_GIVE_SABER_DESC
+LANG_ENGLISH        "Give NPC Lightsaber When Hurt"
+
+REFERENCE           NPC_PAIN_GIVE_GUNNER_SABER_DESC
+LANG_ENGLISH        "Give Gunner NPC Lightsaber When Hurt"
+
+REFERENCE           NPC_PAIN_DEFAULT_DESC
+LANG_ENGLISH        "Set NPC To Default Behaviour When Hurt"
+
+REFERENCE           NPC_PAIN_SEARCH_DESC
+LANG_ENGLISH        "Set NPC To Search Behaviour When Hurt"
+
+REFERENCE           NPC_PAIN_FLEE_DESC
+LANG_ENGLISH        "Set NPC To Flee Behaviour When Hurt"
+
+REFERENCE           NPC_PAIN_DO_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Chase Enemies When Hurt"
+
+REFERENCE           NPC_PAIN_DONT_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Not Chase Enemies When Hurt"
+
+REFERENCE           NPC_PAIN_IGNORE_PAIN_DESC
+LANG_ENGLISH        "Set NPC To Not React To Pain/Damage When Hurt (Includes No Pain Sounds)"
+
+REFERENCE           NPC_PAIN_LOOK_AT_PLAYER_DESC
+LANG_ENGLISH        "Set NPC To Look At You When Hurt"
+
+REFERENCE           NPC_PAIN_SABER_ACTIVE_DESC
+LANG_ENGLISH        "Set NPC To Ignite Saber When Hurt"
+
+REFERENCE           NPC_PAIN_CROUCH_DESC
+LANG_ENGLISH        "Set NPC To Crouch When Hurt"
+
+REFERENCE           NPC_PAIN_WALK_DESC
+LANG_ENGLISH        "Set NPC To Walk When Hurt"
+
+REFERENCE           NPC_PAIN_RUN_DESC
+LANG_ENGLISH        "Set NPC To Run When Hurt"
+
+REFERENCE           NPC_PAIN_TALK_DESC
+LANG_ENGLISH        "Set NPC Animation To Talk When Hurt"
+
+REFERENCE           NPC_PAIN_TAUNT_DESC
+LANG_ENGLISH        "Set NPC Animation To Taunt When Hurt"
+
+REFERENCE           NPC_PAIN_WOUNDED_DESC
+LANG_ENGLISH        "Set NPC Animation To Wounded When Hurt"
+
+REFERENCE           NPC_PAIN_ON_KNEES_DESC
+LANG_ENGLISH        "Set NPC Animation To On Knees When Hurt"
+
+REFERENCE           NPC_PAIN_DEAD_DESC
+LANG_ENGLISH        "Set NPC Animation To Dead When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_HEAD_DESC
+LANG_ENGLISH        "Set NPC To Dismember Head When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_ARMS_DESC
+LANG_ENGLISH        "Set NPC To Dismember Arms When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_LEFT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Arm When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_RIGHT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Arm When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_LEFT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Hand When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_RIGHT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Hand When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_LEFT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Leg When Hurt"
+
+REFERENCE           NPC_PAIN_DISMEMBER_RIGHT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Leg When Hurt"
+
+REFERENCE           NPC_KILLED_DEAD_DESC
+LANG_ENGLISH        "Set NPC Animation To Dead When Killed"
+
+REFERENCE           NPC_KILLED_DEAD_1
+LANG_ENGLISH        "Dead 1"
+
+REFERENCE           NPC_KILLED_DEAD_2
+LANG_ENGLISH        "Dead 2"
+
+REFERENCE           NPC_KILLED_DEAD_3
+LANG_ENGLISH        "Dead 3"
+
+REFERENCE           NPC_KILLED_DEAD_4
+LANG_ENGLISH        "Dead 4"
+
+REFERENCE           NPC_KILLED_DEAD_5
+LANG_ENGLISH        "Dead 5"
+
+REFERENCE           NPC_KILLED_DEAD_6
+LANG_ENGLISH        "Dead 6"
+
+REFERENCE           NPC_KILLED_KNOCKDOWN_1
+LANG_ENGLISH        "Knock Down 1"
+
+REFERENCE           NPC_KILLED_KNOCKDOWN_1_DESC
+LANG_ENGLISH        "Set NPC Animation To Knock Down Backwards When Killed"
+
+REFERENCE           NPC_KILLED_KNOCKDOWN_2
+LANG_ENGLISH        "Knock Down 2"
+
+REFERENCE           NPC_KILLED_KNOCKDOWN_2_DESC
+LANG_ENGLISH        "Set NPC Animation To Knock Down Forwards When Killed"
+
+REFERENCE           NPC_KILLED_DEATH_DESC
+LANG_ENGLISH        "Set NPC Animation To Death When Killed"
+
+REFERENCE           NPC_KILLED_DEATH_1
+LANG_ENGLISH        "Death 1"
+
+REFERENCE           NPC_KILLED_DEATH_2
+LANG_ENGLISH        "Death 2"
+
+REFERENCE           NPC_KILLED_DEATH_3
+LANG_ENGLISH        "Death 3"
+
+REFERENCE           NPC_KILLED_DEATH_4
+LANG_ENGLISH        "Death 4"
+
+REFERENCE           NPC_KILLED_DEATH_5
+LANG_ENGLISH        "Death 5"
+
+REFERENCE           NPC_KILLED_DEATH_6
+LANG_ENGLISH        "Death 6"
+
+REFERENCE           NPC_KILLED_FLIP
+LANG_ENGLISH        "Flip"
+
+REFERENCE           NPC_KILLED_FLIP_DESC
+LANG_ENGLISH        "Set NPC Animation To Flip When Killed"
+
+REFERENCE           NPC_KILLED_BACKFLIP
+LANG_ENGLISH        "Back Flip"
+
+REFERENCE           NPC_KILLED_BACKFLIP_DESC
+LANG_ENGLISH        "Set NPC Animation To Back Flip When Killed"
+
+REFERENCE           NPC_KILLED_SPIN
+LANG_ENGLISH        "Spin"
+
+REFERENCE           NPC_KILLED_SPIN_DESC
+LANG_ENGLISH        "Set NPC Animation To Spin When Killed"
+
+REFERENCE           NPC_KILLED_CHOKE_RECOVER
+LANG_ENGLISH        "Choke Recover"
+
+REFERENCE           NPC_KILLED_CHOKE_RECOVER_DESC
+LANG_ENGLISH        "Set NPC Animation To Choke Recover When Killed"
+
+REFERENCE           NPC_KILLED_SLEEP
+LANG_ENGLISH        "Sleep"
+
+REFERENCE           NPC_KILLED_SLEEP_DESC
+LANG_ENGLISH        "Set NPC Animation To Sleep When Killed"
+
+REFERENCE           NPC_KILLED_SIT_DESC
+LANG_ENGLISH        "Set NPC Animation To Sit When Killed"
+
+REFERENCE           NPC_KILLED_SIT_1
+LANG_ENGLISH        "Sit 1"
+
+REFERENCE           NPC_KILLED_SIT_2
+LANG_ENGLISH        "Sit 2"
+
+REFERENCE           NPC_KILLED_SIT_3
+LANG_ENGLISH        "Sit 3"
+
+REFERENCE           NPC_KILLED_MEDITATE_1
+LANG_ENGLISH        "Meditate 1"
+
+REFERENCE           NPC_KILLED_MEDITATE_1_DESC
+LANG_ENGLISH        "Set NPC Animation To Meditate When Killed"
+
+REFERENCE           NPC_KILLED_MEDITATE_2
+LANG_ENGLISH        "Meditate 2"
+
+REFERENCE           NPC_KILLED_MEDITATE_2_DESC
+LANG_ENGLISH        "Set NPC Animation To Meditate When Killed (May Not Work For Every Character)"
+
+REFERENCE           NPC_KILLED_SURRENDER
+LANG_ENGLISH        "Surrender"
+
+REFERENCE           NPC_KILLED_SURRENDER_DESC
+LANG_ENGLISH        "Set NPC Animation To Surrender Talk When Killed"
+
+REFERENCE           NPC_KILLED_COWER
+LANG_ENGLISH        "Cower"
+
+REFERENCE           NPC_KILLED_COWER_DESC
+LANG_ENGLISH        "Set NPC Animation To Cower When Killed"
+
+REFERENCE           NPC_KILLED_KNEEL
+LANG_ENGLISH        "Kneel"
+
+REFERENCE           NPC_KILLED_KNEEL_DESC
+LANG_ENGLISH        "Set NPC Animation To Kneel When Killed"
+
+REFERENCE           NPC_KILLED_TALK_DESC
+LANG_ENGLISH        "Set NPC Animation To Talk When Killed"
+
+REFERENCE           NPC_KILLED_TAUNT_DESC
+LANG_ENGLISH        "Set NPC Animation To Taunt When Killed"
+
+REFERENCE           NPC_KILLED_WOUNDED_DESC
+LANG_ENGLISH        "Set NPC Animation To Wounded When Killed"
+
+REFERENCE           NPC_KILLED_ON_KNEES_DESC
+LANG_ENGLISH        "Set NPC Animation To On Knees When Killed"
+
+REFERENCE           NPC_KILLED_HAND_CUT_OFF
+LANG_ENGLISH        "Hand Cut-Off"
+
+REFERENCE           NPC_KILLED_HAND_CUT_OFF_DESC
+LANG_ENGLISH        "Set NPC Animation To Cut-Off Right Hand When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_HEAD_DESC
+LANG_ENGLISH        "Set NPC To Dismember Head When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_ARMS_DESC
+LANG_ENGLISH        "Set NPC To Dismember Arms When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_LEFT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Arm When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_RIGHT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Arm When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_LEFT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Hand When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_RIGHT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Hand When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_LEFT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Leg When Killed"
+
+REFERENCE           NPC_KILLED_DISMEMBER_RIGHT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Leg When Killed"
+
+REFERENCE           NPC_VICTORY_TEAM_LIGHT_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Light Side Team When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_TEAM_DARK_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Dark Side Team When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_TEAM_SOLO_DESC
+LANG_ENGLISH        "Set NPC To Join Solo Team When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_TEAM_NEUTRAL_DESC
+LANG_ENGLISH        "Set NPC To Join Neutral Team When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Follow Player When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DONT_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Not Follow When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_FOLLOW_CLOSE_DESC
+LANG_ENGLISH        "Set NPC To Follow Close When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_FOLLOW_FAR_DESC
+LANG_ENGLISH        "Set NPC To Follow Far When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Shoot Weapon When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DONT_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Not Shoot Weapon When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_GIVE_NO_WEAPON_DESC
+LANG_ENGLISH        "Give NPC No Weapon When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_GIVE_MELEE_DESC
+LANG_ENGLISH        "Give NPC Melee When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_GIVE_BLASTER_DESC
+LANG_ENGLISH        "Give NPC Blaster When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_GIVE_PISTOL_DESC
+LANG_ENGLISH        "Give NPC Blaster Pistol When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_GIVE_SABER_DESC
+LANG_ENGLISH        "Give NPC Lightsaber When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_GIVE_GUNNER_SABER_DESC
+LANG_ENGLISH        "Give Gunner NPC Lightsaber When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DEFAULT_DESC
+LANG_ENGLISH        "Set NPC To Default Behaviour When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_SEARCH_DESC
+LANG_ENGLISH        "Set NPC To Search Behaviour When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_FLEE_DESC
+LANG_ENGLISH        "Set NPC To Flee Behaviour When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DO_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Chase Enemies When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DONT_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Not Chase Enemies When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_IGNORE_PAIN_DESC
+LANG_ENGLISH        "Set NPC To Not React To Pain/Damage When Defeated Enemy (Includes No Pain Sounds)"
+
+REFERENCE           NPC_VICTORY_LOOK_AT_PLAYER_DESC
+LANG_ENGLISH        "Set NPC To Look At You When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_SABER_ACTIVE_DESC
+LANG_ENGLISH        "Set NPC To Ignite Saber When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_CROUCH_DESC
+LANG_ENGLISH        "Set NPC To Crouch When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_WALK_DESC
+LANG_ENGLISH        "Set NPC To Walk When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_RUN_DESC
+LANG_ENGLISH        "Set NPC To Run When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_TALK_DESC
+LANG_ENGLISH        "Set NPC Animation To Talk When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_TAUNT_DESC
+LANG_ENGLISH        "Set NPC Animation To Taunt When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_WOUNDED_DESC
+LANG_ENGLISH        "Set NPC Animation To Wounded When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_ON_KNEES_DESC
+LANG_ENGLISH        "Set NPC Animation To On Knees When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DEAD_DESC
+LANG_ENGLISH        "Set NPC Animation To Dead When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_HEAD_DESC
+LANG_ENGLISH        "Set NPC To Dismember Head When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_ARMS_DESC
+LANG_ENGLISH        "Set NPC To Dismember Arms When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_LEFT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Arm When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_RIGHT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Arm When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_LEFT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Hand When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_RIGHT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Hand When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_LEFT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Leg When Defeated Enemy"
+
+REFERENCE           NPC_VICTORY_DISMEMBER_RIGHT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Leg When Defeated Enemy"
+
+REFERENCE           NPC_SEEN_TEAM_LIGHT_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Light Side Team When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_TEAM_DARK_SIDE_DESC
+LANG_ENGLISH        "Set NPC To Join Dark Side Team When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_TEAM_SOLO_DESC
+LANG_ENGLISH        "Set NPC To Join Solo Team When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_TEAM_NEUTRAL_DESC
+LANG_ENGLISH        "Set NPC To Join Neutral Team When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Follow Player When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DONT_FOLLOW_DESC
+LANG_ENGLISH        "Set NPC To Not Follow When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_FOLLOW_CLOSE_DESC
+LANG_ENGLISH        "Set NPC To Follow Close When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_FOLLOW_FAR_DESC
+LANG_ENGLISH        "Set NPC To Follow Far When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Shoot Weapon When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DONT_SHOOT_DESC
+LANG_ENGLISH        "Set NPC To Not Shoot Weapon When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_GIVE_NO_WEAPON_DESC
+LANG_ENGLISH        "Give NPC No Weapon When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_GIVE_MELEE_DESC
+LANG_ENGLISH        "Give NPC Melee When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_GIVE_BLASTER_DESC
+LANG_ENGLISH        "Give NPC Blaster When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_GIVE_PISTOL_DESC
+LANG_ENGLISH        "Give NPC Blaster Pistol When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_GIVE_SABER_DESC
+LANG_ENGLISH        "Give NPC Lightsaber When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_GIVE_GUNNER_SABER_DESC
+LANG_ENGLISH        "Give Gunner NPC Lightsaber When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DEFAULT_DESC
+LANG_ENGLISH        "Set NPC To Default Behaviour When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_SEARCH_DESC
+LANG_ENGLISH        "Set NPC To Search Behaviour When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_FLEE_DESC
+LANG_ENGLISH        "Set NPC To Flee Behaviour When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DO_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Chase Enemies When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DONT_CHASE_DESC
+LANG_ENGLISH        "Set NPC To Not Chase Enemies When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_IGNORE_PAIN_DESC
+LANG_ENGLISH        "Set NPC To Not React To Pain/Damage When See/Detect Enemy (Includes No Pain Sounds)"
+
+REFERENCE           NPC_SEEN_LOOK_AT_PLAYER_DESC
+LANG_ENGLISH        "Set NPC To Look At You When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_SABER_ACTIVE_DESC
+LANG_ENGLISH        "Set NPC To Ignite Saber When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_CROUCH_DESC
+LANG_ENGLISH        "Set NPC To Crouch When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_WALK_DESC
+LANG_ENGLISH        "Set NPC To Walk When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_RUN_DESC
+LANG_ENGLISH        "Set NPC To Run When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_TALK_DESC
+LANG_ENGLISH        "Set NPC Animation To Talk When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_TAUNT_DESC
+LANG_ENGLISH        "Set NPC Animation To Taunt When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_WOUNDED_DESC
+LANG_ENGLISH        "Set NPC Animation To Wounded When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_ON_KNEES_DESC
+LANG_ENGLISH        "Set NPC Animation To On Knees When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DEAD_DESC
+LANG_ENGLISH        "Set NPC Animation To Dead When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_HEAD_DESC
+LANG_ENGLISH        "Set NPC To Dismember Head When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_ARMS_DESC
+LANG_ENGLISH        "Set NPC To Dismember Arms When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_LEFT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Arm When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_RIGHT_ARM_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Arm When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_LEFT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Hand When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_RIGHT_HAND_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Hand When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_LEFT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Left Leg When See/Detect Enemy"
+
+REFERENCE           NPC_SEEN_DISMEMBER_RIGHT_LEG_DESC
+LANG_ENGLISH        "Set NPC To Dismember Right Leg When See/Detect Enemy"
+
+REFERENCE           NPC_ACTION_STAND_DESC
+LANG_ENGLISH        "Sets NPC Animation To Stand"
+
+REFERENCE           NPC_ACTION_STAND_1
+LANG_ENGLISH        "Stand 1"
+
+REFERENCE           NPC_ACTION_STAND_2
+LANG_ENGLISH        "Stand 2"
+
+REFERENCE           NPC_ACTION_STAND_3
+LANG_ENGLISH        "Stand 3"
+
+REFERENCE           NPC_ACTION_SIT_DESC
+LANG_ENGLISH        "Sets NPC Animation To Sit"
+
+REFERENCE           NPC_ACTION_WALK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Walk With Arms Behind Their back"
+
+REFERENCE           NPC_ACTION_KNEEL_DESC
+LANG_ENGLISH        "Sets NPC Animation To Kneel"
+
+REFERENCE           NPC_ACTION_ON_KNEES_DESC
+LANG_ENGLISH        "Sets NPC Animation To On Knees"
+
+REFERENCE           NPC_ACTION_MEDITATE_1_DESC
+LANG_ENGLISH        "Sets NPC Animation To Meditate"
+
+REFERENCE           NPC_ACTION_MEDITATE_2_DESC
+LANG_ENGLISH        "Sets NPC Animation To Meditate (May Not Work On Every Character)"
+
+REFERENCE           NPC_ACTION_SLEEP_DESC
+LANG_ENGLISH        "Sets NPC Animation To Sleep"
+
+REFERENCE           NPC_ACTION_GET_UP
+LANG_ENGLISH        "Get Up"
+
+REFERENCE           NPC_ACTION_GET_UP_DESC
+LANG_ENGLISH        "Sets NPC Animation To Get Up"
+
+REFERENCE           NPC_ACTION_WOUNDED_DESC
+LANG_ENGLISH        "Sets NPC Animation To Wounded"
+
+REFERENCE           NPC_ACTION_DEATH
+LANG_ENGLISH        "Death"
+
+REFERENCE           NPC_ACTION_DEATH_DESC
+LANG_ENGLISH        "Sets NPC Animation To Death"
+
+REFERENCE           NPC_ACTION_DEAD_DESC
+LANG_ENGLISH        "Sets NPC Animation To Dead"
+
+REFERENCE           NPC_ACTION_CHOKED
+LANG_ENGLISH        "Choked"
+
+REFERENCE           NPC_ACTION_CHOKED_DESC
+LANG_ENGLISH        "Sets NPC Animation To Choked"
+
+REFERENCE           NPC_ACTION_COWER_DESC
+LANG_ENGLISH        "Sets NPC Animation To Cower"
+
+REFERENCE           NPC_ACTION_SURRENDER_DESC
+LANG_ENGLISH        "Sets NPC Animation To Surrender"
+
+REFERENCE           NPC_ACTION_WEAPON_READY
+LANG_ENGLISH        "Weapon Ready"
+
+REFERENCE           NPC_ACTION_WEAPON_READY_DESC
+LANG_ENGLISH        "Sets NPC Animation To Weapon Ready"
+
+REFERENCE           NPC_ACTION_TAUNT_DESC
+LANG_ENGLISH        "Sets NPC Animation To Taunt"
+
+REFERENCE           NPC_ACTION_BOW
+LANG_ENGLISH        "Bow"
+
+REFERENCE           NPC_ACTION_BOW_DESC
+LANG_ENGLISH        "Sets NPC Animation To Bow"
+
+REFERENCE           NPC_ACTION_VICTORY
+LANG_ENGLISH        "Victory"
+
+REFERENCE           NPC_ACTION_VICTORY_DESC
+LANG_ENGLISH        "Sets NPC Animation To Victory"
+
+REFERENCE           NPC_ACTION_TUSKEN_TAUNT
+LANG_ENGLISH        "Tusken Taunt"
+
+REFERENCE           NPC_ACTION_TUSKEN_TAUNT_DESC
+LANG_ENGLISH        "Sets NPC Animation To Tusken Taunt"
+
+REFERENCE           NPC_ACTION_TOSS
+LANG_ENGLISH        "Toss"
+
+REFERENCE           NPC_ACTION_TOSS_DESC
+LANG_ENGLISH        "Sets NPC Animation To Toss"
+
+REFERENCE           NPC_ACTION_HAND_OUT
+LANG_ENGLISH        "Hand Out"
+
+REFERENCE           NPC_ACTION_HAND_OUT_DESC
+LANG_ENGLISH        "Sets NPC Animation To Hand Out"
+
+REFERENCE           NPC_ACTION_CROUCH_DESC
+LANG_ENGLISH        "Sets NPC Animation To Crouch"
+
+REFERENCE           NPC_ACTION_TALK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Talk"
+
+REFERENCE           NPC_ACTION_TALK_COMLINK
+LANG_ENGLISH        "Talk Comlink"
+
+REFERENCE           NPC_ACTION_TALK_COMLINK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Talk Comlink"
+
+REFERENCE           NPC_ACTION_USE_CONSOLE
+LANG_ENGLISH        "Use Console"
+
+REFERENCE           NPC_ACTION_USE_CONSOLE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Use Console"
+
+REFERENCE           NPC_ACTION_FORCE_LIGHTNING_DESC
+LANG_ENGLISH        "Sets NPC Animation To Force Lightning"
+
+REFERENCE           NPC_ACTION_FORCE_PROTECT_DESC
+LANG_ENGLISH        "Sets NPC Animation To Force Protect"
+
+REFERENCE           NPC_ACTION_FORCE_GRIP_DESC
+LANG_ENGLISH        "Sets NPC Animation To Force Grip"
+
+REFERENCE           NPC_ACTION_MIND_TRICK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Mind Trick"
+
+REFERENCE           NPC_ACTION_WALK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Walk"
+
+REFERENCE           NPC_ACTION_STANCE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Stance"
+
+REFERENCE           NPC_ACTION_CROUCH_DESC
+LANG_ENGLISH        "Sets NPC Animation To Crouch"
+
+REFERENCE           NPC_ACTION_FORCE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Force Power"
+
+REFERENCE           NPC_ACTION_RELOAD_DESC
+LANG_ENGLISH        "Sets NPC Animation To Reload"
+
+REFERENCE           NPC_ACTION_COMBAT_DESC
+LANG_ENGLISH        "Sets NPC Animation To Combat"
+
+REFERENCE           NPC_ACTION_WOUNDED_DESC
+LANG_ENGLISH        "Sets NPC Animation To Wounded"
+
+REFERENCE           NPC_ACTION_DEATH_DESC
+LANG_ENGLISH        "Sets NPC Animation To Death"
+
+REFERENCE           NPC_ACTION_DEAD_DESC
+LANG_ENGLISH        "Sets NPC Animation To Dead"
+
+REFERENCE           NPC_ACTION_GESTURE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Gesture"
+
+REFERENCE           NPC_ACTION_DUAL_PUSH_DESC
+LANG_ENGLISH        "Sets NPC Animation To Dual Push"
+
+REFERENCE           NPC_ACTION_CHOKE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Choke"
+
+REFERENCE           NPC_ACTION_DRAIN_DESC
+LANG_ENGLISH        "Sets NPC Animation To Force Drain"
+
+REFERENCE           NPC_ACTION_HEAL_DESC
+LANG_ENGLISH        "Sets NPC Animation To Force Heal"
+
+REFERENCE           NPC_ACTION_MELEE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Punch"
+
+REFERENCE           NPC_ACTION_KICK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Kick"
+
+REFERENCE           NPC_ACTION_SWEEP_KICK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Sweep Kick"
+
+REFERENCE           NPC_ACTION_STABDOWN_DESC
+LANG_ENGLISH        "Sets NPC Animation To Stab Down"
+
+REFERENCE           NPC_ACTION_SABER_LOCK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Saber Lock"
+
+REFERENCE           NPC_ACTION_RAISE_SABER_DESC
+LANG_ENGLISH        "Sets NPC Animation To Raise Saber"
+
+REFERENCE           NPC_ACTION_BASHED_DESC
+LANG_ENGLISH        "Sets NPC Animation To Bashed"
+
+REFERENCE           NPC_ACTION_GRAPPLE_FIRE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Grapple Fire"
+
+REFERENCE           NPC_ACTION_HANG_DESC
+LANG_ENGLISH        "Sets NPC Animation To Hang"
+
+REFERENCE           NPC_ACTION_ROLL_DESC
+LANG_ENGLISH        "Sets NPC Animation To Roll"
+
+REFERENCE           NPC_ACTION_TALK_HELMET_DESC
+LANG_ENGLISH        "Sets NPC Animation To Talk Helmet"
+
+REFERENCE           NPC_ACTION_NOD_DESC
+LANG_ENGLISH        "Sets NPC Animation To Nod"
+
+REFERENCE           NPC_ACTION_BUTTON_DESC
+LANG_ENGLISH        "Sets NPC Animation To Button Press"
+
+REFERENCE           NPC_ACTION_COMMAND_DESC
+LANG_ENGLISH        "Sets NPC Animation To Signal Command"
+
+REFERENCE           NPC_ACTION_WIND_DESC
+LANG_ENGLISH        "Sets NPC Animation To Cover Face"
+
+REFERENCE           NPC_ACTION_SHAKE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Head Shake"
+
+REFERENCE           NPC_ACTION_CATCH_SABER_DESC
+LANG_ENGLISH        "Sets NPC Animation To Catch Saber"
+
+REFERENCE           NPC_ACTION_SCEPTER_DESC
+LANG_ENGLISH        "Sets NPC Animation To Fire Scepter"
+
+REFERENCE           NPC_ACTION_DASH_DESC
+LANG_ENGLISH        "Sets NPC Animation To Dash"
+
+REFERENCE           NPC_ACTION_DODGE_DESC
+LANG_ENGLISH        "Sets NPC Animation To Dodge"
+
+REFERENCE           NPC_ACTION_FLIP_DESC
+LANG_ENGLISH        "Sets NPC Animation To Flip"
+
+REFERENCE           NPC_ACTION_BLOCK_DESC
+LANG_ENGLISH        "Sets NPC Animation To Block"
+
+REFERENCE           NPC_ACTION_RESET_ANIMATION
+LANG_ENGLISH        "Reset Animation"
+
+REFERENCE           NPC_ACTION_RESET_ANIMATION_DESC
+LANG_ENGLISH        "Reset NPC Animation To Default"
+
+REFERENCE           NPC_MAX_ALL_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give NPC Level 3 Force Powers"
+
+REFERENCE           NPC_MAX_ALL_LIGHT_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give NPC Level 3 Light Side Force Powers"
+
+REFERENCE           NPC_MAX_ALL_DARK_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give NPC Level 3 Dark Side Force Powers"
+
+REFERENCE           NPC_MAX_ALL_NEUTRAL_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give NPC Level 3 Neutral Force Powers"
+
+REFERENCE           NPC_REMOVE_ALL_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give NPC Level 0 (none) Force Powers"
+
+REFERENCE           NPC_FORCE_JUMP_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Jump To Level 0"
+
+REFERENCE           NPC_FORCE_JUMP_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Jump To Level 1"
+
+REFERENCE           NPC_FORCE_JUMP_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Jump To Level 2"
+
+REFERENCE           NPC_FORCE_JUMP_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Jump To Level 3"
+
+REFERENCE           NPC_FORCE_SABER_THROW_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Saber Throw To Level 0"
+
+REFERENCE           NPC_FORCE_SABER_THROW_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Saber Throw To Level 1"
+
+REFERENCE           NPC_FORCE_SABER_THROW_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Saber Throw To Level 2"
+
+REFERENCE           NPC_FORCE_SABER_THROW_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Saber Throw To Level 3"
+
+REFERENCE           NPC_FORCE_SABER_OFFENSE_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Saber Offense To Level 0"
+
+REFERENCE           NPC_FORCE_SABER_OFFENSE_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Saber Offense To Level 1"
+
+REFERENCE           NPC_FORCE_SABER_OFFENSE_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Saber Offense To Level 2"
+
+REFERENCE           NPC_FORCE_SABER_OFFENSE_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Saber Offense To Level 3"
+
+REFERENCE           NPC_FORCE_SABER_DEFENSE_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Saber Defense To Level 0"
+
+REFERENCE           NPC_FORCE_SABER_DEFENSE_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Saber Defense To Level 1"
+
+REFERENCE           NPC_FORCE_SABER_DEFENSE_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Saber Defense To Level 2"
+
+REFERENCE           NPC_FORCE_SABER_DEFENSE_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Saber Defense To Level 3"
+
+REFERENCE           NPC_FORCE_PULL_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Pull To Level 0"
+
+REFERENCE           NPC_FORCE_PULL_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Pull To Level 1"
+
+REFERENCE           NPC_FORCE_PULL_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Pull To Level 2"
+
+REFERENCE           NPC_FORCE_PULL_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Pull To Level 3"
+
+REFERENCE           NPC_FORCE_PUSH_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Push To Level 0"
+
+REFERENCE           NPC_FORCE_PUSH_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Push To Level 1"
+
+REFERENCE           NPC_FORCE_PUSH_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Push To Level 2"
+
+REFERENCE           NPC_FORCE_PUSH_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Push To Level 3"
+
+REFERENCE           NPC_FORCE_SPEED_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Speed To Level 0"
+
+REFERENCE           NPC_FORCE_SPEED_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Speed To Level 1"
+
+REFERENCE           NPC_FORCE_SPEED_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Speed To Level 2"
+
+REFERENCE           NPC_FORCE_SPEED_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Speed To Level 3"
+
+REFERENCE           NPC_FORCE_GRIP_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Grip To Level 0"
+
+REFERENCE           NPC_FORCE_GRIP_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Grip To Level 1"
+
+REFERENCE           NPC_FORCE_GRIP_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Grip To Level 2"
+
+REFERENCE           NPC_FORCE_GRIP_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Grip To Level 3"
+
+REFERENCE           NPC_FORCE_LIGHTNING_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Lightning To Level 0"
+
+REFERENCE           NPC_FORCE_LIGHTNING_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Lightning To Level 1"
+
+REFERENCE           NPC_FORCE_LIGHTNING_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Lightning To Level 2"
+
+REFERENCE           NPC_FORCE_LIGHTNING_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Lightning To Level 3"
+
+REFERENCE           NPC_FORCE_HEAL_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Heal To Level 0"
+
+REFERENCE           NPC_FORCE_HEAL_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Heal To Level 1"
+
+REFERENCE           NPC_FORCE_HEAL_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Heal To Level 2"
+
+REFERENCE           NPC_FORCE_HEAL_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Heal To Level 3"
+
+REFERENCE           NPC_FORCE_DESTRUCTION_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Destruction To Level 0"
+
+REFERENCE           NPC_FORCE_DESTRUCTION_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Destruction To Level 1"
+
+REFERENCE           NPC_FORCE_DESTRUCTION_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Destruction To Level 2"
+
+REFERENCE           NPC_FORCE_DESTRUCTION_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Destruction To Level 3"
+
+REFERENCE           NPC_FORCE_SENSE_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Sense To Level 0"
+
+REFERENCE           NPC_FORCE_SENSE_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Sense To Level 1"
+
+REFERENCE           NPC_FORCE_SENSE_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Sense To Level 2"
+
+REFERENCE           NPC_FORCE_SENSE_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Sense To Level 3"
+
+REFERENCE           NPC_FORCE_MIND_TRICK_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Mind Trick To Level 0"
+
+REFERENCE           NPC_FORCE_MIND_TRICK_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Mind Trick To Level 1"
+
+REFERENCE           NPC_FORCE_MIND_TRICK_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Mind Trick To Level 2"
+
+REFERENCE           NPC_FORCE_MIND_TRICK_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Mind Trick To Level 3"
+
+REFERENCE           NPC_FORCE_STASIS_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Stasis To Level 0"
+
+REFERENCE           NPC_FORCE_STASIS_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Stasis To Level 1"
+
+REFERENCE           NPC_FORCE_STASIS_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Stasis To Level 2"
+
+REFERENCE           NPC_FORCE_STASIS_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Stasis To Level 3"
+
+REFERENCE           NPC_FORCE_RAGE_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Rage To Level 0"
+
+REFERENCE           NPC_FORCE_RAGE_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Rage To Level 1"
+
+REFERENCE           NPC_FORCE_RAGE_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Rage To Level 2"
+
+REFERENCE           NPC_FORCE_RAGE_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Rage To Level 3"
+
+REFERENCE           NPC_FORCE_PROTECT_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Protect To Level 0"
+
+REFERENCE           NPC_FORCE_PROTECT_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Protect To Level 1"
+
+REFERENCE           NPC_FORCE_PROTECT_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Protect To Level 2"
+
+REFERENCE           NPC_FORCE_PROTECT_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Protect To Level 3"
+
+REFERENCE           NPC_FORCE_ABSORB_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Absorb To Level 0"
+
+REFERENCE           NPC_FORCE_ABSORB_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Absorb To Level 1"
+
+REFERENCE           NPC_FORCE_ABSORB_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Absorb To Level 2"
+
+REFERENCE           NPC_FORCE_ABSORB_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Absorb To Level 3"
+
+REFERENCE           NPC_FORCE_DRAIN_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Drain To Level 0"
+
+REFERENCE           NPC_FORCE_DRAIN_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Drain To Level 1"
+
+REFERENCE           NPC_FORCE_DRAIN_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Drain To Level 2"
+
+REFERENCE           NPC_FORCE_DRAIN_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Drain To Level 3"
+
+REFERENCE           NPC_FORCE_GRASP_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Grasp To Level 0"
+
+REFERENCE           NPC_FORCE_GRASP_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Grasp To Level 1"
+
+REFERENCE           NPC_FORCE_GRASP_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Grasp To Level 2"
+
+REFERENCE           NPC_FORCE_GRASP_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Grasp To Level 3"
+
+REFERENCE           NPC_FORCE_REPULSE_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Repulse To Level 0"
+
+REFERENCE           NPC_FORCE_REPULSE_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Repulse To Level 1"
+
+REFERENCE           NPC_FORCE_REPULSE_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Repulse To Level 2"
+
+REFERENCE           NPC_FORCE_REPULSE_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Repulse To Level 3"
+
+REFERENCE           NPC_FORCE_ELECTRIC_JUDGEMENT_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Electric Judgement To Level 0"
+
+REFERENCE           NPC_FORCE_ELECTRIC_JUDGEMENT_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Electric Judgement To Level 1"
+
+REFERENCE           NPC_FORCE_ELECTRIC_JUDGEMENT_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Electric Judgement To Level 2"
+
+REFERENCE           NPC_FORCE_ELECTRIC_JUDGEMENT_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Electric Judgement To Level 3"
+
+REFERENCE           NPC_FORCE_FEAR_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Fear To Level 0"
+
+REFERENCE           NPC_FORCE_FEAR_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Fear To Level 1"
+
+REFERENCE           NPC_FORCE_FEAR_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Fear To Level 2"
+
+REFERENCE           NPC_FORCE_FEAR_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Fear To Level 3"
+
+REFERENCE           NPC_FORCE_DEADLYSIGHT_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Deadly Sight To Level 0"
+
+REFERENCE           NPC_FORCE_DEADLYSIGHT_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Deadly Sight To Level 1"
+
+REFERENCE           NPC_FORCE_DEADLYSIGHT_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Deadly Sight To Level 2"
+
+REFERENCE           NPC_FORCE_DEADLYSIGHT_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Deadly Sight To Level 3"
+
+REFERENCE           NPC_FORCE_PROJECTION_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Projection To Level 0"
+
+REFERENCE           NPC_FORCE_PROJECTION_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Projection To Level 1"
+
+REFERENCE           NPC_FORCE_PROJECTION_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Projection To Level 2"
+
+REFERENCE           NPC_FORCE_PROJECTION_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Projection To Level 3"
+
+REFERENCE           NPC_FORCE_BLAST_LEVEL_0
+LANG_ENGLISH        "Set NPC's Force Blast To Level 0"
+
+REFERENCE           NPC_FORCE_BLAST_LEVEL_1
+LANG_ENGLISH        "Set NPC's Force Blast To Level 1"
+
+REFERENCE           NPC_FORCE_BLAST_LEVEL_2
+LANG_ENGLISH        "Set NPC's Force Blast To Level 2"
+
+REFERENCE           NPC_FORCE_BLAST_LEVEL_3
+LANG_ENGLISH        "Set NPC's Force Blast To Level 3"
+
+REFERENCE           NPC_WEAPON_PLAYER_WEAPON
+LANG_ENGLISH        "Player Weapon"
+
+REFERENCE           NPC_WEAPON_PLAYER_WEAPON_DESC
+LANG_ENGLISH        "Gives NPC The Current Weapon Held By The Player"
+
+REFERENCE           NPC_WEAPON_NO_WEAPON
+LANG_ENGLISH        "No Weapon"
+
+REFERENCE           NPC_WEAPON_NO_WEAPON_DESC
+LANG_ENGLISH        "Gives NPC No Weapon"
+
+REFERENCE           NPC_WEAPON_MELEE
+LANG_ENGLISH        "Gives NPC Melee"
+
+REFERENCE           NPC_WEAPON_LIGHTSABER
+LANG_ENGLISH        "Lightsaber"
+
+REFERENCE           NPC_WEAPON_LIGHTSABER_DESC
+LANG_ENGLISH        "Gives NPC Their Lightsaber"
+
+REFERENCE           NPC_WEAPON_LIGHTSABER_GUNNER
+LANG_ENGLISH        "Lightsaber (Gunner)"
+
+REFERENCE           NPC_WEAPON_LIGHTSABER_GUNNER_DESC
+LANG_ENGLISH        "Use On NPCs Without Lightsabers"
+
+REFERENCE           NPC_WEAPON_STUN_BATON
+LANG_ENGLISH        "Gives NPC Stun Baton"
+
+REFERENCE           NPC_WEAPON_BRYAR_PISTOL
+LANG_ENGLISH        "Gives NPC Bryar Pistol"
+
+REFERENCE           NPC_WEAPON_BLASTER
+LANG_ENGLISH        "Gives NPC Blaster"
+
+REFERENCE           NPC_WEAPON_DISRUPTOR
+LANG_ENGLISH        "Gives NPC Disruptor"
+
+REFERENCE           NPC_WEAPON_BOWCASTER
+LANG_ENGLISH        "Gives NPC Bowcaster"
+
+REFERENCE           NPC_WEAPON_REPEATER
+LANG_ENGLISH        "Gives NPC Repeater"
+
+REFERENCE           NPC_WEAPON_DEMP2
+LANG_ENGLISH        "Gives NPC Demp2"
+
+REFERENCE           NPC_WEAPON_FLECHETTE
+LANG_ENGLISH        "Gives NPC Flechette"
+
+REFERENCE           NPC_WEAPON_ROCKET_LAUNCHER
+LANG_ENGLISH        "Gives NPC Rocket Launcher"
+
+REFERENCE           NPC_WEAPON_CONCUSSION
+LANG_ENGLISH        "Gives NPC Concussion"
+
+REFERENCE           NPC_WEAPON_THERMAL_DETONATOR
+LANG_ENGLISH        "Gives NPC Thermal Detonator"
+
+REFERENCE           NPC_WEAPON_TRIP_MINE
+LANG_ENGLISH        "Gives NPC Trip Mine"
+
+REFERENCE           NPC_WEAPON_DET_PACK
+LANG_ENGLISH        "Gives NPC Det Pack"
+
+REFERENCE           NPC_WEAPON_TUSKEN_RIFLE
+LANG_ENGLISH        "Gives NPC Tusken Rifle"
+
+REFERENCE           NPC_WEAPON_TUSKEN_STAFF
+LANG_ENGLISH        "Gives NPC Tusken Staff"
+
+REFERENCE           NPC_WEAPON_DL44
+LANG_ENGLISH        "Gives NPC DL-44 Blaster Pistol"
+
+REFERENCE           NPC_WEAPON_E5
+LANG_ENGLISH        "Gives NPC E5 (Battledroid)"
+
+REFERENCE           NPC_WEAPON_DC17
+LANG_ENGLISH        "Gives NPC DC-17 (Clone Pistol)"
+
+REFERENCE           NPC_WEAPON_DC15S
+LANG_ENGLISH        "Gives NPC DC-15s (Clone Carbine)"
+
+REFERENCE           NPC_WEAPON_DC15A
+LANG_ENGLISH        "Gives NPC DC-15a (Clone Rifle)"
+
+REFERENCE           NPC_WEAPON_DC17M
+LANG_ENGLISH        "Gives NPC DC-17m (Clone Commando)"
+
+REFERENCE           NPC_WEAPON_Z6_ROTARY_CANNON
+LANG_ENGLISH        "Gives NPC Z6 Rotary Cannon (Minigun)"
+
+REFERENCE           NPC_WEAPON_DH17
+LANG_ENGLISH        "Gives NPC DH-17 (Rebel Blaster)"
+
+REFERENCE           NPC_WEAPON_A280
+LANG_ENGLISH        "Gives NPC A280 (Rebel Rifle)"
+
+REFERENCE           NPC_WEAPON_F11D
+LANG_ENGLISH        "Gives NPC F11D (First Order)"
+
+REFERENCE           NPC_WEAPON_LPANN14
+LANG_ENGLISH        "Gives NPC LPANN14 (Rey)"
+
+REFERENCE           NPC_WEAPON_EE3
+LANG_ENGLISH        "Gives NPC EE3 (Boba)"
+
+REFERENCE           NPC_WEAPON_WESTAR
+LANG_ENGLISH        "Gives NPC Westar (Jango)"
+
+REFERENCE           NPC_SABER_COLOR1_DESC
+LANG_ENGLISH        "Set NPC's Saber 1 Color"
+
+REFERENCE           NPC_SABER_COLOR2_DESC
+LANG_ENGLISH        "Set NPC's Saber 2 Color"
+
+REFERENCE           NPC_SABER_HILT_SINGLE
+LANG_ENGLISH        "Saber Hilt"
+
+REFERENCE           NPC_SABER_HILT_DUAL
+LANG_ENGLISH        "Saber Hilt (Dual)"
+
+REFERENCE           NPC_SABER_HILT_STAFF
+LANG_ENGLISH        "Saber Hilt (Staff)"
+
+REFERENCE           NPC_SABER_HILT_DESC
+LANG_ENGLISH        "Set NPC's Saber Hilt and Color"
+
+//----------------------------------------------------------
+// 	h14: EFFECTS MENU
+//----------------------------------------------------------
+
+REFERENCE           EFFECT_ONE
+LANG_ENGLISH        "Effect One"
+
+REFERENCE           EFFECT_TWO
+LANG_ENGLISH        "Effect Two"
+
+REFERENCE           EFFECT_THREE
+LANG_ENGLISH        "Effect Three"
+
+REFERENCE           EFFECT_STOP
+LANG_ENGLISH        "Remove Effect"
+
+REFERENCE           EFFECT_DESC
+LANG_ENGLISH        "Play Up To Three Effects At Once"
+
+REFERENCE           EFFECT_DELAY_1
+LANG_ENGLISH        "Delay 1"
+
+REFERENCE           EFFECT_DELAY_100
+LANG_ENGLISH        "Delay 100"
+
+REFERENCE           EFFECT_DELAY_250
+LANG_ENGLISH        "Delay 250"
+
+REFERENCE           EFFECT_DELAY_500
+LANG_ENGLISH        "Delay 500"
+
+REFERENCE           EFFECT_DELAY_1000
+LANG_ENGLISH        "Delay 1000"
+
+REFERENCE           EFFECT_DELAY_2000
+LANG_ENGLISH        "Delay 2000"
+
+REFERENCE           EFFECT_DELAY_5000
+LANG_ENGLISH        "Delay 5000"
+
+REFERENCE           EFFECT_DELAY_10000
+LANG_ENGLISH        "Delay 10000"
+
+REFERENCE           EFFECT_DELAY_DESC
+LANG_ENGLISH        "The Time (In Milliseconds) Between The Effect Looping"
+
+REFERENCE           EFFECT_SMALL_FIRE
+LANG_ENGLISH        "Small Fire"
+
+REFERENCE           EFFECT_MEDIUM_FIRE
+LANG_ENGLISH        "Medium Fire"
+
+REFERENCE           EFFECT_LARGE_FIRE
+LANG_ENGLISH        "Large Fire"
+
+REFERENCE           EFFECT_FLAME_JET
+LANG_ENGLISH        "Flame Jet"
+
+REFERENCE           EFFECT_SMOKE
+LANG_ENGLISH        "Smoke"
+
+REFERENCE           EFFECT_SMALL_SMOKE
+LANG_ENGLISH        "Small Smoke"
+
+REFERENCE           EFFECT_MEDIUM_SMOKE
+LANG_ENGLISH        "Medium Smoke"
+
+REFERENCE           EFFECT_SMALL_BLACK_SMOKE
+LANG_ENGLISH        "Small Black Smoke"
+
+REFERENCE           EFFECT_LARGE_BLACK_SMOKE
+LANG_ENGLISH        "Large Black Smoke"
+
+REFERENCE           EFFECT_SMOKE_EXPLOSION
+LANG_ENGLISH        "Smoke Explosion"
+
+REFERENCE           EFFECT_SMOKE_ELECTRICITY
+LANG_ENGLISH        "Smoke Electricity"
+
+REFERENCE           EFFECT_SMALL_STEAM
+LANG_ENGLISH        "Small Steam"
+
+REFERENCE           EFFECT_MEDIUM_STEAM
+LANG_ENGLISH        "Medium Steam"
+
+REFERENCE           EFFECT_LARGE_STEAM
+LANG_ENGLISH        "Large Steam"
+
+REFERENCE           EFFECT_SMALL_SPARKS
+LANG_ENGLISH        "Small Sparks"
+
+REFERENCE           EFFECT_MEDIUM_SPARKS
+LANG_ENGLISH        "Medium Sparks"
+
+REFERENCE           EFFECT_LARGE_SPARKS
+LANG_ENGLISH        "Large Sparks"
+
+REFERENCE           EFFECT_SMALL_EXPLOSION
+LANG_ENGLISH        "Small Explosion"
+
+REFERENCE           EFFECT_MEDIUM_EXPLOSION
+LANG_ENGLISH        "Medium Explosion"
+
+REFERENCE           EFFECT_LARGE_EXPLOSION
+LANG_ENGLISH        "Large Explosion"
+
+REFERENCE           EFFECT_HUGE_EXPLOSION
+LANG_ENGLISH        "Huge Explosion"
+
+REFERENCE           EFFECT_LAVA_ERUPTION
+LANG_ENGLISH        "Lava Eruption"
+
+REFERENCE           EFFECT_LAVA_FLOW
+LANG_ENGLISH        "Lava Flow"
+
+REFERENCE           EFFECT_LAVA_DUST
+LANG_ENGLISH        "Lava Dust"
+
+REFERENCE           EFFECT_SMALL_LIGHTNING
+LANG_ENGLISH        "Small Lightning"
+
+REFERENCE           EFFECT_LARGE_LIGHTNING
+LANG_ENGLISH        "Large Lightning"
+
+REFERENCE           EFFECT_EXEGOL_LIGHTNING
+LANG_ENGLISH        "Exegol Lightning"
+
+REFERENCE           EFFECT_ACID_SPLASH
+LANG_ENGLISH        "Acid Splash"
+
+REFERENCE           EFFECT_BEAM
+LANG_ENGLISH        "Beam"
+
+REFERENCE           EFFECT_BREATH
+LANG_ENGLISH        "Breath"
+
+REFERENCE           EFFECT_BUBBLE
+LANG_ENGLISH        "Bubbles"
+
+REFERENCE           EFFECT_DOME
+LANG_ENGLISH        "Dome Lasers"
+
+REFERENCE           EFFECT_DUST_FALL
+LANG_ENGLISH        "Dust Fall"
+
+REFERENCE           EFFECT_ELECTRICITY
+LANG_ENGLISH        "Electricity"
+
+REFERENCE           EFFECT_EMPEROR_DEATH
+LANG_ENGLISH        "Emperor Death"
+
+REFERENCE           EFFECT_FOG
+LANG_ENGLISH        "Fog"
+
+REFERENCE           EFFECT_GENERATOR_RINGS
+LANG_ENGLISH        "Generator Rings"
+
+REFERENCE           EFFECT_FORCE_HEAL
+LANG_ENGLISH        "Force Heal"
+
+REFERENCE           EFFECT_BLUE_BEAM
+LANG_ENGLISH        "Blue Beam"
+
+REFERENCE           EFFECT_HYPERSPACE_STARS
+LANG_ENGLISH        "Hyperspace Stars"
+
+REFERENCE           EFFECT_IMPACT_DUST
+LANG_ENGLISH        "Impact Dust"
+
+REFERENCE           EFFECT_ION_CANNON
+LANG_ENGLISH        "Ion Cannon"
+
+REFERENCE           EFFECT_ION_CANNON_EXPLOSION
+LANG_ENGLISH        "Ion Explosion"
+
+REFERENCE           EFFECT_VOTJ_POOL
+LANG_ENGLISH        "VOTJ Pool"
+
+REFERENCE           EFFECT_POSSESSION
+LANG_ENGLISH        "Possession"
+
+REFERENCE           EFFECT_BLUE_LASER
+LANG_ENGLISH        "Blue Laser"
+
+REFERENCE           EFFECT_GREEN_LASER
+LANG_ENGLISH        "Green Laser"
+
+REFERENCE           EFFECT_GREEN_BEAM
+LANG_ENGLISH        "Green Beam"
+
+REFERENCE           EFFECT_PROTON_IMPACT
+LANG_ENGLISH        "Proton Impact"
+
+REFERENCE           EFFECT_QUAKE
+LANG_ENGLISH        "Quake"
+
+REFERENCE           EFFECT_FORCE_RAGE
+LANG_ENGLISH        "Force Rage"
+
+REFERENCE           EFFECT_RED_CYC
+LANG_ENGLISH        "Red Lasers"
+
+REFERENCE           EFFECT_RED_SHOT
+LANG_ENGLISH        "Red Laser"
+
+REFERENCE           EFFECT_ROCK_SMASH
+LANG_ENGLISH        "Rock Smash"
+
+REFERENCE           EFFECT_ROCK_FALL
+LANG_ENGLISH        "Rock Fall"
+
+REFERENCE           EFFECT_ROCK_IMPACT
+LANG_ENGLISH        "Rock Impact"
+
+REFERENCE           EFFECT_SABER_CUT
+LANG_ENGLISH        "Saber Cut"
+
+REFERENCE           EFFECT_SAND_SPRAY
+LANG_ENGLISH        "Sand Spray"
+
+REFERENCE           EFFECT_SONIC
+LANG_ENGLISH        "Sonic"
+
+REFERENCE           EFFECT_SPARK_EXPLODE
+LANG_ENGLISH        "Spark Explode"
+
+REFERENCE           EFFECT_TRACTOR_BEAM
+LANG_ENGLISH        "Tractor Beam"
+
+REFERENCE           EFFECT_TARGET_BEAM
+LANG_ENGLISH        "Target Beam"
+
+REFERENCE           EFFECT_LASER
+LANG_ENGLISH        "Laser"
+
+REFERENCE           EFFECT_WALL_BREAK
+LANG_ENGLISH        "Wall Break"
+
+REFERENCE           EFFECT_WATER_IMPACT
+LANG_ENGLISH        "Water Impact"
+
+REFERENCE           EFFECT_WATER_SPLASH
+LANG_ENGLISH        "Water Splash"
+
+REFERENCE           EFFECT_WATERFALL
+LANG_ENGLISH        "Waterfall"
+
+
+//----------------------------------------------------------
+// 	h15: MUSIC MENU
+//----------------------------------------------------------
+
+REFERENCE           TDIMUSIC
+LANG_ENGLISH        "Ep.I - The Droid Invasion"
+
+REFERENCE           FTDMUSIC
+LANG_ENGLISH        "Ep.I - Fighting the Destroyers"
+
+REFERENCE           QAMMMUSIC
+LANG_ENGLISH        "Ep.I - Outskirts of Tatooine"	
+
+REFERENCE           QPMUSIC
+LANG_ENGLISH        "Ep.I - The Queen's Protectors"
+
+REFERENCE           DOTFMUSIC
+LANG_ENGLISH        "Ep.I - Duel of the Fates"	
+
+REFERENCE           QFMUSIC
+LANG_ENGLISH        "Ep.I - Qui-Gon's Funeral"
+
+REFERENCE           ATSMUSIC
+LANG_ENGLISH        "Ep.II - Across the Stars"
+
+REFERENCE           JEMUSIC
+LANG_ENGLISH        "Ep.II - Jango's Escape"
+
+REFERENCE           CWBOCMUSIC
+LANG_ENGLISH        "CW - Battle of Christophsis"
+
+REFERENCE           MDMUSIC
+LANG_ENGLISH        "CW - Maul & Savage vs. Sidious"
+
+REFERENCE           DITJTMUSIC
+LANG_ENGLISH        "CW - Duel in the Jedi Temple"
+
+REFERENCE           CLONESMUSIC
+LANG_ENGLISH        "CW - The Clones"
+
+REFERENCE           AHSOKAMUSIC
+LANG_ENGLISH        "CW - Ahsoka's Theme"
+
+REFERENCE           BOCMUSIC
+LANG_ENGLISH        "Ep.III - Battle over Coruscant"
+
+REFERENCE           GSTSMUSIC
+LANG_ENGLISH        "Ep.III - General Grievous"
+
+REFERENCE           JTMMUSIC
+LANG_ENGLISH        "Ep.III - Jedi Temple March"
+
+REFERENCE           ABMUSIC
+LANG_ENGLISH        "Ep.III - Anakin's Betrayal"
+
+REFERENCE           ADDMUSIC
+LANG_ENGLISH        "Ep.III - Anakin's Dark Deeds"
+
+REFERENCE           AVOMUSIC
+LANG_ENGLISH        "Ep.III - Anakin vs. Obi-Wan"
+
+REFERENCE           BOTHMUSIC
+LANG_ENGLISH        "Ep.III - Battle of the Heroes"
+
+REFERENCE           JEHSMUSIC
+LANG_ENGLISH        "RO - Jyn Erso & Hope Suite"
+
+REFERENCE           TIS2MUSIC
+LANG_ENGLISH        "RO - The Imperial Suite"
+
+REFERENCE           HMUSIC
+LANG_ENGLISH        "RO - Hope"
+
+REFERENCE           MTMUSIC
+LANG_ENGLISH        "Ep.IV - Main Title & Fanfare"
+
+REFERENCE           IAMUSIC
+LANG_ENGLISH        "Ep.IV - Imperial Attack"
+
+REFERENCE           BSMUSIC
+LANG_ENGLISH        "Ep.IV - Binary Sunset"	
+
+REFERENCE           CBMUSIC
+LANG_ENGLISH        "Ep.IV - Cantina Band"
+
+REFERENCE           TFAMUSIC
+LANG_ENGLISH        "Ep.IV - TIE Fighter Attack"
+
+REFERENCE           TTRMUSIC
+LANG_ENGLISH        "Ep.IV - The Throne Room"
+
+REFERENCE           AFMUSIC
+LANG_ENGLISH        "Ep.V - Asteroid Field"	
+
+REFERENCE           YATFMUSIC
+LANG_ENGLISH        "Ep.V - Yoda & the Force"
+
+REFERENCE           IMMUSIC
+LANG_ENGLISH        "Ep.V - Imperial March"
+
+REFERENCE           COLSMUSIC
+LANG_ENGLISH        "Ep.V - The Clash of Lightsabers"
+
+REFERENCE           ROTJMUSIC
+LANG_ENGLISH        "Ep.VI - Return of the Jedi"
+
+REFERENCE           ITTMUSIC
+LANG_ENGLISH        "Ep.VI - Into the Trap"
+
+REFERENCE           TEMUSIC
+LANG_ENGLISH        "Ep.VI - The Emperor"
+
+REFERENCE           VICTORYMUSIC
+LANG_ENGLISH        "Ep.VI - Victory Celebration"
+
+REFERENCE           EP7TMUSIC
+LANG_ENGLISH        "Ep.VII - The Force Awakens"
+
+REFERENCE           MOTRMUSIC
+LANG_ENGLISH        "Ep.VII - March of the Resistance"	
+
+REFERENCE           RTMUSIC
+LANG_ENGLISH        "Ep.VII - Rey's Theme"
+
+REFERENCE           KRAMUSIC
+LANG_ENGLISH        "Ep.VII - Kylo Ren Arrives"
+
+REFERENCE           WOTFMUSIC
+LANG_ENGLISH        "Ep.VII - Ways of the Force"
+
+REFERENCE           ANAMUSIC
+LANG_ENGLISH        "Ep.VIII - A New Alliance"
+
+REFERENCE           TSMUSIC
+LANG_ENGLISH        "Ep.VIII - The Last Jedi"
+
+REFERENCE           TMMUSIC
+LANG_ENGLISH        "TM - The Mandalorian"
+
+REFERENCE           BF2MUSIC
+LANG_ENGLISH        "BF2 - Reveal Trailer"
+
+REFERENCE           STMUSIC
+LANG_ENGLISH        "TFU - Starkiller's Theme"
+
+REFERENCE           TCRMUSIC
+LANG_ENGLISH        "TFU - The Control Room"
+
+REFERENCE           CODMUSIC
+LANG_ENGLISH        "SWTOR - Clash of Destiny"
+
+REFERENCE           RT2MUSIC
+LANG_ENGLISH        "SWTOR - Revan's Theme"	
+
+REFERENCE           DMTMUSIC
+LANG_ENGLISH        "SWTOR - Malak's Theme"	
+
+REFERENCE           RCMUSIC
+LANG_ENGLISH        "RC - Vode An (Brothers All)"
+
+REFERENCE           CUSTOMMUSIC_DESC
+LANG_ENGLISH        "Play your own music from the MyMusic folder"
+
+REFERENCE           CUSTOM1MUSIC
+LANG_ENGLISH        "Custom 1"
+
+REFERENCE           CUSTOM2MUSIC
+LANG_ENGLISH        "Custom 2"
+
+REFERENCE           CUSTOM3MUSIC
+LANG_ENGLISH        "Custom 3"
+
+REFERENCE           CUSTOM4MUSIC
+LANG_ENGLISH        "Custom 4"
+
+REFERENCE           CUSTOM5MUSIC
+LANG_ENGLISH        "Custom 5"
+
+REFERENCE           CUSTOM6MUSIC
+LANG_ENGLISH        "Custom 6"
+
+REFERENCE           CUSTOM7MUSIC
+LANG_ENGLISH        "Custom 7"
+
+REFERENCE           CUSTOM8MUSIC
+LANG_ENGLISH        "Custom 8"
+
+
+//----------------------------------------------------------
+// 	h16: WEAPONS MENU
+//----------------------------------------------------------
+
+REFERENCE           WEAPON_LOADOUT
+LANG_ENGLISH        "WEAPON LOADOUT"
+
+REFERENCE           WEAPON_SELECTION
+LANG_ENGLISH        "WEAPON LOADOUT"
+
+REFERENCE           ALL_WEAPONS
+LANG_ENGLISH        "All Weapons"
+
+REFERENCE           ALL_WEAPONS_DESC
+LANG_ENGLISH        "Gives All Weapons"
+
+REFERENCE           NO_WEAPONS
+LANG_ENGLISH        "No Weapons"
+
+REFERENCE           NO_WEAPONS_DESC
+LANG_ENGLISH        "Remove All Weapons"
+
+REFERENCE           WEAPON
+LANG_ENGLISH        "WEAPON"
+
+REFERENCE           SINGLE_PISTOL
+LANG_ENGLISH        "Single Pistol"
+
+REFERENCE           SINGLE_PISTOL_DESC
+LANG_ENGLISH        "Disables Dual Wielding Pistols (Re-equip If Currently Holding Pistols)"
+
+REFERENCE           DUAL_PISTOLS
+LANG_ENGLISH        "Dual Pistols"
+
+REFERENCE           DUAL_PISTOLS_DESC
+LANG_ENGLISH        "Enables Dual Wielding Pistols (Re-equip If Currently Holding A Pistol)"
+
+REFERENCE           MELEE
+LANG_ENGLISH        "Melee"
+
+REFERENCE           GIVE_MELEE
+LANG_ENGLISH        "Gives Melee"
+
+REFERENCE           STUN_BATON
+LANG_ENGLISH        "Stun Baton"
+
+REFERENCE           GIVE_STUN_BATON
+LANG_ENGLISH        "Gives Stun Baton"
+
+REFERENCE           BRYAR_PISTOL
+LANG_ENGLISH        "Bryar Pistol"
+
+REFERENCE           GIVE_BRYAR_PISTOL
+LANG_ENGLISH        "Gives Bryar Pistol"
+
+REFERENCE           BLASTER
+LANG_ENGLISH        "Blaster"
+
+REFERENCE           GIVE_BLASTER
+LANG_ENGLISH        "Gives Blaster"
+
+REFERENCE           DISRUPTOR
+LANG_ENGLISH        "Disruptor"
+
+REFERENCE           GIVE_DISRUPTOR
+LANG_ENGLISH        "Gives Disruptor"
+
+REFERENCE           BOWCASTER
+LANG_ENGLISH        "Bowcaster"
+
+REFERENCE           GIVE_BOWCASTER
+LANG_ENGLISH        "Gives Bowcaster"
+
+REFERENCE           REPEATER
+LANG_ENGLISH        "Repeater"
+
+REFERENCE           GIVE_REPEATER
+LANG_ENGLISH        "Gives Repeater"
+
+REFERENCE           DEMP2
+LANG_ENGLISH        "Demp2"
+
+REFERENCE           GIVE_DEMP2
+LANG_ENGLISH        "Gives Demp2"
+
+REFERENCE           FLECHETTE
+LANG_ENGLISH        "Flechette"
+
+REFERENCE           GIVE_FLECHETTE
+LANG_ENGLISH        "Gives Flechette"
+
+REFERENCE           ROCKET_LAUNCHER
+LANG_ENGLISH        "Rocket Launcher"
+
+REFERENCE           GIVE_ROCKET_LAUNCHER
+LANG_ENGLISH        "Gives Rocket Launcher"
+
+REFERENCE           CONCUSSION
+LANG_ENGLISH        "Concussion"
+
+REFERENCE           GIVE_CONCUSSION
+LANG_ENGLISH        "Gives Concussion"
+
+REFERENCE           THERMAL_DETONATOR
+LANG_ENGLISH        "Thermal Detonator"
+
+REFERENCE           GIVE_THERMAL_DETONATOR
+LANG_ENGLISH        "Gives Thermal Detonator"
+
+REFERENCE           TRIP_MINE
+LANG_ENGLISH        "Trip Mine"
+
+REFERENCE           GIVE_TRIP_MINE
+LANG_ENGLISH        "Gives Trip Mine"
+
+REFERENCE           DET_PACK
+LANG_ENGLISH        "Det Pack"
+
+REFERENCE           GIVE_DET_PACK
+LANG_ENGLISH        "Gives Det Pack"
+
+REFERENCE           TUSKEN_RIFLE
+LANG_ENGLISH        "Tusken Rifle"
+
+REFERENCE           TUSKEN_STAFF
+LANG_ENGLISH        "Tusken Staff"
+
+REFERENCE           GIVE_TUSKEN_RIFLE
+LANG_ENGLISH        "Gives Tusken Rifle"
+
+REFERENCE           NOGHRI_STICK
+LANG_ENGLISH        "Noghri Stick"
+
+REFERENCE           GIVE_NOGHRI_STICK
+LANG_ENGLISH        "Gives Noghri Stick"
+
+REFERENCE           DL44
+LANG_ENGLISH        "DL-44"
+
+REFERENCE           GIVE_DL44
+LANG_ENGLISH        "Gives DL-44 Blaster Pistol"
+
+REFERENCE           E5
+LANG_ENGLISH        "E5"
+
+REFERENCE           GIVE_E5
+LANG_ENGLISH        "Gives E5 (Battledroid)"
+
+REFERENCE           DC17
+LANG_ENGLISH        "DC-17"
+
+REFERENCE           GIVE_DC17
+LANG_ENGLISH        "Gives DC-17 (Clone Pistol)"
+
+REFERENCE           DC15S
+LANG_ENGLISH        "DC-15s"
+
+REFERENCE           GIVE_DC15S
+LANG_ENGLISH        "Gives DC-15s (Clone Carbine)"
+
+REFERENCE           DC15A
+LANG_ENGLISH        "DC-15a"
+
+REFERENCE           GIVE_DC15A
+LANG_ENGLISH        "Gives DC-15a (Clone Rifle)"
+
+REFERENCE           DC17M
+LANG_ENGLISH        "DC-17m"
+
+REFERENCE           GIVE_DC17M
+LANG_ENGLISH        "Gives DC-17m (Clone Commando)"
+
+REFERENCE           DH17
+LANG_ENGLISH        "DH-17"
+
+REFERENCE           GIVE_DH17
+LANG_ENGLISH        "Gives DH-17 (Rebel Blaster)"
+
+REFERENCE           Z6_ROTARY_CANNON
+LANG_ENGLISH        "Z6 Rotary Cannon"
+
+REFERENCE           GIVE_Z6_ROTARY_CANNON
+LANG_ENGLISH        "Gives Z6 Rotary Cannon (Minigun)"
+
+REFERENCE           A280
+LANG_ENGLISH        "A280"
+
+REFERENCE           GIVE_A280
+LANG_ENGLISH        "Gives A280 (Rebel Rifle)"
+
+REFERENCE           F11D
+LANG_ENGLISH        "F11D"
+
+REFERENCE           GIVE_F11D
+LANG_ENGLISH        "Gives F11D (First Order)"
+
+REFERENCE           LPANN14
+LANG_ENGLISH        "LPANN14"
+
+REFERENCE           GIVE_LPANN14
+LANG_ENGLISH        "Gives LPANN14 (Rey)"
+
+REFERENCE           EE3
+LANG_ENGLISH        "EE3"
+
+REFERENCE           GIVE_EE3
+LANG_ENGLISH        "Gives EE3 (Boba)"
+
+REFERENCE           WESTAR
+LANG_ENGLISH        "Westar"
+
+REFERENCE           GIVE_WESTAR
+LANG_ENGLISH        "Gives Westar (Jango)"
+
+REFERENCE           FORCE
+LANG_ENGLISH        "FORCE"
+
+//----------------------------------------------------------
+// 	h17: STATS OVERVIEW
+//----------------------------------------------------------
+
+REFERENCE           MISSION_STATS_OVERVIEW
+LANG_ENGLISH        "MISSION STATS OVERVIEW"
+
+REFERENCE           LIGHTSABER_USE
+LANG_ENGLISH        "LIGHTSABER USE"
+
+REFERENCE           KILLS
+LANG_ENGLISH        "Kills:"
+
+REFERENCE           BLOCKS
+LANG_ENGLISH        "Blocks:"
+
+REFERENCE           THROWN
+LANG_ENGLISH        "Thrown:"
+
+REFERENCE           ARM_ATTACKS
+LANG_ENGLISH        "Arm Attacks:"
+
+REFERENCE           BODY_ATTACKS
+LANG_ENGLISH        "Body Attacks:"
+
+REFERENCE           LEG_ATTACKS
+LANG_ENGLISH        "Leg Attacks:"
+
+REFERENCE           FORCE_USE
+LANG_ENGLISH        "FORCE USE"
+
+REFERENCE           LIGHT_DARK
+LANG_ENGLISH        "LIGHT / DARK"
+
+REFERENCE           JUMP
+LANG_ENGLISH        "Jump:"
+
+REFERENCE           PULL
+LANG_ENGLISH        "Pull:"
+
+REFERENCE           PUSH
+LANG_ENGLISH        "Push:"
+
+REFERENCE           SENSE
+LANG_ENGLISH        "Sense:"
+
+REFERENCE           SPEED
+LANG_ENGLISH        "Speed:"
+
+REFERENCE           DEFENSE
+LANG_ENGLISH        "Defense:"
+
+REFERENCE           OFFENSE
+LANG_ENGLISH        "Offense:"
+
+REFERENCE           THROW
+LANG_ENGLISH        "Throw:"
+
+REFERENCE           ABSORB
+LANG_ENGLISH        "Absorb:"
+
+REFERENCE           HEAL
+LANG_ENGLISH        "Heal:"
+
+REFERENCE           MIND_TRICK
+LANG_ENGLISH        "Mind Trick:"
+
+REFERENCE           PROTECTION
+LANG_ENGLISH        "Protection:"
+
+REFERENCE           STASIS
+LANG_ENGLISH        "Stasis:"
+
+REFERENCE           DRAIN
+LANG_ENGLISH        "Drain:"
+
+REFERENCE           GRIP
+LANG_ENGLISH        "Grip:"
+
+REFERENCE           LIGHTNING
+LANG_ENGLISH        "Lightning:"
+
+REFERENCE           RAGE
+LANG_ENGLISH        "Rage:"
+
+REFERENCE           DESTRUCTION
+LANG_ENGLISH        "Destruction:"
+
+REFERENCE           DEADLYSIGHT
+LANG_ENGLISH        "Deadly Sight:"
+
+REFERENCE           FEAR
+LANG_ENGLISH        "Fear:"
+
+REFERENCE           JUDGEMENT
+LANG_ENGLISH        "Judgement:"
+
+REFERENCE           REPULSE
+LANG_ENGLISH        "Repulse:"
+
+REFERENCE           GRASP
+LANG_ENGLISH        "Grasp:"
+
+REFERENCE           BLAST
+LANG_ENGLISH        "Blast:"
+
+REFERENCE           PROJECTION
+LANG_ENGLISH        "Projection:"
+
+//----------------------------------------------------------
+// 	h18: FORCE POWERS MENU
+//----------------------------------------------------------
+
+REFERENCE           NEUTRAL_FORCE_WHEEL
+LANG_ENGLISH        "Neutral"
+
+REFERENCE           LIGHT_FORCE_WHEEL
+LANG_ENGLISH        "Light"
+
+REFERENCE           DARK_FORCE_WHEEL
+LANG_ENGLISH        "Dark"
+
+REFERENCE           FORCE_POWERS
+LANG_ENGLISH        "Force Powers"
+
+REFERENCE           BEGIN
+LANG_ENGLISH        "Begin"
+
+REFERENCE           CURRENT_FORCE_POWERS
+LANG_ENGLISH        "Current Force Powers"
+
+REFERENCE           FORCE_POWER_SELECTED
+LANG_ENGLISH        "Force Power Selected"
+
+REFERENCE           LIGHT_SIDE_POWERS
+LANG_ENGLISH        "Light Side Powers"
+
+REFERENCE           DARK_SIDE_POWERS
+LANG_ENGLISH        "Dark Side Powers"
+
+REFERENCE           SELECT_FORCE_POWERS
+LANG_ENGLISH        "Select Force Powers"
+
+REFERENCE           FORCE_SELECTION
+LANG_ENGLISH        "FORCE SELECTION"
+
+REFERENCE           FORCE_ABSORB
+LANG_ENGLISH        "Force Absorb"
+
+REFERENCE           FORCE_HEAL
+LANG_ENGLISH        "Force Heal"
+
+REFERENCE           FORCE_PROTECT
+LANG_ENGLISH        "Force Protect"
+
+REFERENCE           FORCE_MIND_TRICK
+LANG_ENGLISH        "Force Mind Trick"
+
+REFERENCE           FORCE_ELECTRIC_JUDGEMENT
+LANG_ENGLISH        "Force Judgement"
+
+REFERENCE           FORCE_BLAST
+LANG_ENGLISH        "Force Blast"
+
+REFERENCE           FORCE_PROJECTION
+LANG_ENGLISH        "Force Projection"
+
+REFERENCE           FORCE_GRIP
+LANG_ENGLISH        "Force Grip"
+
+REFERENCE           FORCE_LIGHTNING
+LANG_ENGLISH        "Force Lightning"
+
+REFERENCE           FORCE_RAGE
+LANG_ENGLISH        "Force Dark Rage"
+
+REFERENCE           FORCE_DRAIN
+LANG_ENGLISH        "Force Drain"
+
+REFERENCE           FORCE_DESTRUCTION
+LANG_ENGLISH        "Force Destruction"
+
+REFERENCE           FORCE_FEAR
+LANG_ENGLISH        "Force Fear"
+
+REFERENCE           FORCE_DEADLY_SIGHT
+LANG_ENGLISH        "Force Deadly Sight"
+
+REFERENCE           FORCE_STASIS
+LANG_ENGLISH        "Force Stasis"
+
+REFERENCE           FORCE_JUMP
+LANG_ENGLISH        "Force Jump"
+
+REFERENCE           FORCE_PULL
+LANG_ENGLISH        "Force Pull"
+
+REFERENCE           FORCE_PUSH
+LANG_ENGLISH        "Force Push"
+
+REFERENCE           FORCE_SPEED
+LANG_ENGLISH        "Force Speed"
+
+REFERENCE           FORCE_SENSE
+LANG_ENGLISH        "Force Sense"
+
+REFERENCE           FORCE_SABER_THROW
+LANG_ENGLISH        "Saber Throw"
+
+REFERENCE           FORCE_SABER_OFFENSE
+LANG_ENGLISH        "Saber Offense"
+
+REFERENCE           FORCE_SABER_DEFENSE
+LANG_ENGLISH        "Saber Defense"
+
+REFERENCE           FORCE_GRASP
+LANG_ENGLISH        "Force Grasp"
+
+REFERENCE           FORCE_REPULSE
+LANG_ENGLISH        "Force Repulse"
+
+REFERENCE           FORCE_ELECTRIC_JUDGEMENT
+LANG_ENGLISH        "Force Judgement"
+
+REFERENCE           FORCE_FEAR
+LANG_ENGLISH        "Force Fear"
+
+REFERENCE           FORCE_DEADLYSIGHT
+LANG_ENGLISH        "Force Deadly Sight"
+
+REFERENCE           FORCE_PROJECTION
+LANG_ENGLISH        "Force Projection"
+
+REFERENCE           FORCE_BLAST
+LANG_ENGLISH        "Force Blast"
+
+REFERENCE           SET_FORCE_ABSORB_LEVEL
+LANG_ENGLISH        "Set Force Absorb Level"
+
+REFERENCE           SET_FORCE_HEAL_LEVEL
+LANG_ENGLISH        "Set Force Heal Level"
+
+REFERENCE           SET_FORCE_PROTECT_LEVEL
+LANG_ENGLISH        "Set Force Protect Level"
+
+REFERENCE           SET_FORCE_MIND_TRICK_LEVEL
+LANG_ENGLISH        "Set Force Mind Trick Level"
+
+REFERENCE           SET_FORCE_ELECTRIC_JUDGEMENT_LEVEL
+LANG_ENGLISH        "Set Force Eletric Judgement Level"
+
+REFERENCE           SET_FORCE_BLAST_LEVEL
+LANG_ENGLISH        "Set Force Blast Level"
+
+REFERENCE           SET_FORCE_PROJECTION_LEVEL
+LANG_ENGLISH        "Set Force Projection Level"
+
+REFERENCE           SET_FORCE_GRIP_LEVEL
+LANG_ENGLISH        "Set Force Grip Level"
+
+REFERENCE           SET_FORCE_LIGHTNING_LEVEL
+LANG_ENGLISH        "Set Force Lightning Level"
+
+REFERENCE           SET_FORCE_RAGE_LEVEL
+LANG_ENGLISH        "Set Force Rage Level"
+
+REFERENCE           SET_FORCE_DRAIN_LEVEL
+LANG_ENGLISH        "Set Force Drain Level"
+
+REFERENCE           SET_FORCE_DESTRUCTION_LEVEL
+LANG_ENGLISH        "Set Force Destruction Level"
+
+REFERENCE           SET_FORCE_FEAR_LEVEL
+LANG_ENGLISH        "Set Force Fear Level"
+
+REFERENCE           SET_FORCE_DEADLY_SIGHT_LEVEL
+LANG_ENGLISH        "Set Force Deadly Sight Level"
+
+REFERENCE           SET_FORCE_STASIS_LEVEL
+LANG_ENGLISH        "Set Force Stasis Level"
+
+REFERENCE           SET_FORCE_JUMP_LEVEL
+LANG_ENGLISH        "Set Force Jump Level"
+
+REFERENCE           SET_FORCE_PULL_LEVEL
+LANG_ENGLISH        "Set Force Pull Level"
+
+REFERENCE           SET_FORCE_PUSH_LEVEL
+LANG_ENGLISH        "Set Force Push Level"
+
+REFERENCE           SET_FORCE_SPEED_LEVEL
+LANG_ENGLISH        "Set Force Speed Level"
+
+REFERENCE           SET_FORCE_SENSE_LEVEL
+LANG_ENGLISH        "Set Force Sense Level"
+
+REFERENCE           SET_FORCE_GRASP_LEVEL
+LANG_ENGLISH        "Set Force Grasp Level"
+
+REFERENCE           SET_FORCE_REPULSE_LEVEL
+LANG_ENGLISH        "Set Force Repulse Level"
+
+REFERENCE           SET_FORCE_SABER_THROW_LEVEL
+LANG_ENGLISH        "Set Saber Throw Level"
+
+REFERENCE           SET_FORCE_SABER_OFFENSE_LEVEL
+LANG_ENGLISH        "Set Saber Offense Level"
+
+REFERENCE           SET_FORCE_SABER_DEFENSE_LEVEL
+LANG_ENGLISH        "Set Saber Defense Level"
+
+REFERENCE           SET_FORCE_GRASP_LEVEL
+LANG_ENGLISH        "Set Force Grasp Level"
+
+REFERENCE           SET_FORCE_REPULSE_LEVEL
+LANG_ENGLISH        "Set Force Repulse Level"
+
+REFERENCE           SET_FORCE_ELECTRIC_JUDGEMENT_LEVEL
+LANG_ENGLISH        "Set Force Electric Judgement Level"
+
+REFERENCE           SET_FORCE_FEAR_LEVEL
+LANG_ENGLISH        "Set Force Fear Level"
+
+REFERENCE           SET_FORCE_DEADLYSIGHT_LEVEL
+LANG_ENGLISH        "Set Force Deadly Sight Level"
+
+REFERENCE           SET_FORCE_PROJECTION_LEVEL
+LANG_ENGLISH        "Set Force Projection Level"
+
+REFERENCE           SET_FORCE_BLAST_LEVEL
+LANG_ENGLISH        "Set Force Blast Level"
+
+REFERENCE           MAX_ALL_FORCE_POWERS
+LANG_ENGLISH        "Max All Force Powers"
+
+REFERENCE           MAX_ALL_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give Level 3 Force Powers"
+
+REFERENCE           MAX_ALL_LIGHT_FORCE_POWERS
+LANG_ENGLISH        "Max All Light Force Powers"
+
+REFERENCE           MAX_ALL_LIGHT_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give Level 3 Light Side Force Powers"
+
+REFERENCE           MAX_ALL_DARK_FORCE_POWERS
+LANG_ENGLISH        "Max All Dark Force Powers"
+
+REFERENCE           MAX_ALL_DARK_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give Level 3 Dark Side Force Powers"
+
+REFERENCE           MAX_ALL_NEUTRAL_FORCE_POWERS
+LANG_ENGLISH        "Max All Neutral Force Powers"
+
+REFERENCE           MAX_ALL_NEUTRAL_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give Level 3 Neutral Force Powers"
+
+REFERENCE           REMOVE_ALL_FORCE_POWERS
+LANG_ENGLISH        "Remove All Force Powers"
+
+REFERENCE           REMOVE_ALL_FORCE_POWERS_DESC
+LANG_ENGLISH        "Give Level 0 (none) Force Powers"
+
+REFERENCE           FORCE_POWER
+LANG_ENGLISH        "Force Power:"
+
+REFERENCE           FORCE_POWER_DESC
+LANG_ENGLISH        "Select A Force Power To Set The Level"
+
+REFERENCE           SET_FORCE_LEVEL_0
+LANG_ENGLISH        "Set Force Power To Level 0"
+
+REFERENCE           SET_FORCE_LEVEL_1
+LANG_ENGLISH        "Set Force Power To Level 1"
+
+REFERENCE           SET_FORCE_LEVEL_2
+LANG_ENGLISH        "Set Force Power To Level 2"
+
+REFERENCE           SET_FORCE_LEVEL_3
+LANG_ENGLISH        "Set Force Power To Level 3"
+
+REFERENCE           FORCE_JUMP_LEVEL_0
+LANG_ENGLISH        "Jump Level 0"
+
+REFERENCE           FORCE_JUMP_LEVEL_1
+LANG_ENGLISH        "Jump Level 1"
+
+REFERENCE           FORCE_JUMP_LEVEL_2
+LANG_ENGLISH        "Jump Level 2"
+
+REFERENCE           FORCE_JUMP_LEVEL_3
+LANG_ENGLISH        "Jump Level 3"
+
+REFERENCE           FORCE_SABER_THROW_LEVEL_0
+LANG_ENGLISH        "Saber Throw Level 0"
+
+REFERENCE           FORCE_SABER_THROW_LEVEL_1
+LANG_ENGLISH        "Saber Throw Level 1"
+
+REFERENCE           FORCE_SABER_THROW_LEVEL_2
+LANG_ENGLISH        "Saber Throw Level 2"
+
+REFERENCE           FORCE_SABER_THROW_LEVEL_3
+LANG_ENGLISH        "Saber Throw Level 3"
+
+REFERENCE           FORCE_SABER_OFFENSE_LEVEL_0
+LANG_ENGLISH        "Saber Offense Level 0"
+
+REFERENCE           FORCE_SABER_OFFENSE_LEVEL_1
+LANG_ENGLISH        "Saber Offense Level 1"
+
+REFERENCE           FORCE_SABER_OFFENSE_LEVEL_2
+LANG_ENGLISH        "Saber Offense Level 2"
+
+REFERENCE           FORCE_SABER_OFFENSE_LEVEL_3
+LANG_ENGLISH        "Saber Offense Level 3"
+
+REFERENCE           FORCE_SABER_DEFENSE_LEVEL_0
+LANG_ENGLISH        "Saber Defense Level 0"
+
+REFERENCE           FORCE_SABER_DEFENSE_LEVEL_1
+LANG_ENGLISH        "Saber Defense Level 1"
+
+REFERENCE           FORCE_SABER_DEFENSE_LEVEL_2
+LANG_ENGLISH        "Saber Defense Level 2"
+
+REFERENCE           FORCE_SABER_DEFENSE_LEVEL_3
+LANG_ENGLISH        "Saber Defense Level 3"
+
+REFERENCE           FORCE_PULL_LEVEL_0
+LANG_ENGLISH        "Pull Level 0"
+
+REFERENCE           FORCE_PULL_LEVEL_1
+LANG_ENGLISH        "Pull Level 1"
+
+REFERENCE           FORCE_PULL_LEVEL_2
+LANG_ENGLISH        "Pull Level 2"
+
+REFERENCE           FORCE_PULL_LEVEL_3
+LANG_ENGLISH        "Pull Level 3"
+
+REFERENCE           FORCE_PUSH_LEVEL_0
+LANG_ENGLISH        "Push Level 0"
+
+REFERENCE           FORCE_PUSH_LEVEL_1
+LANG_ENGLISH        "Push Level 1"
+
+REFERENCE           FORCE_PUSH_LEVEL_2
+LANG_ENGLISH        "Push Level 2"
+
+REFERENCE           FORCE_PUSH_LEVEL_3
+LANG_ENGLISH        "Push Level 3"
+
+REFERENCE           FORCE_SPEED_LEVEL_0
+LANG_ENGLISH        "Speed Level 0"
+
+REFERENCE           FORCE_SPEED_LEVEL_1
+LANG_ENGLISH        "Speed Level 1"
+
+REFERENCE           FORCE_SPEED_LEVEL_2
+LANG_ENGLISH        "Speed Level 2"
+
+REFERENCE           FORCE_SPEED_LEVEL_3
+LANG_ENGLISH        "Speed Level 3"
+
+REFERENCE           FORCE_GRIP_LEVEL_0
+LANG_ENGLISH        "Grip Level 0"
+
+REFERENCE           FORCE_GRIP_LEVEL_1
+LANG_ENGLISH        "Grip Level 1"
+
+REFERENCE           FORCE_GRIP_LEVEL_2
+LANG_ENGLISH        "Grip Level 2"
+
+REFERENCE           FORCE_GRIP_LEVEL_3
+LANG_ENGLISH        "Grip Level 3"
+
+REFERENCE           FORCE_LIGHTNING_LEVEL_0
+LANG_ENGLISH        "Lightning Level 0"
+
+REFERENCE           FORCE_LIGHTNING_LEVEL_1
+LANG_ENGLISH        "Lightning Level 1"
+
+REFERENCE           FORCE_LIGHTNING_LEVEL_2
+LANG_ENGLISH        "Lightning Level 2"
+
+REFERENCE           FORCE_LIGHTNING_LEVEL_3
+LANG_ENGLISH        "Lightning Level 3"
+
+REFERENCE           FORCE_HEAL_LEVEL_0
+LANG_ENGLISH        "Heal Level 0"
+
+REFERENCE           FORCE_HEAL_LEVEL_1
+LANG_ENGLISH        "Heal Level 1"
+
+REFERENCE           FORCE_HEAL_LEVEL_2
+LANG_ENGLISH        "Heal Level 2"
+
+REFERENCE           FORCE_HEAL_LEVEL_3
+LANG_ENGLISH        "Heal Level 3"
+
+REFERENCE           FORCE_DESTRUCTION_LEVEL_0
+LANG_ENGLISH        "Destruction Level 0"
+
+REFERENCE           FORCE_DESTRUCTION_LEVEL_1
+LANG_ENGLISH        "Destruction Level 1"
+
+REFERENCE           FORCE_DESTRUCTION_LEVEL_2
+LANG_ENGLISH        "Destruction Level 2"
+
+REFERENCE           FORCE_DESTRUCTION_LEVEL_3
+LANG_ENGLISH        "Destruction Level 3"
+
+REFERENCE           FORCE_SENSE_LEVEL_0
+LANG_ENGLISH        "Sense Level 0"
+
+REFERENCE           FORCE_SENSE_LEVEL_1
+LANG_ENGLISH        "Sense Level 1"
+
+REFERENCE           FORCE_SENSE_LEVEL_2
+LANG_ENGLISH        "Sense Level 2"
+
+REFERENCE           FORCE_SENSE_LEVEL_3
+LANG_ENGLISH        "Sense Level 3"
+
+REFERENCE           FORCE_MIND_TRICK_LEVEL_0
+LANG_ENGLISH        "Mind Trick Level 0"
+
+REFERENCE           FORCE_MIND_TRICK_LEVEL_1
+LANG_ENGLISH        "Mind Trick Level 1"
+
+REFERENCE           FORCE_MIND_TRICK_LEVEL_2
+LANG_ENGLISH        "Mind Trick Level 2"
+
+REFERENCE           FORCE_MIND_TRICK_LEVEL_3
+LANG_ENGLISH        "Mind Trick Level 3"
+
+REFERENCE           FORCE_STASIS_LEVEL_0
+LANG_ENGLISH        "Stasis Level 0"
+
+REFERENCE           FORCE_STASIS_LEVEL_1
+LANG_ENGLISH        "Stasis Level 1"
+
+REFERENCE           FORCE_STASIS_LEVEL_2
+LANG_ENGLISH        "Stasis Level 2"
+
+REFERENCE           FORCE_STASIS_LEVEL_3
+LANG_ENGLISH        "Stasis Level 3"
+
+REFERENCE           FORCE_RAGE_LEVEL_0
+LANG_ENGLISH        "Rage Level 0"
+
+REFERENCE           FORCE_RAGE_LEVEL_1
+LANG_ENGLISH        "Rage Level 1"
+
+REFERENCE           FORCE_RAGE_LEVEL_2
+LANG_ENGLISH        "Rage Level 2"
+
+REFERENCE           FORCE_RAGE_LEVEL_3
+LANG_ENGLISH        "Rage Level 3"
+
+REFERENCE           FORCE_PROTECT_LEVEL_0
+LANG_ENGLISH        "Protect Level 0"
+
+REFERENCE           FORCE_PROTECT_LEVEL_1
+LANG_ENGLISH        "Protect Level 1"
+
+REFERENCE           FORCE_PROTECT_LEVEL_2
+LANG_ENGLISH        "Protect Level 2"
+
+REFERENCE           FORCE_PROTECT_LEVEL_3
+LANG_ENGLISH        "Protect Level 3"
+
+REFERENCE           FORCE_ABSORB_LEVEL_0
+LANG_ENGLISH        "Absorb Level 0"
+
+REFERENCE           FORCE_ABSORB_LEVEL_1
+LANG_ENGLISH        "Absorb Level 1"
+
+REFERENCE           FORCE_ABSORB_LEVEL_2
+LANG_ENGLISH        "Absorb Level 2"
+
+REFERENCE           FORCE_ABSORB_LEVEL_3
+LANG_ENGLISH        "Absorb Level 3"
+
+REFERENCE           FORCE_DRAIN_LEVEL_0
+LANG_ENGLISH        "Drain Level 0"
+
+REFERENCE           FORCE_DRAIN_LEVEL_1
+LANG_ENGLISH        "Drain Level 1"
+
+REFERENCE           FORCE_DRAIN_LEVEL_2
+LANG_ENGLISH        "Drain Level 2"
+
+REFERENCE           FORCE_DRAIN_LEVEL_3
+LANG_ENGLISH        "Drain Level 3"
+
+REFERENCE           FORCE_GRASP_LEVEL_0
+LANG_ENGLISH        "Grasp Level 0"
+
+REFERENCE           FORCE_GRASP_LEVEL_1
+LANG_ENGLISH        "Grasp Level 1"
+
+REFERENCE           FORCE_GRASP_LEVEL_2
+LANG_ENGLISH        "Grasp Level 2"
+
+REFERENCE           FORCE_GRASP_LEVEL_3
+LANG_ENGLISH        "Grasp Level 3"
+
+REFERENCE           FORCE_REPULSE_LEVEL_0
+LANG_ENGLISH        "Repulse Level 0"
+
+REFERENCE           FORCE_REPULSE_LEVEL_1
+LANG_ENGLISH        "Repulse Level 1"
+
+REFERENCE           FORCE_REPULSE_LEVEL_2
+LANG_ENGLISH        "Repulse Level 2"
+
+REFERENCE           FORCE_REPULSE_LEVEL_3
+LANG_ENGLISH        "Repulse Level 3"
+
+REFERENCE           FORCE_ELECTRIC_JUDGEMENT_LEVEL_0
+LANG_ENGLISH        "Judgement Level 0"
+
+REFERENCE           FORCE_ELECTRIC_JUDGEMENT_LEVEL_1
+LANG_ENGLISH        "Judgement Level 1"
+
+REFERENCE           FORCE_ELECTRIC_JUDGEMENT_LEVEL_2
+LANG_ENGLISH        "Judgement Level 2"
+
+REFERENCE           FORCE_ELECTRIC_JUDGEMENT_LEVEL_3
+LANG_ENGLISH        "Judgement Level 3"
+
+REFERENCE           FORCE_FEAR_LEVEL_0
+LANG_ENGLISH        "Fear Level 0"
+
+REFERENCE           FORCE_FEAR_LEVEL_1
+LANG_ENGLISH        "Fear Level 1"
+
+REFERENCE           FORCE_FEAR_LEVEL_2
+LANG_ENGLISH        "Fear Level 2"
+
+REFERENCE           FORCE_FEAR_LEVEL_3
+LANG_ENGLISH        "Fear Level 3"
+
+REFERENCE           FORCE_DEADLYSIGHT_LEVEL_0
+LANG_ENGLISH        "Deadly Sight Level 0"
+
+REFERENCE           FORCE_DEADLYSIGHT_LEVEL_1
+LANG_ENGLISH        "Deadly Sight Level 1"
+
+REFERENCE           FORCE_DEADLYSIGHT_LEVEL_2
+LANG_ENGLISH        "Deadly Sight Level 2"
+
+REFERENCE           FORCE_DEADLYSIGHT_LEVEL_3
+LANG_ENGLISH        "Deadly Sight Level 3"
+
+REFERENCE           FORCE_PROJECTION_LEVEL_0
+LANG_ENGLISH        "Projection Level 0"
+
+REFERENCE           FORCE_PROJECTION_LEVEL_1
+LANG_ENGLISH        "Projection Level 1"
+
+REFERENCE           FORCE_PROJECTION_LEVEL_2
+LANG_ENGLISH        "Projection Level 2"
+
+REFERENCE           FORCE_PROJECTION_LEVEL_3
+LANG_ENGLISH        "Projection Level 3"
+
+REFERENCE           FORCE_BLAST_LEVEL_0
+LANG_ENGLISH        "Blast Level 0"
+
+REFERENCE           FORCE_BLAST_LEVEL_1
+LANG_ENGLISH        "Blast Level 1"
+
+REFERENCE           FORCE_BLAST_LEVEL_2
+LANG_ENGLISH        "Blast Level 2"
+
+REFERENCE           FORCE_BLAST_LEVEL_3
+LANG_ENGLISH        "Blast Level 3"
+
+//----------------------------------------------------------
+// 	h19: TALES OF THE GALAXY
+//----------------------------------------------------------
+
+REFERENCE           TALES_OF_THE_GALAXY
+LANG_ENGLISH        "TALES OF THE GALAXY"
+
+REFERENCE           TOTG_THE_FORCE_UNLEASHED
+LANG_ENGLISH        "MOVIE DUELS: THE FORCE UNLEASHED"
+
+REFERENCE           TOTG_RISE_OF_THE_EMPIRE
+LANG_ENGLISH        "MOVIE DUELS: RISE OF THE EMPIRE"
+
+REFERENCE           TOTG_SEASON1
+LANG_ENGLISH        "SEASON 1: DARK FORCES II"
+
+REFERENCE           TOTG_SEASON2
+LANG_ENGLISH        "SEASON 2: COMING SOON" // "SEASON 2: THE FABLE OF THE BROTHERS"
+
+REFERENCE           TOTG_SEASON3
+LANG_ENGLISH        "SEASON 3: COMING SOON" // "SEASON 3: THE LEGEND OF REVAN"
+
+REFERENCE           TOTG_SEASON4
+LANG_ENGLISH        "SEASON 4: UNKNOWN"
+
+REFERENCE           TOTG_WELCOME
+LANG_ENGLISH        "Welcome to Movie Duels: Tales of the Galaxy! \n\n Join us and relive legendary stories across the Star Wars universe. Replay the duels from Dark Forces 2 as Kyle Katarn against Jerec and the dark Jedi Knights in Season 1 of Tales of the Galaxy! Other seasons will become available in future updates!"
+
+REFERENCE           TOTG_KELDOR_WELCOME
+LANG_ENGLISH        "Welcome to the Galaxy Map of Movie Duels: Tales of the Galaxy! \n\n Select and relive a story from the map to get started. Have fun and may the Force be with you!"
+
+REFERENCE           TOTG_KELDOR_MISSING_PACK
+LANG_ENGLISH        "To access this, download and install the TALES OF THE GALAXY expansion pack from our ModDB page."
+
+REFERENCE           TOTG_KELDOR_UNAVAILABLE
+LANG_ENGLISH        "This is currently unavailable. Keep a look out for future updates released on our ModDB page."
+
+ENDMARKER
+
+
+
+
+
+
+
+
+
+
+

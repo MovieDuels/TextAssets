@@ -1,0 +1,49 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI4
+LANG_ENGLISH        "That will bring any surviving Jedi home, where I will be waiting for them."
+
+REFERENCE           ANI5
+LANG_ENGLISH        "You stay and protect the beacon. Guard it with your lives!"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "Serra.. Cin Drallig's greatest pupil has come to greet me."
+
+REFERENCE           ANI9
+LANG_ENGLISH        "I want access to the temple's signal beacon."
+
+REFERENCE           ANI10
+LANG_ENGLISH        "By order of the Supreme Chancellor."
+
+REFERENCE           ANI11
+LANG_ENGLISH        "The Council is no longer in control!"
+
+REFERENCE           JOC1
+LANG_ENGLISH        "On whose authority?"
+
+REFERENCE           JOC2
+LANG_ENGLISH        "That is not within the Chancellor's power."
+
+REFERENCE           JOC3
+LANG_ENGLISH        "Only the Jedi Council can authorize access."
+
+REFERENCE           JEDI_ANGRY
+LANG_ENGLISH        "You won't get away with this, Skywalker!"
+
+REFERENCE           KET1
+LANG_ENGLISH        "You shouldn't have come here!"
+
+ENDMARKER

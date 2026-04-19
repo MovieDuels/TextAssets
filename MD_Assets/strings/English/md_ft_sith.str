@@ -1,0 +1,67 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "Did you come back to say you forgive me?"
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "To save my soul?"
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "I'm sure you are!"
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "The Resistance is dead."
+
+REFERENCE           KYLO5
+LANG_ENGLISH        "The war is over."
+
+REFERENCE           KYLO6
+LANG_ENGLISH        "And when I kill you, I will have killed the last Jedi."
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "I'll destroy her, and you, and all of it."
+
+REFERENCE           KYLO8
+LANG_ENGLISH        "No."
+
+REFERENCE           KYLO9
+LANG_ENGLISH        "No!!!"
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "No."
+
+REFERENCE           LUKE2
+LANG_ENGLISH        "I failed you, Ben."
+
+REFERENCE           LUKE3
+LANG_ENGLISH        "I'm Sorry."
+
+REFERENCE           LUKE4
+LANG_ENGLISH        "Amazing. Every word of what you just said was wrong."
+
+REFERENCE           LUKE5
+LANG_ENGLISH        "The Rebellion is reborn today. The war is just beginning."
+
+REFERENCE           LUKE6
+LANG_ENGLISH        "And I will not be the last Jedi."
+
+REFERENCE           LUKE7
+LANG_ENGLISH        "No. Strike me down in anger and I'll always be with you. Just like your father."
+
+REFERENCE           LUKE8
+LANG_ENGLISH        "See you around, kid."
+
+ENDMARKER

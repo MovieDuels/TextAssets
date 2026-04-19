@@ -1,0 +1,274 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           EMP1
+LANG_ENGLISH        "Welcome, young Skywalker. I have been expecting you."
+
+REFERENCE           EMP2
+LANG_ENGLISH        "You no longer need those."
+
+REFERENCE           EMP3
+LANG_ENGLISH        "Guards, leave us."
+
+REFERENCE           EMP4
+LANG_ENGLISH        "I'm looking forward to completing your training."
+
+REFERENCE           EMP5
+LANG_ENGLISH        "In time you will call me Master."
+
+REFERENCE           EMP6
+LANG_ENGLISH        "Oh, no, my young Jedi."
+
+REFERENCE           EMP7
+LANG_ENGLISH        "You will find that it is you who are mistaken.."
+
+REFERENCE           EMP8
+LANG_ENGLISH        ".. about a great many things."
+
+REFERENCE           EMP9
+LANG_ENGLISH        "Ah, yes, a Jedi's weapon."
+
+REFERENCE           EMP10
+LANG_ENGLISH        "Much like your father's. By now you must know your father can never be turned from the dark side. So will it be with you."
+
+REFERENCE           EMP11
+LANG_ENGLISH        "[Laughs] Perhaps you refer to the imminent attack of your Rebel fleet."
+
+REFERENCE           EMP12
+LANG_ENGLISH        "Yes.. I assure you we are quite safe from your friends here."
+
+REFERENCE           EMP13
+LANG_ENGLISH        "Your faith in your friends is yours."
+
+REFERENCE           EMP14
+LANG_ENGLISH        "Everything that has transpired has done so according to my design. Your friends up there on the Sanctuary Moon are walking into a trap. As is your Rebel fleet!"
+
+REFERENCE           EMP15
+LANG_ENGLISH        "It was I who allowed the Alliance to know the location of the shield generator. It is quite safe from your pitiful little band."
+
+REFERENCE           EMP16
+LANG_ENGLISH        "An entire legion of my best troops awaits them. Oh.. I'm afraid the deflector shield will be quite operational when your friends arrive."
+
+REFERENCE           EMP17
+LANG_ENGLISH        "Come, boy. See for yourself."
+
+REFERENCE           EMP18
+LANG_ENGLISH        "From here you will witness the final destruction of the Alliance, and the end of your insignificant Rebellion."
+
+REFERENCE           EMP19
+LANG_ENGLISH        "You want this, don't you?"
+
+REFERENCE           EMP20
+LANG_ENGLISH        "The hate is swelling in you now. Take your Jedi weapon. Use it. I am unarmed. Strike me down with it. Give in to your anger. With each passing moment, you make yourself more my servant."
+
+REFERENCE           EMP21
+LANG_ENGLISH        "It is unavoidable. It is your destiny. You, like your father, are now mine!"
+
+REFERENCE           EMP22
+LANG_ENGLISH        "As you can see, my young apprentice, your friends have failed."
+
+REFERENCE           EMP23
+LANG_ENGLISH        "Now witness the firepower of this fully armed and operational battle station."
+
+REFERENCE           EMP24
+LANG_ENGLISH        "(into comlink) Fire at will, Commander!"
+
+REFERENCE           EMP25
+LANG_ENGLISH        "Your fleet has lost. And your friends on the Endor moon will not survive."
+
+REFERENCE           EMP26
+LANG_ENGLISH        "There is no escape, my young apprentice."
+
+REFERENCE           EMP27
+LANG_ENGLISH        "The Alliance will die.. as will your friends."
+
+REFERENCE           EMP28
+LANG_ENGLISH        "Good. I can feel your anger. I am defenseless. Take your weapon! Strike me down with all your hatred, and your journey towards the Dark Side will be complete."
+
+REFERENCE           EMP29
+LANG_ENGLISH        "[Laughs]."
+
+REFERENCE           EMP30
+LANG_ENGLISH        "Good. Use your aggressive feelings, boy! Let the hate flow through you."
+
+REFERENCE           EMP31
+LANG_ENGLISH        "[Laughs]."
+
+REFERENCE           EMP32
+LANG_ENGLISH        "Good. Good."
+
+REFERENCE           EMP33
+LANG_ENGLISH        "Good! Your hate has made you powerful."
+
+REFERENCE           EMP34
+LANG_ENGLISH        "Now, fulfill your destiny and take your father's place at my side!"
+
+REFERENCE           EMP35
+LANG_ENGLISH        "So be it.. Jedi."
+
+REFERENCE           EMP36
+LANG_ENGLISH        "If you will not be turned, you will be destroyed."
+
+REFERENCE           EMP37
+LANG_ENGLISH        "Young fool.. only now, at the end, do you understand."
+
+REFERENCE           EMP38
+LANG_ENGLISH        "Your feeble skills are no match for the power of the Dark Side."
+
+REFERENCE           EMP39
+LANG_ENGLISH        "You have paid the price for your lack of vision."
+
+REFERENCE           EMP40
+LANG_ENGLISH        "Now, young Skywalker...you will die."
+
+REFERENCE           EMP100
+LANG_ENGLISH        "You have forgotten your place, Lord Vader."
+
+REFERENCE           EMP101
+LANG_ENGLISH        "You have betrayed me.\n\nNow you will be destroyed!"
+
+REFERENCE           EMP102
+LANG_ENGLISH        "You had such promise.\n\nYou could have been my successor, my equal. But now..."
+
+REFERENCE           EMP103
+LANG_ENGLISH        "You were destined to destroy me."
+
+REFERENCE           EMP104
+LANG_ENGLISH        "Argh."
+
+REFERENCE           EMP105
+LANG_ENGLISH        "Feel the power of the Force."
+
+REFERENCE           EMP106
+LANG_ENGLISH        "You will not defeat me."
+
+REFERENCE           LUK1
+LANG_ENGLISH        "You're gravely mistaken. You won't convert me as you did my father."
+
+REFERENCE           LUK2
+LANG_ENGLISH        "You're wrong. Soon I'll be dead.. and you with me."
+
+REFERENCE           LUK3
+LANG_ENGLISH        "Your overconfidence is your weakness."
+
+REFERENCE           LUK4
+LANG_ENGLISH        "No!"
+
+REFERENCE           LUK5
+LANG_ENGLISH        "I will not fight you, father."
+
+REFERENCE           LUK6
+LANG_ENGLISH        "Your thoughts betray you, father. I feel the good in you.. the conflict."
+
+REFERENCE           LUK7
+LANG_ENGLISH        "You couldn't bring yourself to kill me before, and I don't believe you'll destroy me now."
+
+REFERENCE           LUK8
+LANG_ENGLISH        "I will not fight you."
+
+REFERENCE           LUK9
+LANG_ENGLISH        "[Screams in anger]."
+
+REFERENCE           LUK10
+LANG_ENGLISH        "Never! I'll never turn to the dark side."
+
+REFERENCE           LUK11
+LANG_ENGLISH        "You've failed, Your Highness. I am a Jedi, like my father before me.."
+
+REFERENCE           LUK12
+LANG_ENGLISH        "[Screams in unbearable pain]."
+
+REFERENCE           LUK100
+LANG_ENGLISH        "Search your feelings, father. You can't do this. I feel the conflict within you. Let go of your hate."
+
+REFERENCE           LUK101
+LANG_ENGLISH        "I know there is good in you. The Emperor hasn't driven it from you fully."
+
+REFERENCE           LUK102
+LANG_ENGLISH        "I will not turn. And you'll be forced to kill me."
+
+REFERENCE           LUK103
+LANG_ENGLISH        "Then my father is truly dead."
+
+REFERENCE           VAD1
+LANG_ENGLISH        "His lightsaber."
+
+REFERENCE           VAD2
+LANG_ENGLISH        "It is pointless to resist, my son."
+
+REFERENCE           VAD3
+LANG_ENGLISH        "Aaah!"
+
+REFERENCE           VAD5
+LANG_ENGLISH        "Obi-Wan has taught you well."
+
+REFERENCE           VAD6
+LANG_ENGLISH        "You are unwise to lower your defenses."
+
+REFERENCE           VAD7
+LANG_ENGLISH        "There is no conflict."
+
+REFERENCE           VAD8
+LANG_ENGLISH        "You underestimate the power of the dark side. If you will not fight, then you will meet your destiny."
+
+REFERENCE           VAD9
+LANG_ENGLISH        "You cannot hide forever, Luke."
+
+REFERENCE           VAD10
+LANG_ENGLISH        "Give yourself to the Dark Side."
+
+REFERENCE           VAD11
+LANG_ENGLISH        "Give yourself to the Dark Side. It is the only way you can save your friends. Yes, your thoughts betray you. Your feelings for them are strong. Especially for.. Sister! So.. you have a twin sister. Your feelings have now betrayed her, too. Obi-Wan was wise to hide her from me. Now his failure is complete. If you will not turn to the Dark Side, then perhaps she will."
+
+REFERENCE           VAD14
+LANG_ENGLISH        "Aaah!"
+
+REFERENCE           VAD15
+LANG_ENGLISH        "No. No!"
+
+REFERENCE           VAD16
+LANG_ENGLISH        "[Breathes heavily].
+
+REFERENCE           VAD100
+LANG_ENGLISH        "It is too late for me, son."
+
+REFERENCE           VAD101
+LANG_ENGLISH        "You dont know the power of the Dark Side."
+
+REFERENCE           VAD102
+LANG_ENGLISH        "I must obey my master."
+
+REFERENCE           VAD103
+LANG_ENGLISH        "If that is your destiny."
+
+REFERENCE           VAD104
+LANG_ENGLISH        "The Emperor will show you true the nature of the Force."
+
+REFERENCE           VAD105
+LANG_ENGLISH        "He is your master now."
+
+REFERENCE           VAD106
+LANG_ENGLISH        "No."
+
+REFERENCE           VAD107
+LANG_ENGLISH        "Your destiny lies with me."
+
+REFERENCE           VAD108
+LANG_ENGLISH        "What is thy bidding, my master?"
+
+REFERENCE           CHOICE
+LANG_ENGLISH        "Kill Luke to remain loyal to the Emperor.\n\nAttack the Emperor to join Luke."
+
+ENDMARKER

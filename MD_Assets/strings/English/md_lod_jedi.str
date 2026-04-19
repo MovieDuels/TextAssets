@@ -1,0 +1,175 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           AHSOKA1
+LANG_ENGLISH        "Master?"
+
+REFERENCE           AHSOKA2
+LANG_ENGLISH        "Anakin."
+
+REFERENCE           AHSOKA3
+LANG_ENGLISH        "You look the same."
+
+REFERENCE           AHSOKA4
+LANG_ENGLISH        "Well, that happens."
+
+REFERENCE           AHSOKA5
+LANG_ENGLISH        "Actually what happened?"
+
+REFERENCE           AHSOKA6
+LANG_ENGLISH        "I don't remember."
+
+REFERENCE           AHSOKA7
+LANG_ENGLISH        "Baylan Skoll."
+
+REFERENCE           AHSOKA8
+LANG_ENGLISH        "Why?"
+
+REFERENCE           AHSOKA9
+LANG_ENGLISH        "Chance?"
+
+REFERENCE           AHSOKA10
+LANG_ENGLISH        "Tell me what's going on."
+
+REFERENCE           AHSOKA11
+LANG_ENGLISH        "It's a little late for that."
+
+REFERENCE           AHSOKA12
+LANG_ENGLISH        "All right. What's the lesson, Master?"
+
+REFERENCE           AHSOKA13
+LANG_ENGLISH        "I won't fight you."
+
+REFERENCE           AHSOKA14
+LANG_ENGLISH        "Looks like you don't have that much to offer."
+
+REFERENCE           AHSOKA15
+LANG_ENGLISH        "[ Groaning ]"
+
+REFERENCE           AHSOKA16
+LANG_ENGLISH        "I choose to live!"
+
+REFERENCE           AHSOKA17
+LANG_ENGLISH        "This was the Siege of Mandalore. We've parted ways by now."
+
+REFERENCE           AHSOKA18
+LANG_ENGLISH        "It was."
+
+REFERENCE           AHSOKA19
+LANG_ENGLISH        "Is that all?"
+
+REFERENCE           AHSOKA20
+LANG_ENGLISH        "But my part of that legacy is death and war."
+
+REFERENCE           AHSOKA21
+LANG_ENGLISH        "You are more Anakin.. but more powerful and dangerous than anyone realised."
+
+REFERENCE           AHSOKA22
+LANG_ENGLISH        "If I'm everything you are.."
+
+REFERENCE           AHSOKA23
+LANG_ENGLISH        "Don't say that!"
+
+REFERENCE           AHSOKA24
+LANG_ENGLISH        "No!"
+
+REFERENCE           AHSOKA25
+LANG_ENGLISH        "[ Groaning ]"
+
+REFERENCE           ANAKIN1
+LANG_ENGLISH        "Hello, Snips."
+
+REFERENCE           ANAKIN2
+LANG_ENGLISH        "I didn't expect to see you so soon."
+
+REFERENCE           ANAKIN3
+LANG_ENGLISH        "You look old."
+
+REFERENCE           ANAKIN4
+LANG_ENGLISH        "You lost a fight!"
+
+REFERENCE           ANAKIN5
+LANG_ENGLISH        "Trust me.. you lost."
+
+REFERENCE           ANAKIN6
+LANG_ENGLISH        "So you do remember."
+
+REFERENCE           ANAKIN7
+LANG_ENGLISH        "That's good."
+
+REFERENCE           ANAKIN8
+LANG_ENGLISH        "It means you still have a chance."
+
+REFERENCE           ANAKIN9
+LANG_ENGLISH        "To live.."
+
+REFERENCE           ANAKIN10
+LANG_ENGLISH        "I'm here to finish your training."
+
+REFERENCE           ANAKIN11
+LANG_ENGLISH        "One is never too old to learn, Snips."
+
+REFERENCE           ANAKIN12
+LANG_ENGLISH        "Live.. or die!"
+
+REFERENCE           ANAKIN13
+LANG_ENGLISH        "I've heard that before."
+
+REFERENCE           ANAKIN14
+LANG_ENGLISH        "I haven't thaught you everything yet!"
+
+REFERENCE           ANAKIN15
+LANG_ENGLISH        "You lack conviction!"
+
+REFERENCE           ANAKIN16
+LANG_ENGLISH        "Time to die!"
+
+REFERENCE           ANAKIN17
+LANG_ENGLISH        "There's hope for you yet."
+
+REFERENCE           ANAKIN18
+LANG_ENGLISH        "I don't know this battle."
+
+REFERENCE           ANAKIN19
+LANG_ENGLISH        "Looks intense."
+
+REFERENCE           ANAKIN20
+LANG_ENGLISH        "You did well."
+
+REFERENCE           ANAKIN21
+LANG_ENGLISH        "You're a warrior now, as I trained you to be."
+
+REFERENCE           ANAKIN22
+LANG_ENGLISH        "Ahsoka, within you will be everything I am. All the knowledge I possess. Just as I inherited knowledge from my master and he from his. You're part of a legacy."
+
+REFERENCE           ANAKIN23
+LANG_ENGLISH        "But you're more than that, cause I'm more than that."
+
+REFERENCE           ANAKIN24
+LANG_ENGLISH        "Is that what this is about?"
+
+REFERENCE           ANAKIN25
+LANG_ENGLISH        "You've learned nothing!"
+
+REFERENCE           ANAKIN26
+LANG_ENGLISH        "Back to the beginning."
+
+REFERENCE           ANAKIN27
+LANG_ENGLISH        "I gave you a choice.. Live.. or die!"
+
+REFERENCE           ANAKIN28
+LANG_ENGLISH        "Incorrect."
+
+ENDMARKER

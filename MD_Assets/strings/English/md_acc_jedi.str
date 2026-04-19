@@ -1,0 +1,46 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           FINN1
+LANG_ENGLISH        "The Falcon's this way."
+
+REFERENCE           FINN2
+LANG_ENGLISH        "Rey! Rey! Rey... Rey... Oh no. Oh no no no..."
+
+REFERENCE           FINN3
+LANG_ENGLISH        "Come get it."
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "We're not done yet."
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "It's just us now. Han Solo can't save you."
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "TRAITOR!"
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "That lightsaber. It belongs to me!"
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "You need a teacher! I can show you the ways of the Force!"
+
+REFERENCE           REY1
+LANG_ENGLISH        "You're a monster!"
+
+REFERENCE           REY2
+LANG_ENGLISH        "The Force."
+
+ENDMARKER

@@ -1,0 +1,44 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+ 
+REFERENCE           OBI1_EPILOGUE
+LANG_ENGLISH        "Qui-Gon believed in him."
+
+REFERENCE           OBI2_EPILOGUE
+LANG_ENGLISH        "Master Yoda, I gave Qui-Gon my word. I will train Anakin."
+
+REFERENCE           OBI3_EPILOGUE
+LANG_ENGLISH        "Without the approval of the Council if I must."
+
+REFERENCE           YOD1_EPILOGUE
+LANG_ENGLISH        "Confer on you, the level of Jedi Knight the Council does.\nBut agree with your taking this boy as your Padawan learner, I do not."
+
+REFERENCE           YOD2_EPILOGUE
+LANG_ENGLISH        "The Chosen One the boy may be.\nNevertheless, grave danger I fear in his training."
+
+REFERENCE           YOD3_EPILOGUE
+LANG_ENGLISH        "( Grunting )"
+
+REFERENCE           YOD4_EPILOGUE
+LANG_ENGLISH        "Qui-Gon's defiance I sense in you, need that you do not."
+
+REFERENCE           YOD5_EPILOGUE
+LANG_ENGLISH        "Agree with you the Council does."
+
+REFERENCE           YOD6_EPILOGUE
+LANG_ENGLISH        "Your apprentice, Skywalker will be."
+
+ENDMARKER

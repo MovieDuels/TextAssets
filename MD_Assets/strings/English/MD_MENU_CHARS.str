@@ -1,0 +1,1752 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+//----------------------------------------------------------
+// 		CHARACTERS/NPCS MENUS
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	PREQUELS 1
+//----------------------------------------------------------
+
+REFERENCE           YODA
+LANG_ENGLISH        "Master Yoda"
+
+REFERENCE           YODA_EP2
+LANG_ENGLISH        "Yoda [Episode I-II]"
+
+REFERENCE           YODA_EP3
+LANG_ENGLISH        "Yoda [Episode III]"
+
+REFERENCE           YODA_HR
+LANG_ENGLISH        "Yoda [High Republic]"
+
+REFERENCE           YODA_CW
+LANG_ENGLISH        "Yoda [Clone Wars]"
+
+REFERENCE           YODA_GHOST
+LANG_ENGLISH        "Yoda [Force Ghost]"
+
+REFERENCE           MACE
+LANG_ENGLISH        "Mace Windu"
+
+REFERENCE           MACE_ROBE
+LANG_ENGLISH        "Mace Windu [Robed]"
+
+REFERENCE           MACE_HOOD
+LANG_ENGLISH        "Mace Windu [Hooded]"
+
+REFERENCE           MACE_GHOST
+LANG_ENGLISH        "Mace Windu [Force Ghost]"
+
+REFERENCE           OBI
+LANG_ENGLISH        "Obi-Wan Kenobi"
+
+REFERENCE           OBI_EP1
+LANG_ENGLISH        "Obi-Wan [Episode I]"
+
+REFERENCE           OBI_EP1_ROBE
+LANG_ENGLISH        "Obi-Wan [Episode I - Robed]"
+
+REFERENCE           OBI_EP1_HOOD
+LANG_ENGLISH        "Obi-Wan [Episode I - Hooded]"
+
+REFERENCE           OBI_EP2
+LANG_ENGLISH        "Obi-Wan [Episode II]"
+
+REFERENCE           OBI_EP2_ROBE
+LANG_ENGLISH        "Obi-Wan [Episode II - Robed]"
+
+REFERENCE           OBI_EP2_HOOD
+LANG_ENGLISH        "Obi-Wan [Episode II - Hooded]"
+
+REFERENCE           OBI_EP3
+LANG_ENGLISH        "Obi-Wan [Episode III]"
+
+REFERENCE           OBI_EP3_ROBE
+LANG_ENGLISH        "Obi-Wan [Episode III - Robed]"
+
+REFERENCE           OBI_EP3_HOOD
+LANG_ENGLISH        "Obi-Wan [Episode III - Hooded]"
+
+REFERENCE           OBI_EP3_MUS
+LANG_ENGLISH        "Obi-Wan [Episode III - Mustafar Worn]"
+
+REFERENCE           ANAKIN
+LANG_ENGLISH        "Anakin Skywalker"
+
+REFERENCE           ANAKIN_EP2
+LANG_ENGLISH        "Anakin [Episode II]"
+
+REFERENCE           ANAKIN_EP2_ROBE
+LANG_ENGLISH        "Anakin [Episode II - Robed]"
+
+REFERENCE           ANAKIN_EP2_DUAL
+LANG_ENGLISH        "Anakin [Episode II - Dual Lightsabers]"
+
+REFERENCE           ANAKIN_EP3
+LANG_ENGLISH        "Anakin [Episode III]"
+
+REFERENCE           ANAKIN_EP3_ROBE
+LANG_ENGLISH        "Anakin [Episode III - Robed]"
+
+REFERENCE           ANAKIN_EP3_HOOD
+LANG_ENGLISH        "Anakin [Episode III - Hooded]"
+
+REFERENCE           QUI
+LANG_ENGLISH        "Qui-Gon Jinn"
+
+REFERENCE           QUI_ROBE
+LANG_ENGLISH        "Qui-Gon [Robed]"
+
+REFERENCE           QUI_PONCHO
+LANG_ENGLISH        "Qui-Gon [Poncho]"
+
+REFERENCE           QUI_GHOST
+LANG_ENGLISH        "Qui-Gon [Force Ghost]"
+
+REFERENCE           KIT
+LANG_ENGLISH        "Kit Fisto"
+
+REFERENCE           KIT_ROBE
+LANG_ENGLISH        "Kit Fisto [Robed]"
+
+REFERENCE           CIN
+LANG_ENGLISH        "Cin Drallig"
+
+REFERENCE           CIN_LEGENDS
+LANG_ENGLISH        "Cin Drallig [Legends]"
+
+REFERENCE           SAESEE
+LANG_ENGLISH        "Saesee Tiin"
+
+REFERENCE           SAESEE_ROBE
+LANG_ENGLISH        "Saesee Tiin [Robed]"
+
+REFERENCE           KI
+LANG_ENGLISH        "Ki-Adi Mundi"
+
+REFERENCE           DEPA
+LANG_ENGLISH        "Depa Billaba"
+
+REFERENCE           AAYLA
+LANG_ENGLISH        "Aayla Secura"
+
+REFERENCE           LUMINARA
+LANG_ENGLISH        "Luminara Unduli"
+
+REFERENCE           PLO
+LANG_ENGLISH        "Plo Koon"
+
+REFERENCE           PLO_JPB
+LANG_ENGLISH        "Plo Koon [Jedi Power Battles]"
+
+REFERENCE           SHAAK
+LANG_ENGLISH        "Shaak Ti"
+
+REFERENCE           ADI
+LANG_ENGLISH        "Adi Gallia"
+
+REFERENCE           YARAEL
+LANG_ENGLISH        "Yarael Poof"
+
+REFERENCE           YADDLE
+LANG_ENGLISH        "Yaddle"
+
+REFERENCE           COLEMAN
+LANG_ENGLISH        "Coleman Trebor"
+
+//----------------------------------------------------------
+// 	PREQUELS 2
+//----------------------------------------------------------
+
+REFERENCE           JOCASTA
+LANG_ENGLISH        "Jocasta Nu"
+
+REFERENCE           BULTAR
+LANG_ENGLISH        "Bultar Swan"
+
+REFERENCE           BULTAR_ROBE
+LANG_ENGLISH        "Bultar Swan [Robed]"
+
+REFERENCE           AGEN
+LANG_ENGLISH        "Agen Kolar"
+
+REFERENCE           AGEN_ROBE
+LANG_ENGLISH        "Agen Kolar [Robed]"
+
+REFERENCE           BARRISS
+LANG_ENGLISH        "Barriss Offee"
+
+REFERENCE           BARRISS_ROBE
+LANG_ENGLISH        "Barriss Offee [Robed]"
+
+REFERENCE           PABLO
+LANG_ENGLISH        "Pablo Jill"
+
+REFERENCE           SORA
+LANG_ENGLISH        "Sora Bulq"
+
+REFERENCE           SERRA
+LANG_ENGLISH        "Serra Keto"
+
+REFERENCE           STASS_ALLIE
+LANG_ENGLISH        "Stass Allie"
+
+REFERENCE           STASS_ALLIE_ROBE
+LANG_ENGLISH        "Stass Allie [Robed]"
+
+REFERENCE           TARADOS
+LANG_ENGLISH        "Tarados Gon"
+
+REFERENCE           JEDI_PREQ
+LANG_ENGLISH        "Jedi Order [Prequel Era]"
+
+REFERENCE           MAKIS
+LANG_ENGLISH        "Ma'kis'shaalas"
+
+REFERENCE           MAKIS_ROBE
+LANG_ENGLISH        "Ma'kis'shaalas [Robed]"
+
+REFERENCE           SARISSA_JENG
+LANG_ENGLISH        "Sarissa Jeng"
+
+REFERENCE           KOFFI_ARANA
+LANG_ENGLISH        "Koffi Arana"
+
+REFERENCE           JOOPI_SHE
+LANG_ENGLISH        "J'oopi She"
+
+REFERENCE           MICAH_GIIETT
+LANG_ENGLISH        "Micah Giiett"
+
+REFERENCE           TSUI_CHOI
+LANG_ENGLISH        "Tsui Choi"
+
+REFERENCE           REDATH_GOM
+LANG_ENGLISH        "Que-Mars Redath-Gom"
+
+REFERENCE           ZETT_JUKASSA
+LANG_ENGLISH        "Zett Jukassa"
+
+REFERENCE           SIRCH
+LANG_ENGLISH        "Fi-Ek Sirch"
+
+REFERENCE           KELLERAN
+LANG_ENGLISH        "Kelleran Beq"
+
+REFERENCE           KELLERAN_DUAL
+LANG_ENGLISH        "Kelleran Beq [Dual Lightsabers]"
+
+REFERENCE           JEDI
+LANG_ENGLISH        "Jedi [Episodes I-III]"
+
+REFERENCE           JEDI_PADAWAN
+LANG_ENGLISH        "Jedi Padawan"
+
+REFERENCE           JEDI_KNIGHT
+LANG_ENGLISH        "Jedi Knight"
+
+REFERENCE           JEDI_KNIGHT_DUAL
+LANG_ENGLISH        "Jedi Knight [Dual Lightsabers]"
+
+REFERENCE           JEDI_VETERAN
+LANG_ENGLISH        "Jedi Veteran"
+
+REFERENCE           JEDI_MASTER
+LANG_ENGLISH        "Jedi Master"
+
+REFERENCE           JEDI_BRUTE
+LANG_ENGLISH        "Jedi Brute"
+
+REFERENCE           YOUNGLINGS
+LANG_ENGLISH        "Younglings"
+
+REFERENCE           YOUNGLING
+LANG_ENGLISH        "Youngling"
+
+REFERENCE           FOUL
+LANG_ENGLISH        "Foul Moudama"
+
+REFERENCE           PADME
+LANG_ENGLISH        "Padme Amidala"
+
+REFERENCE           PADME_QUEEN
+LANG_ENGLISH        "Queen Amidala"
+
+REFERENCE           PADME_GEONOSIS
+LANG_ENGLISH        "Padme [Geonosis]"
+
+REFERENCE           PADME_PREGNANT
+LANG_ENGLISH        "Padme [Pregnant]"
+
+REFERENCE           JARJAR
+LANG_ENGLISH        "Jar Jar Binks"
+
+REFERENCE           GUNGAN
+LANG_ENGLISH        "Gungan Warrior"
+
+REFERENCE           CLONE_COMMANDERS
+LANG_ENGLISH        "Clone Commanders"
+
+REFERENCE           CODY
+LANG_ENGLISH        "Commander Cody"
+
+REFERENCE           REX
+LANG_ENGLISH        "Captain Rex"
+
+REFERENCE           FOX
+LANG_ENGLISH        "Commander Fox"
+
+REFERENCE           FIVES
+LANG_ENGLISH        "Fives"
+
+REFERENCE           NEYO
+LANG_ENGLISH        "Commander Neyo"
+
+REFERENCE           VAUGHN
+LANG_ENGLISH        "Commander Vaughn"
+
+REFERENCE           CLONES
+LANG_ENGLISH        "Clone Troopers"
+
+REFERENCE           CLONE_EP2
+LANG_ENGLISH        "Clone Trooper [Phase 1]"
+
+REFERENCE           CLONE_212
+LANG_ENGLISH        "Clone Trooper [212th Battalion]"
+
+REFERENCE           CLONE_PARA_212
+LANG_ENGLISH        "Clone Paratrooper [212th Battalion]"
+
+REFERENCE           CLONE_13
+LANG_ENGLISH        "Clone Trooper [13th Battalion]"
+
+REFERENCE           CLONE_SNIPER
+LANG_ENGLISH        "Clone Sharpshooter"
+
+REFERENCE           CLONE_501
+LANG_ENGLISH        "Clone Trooper [501st Legion]"
+
+REFERENCE           CLONE_COMMANDER_501
+LANG_ENGLISH        "Clone Commander [501st Legion]"
+
+REFERENCE           CLONE_SHOCK
+LANG_ENGLISH        "Clone Shock Trooper"
+
+REFERENCE           DEVISS
+LANG_ENGLISH        "Commander Deviss"
+
+REFERENCE           CLONE_HEAVY
+LANG_ENGLISH        "Clone Heavy Trooper"
+
+REFERENCE           CLONE_332
+LANG_ENGLISH        "Clone Trooper [332nd Company]"
+
+REFERENCE           CLONE_327
+LANG_ENGLISH        "Clone Trooper [327th Star Corps]"
+
+REFERENCE           CLONE_SHADOW
+LANG_ENGLISH        "Clone Shadow Trooper"
+
+REFERENCE           CLONE_MARINE
+LANG_ENGLISH        "Galactic Marine [21st Nova Corps]"
+
+REFERENCE           TI
+LANG_ENGLISH        "Ti'Ori"
+
+REFERENCE           CLONE_CRC
+LANG_ENGLISH        "Clone Republic Commandos"
+
+REFERENCE           CLONE_RC
+LANG_ENGLISH        "Republic Commando"
+
+REFERENCE           CLONE_RC2
+LANG_ENGLISH        "Republic Commando [Night Ops Armor]"
+
+REFERENCE           CLONE_BOSS
+LANG_ENGLISH        "Boss"
+
+REFERENCE           CLONE_FIXER
+LANG_ENGLISH        "Fixer"
+
+REFERENCE           CLONE_SCORCH
+LANG_ENGLISH        "Scorch"
+
+REFERENCE           CLONE_SEV
+LANG_ENGLISH        "Sev"
+
+REFERENCE           CLONE_GREGOR
+LANG_ENGLISH        "Gregor"
+
+//----------------------------------------------------------
+// 	h1: PREQUELS 3
+//----------------------------------------------------------
+
+REFERENCE           SIDIOUS
+LANG_ENGLISH        "Darth Sidious"
+
+REFERENCE           SHEEV
+LANG_ENGLISH        "Sheev Palpatine"
+
+REFERENCE           SIDIOUS_EP1
+LANG_ENGLISH        "Darth Sidious [EPI - EPII]"
+
+REFERENCE           SIDIOUS_EP3
+LANG_ENGLISH        "Darth Sidious [Episode III]"
+
+REFERENCE           SIDIOUS_SENATE
+LANG_ENGLISH        "Darth Sidious [Emperor]"
+
+REFERENCE           SIDIOUS_EP3_ROBED
+LANG_ENGLISH        "Darth Sidious [Episode III - Robed]"
+
+REFERENCE           VADER_LORD
+LANG_ENGLISH        "Lord Vader"
+
+REFERENCE           VADER_LORD_MUS
+LANG_ENGLISH        "Lord Vader [Mustafar]"
+
+REFERENCE           DOOKU
+LANG_ENGLISH        "Count Dooku"
+
+REFERENCE           MAUL
+LANG_ENGLISH        "Darth Maul"
+
+REFERENCE           MAUL_ROBE
+LANG_ENGLISH        "Darth Maul [Robed]"
+
+REFERENCE           MAUL_HOOD
+LANG_ENGLISH        "Darth Maul [Hooded]"
+
+REFERENCE           MAUL_WARRIOR
+LANG_ENGLISH        "Darth Maul [Warrior]"
+
+REFERENCE           GRIEVOUS
+LANG_ENGLISH        "General Grievous"
+
+REFERENCE           GRIEVOUS_ARMS
+LANG_ENGLISH        "General Grievous [Four Arms]"
+
+REFERENCE           GRIEVOUS_CAPE
+LANG_ENGLISH        "General Grievous [Robed]"
+
+REFERENCE           MAGNA
+LANG_ENGLISH        "Magnaguard"
+
+REFERENCE           JANGO
+LANG_ENGLISH        "Jango Fett"
+
+REFERENCE           JANGO_GEONOSIS
+LANG_ENGLISH        "Jango Fett [Geonosis]"
+
+REFERENCE           JANGO_DUAL
+LANG_ENGLISH        "Jango Fett [Dual Pistols]"
+
+REFERENCE           CLONE_ASSASSIN
+LANG_ENGLISH        "Clone Assassin"
+
+REFERENCE           TUSKENS
+LANG_ENGLISH        "Tusken Raiders"
+
+REFERENCE           TUSKEN
+LANG_ENGLISH        "Tusken Raider"
+
+REFERENCE           TUSKEN_SNIPER
+LANG_ENGLISH        "Tusken Sniper"
+
+REFERENCE           TUSKEN_CHIEFTAIN
+LANG_ENGLISH        "Tusken Chieftain"
+
+REFERENCE           NEIMOIDIAN_GUARDS
+LANG_ENGLISH        "Neimoidian Guards"
+
+REFERENCE           NEIMOIDIAN_GUARD
+LANG_ENGLISH        "Neimoidian Guard"
+
+REFERENCE           NEIMOIDIAN_BRUTE
+LANG_ENGLISH        "Neimoidian Brute"
+
+REFERENCE           NUTE
+LANG_ENGLISH        "Nute Gunray"
+
+REFERENCE           SHU
+LANG_ENGLISH        "Shu Mai"
+
+REFERENCE           WAT
+LANG_ENGLISH        "Wat Tambor"
+
+REFERENCE           BDS
+LANG_ENGLISH        "B1 Battle Droids"
+
+REFERENCE           BD
+LANG_ENGLISH        "B1 Battle Droid"
+
+REFERENCE           BD_SECURITY
+LANG_ENGLISH        "B1 Battle Droid [Security]"
+
+REFERENCE           BD_PILOT
+LANG_ENGLISH        "B1 Battle Droid [Pilot]"
+
+REFERENCE           BD_COMMANDER
+LANG_ENGLISH        "B1 Battle Droid [Commander]"
+
+REFERENCE           BD_SNIPER
+LANG_ENGLISH        "B1 Battle Droid [Sniper]"
+
+REFERENCE           BD_GEONOSIS
+LANG_ENGLISH        "B1 Battle Droid [Geonosis]"
+
+REFERENCE           SBD
+LANG_ENGLISH        "B2 Super Battle Droid"
+
+REFERENCE           DEKA
+LANG_ENGLISH        "Droideka"
+
+//----------------------------------------------------------
+// 	CLONE WARS 1
+//----------------------------------------------------------
+
+REFERENCE           OBI_GENERAL
+LANG_ENGLISH        "Obi-Wan Kenobi [TCW - General]"
+
+REFERENCE           OBI_CW
+LANG_ENGLISH        "Obi-Wan Kenobi [CW - General]"
+
+REFERENCE           ANAKIN_GENERAL
+LANG_ENGLISH        "Anakin Skywalker [TCW - General]"
+
+REFERENCE           ANAKIN_CW
+LANG_ENGLISH        "Anakin Skywalker [CW - General]"
+
+REFERENCE           ANAKIN_CW_NELVAAN
+LANG_ENGLISH        "Anakin Skywalker [CW - Nelvaan Trials]"
+
+REFERENCE           AHSOKA
+LANG_ENGLISH        "Ahsoka Tano"
+
+REFERENCE           AHSOKA_ADVISOR
+LANG_ENGLISH        "Ahsoka Tano [Mandalore]"
+
+REFERENCE           PLO_GENERAL
+LANG_ENGLISH        "Plo Koon [General]"
+
+REFERENCE           MACE_GENERAL
+LANG_ENGLISH        "Mace Windu [TCW - General]"
+
+REFERENCE           MACE_CW
+LANG_ENGLISH        "Mace Windu [CW - General]"
+
+REFERENCE           MACE_TOTJ
+LANG_ENGLISH        "Mace Windu [Tales of the Jedi]"
+
+REFERENCE           KIT_GENERAL
+LANG_ENGLISH        "Kit Fisto [General]"
+
+REFERENCE           KIT_NOSHIRT
+LANG_ENGLISH        "Kit Fisto [Shirtless]"
+
+REFERENCE           ADI_GENERAL
+LANG_ENGLISH        "Adi Gallia [General]"
+
+REFERENCE           EETH_GENERAL
+LANG_ENGLISH        "Eeth Koth [General]"
+
+REFERENCE           EVEN
+LANG_ENGLISH        "Even Piell"
+
+REFERENCE           QUINLAN
+LANG_ENGLISH        "Quinlan Vos"
+
+REFERENCE           CIN_TCW
+LANG_ENGLISH        "Cin Drallig [TCW]"
+
+REFERENCE           PONG
+LANG_ENGLISH        "Pong Krell"
+
+REFERENCE           TIPLEE
+LANG_ENGLISH        "Tiplee"
+
+REFERENCE           TIPLAR
+LANG_ENGLISH        "Tiplar"
+
+REFERENCE           JT_GUARDS
+LANG_ENGLISH        "Jedi Temple Guards"
+
+REFERENCE           JT_GUARD
+LANG_ENGLISH        "Jedi Temple Guard"
+
+REFERENCE           SHAKKRA
+LANG_ENGLISH        "Shakkra Kien"
+
+REFERENCE           SATINE
+LANG_ENGLISH        "Satine Kryze"
+
+REFERENCE           DEPA_TCW
+LANG_ENGLISH        "Depa Billaba [TCW]"
+
+REFERENCE           DEPA_TCW_ROBE
+LANG_ENGLISH        "Depa Billaba [TCW - Robed]"
+
+REFERENCE           DEPA_TCW_HOOD
+LANG_ENGLISH        "Depa Billaba [TCW - Hooded]"
+
+REFERENCE           JEDI_TCW
+LANG_ENGLISH        "Jedi Order [TCW Era]"
+
+REFERENCE           TERA_SINUBE
+LANG_ENGLISH        "Tera Sinube"
+
+REFERENCE           THONGLA_JUR
+LANG_ENGLISH        "Thongla Jur"
+
+REFERENCE           OPPO_RANCISIS
+LANG_ENGLISH        "Oppo Rancisis"
+
+REFERENCE           HALSEY
+LANG_ENGLISH        "Halsey"
+
+REFERENCE           KNOX
+LANG_ENGLISH        "Knox"
+
+REFERENCE           BOLLA_ROPAL
+LANG_ENGLISH        "Bolla Ropal"
+
+REFERENCE           IMA_GUN_DI
+LANG_ENGLISH        "Ima-Gun Di"
+
+REFERENCE           NAHDAR_VEBB
+LANG_ENGLISH        "Nahdar Vebb"
+
+REFERENCE           NAHDAR_VEBB_ROBE
+LANG_ENGLISH        "Nahdar Vebb [Robed]"
+
+REFERENCE           EEKAR_OKI
+LANG_ENGLISH        "Eekar Oki"
+
+//----------------------------------------------------------
+// 	CLONE WARS 2
+//----------------------------------------------------------
+
+REFERENCE           SIDIOUS_TCW
+LANG_ENGLISH        "Darth Sidious [TCW]"
+
+REFERENCE           DOOKU_TCW
+LANG_ENGLISH        "Count Dooku [TCW]"
+
+REFERENCE           DOOKU_TCW_ROBE
+LANG_ENGLISH        "Dooku [TCW - Robed]"
+
+REFERENCE           DOOKU_TOTJ
+LANG_ENGLISH        "Dooku [Tales of the Jedi]"
+
+REFERENCE           MAUL_TCW
+LANG_ENGLISH        "Darth Maul [TCW]"
+
+REFERENCE           MAUL_TCW_LEGS
+LANG_ENGLISH        "Maul [TCW - Reborn]"
+
+REFERENCE           MAUL_TCW_DARK
+LANG_ENGLISH        "Maul [TCW - Darksaber]"
+
+REFERENCE           MAUL_TCW_STAFF
+LANG_ENGLISH        "Maul [TCW - Staff]"
+
+REFERENCE           SAVAGE
+LANG_ENGLISH        "Savage Opress"
+
+REFERENCE           ASAJJ
+LANG_ENGLISH        "Asajj Ventress"
+
+REFERENCE           ASAJJ_STAFF
+LANG_ENGLISH        "Asajj Ventress [Staff]"
+
+REFERENCE           ASAJJ_NIGHT
+LANG_ENGLISH        "Asajj [Nightsister]"
+
+REFERENCE           ASAJJ_BH
+LANG_ENGLISH        "Asajj [Bounty Hunter]"
+
+REFERENCE           ASAJJ_DISGUISE
+LANG_ENGLISH        "Asajj [Disguised]"
+
+REFERENCE           TALZIN
+LANG_ENGLISH        "Mother Talzin"
+
+REFERENCE           MAGNA_TCW
+LANG_ENGLISH        "Magnaguard TCW [Dooku's Bodyguard]"
+
+REFERENCE           HONDO
+LANG_ENGLISH        "Hondo Ohnaka"
+
+REFERENCE           CAD
+LANG_ENGLISH        "Cad Bane"
+
+REFERENCE           EMBO
+LANG_ENGLISH        "Embo"
+
+REFERENCE           DURGE
+LANG_ENGLISH        "Durge"
+
+REFERENCE           DURGE_JET
+LANG_ENGLISH        "Durge [Jetpack]"
+
+//----------------------------------------------------------
+// 	ORIGINAL TRILOGY 1
+//----------------------------------------------------------
+
+REFERENCE           BEN
+LANG_ENGLISH        "Ben Kenobi"
+
+REFERENCE           BEN_ROBE
+LANG_ENGLISH        "Ben [Robed]"
+
+REFERENCE           BEN_HOOD
+LANG_ENGLISH        "Ben [Hooded]"
+
+REFERENCE           OBI_EXILE
+LANG_ENGLISH        "Obi-Wan [Exiled]"
+
+REFERENCE           BEN_GHOST
+LANG_ENGLISH        "Ben [Force Ghost]"
+
+REFERENCE           KENOBI
+LANG_ENGLISH        "Obi-Wan [Jabiim]"
+
+REFERENCE           KENOBI_ROBE
+LANG_ENGLISH        "Obi-Wan [Jabiim - Robed]"
+
+REFERENCE           KENOBI_PREANH
+LANG_ENGLISH        "Obi-Wan [Pre-ANH]"
+
+REFERENCE           KENOBI_PREANH_DESERT
+LANG_ENGLISH        "Obi-Wan [Pre-ANH - Desert]"
+
+REFERENCE           LUKE
+LANG_ENGLISH        "Luke Skywalker"
+
+REFERENCE           LUKE_ANH
+LANG_ENGLISH        "Luke Skywalker [A New Hope]"
+
+REFERENCE           LUKE_FARM
+LANG_ENGLISH        "Luke [Farm Boy]"
+
+REFERENCE           LUKE_YAVIN
+LANG_ENGLISH        "Luke [Yavin Ceremony]"
+
+REFERENCE           LUKE_ESB
+LANG_ENGLISH        "Luke Skywalker [The Empire Strikes Back]"
+
+REFERENCE           LUKE_HOTH
+LANG_ENGLISH        "Luke [Hoth]"
+
+REFERENCE           LUKE_PILOT
+LANG_ENGLISH        "Luke [Pilot]"
+
+REFERENCE           LUKE_DAGO
+LANG_ENGLISH        "Luke [Dagobah]"
+
+REFERENCE           LUKE_DAGO_BACKPACK
+LANG_ENGLISH        "Luke [Dagobah - Yoda In Backpack]"
+
+REFERENCE           LUKE_BESPIN
+LANG_ENGLISH        "Luke [Bespin]"
+
+REFERENCE           LUKE_ROTJ
+LANG_ENGLISH        "Luke Skywalker [Return of the Jedi]"
+
+REFERENCE           LUKE_ROTJ_HOOD
+LANG_ENGLISH        "Luke [Jedi - Hooded]"
+
+REFERENCE           LUKE_ROTJ_ROBE
+LANG_ENGLISH        "Luke [Jedi - Robed]"
+
+REFERENCE           LUKE_ROTJ_TUNIC
+LANG_ENGLISH        "Luke [Jedi - Tunic]"
+
+REFERENCE           LUKE_ENDOR
+LANG_ENGLISH        "Luke [Endor Camouflage]"
+
+REFERENCE           LUKE_ENDOR2
+LANG_ENGLISH        "Luke [Endor Camo, Helmetless]"
+
+REFERENCE           LUKE_JEDI
+LANG_ENGLISH        "Luke [Jedi Knight]"
+
+REFERENCE           LUKE_JEDI_FLAP
+LANG_ENGLISH        "Luke [Jedi - Exposed Flap]"
+
+REFERENCE           LEIA
+LANG_ENGLISH        "Leia Organa"
+
+REFERENCE           LEIA_PRINCESS
+LANG_ENGLISH        "Princess Leia"
+
+REFERENCE           LEIA_HOTH
+LANG_ENGLISH        "Leia [Hoth]"
+
+REFERENCE           LEIA_BESPIN
+LANG_ENGLISH        "Leia [Bespin]"
+
+REFERENCE           LEIA_SLAVE
+LANG_ENGLISH        "Leia [Jabba's Slave]"
+
+REFERENCE           LEIA_ENDOR
+LANG_ENGLISH        "Leia [Endor]"
+
+REFERENCE           LEIA_PONCHO
+LANG_ENGLISH        "Leia [Endor - Poncho]"
+
+REFERENCE           HAN
+LANG_ENGLISH        "Han Solo"
+
+REFERENCE           HAN_ESB
+LANG_ENGLISH        "Han [Empire Strikes Back]"
+
+REFERENCE           HAN_ROTJ
+LANG_ENGLISH        "Han [Return of the Jedi]"
+
+REFERENCE           HAN_YOUNG
+LANG_ENGLISH        "Han [Young]"
+
+REFERENCE           CHEWIE
+LANG_ENGLISH        "Chewbacca"
+
+REFERENCE           CHEWIE_BESPIN
+LANG_ENGLISH        "Chewbacca [Bespin]"
+
+REFERENCE           DROIDS
+LANG_ENGLISH        "Droids"
+
+REFERENCE           R2D2
+LANG_ENGLISH        "R2-D2"
+
+REFERENCE           C3PO
+LANG_ENGLISH        "C-3PO"
+
+REFERENCE           GONK
+LANG_ENGLISH        "GNK Droid"
+
+REFERENCE           LANDO
+LANG_ENGLISH        "Lando Calrissian"
+
+REFERENCE           LANDO_BESPIN
+LANG_ENGLISH        "Lando [Bespin Administrator]"
+
+REFERENCE           LANDO_GENERAL
+LANG_ENGLISH        "Lando [Alliance General]"
+
+REFERENCE           LANDO_GUARD
+LANG_ENGLISH        "Lando [Jabba's Palace Disguise]"
+
+REFERENCE           NIEN
+LANG_ENGLISH        "Nien Nunb"
+
+REFERENCE           BAIL
+LANG_ENGLISH        "Bail Organa"
+
+REFERENCE           MON
+LANG_ENGLISH        "Mon Mothma"
+
+REFERENCE           MON_YOUNG
+LANG_ENGLISH        "Mon Mothma [Young]"
+
+REFERENCE           ACKBAR
+LANG_ENGLISH        "Admiral Ackbar"
+
+REFERENCE           REBELS
+LANG_ENGLISH        "Rebel Alliance Personnel"
+
+REFERENCE           REBEL
+LANG_ENGLISH        "Rebel Alliance Trooper"
+
+REFERENCE           MILITIA
+LANG_ENGLISH        "Kota's Militia [Saboteur]"
+
+REFERENCE           MILITIA_TROOP
+LANG_ENGLISH        "Kota's Militia [Trooper]"
+
+REFERENCE           REBEL_PILOT
+LANG_ENGLISH        "Rebel Alliance Pilot"
+
+REFERENCE           BESPIN_COP
+LANG_ENGLISH        "Bespin Security"
+
+REFERENCE           ROGUE_ONE
+LANG_ENGLISH        "Rogue One"
+
+REFERENCE           JYN
+LANG_ENGLISH        "Jyn Erso"
+
+REFERENCE           CASSIAN
+LANG_ENGLISH        "Cassian Andor"
+
+REFERENCE           CASSIAN_PARKA
+LANG_ENGLISH        "Cassian [Parka Jacket]"
+
+REFERENCE           CASSIAN_VEST
+LANG_ENGLISH        "Cassian [Protective Vest]"
+
+REFERENCE           CASSIAN_SCARIF
+LANG_ENGLISH        "Cassian [Scarif]"
+
+REFERENCE           BODHI
+LANG_ENGLISH        "Bodhi Rook"
+
+REFERENCE           CHIRRUT
+LANG_ENGLISH        "Chirrut Imwe"
+
+REFERENCE           BAZE
+LANG_ENGLISH        "Baze Malbus"
+
+REFERENCE           K2SO
+LANG_ENGLISH        "K-2SO"
+
+REFERENCE           CAL
+LANG_ENGLISH        "Cal Kestis"
+
+REFERENCE           CAL_PONCHO
+LANG_ENGLISH        "Cal [Poncho]"
+
+REFERENCE           CAL_STAFF
+LANG_ENGLISH        "Cal [Staff]"
+
+REFERENCE           CAL_JEDI
+LANG_ENGLISH        "Cal [Padawan]"
+
+REFERENCE           CAL_SURVIVOR
+LANG_ENGLISH        "Cal [Jedi: Survivor]"
+
+REFERENCE           CAL_INQUISITOR
+LANG_ENGLISH        "Inquisitor Kestis"
+
+REFERENCE           JARO_TAPAL
+LANG_ENGLISH        "Jaro Tapal"
+
+//----------------------------------------------------------
+// 	ORIGINAL TRILOGY 2
+//----------------------------------------------------------
+
+REFERENCE           VADER
+LANG_ENGLISH        "Darth Vader"
+
+REFERENCE           VADER_EP3
+LANG_ENGLISH        "Darth Vader [Episode III]"
+
+REFERENCE           VADER_DAMAGED
+LANG_ENGLISH        "Darth Vader [Battle Damaged]"
+
+REFERENCE           VADER_EP4
+LANG_ENGLISH        "Darth Vader [Episode IV]"
+
+REFERENCE           VADER_EP5
+LANG_ENGLISH        "Darth Vader [Episode V-VI]"
+
+REFERENCE           EMPEROR
+LANG_ENGLISH        "Emperor Palpatine"
+
+REFERENCE           EMPEROR_SABER
+LANG_ENGLISH        "Emperor Palpatine [Lightsaber]"
+
+REFERENCE           IMP_GUARDS
+LANG_ENGLISH        "Imperial Guards"
+
+REFERENCE           ROYAL_GUARD
+LANG_ENGLISH        "Imperial Royal Guard"
+
+REFERENCE           SHADOW_GUARD
+LANG_ENGLISH        "Imperial Shadow Guard"
+
+REFERENCE           ROYAL_GUARD_COMBAT
+LANG_ENGLISH        "Royal Combat Guard"
+
+REFERENCE           TARKIN
+LANG_ENGLISH        "Grand Moff Tarkin"
+
+REFERENCE           BOBA
+LANG_ENGLISH        "Boba Fett"
+
+REFERENCE           BOBA_EP5
+LANG_ENGLISH        "Boba Fett [The Empire Strikes Back]"
+
+REFERENCE           BOBA_EP6
+LANG_ENGLISH        "Boba Fett [Return of the Jedi]"
+
+REFERENCE           IMPERIALS
+LANG_ENGLISH        "Imperial Army"
+
+REFERENCE           STORMTROOP
+LANG_ENGLISH        "Stormtrooper"
+
+REFERENCE           STORM_OFFICER
+LANG_ENGLISH        "Stormtrooper [Officer]"
+
+REFERENCE           SCOUTTROOP
+LANG_ENGLISH        "Scout Trooper"
+
+REFERENCE           SCOUTTROOP_COMMANDER
+LANG_ENGLISH        "Scout Trooper Commander"
+
+REFERENCE           SHOCKTROOP
+LANG_ENGLISH        "Shock Trooper"
+
+REFERENCE           SHOCK_COMMANDER
+LANG_ENGLISH        "Shock Trooper Commander"
+
+REFERENCE           STORM_501
+LANG_ENGLISH        "Stormtrooper [Vader's Fist]"
+
+REFERENCE           STORM_501_OFFICER
+LANG_ENGLISH        "Stormtrooper [Officer - Vader's Fist]"
+
+REFERENCE           SHADOWTROOP
+LANG_ENGLISH        "Shadow Trooper"
+
+REFERENCE           EVOTROOP
+LANG_ENGLISH        "Imperial EVO Trooper"
+
+REFERENCE           EVO_SHADOW
+LANG_ENGLISH        "Shadow EVO Trooper"
+
+REFERENCE           JUMPTROOP
+LANG_ENGLISH        "Imperial Jumptrooper"
+
+REFERENCE           BOSSK
+LANG_ENGLISH        "Bossk"
+
+REFERENCE           GREEDO
+LANG_ENGLISH        "Greedo"
+
+REFERENCE           JABBA_GUARDS
+LANG_ENGLISH        "Jabba's Henchmen"
+
+REFERENCE           GAMORREAN
+LANG_ENGLISH        "Gamorrean Guard"
+
+REFERENCE           VIZAM
+LANG_ENGLISH        "Vizam"
+
+REFERENCE           WEEQUAY_STAFF
+LANG_ENGLISH        "Weequay [Staff]"
+
+REFERENCE           WEEQUAY_AXE
+LANG_ENGLISH        "Weequay [Axe]"
+
+REFERENCE           WEEQUAY_GUNNER
+LANG_ENGLISH        "Weequay [Gunner]"
+
+REFERENCE           KRENNIC
+LANG_ENGLISH        "Director Orson Krennic"
+
+REFERENCE           DEATHTROOP
+LANG_ENGLISH        "Death Trooper"
+
+REFERENCE           DEATH_COMMANDER
+LANG_ENGLISH        "Death Trooper [Commander]"
+
+REFERENCE           SHORETROOP
+LANG_ENGLISH        "Shoretrooper"
+
+REFERENCE           SHORE_ELITE
+LANG_ENGLISH        "Shoretrooper Elite"
+
+REFERENCE           TANKTROOP
+LANG_ENGLISH        "Tank Trooper"
+
+REFERENCE           SECONDSISTER
+LANG_ENGLISH        "Second Sister"
+
+REFERENCE           NINTHSISTER
+LANG_ENGLISH        "Ninth Sister"
+
+REFERENCE           REVA
+LANG_ENGLISH        "Third Sister / Reva Sevander"
+
+REFERENCE           MALICOS
+LANG_ENGLISH        "Taron Malicos"
+
+REFERENCE           PURGETROOP
+LANG_ENGLISH        "Purge Trooper"
+
+REFERENCE           PURGE_COMMANDER
+LANG_ENGLISH        "Purge Trooper [Commander]"
+
+REFERENCE           ATST
+LANG_ENGLISH        "All Terrain Scout Transport [AT-ST]"
+
+//----------------------------------------------------------
+// 	REBELS
+//----------------------------------------------------------
+
+REFERENCE           KANAN
+LANG_ENGLISH        "Kanan Jarrus"
+
+REFERENCE           KANAN_BLIND
+LANG_ENGLISH        "Kanan Jarrus [Blind]"
+
+REFERENCE           CALEB
+LANG_ENGLISH        "Caleb Dume"
+
+REFERENCE           CALEB_ROBE
+LANG_ENGLISH        "Caleb Dume [Robed]"
+
+REFERENCE           CALEB_HOOD
+LANG_ENGLISH        "Caleb Dume [Hooded]"
+
+REFERENCE           EZRA
+LANG_ENGLISH        "Ezra Bridger"
+
+REFERENCE           EZRA_S1
+LANG_ENGLISH        "Ezra Bridger [Seasons 1-2]"
+
+REFERENCE           EZRA_S3
+LANG_ENGLISH        "Ezra Bridger [Seasons 3-4]"
+
+REFERENCE           SABINE
+LANG_ENGLISH        "Sabine Wren"
+
+REFERENCE           HERA
+LANG_ENGLISH        "Hera Syndulla"
+
+REFERENCE           AHSOKA_REBELS
+LANG_ENGLISH        "Ahsoka Tano [Rebels]"
+
+REFERENCE           REX_OLD
+LANG_ENGLISH        "Captain Rex [Old]"
+
+REFERENCE           REX_ENDOR
+LANG_ENGLISH        "Captain Rex [Endor - Old]"
+
+REFERENCE           THRAWN
+LANG_ENGLISH        "Grand Admiral Thrawn"
+
+REFERENCE           GRAND_INQUISITOR
+LANG_ENGLISH        "The Grand Inquisitor"
+
+REFERENCE           SEVENTHSISTER
+LANG_ENGLISH        "The Seventh Sister"
+
+REFERENCE           FIFTHBROTHER
+LANG_ENGLISH        "The Fifth Brother"
+
+REFERENCE           EIGHTHBROTHER
+LANG_ENGLISH        "The Eighth Brother"
+
+REFERENCE           MAUL_REBELS
+LANG_ENGLISH        "Maul [Rebels]"
+
+REFERENCE           MAUL_REBELS_HOOD
+LANG_ENGLISH        "Maul [Hooded]"
+
+REFERENCE           MAUL_REBELS_COWEL
+LANG_ENGLISH        "Maul [Cowel]"
+
+REFERENCE           MAUL_REBELS_SHIRTLESS
+LANG_ENGLISH        "Maul [Coweless]"
+
+REFERENCE           MAUL_REBELS_DESERT
+LANG_ENGLISH        "Maul [Tatooine]"
+
+REFERENCE           MAUL_REBELS_TWINSUNS
+LANG_ENGLISH        "Maul [Twin Suns Duel]"
+
+//----------------------------------------------------------
+// 	SEQUELS 1
+//----------------------------------------------------------
+
+REFERENCE           DIN
+LANG_ENGLISH        "Din Djarin"
+
+REFERENCE           DIN_S3
+LANG_ENGLISH        "Din Djarin [Jetpack]"
+
+REFERENCE           GROGU
+LANG_ENGLISH        "Grogu"
+
+REFERENCE           GREEF
+LANG_ENGLISH        "Greef Karga"
+
+REFERENCE           CARA
+LANG_ENGLISH        "Cara Dune"
+
+REFERENCE           KUIIL
+LANG_ENGLISH        "Kuiil"
+
+REFERENCE           NRP
+LANG_ENGLISH        "New Republic Personnel"
+
+REFERENCE           NRS
+LANG_ENGLISH        "New Republic Soldier"
+
+REFERENCE           NRSD
+LANG_ENGLISH        "New Republic Security Droid"
+
+REFERENCE           AHSOKA_TM
+LANG_ENGLISH        "Ahsoka Tano [The Mandalorian]"
+
+REFERENCE           LUKE_TM
+LANG_ENGLISH        "Luke Skywalker [Post-ROTJ]"
+
+REFERENCE           LUKE_BF2
+LANG_ENGLISH        "Luke [Battlefront 2, 2017]"
+
+REFERENCE           LUKE_TM_HOOD
+LANG_ENGLISH        "Luke [Jedi Master - Hooded]"
+
+REFERENCE           LUKE_TM_ROBE
+LANG_ENGLISH        "Luke [Jedi Master - Robed]"
+
+REFERENCE           LUKE_TBOBF
+LANG_ENGLISH        "Luke [Jedi Master]"
+
+REFERENCE           LUKE_TROKR
+LANG_ENGLISH        "Luke [Jedi Master - TROKR]"
+
+REFERENCE           BOBA_TM
+LANG_ENGLISH        "Boba Fett [TM & TBOBF]"
+
+REFERENCE           BOBA_WORN
+LANG_ENGLISH        "Boba [Worn Armor]"
+
+REFERENCE           BOBA_WORN_NOHELMET
+LANG_ENGLISH        "Boba [Worn Armor - No Helmet]"
+
+REFERENCE           BOBA_REARMORED
+LANG_ENGLISH        "Boba Fett [Re-armored]"
+
+REFERENCE           BOBA_REARMORED_NH
+LANG_ENGLISH        "Boba Fett [Re-armored - No Helmet]"
+
+REFERENCE           FENNEC
+LANG_ENGLISH        "Fennec Shand"
+
+REFERENCE           FENNEC_NOHELMET
+LANG_ENGLISH        "Fennec Shand [No Helmet]"
+
+REFERENCE           KRRSANTAN
+LANG_ENGLISH        "Black Krrsantan"
+
+REFERENCE           BOKATAN
+LANG_ENGLISH        "Bo-Katan Kryze"
+
+REFERENCE           BOKATAN_NOHELMET
+LANG_ENGLISH        "Bo-Katan Kryze [No Helmet]"
+
+REFERENCE           MANDO_CLANS
+LANG_ENGLISH        "Mandalorian Clans"
+
+REFERENCE           ARMORER
+LANG_ENGLISH        "The Armorer"
+
+REFERENCE           ARMORER_JETPACK
+LANG_ENGLISH        "The Armorer [Jetpack]"
+
+REFERENCE           PAZ_VIZSLA
+LANG_ENGLISH        "Paz Vizsla"
+
+REFERENCE           LUKE_OLD
+LANG_ENGLISH        "Luke Skywalker [Old]"
+
+REFERENCE           LUKE_ACHTO_ROBE
+LANG_ENGLISH        "Luke Skywalker [Ach-to - Robed]"
+
+REFERENCE           LUKE_ACHTO_HOOD
+LANG_ENGLISH        "Luke Skywalker [Ach-to - Hooded]"
+
+REFERENCE           LUKE_CRAIT
+LANG_ENGLISH        "Luke Skywalker [Crait Illusion]"
+
+REFERENCE           REY
+LANG_ENGLISH        "Rey"
+
+REFERENCE           REY_EP7
+LANG_ENGLISH        "Rey [Jakku]"
+
+REFERENCE           REY_RESISTANCE
+LANG_ENGLISH        "Rey [Resistance Scout]"
+
+REFERENCE           REY_EP8
+LANG_ENGLISH        "Rey [Grey Jedi Wrap]"
+
+REFERENCE           REY_EP9
+LANG_ENGLISH        "Rey [White Jedi Wrap]"
+
+REFERENCE           REY_EP9_HOOD
+LANG_ENGLISH        "Rey [White Jedi Wrap - Hooded]"
+
+REFERENCE           REY_SKYWALKER
+LANG_ENGLISH        "Rey Skywalker"
+
+REFERENCE           FINN
+LANG_ENGLISH        "Finn"
+
+REFERENCE           POE
+LANG_ENGLISH        "Poe Dameron"
+
+REFERENCE           POE_PILOT
+LANG_ENGLISH        "Poe Dameron [Pilot]"
+
+REFERENCE           POE_PILOT_HELM
+LANG_ENGLISH        "Poe Dameron [Pilot - Helmet]"
+
+REFERENCE           POE_OFFICER
+LANG_ENGLISH        "Poe Dameron [Officer]"
+
+REFERENCE           ROSE
+LANG_ENGLISH        "Rose Tico"
+
+//----------------------------------------------------------
+// 	SEQUELS 2
+//----------------------------------------------------------
+
+REFERENCE           GIDEON
+LANG_ENGLISH        "Moff Gideon"
+
+REFERENCE           DARKTROOPER_TM
+LANG_ENGLISH        "Dark Trooper [The Mandalorian]"
+
+REFERENCE           BAYLAN
+LANG_ENGLISH        "Baylan Skoll"
+
+REFERENCE           BAYLAN_ROBE
+LANG_ENGLISH        "Baylan Skoll [Robed]"
+
+REFERENCE           BAYLAN_HOOD
+LANG_ENGLISH        "Baylan Skoll [Hooded]"
+
+REFERENCE           SHIN
+LANG_ENGLISH        "Shin Hati"
+
+REFERENCE           SHIN_ROBE
+LANG_ENGLISH        "Shin Hati [Robed]"
+
+REFERENCE           SHIN_HOOD
+LANG_ENGLISH        "Shin Hati [Hooded]"
+
+REFERENCE           KYLO
+LANG_ENGLISH        "Kylo Ren"
+
+REFERENCE           KYLO_EP7_NOHELMET
+LANG_ENGLISH        "Kylo Ren [TFA - No Helmet]"
+
+REFERENCE           KYLO_EP7_HELMET
+LANG_ENGLISH        "Kylo Ren [TFA - Helmet]"
+
+REFERENCE           KYLO_EP7_HOOD
+LANG_ENGLISH        "Kylo Ren [TFA - Hooded]"
+
+REFERENCE           KYLO_EP8_NOHELMET
+LANG_ENGLISH        "Kylo Ren [TLJ - No Helmet]"
+
+REFERENCE           KYLO_EP8_HELMET
+LANG_ENGLISH        "Kylo Ren [TLJ - Helmet]"
+
+REFERENCE           KYLO_EP8_ROBE
+LANG_ENGLISH        "Kylo Ren [TLJ - Robed]"
+
+REFERENCE           KYLO_EP8_SHIRTLESS
+LANG_ENGLISH        "Kylo Ren [TLJ - Shirtless]"
+
+REFERENCE           KYLO_EP9_ROBE
+LANG_ENGLISH        "Kylo Ren [TROS - Robed]"
+
+REFERENCE           KYLO_EP9_HELMET
+LANG_ENGLISH        "Kylo Ren [TROS - Helmet]"
+
+REFERENCE           KYLO_EP9_HOOD
+LANG_ENGLISH        "Kylo Ren [TROS - Hooded]"
+
+REFERENCE           BEN_SOLO
+LANG_ENGLISH        "Ben Solo [TROS - Redeemed]"
+
+REFERENCE           HUX
+LANG_ENGLISH        "Armitage Hux"
+
+REFERENCE           HUX_COAT
+LANG_ENGLISH        "Armitage Hux [Coat]"
+
+REFERENCE           HUX_COAT_HAT
+LANG_ENGLISH        "Armitage Hux [Coat & Hat]"
+
+REFERENCE           PHASMA
+LANG_ENGLISH        "Captain Phasma"
+
+REFERENCE           SNOKE
+LANG_ENGLISH        "Supreme Leader Snoke"
+
+REFERENCE           SHEEV_EP9
+LANG_ENGLISH        "Emperor Palpatine [Clone]"
+
+REFERENCE           SHEEV_EP9_BLIND
+LANG_ENGLISH        "Emperor Palpatine [Clone - Blind]"
+
+REFERENCE           SHEEV_EP9_REBORN
+LANG_ENGLISH        "Emperor Palpatine [Clone - Reborn]"
+
+REFERENCE           PRAETORIANS
+LANG_ENGLISH        "Praetorian Guards"
+
+REFERENCE           PRAETORIAN_LANCE
+LANG_ENGLISH        "Praetorian Guard [Lance]"
+
+REFERENCE           PRAETORIAN_AXE
+LANG_ENGLISH        "Praetorian Guard [Axe]"
+
+REFERENCE           PRAETORIAN_SWORD
+LANG_ENGLISH        "Praetorian Guard [Sword]"
+
+REFERENCE           PRAETORIAN_VIBROAXE
+LANG_ENGLISH        "Praetorian Guard [Vibroaxe]"
+
+REFERENCE           PRAETORIAN_VIBROSTAFF
+LANG_ENGLISH        "Praetorian Guard [Vibrostaff]"
+
+REFERENCE           STORMTROOPERS_FO
+LANG_ENGLISH        "Stormtroopers [First Order]"
+
+REFERENCE           STORMTROOPER_FO
+LANG_ENGLISH        "Stormtrooper [First Order]"
+
+REFERENCE           STORM_OFFICER_FO
+LANG_ENGLISH        "Stormtrooper [Officer - First Order]"
+
+REFERENCE           STORM_RIOT_FO
+LANG_ENGLISH        "Riot Stormtrooper [First Order]"
+
+REFERENCE           SITHTROOPER_EP9
+LANG_ENGLISH        "Sith Trooper [Final Order]"
+
+REFERENCE           SITH_COMMANDER_EP9
+LANG_ENGLISH        "Sith Trooper [Commander - Final Order]"
+
+REFERENCE           REN
+LANG_ENGLISH        "Ren"
+
+//----------------------------------------------------------
+// 	LEGENDS 1
+//----------------------------------------------------------
+
+REFERENCE           KYLE
+LANG_ENGLISH        "Kyle Katarn"
+
+REFERENCE           KYLE_MERC
+LANG_ENGLISH        "Kyle Katarn [Mercenary]"
+
+REFERENCE           KYLE_DF2_COAT
+LANG_ENGLISH        "Kyle Katarn [Dark Forces 2 - Coat]"
+
+REFERENCE           KYLE_DF2
+LANG_ENGLISH        "Kyle Katarn [Dark Forces 2]"
+
+REFERENCE           KYLE_MOTS
+LANG_ENGLISH        "Kyle Katarn [Mysteries of the Sith]"
+
+REFERENCE           KYLE_JK2
+LANG_ENGLISH        "Kyle Katarn [Jedi Outcast / Academy]"
+
+REFERENCE           KYLE_ALT
+LANG_ENGLISH        "Kyle Katarn [Dark]"
+
+REFERENCE           KYLE_STEALTH
+LANG_ENGLISH        "Kyle Katarn [Stealth Jedi Gear]"
+
+REFERENCE           KYLE_MASTER
+LANG_ENGLISH        "Kyle Katarn [Jedi Master]"
+
+REFERENCE           KYLE_EMPEROR
+LANG_ENGLISH        "Emperor Katarn"
+
+REFERENCE           KYLE_DF2_INGAME
+LANG_ENGLISH        "Kyle Katarn [DF2 In-Game]"
+
+REFERENCE           KYLE_OFFICER
+LANG_ENGLISH        "Kyle Katarn [Imperial Officer]"
+
+REFERENCE           KYLE_DF2_LOWPOLY
+LANG_ENGLISH        "Kyle Katarn [1997 Low-Poly]"
+
+REFERENCE           KYLE_OLD
+LANG_ENGLISH        "Kyle Katarn [Old]"
+
+REFERENCE           JAN
+LANG_ENGLISH        "Jan Ors"
+
+REFERENCE           JAN_DF2
+LANG_ENGLISH        "Jan Ors [Dark Forces 2]"
+
+REFERENCE           MARA
+LANG_ENGLISH        "Mara Jade"
+
+REFERENCE           MARA_MOTS
+LANG_ENGLISH        "Mara Jade [Mysteries of the Sith]"
+
+REFERENCE           QU
+LANG_ENGLISH        "Qu Rahn"
+
+REFERENCE           YUN
+LANG_ENGLISH        "Yun"
+
+REFERENCE           NJO
+LANG_ENGLISH        "New Jedi Order"
+
+REFERENCE           LUKE_GM
+LANG_ENGLISH        "Luke [Grand Master]"
+
+REFERENCE           JEDI
+LANG_ENGLISH        "Jedi"
+
+REFERENCE           JEDI2
+LANG_ENGLISH        "Jedi 2"
+
+REFERENCE           JEDIMASTER
+LANG_ENGLISH        "Jedi Master"
+
+REFERENCE           JEDITRAINER
+LANG_ENGLISH        "Jedi Trainer"
+
+REFERENCE           ROSH
+LANG_ENGLISH        "Rosh Penin"
+
+REFERENCE           JEREC
+LANG_ENGLISH        "Jerec"
+
+REFERENCE           JEREC_NOCAPE
+LANG_ENGLISH        "Jerec [No Cape]"
+
+REFERENCE           JEREC_CLASSIC
+LANG_ENGLISH        "Jerec [DF2 In-Game]"
+
+REFERENCE           JEREC_LOWPOLY
+LANG_ENGLISH        "Jerec [1997 Low Poly]"
+
+REFERENCE           SARISS
+LANG_ENGLISH        "Sariss"
+
+REFERENCE           SARISS_CLOAK
+LANG_ENGLISH        "Sariss [Cloaked]"
+
+REFERENCE           BOC 
+LANG_ENGLISH        "Boc"
+
+REFERENCE           MAW
+LANG_ENGLISH        "Maw"
+
+REFERENCE           MAW_HALF
+LANG_ENGLISH        "Maw [Dismembered]"
+
+REFERENCE           PIC
+LANG_ENGLISH        "Pic"
+
+REFERENCE           GORC
+LANG_ENGLISH        "Gorc"
+
+REFERENCE           DESANN
+LANG_ENGLISH        "Desann"
+
+REFERENCE           DESANN_CAPE
+LANG_ENGLISH        "Lord Desann"
+
+REFERENCE           TAVION
+LANG_ENGLISH        "Tavion Axmis"
+
+REFERENCE           TAVION_JKA
+LANG_ENGLISH        "Tavion [Cult of Ragnos]"
+
+REFERENCE           TAVION_JKA_SCEPTER
+LANG_ENGLISH        "Tavion [Ragnos' Scepter]"
+
+REFERENCE           TAVION_ALT
+LANG_ENGLISH        "Tavion [Alternate]"
+
+REFERENCE           ALORA
+LANG_ENGLISH        "Alora"
+
+REFERENCE           REBORN
+LANG_ENGLISH        "Reborn"
+
+REFERENCE           REBORN_FORCE
+LANG_ENGLISH        "Reborn [Force User]"
+
+REFERENCE           REBORN_ACROBAT
+LANG_ENGLISH        "Reborn [Acrobat]"
+
+REFERENCE           REBORN_FENCER
+LANG_ENGLISH        "Reborn [Fencer]"
+
+REFERENCE           REBORN_BOSS
+LANG_ENGLISH        "Reborn [Boss]"
+
+REFERENCE           REBORN_DUAL
+LANG_ENGLISH        "Reborn [Dual Lightsabers]"
+
+REFERENCE           REBORN_STAFF
+LANG_ENGLISH        "Reborn [Lightsaber Staff]"
+
+REFERENCE           REBORN_MASTER
+LANG_ENGLISH        "Reborn [Master]"
+
+REFERENCE           REMNANT
+LANG_ENGLISH        "Imperial Remnant"
+
+REFERENCE           GALAK
+LANG_ENGLISH        "Galak Fyyar"
+
+REFERENCE           SHADOWTROOPER
+LANG_ENGLISH        "Reborn Shadowtrooper"
+
+REFERENCE           SWAMPTROOPER
+LANG_ENGLISH        "Swamptrooper"
+
+REFERENCE           IMPWORKER
+LANG_ENGLISH        "Imperial Worker"
+
+REFERENCE           RAX
+LANG_ENGLISH        "Rax Joris"
+
+REFERENCE           SABOTEUR
+LANG_ENGLISH        "Saboteur"
+
+REFERENCE           ROCKETTROOPER
+LANG_ENGLISH        "Rockettrooper"
+
+REFERENCE           HAZARDTROOPER
+LANG_ENGLISH        "Hazardtrooper"
+
+//----------------------------------------------------------
+// 	LEGENDS 2
+//----------------------------------------------------------
+
+REFERENCE           GALEN
+LANG_ENGLISH        "Galen Marek"
+
+REFERENCE           GALEN_ADVENTURE
+LANG_ENGLISH        "Galen [Jedi Adventure Robes]"
+
+REFERENCE           GALEN_TEMPLE
+LANG_ENGLISH        "Galen [Temple Exploration Gear]"
+
+REFERENCE           GALEN_CORELLIAN
+LANG_ENGLISH        "Galen [Corellian Flight Suit]"
+
+REFERENCE           GALEN_CEREMONIAL
+LANG_ENGLISH        "Galen [Ceremonial Jedi Robes]"
+
+REFERENCE           GALEN_KAMINO
+LANG_ENGLISH        "Galen [Test Subject Garments]"
+
+REFERENCE           GALEN_TIE
+LANG_ENGLISH        "Galen [Tie Flightsuit]"
+
+REFERENCE           GALEN_ARENA
+LANG_ENGLISH        "Galen [Arena Combat Gear]"
+
+REFERENCE           GALEN_HERO
+LANG_ENGLISH        "Galen [Hero's Armor]"
+
+REFERENCE           STARKILLER
+LANG_ENGLISH        "Starkiller"
+
+REFERENCE           SITHSTALKER
+LANG_ENGLISH        "Starkiller [Sith Stalker Armor]"
+
+REFERENCE           LORD_STARKILLER
+LANG_ENGLISH        "Lord Starkiller"
+
+REFERENCE           LORD_STARKILLER_DESERT
+LANG_ENGLISH        "Lord Starkiller [Tatooine]"
+
+REFERENCE           STARKILLER_JHUNTER
+LANG_ENGLISH        "Starkiller [Jedi Hunter]"
+
+REFERENCE           RAHM
+LANG_ENGLISH        "Rahm Kota"
+
+REFERENCE           RAHM_DRUNK
+LANG_ENGLISH        "Rahm Kota [Drunken]"
+
+REFERENCE           RAHM_ALLIANCE
+LANG_ENGLISH        "Rahm Kota [Alliance General]"
+
+REFERENCE           SHAAK_TFU
+LANG_ENGLISH        "Shaak Ti [Exiled - Felucia]"
+
+REFERENCE           KENTO
+LANG_ENGLISH        "Kento Marek"
+
+REFERENCE           KENTO_KROME
+LANG_ENGLISH        "Kento Marek [Alternate Design]"
+
+REFERENCE           PHOBOS
+LANG_ENGLISH        "Darth Phobos"
+
+REFERENCE           DESOLOUS
+LANG_ENGLISH        "Darth Desolous"
+
+REFERENCE           TRAININGDROIDS_TFU
+LANG_ENGLISH        "Jedi Training Droids [TFU]"
+
+REFERENCE           TRAININGDROID_SABER
+LANG_ENGLISH        "Saber Training Droid"
+
+REFERENCE           TRAININGDROID_FORCE
+LANG_ENGLISH        "Force Training Droid"
+
+REFERENCE           ASHARAD
+LANG_ENGLISH        "A'Sharad Hett"
+
+REFERENCE           ASHARAD_TUSKEN
+LANG_ENGLISH        "A'Sharad Hett [Tusken Mask]"
+
+REFERENCE           MAUL_CYBER
+LANG_ENGLISH        "Darth Maul [Old Wounds]"
+
+REFERENCE           MAUL_CYBER_ROBE
+LANG_ENGLISH        "Darth Maul [Robed - Old Wounds]"
+
+REFERENCE           MAUL_CYBER_HOOD
+LANG_ENGLISH        "Darth Maul [Hooded - Old Wounds]"
+
+REFERENCE           PLAGUEIS
+LANG_ENGLISH        "Darth Plagueis [The Wise]"
+
+REFERENCE           REVAN
+LANG_ENGLISH        "Darth Revan"
+
+REFERENCE           REVAN_DUAL
+LANG_ENGLISH        "Darth Revan [Dual Lightsabers]"
+
+REFERENCE           REVAN_JEDI
+LANG_ENGLISH        "Revan [Redeemed Jedi]"
+
+REFERENCE           BASTILA
+LANG_ENGLISH        "Bastila Shan"
+
+REFERENCE           KRAYT
+LANG_ENGLISH        "Darth Krayt [Emperor]"
+
+REFERENCE           KRAYT_REBORN
+LANG_ENGLISH        "Darth Krayt [Reborn]"
+
+REFERENCE           TALON
+LANG_ENGLISH        "Darth Talon"
+
+REFERENCE           CADE
+LANG_ENGLISH        "Cade Skywalker"
+
+
+ENDMARKER
+
+
+

@@ -1,0 +1,46 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           J6
+LANG_ENGLISH        "Oh no. I sense the Dark side. I can't let you pass!"
+
+REFERENCE           W3
+LANG_ENGLISH        "In the name of the Republic and the Jedi Council, you're under arrest!"
+
+REFERENCE           YOU1
+LANG_ENGLISH        "Master Skywalker, there are too many of them. What are we going to do?"
+
+REFERENCE           SHA1
+LANG_ENGLISH        "Anakin, why are you doing this?"
+
+REFERENCE           SHA2
+LANG_ENGLISH        "We accepted you into the Jedi Council, and now you betray us?"
+
+REFERENCE           SHA3
+LANG_ENGLISH        "How low must a person fall to become a killer of defenseless children?"
+
+REFERENCE           SHA4
+LANG_ENGLISH        "The Republic? Or Palpatine? He has twisted your pain into chains. You call this freedom?"
+
+REFERENCE           ANI7
+LANG_ENGLISH        "The Jedi betrayed the Republic. You've blinded yourself to the truth, Master Ti. The Order is finished."
+
+REFERENCE           ANI8
+LANG_ENGLISH        "The Chancellor showed me what the Council never would. The Jedi are traitors and I will not allow you to stand in the way."
+
+REFERENCE           SIN1
+LANG_ENGLISH        "Do not take another step to the dark side!"
+
+ENDMARKER

@@ -1,0 +1,945 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "Movie Duels Menus"
+
+//----------------------------------------------------------
+//	-- CONTENTS/HEADINGS: --
+//
+//	- MAIN MENUS: -
+//	h1: OLD REPUBLIC
+//	h2: SITH EMPIRE
+//	h3: REPUBLIC
+//	h4: SEPARATIST
+//	h5: REBELS
+//	h6: EMPIRE
+//	h7: RESISTANCE
+//	h8: FIRST ORDER
+//
+//----------------------------------------------------------
+
+
+//----------------------------------------------------------
+// 	h1: OLD REPUBLIC
+//----------------------------------------------------------
+
+REFERENCE           BASTILA_SHAN
+LANG_ENGLISH        "A powerful Jedi from the Old Republic era, Bastila Shan was renowned for her rare Battle Meditation ability, which could sway the outcome of entire wars. Trained in the ways of the Force from a young age, she played a pivotal role in the Jedi Civil War, struggling with her connection to Darth Revan - and the dark side within herself."
+
+REFERENCE 			REPUBLIC_TROOPER
+LANG_ENGLISH 		"A soldier of the Galactic Republic, Republic Troopers fought across the galaxy during the Jedi Civil War. Trained for versatility and discipline, they formed the backbone of Republic ground forces against the Sith."
+
+REFERENCE 			TRASK_ULGO
+LANG_ENGLISH 		"A Republic soldier aboard the Endar Spire, Trask Ulgo aided a Force-sensitive ally during Darth Malak's attack. He sacrificed his life to ensure their escape, helping set the Jedi Civil War in motion."
+
+REFERENCE 			REPUBLIC_OFFICER
+LANG_ENGLISH 		"A commissioned leader within the Republic military, Republic Officers oversaw fleets and armies during the Old Republic's wars. They coordinated closely with Jedi commanders to counter Sith expansion."
+
+REFERENCE 			MEETRA_SURIK
+LANG_ENGLISH 		"Known as the Jedi Exile, Meetra Surik was a former Jedi Knight who cut herself off from the Force after the Mandalorian Wars. She later reclaimed her power and confronted the Sith Triumvirate, shaping the fate of the Republic."
+
+REFERENCE 			JOLEE_BINDO
+LANG_ENGLISH 		"A reclusive Jedi living on Kashyyyk, Jolee Bindo rejected rigid Jedi doctrine in favor of personal experience. Cynical yet insightful, he aided the Republic during the Jedi Civil War."
+
+REFERENCE 			JEDI_WARRIOR
+LANG_ENGLISH 		"A battle-oriented member of the Jedi Order, Jedi Warriors served on the front lines of the Old Republic's conflicts. They relied on martial skill and the Force to oppose Sith and Mandalorian enemies."
+
+REFERENCE 			CARTH_ONASI
+LANG_ENGLISH 		"A decorated Republic pilot and officer, Carth Onasi fought throughout the Jedi Civil War. Though shaped by betrayal and loss, he remained steadfast in his loyalty to the Republic."
+
+REFERENCE 			CANDEROUS_ORDO
+LANG_ENGLISH 		"A seasoned Mandalorian warrior, Canderous Ordo fought in the Mandalorian Wars and later allied with the Republic. Fierce and honor-bound, he sought to preserve Mandalorian strength through survival."
+
+REFERENCE 			ATTON_RAND
+LANG_ENGLISH 		"A former Republic pilot with a hidden past, Atton Rand traveled with the Jedi Exile after the Jedi Purge. Concealing Force sensitivity, he struggled with guilt and the path to redemption."
+
+REFERENCE 			ATRIS
+LANG_ENGLISH 		"A Jedi historian and Council member, Atris survived the Purge by retreating to Telos. Her rigid devotion to Jedi ideals gradually drew her toward the dark side."
+
+REFERENCE 			JEDI_KOTOR
+LANG_ENGLISH 		"Jedi of the Old Republic era defended the galaxy during the Mandalorian Wars and Jedi Civil War. Their choices and sacrifices shaped the balance between the Republic and the Sith."
+
+REFERENCE 			VROOK_LAMAR
+LANG_ENGLISH 		"A stern Jedi Master on the Dantooine Council, Vrook Lamar was known for his uncompromising views. He survived the Purge but remained deeply critical of the Jedi Exile."
+
+REFERENCE 			ZHAR_LESTIN
+LANG_ENGLISH 		"A Twi'lek Jedi Master on the Dantooine Council, Zhar Lestin oversaw Jedi training during the Jedi Civil War. He opposed the Sith while struggling with the Order's decline."
+
+REFERENCE 			DORAK
+LANG_ENGLISH 		"A Jedi archivist stationed on Dantooine, Dorak specialized in ancient Sith history. His knowledge provided critical insight during the Jedi Civil War."
+
+REFERENCE 			KREIA
+LANG_ENGLISH 		"A former Jedi Master and mentor to the Jedi Exile, Kreia was a complex and manipulative Force-user shaped by betrayal and loss. Rejecting both Jedi and Sith dogma, she sought to challenge the Force's control over destiny and the galaxy."
+
+REFERENCE 			JUHANI
+LANG_ENGLISH 		"A Cathar Jedi Knight, Juhani struggled with her anger and briefly fell to the dark side before finding redemption. During the Jedi Civil War, she fought alongside Revan, proving her loyalty to the Jedi and the Republic."
+
+REFERENCE 			KAO_CEN_DARACH
+LANG_ENGLISH 		"A revered Jedi Master of the Old Republic, Kao Cen Darach was known for his skill with a double-bladed lightsaber. He defended his Padawan Satele Shan from a Sith attack, sacrificing his life in the struggle."
+
+REFERENCE 			VEN_ZALLOW
+LANG_ENGLISH 		"A courageous Jedi Knight, Ven Zallow helped defend the Jedi Temple during the Sith assault on Coruscant. His stand against overwhelming odds became a symbol of Jedi resistance in the Great Galactic War."
+
+REFERENCE 			REPUBLIC_TROOPER_KOTOR
+LANG_ENGLISH 		"A disciplined soldier of the Galactic Republic, Republic Troopers fought Sith forces throughout the Jedi Civil War. Equipped for adaptability, they supported Jedi commanders in battles across contested worlds."
+
+REFERENCE 			BAO_DUR
+LANG_ENGLISH 		"A Zabrak engineer and Republic veteran, Bao-Dur served under the Jedi Exile during the Mandalorian Wars. Haunted by his role in deploying the Mass Shadow Generator, he later aided in rebuilding the Jedi."
+
+REFERENCE 			VANDAR_TOKARE
+LANG_ENGLISH 		"A small but powerful Jedi Master, Vandar Tokare served on the Jedi Council during the Jedi Civil War. Known for his wisdom and foresight, he guided the Order through one of its darkest periods."
+
+
+//----------------------------------------------------------
+// 	h2: SITH EMPIRE
+//----------------------------------------------------------
+
+REFERENCE           DARTH_REVAN
+LANG_ENGLISH        "Once a charismatic Jedi Knight and hero of the Mandalorian Wars, Revan fell to the dark side and led a Sith armada against the Republic. Betrayed and nearly destroyed, he was redeemed and reprogrammed by the Jedi Council. Revan's legacy shaped the fate of the galaxy for generations, as both savior and destroyer."
+
+REFERENCE 			DARTH_MALGUS
+LANG_ENGLISH 		"A powerful Sith Lord of the Old Republic era, Darth Malgus was a ruthless warrior who led the assault on the Jedi Temple during the Great Galactic War. Rejecting weakness and tradition alike, he sought to reshape the Sith through strength and domination."
+
+REFERENCE 			DARTH_MALAK
+LANG_ENGLISH 		"Once a Jedi Knight named Alek, Darth Malak became the apprentice of Darth Revan and a leading Sith Lord of the Jedi Civil War. After betraying his master, he ruled through fear until his defeat by Revan restored balance to the Republic."
+
+REFERENCE 			DARTH_SION
+LANG_ENGLISH 		"A member of the Sith Triumvirate, Darth Sion was a dark side warrior who held his shattered body together through pain and hatred. He relentlessly hunted the surviving Jedi after the Purge, embodying the Sith philosophy of endurance through suffering."
+
+REFERENCE 			DARTH_TRAYA
+LANG_ENGLISH 		"Known as Kreia, Darth Traya was a former Jedi Master who became a Sith Lord seeking to end the Force's influence on the galaxy. As the architect of the Sith Triumvirate, she manipulated events from the shadows to test and reshape her disciples."
+
+REFERENCE 			DARTH_NIHILUS
+LANG_ENGLISH 		"A Sith Lord born from the devastation of the Mandalorian Wars, Darth Nihilus survived by consuming the Force itself. His insatiable hunger destroyed entire worlds, marking him as one of the most catastrophic threats of the Old Republic era."
+
+REFERENCE 			LORD_SCOURGE
+LANG_ENGLISH 		"A Sith Lord of the Old Republic, Lord Scourge served the Sith Emperor as his Wrath, enforcing his will through strength and assassination. Granted extended life through the dark side, he later betrayed the Empire to oppose the Emperor's return."
+
+REFERENCE 			SITH_ERADICATOR
+LANG_ENGLISH 		"An elite Sith enforcer trained for destruction, Sith Eradicators wielded heavy armor and devastating Force power. They were deployed to crush Jedi resistance and dominate battlefields during the Old Republic's wars."
+
+REFERENCE 			DARTH_BANDON
+LANG_ENGLISH 		"A Dark Jedi turned Sith apprentice, Darth Bandon served Darth Malak during the Jedi Civil War. Arrogant and aggressive, he pursued the Jedi relentlessly until his defeat revealed his lack of true mastery."
+
+REFERENCE 			DARTH_BANE
+LANG_ENGLISH 		"A Sith Lord who rose after the fall of the Sith Empire, Darth Bane reshaped the dark side through the Rule of Two. By limiting the Sith to master and apprentice, he ensured their survival through secrecy and power."
+
+REFERENCE 			SITH_TROOPER_KOTOR
+LANG_ENGLISH 		"A heavily armored soldier of the Sith Empire, Sith Troopers enforced Malak's rule during the Jedi Civil War. Fanatically loyal and well-equipped, they formed the core of Sith ground forces."
+
+REFERENCE 			NEO_CRUSADER
+LANG_ENGLISH 		"A Mandalorian warrior of the Neo-Crusaders, these soldiers led the assault against the Republic during the Mandalorian Wars. Their advanced armor and discipline made them a formidable galactic threat."
+
+REFERENCE 			CALO_NORD
+LANG_ENGLISH 		"A cold and methodical bounty hunter, Calo Nord was employed by Davik Kang and later the Sith. Known for his patience and deadly efficiency, he relentlessly pursued his assigned targets."
+
+REFERENCE 			HK47
+LANG_ENGLISH 		"An assassin droid constructed by Darth Revan, HK-47 was programmed for efficiency, loyalty, and lethal sarcasm. He accompanied Revan and later the Jedi Exile, offering combat support and dark humor."
+
+REFERENCE 			DAVIK_KANG
+LANG_ENGLISH 		"A powerful crime lord on Taris, Davik Kang controlled the planet's underworld during the Jedi Civil War. His influence ended abruptly when he was killed during a Republic escape from the city."
+
+REFERENCE 			MANDALORE_ULTIMATE
+LANG_ENGLISH 		"The supreme leader of the Mandalorian Neo-Crusaders, Mandalore the Ultimate led the invasion of the Republic. His defeat by Revan marked the turning point of the Mandalorian Wars."
+
+REFERENCE 			VISAS_MARR
+LANG_ENGLISH 		"A Miraluka Force-user and servant of Darth Nihilus, Visas Marr was the sole survivor of Katarr. Bound by guilt and loyalty, she later joined the Jedi Exile in opposing her former master."
+
+REFERENCE 			DARK_JEDI
+LANG_ENGLISH 		"Former Jedi who fell to the dark side, Dark Jedi served Sith Lords during the Old Republic's conflicts. They wielded corrupted teachings of the Force to hunt their former allies."
+
+REFERENCE 			DARTH_VINDICAN
+LANG_ENGLISH 		"A Sith Lord during the Great Galactic War, Darth Vindican trained apprentices in the ruthless traditions of the Sith. His ambition reflected the constant struggle for power within the Sith hierarchy."
+
+REFERENCE 			EMPEROR_VALKORION
+LANG_ENGLISH 		"The immortal Sith Emperor of Zakuul and the Sith Empire, Valkorion sought absolute control over the galaxy. Sustained by countless lifetimes, he manipulated wars and bloodlines to serve his vision."
+
+REFERENCE 			ARCANN
+LANG_ENGLISH 		"The son of Emperor Valkorion, Arcann was a powerful Force-wielder who ruled the Eternal Empire through conquest. Consumed by anger and betrayal, his reign brought devastation to the galaxy."
+
+REFERENCE 			THEXAN
+LANG_ENGLISH 		"Twin brother to Arcann, Thexan was a noble and disciplined warrior of Zakuul. His death at Valkorion's command deeply shaped Arcann's descent into darkness."
+
+REFERENCE 			SITH_KOTOR
+LANG_ENGLISH 		"Sith of the Old Republic era waged war against the Jedi and the Republic through conquest and deception. Their conflicts defined the galaxy during the Jedi Civil War and beyond."
+
+REFERENCE 			JORAK_ULN
+LANG_ENGLISH 		"An ancient Jedi Master driven mad by forbidden knowledge, Jorak Uln resided among the ruins of Korriban. Obsessed with Sith secrets, he tested Force-sensitives and served as a grim warning of the dangers of unchecked curiosity."
+
+REFERENCE 			SAUL_KARATH
+LANG_ENGLISH 		"A former Republic admiral, Saul Karath defected to the Sith and became one of Darth Malak's chief commanders. His betrayal and strategic brilliance made him a deadly adversary during the Jedi Civil War."
+
+REFERENCE 			SITH_OFFICER
+LANG_ENGLISH 		"An authority figure within the Sith military, Sith Officers commanded fleets and garrisons under Malak's rule. Ruthless and ambitious, they enforced Sith dominance through fear and discipline."
+
+REFERENCE 			UTHAR_WYNN
+LANG_ENGLISH 		"A Sith Lord and overseer of the Korriban Academy, Uthar Wynn trained apprentices in the brutal ways of the Sith. His teachings emphasized ambition and betrayal, reflecting Sith philosophy in its purest form."
+
+REFERENCE 			YUTHURA_BAN
+LANG_ENGLISH 		"A former slave who rose through the Sith ranks, Yuthura Ban became a prominent student at the Korriban Academy. Her ambition and inner conflict made her a pivotal figure whose fate could turn toward redemption or darkness."
+
+REFERENCE 			IMPERIAL_TROOPER_KOTOR
+LANG_ENGLISH 		"Imperial Troopers were the infantry units of the reconstituted Sith Empire's army. They served as the primary ground forces in Imperial campaigns of conquest, defending Sith holdings during the Great Galactic War and the Cold War."
+
+
+//----------------------------------------------------------
+// 	h3: REPUBLIC
+//----------------------------------------------------------
+
+REFERENCE           AAYLA_SECURA
+LANG_ENGLISH        "A Twi'lek Jedi Knight from Ryloth, Aayla Secura was known for her agility, lightsaber mastery, and calm presence in battle. She fought with distinction during the Clone Wars as a General of the Republic, serving on the front lines until her death during the execution of Order 66."
+
+REFERENCE           ADI_GALLIA
+LANG_ENGLISH        "A respected Jedi Master and member of the High Council, Adi Gallia was known for her diplomatic skill and combat prowess. She served as a General during the Clone Wars and frequently undertook covert missions. Gallia met her end at the hands of Darth Maul, defending the Republic with unwavering resolve."
+
+REFERENCE           AGEN_KOLAR
+LANG_ENGLISH        "A skilled Zabrak Jedi Master, Agen Kolar served on the Jedi High Council during the final years of the Republic. Known for his lightsaber mastery and courage, he was one of the Jedi who confronted Chancellor Palpatine, only to be swiftly struck down by Darth Sidious."
+
+REFERENCE           AHSOKA_TANO
+LANG_ENGLISH        "Discovered by Plo Koon and trained by Anakin Skywalker, Ahsoka Tano was a Togruta Padawan who fought bravely in the Clone Wars. Disillusioned with the Jedi Order, she walked away from it and later became a key figure in the early Rebellion, surviving Order 66 and confronting both Darth Vader and the Empire."
+
+REFERENCE           ANAKIN_SKYWALKER
+LANG_ENGLISH        "Discovered by Qui-Gon Jinn on Tatooine, Anakin was prophesied to bring balance to the Force. As a Jedi General, he fought valiantly in the Clone Wars, but manipulation by Darth Sidious led him to destroy the Jedi and become the Sith Lord, Darth Vader."
+
+REFERENCE           BARRISS_OFFEE
+LANG_ENGLISH        "Trained under Luminara Unduli, Barriss Offee was a Mirialan Jedi who served as a healer and fighter during the Clone Wars. Disillusioned by the Jedi Order's role in the war, she orchestrated a bombing of the Jedi Temple and was ultimately captured and imprisoned for treason."
+
+REFERENCE           BOLLA_ROPAL
+LANG_ENGLISH        "A Rodian Jedi Master, Bolla Ropal was the keeper of the Kyber memory crystal, which contained the identities of Force-sensitive children across the galaxy. He was captured and tortured by Cad Bane during the Clone Wars and died rather than betray the secrets of the Jedi."
+
+REFERENCE           BOSS
+LANG_ENGLISH        "Designated RC-1138, 'Boss' was the leader of Delta Squad, an elite unit of clone commandos. Calm under pressure and a natural leader, Boss led his team through some of the most dangerous missions of the Clone Wars, demonstrating tactical brilliance and unshakable loyalty."
+
+REFERENCE           BULTAR_SWAN
+LANG_ENGLISH        "A human Jedi Knight known for her discipline and devotion, Bultar Swan survived many battles during the Clone Wars. Trained by Plo Koon, she was one of the few survivors of Order 66 and later joined a group of Jedi seeking justice, only to be slain by Darth Vader."
+
+REFERENCE           CAPTAIN_REX
+LANG_ENGLISH        "Known by his designation CT-7567, Captain Rex served under Anakin Skywalker and Ahsoka Tano during the Clone Wars. A loyal and skilled leader, he resisted the effects of Order 66 thanks to the removal of his inhibitor chip and later fought against the Empire alongside the early Rebellion."
+
+REFERENCE           CIN_DRALLIG
+LANG_ENGLISH        "The head of lightsaber combat training at the Jedi Temple, Cin Drallig was a legendary swordmaster. He trained countless Jedi in the art of defense and dueling, and was among the last defenders of the Temple during Anakin Skywalker's brutal attack."
+
+REFERENCE           CLONE_TROOPER
+LANG_ENGLISH        "Engineered from the DNA of Jango Fett, clone troopers were created to serve the Galactic Republic in the Clone Wars. Trained from birth to fight, they formed the backbone of the Republic's military and were ultimately used to carry out Order 66 against the Jedi."
+
+REFERENCE           COLEMAN_TREBOR
+LANG_ENGLISH        "A Vurk Jedi Master and member of the High Council, Coleman Trebor was known for his wisdom and calm demeanor. He attempted to confront Count Dooku during the Battle of Geonosis but was quickly killed by Jango Fett while trying to protect the Jedi."
+
+REFERENCE           COMMANDER_CODY
+LANG_ENGLISH        "Designated CC-2224, Commander Cody was a senior clone officer who served under Obi-Wan Kenobi during the Clone Wars. Known for his discipline and tactical reliability, he carried out Order 66 without hesitation, remaining loyal to the Republic as it became the Empire."
+
+REFERENCE           COMMANDER_FOX
+LANG_ENGLISH        "CC-1010, known as Commander Fox, led the Coruscant Guard tasked with protecting the capital and enforcing security on Coruscant. Zealous in carrying out his orders, Fox was responsible for several arrests during the Clone Wars, including that of Ahsoka Tano. He was later killed by Darth Vader."
+
+REFERENCE           COMMANDER_NEYO
+LANG_ENGLISH        "Commander Neyo, designated CC-8826, was a clone officer known for his quiet demeanor and efficiency. He led the 91st Reconnaissance Corps and executed Jedi Master Stass Allie during Order 66 without hesitation, embodying the cold obedience of the clones in the Empire's rise."
+
+REFERENCE           COMMANDER_VAUGHN
+LANG_ENGLISH        "Commander Vaughn served under Ahsoka Tano in the 332nd Company during the Siege of Mandalore. Loyal and competent, he fought with distinction during the final days of the Clone Wars and was killed during the execution of Order 66 while trying to locate Ahsoka."
+
+REFERENCE           DEPA_BILLABA
+LANG_ENGLISH        "A former Padawan of Mace Windu, Depa Billaba became a Jedi Master and served on the High Council. She fought in the Clone Wars and mentored Caleb Dume, who would later become Kanan Jarrus. She gave her life during Order 66 to ensure her Padawan's escape."
+
+REFERENCE           EEKAR_OKI
+LANG_ENGLISH        "A Nautolan Jedi Knight, Eekar Oki served during the Clone Wars and fought in several key battles. Little is known about his ultimate fate, but he stood among the many Jedi who defended the Republic until the rise of the Empire."
+
+REFERENCE           EETH_KOTH
+LANG_ENGLISH        "A Zabrak Jedi Master and member of the Jedi High Council, Eeth Koth survived many battles during the Clone Wars. After being presumed dead, he left the Order and started a new life, only to be tracked down and killed by Darth Vader during the Jedi Purge."
+
+REFERENCE           EVEN_PIELL
+LANG_ENGLISH        "A Lannik Jedi Master with a fierce temperament, Even Piell served on the Jedi Council and was known for his bravery. He played a critical role in the Citadel mission during the Clone Wars, sacrificing his life to protect vital Republic intelligence from falling into enemy hands."
+
+REFERENCE           FI_EK_SIRCH
+LANG_ENGLISH        "A Nikto Jedi Knight, Fi-Ek Sirch was skilled with the lightsaber and served during the Clone Wars. He participated in the Battle of Geonosis and stood with the Jedi until his death during the Purge."
+
+REFERENCE           FIVES
+LANG_ENGLISH        "Designated CT-5555, 'Fives' was an ARC Trooper known for his courage and determination to uncover the truth behind the inhibitor chips implanted in clones. His relentless pursuit of the conspiracy led to his tragic death, but his actions planted the seeds of doubt that would later save others."
+
+REFERENCE           FIXER
+LANG_ENGLISH        "RC-1140, known as 'Fixer', was the technical expert of Delta Squad. Calm, methodical, and precise, Fixer excelled at slicing systems and demolitions, playing a crucial role in many of the squad's high-risk Clone Wars missions."
+
+REFERENCE           FOUL_MOUDAMA
+LANG_ENGLISH        "A Talz Jedi Knight known for his towering strength and loyalty, Foul Moudama served in the Clone Wars and fought valiantly to protect Chancellor Palpatine during the Battle of Coruscant. He was ultimately slain by General Grievous in a desperate defense."
+
+REFERENCE           GREGOR
+LANG_ENGLISH        "Clone Commando CC-5576-39, or 'Gregor', was presumed dead after a crash on Sarrish but later resurfaced with memory loss. Regaining his identity, he returned to the fight against the Empire and eventually joined the Rebellion alongside Rex and Wolffe."
+
+REFERENCE           GUNGAN_WARRIOR
+LANG_ENGLISH        "Proud and loyal defenders of Naboo, Gungan warriors fought with traditional energy shields and electropoles. Their bravery during the Battle of Naboo helped repel the Trade Federation, earning them newfound respect among their allies."
+
+REFERENCE           HALSEY
+LANG_ENGLISH        "A Jedi Knight, Halsey served during the Clone Wars and was known for his devotion to the Jedi Code. He was killed alongside his Padawan Knox during an ambush by Savage Opress on Devaron, a brutal reminder of the growing threat of the dark side."
+
+REFERENCE           IMA_GUN_DI
+LANG_ENGLISH        "A Kajain'sa'Nikto Jedi Master, Ima-Gun Di fought bravely during the Clone Wars. He made a heroic last stand on Ryloth to protect Twi'lek refugees, sacrificing his life so they could escape, exemplifying the Jedi ideal of selfless service."
+
+REFERENCE           J_OOPI_SHE
+LANG_ENGLISH        "An eccentric and ancient Jedi Master, J'oopi She was known more for his wisdom and humor than combat skills. Despite his age and eccentricity, he remained loyal to the Jedi Code, though his fate following the Clone Wars remains uncertain."
+
+REFERENCE           JAR_JAR_BINKS
+LANG_ENGLISH        "A clumsy but well-meaning Gungan from Naboo, Jar Jar Binks played an unexpected role in galactic events. His actions in the Senate helped grant emergency powers to Chancellor Palpatine, unknowingly aiding in the rise of the Empire."
+
+REFERENCE           JEDI_MASTER
+LANG_ENGLISH        "Jedi Masters were seasoned Force users recognized for their wisdom, leadership, and mastery of the Jedi arts. Often serving on the High Council or as battlefield generals, they upheld the Jedi Code and mentored younger generations of Jedi."
+
+REFERENCE           JEDI_VETERAN
+LANG_ENGLISH        "Hardened by years of conflict, Jedi Veterans were experienced warriors who had survived countless battles during the Clone Wars. Their combat skills and strategic knowledge made them invaluable leaders and defenders of the Republic."
+
+REFERENCE           JEDI_KNIGHT
+LANG_ENGLISH        "Jedi Knights were fully trained members of the Jedi Order, often tasked with peacekeeping missions and battlefield leadership. Having passed the Trials, they served as guardians of the Republic and protectors of the innocent across the galaxy."
+
+REFERENCE           JEDI_PADAWAN
+LANG_ENGLISH        "Padawans were Jedi apprentices undergoing one-on-one training under a Jedi Knight or Master. Carrying training braids and bound by the Jedi Code, they aspired to earn the rank of Knight through courage, discipline, and mastery of the Force."
+
+REFERENCE           JEDI_BRUTE
+LANG_ENGLISH        "Jedi Brutes were powerful Force-wielders who relied more on raw strength and aggression than finesse. Though rare within the Order, these warriors were often deployed in the thick of battle, using their might to turn the tide in desperate situations."
+
+REFERENCE           JEDI_TEMPLE_GUARD
+LANG_ENGLISH        "Anonymous and stoic, Jedi Temple Guards were elite Jedi Knights sworn to defend the Jedi Temple on Coruscant. Clad in ceremonial robes and wielding double-bladed yellow lightsabers, they upheld peace and order within the temple, embodying absolute dedication to the Jedi Order."
+
+REFERENCE           JOCASTA_NU
+LANG_ENGLISH        "The chief librarian of the Jedi Archives, Jocasta Nu was a guardian of knowledge and history within the Jedi Temple. After surviving the initial Jedi Purge, she attempted to preserve the Jedi legacy but was ultimately tracked down and killed by Darth Vader."
+
+REFERENCE           KELLERAN_BEQ
+LANG_ENGLISH        "Known as the 'Sabered Hand', Jedi Master Kelleran Beq was a highly skilled duelist and protector of younglings. He played a crucial role in rescuing Grogu from the Jedi Temple during Order 66, ensuring the child's survival amidst chaos."
+
+REFERENCE           KI_ADI_MUNDI
+LANG_ENGLISH        "A Cerean Jedi Master and member of the High Council, Ki-Adi Mundi was a prominent figure in the Clone Wars, known for his intellect and military leadership. He led troops on Mygeeto, where he was betrayed and killed during the execution of Order 66."
+
+REFERENCE           KIT_FISTO
+LANG_ENGLISH        "A Nautolan Jedi Master from Glee Anselm, Kit Fisto was known for his friendly nature and skill in underwater combat. A veteran of many battles in the Clone Wars, he fell in battle alongside fellow Jedi while attempting to arrest Darth Sidious."
+
+REFERENCE           KNOX
+LANG_ENGLISH        "Padawan to Jedi Knight Halsey, Knox was a young human Jedi in training during the Clone Wars. He was killed alongside his master during a surprise attack by Savage Opress on Devaron, a tragic end for a promising learner."
+
+REFERENCE           KOFFI_ARANA
+LANG_ENGLISH        "Once a respected Jedi Knight, Koffi Arana became disillusioned with the Jedi Council and went rogue during the Clone Wars. Taking justice into his own hands, he attempted to assassinate Darth Vader but was ultimately defeated and killed in the confrontation."
+
+REFERENCE           LUMINARA_UNDULI
+LANG_ENGLISH        "A calm and disciplined Jedi Master from Mirial, Luminara Unduli served as a General during the Clone Wars and was a mentor to Barriss Offee. She was ultimately captured and executed by the Empire, her image later used in a cruel trap to lure surviving Jedi."
+
+REFERENCE           MA_KIS_SHAALAS
+LANG_ENGLISH        "A muscular Nikto Jedi Master, Ma'kis'shaalas was renowned for his raw strength and bravery in battle. He fought in the Battle of Geonosis and was a loyal defender of the Jedi Order, eventually perishing during the Clone Wars."
+
+REFERENCE           MACE_WINDU
+LANG_ENGLISH        "A revered Jedi Master and champion of the Order, Mace Windu was known for his mastery of Form VII lightsaber combat and his unwavering sense of justice. He led many missions during the Clone Wars and nearly defeated Darth Sidious before being betrayed by Anakin Skywalker."
+
+REFERENCE           MICAH_GIIETT
+LANG_ENGLISH        "A wise and level-headed Jedi Master, Micah Giiett was a member of the Jedi Council known for his strategic thinking and sense of humor. He gave his life during a mission to Nar Shaddaa, sacrificing himself so his team could escape."
+
+REFERENCE           NAHDAR_VEBB
+LANG_ENGLISH        "A Mon Calamari Jedi Knight and former Padawan of Kit Fisto, Nahdar Vebb was courageous but impulsive. Recently knighted during the Clone Wars, he was killed by General Grievous while letting emotion cloud his judgment, revealing the dangers of straying from Jedi discipline."
+
+REFERENCE           OBI_WAN_KENOBI
+LANG_ENGLISH        "A noble Jedi Master and skilled negotiator, Obi-Wan Kenobi served as a General in the Clone Wars and trained Anakin Skywalker. After surviving the Jedi Purge, he watched over Luke from exile on Tatooine under the name 'Ben', eventually guiding him toward the path of a Jedi."
+
+REFERENCE           OPPO_RANCISIS
+LANG_ENGLISH        "A wise and strategic Thisspiasian Jedi Master, Oppo Rancisis was a long-serving member of the Jedi High Council. Renowned for his battlefield tactics and mastery of Malacia, he played a key leadership role in the Clone Wars before being slain during the Jedi Purge."
+
+REFERENCE           PABLO_JILL
+LANG_ENGLISH        "An Ongree Jedi Knight from the Outer Rim, Pablo-Jill was known for his agility and lightsaber prowess. He represented the Jedi Order in various diplomatic missions and fought in the Battle of Geonosis, later perishing during the Clone Wars."
+
+REFERENCE           PADME_AMIDALA
+LANG_ENGLISH        "Queen turned Senator of Naboo, Padmé Amidala was a fierce advocate for diplomacy and democracy. Secretly married to Anakin Skywalker, she worked to preserve peace during the Clone Wars and died heartbroken after his fall, giving birth to Luke and Leia Skywalker."
+
+REFERENCE           PLO_KOON
+LANG_ENGLISH        "A Kel Dor Jedi Master from Dorin, Plo Koon was a wise and respected member of the Jedi High Council. Known for discovering Ahsoka Tano and his strong sense of justice, he served as a General in the Clone Wars until he was killed in his starfighter during Order 66."
+
+REFERENCE           PONG_KRELL
+LANG_ENGLISH        "A Besalisk Jedi General, Pong Krell was known for his brutal tactics and disdain for clones. During the Umbara campaign, he betrayed the Republic, seeking power with the Sith. His treason was uncovered by his own troops, who executed him for his crimes."
+
+REFERENCE           QUE_MARS_REDATH_GOM
+LANG_ENGLISH        "A hulking Weequay Jedi Knight, Que-Mars Redath-Gom was a quiet yet imposing presence among the Jedi ranks. He fought in the Battle of Geonosis and served during the Clone Wars, ultimately falling during the dark times that followed."
+
+REFERENCE           QUI_GON_JINN
+LANG_ENGLISH        "A maverick Jedi Master, Qui-Gon Jinn often followed the will of the Force over the directives of the Jedi Council. He discovered Anakin Skywalker on Tatooine, believing him to be the Chosen One, and was slain by Darth Maul on Naboo. His belief in the Living Force left a lasting legacy."
+
+REFERENCE           QUINLAN_VOS
+LANG_ENGLISH        "A Kiffar Jedi Master known for his undercover work and psychometric abilities, Quinlan Vos often walked the line between light and dark. He was sent to assassinate Count Dooku but fell in love with Asajj Ventress and struggled with his identity, ultimately returning to the light."
+
+REFERENCE           REPUBLIC_COMMANDO
+LANG_ENGLISH        "Republic Commandos were elite clone soldiers trained for high-risk missions behind enemy lines. Equipped with advanced armor and specialized gear, they operated in tight squads like Delta and Omega, handling infiltration, sabotage, and frontline assault with ruthless efficiency."
+
+REFERENCE           SAESEE_TIIN
+LANG_ENGLISH        "A powerful telepath and pilot, Saesee Tiin was an Iktotchi Jedi Master who served on the High Council. He fought valiantly during the Clone Wars and joined the mission to arrest Darth Sidious, where he was quickly struck down by the Sith Lord."
+
+REFERENCE           SARISSA_JENG
+LANG_ENGLISH        "A skilled Jedi Knight and martial artist, Sarissa Jeng fought in the Battle of Geonosis with a unique and aggressive fighting style. Though little is known about her missions during the Clone Wars, she stood among the many Jedi who gave their lives in service to the Republic."
+
+REFERENCE           SATINE_KRYZE
+LANG_ENGLISH        "Duchess of Mandalore and leader of the pacifist New Mandalorians, Satine Kryze was a strong-willed idealist. She shared a complicated past and unspoken love with Obi-Wan Kenobi. Her assassination during the Clone Wars marked a tragic blow to Mandalore's future."
+
+REFERENCE           SCORCH
+LANG_ENGLISH        "RC-1262, nicknamed 'Scorch', was the explosives expert of Delta Squad. Known for his humor and technical skill, he fought in some of the Clone Wars' most dangerous operations and later became entangled in Imperial programs targeting rogue clones."
+
+REFERENCE           SEV
+LANG_ENGLISH        "RC-1207, or 'Sev', was Delta Squad's sniper and a fierce warrior with a grim sense of humor. During a mission on Kashyyyk, Sev was separated from his squad and declared missing in action, with his ultimate fate left unknown."
+
+REFERENCE           SHAAK_TI
+LANG_ENGLISH        "A Togruta Jedi Master from Shili, Shaak Ti was a calm and contemplative figure who played key roles in battles across the Clone Wars. She oversaw the training of clones on Kamino and met her end during the Jedi Purge, with varying accounts of her final moments."
+
+REFERENCE           SHAKKRA_KIEN
+LANG_ENGLISH        "A lesser-known but skilled Jedi Knight, Shakkra Kien served during the Clone Wars. Though records of her exploits are sparse, she was among the many Jedi who fought valiantly to defend the Republic during its darkest days."
+
+REFERENCE           SORA_BULQ
+LANG_ENGLISH        "A Weequay Jedi Master and expert in lightsaber combat, Sora Bulq trained many Jedi in Form VII. Disillusioned with the Jedi Council, he fell to the dark side and aligned with Count Dooku, becoming a leader in the Separatist cause before being killed by Quinlan Vos."
+
+REFERENCE           SERRA_KETO
+LANG_ENGLISH        "A promising human Jedi Knight trained under Cin Drallig, Serra Keto was known for her fierce spirit and dual lightsaber technique. She defended the Jedi Temple during Anakin Skywalker's assault but was ultimately slain in battle."
+
+REFERENCE           STASS_ALLIE
+LANG_ENGLISH        "A Tholothian Jedi Master and cousin of Adi Gallia, Stass Allie served on the Jedi Council and fought in the Clone Wars. While on a mission to Saleucami, she was killed when her clone troopers turned on her during the execution of Order 66."
+
+REFERENCE           TARADOS_GON
+LANG_ENGLISH        "A Klatooinian Jedi Master, Tarados Gon was a skilled warrior who fought in the Battle of Geonosis. Loyal and brave, he served in the early Clone Wars and died in combat, one of many Jedi lost in the conflict's opening battles."
+
+REFERENCE           TERA_SINUBE
+LANG_ENGLISH        "An ancient Cosian Jedi Master, Tera Sinube was a patient teacher and keeper of the Jedi Archives. He guided younglings in wisdom and justice, aiding Ahsoka Tano in recovering her lightsaber. He was eventually captured and killed during the rise of the Empire."
+
+REFERENCE           THONGLA_JUR
+LANG_ENGLISH        "A heroic Jedi Knight of the Clone Wars, Thongla Jur fought with valor in defense of the Republic. Though little is recorded about his deeds, his legacy endures among the fallen defenders of peace during the Jedi Purge."
+
+REFERENCE           TIPLAR
+LANG_ENGLISH        "A Mikkian Jedi General, Tiplar served alongside her twin sister Tiplee during the Clone Wars. She was killed suddenly by clone trooper Tup due to a malfunctioning inhibitor chip, a grim foreshadowing of the tragedy of Order 66."
+
+REFERENCE           TIPLEE
+LANG_ENGLISH        "Tiplee, twin sister of Tiplar, was a Mikkian Jedi Master who served in several major Clone Wars battles. After her sister's death, she continued fighting for the Republic and was later slain by Count Dooku during a confrontation with the Sith Lord."
+
+REFERENCE           TSUI_CHOI
+LANG_ENGLISH        "A diminutive Aleena Jedi Master, Tsui Choi was known for his incredible agility and strength in the Force. Surviving the initial Jedi Purge, he continued to resist the Empire before being killed by Darth Vader during a final stand."
+
+REFERENCE           YADDLE
+LANG_ENGLISH        "A member of the same mysterious species as Yoda, Yaddle was a wise and gentle Jedi Master who served on the High Council. Known for her deep knowledge of the Force and compassion, she later stepped down from the Council and died confronting Count Dooku during the rise of the Sith."
+
+REFERENCE           YARAEL_POOF
+LANG_ENGLISH        "A Quermian Jedi Master, Yarael Poof was known for his powerful mind tricks and diplomatic abilities. He served on the Jedi High Council during the final days of the Republic but died before the Clone Wars while preventing a catastrophic attack on Coruscant."
+
+REFERENCE           YODA
+LANG_ENGLISH        "One of the most powerful and revered Jedi Masters in galactic history, Yoda served the Order for over 800 years. Wise, patient, and deeply attuned to the Force, he led the Jedi through the Clone Wars and into exile after their fall, guiding future generations from the shadows."
+
+REFERENCE           YOUNGLING
+LANG_ENGLISH        "Force-sensitive children undergoing early training in the Jedi Temple. Guided by Masters in lightsaber combat and the Force, many younglings perished during Order 66, victims of the Empire's brutal purge."
+
+REFERENCE           ZETT_JUKASSA
+LANG_ENGLISH        "A young Jedi Padawan trained in the Jedi Temple, Zett Jukassa fought bravely during the assault on the Temple led by Anakin Skywalker. Despite his youth, he attempted to protect escaping Jedi and civilians, but was killed by clone troopers during Order 66."
+
+REFERENCE 			FALON_GREY
+LANG_ENGLISH 		"A former Jedi Knight of the Old Republic era, Falon Grey left the Order to serve the Galactic Republic as a covert agent. Skilled in diplomacy and strategy, he worked behind the scenes during the Republic-Sith conflict, proving that the Force could be wielded without allegiance to the Jedi."
+
+REFERENCE 			DEATH_WATCH
+LANG_ENGLISH 		"A militant Mandalorian faction, Death Watch opposed the pacifist New Mandalorians and sought to restore Mandalore's warrior traditions. Active during the final years of the Republic, they allied with Sith and criminal forces, plunging Mandalore into chaos and civil war."
+
+//----------------------------------------------------------
+// 	h4: SEPARATIST
+//----------------------------------------------------------
+
+REFERENCE           ASAJJ_VENTRESS
+LANG_ENGLISH        "A Dathomirian Nightsister and former Jedi Padawan, Asajj Ventress became a deadly Sith assassin under Count Dooku. Betrayed by her master, she sought her own path, working as a bounty hunter and ultimately sacrificing herself to save Quinlan Vos, seeking redemption in her final act."
+
+REFERENCE           B1_BATTLE_DROID
+LANG_ENGLISH        "Mass-produced by the Separatists, B1 Battle Droids formed the bulk of the droid army. Easily manufactured and expendable, they were known for their poor aim and comic incompetence, but their sheer numbers made them a constant threat during the Clone Wars."
+
+REFERENCE           B2_SUPER_BATTLE_DROID
+LANG_ENGLISH        "An upgraded model of the B1, B2 Super Battle Droids were bulkier, stronger, and lacked the need for external command units. Heavily armored and equipped with wrist blasters, they posed a greater challenge to Republic forces throughout the Clone Wars."
+
+REFERENCE           CAD_BANE
+LANG_ENGLISH        "A ruthless Duros bounty hunter, Cad Bane was one of the galaxy's deadliest mercenaries during the Clone Wars. Known for his cunning, gadgets, and fearlessness, he worked for major clients including the Separatists and Jabba the Hutt, often outwitting Jedi and clones alike."
+
+REFERENCE           CLONE_ASSASSIN
+LANG_ENGLISH        "Clone Assassins were elite operatives bred for secrecy and silent execution. Used by the Republic and later the Empire, they were deployed in covert operations and Jedi purges, operating without question and eliminating targets with lethal efficiency."
+
+REFERENCE           COUNT_DOOKU
+LANG_ENGLISH        "Once a respected Jedi Master, Count Dooku fell to the dark side and became Darth Tyranus, apprentice to Darth Sidious. He led the Separatist Alliance during the Clone Wars, orchestrating chaos across the galaxy. His death at Anakin's hands marked a turning point in the Sith's rise."
+
+REFERENCE           DARTH_MAUL
+LANG_ENGLISH        "A Zabrak warrior trained by Darth Sidious, Darth Maul was thought killed after his duel with Obi-Wan Kenobi. Surviving through hatred, he returned with vengeance, forming criminal empires and waging war against Jedi and Sith alike, seeking revenge until his final confrontation with Kenobi."
+
+REFERENCE           DARTH_PLAGUESIS
+LANG_ENGLISH        "A Sith Lord obsessed with immortality, Darth Plagueis was the master of Darth Sidious. His deep knowledge of the dark side allowed him to manipulate life and death, but his ambition blinded him to betrayal—he was ultimately murdered in his sleep by his own apprentice."
+
+REFERENCE           DARTH_SIDIOUS
+LANG_ENGLISH        "Born as Sheev Palpatine on Naboo, Darth Sidious was a Sith Lord who manipulated his way to power as Supreme Chancellor of the Republic. Operating in secret for decades, he orchestrated the fall of the Jedi, the rise of the Galactic Empire, and ruled the galaxy as Emperor with dark mastery over the Force."
+
+REFERENCE           DROIDEKA
+LANG_ENGLISH        "Also known as Destroyer Droids, Droidekas were deadly rolling machines equipped with twin blasters and personal energy shields. Used by the Separatists, they were formidable foes, capable of overwhelming Jedi and clone squads with sheer firepower and defense."
+
+REFERENCE           DURGE
+LANG_ENGLISH        "A nearly indestructible Gen'Dai bounty hunter, Durge fought for the Separatists during the Clone Wars. Possessing regenerative abilities and centuries of combat experience, he harbored a deep hatred for Mandalorians and clashed with Jedi in brutal encounters."
+
+REFERENCE           EMBO
+LANG_ENGLISH        "A Kyuzo bounty hunter known for his stoic demeanor and lethal skill, Embo was among the most respected hunters of the Clone Wars. Using his wide-brimmed hat as a shield and weapon, he served various clients, often guided by his own sense of honor."
+
+REFERENCE           GENERAL_GRIEVOUS
+LANG_ENGLISH        "A fearsome cyborg and Supreme Commander of the Separatist droid army, General Grievous was trained in lightsaber combat by Count Dooku. He collected the sabers of fallen Jedi and was infamous for his brutality across the Clone Wars. He was ultimately defeated by Obi-Wan Kenobi on Utapau."
+
+REFERENCE           HONDO_OHNAKA
+LANG_ENGLISH        "A charismatic Weequay pirate, Hondo Ohnaka led the Ohnaka Gang on Florrum. Known for his wit, unpredictability, and opportunism, he often clashed with Jedi and Sith alike but occasionally aided them when it suited him. Despite his greed, he had a peculiar code of honor."
+
+REFERENCE           JANGO_FETT
+LANG_ENGLISH        "A legendary Mandalorian bounty hunter, Jango Fett was chosen as the genetic template for the Republic's clone army. He demanded an unaltered clone as payment—his 'son', Boba Fett. Jango was killed in battle by Mace Windu during the First Battle of Geonosis."
+
+REFERENCE           LORD_VADER
+LANG_ENGLISH        "Once the Jedi Knight Anakin Skywalker, Lord Vader became the enforcer of the Galactic Empire after pledging himself to Darth Sidious. As a Sith Lord, he hunted down surviving Jedi and crushed resistance across the galaxy, becoming a symbol of fear and oppression."
+
+REFERENCE           MAGNAGUARD
+LANG_ENGLISH        "IG-100 MagnaGuards were advanced droids employed by General Grievous. Programmed to duel Jedi, they wielded electrostaffs capable of blocking lightsabers. These relentless bodyguards could continue fighting even after losing limbs or sustaining heavy damage."
+
+REFERENCE           MOTHER_TALZIN
+LANG_ENGLISH        "Matriarch of the Nightsisters, Mother Talzin was a powerful dark side sorceress from Dathomir. She wielded ancient magicks and manipulated galactic events from the shadows. A rival of Darth Sidious, she sought vengeance through her son, Savage Opress, and fell in a clash with the Sith."
+
+REFERENCE           NEIMOIDIAN_GUARD
+LANG_ENGLISH        "The Neimoidian Guard served as the armed security force of the Trade Federation. Armed with blaster rifles and clad in distinctive armor, they protected key leaders like Nute Gunray and enforced order aboard Federation vessels and installations."
+
+REFERENCE           NEIMOIDIAN_BRUTE
+LANG_ENGLISH        "Larger and more physically imposing than standard Neimoidians, Neimoidian Brutes served as enforcers and shock troopers for the Trade Federation. Rarely seen in command roles, they were employed for intimidation and brute strength during military operations."
+
+REFERENCE           NUTE_GUNRAY
+LANG_ENGLISH        "Viceroy of the Trade Federation, Nute Gunray played a pivotal role in the rise of the Separatists. Ambitious and cowardly, he conspired with Darth Sidious in the blockade of Naboo and remained a puppet leader throughout the Clone Wars. He was executed by Darth Vader on Mustafar."
+
+REFERENCE           SAVAGE_OPRESS
+LANG_ENGLISH        "A Dathomirian Zabrak transformed by dark magicks, Savage Opress was the brother of Darth Maul and apprentice to Count Dooku. Empowered by Mother Talzin, he turned against his master and waged war alongside Maul. His strength was immense, but he ultimately fell to Darth Sidious."
+
+REFERENCE           SHU_MAI
+LANG_ENGLISH        "President of the Commerce Guild, Shu Mai was a Separatist leader who supported Count Dooku during the Clone Wars. Focused on profit and industry, she provided resources and troops for the war effort. She was executed by Darth Vader during the purge of the Separatist Council."
+
+REFERENCE           TUSKAN_RAIDER
+LANG_ENGLISH        "Also known as Sand People, Tusken Raiders were nomadic warriors native to Tatooine. Fiercely territorial and hostile to outsiders, they lived in clans and upheld ancient traditions. Feared by settlers, they played a tragic role in shaping Anakin Skywalker's destiny."
+
+REFERENCE           WAT_TAMBOR
+LANG_ENGLISH        "Foreman of the Techno Union, Wat Tambor supplied the Separatists with advanced weaponry and droids. Encased in a pressurized suit, he oversaw brutal experiments and occupations during the Clone Wars. Like his fellow council members, he was executed on Mustafar by Darth Vader."
+
+REFERENCE 			DEATH_WATCH_MAUL
+LANG_ENGLISH 		"Following the rise of Darth Maul, a faction of Death Watch pledged loyalty to the former Sith Lord after his seizure of Mandalore. These Mandalorians served as enforcers of Maul's rule, helping to overthrow Duchess Satine and install him as ruler before the group fractured amid internal betrayal and civil war."
+
+REFERENCE 			PRE_VIZSLA
+LANG_ENGLISH 		"A Mandalorian warlord and leader of Death Watch, Pre Vizsla wielded the Darksaber in his campaign to reclaim Mandalore's warrior legacy. He allied with Darth Maul to overthrow the New Mandalorians, only to be challenged and slain by Maul in single combat, losing both leadership and the Darksaber."
+
+
+//----------------------------------------------------------
+// 	h5: REBELS
+//----------------------------------------------------------
+
+REFERENCE           A_SHARAD_HETT  
+LANG_ENGLISH        "A Jedi Knight raised among Tusken Raiders, A'Sharad Hett survived the Clone Wars and the Jedi Purge. Struggling with identity and loss, he later fell to the dark side and became Darth Krayt, founding the One Sith and seeking to reshape the galaxy under his rule."
+
+REFERENCE           ADMIRAL_ACKBAR  
+LANG_ENGLISH        "A brilliant tactician of the Mon Calamari species, Admiral Ackbar led the Rebel fleet in many key battles, including the pivotal assault on the second Death Star. Known for his strategic genius and iconic warning, he remained a loyal defender of the New Republic until his death in the war against the First Order."
+
+REFERENCE           BAIL_ORGANA  
+LANG_ENGLISH        "Senator of Alderaan and a founding member of the Rebel Alliance, Bail Organa worked covertly to oppose the Empire. A close ally to the Jedi, he adopted Leia as his daughter and helped lay the foundation for future resistance. He perished when Alderaan was destroyed by the Death Star."
+
+REFERENCE           BAZE_MALBUS  
+LANG_ENGLISH        "A hardened warrior and protector of Jedha's sacred traditions, Baze Malbus once served as a Guardian of the Whills. Though disillusioned with faith, he remained loyal to his friend Chirrut Îmwe and fought bravely during the mission to steal the Death Star plans on Scarif."
+
+REFERENCE           BEN_KENOBI  
+LANG_ENGLISH        "Once known as Obi-Wan Kenobi, the Jedi Master took the name 'Ben' while hiding on Tatooine. Watching over Luke Skywalker from afar, he lived in exile until called to action. Though burdened by past failures, he guided the next generation with wisdom and sacrifice."
+
+REFERENCE           BESPIN_SECURITY  
+LANG_ENGLISH        "Bespin Security forces served under Lando Calrissian to maintain order in Cloud City. Equipped with blasters and distinctive uniforms, they helped protect the city's operations and were drawn into the conflict during the Empire's occupation of the gas mining facility."
+
+REFERENCE           BODHI_ROOK  
+LANG_ENGLISH        "An Imperial cargo pilot who defected to the Rebellion, Bodhi Rook was instrumental in delivering the message from Galen Erso that revealed the Death Star's weakness. Despite his fear, he found courage and gave his life during the mission to secure the plans on Scarif."
+
+REFERENCE           C3PO  
+LANG_ENGLISH        "A protocol droid fluent in over six million forms of communication, C-3PO was built by Anakin Skywalker and became a constant companion to the Skywalker family. Often anxious yet loyal, he played key roles in diplomatic missions and galactic conflicts across decades."
+
+REFERENCE           CADE_SKYWALKER  
+LANG_ENGLISH        "A descendant of Luke Skywalker, Cade was a rogue Force-sensitive who turned away from the Jedi Order after trauma and loss. Becoming a bounty hunter and self-medicating his pain, he eventually embraced his destiny to confront the Sith and redeem the Skywalker legacy in a dark era."
+
+REFERENCE           CAL_KESTIS  
+LANG_ENGLISH        "A Jedi Padawan who survived Order 66, Cal Kestis lived in hiding until events forced him to confront the Empire. With the help of allies, he sought to restore the Jedi Order, battling Inquisitors and uncovering ancient secrets while resisting the darkness within himself."
+
+REFERENCE           CALEB_DUME  
+LANG_ENGLISH        "Once a Jedi Padawan, Caleb Dume survived the Purge and assumed the name Kanan Jarrus. Hiding his identity for years, he eventually joined the Rebellion and trained Ezra Bridger, sacrificing himself in the fight for Lothal and leaving a legacy of hope and mentorship."
+
+REFERENCE           CAPTAIN_REX_OT  
+LANG_ENGLISH        "A respected clone trooper and leader of the 501st Legion, Captain Rex fought alongside Anakin Skywalker and Ahsoka Tano during the Clone Wars. He removed his control chip to resist Order 66 and later joined the Rebellion, continuing to fight for freedom in the galaxy."
+
+REFERENCE           CASSIAN_ANDOR  
+LANG_ENGLISH        "A seasoned intelligence officer and spy, Cassian Andor served the Rebellion with unwavering dedication. Shaped by years of covert warfare, he played a pivotal role in obtaining the Death Star plans. His early sacrifices laid the groundwork for future victories against the Empire."
+
+REFERENCE           CHEWBACCA  
+LANG_ENGLISH        "A towering Wookiee from Kashyyyk, Chewbacca was Han Solo's loyal co-pilot and a hero of the Rebellion. Brave, strong, and deeply honorable, he fought against tyranny from the Clone Wars through the Resistance, becoming a beloved figure across the galaxy."
+
+REFERENCE           CHIRRUT_IMWE  
+LANG_ENGLISH        "A blind warrior-monk from Jedha, Chirrut Îmwe was deeply devoted to the Force despite not being a Jedi. With extraordinary combat skills and unshakable faith, he aided the Rogue One team on Scarif, sacrificing himself to help transmit the Death Star plans."
+
+REFERENCE           EZRA_BRIDGER  
+LANG_ENGLISH        "A Force-sensitive orphan from Lothal, Ezra Bridger joined the Ghost crew and trained under Kanan Jarrus. He matured into a skilled Jedi and leader, ultimately sacrificing himself by disappearing into hyperspace with Grand Admiral Thrawn to save his planet from Imperial occupation."
+
+REFERENCE           GALEN_MAREK  
+LANG_ENGLISH        "Codenamed Starkiller, Galen Marek was the secret apprentice of Darth Vader, trained to hunt Jedi. Struggling with his identity, he turned against the Empire and helped ignite the Rebel Alliance. His power and redemption left a lasting legacy in the fight for freedom."
+
+REFERENCE           GNK_DROID  
+LANG_ENGLISH        "Known colloquially as 'Gonk droids', GNK power droids served as portable energy units across the galaxy. Though slow-moving and simple, their reliability made them a common sight in military and industrial environments, silently powering critical systems."
+
+REFERENCE           HAN_SOLO  
+LANG_ENGLISH        "Once a smuggler and rogue, Han Solo became a hero of the Rebel Alliance. Known for his quick wit and flying skills, he piloted the Millennium Falcon through countless battles. Though reluctant at first, his loyalty and bravery helped turn the tide against the Empire."
+
+REFERENCE           HERA_SYNDULLA  
+LANG_ENGLISH        "A skilled pilot and leader from Ryloth, Hera Syndulla captained the Ghost and fought tirelessly for the Rebellion. Known for her tactical brilliance and strong moral compass, she played a key role in forming the Rebel Alliance and later became a general in the New Republic."
+
+REFERENCE           JAN_ORS  
+LANG_ENGLISH        "An elite operative for the Rebel Alliance, Jan Ors worked alongside Kyle Katarn on high-risk missions. Skilled in infiltration and combat, she provided critical intelligence and support in the early days of the Rebellion, helping secure vital victories against the Empire."
+
+REFERENCE           JARO_TAPAL  
+LANG_ENGLISH        "A Lasat Jedi Master and mentor to Cal Kestis, Jaro Tapal was a fierce and disciplined warrior during the Clone Wars. He died defending his Padawan during Order 66, instilling in Cal the strength to survive and eventually confront the Empire."
+
+REFERENCE           JEDI_MASTER  
+LANG_ENGLISH        "Jedi Masters represented the highest rank within the Jedi Order, known for their wisdom, mastery of the Force, and leadership. Many sat on the Jedi High Council, shaping galactic policy and mentoring the next generation of Jedi in the pursuit of peace."
+
+REFERENCE           JEDI_TRAINER  
+LANG_ENGLISH        "Jedi Trainers guided younglings and Padawans in their early development, instructing them in lightsaber techniques, Force control, and Jedi philosophy. Their teachings were foundational to the Order, instilling discipline and purpose in future Jedi."
+
+REFERENCE           JYN_ERSO  
+LANG_ENGLISH        "The daughter of Imperial scientist Galen Erso, Jyn became a reluctant hero of the Rebellion. Hardened by a life of loss and secrecy, she led the Rogue One mission to steal the Death Star plans, giving her life so the Rebellion could strike a decisive blow."
+
+REFERENCE           K2SO  
+LANG_ENGLISH        "A reprogrammed Imperial security droid, K-2SO served the Rebellion with dry wit and unwavering loyalty. Partnered with Cassian Andor, he played a crucial role in the mission to Scarif, sacrificing himself to ensure the success of the Death Star data transmission."
+
+REFERENCE           KANAN_JARRUS  
+LANG_ENGLISH        "Born Caleb Dume, Kanan Jarrus survived Order 66 and hid his Jedi identity for years. He later joined the Ghost crew and trained Ezra Bridger, rediscovering his purpose. Kanan ultimately sacrificed himself to save his family, cementing his legacy in the Rebellion."
+
+REFERENCE           KENTO_MAREK  
+LANG_ENGLISH        "A former Jedi Knight, Kento Marek went into hiding after Order 66. He was eventually found and killed by Darth Vader, who then took his son, Galen Marek, as his secret apprentice. Kento's death set the stage for Starkiller's conflicted destiny."
+
+REFERENCE           KOTAS_MILITIA  
+LANG_ENGLISH        "Formed by General Rahm Kota, this militia was composed of seasoned fighters unaffiliated with the Clone Army. Loyal to the Jedi cause, they resisted Imperial rule and provided critical support during early uprisings against the Empire."
+
+REFERENCE           KYLE_KATARN  
+LANG_ENGLISH        "A former Imperial officer turned mercenary, Kyle Katarn discovered his Force sensitivity and became a Jedi. He was instrumental in recovering the Death Star plans and later trained new Jedi while confronting the dark side within himself and the galaxy."
+
+REFERENCE           LANDO_CALRISSIAN  
+LANG_ENGLISH        "A charismatic gambler, smuggler, and entrepreneur, Lando Calrissian became a hero of the Rebellion after helping save Cloud City and destroy the second Death Star. Known for his charm and style, he remained a key figure in the galaxy's fight for freedom."
+
+REFERENCE           LEIA_ORGANA  
+LANG_ENGLISH        "Princess of Alderaan, senator, and Rebel leader, Leia Organa was a fierce and compassionate warrior. Trained briefly as a Jedi and strong in the Force, she played a vital role in defeating both the Empire and the First Order, preserving hope across generations."
+
+REFERENCE           LUKE_SKYWALKER  
+LANG_ENGLISH        "A farm boy from Tatooine, Luke Skywalker rose to become one of the most legendary Jedi. Trained by Obi-Wan and Yoda, he redeemed his father and helped defeat the Emperor. He later sought to rebuild the Jedi Order and guide the next generation of Force users."
+
+REFERENCE           MARA_JADE  
+LANG_ENGLISH        "Once an Emperor's Hand, Mara Jade was a deadly assassin loyal to Palpatine. After the Empire's fall, she reformed and became a Jedi Master, eventually marrying Luke Skywalker. Her journey from darkness to light made her a complex and powerful figure in Jedi history."
+
+REFERENCE           MON_MOTHMA  
+LANG_ENGLISH        "A respected senator and fierce critic of the Emperor, Mon Mothma became the political leader of the Rebel Alliance. She organized resistance efforts and later served as Chancellor of the New Republic, dedicating her life to democracy and peace in the galaxy."
+
+REFERENCE           NIEN_NUNB  
+LANG_ENGLISH        "A skilled Sullustan pilot, Nien Nunb co-piloted the Millennium Falcon alongside Lando Calrissian during the Battle of Endor. He continued to serve the New Republic and Resistance, fighting bravely in key battles against the Empire and First Order."
+
+REFERENCE           QU_RAHN  
+LANG_ENGLISH        "A wise Jedi Master who survived the Purge, Qu Rahn guided Kyle Katarn from beyond the grave. A student of the living Force, he fought against the dark side in his final years and left behind knowledge vital to the rebirth of the Jedi Order."
+
+REFERENCE           R2D2  
+LANG_ENGLISH        "An astromech droid with unmatched bravery and loyalty, R2-D2 served Padmé Amidala, Anakin Skywalker, and later the Rebel Alliance. From carrying secret plans to repairing starships mid-battle, his actions shaped the course of galactic history across eras."
+
+REFERENCE           RAHM_KOTA  
+LANG_ENGLISH        "A battle-hardened Jedi General, Rahm Kota refused to use clone troopers, which spared him from Order 66. After surviving an attack by Darth Vader's apprentice, he became a mentor to Galen Marek, reigniting his faith in the Force and the fight against the Empire."
+
+REFERENCE           REBEL_ALLIANCE_TROOPER  
+LANG_ENGLISH        "Soldiers of the Rebel Alliance came from diverse backgrounds to resist Imperial tyranny. Armed with blasters and resolve, these troopers fought bravely on battlefronts such as Scarif, Hoth, and Endor, sacrificing much for the hope of a free galaxy."
+
+REFERENCE           REBEL_ALLIANCE_PILOT  
+LANG_ENGLISH        "Pilots of the Rebel Alliance flew starfighters in critical missions against the Empire. Skilled and courageous, they engaged in battles such as Yavin and Endor, delivering decisive blows with unmatched determination and sacrifice."
+
+REFERENCE           ROSH_PENIN  
+LANG_ENGLISH        "A Jedi student at Luke Skywalker's academy, Rosh Penin struggled with his training and emotions. His wavering loyalty led him to briefly serve the dark side, but he ultimately sought redemption and rejoined the fight against the Sith."
+
+REFERENCE           SABINE_WREN  
+LANG_ENGLISH        "A Mandalorian warrior and graffiti artist, Sabine Wren was a former Imperial cadet who joined the Ghost crew. Skilled with explosives and lightsabers, she helped liberate Lothal and later searched the galaxy for Ezra Bridger alongside Ahsoka Tano."
+
+REFERENCE           YUN  
+LANG_ENGLISH        "A Dark Jedi in the service of Jerec, Yun displayed compassion despite his allegiance. After being defeated by Kyle Katarn, he chose to aid the Jedi at the cost of his own life, proving that even those who fall can find redemption."
+
+REFERENCE 			CORRAN_HORN
+LANG_ENGLISH 		"A Corellian pilot turned Jedi Knight, Corran Horn served with Rogue Squadron before discovering his connection to the Force. Trained during the New Republic era, he became known for his unconventional Force abilities, later helping to rebuild the Jedi Order under Luke Skywalker."	
+
+REFERENCE 			TOBIAS_BECKETT
+LANG_ENGLISH 		"A seasoned mercenary and thief, Tobias Beckett survived by trusting no one but his crew. Operating on the fringes of the growing rebellion, he embodied the harsh reality of life under Imperial rule, where loyalty was often fatal."
+
+REFERENCE 			JO_NA_NAWOOD
+LANG_ENGLISH 		"An Aldhani chieftain, Jo Na Nawood led the Dhanis while preserving their cultural traditions under Imperial occupation. His quiet resistance reflected the slow erosion of local autonomy as the Empire tightened its control."
+
+REFERENCE 			LUTHEN_RAEL
+LANG_ENGLISH 		"A covert revolutionary operating under multiple identities, Luthen Rael orchestrated rebel activity against the Galactic Empire from the shadows. Willing to sacrifice morality and lives alike, he became a key architect of the early Rebellion."
+
+
+//----------------------------------------------------------
+// 	h6: EMPIRE
+//----------------------------------------------------------
+
+REFERENCE           ALORA  
+LANG_ENGLISH        "An ambitious Dark Side apprentice, Alora trained under Tavion during the rise of the Disciples of Ragnos. Skilled and ruthless, she sought power at any cost, ultimately clashing with Jedi Knight Jaden Korr in her pursuit of ancient Sith strength."
+
+REFERENCE           BAYLAN_SKOLL  
+LANG_ENGLISH        "A former Jedi turned mercenary, Baylan Skoll survived the Purge and grew disillusioned with the Jedi Order. As a Force-wielder with a mysterious agenda, he sought a new balance beyond light and dark, forging his own path amidst a galaxy in turmoil."
+
+REFERENCE           BOBA_FETT  
+LANG_ENGLISH        "The unaltered clone of Jango Fett, Boba Fett became one of the galaxy's most feared bounty hunters. Surviving the Sarlacc, he reclaimed his armor and forged a new legacy on Tatooine, balancing ruthless efficiency with a newfound sense of honor."
+
+REFERENCE           BOC  
+LANG_ENGLISH        "A deranged Dark Jedi serving under Jerec, Boc was known for his manic behavior and dual lightsaber combat. Despite his erratic nature, he posed a deadly threat to Kyle Katarn before ultimately falling in battle during the fight for the Valley of the Jedi."
+
+REFERENCE           BOSSK  
+LANG_ENGLISH        "A Trandoshan bounty hunter with a hatred for Wookiees, Bossk was feared across the galaxy for his brutal tactics. Frequently seen working alongside the galaxy's most notorious hunters, he pursued high-value targets during the Clone Wars and Galactic Civil War."
+
+REFERENCE           DEATH_TROOPER  
+LANG_ENGLISH        "Elite soldiers of the Empire, Death Troopers were deployed for high-level missions, serving as bodyguards and enforcers for Imperial officers like Director Krennic. Clad in black armor and equipped with advanced gear, they struck fear into Rebel forces."
+
+REFERENCE           DARK_TROOPER  
+LANG_ENGLISH        "Dark Troopers were advanced battle droids developed by the Empire, equipped with heavy armor and powerful weaponry. Designed to overwhelm infantry with brute force, they represented the pinnacle of Imperial military engineering in their era."
+
+REFERENCE           DARTH_DESOLOUS  
+LANG_ENGLISH        "Once a Jedi, Darth Desolous turned to the dark side and raised a brutal army against the Jedi Order. A master of melee combat and strategy, he was ultimately defeated, but his memory endured as a deadly holographic opponent in Sith training programs."
+
+REFERENCE           DARTH_KRAYT  
+LANG_ENGLISH        "Born A'Sharad Hett, a former Jedi and Tusken Raider, he became Darth Krayt after embracing the dark side. Founder of the One Sith, he sought to reshape the galaxy under his rule, blending ancient Sith traditions with new philosophies of control."
+
+REFERENCE           DARTH_PHOBOS  
+LANG_ENGLISH        "A seductive and manipulative Sith Lord, Darth Phobos thrived on fear and deception. Though long dead, her terrifying presence lived on through Sith training simulations, challenging apprentices with illusions and psychological warfare."
+
+REFERENCE           DARTH_TALON  
+LANG_ENGLISH        "A loyal servant of Darth Krayt, Darth Talon was a skilled and deadly Sith assassin. Recognizable by her red skin and black tattoos, she enforced Krayt's will across the galaxy and became a symbol of fear during the rise of the One Sith."
+
+REFERENCE           DARTH_VADER  
+LANG_ENGLISH        "Once Anakin Skywalker, a Jedi Knight and hero of the Clone Wars, he was seduced by the dark side and became Darth Vader. As the Emperor's enforcer, he hunted down Jedi and crushed rebellion, until the love for his son brought about his redemption."
+
+REFERENCE           DESANN  
+LANG_ENGLISH        "A former Jedi who embraced the dark side, Desann became a formidable Sith aligned with the Empire Reborn. Towering in stature and power, he sought to recreate the Sith's strength through dark experiments, clashing with Kyle Katarn in a decisive duel."
+
+REFERENCE           DIRECTOR_ORSON_KRENNIC  
+LANG_ENGLISH        "Director Orson Krennic was the ruthless Imperial officer overseeing the Death Star project. Ambitious and cunning, he sought to secure power within the Empire by ensuring the superweapon's completion, clashing with both Rebels and rival Imperial leaders."
+
+REFERENCE           EMPEROR_PALPATINE  
+LANG_ENGLISH        "Also known as Darth Sidious, Emperor Palpatine was the dark mastermind behind the fall of the Republic. Manipulating political and Sith power, he ruled the galaxy with fear and tyranny until his final defeat by Luke Skywalker and Anakin's redemption."
+
+REFERENCE           GALAK_FYYAR  
+LANG_ENGLISH        "A mercenary and bounty hunter, Galak Fyyar was known for his relentless pursuit of targets and allegiance to dark forces. His violent nature made him a feared figure in the Outer Rim, frequently crossing paths with Jedi and criminals alike."
+
+REFERENCE           GAMORREAN_GUARD  
+LANG_ENGLISH        "Brutish and loyal, Gamorrean Guards served as fearsome enforcers within the criminal underworld and Imperial facilities. Their raw strength and intimidating presence made them formidable bodyguards, especially in Jabba the Hutt's palace."
+
+REFERENCE           GORC  
+LANG_ENGLISH        "Gorc was a Force-sensitive Gamorrean who served Jabba the Hutt before being betrayed to the Galactic Empire and mutated into Sithspawn. He formed a Force-linked bond with Pic, and together they were known as the 'Brothers of the Sith', serving the Dark Jedi Inquisitor Jerec. Gorc was killed in 5 ABY by Kyle Katarn."
+
+REFERENCE           GRAND_ADMIRAL_THRAWN  
+LANG_ENGLISH        "A brilliant strategist and tactician, Grand Admiral Thrawn was one of the Empire's most feared commanders. Known for his calm demeanor and understanding of art, he used intellect and cunning to challenge the Rebel Alliance at every turn."
+
+REFERENCE           GRAND_MOFF_TARKIN  
+LANG_ENGLISH        "Governor of the Outer Rim and overseer of the Death Star, Grand Moff Tarkin was a ruthless Imperial leader. His doctrine of fear and decisive actions shaped the Empire's military strategy until his demise during the Battle of Yavin."
+
+REFERENCE           GREEDO  
+LANG_ENGLISH        "A Rodian bounty hunter notorious for his encounter with Han Solo in the Mos Eisley Cantina. Greedo's eagerness and reputation for taking dangerous jobs made him a persistent threat to smugglers and criminals in the galaxy."
+
+REFERENCE           HAZARDTROOPER  
+LANG_ENGLISH        "Elite Imperial infantry trained for hazardous environments, Hazardtroopers operated in extreme conditions with specialized gear. Their expertise in survival and combat made them key assets during high-risk missions for the Empire."
+
+REFERENCE           IMPERIAL_ROYAL_GUARD  
+LANG_ENGLISH        "Clad in striking red armor, the Imperial Royal Guards were elite protectors of Emperor Palpatine. Silent and deadly, their presence symbolized the Emperor's absolute power and they were trained in advanced combat and Force defense techniques."
+
+REFERENCE           IMPERIAL_SHADOW_GUARD  
+LANG_ENGLISH        "A secretive division of Imperial operatives, the Shadow Guard specialized in covert missions and assassinations. Their skills in stealth and infiltration made them invaluable tools of the Emperor's will across the galaxy."
+
+REFERENCE           IMPERIAL_WORKER  
+LANG_ENGLISH        "Imperial Workers maintained and operated the vast machinery of the Empire, from starship construction to base operations. Though often overlooked, their labor was essential to the efficiency and power of the Imperial war machine."
+
+REFERENCE           JEREC  
+LANG_ENGLISH        "Jerec was a powerful Miraluka Jedi Master and archaeologist who fell to the dark side and became a feared Imperial Inquisitor. Obsessed with Sith lore and the Valley of the Jedi, he sought ultimate power and to overthrow Palpatine and Vader. After the Emperor's death, Jerec briefly achieved immense power from the Valley but was ultimately defeated and killed by Kyle Katarn."
+
+REFERENCE           MAW  
+LANG_ENGLISH        "Maw was a Boltrunian Jedi who fell to the dark side and served Inquisitor Jerec in the search for the Valley of the Jedi. After losing his legs in a confrontation with Jedi Master Qu Rahn, he survived using a repulsorlift and became known as the 'Half-Man'. Maw was ultimately defeated and killed by Kyle Katarn on Ruusan."
+
+REFERENCE           MOFF_GIDEON  
+LANG_ENGLISH        "A ruthless Imperial officer, Moff Gideon rose to power in the remnants of the Empire. Skilled in strategy and combat, he wields the Darksaber and commands elite forces, seeking to restore Imperial dominance amid the galaxy's chaos."
+
+REFERENCE           PIC  
+LANG_ENGLISH        "Picaroon C. Boodle, known as Pic, was a mutated Kowakian monkey-lizard and one of Inquisitor Jerec's Dark Jedi, bonded through the Force with his 'brother' Gorc. Enhanced by Imperial experiments, the pair became a deadly combination of speed and strength. After Gorc was killed by Kyle Katarn in 5 ABY, Pic attacked in a rage and was also slain."
+
+REFERENCE           REBORN  
+LANG_ENGLISH        "The Reborn were the deadly force of the Dark Jedi. They were the result of the fulfillment of the dream of artificially transferring the Force to individuals and a tool of Lord Hethrir's grand plan to restore the ideals of Emperor Palpatine, the ways of the Sith, and the Galactic Empire itself. They served under Desann and were later used by his apprentice, Tavion."
+
+REFERENCE           PURGE_TROOPER  
+LANG_ENGLISH        "Elite Imperial soldiers trained specifically to hunt down and eliminate surviving Jedi after Order 66. Equipped with advanced armor and weapons, Purge Troopers are relentless and feared across the galaxy."
+
+REFERENCE           RAX_JORIS  
+LANG_ENGLISH        "Rax Joris was a corrupt Imperial Remnant prison warden on Dosuun who cruelly hunted escaped prisoners for sport. In 14 ABY, he captured Jedi Jaden Korr and attempted the same game, taunting and attacking him with a concussion rifle. Joris was ultimately defeated by Korr, who reclaimed his lightsaber."
+
+REFERENCE           ROCKETTROOPER  
+LANG_ENGLISH        "Specialized Imperial infantry equipped with jetpacks and heavy weaponry, Rockettroopers excelled in rapid assault and battlefield disruption. Their mobility and firepower made them formidable enemies in open combat."
+
+REFERENCE           ROYAL_COMBAT_GUARD  
+LANG_ENGLISH        "Elite warriors trained to protect Imperial royalty and key leaders. Wearing imposing armor and wielding advanced weapons, the Royal Combat Guards combine martial prowess with unwavering loyalty to the Empire."
+
+REFERENCE           SABER_TRAINING_DROID  
+LANG_ENGLISH        "Automated droids designed to help Jedi apprentices practice lightsaber combat. Equipped with sensors and adaptive programming, these droids simulate various fighting styles to hone the skills of Jedi trainees."
+
+REFERENCE           FORCE_TRAINING_DROID  
+LANG_ENGLISH        "Droids created to assist Force-sensitive students in developing their abilities. These training units provide challenges and feedback tailored to the user's skill level, accelerating mastery of Force powers."
+
+REFERENCE           SABOTEUR  
+LANG_ENGLISH        "Imperial Saboteurs were elite Imperial Remnant soldiers trained in stealth, sabotage, and demolitions. Equipped with advanced weapons and stealth field generators, they could operate nearly invisibly behind enemy lines. During the Galactic Civil War, they conducted missions across the galaxy and sometimes worked alongside stormtroopers for the Disciples of Ragnos."
+
+REFERENCE           SARISS  
+LANG_ENGLISH        "Sariss, known as the 'Prophetess', was a Force-sensitive Human and one of Jerec's seven Dark Jedi seeking the Valley of the Jedi after the Empire's fall. Daughter of Imperial Warlord Cronal, she was trained in the Dark Side by the Prophets on Dromund Kaas and completed her apprenticeship under Jerec, becoming one of his most loyal followers."
+
+REFERENCE           SHIN_HATI  
+LANG_ENGLISH        "Shin Hati was a Force-sensitive human and apprentice of Baylan Skoll, working with Morgan Elsbeth to track down Grand Admiral Thrawn. She dueled Sabine Wren and later confronted Ahsoka Tano while attempting to secure a Nightsister star map. She traveled to Peridea but was defeated and left to flee alone."
+
+REFERENCE           STARKILLER  
+LANG_ENGLISH        "Born Galen Marek, Starkiller was Darth Vader's secret apprentice trained in the dark side. Torn between loyalty and redemption, his powerful Force abilities shaped key events in the battle between Sith and Jedi."
+
+REFERENCE           STORMTROOPER  
+LANG_ENGLISH        "The backbone of the Imperial military, Stormtroopers enforce the Empire's will across the galaxy. Clad in iconic white armor, they maintain order through intimidation and combat, often facing off against Rebel forces."
+
+REFERENCE           TARON_MALICOS  
+LANG_ENGLISH        "Taron Malicos was a Jedi Master who fell to the dark side after surviving Order 66 and leading Dathomir's Nightbrothers. He tried to deceive Merrin and turn Cal Kestis to the dark side but was ultimately defeated and killed by Kestis and Merrin."
+
+REFERENCE           TAVION_AXMIS  
+LANG_ENGLISH        "Tavion Axmis was a Human Dark Jedi and apprentice of Desann who sought the Valley of the Jedi and later led the Disciples of Ragnos. She turned Rosh Penin to the dark side and attempted to resurrect Marka Ragnos on Korriban. Axmis was ultimately killed when Jaden Korr defeated Ragnos, whose spirit had taken over her body."
+
+REFERENCE           THE_GRAND_INQUISITOR  
+LANG_ENGLISH        "Once a Jedi Temple Guard, the Grand Inquisitor turned Sith hunter led the Empire's efforts to eradicate Jedi survivors. His cunning and lightsaber skills made him a feared enforcer of Imperial will."
+
+REFERENCE           THE_EIGHTH_BROTHER  
+LANG_ENGLISH        "The Eighth Brother was a Force-sensitive Terrelian Inquisitor who hunted the Rebellion and the Spectres. He died on Malachor while attempting to escape after Kanan Jarrus damaged his lightsaber."
+
+REFERENCE           THE_FIFTH_BROTHER  
+LANG_ENGLISH        "The Fifth Brother was a male Inquisitor of the Empire who hunted the Rebellion and Jedi under Darth Vader's orders. He participated in missions against Eeth Koth, Nari, and the Spectres, and was ultimately killed by Maul on Malachor."
+
+REFERENCE           THE_NINTH_SISTER  
+LANG_ENGLISH        "The Ninth Sister, formerly Jedi Masana Tide, was a Force-sensitive Dowutin Inquisitor who fell to the dark side after being captured and tortured by the Empire. Trained by the Grand Inquisitor and Darth Vader, she hunted Jedi including Ferren Barr and Cal Kestis. She was ultimately killed by Kestis on Coruscant in 9 BBY."
+
+REFERENCE           THE_SECOND_SISTER  
+LANG_ENGLISH        "The Second Sister, formerly Trilla Suduri, fell to the dark side after being captured and tortured by the Empire. She became a ruthless Inquisitor, hunting Jedi fugitives like Cal Kestis across the galaxy. After being defeated by Kestis on Nur, she was executed by Vader, leaving a lasting impact on both Kestis and her former master, Cere Junda."
+
+REFERENCE           THE_SEVENTH_SISTER  
+LANG_ENGLISH        "The Seventh Sister was a Mirialan Inquisitor of the Empire who hunted Jedi and sought to replace the Grand Inquisitor. She clashed with the Spectres across multiple missions but was ultimately killed by Maul on Malachor."
+
+REFERENCE           THE_THIRD_SISTER  
+LANG_ENGLISH        "Reva Sevander, also known as the Third Sister, was driven by revenge against Darth Vader for the Jedi Purge. She hunted Obi-Wan Kenobi and Princess Leia, while secretly seeking to kill Vader. After failing to assassinate him and being confronted by Kenobi, she abandoned her quest for vengeance and ultimately chose to let go of her past."
+
+REFERENCE           VIZAM  
+LANG_ENGLISH        "Vizam was a Kajain'sa'Nikto who served as weapons master for Jabba the Hutt. He oversaw palace security, witnessed key events like the rancor pit and Leia’s infiltration, and participated in the transport of prisoners to the Sarlacc. Vizam was ultimately killed by Luke Skywalker aboard Jabba's sail barge."
+
+REFERENCE           WEEQUAY  
+LANG_ENGLISH        "A species known for their toughness and warrior culture, Weequays often served as mercenaries, guards, and pirates. Their rugged appearance and fierce loyalty made them common figures in the galaxy's underworld."
+
+REFERENCE 			DAGAN_GERA
+LANG_ENGLISH 		"A Jedi Knight of the High Republic era, Dagan Gera was a gifted warrior who became consumed by bitterness after the loss of Tanalorr. Preserved in stasis for centuries, he awakened to a changed galaxy and ultimately fell to the dark side, clashing with Cal Kestis in a failed bid to reclaim his lost vision."
+
+//----------------------------------------------------------
+// 	h7: RESISTANCE
+//----------------------------------------------------------
+
+REFERENCE           BLACK_KRRSTANTAN  
+LANG_ENGLISH        "A fearsome Wookiee bounty hunter and former gladiator, Black Krrsantan worked for the Hutt Cartel and later aligned with Boba Fett. Known for his brutal strength and combat prowess, he earned a reputation across the galaxy as a relentless and intimidating enforcer."
+
+REFERENCE           BO_KATAN_KRYZE  
+LANG_ENGLISH        "A proud Mandalorian warrior and former member of Death Watch, Bo-Katan sought to restore Mandalore's honor. Wielding the Darksaber and leading the Nite Owls, she played a key role in both resisting Imperial rule and supporting Din Djarin in the fight for Mandalorian unity."
+
+REFERENCE           CARA_DUNE  
+LANG_ENGLISH        "A former Rebel shock trooper from Alderaan, Cara Dune became a marshal of the New Republic. Skilled in combat and fiercely loyal, she aided Din Djarin on several missions, using her military experience to fight remnants of the Empire and uphold justice on the Outer Rim."
+
+REFERENCE           DIN_DJARIN  
+LANG_ENGLISH        "A Mandalorian foundling raised in the creed of the Children of the Watch, Din Djarin worked as a bounty hunter before becoming the protector of Grogu. His journey led him across the galaxy, forging alliances and ultimately taking part in the fight to restore Mandalore."
+
+REFERENCE           FENNEC_SHAND  
+LANG_ENGLISH        "An elite mercenary and assassin, Fennec Shand earned her reputation through ruthless efficiency and sharp tactics. After being saved by Boba Fett, she pledged her loyalty to him and became his trusted partner in governing the criminal underworld of Tatooine."
+
+REFERENCE           FINN  
+LANG_ENGLISH        "Originally designated FN-2187, Finn was a First Order stormtrooper who defected after witnessing their cruelty. Joining the Resistance, he fought bravely in key battles and discovered his own sensitivity to the Force, seeking to find his place in the galaxy."
+
+REFERENCE           GREEF_KARGA  
+LANG_ENGLISH        "Once a guild magistrate on Nevarro, Greef Karga led bounty hunters and oversaw contracts. After aligning with Din Djarin, he transitioned into a leadership role, helping stabilize Nevarro and defend it from Imperial remnants and lawlessness."
+
+REFERENCE           GROGU  
+LANG_ENGLISH        "A mysterious young being strong in the Force, Grogu was rescued from the Jedi Temple during Order 66. Raised in secrecy, he was eventually protected by Din Djarin, with whom he formed a deep bond. Trained briefly by Luke Skywalker, Grogu chose to return to the Mandalorian's side."
+
+REFERENCE           KUIIL  
+LANG_ENGLISH        "A wise and humble Ugnaught, Kuiil was a former Imperial indentured servant who earned his freedom. Living in solitude on Arvala-7, he helped Din Djarin care for Grogu and restore IG-11. He was known for his calm wisdom and the iconic phrase, 'I have spoken'."
+
+REFERENCE           LUKE_SKYWALKER_SEQUEL  
+LANG_ENGLISH        "Years after the fall of the Empire, Luke Skywalker became a legend and sought to rebuild the Jedi Order. Haunted by failure after Ben Solo's fall, he exiled himself on Ahch-To. Ultimately, he returned in spirit, guiding the next generation and confronting his past with redemption."
+
+REFERENCE           NEW_REPUBLIC_SOLDIER  
+LANG_ENGLISH        "Soldiers of the New Republic defended the galaxy in the wake of the Empire's collapse. Often stationed in remote sectors, they patrolled trade routes, responded to unrest, and symbolized the fragile hope of galactic peace in a time of rising threats."
+
+REFERENCE           NEW_REPUBLIC_SECURITY_DROID  
+LANG_ENGLISH        "Tasked with enforcing law and order, New Republic security droids provided support aboard prison ships and outposts. Equipped with powerful weapons and durable chassis, they ensured compliance among prisoners and maintained security in volatile regions of the galaxy."
+
+REFERENCE           PAZ_VIZSLA  
+LANG_ENGLISH        "A heavily armed Mandalorian warrior and member of the Tribe, Paz Vizsla was a descendant of the legendary Tarre Vizsla. Fiercely loyal to Mandalorian tradition, he clashed with Din Djarin over the Darksaber but ultimately sacrificed himself defending fellow Mandalorians from Imperial forces."
+
+REFERENCE           POE_DAMERON  
+LANG_ENGLISH        "A daring pilot and commander in the Resistance, Poe Dameron was known for his exceptional flying skills and bold leadership. Loyal to General Leia Organa, he played a key role in battles against the First Order and helped rally the galaxy during the final conflict on Exegol."
+
+REFERENCE           REY  
+LANG_ENGLISH        "An orphaned scavenger from Jakku, Rey discovered her powerful connection to the Force and trained as a Jedi under Leia Organa. Confronting her lineage as the granddaughter of Emperor Palpatine, she rejected the Sith and embraced the legacy of the Jedi, taking the name Skywalker."
+
+REFERENCE           ROSE_TICO  
+LANG_ENGLISH        "A maintenance worker turned Resistance fighter, Rose Tico was driven by the loss of her sister during the war. Courageous and compassionate, she aided Finn and helped expose corruption within the galaxy, fighting for those who could not defend themselves."
+
+REFERENCE           THE_ARMORER  
+LANG_ENGLISH        "A mysterious and revered leader among the Children of the Watch, the Armorer upheld ancient Mandalorian customs. Skilled in forging beskar and offering spiritual guidance, she helped Din Djarin and others rediscover their heritage. Her words and actions shaped the path of Mandalore's future."
+
+REFERENCE 			RESISTANCE_TROOPER
+LANG_ENGLISH 		"A volunteer soldier of the Resistance, Resistance Troopers fought to oppose the First Order's expansion. Poorly supplied but determined, they carried on the legacy of the Rebel Alliance in the fight for freedom."
+
+
+//----------------------------------------------------------
+// 	h8: FIRST ORDER
+//----------------------------------------------------------
+
+REFERENCE           ARMITAGE_HUX
+LANG_ENGLISH        "General Armitage Hux was a ruthless officer of the First Order, known for his fanatical loyalty and ambition. He oversaw the development of Starkiller Base and played a key role in enforcing the regime's military dominance, though internal rivalries ultimately led to his downfall."
+
+REFERENCE           CAPTAIN_PHASMA
+LANG_ENGLISH        "Clad in chromium armor and commanding the First Order's stormtroopers, Captain Phasma was a formidable and disciplined leader. Trained in combat and unwavering in duty, she enforced order with brutal efficiency before meeting her end in battle against the Resistance."
+
+REFERENCE           EMPEROR_PALPATINE_SEQUEL
+LANG_ENGLISH        "Sheev Palpatine, also known as Darth Sidious, survived the fall of the Empire through dark Sith rituals. Operating from the shadows on Exegol, he manipulated events to reclaim power as the Final Order's leader, seeking to dominate the galaxy once more before being finally destroyed by Rey."
+
+REFERENCE           KYLO_REN
+LANG_ENGLISH        "Born Ben Solo, son of Leia Organa and Han Solo, Kylo Ren fell to the dark side under Snoke's influence. As a leader of the First Order and master of the Knights of Ren, he waged war against the Resistance before ultimately seeking redemption and sacrificing himself to save Rey."
+
+REFERENCE           PRAETORIAN_GUARD
+LANG_ENGLISH        "Elite protectors of Supreme Leader Snoke, the Praetorian Guards wielded specialized melee weapons and wore crimson armor. Trained to fight even Force-wielders, they were fiercely loyal and fought to the death defending Snoke, ultimately perishing in a clash with Kylo Ren and Rey."
+
+REFERENCE           REN
+LANG_ENGLISH        "The original master of the Knights of Ren, Ren was a dark side warrior who led the group before Kylo Ren. Wielding a red-bladed lightsaber and enforcing the group's brutal code, he fell in combat to Ben Solo, who claimed leadership and the mantle of 'Ren' for himself."
+
+REFERENCE           STORMTROOPER_FIRST_ORDER
+LANG_ENGLISH        "First Order stormtroopers were trained from childhood to obey without question. Clad in updated white armor and deployed in overwhelming numbers, they served as the primary enforcers of the regime, striking fear into Resistance forces and civilians alike."
+
+REFERENCE           RIOT_STORMTROOPER_FIRST_ORDER
+LANG_ENGLISH        "Specialized for crowd control and close-quarters combat, Riot Stormtroopers were equipped with electrobatons and heavy shields. They were deployed during uprisings and protests, famously clashing with Finn during the Battle of Takodana."
+
+REFERENCE           SITH_TROOPER
+LANG_ENGLISH        "Sith Troopers were elite soldiers of the Final Order, clad in crimson armor and loyal to Emperor Palpatine. Secretly bred and trained on Exegol, they represented the culmination of Sith military might and were deployed during the Emperor's final bid for galactic domination."
+
+REFERENCE           SUPREME_LEADER_SNOKE
+LANG_ENGLISH        "A dark side puppet created by Emperor Palpatine, Supreme Leader Snoke commanded the First Order and corrupted Ben Solo into Kylo Ren. Though immensely powerful in the Force, he was ultimately betrayed and killed by his apprentice during a pivotal moment of conflict."
+
+
+ENDMARKER
+
+
+
+
+
+
+
+
+
+
+
