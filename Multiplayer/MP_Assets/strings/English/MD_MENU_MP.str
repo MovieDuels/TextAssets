@@ -1,0 +1,531 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           ""
+
+//----------------------------------------------------------
+// 		SETTING/CONTROLS MENU
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+// 	h1: SETTINGS
+//----------------------------------------------------------
+
+REFERENCE           SETUP_OPTIONS
+LANG_ENGLISH        "SETUP OPTIONS"
+
+REFERENCE           GAMEPLAY_OPTIONS
+LANG_ENGLISH        "GAMEPLAY"
+
+REFERENCE           COMBAT_OPTIONS
+LANG_ENGLISH        "COMBAT"
+
+REFERENCE           INTERFACE_OPTIONS
+LANG_ENGLISH        "USER INTERFACE"
+
+REFERENCE           CUSTOM_RESOLUTION
+LANG_ENGLISH        "Custom Resolution:"
+
+REFERENCE           CUSTOM_WIDTH_DESC
+LANG_ENGLISH        "Set custom resolution width"
+
+REFERENCE           CUSTOM_HEIGHT_DESC
+LANG_ENGLISH        "Set custom resolution height"
+
+REFERENCE           WIDESCREEN_FOV
+LANG_ENGLISH        "Widescreen FOV:"
+
+REFERENCE           WIDESCREEN_FOV_DESC
+LANG_ENGLISH        "Adjust the Field of View for 16:9 and above resolutions."
+
+REFERENCE           WIDESCREEN_HUD
+LANG_ENGLISH        "Widescreen HUD:"
+
+REFERENCE           WIDESCREEN_HUD_DESC
+LANG_ENGLISH        "Adjust the Hud for 16:9 and above resolutions."
+
+REFERENCE           CINEMATIC_BARS
+LANG_ENGLISH        "Cinematic Bars:"
+
+REFERENCE           CINEMATIC_BARS_DESC
+LANG_ENGLISH        "Hide the black bars during cutscenes, useful when playing in widescreen."
+
+REFERENCE           SHADOWS_PROJECTED 
+LANG_ENGLISH        "Projected"
+
+REFERENCE           BODY_MARKS
+LANG_ENGLISH        "Body Marks:"
+
+REFERENCE           BODY_MARKS_DESC
+LANG_ENGLISH        "Toggle to display scorch marks on bodies."
+
+REFERENCE           FAST_SKY
+LANG_ENGLISH        "Fast Sky:"
+
+REFERENCE           FAST_SKY_DESC
+LANG_ENGLISH        "Enables / disables sky."
+
+REFERENCE           FOG_LEVEL
+LANG_ENGLISH        "Fog Level:"
+
+REFERENCE           FOG_LEVEL_DESC
+LANG_ENGLISH        "Set level of fog to appear on maps."
+
+REFERENCE           ENHANCED
+LANG_ENGLISH        "Enhanced"
+
+REFERENCE           DRAW_FPS
+LANG_ENGLISH        "Draw FPS:"
+
+REFERENCE           DRAW_FPS_DESC
+LANG_ENGLISH        "Toggle to show or hide FPS counter."
+
+REFERENCE           CURSOR
+LANG_ENGLISH        "Cursor:"
+
+REFERENCE           CURSOR_DESC
+LANG_ENGLISH        "Changes the cursor image."
+
+REFERENCE           WEAPON_DISMEMBERMENT
+LANG_ENGLISH        "Weapon Dismemberment:"
+
+REFERENCE           WEAPON_DISMEMBERMENT_DESC
+LANG_ENGLISH        "Enables / disables weapon dismemberment."
+
+REFERENCE           SABER_REALISTIC
+LANG_ENGLISH        "Saber Damage:"
+
+REFERENCE           SABER_REALISTIC_DESC
+LANG_ENGLISH        "Set the damage level dealt by lightsabers."
+
+REFERENCE           SABER_LOCK
+LANG_ENGLISH        "Saberlock:"
+
+REFERENCE           SABER_LOCK_DESC
+LANG_ENGLISH        "Select how often saber-lock occurs."
+
+REFERENCE           NEVER
+LANG_ENGLISH        "Never"
+
+REFERENCE           RARELY
+LANG_ENGLISH        "Rarely"
+
+REFERENCE           SOMETIMES
+LANG_ENGLISH        "Sometimes"
+
+REFERENCE           OFTEN
+LANG_ENGLISH        "Often"
+
+REFERENCE           CORPSE_REMOVAL
+LANG_ENGLISH        "Corpse Removal Time:"
+
+REFERENCE           CORPSE_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which corpses will disappear."
+
+REFERENCE           WEAPON_REMOVAL
+LANG_ENGLISH        "Weapon Removal Time:"
+
+REFERENCE           WEAPON_REMOVAL_DESC
+LANG_ENGLISH        "Set the time after which weapons will disappear."
+
+REFERENCE           10SEC
+LANG_ENGLISH        "10 seconds"
+
+REFERENCE           30SEC
+LANG_ENGLISH        "30 seconds"
+
+REFERENCE           1MIN
+LANG_ENGLISH        "1 minute"
+
+REFERENCE           2MIN
+LANG_ENGLISH        "2 minutes"
+
+REFERENCE           5MIN
+LANG_ENGLISH        "5 minutes"
+
+REFERENCE           BLOOD
+LANG_ENGLISH        "Blood:"
+
+REFERENCE           BLOOD_DESC
+LANG_ENGLISH        "Toggle blood effects."
+
+REFERENCE           WEATHER
+LANG_ENGLISH        "Weather:"
+
+REFERENCE           WEATHER_DESC
+LANG_ENGLISH        "Set the weather in the map."
+
+REFERENCE           CLEAR
+LANG_ENGLISH        "Clear"
+
+REFERENCE           SNOW
+LANG_ENGLISH        "Snow" 
+
+REFERENCE           RAIN
+LANG_ENGLISH        "Rain"
+
+REFERENCE           LAVA
+LANG_ENGLISH        "Lava"
+
+REFERENCE           SANDSTORM
+LANG_ENGLISH        "Sandstorm"
+
+REFERENCE           HEAVY_RAIN_FOG
+LANG_ENGLISH        "Heavy Rain Fog"
+
+REFERENCE           FOG
+LANG_ENGLISH        "Fog"
+
+REFERENCE           ACID_RAIN
+LANG_ENGLISH        "Acid Rain"
+
+REFERENCE           PUSH_EFFECT
+LANG_ENGLISH        "Force Push Effect:"
+
+REFERENCE           PUSH_EFFECT_DESC
+LANG_ENGLISH        "Set the effect used for force push."
+
+REFERENCE           PUSH_EFFECT_JKA
+LANG_ENGLISH        "JKA"
+
+REFERENCE           PUSH_EFFECT_JKO
+LANG_ENGLISH        "JKO"
+
+REFERENCE           PUSH_EFFECT_NONE
+LANG_ENGLISH        "None"
+
+REFERENCE           LANGUAGE
+LANG_ENGLISH        "Language"
+
+REFERENCE           LANGUAGE_DESC
+LANG_ENGLISH        "Set the language used in the mod."
+
+REFERENCE           LANG_DEUTSCH
+LANG_ENGLISH        "Deutsch"
+
+REFERENCE           LANG_ESPANYOL
+LANG_ENGLISH        "Espańol"
+
+REFERENCE           LANG_CZECH
+LANG_ENGLISH        "Czech"
+
+REFERENCE           SABER_IMPACT
+LANG_ENGLISH        "Saber Combat Mode:"
+
+REFERENCE           SABER_IMPACT_DESC
+LANG_ENGLISH        "Activate Manual Saber Blocking Mode. See the Controls menu to use Manual Block."
+
+REFERENCE           JKA_MODE
+LANG_ENGLISH        "JKA Mode"
+
+REFERENCE           MD_MODE
+LANG_ENGLISH        "MD Mode"
+
+REFERENCE           MDA_MODE
+LANG_ENGLISH        "MD Advanced Mode"
+
+REFERENCE           HUD_MODE
+LANG_ENGLISH        "Hud Mode:"
+
+REFERENCE           HUD_MODE_DESC
+LANG_ENGLISH        "Set the heads-up display."
+
+REFERENCE           MD_CLASSIC
+LANG_ENGLISH        "MD Classic"
+
+REFERENCE           MD_MODERN
+LANG_ENGLISH        "MD Modern"
+
+REFERENCE           MD_JO
+LANG_ENGLISH        "JKII Remastered"
+
+REFERENCE           MD_VINTAGE
+LANG_ENGLISH        "MD Vintage"
+
+REFERENCE           MD_HUD_VERTICAL
+LANG_ENGLISH        "MD Vertical"
+
+REFERENCE           MD_HUD_HORIZONTAL
+LANG_ENGLISH        "MD Horizontal"
+
+REFERENCE           SHOW_SELECTION_BAR
+LANG_ENGLISH        "Show Selection Bar:"
+
+REFERENCE           SHOW_SELECTION_BAR_DESC
+LANG_ENGLISH        "Show selection bar when cycling through inventory, weapons or force powers."
+
+REFERENCE           SHOW_RADAR
+LANG_ENGLISH        "Show Radar:"
+
+REFERENCE           SHOW_RADAR_DESC
+LANG_ENGLISH        "Show Radar to identify objects and models on map."
+
+REFERENCE           SHOW_HEALTH_BAR
+LANG_ENGLISH        "Show health Bar:"
+
+REFERENCE           SHOW_HEALTH_BAR_DESC
+LANG_ENGLISH        "Show health meter above all characters."
+
+REFERENCE           SHOW_BLOCKPOINT_BAR
+LANG_ENGLISH        "Show Block Point Bar:"
+
+REFERENCE           SHOW_BLOCKPOINT_BAR_DESC
+LANG_ENGLISH        "Show Block Point Meter above all Saber Users (MD/MDA Mode only)."
+
+REFERENCE           SHOW_STAMINA_BAR
+LANG_ENGLISH        "Show Stamina Bar:"
+
+REFERENCE           SHOW_STAMINA_BAR_DESC
+LANG_ENGLISH        "Show Stamina Meter above all Saber Users (MD/MDA Mode only)."
+
+REFERENCE           UNBLOCKABLE_ATTACK_WARNING
+LANG_ENGLISH        "Unblockable Attack Warning:"
+
+REFERENCE           UNBLOCKABLE_ATTACK_WARNING_DESC
+LANG_ENGLISH        "Makes NPCs appear red when they perform an unblockable attack."
+
+REFERENCE           LEDGE_GRAB
+LANG_ENGLISH        "Ledge Grab:"
+
+REFERENCE           LEDGE_GRAB_DESC
+LANG_ENGLISH        "Sets whether your character will grab onto ledges to climb."
+
+REFERENCE           AUTO_PICK_UP
+LANG_ENGLISH        "Auto Item Pick Up:"
+
+REFERENCE           AUTO_PICK_UP_DESC
+LANG_ENGLISH        "Automatically pick up items when walked over or look and press the USE key."
+
+REFERENCE           GUNNER_BASH
+LANG_ENGLISH        "Gunner Melee:"
+
+REFERENCE           GUNNER_BASH_DESC
+LANG_ENGLISH        "Sets whether gunners can melee the player."
+
+REFERENCE           MDA_SLOWMO
+LANG_ENGLISH        "Perfect Block Slowmo Action:"
+
+REFERENCE           MDA_SLOWMO_DESC
+LANG_ENGLISH        "MD/MDA Mode only. Activates a slow motion effect when performing a perfect block."
+
+REFERENCE           IGNITION_TWIRL
+LANG_ENGLISH        "Saber Ignition Twirl:"
+
+REFERENCE           IGNITION_TWIRL_DESC
+LANG_ENGLISH        "Do the saber on/off animation."
+
+REFERENCE           SINGLE_IGNITION_SPEED
+LANG_ENGLISH        "Single Saber Ignition Speed:"
+
+REFERENCE           SINGLE_IGNITION_SPEED_DESC
+LANG_ENGLISH        "How fast the lightsaber ignites."
+
+REFERENCE           SLOW
+LANG_ENGLISH        "Slow"
+
+REFERENCE           VERY_FAST
+LANG_ENGLISH        "Very Fast"
+
+REFERENCE           INSTANT
+LANG_ENGLISH        "Instant"
+
+REFERENCE           STAFF_IGNITION_SPEED
+LANG_ENGLISH        "Staff Saber Ignition Speed:"
+
+REFERENCE           STAFF_IGNITION_SPEED_DESC
+LANG_ENGLISH        "How fast the Staff lightsaber ignites."
+
+REFERENCE           SABER_STANCE
+LANG_ENGLISH        "Cosmetic Saber Stance:"
+
+REFERENCE           SABER_STANCE_DESC
+LANG_ENGLISH        "Use unique character stances (some stances may make you vulnerable)."
+
+REFERENCE           SABER_ATTACK_SPEED
+LANG_ENGLISH        "Saber Attack Speed:"
+
+REFERENCE           SABER_ATTACK_SPEED_DESC
+LANG_ENGLISH        "MD Mode slightly reduces saber swing speeds to increase blocking reaction time."
+
+REFERENCE           SABER_DAMAGE_SYSTEM
+LANG_ENGLISH        "Saber Damage System:"
+
+REFERENCE           SABER_DAMAGE_SYSTEM_DESC
+LANG_ENGLISH        "Set the system used to calculate saber damage."
+
+REFERENCE           SLOWMO_SELECTION
+LANG_ENGLISH        "Slowmo Selection:"
+
+REFERENCE           SLOWMO_SELECTION_DESC
+LANG_ENGLISH        "Slows down time when scrolling between weapons, items or force powers."
+
+REFERENCE           PLAYER_HEALTH_SYNC
+LANG_ENGLISH        "Default Health:"
+
+REFERENCE           PLAYER_HEALTH_SYNC_DESC
+LANG_ENGLISH        "Use the default 100 health or the health of the selected character."
+
+REFERENCE           ADVANCED_LOD
+LANG_ENGLISH        "Advanced LOD:"
+
+REFERENCE           ADVANCED_LOD_DESC
+LANG_ENGLISH        "Increases level of detail."
+
+//----------------------------------------------------------
+// 	h2: CONTROLS
+//----------------------------------------------------------
+
+REFERENCE           CONFIGURE_CONTROLS
+LANG_ENGLISH        "CONFIGURE CONTROLS"
+
+REFERENCE           MANUAL_BLOCK
+LANG_ENGLISH        "Manual Block:"
+
+REFERENCE           MANUAL_BLOCK_DESC
+LANG_ENGLISH        "MD/MDA Mode only. Hold with attack to control direction. Hold when running to sprint."
+
+REFERENCE           KICK
+LANG_ENGLISH        "Kick:"
+
+REFERENCE           KICK_DESC
+LANG_ENGLISH        "Kick with a weapon in hand."
+
+REFERENCE           SABERDOWN
+LANG_ENGLISH        "Saber On / Off:"
+
+REFERENCE           SABERDOWN_DESC
+LANG_ENGLISH        "Activates/deactivates a lightsaber."
+
+REFERENCE           SINGLE_DUAL_PISTOLS
+LANG_ENGLISH        "Single/Dual Pistols:"
+
+REFERENCE           SINGLE_DUAL_PISTOLS_DESC
+LANG_ENGLISH        "Change between single and dual pistols. Re-equip pistol to take effect."
+
+REFERENCE           RELOAD_WEAPON
+LANG_ENGLISH        "Reload/Recharge Weapon:"
+
+REFERENCE           RELOAD_WEAPON_DESC
+LANG_ENGLISH        "Will reload your weapon when low on ammo. Will recharge when weapon overheats."
+
+REFERENCE           USES_FORCE_DESTRUCTION_ABILITY
+LANG_ENGLISH        "Uses Force Destruction Ability."
+
+REFERENCE           USES_FORCE_STASIS_ABILITY
+LANG_ENGLISH        "Uses Force Stasis Ability."
+
+REFERENCE           USES_FORCE_DEADLYSIGHT_ABILITY
+LANG_ENGLISH        "Uses Force Deadly Sight Ability."
+
+REFERENCE           USES_FORCE_FEAR_ABILITY
+LANG_ENGLISH        "Uses Force Fear Ability."
+
+REFERENCE           USES_FORCE_JUDGEMENT_ABILITY
+LANG_ENGLISH        "Uses Force Judgement Ability."
+
+REFERENCE           USES_FORCE_REPULSE_ABILITY
+LANG_ENGLISH        "Uses Force Repulse Ability."
+
+REFERENCE           USES_FORCE_GRASP_ABILITY
+LANG_ENGLISH        "Uses Force Grasp Ability."
+
+REFERENCE           USES_FORCE_BLAST_ABILITY
+LANG_ENGLISH        "Uses Force Blast Ability."
+
+REFERENCE           USES_FORCE_PROJECTION_ABILITY
+LANG_ENGLISH        "Uses Force Projection Ability."
+
+REFERENCE           SABER_MENU
+LANG_ENGLISH        "Saber Menu:"
+
+REFERENCE           SABER_MENU_DESC
+LANG_ENGLISH        "Opens saber customization menu."
+
+REFERENCE           CHARACTER_MENU
+LANG_ENGLISH        "Character Menu:"
+
+REFERENCE           CHARACTER_MENU_DESC
+LANG_ENGLISH        "Opens character menu."
+
+REFERENCE           NPC_SPAWN_MENU
+LANG_ENGLISH        "NPC Spawn Menu:"
+
+REFERENCE           NPC_SPAWN_MENU_DESC
+LANG_ENGLISH        "Opens NPC spawn menu."
+
+REFERENCE           NPC_COMMANDS_MENU
+LANG_ENGLISH        "NPC Commands Menu:"
+
+REFERENCE           NPC_COMMANDS_MENU_DESC
+LANG_ENGLISH        "Opens NPC Commands menu."
+
+REFERENCE           NPC_SPAWN_RECENT
+LANG_ENGLISH        "NPC Spawn Recent:"
+
+REFERENCE           NPC_SPAWN_RECENT_DESC
+LANG_ENGLISH        "Spawns The Last Spawned NPC."
+
+REFERENCE           NPC_RECENT_COMMAND
+LANG_ENGLISH        "NPC Recent Command:"
+
+REFERENCE           NPC_RECENT_COMMAND_DESC
+LANG_ENGLISH        "Executes The Last Used NPC Command On The Currently Selected NPC."
+
+REFERENCE           FREEZE_NPCS
+LANG_ENGLISH        "Freeze NPCs:"
+
+REFERENCE           FREEZE_NPCS_DESC
+LANG_ENGLISH        "Toggles NPC freeze."
+
+REFERENCE           WALK_RUN
+LANG_ENGLISH        "Always Run Toggle:"
+
+REFERENCE           WALK_RUN_DESC
+LANG_ENGLISH        "Toggle between always walking and running."
+
+REFERENCE           SURRENDER
+LANG_ENGLISH        "Surrender:"
+
+REFERENCE           SURRENDER_DESC
+LANG_ENGLISH        "Hold for 2 Seconds to Surrender to enemies."
+
+REFERENCE           COMBAT_STANCE
+LANG_ENGLISH        "Combat Stance:"
+
+REFERENCE           COMBAT_STANCE_DESC
+LANG_ENGLISH        "Triggers your character to go into a ready stance."
+
+REFERENCE           STARTING_UP
+NOTES               "Used in connect screen"
+LANG_ENGLISH        "MovieDuels MP Starting."
+
+REFERENCE           REND2TIP
+LANG_ENGLISH        "Warning: Rend2 may increase loading times and cause graphical issues."
+
+REFERENCE           JEDIMASTER
+LANG_ENGLISH        "Saber Hunt"
+
+REFERENCE           COOP
+LANG_ENGLISH        "SinglePlayer Missions"
+
+REFERENCE	    PLAYERTEAM
+LANG_ENGLISH	    "Friendlies"
+
+REFERENCE	    ENEMYTEAM
+LANG_ENGLISH	    "Enemies"
+
+
+ENDMARKER
+
+
+
