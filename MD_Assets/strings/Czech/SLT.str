@@ -1,0 +1,45 @@
+REFERENCE           OBJECTIVE
+LANG_ENGLISH        "Defeat All Enemies To Complete Your Final Task!"
+LANG_CZECH	   "Zneskodni vsechny nepratele k dokonceni tve posledni zkousky!"
+
+REFERENCE           WAVE2
+LANG_ENGLISH        "Module 2: Kota's Militia"
+LANG_CZECH	   "Modul 2: Kotova milice"
+
+REFERENCE           WAVE3
+LANG_ENGLISH        "Module 3: Imperial Assault Squad"
+LANG_CZECH	   "Modul 3: Utocny oddil Imperia"
+
+REFERENCE           WAVE4
+LANG_ENGLISH        "Module 4: Imperial Armed Recon Squad"
+LANG_CZECH	   "Modul 4: Ozbrojeny pruzkumny oddil Imperia"
+
+REFERENCE           WAVE5
+LANG_ENGLISH        "Module 5: AT-ST"
+LANG_CZECH	   "Modul 5: AT-ST"
+
+REFERENCE           WAVE6
+LANG_ENGLISH        "Module 6: Imperial Royal Guard"
+LANG_CZECH	   "Modul 6: Imperialni kralovska straz"
+
+REFERENCE           WAVE7
+LANG_ENGLISH        "Module 7: Obi-Wan Kenobi"
+LANG_CZECH	   "Modul 7: Obi-Wan Kenobi"
+
+REFERENCE           WAVE8
+LANG_ENGLISH        "Module 8: Boba Fett"
+LANG_CZECH	   "Modul 8: Boba Fett"
+
+REFERENCE           WAVE9
+LANG_ENGLISH        "Module 9: Shaak Ti"
+LANG_CZECH	   "Modul 9: Shaak Ti"
+
+REFERENCE           STAGECOMPLETE
+LANG_ENGLISH        "Module Complete!"
+LANG_CZECH	   "Modul dokoncen!"
+
+REFERENCE           STAGE10COMPLETE
+LANG_ENGLISH        "All Modules Complete, You Have Passed Your Final Trial!"
+LANG_CZECH	   "Vsechny modely dokonceny, prosel jsi zaverecnou zkouskou!"
+
+ENDMARKER

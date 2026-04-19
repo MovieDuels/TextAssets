@@ -1,0 +1,224 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           BDG1
+LANG_ENGLISH        "Check it out, Corporal. We'll cover you."
+LANG_CZECH        "Proverte to. Kryjeme Vas."
+
+REFERENCE           BD1
+LANG_ENGLISH        "Roger, roger."
+LANG_CZECH        "Rozkaz, rozkaz."	
+
+REFERENCE           BDG2
+LANG_ENGLISH        "Uh-oh. Blast them!"
+LANG_CZECH        "Aj-jaj. Strilejte!"
+
+REFERENCE           DRO1
+LANG_ENGLISH        "Master, Destroyers!"
+LANG_CZECH        "Mistre, droidi!"
+
+REFERENCE           DRO3
+LANG_ENGLISH        "Obi-Wan: They have shield generators!\nQui-Gon: It's a stand-off. Let's go!"
+LANG_CZECH        "Obi-Wan: Maji generatory stitu!\nQui-Gon: Tohle je k nicemu. Pojdme!"
+
+REFERENCE           GUN1
+LANG_ENGLISH        "What?! What did you say?"
+LANG_CZECH        "Co?! Co Jsi rikal?"
+
+REFERENCE           GUN2
+LANG_ENGLISH        "Distract them. I will contact Lord Sidious."
+LANG_CZECH        "Zamestnej je. Zavolam Lordu Sidiousovi."	
+
+REFERENCE           GUN3
+LANG_ENGLISH        "My Lord, is that legal?"
+LANG_CZECH       "Muj pane, je to legalni?"
+
+REFERENCE           GUN4
+LANG_ENGLISH        "And the Jedi?"
+LANG_CZECH       "A co Jediove?"
+
+REFERENCE           GUN5
+LANG_ENGLISH        "Yes. Yes, my Lord. Uh, as you wish."
+LANG_CZECH       "Ano. Ano, pane. Jak si prejete."
+
+REFERENCE           GUN6
+LANG_ENGLISH        "They must be dead, by now. Destroy what's left of them."
+LANG_CZECH        "Ted uz museji byt mrtvi. Znicte to, co z nich zbylo."
+
+REFERENCE           GUN7
+LANG_ENGLISH        "Close the blast doors!"
+LANG_CZECH        "Vzduchotesne dvere!"
+
+REFERENCE           GUN8
+LANG_ENGLISH        "This is impossible!"
+LANG_CZECH        "To neni mozne!"
+
+REFERENCE           NEI1
+LANG_ENGLISH        "Sir!"
+LANG_CZECH        "Pane!"
+
+REFERENCE           NEI1B
+LANG_ENGLISH        "They've gone up the ventilation shaft."
+LANG_CZECH        "Zmizeli ve vetraci sachte."
+
+REFERENCE           OBI1
+LANG_ENGLISH        "How do you think this Trade Viceroy will deal with the Chancellor's demands?"
+LANG_CZECH        "Co rekne Mistokral Federace na Kanclerovy pozadavky?"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Is it in their nature to make us wait this long?"
+LANG_CZECH       "Je normalni, ze cekame tak dlouho?"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "Master, Destroyers!"
+LANG_CZECH        "Mistre, droidi!"
+
+REFERENCE           OBI4
+LANG_ENGLISH        "It's an invasion army."
+LANG_CZECH        "To je invazni armada."
+
+REFERENCE           OBI5
+LANG_ENGLISH        "You were right about one thing, Master."
+LANG_CZECH        "V jednom jste mel pravdu, Mistre."
+
+REFERENCE           OBI5B
+LANG_ENGLISH        "The negotiations were short."
+LANG_CZECH        "Vyjednavani bylo kratke."
+
+REFERENCE           PRO1
+LANG_ENGLISH        "The ambassadors are Jedi Knights, I believe."
+LANG_CZECH       "Velvyslanci jsou zrejme Rytiri Jedi"
+
+REFERENCE           PRO2
+LANG_ENGLISH        "Oh! Sorry!"
+LANG_CZECH        "Ah! Prominte."
+
+REFERENCE           PRO3
+LANG_ENGLISH        "Oh! Excuse me."
+LANG_CZECH        "Ah! Prominte."
+
+REFERENCE           QUI1
+LANG_ENGLISH        "These Federation types are cowards. The negotiations will be short."
+LANG_CZECH        "Federace je hrstka zbabelcu. Vyjednavani bude kratke."
+
+REFERENCE           QUI2
+LANG_ENGLISH        "No. I sense an unusual amount of fear, for something as trivial as this Trade dispute."
+LANG_CZECH        "Ne. Vzhledem k tomu, o jakou malickost jde, citim neobvykle velky strach."
+
+REFERENCE           QUI3
+LANG_ENGLISH        "Dioxis."
+LANG_CZECH        "Dioxin."
+
+REFERENCE           QUI4
+LANG_ENGLISH        "I sense an unusual amount of fear."
+LANG_CZECH        "Citim neobvykle velky strach."
+
+REFERENCE           QUI5
+LANG_ENGLISH        "Battledroids?"
+LANG_CZECH       "Bojovi droidi?"
+
+REFERENCE           QUI6
+LANG_ENGLISH        "This is an odd play for the Trade Federation."
+LANG_CZECH        "To bych od Obchodni Federace necekal."
+
+REFERENCE           QUI6B
+LANG_ENGLISH        "We've got to warn the Naboo and contact Chancellor Valorum."
+LANG_CZECH        "Musime varovat Naboo a Kanclere Valoruma."
+
+REFERENCE           QUI6C
+LANG_ENGLISH        "Let's split up. Stow aboard separate ships and meet down on the planet."
+LANG_CZECH        "Rozdelme se. Kazdy do jedne lodi. Sejdeme se na planete."
+
+REFERENCE           QUI_EXTRA1
+LANG_ENGLISH        "The room is filling with poison gas!"
+LANG_CZECH        "Mistnost se plni jedovatym plynem!"
+
+REFERENCE           QUI_EXTRA2
+LANG_ENGLISH        "It appears as if the Trade Federation is preparing to attack Naboo."
+LANG_CZECH        "Vypada to, ze se Obchodni Federace pripravuje na utok na Naboo."
+
+REFERENCE           QUI_EXTRA3
+LANG_ENGLISH        "There should be a control panel nearby that will disable this force field."
+LANG_CZECH        "Nekde by tu mel byt ovladaci panel, ktery toto silove pole deaktivuje."
+
+REFERENCE           QUI_EXTRA4
+LANG_ENGLISH        "The droids have locked these blast doors. We have to find another way around."
+LANG_CZECH        "Droidi uzavrely tyto obrnene dvere. Musime najit jinou cestu."
+
+REFERENCE           QUI_EXTRA5
+LANG_ENGLISH        "Obi-Wan. Watch those snipers!"
+LANG_CZECH        "Obi-Wane. Davej si pozor na ty odstrelovace!"
+
+REFERENCE           QUI_EXTRA6
+LANG_ENGLISH        "The door is open. Let's go!"
+LANG_CZECH        "Dvere jsou otevreny. Muzeme jit!"
+
+REFERENCE           RUN1
+LANG_ENGLISH        "I knew it. They're here to force a settlement."
+LANG_CZECH       "Ja to vedel. Chteji nas donutit ke smiru."
+
+REFERENCE           RUN2
+LANG_ENGLISH        "Are you brain-dead? I'm not going in there, with two Jedi."
+LANG_CZECH        "Zblaznil ses? K Jedium se nepriblizim."
+
+REFERENCE           RUN2B
+LANG_ENGLISH        "Send a droid."
+LANG_CZECH        "Posli droida."
+
+REFERENCE           RUN3
+LANG_ENGLISH        "This scheme of yours has failed, Lord Sidious."
+LANG_CZECH        "Vas plan nevysel, Lorde Sidiousi."
+
+REFERENCE           RUN3B
+LANG_ENGLISH        "The blockade is finished. We dare not go against the Jedi."
+LANG_CZECH        "To je konec blokady. Jedium se nepostavime."
+
+REFERENCE           RUN4
+LANG_ENGLISH        "They are still coming through!"
+LANG_CZECH       "Dostavaji se dovnitr!"
+
+REFERENCE           RUN5
+LANG_ENGLISH        "Where are those droidekas?"
+LANG_CZECH        "Kde jsou ty droideky?"
+
+REFERENCE           RUN6
+LANG_ENGLISH        "They're no match for droidekas."
+LANG_CZECH        "Nase droideky si s nimi poradi."
+
+REFERENCE           SID1
+LANG_ENGLISH        "What is it?"
+LANG_CZECH        "Co se deje?"
+
+REFERENCE           SID2
+LANG_ENGLISH        "Viceroy, I don't want this stunted slime in my sight again!"
+LANG_CZECH        "Mistokrali, at mi ten zbabely cerv okamzite zmizi z oci!"
+
+REFERENCE           SID2B
+LANG_ENGLISH        "This turn of events is unfortunate. We must accelerate our plans. Begin landing your troops."
+LANG_CZECH        "Situace se zkomplikovala. Musime nas plan urychlit. Vysadek muze zacit."
+
+REFERENCE           SID3
+LANG_ENGLISH        "I will make it legal."
+LANG_CZECH        "Ja uz to nejak zaridim."
+
+REFERENCE           SID4
+LANG_ENGLISH        "The Chancellor should never have brought them into this."
+LANG_CZECH        "Kancler je do toho nemel zatahovat."
+
+REFERENCE           SID4B
+LANG_ENGLISH        "Kill them immediately!"
+LANG_CZECH        "Okamzite je zabijte!"
+
+ENDMARKER

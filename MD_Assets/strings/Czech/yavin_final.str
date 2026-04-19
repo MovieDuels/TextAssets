@@ -1,0 +1,108 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           25DES001
+LANG_ENGLISH        "Welcome, Kyle Katarn... Welcome to the future."
+LANG_CZECH        "Vitej, Kyle Katarne... Vitej v budoucnosti."
+
+REFERENCE           25KJO006
+LANG_ENGLISH        "Your future's looking pretty grim, Desann."
+LANG_CZECH        "Tvoje budoucnost vypada dost chmurne, Desanne."
+
+REFERENCE           25DES002
+LANG_ENGLISH        "On the contrary.  Thanks to you, the weakling Jedi who scorned me will soon be erased from history, replaced by a new race of warriors.  Strong warriors.  Warriors who know that the Force is not a shield to protect the useless, but is in reality a weapon to empower the worthy!"
+LANG_CZECH        "Prave naopak. Diky tobe budou slabi Jediove, kteri mnou opovrhovali, brzy vymazani z historie a nahrazeni novou rasou valecniku. Silnych valecniku. Valecniku, kteri vedi, ze Sila neni stit, ktery chrani neuzitecne, ale ve skutecnosti je to zbran, ktera posiluje hodnotne!"
+
+REFERENCE           25KJO007
+LANG_ENGLISH        "None of that's going to happen, Desann. Most of your Shadow Troopers are being mopped up by real Jedi; ones who've been trained to use the Force. The rest blew up with your ship."
+LANG_CZECH        "Nic z toho se nestane, Desanne. Vetsina tvych Stinovych vojaku je vycistena skutecnymi Jedii; temi, kteri byli vycviceni k pouzivani Sily. Ostatni vybouchli do vzduchu s tvou lodi."
+
+REFERENCE           25DES003
+LANG_ENGLISH        "What a pathetic ruse."
+LANG_CZECH        "Jak uboha lest."
+
+REFERENCE           25DES004
+LANG_ENGLISH        "Desann to Fyyar...  Admiral?   Admiral!  Admiral Fyyar, I order you to come in at once!"
+LANG_CZECH        "Desann Fyyarovi... Admirale? Admirale! Admirale Fyyare, narizuji Vam, abyste ihned prisel!"
+
+REFERENCE           25DES005
+LANG_ENGLISH        "I was wrong about you, Katarn.  Your failure as a Jedi hasn't weakened you; it's only made you stronger.  Come, join me.  You know in your heart that you'll never truly be one of them."
+LANG_CZECH        "Mylil jsem se v tobe, Katarne.  Tve selhani jako Jedie te neoslabilo, jen te posililo. Pojd, pridej se ke mne. V hloubi duse vis, ze nikdy nebudes skutecne jednim z nich."
+
+REFERENCE           25KJO008
+LANG_ENGLISH        "Maybe.  Maybe not.  But I know I won't be alone.  How about you, Desann?  Even now, after all this pain, it's not too late...come, join US."
+LANG_CZECH        "Mozna. Mozna ne. Ale vim, ze nebudu sam. A co ty, Desanne? Ani ted, po vsem tom utrpeni neni pozde...pojd, pridej se k NAM."
+
+REFERENCE           25DES006
+LANG_ENGLISH        "You...weak...fool!"
+LANG_CZECH        "Ty...slaby...blazne!"
+
+REFERENCE           25LUK001
+LANG_ENGLISH        "Kyle, Jan."
+LANG_CZECH        "#same"
+
+REFERENCE           25KJO009
+LANG_ENGLISH        "Someday you're going to have to teach me how to do that."
+LANG_CZECH        "Jednou me to budes muset naucit."
+
+REFERENCE           25JAO005
+LANG_ENGLISH        "Thanks for taking care of the Raven's Claw."
+LANG_CZECH        "Diky, ze ses postaral o Raven's Claw."
+
+REFERENCE           25LUK003
+LANG_ENGLISH        "It was the least I could do for the pair of mercenaries who helped save the Jedi Academy.  I know you've probably heard this before, but the New Republic is forever in your debt."
+LANG_CZECH        "Diky, ze ses postaral o Raven's Claw. Bylo to to nejmensi, co jsem mohl udelat pro dvojici zoldaku, kteri pomohli zachranit Akademii Jediu. Vim, ze uz jste to asi nekdy slyseli, ale Nova Republika je vam navzdy zavazana."
+
+REFERENCE           25KJO010
+LANG_ENGLISH        "You should have known it would take a failed Jedi to take out another failed Jedi."
+LANG_CZECH        "Mel jsi vedet, ze k odstraneni jineho neuspesneho Jedie bude zapotrebi dalsi neuspesny Jedi."
+
+REFERENCE           25LUK004
+LANG_ENGLISH        "Kyle...you were never a failure."
+LANG_CZECH        "Kyle...nikdy jsi nebyl zklamani."
+
+REFERENCE           25KJO011
+LANG_ENGLISH        "Luke, I-"
+LANG_CZECH        "Luku, ja-"
+
+REFERENCE           25LUK005
+LANG_ENGLISH        "I know.  I'll be happy to hold on to your lightsaber for safekeeping"
+LANG_CZECH        "Ja vim. Rad si tvuj svetelny mec ponecham v uschove.
+
+REFERENCE           25KJO012
+LANG_ENGLISH        "No.  I think I'll keep it."
+LANG_CZECH        "Ne. Myslim, ze si ho necham."
+
+REFERENCE           25JAO006
+LANG_ENGLISH        "Hah!  I knew it!  Lando owes me five credits!"
+LANG_CZECH        "Ha! Vedela jsem to! Lando mi dluzi pet kreditu!"
+
+REFERENCE           25LUK006
+LANG_ENGLISH        "Are you sure this is what you want, Kyle?"
+LANG_CZECH        "Jsi si jisty, ze to je to, co chces Kyle?"
+
+REFERENCE           25KJO013
+LANG_ENGLISH        "Look, I'm not saying I'm ready to join the Academy or anything like that.  I mean, before I do ANYTHING, I figure that Jan and I have earned a long vacation on the beaches of Spira.  And after that...well..."
+LANG_CZECH        "Podivej, nerikam, ze jsem pripraven vstoupit do Akademie nebo neco podobneho. Chci rict, ze nez neco udelam, tak si myslim, ze si s Jan zaslouzime dlouhou dovolenou na plazich Spira. A potom...no..."
+
+REFERENCE           25LUK007
+LANG_ENGLISH        "After that, we'll see."
+LANG_CZECH        "Potom uvidime."
+
+REFERENCE           25KJO014
+LANG_ENGLISH        "Yeah."
+LANG_CZECH        "Jo."
+
+REFERENCE           25LUK008
+LANG_ENGLISH        "Take your time, Kyle.  We'll still be here when you're ready."
+LANG_CZECH        "Nespechej, Kyle. Budeme tu, az budes pripraven."
+
+REFERENCE           25KJO015
+LANG_ENGLISH        "Thanks. And May the Force Be With You, Luke. "
+LANG_CZECH        "Diky. A at te provazi Sila, Luku."
+
+REFERENCE           25JAO007
+LANG_ENGLISH        "Now he owes me twenty."
+LANG_CZECH        "Ted mi dluzi dvacet."
+
+ENDMARKER

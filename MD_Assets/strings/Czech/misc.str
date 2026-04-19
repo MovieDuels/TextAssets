@@ -1,0 +1,402 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           MLUK_01
+NOTES               "(concerned)"
+LANG_ENGLISH        "Kyle and I have sensed great anger in you, Jaden.  You must learn to control it, or it could lead you to the dark side."
+LANG_CZECH        "Citili jsme v tobe s Kylem velky hnev, Jadene. Musis se naucit ho kontrolovat. Mohl by te snadno privest k Temne strane."
+
+REFERENCE           MKYK_01
+NOTES               "(a word of advice)"
+LANG_ENGLISH        "Look, Jaden, I know better than almost anyone here that the dark side is tempting, especially in the middle of a fight, but you better watch it, okay?"
+LANG_CZECH        "Podivej se, Jadene, vim lepe nez kdo jiny, ze Temna sila je vyzyvava, hlavne uprostred boje, ale radsi si na to davej pozor, ano?"
+
+REFERENCE           MLUK_02
+NOTES               "(sternly, seriously)"
+LANG_ENGLISH        "Jaden.  You are playing with powers that will consume you.  If you don't change your ways, you will fall to the dark side completely."
+LANG_CZECH        "Jadene. Hrajes si se silami, ktere te znici.  Pokud nezmenis sva rozhodnuti, propadnes Temne strane."
+
+REFERENCE           MKYK_02
+NOTES               "(rebuking)"
+LANG_ENGLISH        "Jaden, the dark side is not something you play with; trust me, I know.  You better get it under control while you still can!"
+LANG_CZECH        "Jadene, Temna strana neni neco, s cim by jsi si mohl hrat. Ver mi, vim to.  Mel by jsi se ovladnout, dokud jeste muzes!"
+
+REFERENCE           MLUK_03
+NOTES               "(pleased, with praise)"
+LANG_ENGLISH        "Jaden, you are truly on the path of the Jedi.  I sense that you are at peace."
+LANG_CZECH        "Jadene, jdes skutecne cestou rytire Jedi.  Citim v tobe velky klid."
+
+REFERENCE           MKYK_03
+NOTES               "(proud)"
+LANG_ENGLISH        "I'm proud of you, Jaden.  Despite everything, you've really kept your balance and control."
+LANG_CZECH        "Jsem na tebe pysny, Jadene.  Navzdory vsemu jsi si udrzel rozvahu a kontrolu."
+
+REFERENCE           MLUK_04
+NOTES               "(pleased)"
+LANG_ENGLISH        "I sense much good in you.  Keep on your current path and you will truly be a Jedi."
+LANG_CZECH        "Citim v tobe mnoho dobreho.  Pokracuj touto cestou a stane se z tebe skutecny Jedi."
+
+REFERENCE           MKYK_04
+NOTES               "(encouraging)"
+LANG_ENGLISH        "You're making good progress.  Luke and I can sense the good in you.  You'll be a Jedi in no time."
+LANG_CZECH        "Vedes si dobre.  Citime v tobe s Lukem dobro.  Zanedlouho budes Jedi."
+
+REFERENCE           MLUK_05
+NOTES               "(cautiously, advising)"
+LANG_ENGLISH        "Your future is clouded.  Make your choices carefully."
+LANG_CZECH        "Tva budoucnost je zatemnena.  Vol sva rozhodnuti opatrne."
+
+REFERENCE           MKYK_05
+NOTES               "(advising, approving)"
+LANG_ENGLISH        "I gotta say, I admire how you've kept your balance.  You've got a good, strong spirit.  Keep it up."
+LANG_CZECH        "Musim rict, ze obdivuji tvou rozvaznost. Mas silnou dusi. Udrz si ji."
+
+REFERENCE           MKYK_06
+LANG_ENGLISH        "Be careful walking the line between light and dark.  It can go either way"
+LANG_CZECH        "Cestou mezi Temnou a Svetlou stranou kracej opatrne. Muze vest obema smery."
+
+REFERENCE           MST_01L01
+LANG_ENGLISH        "That Bith was really getting on my nerves so I shot him. How was I supposed to know he was a friend of the Admiral?"
+LANG_CZECH        "Ten Bith mi vazne lezl na nervy, tak jsem ho zastrelil. Jak jsem mel vedet, ze je pritelem admirala?"
+
+REFERENCE           MST_01L02
+LANG_ENGLISH        "You'll be executed for sure. "
+LANG_CZECH        "Za tohle te urcite popravi. "
+
+REFERENCE           MST_01L03
+LANG_ENGLISH        "No way.  They don't know it was me."
+LANG_CZECH        "V zadnem pripade.  Nevedi, ze jsem to byl ja."
+
+REFERENCE           MST_01L04
+LANG_ENGLISH        "Sure they do.  Your pistol has a tracking device in it.  The higher-ups can trace when your weapon was fired and where."
+LANG_CZECH        "Jasne ze vedi.  Tva pistole ma v sobe zamerovaci zarizeni. Nadrizeni mohou zjistit, kdy a kde zbran vystrelila."
+
+REFERENCE           MST_01L05
+LANG_ENGLISH        "You're kidding?  Ummm... I have to go check on something."
+LANG_CZECH        "Delas si srandu?  Hmmm... Musim jit neco proverit."
+
+REFERENCE           MST_02L01
+LANG_ENGLISH        "Y'know, I used to race on the swoop circuit."
+LANG_CZECH        "Vis, kdysi jsem zavodil."
+
+REFERENCE           MST_02L02
+LANG_ENGLISH        "You did, huh?  Were you good?"
+LANG_CZECH        "Opravdu. Byl jsi dobry?"
+
+REFERENCE           MST_02L03
+LANG_ENGLISH        "One of the best.  Top three every race."
+LANG_CZECH        "Jeden z nejlepsich.  Kazdy zavod na stupnich vitezu."
+
+REFERENCE           MST_02L04
+LANG_ENGLISH        "So how come you're not a scout trooper?"
+LANG_CZECH        "Tak jakto ze se z tebe nestal pruzkumnik?"
+
+REFERENCE           MST_02L05
+LANG_ENGLISH        "Once I put the helmet on, I couldn't see.  I sideswiped another cadet and caused a pile up that destroyed twelve speeder bikes.  I was kicked out of the trooper corps."
+LANG_CZECH        "Kdyz jsem si nasadil helmu, nevidel jsem.  Narazil jsem do dalsiho kadeta a zpusobil retezovou reakci, pri ktere bylo zniceno dvanact speederu. Vykopli me z vojenskych jednotek."
+
+REFERENCE           MST_02L06
+LANG_ENGLISH        "That's tough."
+LANG_CZECH        "To je slusne."
+
+REFERENCE           MST_03L01
+LANG_ENGLISH        "Y'know, I'd rather be fighting Rebels out on the front lines than guarding... what are we guarding?"
+LANG_CZECH        "Hm, radsi bych bojoval s rebely ve frontovych liniich nez tady hlidat...co vlastne hlidame?"
+
+REFERENCE           MST_03L02
+LANG_ENGLISH        "It doesn't matter.  We just have to guard it and make sure no one gets past."
+LANG_CZECH        "Na tom nezalezi.  Musime to proste hlidat a zajistit, aby se k tomu nikdo nedostal."
+
+REFERENCE           MST_03L03
+LANG_ENGLISH        "Yeah.  Like some lone Rebel is going to sneak in here."
+LANG_CZECH        "Jo.  Jako by se sem nejaky osamely povstalec chystal proplizit."
+
+REFERENCE           MST_03L04
+LANG_ENGLISH        "We're probably protecting dried nerf steaks or something like that."
+LANG_CZECH        "Nejspis tu hlidame nejake susene steaky nebo neco takoveho."
+
+REFERENCE           MST_04L01
+LANG_ENGLISH        "Have you been by auxiliary hall B?"
+LANG_CZECH        "Byl jsi v posledni dobe v hale B?"
+
+REFERENCE           MST_04L02
+LANG_ENGLISH        "Yeah, why?"
+LANG_CZECH        "Jo, proc?"
+
+REFERENCE           MST_04L03
+LANG_ENGLISH        "I thought I heard something down there.  Could be a Wampa."
+LANG_CZECH        "Myslim, ze jsem tam neco zaslechl.  Mohla by to byt wampa."
+
+REFERENCE           MST_04L04
+LANG_ENGLISH        "We cleared this place out when we got here.  There are no wampas inside the base."
+LANG_CZECH        "Kdyz jsme sem prisli, vycistili jsme to tu.  Uz tu nejsou zadni wampove."
+
+REFERENCE           MST_04L05
+LANG_ENGLISH        "I don't know.  I'm not going there alone."
+LANG_CZECH        "Nevim, nevim.  Sam uz tam nejdu."
+
+REFERENCE           MST_04L06
+LANG_ENGLISH        "Let's go check it out right now.  I'll prove to you there are no wampas."
+LANG_CZECH        "Tak se na to pujdem podivat.  Dokazu ti, ze tu nejsou zadni wampove."
+
+REFERENCE           MST_05L01
+LANG_ENGLISH        "This place is creepy.  Was this really Darth Vader's castle?"
+LANG_CZECH        "Tohle misto je strasidelne. Byl to opravdu hrad Dartha Vadera?"
+
+REFERENCE           MST_05L02
+LANG_ENGLISH        "That's what I heard."
+LANG_CZECH        "Zaslechl jsem to."
+
+REFERENCE           MST_05L03
+LANG_ENGLISH        "I'm sure glad I wasn't stationed here when Vader was alive.  I heard he liked to use stormtroopers for lightsaber practice."
+LANG_CZECH        "Jsem rad, ze jsem tu nebyl, kdyz byl Vader nazivu. Pry rad pouzival stormtroopery pro trenink se svetelnym mecem."
+
+REFERENCE           MST_05L04
+LANG_ENGLISH        "I've never even seen a lightsaber."
+LANG_CZECH        "Nikdy jsem nevidel svetelny mec."
+
+REFERENCE           MST_05L05
+LANG_ENGLISH        "Let's hope we never have to."
+LANG_CZECH        "Snad ani nikdy neuvidime."
+
+REFERENCE           MST_06L01
+LANG_ENGLISH        "Have you seen the new Blastech E-19?"
+LANG_CZECH        "Uz jsi videl novy Blastech E-19?"
+
+REFERENCE           MST_06L02
+LANG_ENGLISH        "Are they any good?"
+LANG_CZECH        "Jsou dobre?"
+
+REFERENCE           MST_06L03
+LANG_ENGLISH        "I just got one.  I'm going to try it out at the firing range when my shift's over."
+LANG_CZECH        "Prave jsem jeden dostal. Po sichte se ho chystam vyzkouset na strelnici."
+
+REFERENCE           MST_06L04
+LANG_ENGLISH        "Let me know how it goes.  My E-15 could use an upgrade."
+LANG_CZECH        "Dej mi vedet, jaky je.  Muj E-15 by potreboval upgrade."
+
+REFERENCE           MST_06L05
+LANG_ENGLISH        "My shift's over at 1600.  Why don't you join me?"
+LANG_CZECH        "Moje sluzba konci v 16:00.  Muzes jit se mnou?"
+
+REFERENCE           MST_06L06
+LANG_ENGLISH        "I'll clear it with my squad leader and let you know."
+LANG_CZECH        "Zeptam se velitele druzstva a dam ti vedet."
+
+REFERENCE           MST_07L01
+LANG_ENGLISH        "What's with the increased security in sector seven?"
+LANG_CZECH        "Proc zvysili ostrahu v sektoru sedm?"
+
+REFERENCE           MST_07L02
+LANG_ENGLISH        "Last week's break in."
+LANG_CZECH        "Kvuli tomu prolomeni minuly tyden."
+
+REFERENCE           MST_07L03
+LANG_ENGLISH        "I hear they captured the insurgents."
+LANG_CZECH        "Slysel jsem, ze zajali vzbourence."
+
+REFERENCE           MST_07L04
+LANG_ENGLISH        "They did, but they refuse to talk.  There's no way of telling if they acted alone or if it was an inside job."
+LANG_CZECH        "Zajali, ale odmitli mluvit.  Nikdo nedokaze rict, jestli jednali sami za sebe nebo to bylo jinak."
+
+REFERENCE           MST_07L05
+LANG_ENGLISH        "They'll talk.  The Admiral will see to that."
+LANG_CZECH        "Oni promluvi. Admiral se o to postara."
+
+REFERENCE           MST_08L01
+LANG_ENGLISH        "So how long you been here?"
+LANG_CZECH        "Jak dlouho uz jsi tu?"
+
+REFERENCE           MST_08L02
+LANG_ENGLISH        "Just got in."
+LANG_CZECH        "Prave jsem prisel."
+
+REFERENCE           MST_08L03
+LANG_ENGLISH        "Yeah? Who’s your commander?"
+LANG_CZECH        "Jo? Kdo je tvuj velitel?"
+
+REFERENCE           MST_08L04
+LANG_ENGLISH        "Someone called Ra’fel."
+LANG_CZECH        "Nekdo jmenem Ra’fel."
+
+REFERENCE           MST_08L05
+LANG_ENGLISH        "You mean ‘Friendly Fire’? You better make out your will now..."
+LANG_CZECH        "Mas na mysli ‘Pratelska palba’? Mel by jsi si zacit psat posledni vuli..."
+
+REFERENCE           MST_08L06
+LANG_ENGLISH        "What're you talking about?"
+LANG_CZECH        "O cem to mluvis?"
+
+REFERENCE           MST_08L07
+LANG_ENGLISH        "You haven't heard? Guy's a real one-man army."
+LANG_CZECH        "Neslysel jsi o tom? Ten chlap je skutecna jednoclenna armada."
+
+REFERENCE           MST_08L08
+LANG_ENGLISH        "What?"
+LANG_CZECH        "Co?"
+
+REFERENCE           MST_08L09
+LANG_ENGLISH        "As soon as the action starts he's blazing away like no-one's business.  You wanna make dead certain he's in front of you or you'll be getting new rear vents in your armor."
+LANG_CZECH        "Kdyz zacne akce, chova se jako silenec. Mel by jsi si byt sakra jisty, ze nejsi pred nim. Jinak budes mit v brneni nove vetraci otvory."
+
+REFERENCE           MST_08L10
+LANG_ENGLISH        "You're kidding me."
+LANG_CZECH        "Delas si srandu."
+
+REFERENCE           MST_08L11
+LANG_ENGLISH        "No, I’m serious."
+LANG_CZECH        "Ne, mluvim vazne."
+
+REFERENCE           MST_09L01
+LANG_ENGLISH        "I heard you got chewed out by the commander."
+LANG_CZECH        "Slysel jsem, ze te velitel serval."
+
+REFERENCE           MST_09L02
+LANG_ENGLISH        "I was making faces at him the whole time  These helmets are great!"
+LANG_CZECH        "Ksichtim se na nej celou dobu. Tyhle helmy jsou skvele!"
+
+REFERENCE           MST_09L03
+LANG_ENGLISH        "You do that too?  I thought I was the only one..."
+LANG_CZECH        "Ty taky?  Myslel jsem, ze to delam jenom ja..."
+
+REFERENCE           MST_09L04
+LANG_ENGLISH        "Look alert, officer approaching..."
+LANG_CZECH        "Pozor, blizi se dustojnik..."
+
+REFERENCE           MST_10L01
+LANG_ENGLISH        "Boy, I could sure go for a death-stick right about now."
+LANG_CZECH        "Hochu, asi si pujdu dat smrticky."
+
+REFERENCE           MST_10L02
+LANG_ENGLISH        "Bah, those things will kill you."
+LANG_CZECH        "Bacha, tyhle veci te zabiji."
+
+REFERENCE           MRT_01L01
+LANG_ENGLISH        "Do you know where the armory is?  My weapon keeps jamming."
+LANG_CZECH        "Vis, kde je zbrojnice?  Porad se mi zasekava zbran."
+
+REFERENCE           MRT_01L02
+LANG_ENGLISH        "I wouldn’t worry about it.  There’s nothing to fight here but wind gusts."
+LANG_CZECH        "Nestaral bych se o to.  Krome vetrnych poryvu tu neni s kym bojovat."
+
+REFERENCE           MRT_01L03
+LANG_ENGLISH        "I like being posted out here.  Nice and quiet."
+LANG_CZECH        "Jsem rad, ze me dali sem.  Ticho a klid."
+
+REFERENCE           MRT_01L04
+LANG_ENGLISH        "Yeah, I guess your right..."
+LANG_CZECH        "Jo, asi mas pravdu..."
+
+REFERENCE           MIS_01L01
+LANG_ENGLISH        "Is it just me, or are Rodians kinda creepy?"
+LANG_CZECH        "Zda se mi to, nebo jsou ti Rodiane strasidelni?"
+
+REFERENCE           MIS_01L02
+LANG_ENGLISH        "I know what you mean. Those weird antenna-things, right?"
+LANG_CZECH        "Vim, co mas na mysli. Ty divne antenky, ze ano?"
+
+REFERENCE           MIS_01L03
+LANG_ENGLISH        "Yeah. That and the nose. Pretty spooky."
+LANG_CZECH        "Jo. Ty a ten nos. Pekne strasidelne."
+
+REFERENCE           MIS_01L04
+LANG_ENGLISH        "Yeah. Spooky."
+LANG_CZECH        "Jo. strasidelne."
+
+REFERENCE           MCU_01L01
+LANG_ENGLISH        "We’re wanted up in the throne room."
+LANG_CZECH        "Chteji nas v trunnim salu."
+
+REFERENCE           MCU_01L02
+LANG_ENGLISH        "For what?"
+LANG_CZECH        "Proc?"
+
+REFERENCE           MCU_01L03
+LANG_ENGLISH        "I guess they’re almost done up there.  We’ll be leaving soon."
+LANG_CZECH        "Asi uz jsou temer hotovi.  Brzy budeme odchazet."
+
+REFERENCE           MCU_02L01
+LANG_ENGLISH        "Are you new here?"
+LANG_CZECH        "Jses tu novy?"
+
+REFERENCE           MCU_02L02
+LANG_ENGLISH        "Yeah."
+LANG_CZECH        "Jo."
+
+REFERENCE           MCU_02L03
+LANG_ENGLISH        "You made a wise choice.  The master will soon return to lead us to glory."
+LANG_CZECH        "Zvolil jsi dobre.  Vudce se brzy vrati a povede nas ke slave."
+
+REFERENCE           MRE_01L01
+
+LANG_ENGLISH        "Our goal is near."
+LANG_CZECH        "Nas cil je blizko."
+
+REFERENCE           MRE_01L02
+LANG_ENGLISH        "Yes.  Soon, Ragnos will be risen, and he will guide us to a new age."
+LANG_CZECH        "Ano.  Ragnos brzy povstane a povede nas v nove dobe."
+
+REFERENCE           MME_01L01
+LANG_ENGLISH        "I can hardly see in this thing.  It’s like being a stormtrooper all over again."
+LANG_CZECH        "Spatne v tom vidim.  Je to jako byt zase stormtrooper."
+
+REFERENCE           MME_01L02
+LANG_ENGLISH        "You were a stormtrooper?"
+LANG_CZECH        "Byl jsi stormtrooper?"
+
+REFERENCE           MME_01L03
+LANG_ENGLISH        "Yeah, but I couldn’t stand taking orders so I jumped ship first chance I got."
+LANG_CZECH        "Jo, ale nelibilo se mi prijimat rozkazy, tak jsem vyuzil prvni prilezitosti."
+
+REFERENCE           MME_01L04
+LANG_ENGLISH        "Smart move. By the way, the boss gave us orders to patrol the north hall."
+LANG_CZECH        "Chytre. Mimochodem, sef nam dal prikaz hlidat severni halu."
+
+REFERENCE           MME_01L05
+LANG_ENGLISH        "Okay, let’s go."
+LANG_CZECH        "OK, pojdme."
+
+REFERENCE           MME_02L01
+LANG_ENGLISH        "Did you put your bet in?"
+LANG_CZECH        "Uz sis vsadil?"
+
+REFERENCE           MME_02L02
+LANG_ENGLISH        "Why bother?  The odds are terrible.  Most prisoners don’t even get ten meters before the rancor eats them.  It’s a waste of credits."
+LANG_CZECH        "Proc se obtezovat?  Sance jsou mizive.  Vetsina veznu neutece ani deset metru, nez je Rancor sezere. Je to ztrata kreditu."
+
+REFERENCE           MME_02L03
+LANG_ENGLISH        "Maybe, but if one of them ever does make a break, I’m gonna be rich."
+LANG_CZECH        "Mozna, ale kdyz to jeden nekdy dokaze, budu bohac."
+
+REFERENCE           MME_02L04
+LANG_ENGLISH        "Keep dreamin’."
+LANG_CZECH        "Sni dal."
+
+REFERENCE           MME_03L01
+LANG_ENGLISH        "Hokk, do you read?"
+LANG_CZECH        "Hokku, slysis?"
+
+REFERENCE           MME_03L02
+LANG_ENGLISH        "I read you, J'aahn."
+LANG_CZECH        "Slysim, J'aahne."
+
+REFERENCE           MME_03L03
+LANG_ENGLISH        "Meet me at station Six-C."
+LANG_CZECH        "Sejdeme se na stanici Sest-C."
+
+
+ENDMARKER
+
+

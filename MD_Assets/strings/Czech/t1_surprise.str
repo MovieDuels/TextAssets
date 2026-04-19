@@ -1,0 +1,90 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           04KYK001
+LANG_ENGLISH        "This should be a total blue milk run, kid.  But it'll give you a chance to pick up some negotiating skills. Let's head to Tatooine."
+LANG_CZECH        "Tohle by mela byt brnkacka, hochu.  Ale aspon budes mit prilezitost pochytit trochu vyjednavacich dovednosti. Vzhuru na Tatooine."
+
+REFERENCE           04KYK002
+NOTES               "(looking around, troubled)"
+LANG_ENGLISH        "Jawas. Never around when you need them."
+LANG_CZECH        "Jawove. Nikdy nejsou pobliz, kdyz je potrebujes."
+
+REFERENCE           04KYK003
+NOTES               "(Walks a few steps)"
+LANG_ENGLISH        "Tracks...  maybe they've already come and gone."
+LANG_CZECH        "Stopy...  mozna uz odjeli."
+
+REFERENCE           04KYK004
+NOTES               "(stands up and looks around, points)"
+LANG_ENGLISH        "Go see if you can find their sandcrawler; they might have stopped in that canyon. I'll talk to the moisture farmers, see if they know anything about this cult."
+LANG_CZECH        "Pokus se najit jejich Sandcrawler; mozna zastavili v kanonu. Ja si promluvim s mistnimi farmari a zjistim, jestli o tom kultu neco nevi."
+
+REFERENCE           04JAK001
+NOTES               "(cautious)"
+LANG_ENGLISH        "All right."
+LANG_CZECH        "Dobra."
+
+REFERENCE           04KYK005
+NOTES               "(to Jaden)"
+LANG_ENGLISH        "Don't worry, Jawas are pretty friendly.  "
+LANG_CZECH        "Nemusis se bat, Jawove jsou pratelsti.  "
+
+REFERENCE           04JAK002
+LANG_ENGLISH        "I wonder if I can get up there?"
+LANG_CZECH        "Zajimalo by me, jestli se tam dokazu dostat."
+
+REFERENCE           04JAK003
+LANG_ENGLISH        "This is not the droid we're looking for."
+LANG_CZECH        "Tohle neni droid, ktereho hledame."
+
+REFERENCE           04JAK004
+LANG_ENGLISH        "You're not an R5 unit."
+LANG_CZECH        "Ty nejsi jednotka R5."
+
+REFERENCE           04JAK005
+NOTES               "(annoyed)"
+LANG_ENGLISH        "Where is this blasted droid?"
+LANG_CZECH        "Kde je ten zatraceny droid?"
+
+REFERENCE           04JAK006
+LANG_ENGLISH        "How many droids do these jawas have?"
+LANG_CZECH        "Kolik droidu ti Jawove maji?"
+
+REFERENCE           04JAK007
+LANG_ENGLISH        "Are these even the right jawas?"
+LANG_CZECH        "Jsou to vubec ti pravi Jawove?"
+
+REFERENCE           04JAK008
+LANG_ENGLISH        "You must be the droid we were sent for.  But it doesn't look like there's any Jawas left to negotiate with.  I guess you better just follow me."
+LANG_CZECH        "Ty musis byt ten droid, pro ktereho me poslali.  Ale vypada to, ze tu nezbyli zadni Jawove na vyjednavani. Asi bude nejlepsi, kdyz proste pujdes se mnou."
+
+REFERENCE           04KYK006
+NOTES               "(sarcastically)"
+LANG_ENGLISH        "I was starting to get worried, any problems?"
+LANG_CZECH        "Uz jsem se zacinal bat. Nejake problemy?"
+
+REFERENCE           04JAK009
+LANG_ENGLISH        "Not unless you count the Sand People I ran into."
+LANG_CZECH        "Ne, pokud nepocitate ty pisecne lidi, na ktere jsem narazil."
+
+REFERENCE           04KYK007
+LANG_ENGLISH        "Well!  You're still in one piece, so you must have handled yourself all right.  Let's get this droid back to the Academy."
+LANG_CZECH        "No!  Jsi porad v jednom kuse, takze jsi to musel zvladnout. Vezmeme droida zpatky na Akademii."
+
+
+ENDMARKER
+
+

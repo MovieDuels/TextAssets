@@ -1,0 +1,95 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           15PRO001
+LANG_ENGLISH        "I have been told that a student with your level of training should have no difficulties with this particular mission."
+LANG_CZECH        "Bylo mi receno, ze student s Vasi urovni treninku by nemel mit problem dokoncit tuto misi."
+
+REFERENCE           15JAK001
+NOTES               "drviving a swoop bike"
+LANG_ENGLISH        "That was close!"
+LANG_CZECH        "To bylo tesne!"
+
+REFERENCE           15JAK002
+NOTES               "drviving a swoop bike (having fun)"
+LANG_ENGLISH        "Woooo!"
+LANG_CZECH        "Jeeee!"
+
+REFERENCE           15JAK003
+NOTES               "drviving a swoop bike (close call)"
+LANG_ENGLISH        "Whoa!"
+LANG_CZECH        "Juuuu!"
+
+REFERENCE           15JAK004
+NOTES               "drviving a swoop bike"
+LANG_ENGLISH        "Better be careful."
+LANG_CZECH        "Radsi opatrne."
+
+REFERENCE           15JAK005
+LANG_ENGLISH        "Looks like someone doesn't want me here."
+LANG_CZECH        "Vypada to, ze me tu nekdo nechce."
+
+REFERENCE           15JAK006
+NOTES               "(Kinda like when Han says, Hey, watch where you're pointing that thing.)"
+LANG_ENGLISH        "Hey!"
+LANG_CZECH        "Hej!"
+
+REFERENCE           15JAK007
+LANG_ENGLISH        "These guys don't give up!"
+LANG_CZECH        "Tihle chlapi se nevzdaji!"
+
+REFERENCE           15ME1001
+LANG_ENGLISH        "Are you the Jedi?"
+LANG_CZECH        "Jste Jedi?"
+
+REFERENCE           15JAK008
+LANG_ENGLISH        "Yes.  Tell me everything you know about the Disciples of Ragnos.  Please make it quick, though, I ran into some trouble back there and it might be following me."
+LANG_CZECH        "Ano.  Reknete mi vsechno, co vite o Stoupencich Ragnose.  Prosim rychle. Narazil jsem tu na par problemu a mozna me sledovali."
+
+REFERENCE           15ME1002
+LANG_ENGLISH        "We should go inside, it'll be safer."
+LANG_CZECH        "Meli bychom jit dovnitr. Bude tam bezpecneji."
+
+REFERENCE           15ME1003
+NOTES               "(trying to tell Jaden something)"
+LANG_ENGLISH        "Cult... must..."
+LANG_CZECH        "kult... musi..."
+
+REFERENCE           15JAK009
+LANG_ENGLISH        "Sith spit!  I have to get outta here!"
+LANG_CZECH        "Do Sithu!  Musim se odsud dostat!"
+
+REFERENCE           15JAK010
+LANG_ENGLISH        "Looks like I'm not going back that way."
+LANG_CZECH        "Vypada to, ze zpatky to nepujde."
+
+REFERENCE           15JAK011
+LANG_ENGLISH        "Snipers.  Great!  I hate snipers!"
+LANG_CZECH        "Sniperi.  Skvele!  Nesnasim snipery!"
+
+REFERENCE           15JAK012
+NOTES               "(shakes his head)"
+LANG_ENGLISH        "That's a long way down..."
+LANG_CZECH        "Dolu je to daleko..."
+
+REFERENCE           15JAK013
+NOTES               "(sees an enemy smash into a wall)"
+LANG_ENGLISH        "Dead end..."
+LANG_CZECH        "Slepa ulice..."
+
+
+ENDMARKER
+
+

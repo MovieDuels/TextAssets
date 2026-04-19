@@ -1,0 +1,163 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           C3PO1
+LANG_ENGLISH        "Did you hear that?"
+LANG_CZECH        "Slysel jsi to?"
+
+REFERENCE           C3PO1B
+LANG_ENGLISH        "They shut down the main reactor.\nWe'll be destroyed for sure."
+LANG_CZECH        "To byl hlavni reaktor.\nUrcite nas znici."
+
+REFERENCE           C3PO1C
+LANG_ENGLISH        "This is madness!"
+LANG_CZECH        "To je silenstvi!"
+
+REFERENCE           C3PO2
+LANG_ENGLISH        "We're doomed."
+LANG_CZECH        "To je nas konec."
+
+REFERENCE           C3PO2B
+LANG_ENGLISH        "There'll be no escape for the princess this time."
+LANG_CZECH        "Tentokrat princezna neunikne."
+
+REFERENCE           C3PO3
+LANG_ENGLISH        "What's that?"
+LANG_CZECH        "Co to bylo?"
+
+REFERENCE           C3PO4
+LANG_ENGLISH        "R2-D2, where are you?"
+LANG_CZECH        "R2-D2, kde jsi?"
+
+REFERENCE           C3PO5
+LANG_ENGLISH        "At last. Where have you been?"
+LANG_CZECH        "Konecne. Kde vezis?"
+
+REFERENCE           C3PO5B
+LANG_ENGLISH        "They're heading in this direction. What are we going to do?\nWe'll be sent to the spice mine of Kessel or smashed into who knows what."
+LANG_CZECH        "Blizi se k nam. Co budeme delat?\nPoslou nas do dolu na Kessel nebo nas rozeberou na nahradni dily."
+
+REFERENCE           C3PO6
+LANG_ENGLISH        "Wait a minute. Where are you going?"
+LANG_CZECH        "Pockej, kam jedes?"
+
+REFERENCE           C3PO7
+LANG_ENGLISH        "Hey. You're not permitted in there. It's restricted.\nYou'll be deactivated for sure."
+LANG_CZECH        "Tam prece nesmis. Je to zakazano.\nZa to te urcite deaktivuji."
+
+REFERENCE           C3PO8
+LANG_ENGLISH        "Don't call me a mindless philosopher, you overweight glob of grease.\nNow come out, before somebody sees you."
+LANG_CZECH        "Kde je u tebe hloupy filozof, ty obezni mastna plechovko.\nVylez, nez te nekdo uvidi."
+
+REFERENCE           C3PO9
+LANG_ENGLISH        "Secret mission? What plans?\nWhat are you talking about? I'm not getting in there."
+LANG_CZECH        "Tajny ukol? Jake plany?\nO cem to mluvis? Tam ja nevlezu."
+
+REFERENCE           C3PO10
+LANG_ENGLISH        "I'm going to regret this."
+LANG_CZECH        "Toho budu litovat."
+
+REFERENCE           IMP1
+LANG_ENGLISH        "Holding her is dangerous. If word of this gets out,\nit could generate sympathy for the Rebellion in the senate."
+LANG_CZECH        "Zadrzet ji je nebezpecne. Pokud se to provali,\nmohlo by to v Senatu vyvolat sympatie k Povstani."
+
+REFERENCE           IMP2
+LANG_ENGLISH        "She'll die before she'll tell you anything."
+LANG_CZECH        "Spis zemre, nez by promluvila."
+
+REFERENCE           IMP3
+LANG_ENGLISH        "Lord Vader, the battle station plans are not aboard this ship,\nand no transmissions were made."
+LANG_CZECH        "Lorde Vadere, plany bojove stanice nejsou na palube.\na nic nebylo odeslano."
+
+REFERENCE           IMP3B
+LANG_ENGLISH        "An escape pod was jettisoned during the fighting,\nbut no life-forms were aboard."
+LANG_CZECH        "Zachranny modul behem boje odletel,\nale nikdo v nem nebyl."
+
+REFERENCE           IMP4
+LANG_ENGLISH        "Yes, sir."
+LANG_CZECH        "Ano, pane."
+
+REFERENCE           LEIA1
+LANG_ENGLISH        "Darth Vader. Only you could be so bold.\nThe Imperial Senate will not sit still for this. When they hear you've attacked a diplomat-"
+LANG_CZECH        "Darth Vader, tohle jste si mohl dovolit jen vy.\nImperialni Senat nezustane mlcet, az se dozvi o utoku na diplomatic-"
+
+REFERENCE           LEIA2
+LANG_ENGLISH        "I don't know what you're talking about.\nI'm a member of the Imperial Senate on a diplomatic mission to Alderaan."
+LANG_CZECH        "Nevim, o cem to mluvite.\nJsem clenem Imperialniho Senatu na diplomaticke ceste na Alderaan."
+
+REFERENCE           R2D21
+LANG_ENGLISH        "(R2-D2 BEEPS)"
+
+REFERENCE           R2D21B
+LANG_ENGLISH        "(BEEP WHISTLE BLIP)"
+
+REFERENCE           R2D21C
+LANG_ENGLISH        "(WHISTLE BEEP BEEP)"
+
+REFERENCE           R2D22
+LANG_ENGLISH        "(BEEP BEEP)"
+
+REFERENCE           R2D2_PLANS
+LANG_ENGLISH        "(BEEP BLIP BEEP)"
+
+REFERENCE           REBEL1
+LANG_ENGLISH        "(CHOKING) We intercepted no transmissions.\nThis is a consular ship. We're on a diplomatic mission."
+LANG_CZECH        "(DUSENI) Zadna data jsme neprijali.\nTohle je konzularni lod. Jsme na diplomaticke ceste."
+
+REFERENCE           STORMTROOPER1
+LANG_ENGLISH        "The Death Star plans are not in the main computer."
+LANG_CZECH        "Plany Hvezdy Smrti nejsou v hlavnim pocitaci."
+
+REFERENCE           STORMTROOPER2
+LANG_ENGLISH        "There's one. Set for stun."
+LANG_CZECH        "Tamhle je. Znehybnete ji."
+
+REFERENCE           STORMTROOPER3
+LANG_ENGLISH        "She'll be alright.\nInform Lord Vader we have a prisoner."
+LANG_CZECH        "Nic ji neni.\nInformujte Lorda Vadera, ze mame vezne."
+
+REFERENCE           VADER1
+LANG_ENGLISH        "Where are those transmissions you intercepted?\nWhat have you done with those plans?"
+LANG_CZECH        "Kde jsou data, ktere jste prijali?\nCo jste s temi plany udelali?"
+
+REFERENCE           VADER2
+LANG_ENGLISH        "If this is a consular ship, where is the ambassador?"
+LANG_CZECH        "Pokud jste konzularni lod, kde je velvyslanec?"
+
+REFERENCE           VADER3
+LANG_ENGLISH        "Commander, tear this ship apart until you've found those plans!\nAnd bring me the passengers! I want them alive!"
+LANG_CZECH        "Veliteli, obratte tu lod naruby, nez najdete ty plany!\nA privedte mi pasazery! Chci je zive!"
+
+REFERENCE           VADER4
+LANG_ENGLISH        "Don't act so surprised, Your Highness. You weren't on any mercy mission this time. Several transmissions were beamed to this ship by rebel spies. I want to know what happened to the plans they sent you."
+LANG_CZECH        "Nehrajte divadlo, Vase Vysosti. Neplnili jste zadne uslechtile poslani. Tahle lod prijala nekolik zprav od Povstaleckych spionu. Kde jsou plany, ktere Vam Povstalci poslali?"
+
+REFERENCE           VADER5
+LANG_ENGLISH        "You are part of the Rebel Alliance and a traitor.\nTake her away!"
+LANG_CZECH        "Jste jeden z Povstalcu a take zradce.\nOdvedte ji!"
+
+REFERENCE           VADER6
+LANG_ENGLISH        "I have traced the Rebel spies to her.\nNow she is my only link to finding their secret base."
+LANG_CZECH        "Vedou k ni stopy Povstaleckych spionu.\nJe jedinym voditkem k nalezeni jejich tajne zakladny."
+
+REFERENCE           VADER7
+LANG_ENGLISH        "Leave that to me.\nSend a distress signal, and then inform the senate that all aboard were killed."
+LANG_CZECH        "To nechte na mne.\nVyslete signal a informujte Senat, ze vsichni na lodi zahynuli."
+
+REFERENCE           VADER8
+LANG_ENGLISH        "She must have hidden the plans in the escape pod. Send a detachment down to retrieve them. See to it personally, Commander. There'll be no one to stop us this time."
+LANG_CZECH        "Musela do toho zachranneho modulu ukryt ty plany. Poslete vysadek, at je dostane zpatky. Dohlednete na to osobne, Veliteli. Ted uz nas nic nezastavi."
+
+ENDMARKER

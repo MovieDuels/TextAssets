@@ -1,0 +1,96 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           06LUK018
+LANG_ENGLISH        "You've retrieved your lightsaber.  Very good"
+LANG_CZECH        "Ziskal jsi svuj svetelny mec. Velmi dobre."
+
+REFERENCE           06KJO014
+LANG_ENGLISH        "I'm ready. What did you find out about Desann?"
+LANG_CZECH        "Jsem pripraven. Co jsi zjistil o Desannovi?"
+
+REFERENCE           06LUK020
+LANG_ENGLISH        "Not much.  With the help of your ship's logs and the Republic's databases, we've tracked the registry of Desann's ship to a Rodian named Reelo Baruk."
+LANG_CZECH        "Moc ne. S pomoci zaznamu z tve lodi a republikove databaze jsme vystopovali registr Desannovy lodi k Rodianovi jmenem Reelo Baruk."
+
+REFERENCE           06KJO015
+LANG_ENGLISH        "Reelo Baruk?"
+LANG_CZECH        "#same"
+
+REFERENCE           06LUK021
+LANG_ENGLISH        "You know him?"
+LANG_CZECH        "Znas ho?"
+
+REFERENCE           06KJO016
+LANG_ENGLISH        "Not personally.  He claims to be an honest garbage hauler, but he's really one of the most powerful criminal kingpins in all of Nar Shaddaa.  Even the Hutts won't touch him."
+LANG_CZECH        "Ne osobne. Tvrdi o sobe, ze je poctivym dovozcem odpadu, ale ve skutecnosti je jeden z nejmocnejsich kriminalnich bossu na cele Nar Shaddaa. Dokonce ani Huttove si na nej nic nedovoli."
+
+REFERENCE           06LUK022
+LANG_ENGLISH        "Sounds like a solid lead."
+LANG_CZECH        "To zni jako solidni voditko."
+
+REFERENCE           06KJO017
+LANG_ENGLISH        "It'll do."
+LANG_CZECH        "To ano."
+
+REFERENCE           06LUK023
+LANG_ENGLISH        "Kyle?"
+LANG_CZECH        "#same"
+
+REFERENCE           06KJO018
+LANG_ENGLISH        "Yeah?"
+LANG_CZECH        "Jo?"
+
+REFERENCE           06LUK024
+LANG_ENGLISH        "I just wanted to say how impressed I was with your performance in the trial.  Considering how long it's been since you used the Force, I almost expected you to fail outright..."
+LANG_CZECH        "Jenom jsem chtel rict, jak me ohromil tvuj vykon pri zkousce. Kdyz pomyslim, jak dlouho jsi nepouzival Silu, skoro jsem ocekaval, ze selzes..."
+
+REFERENCE           06KJO019
+LANG_ENGLISH        "Well...um..."
+LANG_CZECH        "No...hm..."
+
+REFERENCE           06LUK025
+LANG_ENGLISH        "You've been to the Valley of the Jedi."
+LANG_CZECH        "Ty jsi byl v Udoli Jediu, ze?"
+
+REFERENCE           06KJO020
+LANG_ENGLISH        "Yes."
+LANG_CZECH        "Ano."
+
+REFERENCE           06LUK026
+LANG_ENGLISH        "Kyle..."
+LANG_CZECH        "#same"
+
+REFERENCE           06KJO021
+LANG_ENGLISH        "I know what I'm doing, Skywalker.  If I'm going to defeat Desann, I'll need the full power of the Force, and I can't afford to spend years of my life re-training myself here!"
+LANG_CZECH        "Ja vim, co delam Skywalkere. Jestli mam porazit Desanna, tak budu potrebovat veskerou moc Sily a nemuzu si dovolit stravit tady roky sveho zivota svym znovu-trenovanim!"
+
+REFERENCE           06LUK027
+LANG_ENGLISH        "Kyle, I realize you're in pain, but you must learn to anticipate the consequences of your actions.  You and Jan swore an oath to protect the Valley of the Jedi, and now that Jan's dead, you're the only person who knows where it is.  If you should fall to the Dark Side, you could use the Valley's power for unspeakably evil purposes."
+LANG_CZECH        "Kyle, uvedomuji si, ze citis bolest, ale musis se naucit predvidat dusledky svych cinu. Ty a Jan jste prisahali chranit Udoli Jediu a ted, kdyz je Jan mrtva, jsi ty jedina osoba, ktera vi, kde je. Pokud bys propadl Temne Strane, mohl by jsi zneuzit moc Udoli pro nevyslovne zle ucely."
+
+REFERENCE           06KJO022
+LANG_ENGLISH        "Are you saying I can't be trusted?"
+LANG_CZECH        "Rikas, ze se mi neda verit?"
+
+REFERENCE           06LUK028
+LANG_ENGLISH        "I'm saying that I want you to let go of your anger before it destroys you."
+LANG_CZECH        "Rikam, ze bych si pral, abys nechal odejit svuj hnev drive, nez te znici."
+
+REFERENCE           06KJO023
+LANG_ENGLISH        "I don't know if I can do that...but I will give you the coordinates to the Valley of the Jedi...just to be safe."
+LANG_CZECH        "Nevim, jestli ti to muzu slibit...ale dam ti souradnice k Udoli Jediu...jen pro jistotu."
+
+REFERENCE           06LUK029
+LANG_ENGLISH        "Well, that's a start, I suppose.  Take one of the Academy's vessels to Nar Shaddaa, it'll be less conspicuous.  Don't worry; I'll take care of the Raven's Claw until you return."
+LANG_CZECH        "Dobre, predpokladam, ze je to dobry zacatek. Na Nar Shaddaa si vezmi jednu z lodi z Akakademie, bude to mene napadne. Neboj se; postaram se o Raven's Claw nez se vratis."
+
+REFERENCE           06KJO024
+LANG_ENGLISH        "You're not coming along?"
+LANG_CZECH        "Nejdes se mnou?"
+
+REFERENCE           06LUK030
+LANG_ENGLISH        "I'm afraid not.  I have pressing business of my own to attend to.  Good luck, Kyle.  I hope you find what you're looking for.  May the Force be With You."
+LANG_CZECH        "Obavam se, ze ne. Musim se venovat svym vlastnim neodkladnym zalezitostem. Hodne stesti, Kyle. Doufam, ze najdes to, co hledas. At te provazi Sila."
+
+ENDMARKER

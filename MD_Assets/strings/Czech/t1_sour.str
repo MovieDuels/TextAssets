@@ -1,0 +1,127 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           07KYK001
+LANG_ENGLISH        "This one sounds like it could be nasty, so I'll be going with you. You'll find some of the galaxy's worst lowlifes on Tatooine."
+LANG_CZECH        "Tohle zni trochu obtizneji, takze pujdu\ns tebou. Na Tatooine najdes ty nejhorsi zivly galaxie."
+
+REFERENCE           07KYK002
+LANG_ENGLISH        "Well I'll be, the Millenium Falcon!"
+LANG_CZECH        "No to me podrz, Millenium Falcon!"
+
+REFERENCE           07KYK003
+LANG_ENGLISH        "Han? Chewie? Anybody here?"
+LANG_CZECH        "Hane? Chewie? Je tu nekdo?"
+
+REFERENCE           07KYK004
+NOTES               "(pause, shrug)"
+LANG_ENGLISH        "I guess they're out."
+LANG_CZECH        "Myslim, ze jsou pryc."
+
+REFERENCE           07KYK005
+LANG_ENGLISH        "Luke's info was good.  These are definitely freelance cargo ships."
+LANG_CZECH        "Lukovy informace byly spravne.  Tohle jsou jednoznacne kupecke nakladni lodi."
+
+REFERENCE           07KYK006
+LANG_ENGLISH        "I've got a bad feeling about this.  Listen.  Stay here and guard the entrance to the docking bay.  If anyone tries to enter or leave, detain them.  I'll head over to the Krayt Cantina and ask around. I know some people there."
+LANG_CZECH        "Tohle se mi nelibi. Poslouchej.  Zustan tu a hlidej vstup do hangaru.  Kdyz se bude nekdo snazit dostat dovnitr nebo ven, postarej se o nej.  Ja zajdu do baru Krayt a poptam se. Znam tam par lidi."
+
+REFERENCE           07JAK001
+NOTES               "(sputtering and intimidated)"
+LANG_ENGLISH        "A Jedi?  Me?  No, not yet. I'm one of Kyle Katarn's students."
+LANG_CZECH        "Jedi?  Ja?  Ne, jeste ne. Jsem jednim ze studentu Kylea Katarna."
+
+REFERENCE           07JAK002
+LANG_ENGLISH        "He's talking to some locals.  We're investigating a cult that's been cropping up everywhere. You must be Chewbacca. Why are you here?"
+LANG_CZECH        "Mluvi s nejakymi mistnimi.  Vysetrujeme kult, ktery se najednou vsude objevuje. Ty musis byt Zvejkal. Proc tu jsi?"
+
+REFERENCE           07JAK003
+NOTES               "(starstruck)"
+LANG_ENGLISH        "Leia Organa? Wow... it must be important business."
+LANG_CZECH        "Leia Organa? Pani... to musi byt dulezite."
+
+REFERENCE           07JAK004
+LANG_ENGLISH        "We can't get to the ships!  The whole place is locked down!"
+LANG_CZECH        "K lodim se nedostaneme!  Cely prostor je uzamceny!"
+
+REFERENCE           07JAK005
+LANG_ENGLISH        "Good idea, we won't be such easy targets inside!"
+LANG_CZECH        "Dobry napad, uvnitr nebudeme tak snadny cil!"
+
+REFERENCE           07JAK006
+LANG_ENGLISH        "Locked. Maybe one of those guys has a keycard."
+LANG_CZECH        "Zamceno. Mozna ma nektery z tech chlapu kartu."
+
+REFERENCE           07JAK007
+LANG_ENGLISH        "We need more cover! Let's get back to our ship!"
+LANG_CZECH        "Potrebujeme lepsi ochranu! Zpatky k lodi!"
+
+REFERENCE           07JAK008
+LANG_ENGLISH        "I'll disengage the tractor beams if you think you can hold these guys!"
+LANG_CZECH        "Jestli je udrzis, odpojim paprsky, ktere lode drzi!"
+
+REFERENCE           07JAK009
+LANG_ENGLISH        "Okay, that's it for the Raven's Claw, now for the Falcon."
+LANG_CZECH        "OK, Raven's Claw je volny, ted Falcon."
+
+REFERENCE           07JAK010
+LANG_ENGLISH        "Okay, that's it for the Falcon, now for the Raven's Claw."
+LANG_CZECH        "OK, Falcon je volny, ted Raven's Claw."
+
+REFERENCE           07JAK011
+NOTES               "(into comlink)"
+LANG_ENGLISH        "The tractor beams are down Chewbacca, I'm on my way."
+LANG_CZECH        "Paprsky jsou vypnute Chewie. Jsem na ceste."
+
+REFERENCE           07KYK007
+NOTES               "(somewhat sarcastically)"
+LANG_ENGLISH        "Did I miss something?"
+LANG_CZECH        "Prisel jsem o neco?"
+
+REFERENCE           07KYK008
+LANG_ENGLISH        "Good to see you, too, Chewie!"
+LANG_CZECH        "Taky te rad vidim, Chewie!"
+
+REFERENCE           07KYK009
+NOTES               "(pause, looks around)"
+LANG_ENGLISH        "Guess these mercs didn't want us here."
+LANG_CZECH        "Neco mi rika, ze nas tu ti obchodnici moc nechteli."
+
+REFERENCE           07KYK010
+LANG_ENGLISH        "Heh, that's high praise, coming from a Wookiee."
+LANG_CZECH        "Heh, to je velka pocta, slyset to od Wookieho."
+
+REFERENCE           07JAK012
+NOTES               "( a little embarrassed)"
+LANG_ENGLISH        "Thanks... I think."
+LANG_CZECH        "Diky... Myslim."
+
+REFERENCE           07KYK011
+NOTES               "(looks around)"
+LANG_ENGLISH        "These mercs aren't cheap; someone in this Cult must have a lot of credits. Or worse, it's backed by the Remnant. Listen, we gotta get back to Luke and tell him what's going on. Can you tell Leia about the Cult?"
+LANG_CZECH        "Tihle kupci nejsou levni; nekdo z kultu musi mit spoustu kreditu. Nebo hure, jsou placeni Imperiem. Poslouchej, musime se vratit k Lukovi a rict mu, co se deje. Reknes Leie o kultu?"
+
+REFERENCE           07JAK013
+LANG_ENGLISH        "If he hadn't shown up when he did, I'd have been in a whole lot of trouble."
+LANG_CZECH        "Kdyby se byl neukazal, mel bych velke problemy."
+
+REFERENCE           07KYK012
+LANG_ENGLISH        "Yeah, well, the way Chewie tells it, you held your own.  Nice work."
+LANG_CZECH        "Jasne, no, Chewie rika, ze jsi to zvladl sam. Dobra prace."
+
+
+ENDMARKER
+
+

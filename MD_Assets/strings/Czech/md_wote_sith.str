@@ -1,0 +1,48 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           STK1
+LANG_ENGLISH        "We meet at last, Son of Vader."
+LANG_CZECH        "Konecne se potkavame, synu Vadera."
+
+REFERENCE           LUKE1
+LANG_ENGLISH        "You're wrong -- My father was a Jedi. Vader murdered him."
+LANG_CZECH        "Ty se mylis -- muj otec byl Jedi. Vader ho zabil."
+
+REFERENCE           STK2
+LANG_ENGLISH        "So you have been told.."
+LANG_CZECH        "Tak ti to bylo receno.."
+
+REFERENCE           LUKE2
+LANG_ENGLISH        "I won't run from my destiny.. or from you."
+LANG_CZECH        "Nebudu utikat pred svym osudem.. ani pred tebou."
+
+REFERENCE           STK3
+LANG_ENGLISH        "Now I will destroy you, Skywalker... As I destroyed your father."
+LANG_CZECH        "Ted te znicim, Skywalkere... Presne tak, jak jsem znicil tveho otce."
+
+REFERENCE           LUKE9
+LANG_ENGLISH        "Noo!!"
+LANG_CZECH        "NE!!"
+
+REFERENCE           STK4
+LANG_ENGLISH        "You are strong, Skywalker. But only your hatred will give you the power to save your friends. Give in to the dark side!"
+LANG_CZECH        "Jsi silny, Skywalkere. Ale pouze tvoje nenavist ti da silu zachranit tve pratele. Poddej se Temne strane Sily!"
+
+REFERENCE           STK5
+LANG_ENGLISH        "Ha Ha Ha Ha... very good.. my apprentice."
+LANG_CZECH        "Ha Ha Ha Ha... velmi dobre.. muj ucedniku."
+
+ENDMARKER

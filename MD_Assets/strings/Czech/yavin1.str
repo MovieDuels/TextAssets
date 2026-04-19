@@ -1,0 +1,103 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           01PIL001
+NOTES               "(o.s.)"
+LANG_ENGLISH        "We'll be arriving at the Academy in just a few minutes."
+LANG_CZECH        "Na Akademii dorazime za nekolik malo minut."
+
+REFERENCE           01ROP001
+NOTES               "(chatting to student)"
+LANG_ENGLISH        "...that would be so great."
+LANG_CZECH        "...to by bylo vazne skvele."
+
+REFERENCE           01ROP002
+NOTES               "to Jaden"
+LANG_ENGLISH        "Aren't you excited?  We're gonna be Jedi!  Learning the ways of the Force, building a lightsaber..."
+LANG_CZECH        "Ty nejsi nervozni? Budes Jedi! Naucis se pouzivat Silu,\nsestrojis si svetelny mec..."
+
+REFERENCE           01ROP003
+LANG_ENGLISH        "Of course, you already have one.  I'm gonna get one of those stupid training sabers and then..."
+LANG_CZECH        "Samozrejme, ty uz ho mas. Ja dostanu jeden z tech stupidnich treninkovych mecu a pak..."
+
+REFERENCE           01JAK001
+LANG_ENGLISH        "I wouldn't worry about that."
+LANG_CZECH        "S tim bych si nedelal starosti."
+
+REFERENCE           01ROP004
+LANG_ENGLISH        "I can't help it.  I want to make a good impression..."
+LANG_CZECH        "Nemohu si pomoci. Chci udelat dobry dojem..."
+
+REFERENCE           01JAK002
+LANG_ENGLISH        "You seem really nervous."
+LANG_CZECH        "Vypadas dost nervozne."
+
+REFERENCE           01ROP005
+LANG_ENGLISH        "Aren't you? I mean why would you be? You already have a lightsaber so you're probably way ahead of me...I'm Rosh, by the way."
+LANG_CZECH        "A ty nejsi? Vlastne proc bys mel byt? Ty uz mas svetelny mec, takze mas prede mnou zrejme dost velky naskok... Ja jsem Rosh, mimochodem."
+
+REFERENCE           01ROP006
+LANG_ENGLISH        "Um...what's your name?"
+LANG_CZECH        "Ee...jak se jmenujes ty?"
+
+REFERENCE           01JAK003
+LANG_ENGLISH        "Jaden."
+LANG_CZECH        "#same"
+
+REFERENCE           01ROP007
+LANG_ENGLISH        "So, where'd you get that lightsaber?"
+LANG_CZECH        "Tak, kde jsi ziskal ten svetelny mec?"
+
+REFERENCE           01JAK004
+LANG_ENGLISH        "Well, it's kind of a long story. I found myself on..."
+LANG_CZECH        "No, to je dlouhy pribeh. Byl jsem zrovna..."
+
+REFERENCE           01PIL002
+NOTES               "(o.s.)"
+LANG_ENGLISH        "Hold on!"
+LANG_CZECH        "Drzte se!"
+
+REFERENCE           01LUK001
+NOTES               "(via comm)"
+LANG_ENGLISH        "Academy to Yavin Runner II.  Do you copy?"
+LANG_CZECH        "Akademie pro Yavin Runner II. Slysite nas?"
+
+REFERENCE           01PIL003
+NOTES               "(groggy and shaken)"
+LANG_ENGLISH        "Loud and clear. We made an emergency landing several clicks west of the Academy."
+LANG_CZECH        "Zcela jasne. Pristali jsme nouzove nekolik kliku zapadne od Akademie."
+
+REFERENCE           01LUK002
+NOTES               "(via comm)"
+LANG_ENGLISH        "Is everyone all right?"
+LANG_CZECH        "Jsou vsichni v poradku?"
+
+REFERENCE           01PIL004
+LANG_ENGLISH        "I think so."
+LANG_CZECH        "Myslim, ze ano."
+
+REFERENCE           01LUK003
+NOTES               "(via comm)"
+LANG_ENGLISH        "Good, we'll send a shuttle to pick you up. Can you lead the students to the nearby Massassi Temple?"
+LANG_CZECH        "Dobre, posleme pro Vas raketoplan. Muzete dovest studenty do nedalekeho chramu Massassi?"
+
+REFERENCE           01PIL005
+LANG_ENGLISH        "Affirmative, Academy. We'll meet you there."
+LANG_CZECH        "Potvrzuji, Akademie. Setkame se tam."
+
+
+ENDMARKER
+
+

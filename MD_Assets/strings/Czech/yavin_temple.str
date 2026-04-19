@@ -1,0 +1,109 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           06PRO002
+LANG_ENGLISH        "Welcome to the Jedi Academy, sir.  Master Skywalker is waiting upstairs for you."
+LANG_CZECH        "Vitejte na Akademii Jediu, pane. Mistr Skywalker na Vas ceka v hornim patre."
+
+REFERENCE           06KJO001
+LANG_ENGLISH        "Uh...thanks. I think I can find the way."
+LANG_CZECH        "Ach...dekuji. Myslim, ze cestu najdu sam."
+
+REFERENCE           06PRO003
+LANG_ENGLISH        "Welcome to the Jedi Academy, sir. Master Skywalker is upstairs."
+LANG_CZECH        "Vitejte na Akademii Jediu, pane. Mistr Skywalker je v hornim patre."
+
+REFERENCE           06KJO026
+LANG_ENGLISH        "Uh...thanks. I think I can find the way."
+LANG_CZECH        "Ach...dekuji. Myslim, ze cestu najdu sam."
+
+REFERENCE           06LUK035
+LANG_ENGLISH        "Kyle.  I've been expecting you."
+LANG_CZECH        "Kyle. Ocekaval jsem te."
+
+REFERENCE           06KJO002
+LANG_ENGLISH        "Skywalker."
+LANG_CZECH        "Skywalkere."
+
+REFERENCE           06LUK002
+LANG_ENGLISH        "You've come for your lightsaber?"
+LANG_CZECH        "Prisel jsi pro svuj svetelny mec?"
+
+REFERENCE           06KJO003
+LANG_ENGLISH        "Yeah."
+LANG_CZECH        "Jo."
+
+REFERENCE           06LUK003
+LANG_ENGLISH        "After all these years?"
+LANG_CZECH        "Po vsech tech letech?"
+
+REFERENCE           06KJO004
+LANG_ENGLISH        "My...Jan's been killed...by a Jedi.  Goes by the name of --"
+LANG_CZECH        "Moje...Jan byla zabita...Jediem. Jmenuje se --"
+
+REFERENCE           06LUK004
+LANG_ENGLISH        "Desann."
+LANG_CZECH        "#same"
+
+REFERENCE           06KJO005
+LANG_ENGLISH        "You know?"
+LANG_CZECH        "Znas ho?"
+
+REFERENCE           06LUK007
+LANG_ENGLISH        "I sensed a disturbance in the Force. I'll tell you about Desann while your trial is being prepared..."
+LANG_CZECH        "Citil jsem naruseni Sily. Reknu ti o Desannovi, zatimco se tvoje zkouska pripravuje..."
+
+REFERENCE           06KJO006
+LANG_ENGLISH        "Trial?"
+LANG_CZECH        "Zkouska?"
+
+REFERENCE           06LUK008
+LANG_ENGLISH        "A minor test to determine your fitness to wield a lightsaber again.  Even in your relatively unpracticed state, you shouldn't find it too difficult."
+LANG_CZECH        "Maly test, ktery proveri tvoji zpusobilost znovu nosit svetelny mec. I ve tvem relativne nezkusenem stavu by to pro tebe nemelo byt obtizne."
+
+REFERENCE           06KJO007
+LANG_ENGLISH        "Why can't you Jedi ever do things the simple way?"
+LANG_CZECH        "Proc vy Jediove nikdy nemuzete delat veci jednoduse?"
+
+REFERENCE           06LUK009
+LANG_ENGLISH        "If the ways of the Jedi were easy, there'd be millions of us, instead of dozens.  Take Desann, for example.  He was born on a planet unused to the wonders of the Force, where his seemingly magical abilities caused him to be feared and shunned by those around him.  His childhood was one of loneliness and despair until a visiting trader discovered him, recognized the Force within him, and brought him to the Jedi Academy."
+LANG_CZECH        "Kdyby byly cesty Jediu snadne, byly by nas miliony misto desitek. Vezmi si Desanna, napriklad. Narodil se na planete, ktera nezna zazraky Sily, kde jeho zdanlive magicke schopnosti zpusobily, ze se ho okoli balo a vyhybalo se mu. Jeho detstvi bylo plne samoty a zoufalstvi, dokud ho neobjevil obchodnik, nerozpoznal v nem Silu a neprivedl ho na Akademii Jedi."
+
+REFERENCE           06KJO008
+LANG_ENGLISH        "So he was a student?"
+LANG_CZECH        "Takze byl studentem?"
+
+REFERENCE           06LUK010
+LANG_ENGLISH        "Yes.  For the first time in his life, Desann was at peace.  He'd found beings who liked him for who he was; beings who encouraged him to develop his talents.  Over time, however, things changed."
+LANG_CZECH        "Ano. Poprve v zivote mel Desann klid. Nasel bytosti, ktere ho mely rady takoveho, jaky byl; bytosti, ktere ho podporovaly v rozvoji jeho talentu. Postupem casu se vsak situace zmenila."
+
+REFERENCE           06KJO009
+LANG_ENGLISH        "How?"
+LANG_CZECH        "Jak?"
+
+REFERENCE           06LUK011
+LANG_ENGLISH        "He became cold.  Severe.   He belittled his fellow students for what he perceived to be their weaknesses, and argued, sometimes violently, with his teachers.  During a training session, he struck down and killed a fellow student in cold blood. Desann said he was too "weak" to be a Jedi.  He fled before we could...counsel him - and he has not been heard from since."
+LANG_CZECH        "Stal se chladnym. Nemilosrdnym. Znevazoval sve spoluzaky za to, co povazoval za jejich slabiny a dohadoval se, casto nasilne, se svymi ucitely. Behem vycviku chladnokrevne srazil a zabil sveho spoluzaka. Desann rekl, ze byl prilis "slaby" na to, aby se stal Jediem. Utekl driv, nez jsme mu mohli...domluvit - a od te doby jsme o nem neslyseli."
+
+REFERENCE           06KJO010
+LANG_ENGLISH        "Until now."
+LANG_CZECH        "Az doted."
+
+REFERENCE           06LUK012
+LANG_ENGLISH        "Yes..."
+LANG_CZECH        "Ano..."
+
+REFERENCE           06LUK013
+LANG_ENGLISH        "Kyle, I'm sorry about Jan."
+LANG_CZECH        "Kyle, je mi lito Jan."
+
+REFERENCE           06KJO011
+LANG_ENGLISH        "Yeah...well... just give me my lightsaber, and I'll be out of your way."
+LANG_CZECH        "Jo...no... proste mi dej muj svetelny mec a ja ti pujdu z cesty."
+
+REFERENCE           06LUK016
+LANG_ENGLISH        "As you wish, your lightsaber is somewhere in the ruined temple to the South. To find it, you'll need to utilize your primary Force skills.  During your test, I'll see if I can find some information on Desann's whereabouts.  Good luck."
+LANG_CZECH        "Jak si prejes. Tvuj svetelny mec je nekde ve znicenem chramu na jihu. Abys ho nasel, budes muset vyuzit sve primarni dovednosti v Sile. Behem zkousky zkusim najit nejake informace o Desannove pobytu. Hodne stesti."
+
+
+ENDMARKER

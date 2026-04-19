@@ -1,0 +1,168 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KYLO1
+LANG_ENGLISH        "I know what I have to do."
+LANG_CZECH        "Vim, co musim udelat."
+
+REFERENCE           KYLO2
+LANG_ENGLISH        "It's time to let old things die. Snoke... Skywalker. The Sith... the Jedi, the Rebels... let it all die."
+LANG_CZECH        "Je cas nechat stare veci zemrit. Snoke... Skywalker. Sithove... Jediove, Povstalci ... nechej to vsechno zemrit."
+
+REFERENCE           KYLO3
+LANG_ENGLISH        "Rey. I want you to join me. We can rule together and bring a new order to the galaxy."
+LANG_CZECH        "Rey. Chci, aby ses ke mne pridala. Muzeme vladnout spolecne a nastolit novy rad v galaxii."
+
+REFERENCE           KYLO4
+LANG_ENGLISH        "No, no you're still holding on! Let go!"
+LANG_CZECH        "Ne, ne, porad se toho drzis! Pust to!"
+
+REFERENCE           KYLO5
+LANG_ENGLISH        "Do you want to know the truth about your parents? Or have you always known? You've just hidden it away."
+LANG_CZECH        "Chces znat pravdu o svych rodicich? Nebo jsi ji vzdycky znala? A jen jsi ji skryvala."
+
+REFERENCE           KYLO6
+LANG_ENGLISH        "You know the truth. Say it. Say it."
+LANG_CZECH        "Znas pravdu. Rekni to. Rekni to."
+
+REFERENCE           KYLO7
+LANG_ENGLISH        "They were filthy junk traders... who sold you off for drinking money."
+LANG_CZECH        "Byli to spinavi obchodnici se srotem... kteri te prodali za penize na piti."
+
+REFERENCE           KYLO8
+LANG_ENGLISH        "They're dead... in a poverished grave in the Jakku desert. You have no place in this story. You come from nothing you're nothing."
+LANG_CZECH        "Jsou mrtvi... v zapomenutem hrobe v pousti Jakku. V tomto pribehu nemas zadne misto. Pochazis z niceho, jsi nic."
+
+REFERENCE           KYLO9
+LANG_ENGLISH        "But not to me. Join me."
+LANG_CZECH        "Ale ne pro me. Pripoj se ke mne."
+
+REFERENCE           KYLO10
+LANG_ENGLISH        "Please."
+LANG_CZECH        "Prosim."
+
+REFERENCE           REY1
+LANG_ENGLISH        "You underestimate Skywalker... and Ben Solo... And me."
+LANG_CZECH        "Podcenujes Skywalkera... a Bena Sola... A me."
+
+REFERENCE           REY2
+LANG_ENGLISH        "No."
+LANG_CZECH        "Ne."
+
+REFERENCE           REY4
+LANG_ENGLISH        "[Screaming in pain]"
+LANG_CZECH        "[Krici v bolestech]"
+
+REFERENCE           REY7
+LANG_ENGLISH        "[Screaming in pain]"
+LANG_CZECH        "[Krici v bolestech]"
+
+REFERENCE           REY10
+LANG_ENGLISH        "The fleet. Order them to stop firing. There is still time to save the fleet."
+LANG_CZECH        "Flotila. Narid jim, aby prestali strilet. Jeste je cas flotilu zachranit."
+
+REFERENCE           REY11
+LANG_ENGLISH        "Ben?"
+LANG_CZECH        "Bene?"
+
+REFERENCE           REY12
+LANG_ENGLISH        "Don't do this, Ben. Please don't go this way."
+LANG_CZECH        "Nedelej to, Bene. Prosim, nechod touto cestou."
+
+REFERENCE           REY13
+LANG_ENGLISH        "They were nobody."
+LANG_CZECH        "Byli nikdo."
+
+REFERENCE           SNOKE1
+LANG_ENGLISH        "Well done, my good and faithful apprentice. My faith in you, is restored."
+LANG_CZECH        "Vyborne, muj dobry a verny ucedniku. Moje duvera v tebe je obnovena."
+
+REFERENCE           SNOKE2
+LANG_ENGLISH        "Young Rey. Welcome."
+LANG_CZECH        "Mlada Rey. Vitej."
+
+REFERENCE           SNOKE3
+LANG_ENGLISH        "Come closer, child."
+LANG_CZECH        "Pojd blize, dite."
+
+REFERENCE           SNOKE4
+LANG_ENGLISH        "So much strength. Darkness rises... and light to meet it."
+LANG_CZECH        "Tolik sily. Temnota stoupa... a svetlo ji celi."
+
+REFERENCE           SNOKE5
+LANG_ENGLISH        "I warned my young apprentice... that as he grew stronger... his equal in the light would rise."
+LANG_CZECH        "Varoval jsem sveho mladeho ucednika... ze jak bude silit... povstane jeho rovnocenny protivnik ve svetle."
+
+REFERENCE           SNOKE6
+LANG_ENGLISH        "Skywalker... I assumed... wrongly."
+LANG_CZECH        "Skywalker... Domnival jsem se... mylne."
+
+REFERENCE           SNOKE7
+LANG_ENGLISH        "Closer, I said."
+LANG_CZECH        "Blize, rekl jsem."
+
+REFERENCE           SNOKE8
+LANG_ENGLISH        "Oh, have you seen something? A weakness in my apprentice. Is that why you came?"
+LANG_CZECH        "Ach, neco jsi videla? Slabost meho ucednika. Proto jsi prisla?"
+
+REFERENCE           SNOKE9
+LANG_ENGLISH        "Young fool. It was I who bridged your minds. I stoked Ren's conflicted soul. I knew he was not strong enough to hide it from you. And you were not wise enough to resist the bait."
+LANG_CZECH        "Mlada hlupacko. To ja jsem propojil vase mysli. Podnitil jsem Renovu rozpolcenou dusi. Vedel jsem, ze neni dost silny, aby to pred tebou skryval. A ty jsi nebyla dost moudra, abys odolala navnade."
+
+REFERENCE           SNOKE10
+LANG_ENGLISH        "And now... you will give me Skywalker. Then I will kill you... with the cruelist stroke."
+LANG_CZECH        "A ted... mi das Skywalkera. Pak te zabiju... tim nejkrutejsim zpusobem."
+
+REFERENCE           SNOKE11
+LANG_ENGLISH        "Yes."
+LANG_CZECH        "Ano."
+
+REFERENCE           SNOKE12
+LANG_ENGLISH        "Give me... everything."
+LANG_CZECH        "Dej mi... vsechno."
+
+REFERENCE           SNOKE13
+LANG_ENGLISH        "Well, well... I did not expect Skywalker to be so wise. We will give him and the Jedi Order... the death he desires. After the Rebels are gone, we will go to his planet... and obliterate the entire island."
+LANG_CZECH        "Ale, ale... Necekal jsem, ze Skywalker bude tak moudry. Dame jemu a Radu Jediu... smrt, po ktere touzi. Az budou Povstalci zniceni, zaletime na jeho planetu... a znicime cely ostrov."
+
+REFERENCE           SNOKE14
+LANG_ENGLISH        "Such spunk. Look here, now."
+LANG_CZECH        "Takova kuraz. Podivej se sem."
+
+REFERENCE           SNOKE15
+LANG_ENGLISH        "The entire Resistance on those transports. Soon they will all be gone. For you, all is lost."
+LANG_CZECH        "Cely Odboj je v tech transportech. Brzy budou vsichni mrtvi. Pro tebe je vse ztraceno."
+
+REFERENCE           SNOKE16
+LANG_ENGLISH        "Oh, still that fiery spit of hope. You have the spirit of a true Jedi!"
+LANG_CZECH        "Ach, stale ta planouci jiskra nadeje. Mas ducha praveho Jedie!"
+
+REFERENCE           SNOKE17
+LANG_ENGLISH        "And because of that... you must die."
+LANG_CZECH        "A kvuli tomu... musis zemrit."
+
+REFERENCE           SNOKE18
+LANG_ENGLISH        "My worthy apprentice... son of darkness, heir apparent to Lord Vader. Where there was conflict, I now sense resolve. Where there was weakness, strength. Complete your training... and fulfill your destiny."
+LANG_CZECH        "Muj ctihodny ucedniku... synu temnoty, dedici Lorda Vadera. Tam, kde byl konflikt, nyni citim odhodlani. Tam, kde byla slabost, citim silu. Dokonci svuj vycvik... a napln svuj osud."
+
+REFERENCE           SNOKE19
+LANG_ENGLISH        "You think you can turn him? Pathetic child."
+LANG_CZECH        "Myslis si, ze ho muzes otocit na svou stranu? Ubohe dite."
+
+REFERENCE           SNOKE20
+LANG_ENGLISH        "I can not be betrayed... I can not be beaten. I see his mind... I see his every intent. Yes. I see him turning the lightsaber to strike true. And now... Foolish child. He ignites it... And kill his true enemy!"
+LANG_CZECH        "Nemohu byt zrazen... Nemohu byt porazen. Vidim jeho mysl... Vidim kazdy jeho zamer. Ano. Vidim, jak otaci svetelnym mecem, aby zasahl. A ted... Posetile dite. Zazehne ho... A zabije sveho skutecneho nepritele!"
+
+ENDMARKER

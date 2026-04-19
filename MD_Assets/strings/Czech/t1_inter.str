@@ -1,0 +1,64 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           03ROP001
+LANG_ENGLISH        "So how's your training going?  I've just been sent on a few errands, nothing exciting."
+LANG_CZECH        "Tak jak pokracuje tvuj trenink?  Me poslali jenom na par malickosti, nic vzrusujiciho."
+
+REFERENCE           03JE1001
+LANG_ENGLISH        "Same here. I guess that's just how the training works."
+LANG_CZECH        "Me taky. Takhle ma asi trenink probihat."
+
+REFERENCE           03ROP002
+LANG_ENGLISH        "I thought it was just me."
+LANG_CZECH        "Myslel jsem, ze je to mnou."
+
+REFERENCE           03ROP003
+LANG_ENGLISH        "Ever wonder if your Master is holding you back?  Y'know, making sure you don't become too powerful?"
+LANG_CZECH        "Nemyslel sis nekdy, ze te mistr drzi zpet?  Vis, jakoby se ujistoval, ze se nestanes prilis mocnym?"
+
+REFERENCE           03JE1002
+LANG_ENGLISH        "Why would you say that?"
+LANG_CZECH        "Proc to rikas?"
+
+REFERENCE           03ROP004
+LANG_ENGLISH        "Well... Kyle doesn't seem to really foster my talents. I've gone on a couple of missions with him, but he doesn't let me do any of the really important stuff. "
+LANG_CZECH        "No... Kyle, zda se, prilis neocenuje muj talent. Byl jsem s nim na nekolika misich, ale nikdy me nenecha udelat nejakou dulezitou praci. "
+
+REFERENCE           03JE1003
+LANG_ENGLISH        "Maybe he's observing you, seeing how you accomplish your missions.  I wouldn't worry about it."
+LANG_CZECH        "Mozna te pozoruje, zjistuje, jak plnis sve mise.  Nelamal bych si tim hlavu."
+
+REFERENCE           03ROP005
+LANG_ENGLISH        "I'm not so sure.  What do you think Jaden?"
+LANG_CZECH        "Nejsem si tak jisty.  Co si myslis ty, Jadene?"
+
+REFERENCE           03JAK001
+LANG_ENGLISH        "Well, I..."
+LANG_CZECH        "No, ja..."
+
+REFERENCE           03KYK001
+LANG_ENGLISH        "Ready to get back out there?  Did I interrupt something?"
+LANG_CZECH        "Pripraven vyrazit?  Nerusim?"
+
+REFERENCE           03ROP006
+NOTES               "(sheepish)"
+LANG_ENGLISH        "No, not at all.  I'm ready, let's go!"
+LANG_CZECH        "Ne, vubec ne.  Jsem pripraven, pojdme!"
+
+
+ENDMARKER
+
+

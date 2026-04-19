@@ -1,0 +1,248 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "You can't!"
+LANG_CZECH        "To nesmite!"
+
+REFERENCE           ANI1B
+LANG_ENGLISH        "He must stand trial!"
+LANG_CZECH        "Musi byt souzen!"
+
+REFERENCE           ANI2
+LANG_ENGLISH        "It's not the Jedi way."
+LANG_CZECH        "Takhle Jediove nejednaji."
+
+REFERENCE           ANI2B
+LANG_ENGLISH        "He must live!"
+LANG_CZECH        "On musi zit!"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "Anakin: I need him!"
+LANG_CZECH        "Anakin: Potrebuju ho!"
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Anakin: No!"
+LANG_CZECH        "Anakin: Ne!"
+
+REFERENCE           ANI5
+LANG_ENGLISH        "What have I done?!"
+LANG_CZECH        "Co jsem to udelal?!"
+
+REFERENCE           ANI6
+LANG_ENGLISH        "[ Breathing ]"
+LANG_CZECH        "[ Hlasite oddychuje ]"
+
+REFERENCE           ANI6B
+LANG_ENGLISH        "I will do whatever you ask."
+LANG_CZECH        "Udelam, co budete chtit."
+
+REFERENCE           ANI7
+LANG_ENGLISH        "Just help me save Padme's life."
+LANG_CZECH        "Jen mi pomozte zachranit Padme."
+
+REFERENCE           ANI7B
+LANG_ENGLISH        "I can't live without her."
+LANG_CZECH        "Bez ni nemuzu zit."
+
+REFERENCE           ANI8
+LANG_ENGLISH        "I pledge myself..."
+LANG_CZECH        "Dobrovolne se stavam..."
+
+REFERENCE           ANI8B
+LANG_ENGLISH        "to your teachings."
+LANG_CZECH        "Vasim ucednikem."
+ 
+REFERENCE           ANI9
+LANG_ENGLISH        "Thank you, my master."
+LANG_CZECH        "Dekuji, muj mistre."
+
+REFERENCE           PAL1
+LANG_ENGLISH        "[Palpatine's Voice]\nYou do know, don't you.."
+LANG_CZECH        "[Palpatinuv hlas]\nUrcite ti je jasne.."
+
+REFERENCE           PAL1B
+LANG_ENGLISH        "[Palpatine's Voice]\nIf the Jedi destroy me, any chance of saving her will be lost."
+LANG_CZECH        "[Palpatinuv hlas]\nZe kdyz me Jediove znici, ztratis nadeji na zachranu jejiho zivota."
+
+REFERENCE           PAL2
+LANG_ENGLISH        "Master Windu.\nI take it General Grievous has been destroyed then."
+LANG_CZECH        "Mistre Windu.\nPredpokladam, ze byl General Grievous znicen."
+
+REFERENCE           PAL2B
+LANG_ENGLISH        "I must say you're here sooner than expected."
+LANG_CZECH        "Musim rict, ze tak brzy jsem Vas necekal."
+
+REFERENCE           PAL3
+LANG_ENGLISH        "Are you threatening me, Master Jedi?"
+LANG_CZECH        "Vyhrozujete mi, Mistre Jedi?"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "I am the senate."
+LANG_CZECH        "To ja jsem senat."
+
+REFERENCE           PAL5
+LANG_ENGLISH        "It's treason then."
+LANG_CZECH        "Takze je to zrada."
+
+REFERENCE           PAL6
+LANG_ENGLISH        "[ Snarls ]"
+LANG_CZECH        "[ Bojovy vykrik ]"
+
+REFERENCE           PAL8
+LANG_ENGLISH        "Anakin, I told you it would come to this."
+LANG_CZECH        "Anakine, rikal jsem ti, jak to skonci."
+
+REFERENCE           PAL8B
+LANG_ENGLISH        "I was right. The Jedi are taking over!"
+LANG_CZECH        "Mel jsem pravdu. Jediove se ujmou vlady!"
+
+REFERENCE           PAL9
+LANG_ENGLISH        "No. No. NO! You will die!..\nHe's a traitor!"
+LANG_CZECH        "Ne. Ne. NE! Ty zemres!..\nJe to zradce!"
+
+REFERENCE           PAL9B
+LANG_ENGLISH        "I have the power to save the one you love.\nYou must choose."
+LANG_CZECH        "Muzu zachranit tu, kterou milujes.\nMusis se rozhodnout."
+
+REFERENCE           PAL9C
+LANG_ENGLISH        "Don't let him kill me. I can't hold it any longer. I- I- I- I can't. I- I- I'm weak. I'm- I'm too weak.\nAnakin. Help me. Help me! [Groans] I- I- I can't hold on any longer."
+LANG_CZECH        "Nedovol, aby me zabil. Ja uz to nevydrzim. Ja- Ja- Ja- Ja uz nemuzu. Ja- Ja- Ja jsem moc slaby.\nAnakine. Pomoz mi. Pomoz mi! [Stenani] Ja- Ja- Ja uz to nevydrzim."
+
+REFERENCE           PAL10
+LANG_ENGLISH        "I'm too weak. Oh. Don't kill me. Please."
+LANG_CZECH        "Jsem moc slaby. Ach. Nezabijejte me. Prosim!"
+
+REFERENCE           PAL11
+LANG_ENGLISH        "Palpatine: Please don't."
+LANG_CZECH        "Palpatine: Prosim ne."
+
+REFERENCE           PAL12
+LANG_ENGLISH        "Palpatine: Please don't!"
+LANG_CZECH        "Palpatine: Prosim ne!"
+
+REFERENCE           PAL13
+LANG_ENGLISH        "Power!"
+LANG_CZECH        "Moc!"
+
+REFERENCE           PAL13B
+LANG_ENGLISH        "Unlimited Power!"
+LANG_CZECH        "Neomezena Moc!"
+
+REFERENCE           PAL13C
+LANG_ENGLISH        "[ Sighs ]"
+LANG_CZECH        "[ Povzdech ]"
+
+REFERENCE           PAL14
+LANG_ENGLISH        "You're fulfilling your destiny, Anakin."
+LANG_CZECH        "Naplnil se tvuj osud, Anakine."
+
+REFERENCE           PAL14B
+LANG_ENGLISH        "Become my apprentice.\nLearn to use the dark side of the Force."
+LANG_CZECH        "Stan se mym ucednikem.\nNauc se ovladat temnou stranu Sily."
+
+REFERENCE           PAL15B
+LANG_ENGLISH        "Good."
+LANG_CZECH        "Dobre."
+
+REFERENCE           PAL16
+LANG_ENGLISH        "[ Raspy Breathing ]"
+LANG_CZECH        "[ Chraplave dychani ]"
+
+REFERENCE           PAL16B
+LANG_ENGLISH        "To cheat death is a power only one has achieved, but if we work together, I know we can discover the secret."
+LANG_CZECH        "Obelstit smrt, jen jednomu se to zatim povedlo, ale pokud spojime sily, vim, ze to tajemstvi odhalime."
+
+REFERENCE           PAL17
+LANG_ENGLISH        "Good."
+LANG_CZECH        "Dobre."
+
+REFERENCE           PAL17B
+LANG_ENGLISH        "Good..."
+LANG_CZECH        "Dobre..."
+
+REFERENCE           PAL17C
+LANG_ENGLISH        "[ Raspy Breathing ]"
+LANG_CZECH        "[ Chraplave dychani ]"
+
+REFERENCE           PAL17D
+LANG_ENGLISH        "The Force is strong with you."
+LANG_CZECH        "Bude te provazet velka Sila.
+
+REFERENCE           PAL17E
+LANG_ENGLISH        "A powerful Sith you will become."
+LANG_CZECH        "Stane se z tebe mocny Sith."
+
+REFERENCE           PAL17F
+LANG_ENGLISH        "Henceforth you shall be known as..."
+LANG_CZECH        "Odted budes znam jako..."
+
+REFERENCE           PAL17G
+LANG_ENGLISH        "Darth..."
+LANG_CZECH        "#same"
+
+REFERENCE           PAL17H
+LANG_ENGLISH        "Vader."
+LANG_CZECH        "#same"
+
+REFERENCE           PAL18B
+LANG_ENGLISH        "Rise."
+LANG_CZECH        "Povstan."
+
+REFERENCE           WIN1
+LANG_ENGLISH        "In the name of the Galactic Senate of the Republic."
+LANG_CZECH        "Jmenem Galaktickeho Republikoveho Senatu."
+
+REFERENCE           WIN1B
+LANG_ENGLISH        "You're under arrest, Chancellor."
+LANG_CZECH        "Jte zatcen, Kancleri."
+
+REFERENCE           WIN2
+LANG_ENGLISH        "The Senate will decide your fate."
+LANG_CZECH        "O Vasem osudu rozhodne Senat."
+
+REFERENCE           WIN3
+LANG_ENGLISH        "Not yet."
+LANG_CZECH        "Jeste ne."
+
+REFERENCE           WIN4
+LANG_ENGLISH        "You are under arrest, my lord."
+LANG_CZECH        "Ted jste zatcen, muj pane."
+
+REFERENCE           WIN5
+LANG_ENGLISH        "The oppression of the Sith will never return."
+LANG_CZECH        "Utlak Sithu navzdycky skonci."
+
+REFERENCE           WIN5B
+LANG_ENGLISH        "You have lost."
+LANG_CZECH        "Ty jsi prohral!"
+
+REFERENCE           WIN5C
+LANG_ENGLISH        "He is the traitor!\n[ Groaning ]"
+LANG_CZECH        "On je zradce!\n[ Stenani ]"
+
+REFERENCE           WIN5D
+LANG_ENGLISH        "Don't listen to him, Anakin!"
+LANG_CZECH        "Neposlouchej ho, Anakine!"
+
+REFERENCE           WIN6
+LANG_ENGLISH        "I am going to end this, once and for all!"
+LANG_CZECH        "Ted to ukoncim jednou provzdy!"
+
+REFERENCE           WIN7
+LANG_ENGLISH        "He has control of the Senate and the courts.\nHe's too dangerous to be left alive."
+LANG_CZECH        "Ovlada cely Senat i soudy.\nJe nebezpecne nechat ho zit."
+
+ENDMARKER

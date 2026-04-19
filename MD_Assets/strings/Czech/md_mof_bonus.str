@@ -1,0 +1,35 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           OBI1
+LANG_ENGLISH        "You won't get away this time."
+LANG_CZECH        "Tentokrat neuniknes."
+
+REFERENCE           OBI6
+LANG_ENGLISH        "Only a Sith deals in absolutes."
+LANG_CZECH        "Jenom Sith uvazuje cernobile."
+
+REFERENCE           OBI6B
+LANG_ENGLISH        "I will do what I must."
+LANG_CZECH        "Udelam, co musim!"
+
+REFERENCE           PAL1
+LANG_ENGLISH        "You will not stop me. Darth Vader will become more powerful than either of us!"
+LANG_CZECH        "Ty me nezastavis. Darth Vader bude silnejsi nez my oba dohromady!"
+
+
+ENDMARKER
+
+

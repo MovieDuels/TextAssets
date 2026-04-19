@@ -1,0 +1,288 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           ANI1
+LANG_ENGLISH        "I sense Count Dooku . . ."
+LANG_CZECH        "Citim Hrabete Dooku. . ."
+
+REFERENCE           ANI2
+LANG_ENGLISH        "Next move?"
+LANG_CZECH        "Co dal?"
+
+REFERENCE           ANI3
+LANG_ENGLISH        "Artoo go back. I need you to stay with the ship."
+LANG_CZECH        "Artoo vrat se. Potrebuju te u lodi."
+
+REFERENCE           ANI4
+LANG_ENGLISH        "Ray Shields."
+LANG_CZECH        "Silove pole."
+
+REFERENCE           ANI5
+LANG_ENGLISH        "Apparently not.. I say patience."
+LANG_CZECH        "Zrejme ano.. budme trpelivi."
+
+REFERENCE           ANI6
+LANG_ENGLISH        "Yes. Artoo will be along in a few moments and then.. he'll release the Ray Shields."
+LANG_CZECH        "Ano. Artoo tady za chvili bude.. a pak zrusi silove pole."
+
+REFERENCE           ANI7
+LANG_ENGLISH        "See? No problem."
+LANG_CZECH        "Vidite? Zadny problem."
+
+REFERENCE           ANI8
+LANG_ENGLISH        "General Grievous. You're shorter than I expected."
+LANG_CZECH        "Generale Grievousi. Cekal jsem, ze jste vyssi."
+
+REFERENCE           ANI9
+LANG_ENGLISH        "Artoo!"
+LANG_CZECH        "#same"
+
+REFERENCE           OBI1
+LANG_ENGLISH        "R2, locate the Chancellor!"
+LANG_CZECH        "R2, najdi Kanclere!"
+
+REFERENCE           OBI2
+LANG_ENGLISH        "The Chancellor's signal is coming from right there. The observation platform at the top of that spire."
+LANG_CZECH        "Kancleruv signal vychazi odsud. Z pozorovatelny na vrcholku te veze."
+
+REFERENCE           OBI3
+LANG_ENGLISH        "I sense a trap."
+LANG_CZECH        "Ja citim past."
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Spring the trap."
+LANG_CZECH        "Vlezem do pasti."
+
+REFERENCE           OBI5
+LANG_ENGLISH        "Here, take this, and wait for orders."
+LANG_CZECH        "Jo vem si tohle a cekej na rozkazy."
+
+REFERENCE           OBI6
+LANG_ENGLISH        "Wait a minute, how did this happen, we're smarter than this!?"
+LANG_CZECH        "Okamzik, jak je to mozne? Copak jsme tak hloupi!?"
+
+REFERENCE           OBI7
+LANG_ENGLISH        "Patience?"
+LANG_CZECH        "Trpelivi?"
+
+REFERENCE           OBI8
+LANG_ENGLISH        "Do you have a Plan B?"
+LANG_CZECH        "Mas nejaky plan B?"
+
+REFERENCE           OBI9
+LANG_ENGLISH        "We have a job to do Anakin, try not to upset him."
+LANG_CZECH        "Jsme tu pracovne Anakine, nesmis ho nastvat."
+
+REFERENCE           OBI10
+LANG_ENGLISH        "Not this time, and this time you won't escape."
+LANG_CZECH        "Tentokrat ne a tentokrat neuniknes."
+
+REFERENCE           GRI1D
+LANG_ENGLISH        "What's the situation, Captain?"
+LANG_CZECH        "Jaka je situace, Kapitane?"
+
+REFERENCE           GRI2
+LANG_ENGLISH        "Just as Count Dooku predicted."
+LANG_CZECH        "Presne, jak Hrabe Dooku ocekaval."
+
+REFERENCE           GRI3
+LANG_ENGLISH        "Activate Ray Shields!"
+LANG_CZECH        "Aktivujte silove pole!"
+
+REFERENCE           GRI4
+LANG_ENGLISH        "Ah Yes, the Negotiator. General Kenobi, we've been waiting for you. That wasn't much of a rescue."
+LANG_CZECH        "Ach ano, je tady vyjednavac. General Kenobi. Uz jsme na Vas cekali. Ta zachranna akce se vam nepovedla."
+
+REFERENCE           GRI5
+LANG_ENGLISH        "And [Coughs] Anakin Skywalker. I was expecting someone with your reputation to be a little.. older."
+LANG_CZECH        "[Kasle] Anakin Skywalker. Cekal jsem, ze nekdo s Vasi povesti, bude ponekud.. starsi."
+
+REFERENCE           GRI6
+LANG_ENGLISH        "[Coughs] Jedi Scum."
+LANG_CZECH        "[Kasle] Jedijska spino."
+
+REFERENCE           GRI7
+LANG_ENGLISH        "[Coughs] Your lightsabers will make a fine addition to my collection."
+LANG_CZECH        "[Kasle] Vase svetelne mece se budou moc hezky vyjimat v me sbirce."
+
+REFERENCE           GRI8
+LANG_ENGLISH        "Crush them! Make them suffer!"
+LANG_CZECH        "Rozdrtte je! At zaziji muka!"
+
+REFERENCE           GRI9
+LANG_ENGLISH        "Stay at your Stations!"
+LANG_CZECH        "Zustante na svych mistech!"
+
+REFERENCE           GRI10
+LANG_ENGLISH        "Don't bother with them, keep the ship in orbit!"
+LANG_CZECH        "Nezdrzujte se s nimi, udrzujte orbitu!"
+
+REFERENCE           GRI11
+LANG_ENGLISH        "You lose, General Kenobi."
+LANG_CZECH        "Prohral jste, Generale Kenobi."
+
+REFERENCE           CAP1
+LANG_ENGLISH        "Two Jedi have landed in the main hangar bay, we're tracking them!"
+LANG_CZECH        "Dva Jediove pristali v hlavnim hangaru. Sledujeme je!"
+
+REFERENCE           OD_ANI1
+LANG_ENGLISH        "You all right?"
+LANG_CZECH        "Neni Vam nic?"
+
+REFERENCE           OD_ANI2
+LANG_ENGLISH        "I was about to say that."
+LANG_CZECH        "To jsem chtel rict ja."
+
+REFERENCE           OD_ANI3
+LANG_ENGLISH        "My powers have doubled since the last time we met, Count."
+LANG_CZECH        "Jsem dvakrat silnejsi, nez pri nasem poslednim setkani."
+
+REFERENCE           OD_ANI6
+LANG_ENGLISH        "I shouldn't.."
+LANG_CZECH        "Nemel bych!"
+
+REFERENCE           OD_ANI7
+LANG_ENGLISH        "Yes but he was an unarmed prisoner. I shouldn't have done that it's not the Jedi way."
+LANG_CZECH        "Ale byl to neozbrojeny zajatec. Nemelo se to stat. To Jediove nedelaji."
+
+REFERENCE           OD_ANI8
+LANG_ENGLISH        "He seems to be alright."
+LANG_CZECH        "Zda se, ze je v poradku."
+
+REFERENCE           OD_ANI9
+LANG_ENGLISH        "His fate will be the same as ours."
+LANG_CZECH        "Ja ho tady nenecham."
+
+REFERENCE           OD_DOK1
+LANG_ENGLISH        "Your swords, please. We don't want to make a mess of things, in front of the Chancellor."
+LANG_CZECH        "Vase mece, prosim. Nechceme prece, aby se Kancler musel divat na masakr."
+
+REFERENCE           OD_DOK2
+LANG_ENGLISH        "I've been looking forward to this."
+LANG_CZECH        "Na tohle jsem se tesil."
+
+REFERENCE           OD_DOK3
+LANG_ENGLISH        "Good. Twice the pride, double the fall."
+LANG_CZECH        "Skvele. Velka pycha, velky pad."
+
+REFERENCE           OD_DOK4
+LANG_ENGLISH        "I sense great fear in you, Skywalker."
+LANG_CZECH        "Citim v tobe velky strach, Skywalkere."
+
+REFERENCE           OD_DOK5
+LANG_ENGLISH        "You have hate! You have anger! But you don't use them."
+LANG_CZECH        "Je v tobe nenavist! Je v tobe hnev! Ale nepouzivas je."
+
+REFERENCE           OD_DOK7
+LANG_ENGLISH        "Just because there are two of you do not assume that you have the advantage."
+LANG_CZECH        "Jen proto, ze jste dva, nepredpokladejte, ze mate vyhodu."
+
+REFERENCE           OD_OBI1
+LANG_ENGLISH        "Chancellor."
+LANG_CZECH        "Kancleri."
+
+REFERENCE           OD_OBI2
+LANG_ENGLISH        "This time we will do it together."
+LANG_CZECH        "Tentokrat to udelame spolecne."
+
+REFERENCE           OD_OBI3
+LANG_ENGLISH        "Chancellor Palpatine, Sith Lords are our speciality."
+LANG_CZECH        "Kancleri Palpatine, Sithsti Lordi, jsou nase specialita."
+
+REFERENCE           OD_OBI4
+LANG_ENGLISH        "You won't get away this time, Dooku."
+LANG_CZECH        "Tentokrat nam neuniknes, Dooku."
+
+REFERENCE           OD_PAL1
+LANG_ENGLISH        "Count Dooku."
+LANG_CZECH        "Hrabe Dooku."
+
+REFERENCE           OD_PAL2
+LANG_ENGLISH        "Get help. You're no match for him. He's a Sith Lord!"
+LANG_CZECH        "Sezente posily. Na neho nestacite. Je to Sithsky Lord!"
+
+REFERENCE           OD_PAL3
+LANG_ENGLISH        "Good, Anakin, Good [Laughs] Kill him."
+LANG_CZECH        "Skvele, Anakine. Skvele [Smeje se] Zabij ho."
+
+REFERENCE           OD_PAL4
+LANG_ENGLISH        "Kill him now."
+LANG_CZECH        "Jen ho zabij."
+
+REFERENCE           OD_PAL5
+LANG_ENGLISH        "Do it!"
+LANG_CZECH        "Udelej to!"
+
+REFERENCE           OD_PAL6
+LANG_ENGLISH        "You did well, Anakin. He was too dangerous to be kept alive."
+LANG_CZECH        "Dobre jsi udelal, Anakine. Bylo by nebezpecne, nechat ho zit."
+
+REFERENCE           OD_PAL7
+LANG_ENGLISH        "It is only natural. He cut off your arm, you wanted revenge. It wasn't the first time, Anakin."
+LANG_CZECH        "Vzdyt je to prirozene. Usekl ti ruku a ty ses chtel pomstit. Nebylo to poprve, Anakine."
+
+REFERENCE           OD_PAL8
+LANG_ENGLISH        "Remember what you told me about your mother, and the Sand People?"
+LANG_CZECH        "Vis, co jsi mi vypravel o sve matce a o Pisecnych Lidech?"
+
+REFERENCE           OD_PAL9
+LANG_ENGLISH        "Now we must leave, before more security droids arrive."
+LANG_CZECH        "Ted musime pryc, nez se objevi dalsi strazni droidi."
+
+REFERENCE           OD_PAL10
+LANG_ENGLISH        "Anakin.. there is no time. We must get off the ship before it is too late."
+LANG_CZECH        "Anakine.. nemame cas. Musime opustit lod, nez bude pozde."
+
+REFERENCE           OD_PAL11
+LANG_ENGLISH        "Leave him or we'll never make it!"
+LANG_CZECH        "Pojd nebo se nezachranime!"
+
+REFERENCE           DRO1
+LANG_ENGLISH        "There they are. Get them!"
+LANG_CZECH        "Tady jsou. Na ne!"
+
+REFERENCE           DRO2
+LANG_ENGLISH        "General, we've found the Jedi. They're in hallway 328."
+LANG_CZECH        "Generale, nasli jsme Jedie v chodbe 328."
+
+REFERENCE           DRO3
+LANG_ENGLISH        "Don't move. Ow!"
+LANG_CZECH        "Ani hnout. Auu!"
+
+REFERENCE           LIFT
+LANG_ENGLISH        "Destroyers! \n\n Drop your weapons. I said drop 'em. Roger. Roger, roger."
+LANG_CZECH        "Droideky! \n Zahodte zbrane. Rekl jsme zahodte je. Rozkaz. Rozkaz, rozkaz."
+
+REFERENCE           ELE_ANI1
+LANG_ENGLISH        "Artoo, see if you can active the elevators on level CF2!"
+LANG_CZECH        "Artoo, zjisti jestli dokazes zapnout vytahy na podlazi CF2!"
+
+REFERENCE           ELE_OBI1
+LANG_ENGLISH        "The droids have locked down the elevator's manual controls."
+LANG_CZECH        "Droidi zablokovali rucni ovladani vytahu."
+
+REFERENCE           ELE_OBI2
+LANG_ENGLISH        "Anakin, watch out!"
+LANG_CZECH        "Anakine, davej pozor!"
+
+REFERENCE           ELE_OBI3
+LANG_ENGLISH        "There should be a control console here somewhere."
+LANG_CZECH        "Nekde by tu mela byt ovladaci konzole."
+
+REFERENCE           ELE_OBI4
+LANG_ENGLISH        "That's got it. Let's get back to the elevators!"
+LANG_CZECH        "To je ono. Vratme se k vytahum!"
+
+ENDMARKER

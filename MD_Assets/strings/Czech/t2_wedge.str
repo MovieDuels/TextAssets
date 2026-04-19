@@ -1,0 +1,140 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           13WEA001
+LANG_ENGLISH        "Thanks for the assistance, Jaden.  Luke tells me you're going to be a great Jedi.  Let's get to Kril'dor and take out that mining platform!"
+LANG_CZECH        "Dekuji za pomoc, Jadene.  Luke mi rekl, ze\nz tebe bude velky Jedi.  Vzhuru na Kril'dor\na znicit tu tezebni stanici!"
+
+REFERENCE           13WEA002
+NOTES               "(via comm)"
+LANG_ENGLISH        "This facility is lightly defended.  I don't think they expected us to find it.  My targeting computer will lock onto your beacons.  Place them on the key structural points, then get out of there fast. I'll be flying in lasers blazing.  If everything goes as planned, we'll have the defenses down before they know what hit 'em."
+LANG_CZECH        "Tovarna je slabe branena.  Myslim, ze necekali, ze ji najdeme.  Muj pocitac bude zamerovat tve majaky.  Umisti je na klicova mista stanice a rychle odtamtud zmiz. Ja je budu nicit lasery.  Pokud vse pujde tak, jak ma, znicime obranu driv, nez zjisti, co se stalo."
+
+REFERENCE           13WEA003
+NOTES               "(via comm)"
+LANG_ENGLISH        "Okay, Jaden.  Start with the shield generator, otherwise this'll be a short mission!"
+LANG_CZECH        "Ok, Jadene.  Zacneme s generatorem stitu, jinak to bude kratka mise!"
+
+REFERENCE           13WEA004
+NOTES               "(via comm)"
+LANG_ENGLISH        "Take out the communications array next so they can't signal for help!"
+LANG_CZECH        "Znic komunikacni system, aby nemohli pozadat o pomoc!"
+
+REFERENCE           13WEA005
+NOTES               "(via comm)"
+LANG_ENGLISH        "Plant the next beacon on the power generator so we can disable those turbolasers!"
+LANG_CZECH        "Dalsi majak umisti na generator energie, at muzeme vyradit turbolasery!"
+
+REFERENCE           13WEA006
+NOTES               "(via comm)"
+LANG_ENGLISH        "Put a beacon in the hangar so they can't scramble air support."
+LANG_CZECH        "Poloz majak na hangar, aby nemohli zformovat vzdusnou podporu."
+
+REFERENCE           13WEA007
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, a number of troops are making their way to the storage tanks to sabotage them.  Stop them or this mission will be for nothing!"
+LANG_CZECH        "Jadene, nekolik vojaku smeruje k zasobnikum a chce je znicit. Zastav je nebo tahle mise bude k nicemu!"
+
+REFERENCE           13WEA008
+NOTES               "(via comm)"
+LANG_ENGLISH        "Head for the garrison.  That should weaken their resistance!"
+LANG_CZECH        "Ted ke kasarnam.  To by melo oslabit jejich odpor!"
+
+REFERENCE           13WEA009
+NOTES               "(via comm)"
+LANG_ENGLISH        "Get to the command center next, Jaden!  That's the last target."
+LANG_CZECH        "Ted do veliciho centra, Jadene!  To je posledni cil."
+
+REFERENCE           13WEA010
+NOTES               "(via comm)"
+LANG_ENGLISH        "Move it Jaden, I'm coming in!"
+LANG_CZECH        "Utec, Jadene, uz jsem tam!"
+
+REFERENCE           13WEA011
+NOTES               "(via comm)"
+LANG_ENGLISH        "You're doing great, Jaden."
+LANG_CZECH        "Vedes si skvele, Jadene."
+
+REFERENCE           13WEA012
+NOTES               "(via comm)"
+LANG_ENGLISH        "This is too easy!"
+LANG_CZECH        "Tohle je brnkacka!"
+
+REFERENCE           13WEA013
+NOTES               "(via comm)"
+LANG_ENGLISH        "Making another run."
+LANG_CZECH        "Chystam se na dalsi."
+
+REFERENCE           13WEA014
+NOTES               "(via comm)"
+LANG_ENGLISH        "Just three more to go."
+LANG_CZECH        "Tri zbyvaji."
+
+REFERENCE           13WEA015
+NOTES               "(via comm)"
+LANG_ENGLISH        "Just two more to go."
+LANG_CZECH        "Uz jen dva."
+
+REFERENCE           13WEA016
+NOTES               "(via comm)"
+LANG_ENGLISH        "One more left."
+LANG_CZECH        "Posledni."
+
+REFERENCE           13WEA017
+NOTES               "(via comm)"
+LANG_ENGLISH        "That did it, get back to your ship, Jaden, we're outta here!"
+LANG_CZECH        "A je to, vrat se k lodi, Jadene, mizime!"
+
+REFERENCE           13WEA018
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, troops coming up on your position!"
+LANG_CZECH        "Jadene, vojaci miri na tvoji pozici!"
+
+REFERENCE           13WEA019
+NOTES               "(via comm)"
+LANG_ENGLISH        "Watch your left."
+LANG_CZECH        "Pozor vlevo."
+
+REFERENCE           13WEA020
+NOTES               "(via comm)"
+LANG_ENGLISH        "Watch your right."
+LANG_CZECH        "Pozor vpravo."
+
+REFERENCE           13WEA021
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, take out that gun!"
+LANG_CZECH        "Jadene, znic tu zbran!"
+
+REFERENCE           13WEA022
+NOTES               "(via comm)"
+LANG_ENGLISH        "Jaden, I'm getting heavy fire here!"
+LANG_CZECH        "Jadene, jsem pod tezkou palbou!"
+
+REFERENCE           13JAK001
+LANG_ENGLISH        "Watch your fire, General!"
+LANG_CZECH        "Pozor kam strilite, generale!"
+
+REFERENCE           13JAK002
+LANG_ENGLISH        "I need some cover fire!"
+LANG_CZECH        "Potrebuji kryci palbu!"
+
+REFERENCE           13JAK003
+LANG_ENGLISH        "Roger that, General."
+LANG_CZECH        "Rozumim, generale."
+
+
+ENDMARKER
+
+

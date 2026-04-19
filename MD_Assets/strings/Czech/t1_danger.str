@@ -1,0 +1,134 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           06LUK001
+LANG_ENGLISH        "This should be an easy assignment. I think you can handle it while Kyle is away with Rosh.  Take a shuttle, land at the coordinates of the distress beacon, and pick up any survivors."
+LANG_CZECH        "Tohle by mel byt jednoduchy ukol. Kyle je pryc s Roshem, ale myslim, ze to zvladnes sam.  Vezmi si raketoplan, pristan na pozici nouzoveho majaku a zachran prezivsi."
+
+REFERENCE           06JAK001
+NOTES               "(to himself)"
+LANG_ENGLISH        "Nice work, Jaden."
+LANG_CZECH        "Skvela prace, Jadene."
+
+REFERENCE           06JAK002
+NOTES               "(looks at his broken shuttle)"
+LANG_ENGLISH        "Some rescue mission."
+LANG_CZECH        "Pry jen zachranna mise."
+
+REFERENCE           06JAK003
+NOTES               "(yelling)"
+LANG_ENGLISH        "Hello?"
+LANG_CZECH        "Halo?"
+
+REFERENCE           06JAK004
+NOTES               "(Pause)"
+LANG_ENGLISH        "Hello?"
+LANG_CZECH        "Halo?"
+
+REFERENCE           06JAK005
+LANG_ENGLISH        "Hey, you there!"
+LANG_CZECH        "Hej, Vy tam!"
+
+REFERENCE           06ME1001
+NOTES               "(hysterically. gets interrupted by sudden attack of sand creature)"
+LANG_ENGLISH        "Thank the  Force you've come, this place is-"
+LANG_CZECH        "Diky Sile ze jste tu, tohle misto je-"
+
+REFERENCE           06JAK006
+NOTES               "(surprised)"
+LANG_ENGLISH        "What was that?"
+LANG_CZECH        "Co to bylo?"
+
+REFERENCE           06JAK007
+LANG_ENGLISH        "Maybe I can find what I need in the merchant ship."
+LANG_CZECH        "Mozna najdu to, co potrebuji na te obchodni lodi."
+
+REFERENCE           06JAK008
+LANG_ENGLISH        "This power converter should do."
+LANG_CZECH        "Tenhle energeticky konvertor by mel stacit."
+
+REFERENCE           06JAK009
+LANG_ENGLISH        "Great, a feeder line."
+LANG_CZECH        "Skvele, napajeci zarizeni."
+
+REFERENCE           06JAK010
+LANG_ENGLISH        "This energy cell should work for the cooling unit."
+LANG_CZECH        "Tenhle energeticky clanek by mel v chladici jednotce fungovat."
+
+REFERENCE           06JAK011
+LANG_ENGLISH        "Just the power coupling I need for the acceleration compensator."
+LANG_CZECH        "Presne tuhle energetickou spojku potrebuji pro kompenzator zrychleni."
+
+REFERENCE           06JAK012
+LANG_ENGLISH        "This damper should be compatible with my hyperdrive motivator."
+LANG_CZECH        "Tenhle tlumic by mel byt kompatibilni s mym motivatorem hyperpohonu."
+
+REFERENCE           06JAK013
+LANG_ENGLISH        "I think I can jury rig this power coupling into my gravity flux compensator."
+LANG_CZECH        "Myslim, ze tuhle energetickou spojku muzu pouzit v kompenzatoru gravitacniho proudu."
+
+REFERENCE           06JAK014
+NOTES               "When avoiding sand burrowers:"
+LANG_ENGLISH        "That was close!"
+LANG_CZECH        "To bylo jen tak tak!"
+
+REFERENCE           06JAK015
+NOTES               "When avoiding sand burrowers:"
+LANG_ENGLISH        "Whew!"
+LANG_CZECH        "Uf!"
+
+REFERENCE           06JAK016
+NOTES               "When trying to stand still when a sand burrower is nearby."
+LANG_ENGLISH        "Come on, no-one here, go away..."
+LANG_CZECH        "No tak, tady nikdo neni, jdi pryc..."
+
+REFERENCE           06JAK017
+NOTES               "If he throws a thermal on the ground:"
+LANG_ENGLISH        "Go on... fetch!"
+LANG_CZECH	    "No tak... pojd si pro nej!"
+
+REFERENCE           06JAK018
+NOTES               "If Jaden kills a sand burrower:"
+LANG_ENGLISH        "I got one!"
+LANG_CZECH        "Jednoho mam!
+
+REFERENCE           06JAK019
+LANG_ENGLISH        "I've gotta get over there."
+LANG_CZECH        "Musim se tam dostat."
+
+REFERENCE           06JAK020
+LANG_ENGLISH        "How am I going to get over there?"
+LANG_CZECH        "Jak se tam dostanu?"
+
+REFERENCE           06JAK021
+LANG_ENGLISH        "Doesn't look like I can go that way."
+LANG_CZECH        "Tudy to asi nepujde."
+
+REFERENCE           06JAK022
+LANG_ENGLISH        "Better not touch the ground."
+LANG_CZECH        "Radsi se nebudu dotykat povrchu."
+
+REFERENCE           06JAK023
+LANG_ENGLISH        "Should be safe here."
+LANG_CZECH        "Tady by melo byt bezpecno."
+
+REFERENCE           06JAK024
+LANG_ENGLISH        "That should do it.  Now to get off this crazy rock."
+LANG_CZECH        "A je to.  A ted pryc z tehle silene skaly."
+
+
+ENDMARKER
+
+

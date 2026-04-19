@@ -1,0 +1,136 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Palpatine: You have done well, my new apprentice.\nNow, Lord Vader, go and bring peace to the Empire."
+LANG_CZECH        "Palpatine: Vedes si dobre, muj mlady ucedniku.\nTed, Lorde Vadere, jdi a prines mir celemu Imperiu."
+ 
+REFERENCE           OBI1
+LANG_ENGLISH        "Not even the younglings survived."
+LANG_CZECH        "Ani mali zaci neprezili."
+
+REFERENCE           OBI2
+LANG_ENGLISH        "Who? Who could have done this?"
+LANG_CZECH        	"Kdo? Kdo to mohl udelat?"
+
+REFERENCE           OBI3
+LANG_ENGLISH        "I have recalibrated the code, warning all surviving Jedi to stay away."
+LANG_CZECH        	"Zmenil jsem kod. Jediove ted budou varovani, aby se nepriblizovali."
+
+REFERENCE           OBI4
+LANG_ENGLISH        "Wait, Master."
+LANG_CZECH        	"Pockejte, Mistre."
+
+REFERENCE           OBI4B
+LANG_ENGLISH        "There is something I must know."
+LANG_CZECH        	"Musim neco zjistit."
+
+REFERENCE           OBI5
+LANG_ENGLISH        "I must know the truth, Master."
+LANG_CZECH        "Musim znat pravdu, Mistre."
+
+REFERENCE           OBI5B
+LANG_ENGLISH        "It can't be... It can't be!"
+LANG_CZECH        "To neni mozne... To neni mozne!"
+
+REFERENCE           OBI6
+LANG_ENGLISH        "I can't watch any more."
+LANG_CZECH        "Nemuzu se na to divat."
+
+REFERENCE           OBI7
+LANG_ENGLISH        "Send me to kill the Emperor. I will not kill Anakin."
+LANG_CZECH        "Poslete me zabit Cisare. Anakina nezabiju."
+
+REFERENCE           OBI8
+LANG_ENGLISH        "He is like my brother. I cannot do it!"
+LANG_CZECH        "Je jako muj bratr. Nemuzu to udelat!"
+
+REFERENCE           OBI9
+LANG_ENGLISH        "I do not know where the Emperor has sent him."
+LANG_CZECH        "Nevim, kam ho Cisar poslal."
+
+REFERENCE           OBI9B
+LANG_ENGLISH        "I don't know where to look."
+LANG_CZECH        "Nevim, kde ho mam hledat."
+
+REFERENCE           OBI10
+LANG_ENGLISH        "How many other Jedi have managed to survive?"
+LANG_CZECH       "Kolik dalsich Jediu prezilo?"
+
+REFERENCE           OBI11
+LANG_ENGLISH       "It can't be. It can't be!"
+LANG_CZECH        "To neni mozne! To neni mozne!"
+
+REFERENCE           YOD1
+LANG_ENGLISH        "Killed not by clones, this.. Padawan."
+LANG_CZECH        "Padawan nebyl.. klony zabit."
+
+REFERENCE           YOD1B
+LANG_ENGLISH        "By a lightsaber, he was."
+LANG_CZECH        "To svetelny mec byl."
+
+REFERENCE           YOD2
+LANG_ENGLISH        "For the clones..."
+LANG_CZECH        "Nez klony tuhle zmenu objevi.."
+
+REFERENCE           YOD2
+LANG_ENGLISH        "To discover the recalibration, a long time it will take."
+LANG_CZECH        "Dlouha doba uplyne."
+
+REFERENCE           YOD3
+LANG_ENGLISH        "If into the security recordings you go, only pain will you find."
+LANG_CZECH        "Pokud bezpecnostni zaznamy uvidis, Pouze bolest naleznes."
+
+REFERENCE           YOD4
+LANG_ENGLISH        "Destroy the Sith, we must."
+LANG_CZECH        "Znicit Sithy, my musime."
+
+REFERENCE           YOD5
+LANG_ENGLISH        "To fight this Lord Sidious, strong enough you are not."
+LANG_CZECH        "Na boj s Lordem Sidiousem, dost silny nejsi."
+
+REFERENCE           YOD6
+LANG_ENGLISH        "Twisted by the dark side, young Skywalker has become."
+LANG_CZECH        "Pokuseni Temne strany, mlady Skywalker podlehl."
+
+REFERENCE           YOD6B
+LANG_ENGLISH        "The boy you trained, gone he is. Consumed by Darth Vader."
+LANG_CZECH        "Hoch ktereho cvicil jsi, zmizel. Darth Vader, je z nej."
+
+REFERENCE           YOD7
+LANG_ENGLISH        "Use your feelings, Obi-Wan, and find him you will."
+LANG_CZECH        "Naslechni nitru Obi-Wane, a jeho pak najdes."
+
+REFERENCE           YOD8
+LANG_ENGLISH        "Heard from no one, have we."
+LANG_CZECH        "Nikdo, neozval se nam."
+
+REFERENCE           OBISPLIT1
+LANG_ENGLISH        "We seem to have attracted some unwanted attention."
+LANG_CZECH        "Zda se, ze jsme prilakali nechtenou pozornost."
+
+REFERENCE           OBISPLIT2
+LANG_ENGLISH        "Shall we split up?"
+LANG_CZECH        "Meli bychom se rozdelit?."
+
+REFERENCE           YODSPLIT1
+LANG_ENGLISH        "Divide that attention, we can."
+LANG_CZECH        "Odlakat pozornost, my muzeme."
+
+REFERENCE           YODSPLIT2
+LANG_ENGLISH        "And may the Force soon bring us together again."
+LANG_CZECH        "A kez nas Sila brzy opet da dohromady."
+
+ENDMARKER

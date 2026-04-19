@@ -1,0 +1,256 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           11LAC001
+LANG_ENGLISH        "All right, say good-bye to this wretched hive of scum and villainy, and hello to Cloud City."
+LANG_CZECH         "Dobre, rozlucte se s timto ubohym hnizdem spiny a nicemnosti a reknete ahoj Oblacnemu mestu."
+
+REFERENCE           11KJO001
+LANG_ENGLISH        "Need any help?"
+LANG_CZECH         "Potrebujes pomoc?"
+
+REFERENCE           11LAC002
+LANG_ENGLISH        "Just sit back and get some rest.  I'll work out a plan to get Desann and his Remnant friends out of my city."
+LANG_CZECH         "Jenom se posad a odpocin si.  Vymyslim plan, jak dostat Desanna a jeho Imperialni pratele z meho mesta."
+
+REFERENCE           11KJO002
+LANG_ENGLISH        "How's it look?"
+LANG_CZECH         "Jak to vypada?"
+
+REFERENCE           11LAC006
+LANG_ENGLISH        "Hold on, I'm looking."
+LANG_CZECH         "Pockej, divam se."
+
+REFERENCE           11LAC012
+LANG_ENGLISH        "Hey buddy! That gun's got me pinned down. Think you can take care of it?"
+LANG_CZECH         "Hej kamo! Ta zbran me prispendlila k zemi. Myslis, ze se o ni postaras?"
+
+REFERENCE           11KJO004
+LANG_ENGLISH        "I'll see what I can do."
+LANG_CZECH         "Uvidim, co se da delat."
+
+REFERENCE           11LAC013
+LANG_ENGLISH        "Thanks Kyle! I should be ok now"
+LANG_CZECH         "Diky Kyle! Uz budu v poradku."
+
+REFERENCE           11KJO005
+LANG_ENGLISH        "Any time."
+LANG_CZECH         "Kdykoliv."
+
+REFERENCE           11LAC018
+LANG_ENGLISH        "Kyle, we've got a problem."
+LANG_CZECH         "Kyle, mame problem."
+
+REFERENCE           11KJO007
+LANG_ENGLISH        "So, what's new?"
+LANG_CZECH         "Tak co je noveho?"
+
+REFERENCE           11LAC019
+LANG_ENGLISH        "There's no fuel coming through the lines. They must have the valve closed at the main tanks. See if you can get out there and open the right valve. They use a code system so make sure you get the right one. And you'll still need to find the controls for the roof sections. They have to be around here somewhere. I'll get everything ready to go here. Good luck!"
+LANG_CZECH         "Do potrubi neproudi zadne palivo. Museli uzavrit ventil u hlavnich nadrzi. Zkus se dostat ven a otevrit spravny ventil. Pouzivaji system kodu, takze se ujisti, ze mas ten spravny. A jeste budes muset najit ovladani pro stresni sekce. Nekde tady musi byt. Vsechno pripravim, aby jsi tam mohl jit. Hodne stesti!"
+
+REFERENCE           11LAC020
+LANG_ENGLISH        "There's no fuel coming in. They must have closed it at the main tanks. See if you can find the right valve. They use a code system so make sure you get the right one."
+LANG_CZECH         "Do potrubi neproudi zadne palivo. Museli to uzavrit u hlavnich nadrzi. Uvidime, jestli dokazes najit spravny ventil. Pouzivaji system kodu, takze se ujisti, ze mas ten spravny.
+
+REFERENCE           11LAC021
+LANG_ENGLISH        "You'll still need to find the controls for the roof sections. They have to be around here somewhere."
+LANG_CZECH         "A jeste budes muset najit ovladani pro stresni sekce. Nekde tady musi byt."
+
+REFERENCE           11LAC022
+LANG_ENGLISH        "I'll get everything ready to go here. Good luck!"
+LANG_CZECH         "Vsechno pripravim, aby jsi tam mohl jit. Hodne stesti!"
+
+REFERENCE           11LAC032
+LANG_ENGLISH        "We're out of here!"
+LANG_CZECH         "Jsme z toho venku!"
+
+REFERENCE           11KJO008
+LANG_ENGLISH        "That doesn't sound good."
+LANG_CZECH         "To nezni dobre."
+
+REFERENCE           11LAC033
+LANG_ENGLISH        "I don't believe it! It's not my fault!"
+LANG_CZECH         "Tomu neverim! Neni to moje chyba!"
+
+REFERENCE           11KJO009
+LANG_ENGLISH        "Uh-oh. We've got company."
+LANG_CZECH         "Ehm. Mame spolecnost."
+
+REFERENCE           11KJO010
+LANG_ENGLISH        "Uh-oh"
+LANG_CZECH         "Ehm."
+
+REFERENCE           11LAC003
+LANG_ENGLISH        "We gotta get to the ship."
+LANG_CZECH         "Musime se dostat do lodi."
+
+REFERENCE           11LAC004
+LANG_ENGLISH        "I think it's this way."
+LANG_CZECH         "Myslim, ze to je tudy."
+
+REFERENCE           11LAC005
+LANG_ENGLISH        "Ahhh. There's my baby. Hope they took good care of her. Give me a minute to check things out."
+LANG_CZECH         "Ach. Tady je moje detatko. Doufam, ze se o ni dobre postarali. Dej mi chvilku, abych se na to podival."
+
+REFERENCE           11LAC007
+LANG_ENGLISH        "Well, it doesn't look like we can just fly her out of here. She's held in place by magnetic moorings and they've got one tough tractor beam online. I can deal with those here, but that doesn't solve the bigger problem. The entrance to the pad is closed and I don't think they're going to just open it for us if we ask politely. You'll have to find the flight control center and open the door to the starpad.  Better get going, I would guess we can expect some company pretty soon. Good luck, Kyle! "
+LANG_CZECH         "No, nevypada to, ze bychom odsud mohli jen tak odleted. Na miste ji drzí magneticke kotvy a maji zapnuty silny vlecny paprsek. Temi se zde mohu zabyvat, ale to neresi vetsi problem. Vchod na plosinu je zavreny a nemyslim si, ze nam ho otevrou jen tak, kdyz je slusne pozadame. Budes muset najit ridici stredisko letu a otevrit dvere na plosinu. Radeji bychom meli vyrazit. Rekl bych, ze muzeme brzy ocekavat spolecnost. Hodne stesti, Kyle!"
+
+REFERENCE           11LAC008
+LANG_ENGLISH        "Well, the bad news is that she's locked down.  The good news is that I can disable the magnetic moorings and a tractor beam from here.  The OTHER bad news is the pad roof; it's closed and I don't think they're going to just open it for us if we ask politely. You'll have to find the flight control center and get access into the starpad where the manual overrides are. Better get going, Kyle! "
+LANG_CZECH         "No, spatna zprava je, ze je uzamcena. Dobra zprava je, ze odsud muzu vypnout magneticke kotvy a vlecny paprsek. DALSI spatna zprava je, ze strecha; je zavrena a nemyslim si, ze ji jen tak otevrou, kdyz je slusne pozadame. Budes muset najit ridici stredisko let a ziskat pristup k plosine, kde je rucni ovladani. Radeji uz bez, Kyle!"
+
+REFERENCE           11LAC009
+LANG_ENGLISH        "What are you waiting for?"
+LANG_CZECH         "Na co jeste cekas?"
+
+REFERENCE           11LAC010
+LANG_ENGLISH        "Better get moving, Kyle."
+LANG_CZECH         "Radeji uz bez, Kyle."
+
+REFERENCE           11LAC011
+LANG_ENGLISH        "Kyle. I cut the power to the moorings and I think they'll be in for a surprise if they try to use that tractor beam. But there are some safeties I need to remove manually. I'll let you know when I get there."
+LANG_CZECH         "Kyle, odstrihl jsem energii, ktera napajela kotvy a myslim si, ze budou prekvapeni, jestli se pokusi pouzit vlecny paprsek. Ale jsou tu nejake zabezpeceni, ktere potrebuji odstranit rucne. Dam ti vedet, az se tam dostanu."
+
+REFERENCE           11KJO003
+LANG_ENGLISH        "Good luck."
+LANG_CZECH         "Hodne stesti."
+
+REFERENCE           11LAC014
+LANG_ENGLISH        "Good work, Kyle. Looks like we have access to the starpad now. I'll start prepping the ship. Meet you inside."
+LANG_CZECH         "Dobra prace, Kyle. Vypada to, ze ted mame pristup plosine. Zacnu pripravovat lod. Sejdeme se uvnitr."
+
+REFERENCE           11LAC015
+LANG_ENGLISH        "Hey buddy. Glad you made it. Unfortunately they didn't bother to refuel her. This should just take a few minutes. Then we're out of here."
+LANG_CZECH         "Hej kamo. Jsem rad, ze jsi to zvladl. Bohuzel se neobtezovali doplnit palivo. Melo by to zabrat jen par minut. Potom muzeme zmizet."
+
+REFERENCE           11KJO006
+LANG_ENGLISH        "We've got company!"
+LANG_CZECH         "Mame spolecnost!"
+
+REFERENCE           11LAC016
+LANG_ENGLISH        "Get to the ship!"
+LANG_CZECH         "Dostan se do lodi!"
+
+REFERENCE           11LAC017
+LANG_ENGLISH        "Hold them off while I try to start her up."
+LANG_CZECH         "Zadrz je, zatimco se pokusim nastartovat."
+
+REFERENCE           11LAC023
+LANG_ENGLISH        "Ok, the fuel's coming in! We just need that roof open yet."
+LANG_CZECH         "Dobre, palivo uz priteka! Uz jen musime otevrit tu strechu."
+
+REFERENCE           11LAC024
+LANG_ENGLISH        "Ok, the fuel's coming in! Now we just need to get that roof open."
+LANG_CZECH         "Dobre, palivo uz priteka! Uz jen musime otevrit tu strechu."
+
+REFERENCE           11LAC025
+LANG_ENGLISH        "That's one. You'll need to open the other section."
+LANG_CZECH         "To je jedna. Budes muset otevrit dalsi sekci."
+
+REFERENCE           11LAC026
+LANG_ENGLISH        "That's one. You'll need to open the other section as well."
+LANG_CZECH         "To je jedna. Budes muset otevrit dalsi sekci."
+
+REFERENCE           11LAC027
+LANG_ENGLISH        "Nice work! The roof is open!"
+LANG_CZECH         "Pekna prace! Strecha je otevrena!"
+
+REFERENCE           11LAC028
+LANG_ENGLISH        "We still need that fuel!"
+LANG_CZECH         "Porad potrebujeme to palivo!"
+
+REFERENCE           11LAC029
+LANG_ENGLISH        "That roof isn't going to open itself."
+LANG_CZECH         "Ta strecha se sama od sebe neotevre."
+
+REFERENCE           11LAC030
+LANG_ENGLISH        "Good work Kyle! We're set to go. Get back to the ship and lets get out of here!"
+LANG_CZECH         "Dobra prace Kyle! Jsme pripraveni odleted. Dostan se zpet do lodi a vypadneme odtud!"
+
+REFERENCE           11REE001
+LANG_ENGLISH        "Going somewhere, gentlemen?"
+LANG_CZECH         "Nekam se chystate, panove?"
+
+REFERENCE           11LAC035
+LANG_ENGLISH        "Get on the gun and hold them off. I'll have this fixed in a jiffy."
+LANG_CZECH         "Dostan se ke zbrani a zadrz je. Budu to mit za chvili opravene."
+
+REFERENCE           11LAC036
+LANG_ENGLISH        "What are you doing? They're going to blow us to pieces!"
+LANG_CZECH         "Co to delas? Rozstrileji nas na kusy!"
+
+REFERENCE           11LAC037
+LANG_ENGLISH        "I never thought you'd just give up like this."
+LANG_CZECH         "Nikdy jsem si nemyslel, ze by ses jen tak vzdal."
+
+REFERENCE           11LAC038
+LANG_ENGLISH        "Ok. I hope this works."
+LANG_CZECH         "Dobre. Doufam, ze to funguje."
+
+REFERENCE           11LAC039
+LANG_ENGLISH        "Ok. This better work."
+LANG_CZECH         "Dobre. Tohle by melo fungovat."
+
+REFERENCE           11LAC040
+LANG_ENGLISH        "Yeeehaa!"
+LANG_CZECH         "#same"
+
+REFERENCE           11LAC034
+LANG_ENGLISH        "You'd better get on the gun and hold them off, I'll have this fixed in a jiffy."
+LANG_CZECH         "Mel by ses radeji dostat ke zbrani a zadrzet je. Budu to mit za chvili opravene."
+
+REFERENCE           12LAC001
+LANG_ENGLISH        "Kyle?  Wake up."
+LANG_CZECH         "Kyle? Vzbud se."
+
+REFERENCE           12KJO001
+LANG_ENGLISH        "Urf...no...Jan!"
+LANG_CZECH         "Uf...ne...Jan!"
+
+REFERENCE           12LAC002
+LANG_ENGLISH        "Kyle!  Are you okay?"
+LANG_CZECH         "Kyle? Jsi v poradku?"
+
+REFERENCE           12KJO002
+LANG_ENGLISH        "I'll be fine."
+LANG_CZECH         "Budu v pohode."
+
+REFERENCE           12LAC003
+LANG_ENGLISH        "Good.  While you were sleeping I hailed the New Republic base on Sullust.  They haven't shown much interest in our little smuggling problem in the past, but now that they know Remnant forces are behind it, they're eager to pitch in.  A strike team should be arriving on Bespin within a few hours-"
+LANG_CZECH         "Dobre. Zatimco jsi spal, zavolal jsem na zakladnu Nove Republiky na Sullustu. V minulosti se o nas maly paseracky problem prilis nezajimali, ale ted, kdyz vedi, ze za nim stoji sily zbytku Imperia, tak se do nej radi zapoji. Utocny tym by mel dorazit na Bespin behem nekolika hodin-"
+
+REFERENCE           12KJO003
+LANG_ENGLISH        "No!"
+LANG_CZECH         "Ne!"
+
+REFERENCE           12LAC004
+LANG_ENGLISH        "I thought you'd be happy to-"
+LANG_CZECH         "Myslel jsem, ze budes mit rad-"
+
+REFERENCE           12KJO004
+LANG_ENGLISH        "They'll tip off Desann!"
+LANG_CZECH         "Vylekaji Desanna!"
+
+REFERENCE           12LAC005
+LANG_ENGLISH        "Then we'll catch him later.  Getting Desann isn't as important as clearing the city-"
+LANG_CZECH         "Pak ho chytime pozdeji. Dostat Desanna neni tak dulezite, jako vycisteni mesta-"
+
+REFERENCE           12KJO005
+LANG_ENGLISH        "Jan's dead, Lando.  Desann and his minion killed her."
+LANG_CZECH         "Jan je mrtva, Lando. Desann a jeho sluzebnice ji zabili."
+
+REFERENCE           12LAC006
+LANG_ENGLISH        "...Grife, I'm sorry, Kyle...  Okay,....okay... here's what we'll do.  I'll drop you off on the lower levels.  They've probably been overrun by Remnant troops, so watch out.  Chances are that Desann's operating from one of the loading bays above level ten, but you'll never get in without the proper access codes.  Try to find Carbonite Chamber #17.  I've hidden an old R5 unit there with codes to every loading bay in the city."
+LANG_CZECH         "...Uprimnou soustrast, mrzi me to Kyle... Dobra,....dobra... tady je, co budeme delat. Vysadim te na nizsich urovnich. Pravdepodobne uz byly dobyty vojaky zbytku Imperia, takze si davej pozor. Je pravdepodobne, ze Desann operuje z jedne z nakladacich ramp nad desatou urovni, ale nikdy se tam nedostanes bez spravnych pristupovych kodu. Zkus najit karbonitovou komoru cislo 17. Ukryl jsem tam starou jednotku R5 spolu s kody ke kazde nakladaci rampe ve meste."
+
+REFERENCE           12KJO006
+LANG_ENGLISH        "You always did plan for the worst..."
+LANG_CZECH         "Vzdy ses pripravoval na nejhorsi..."
+
+REFERENCE           12LAC007
+LANG_ENGLISH        "Ever since that run-in with Vader.  Anyway, I'll head up top and gather some old friends from the security force.  We'll work our way down towards your position. If we're lucky, we can trap Desann before the New Republic arrives."
+LANG_CZECH         "Od toho setkani s Vaderem. Kazdopadne pujdu nahoru a shromazdim par starych pratel z bezpecnostnich slozek. Budeme postupovat dolu k tve pozici. Pokud budeme mit stesti, muzeme uveznit Desanna v pasti driv, nez dorazi jednotky Nove Republiky."
+
+ENDMARKER

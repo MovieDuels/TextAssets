@@ -1,0 +1,49 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+
+REFERENCE           OD_ANI6
+LANG_ENGLISH        "I shouldn't!"
+LANG_CZECH        "Nemel bych!"
+
+REFERENCE           OD_PAL3
+LANG_ENGLISH        "Good, Anakin, Good [Laughs] Kill him."
+LANG_CZECH        "Skvele, Anakine. Skvele [Smeje se] Zabij ho."
+
+REFERENCE           OD_PAL4
+LANG_ENGLISH        "Kill him now."
+LANG_CZECH        "Jen ho zabij."
+
+REFERENCE           OD_PAL5
+LANG_ENGLISH        "Do it!"
+LANG_CZECH        "Udelej to!"
+
+REFERENCE           BONUS_PAL1
+LANG_ENGLISH        "Your arrogance blinds you. Now you will experience the full power of the Dark Side!"
+LANG_CZECH        "Tvoje arogance te zaslepuje. Ted tedy poznas opravdovou silu Temne Strany!"
+
+REFERENCE           BONUS_ANI1
+LANG_ENGLISH        "How can you do this? This is outrageous. It's unfair!"
+LANG_CZECH        "Jak to muzete udelat? To je neslychane. Nespravedlive!"
+
+REFERENCE           BONUS_GRI1
+LANG_ENGLISH        "[Coughs] Anakin Skywalker. I was expecting someone with your reputation to be a little.. Older."
+LANG_CZECH        "[Kasle] Anakin Skywalker. Cekal jsem, ze nekdo s Vasi povesti bude ponekud.. starsi."
+
+REFERENCE           PO_ANI5
+LANG_ENGLISH        "What have I done?!"
+LANG_CZECH        "Co jsem to udelal?!"
+
+ENDMARKER

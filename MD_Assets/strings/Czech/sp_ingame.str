@@ -1,0 +1,1472 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "in game text for single player and MP items"
+
+
+//----------------------------------------------------------
+//     JEDI ACADEMY ORIGINAL REFERENCES
+//----------------------------------------------------------
+
+REFERENCE           OBJECTIVES
+LANG_ENGLISH        "Mission Objectives:"
+LANG_CZECH        "Cile mise:"
+
+REFERENCE           OBJNONE
+LANG_ENGLISH        "No objectives currently specified."
+LANG_CZECH        "Momentalne nejsou zadany zadne cile mise."
+
+REFERENCE           INSUFFICIENTENERGY
+LANG_ENGLISH        "Weapon ammo depleted."
+LANG_CZECH        "Naboje do zbrane dosly."
+
+REFERENCE           MISSIONFAILED
+LANG_ENGLISH        "MISSION FAILED"
+LANG_CZECH        "MISE NEUSPESNA"
+
+REFERENCE           MISSIONFAILED_PLAYER
+LANG_ENGLISH        "YOU HAVE DIED."
+LANG_CZECH        "ZEMREL JSTE."
+
+REFERENCE           MISSIONFAILED_LUKE
+LANG_ENGLISH        "LUKE SKYWALKER HAS DIED."
+LANG_CZECH        "LUKE SKYWALKER ZEMREL."
+
+REFERENCE           MISSIONFAILED_CHEWIE
+LANG_ENGLISH        "CHEWBACCA HAS DIED."
+LANG_CZECH        "CHEWBACCA ZEMREL."
+
+REFERENCE           MISSIONFAILED_KYLE
+LANG_ENGLISH        "KYLE KATARN HAS DIED."
+LANG_CZECH        "KYLE KATARN ZEMREL."
+
+REFERENCE           MISSIONFAILED_ROSH
+LANG_ENGLISH        "ROSH PENIN HAS DIED."
+LANG_CZECH        "ROSH PENIN ZEMREL."
+
+REFERENCE           MISSIONFAILED_WEDGE
+LANG_ENGLISH        "WEDGE ANTILLES HAS DIED."
+LANG_CZECH        "WEDGE ANTILLES ZEMREL."
+
+REFERENCE           MISSIONFAILED_TURNED
+LANG_ENGLISH        "YOU'VE TURNED ON YOUR FRIENDS."
+LANG_CZECH        "OBRATIL JSTE SE PROTI PRATELUM."
+
+REFERENCE           MISSIONFAILED_R5D2
+LANG_ENGLISH        "THE R5 UNIT WAS DESTROYED."
+LANG_CZECH        "JEDNOTKA R5 BYLA ZNICENA."
+
+REFERENCE           MISSIONFAILED_PRISONERS
+LANG_ENGLISH        "TOO MANY PRISONERS HAVE DIED."
+LANG_CZECH        "ZEMRELO PRILIS MNOHO VEZNU."
+
+REFERENCE           MISSIONFAILED_EMPLACEDGUNS
+LANG_ENGLISH        "ALL EMPLACED GUNS WERE DESTROYED."
+LANG_CZECH        "VSECHNY STATICKE KANONY BYLY ZNICENY."
+
+REFERENCE           MISSIONFAILED_KYLECAPTURE
+LANG_ENGLISH        "YOU HAVE BEEN CAPTURED."
+LANG_CZECH        "BYL JSTE ZAJAT."
+
+REFERENCE           MISSIONFAILED_LADYLUCK
+LANG_ENGLISH        "THE DREADNAUGHT HAS BEEN DESTROYED."
+LANG_CZECH        "KRIZNIK BYL ZNICEN."
+
+REFERENCE           MISSIONFAILED_UNKNOWN
+LANG_ENGLISH        " "
+
+REFERENCE           MISSIONFAILED_TOOMANYALLIESDIED
+LANG_ENGLISH        "YOU KILLED TOO MANY ALLIES."
+LANG_CZECH        "ZABIL JSTE PRILIS MNOHO SPOJENCU."
+
+REFERENCE           RELOADMISSION
+LANG_ENGLISH        "Press fire button to restart or ESCAPE to access menu."
+LANG_CZECH        "Pro restartovani stisknete tlacitko strelby, pro navrat do menu stisknete ESCAPE."
+
+REFERENCE           CONTINUE
+LANG_ENGLISH        "Press fire button to continue."
+LANG_CZECH        "Pro pokracovani stisknete tlacitko strelby."
+
+REFERENCE           LSDS_CHOICE
+LANG_ENGLISH        "Deactivate your lightsaber remain on the path of light.\n\nAttack Rosh to turn to the dark side."
+LANG_CZECH        "Vypnete svuj svetelny mec, abyste zustal na ceste svetle Sily.\n\nZautocte na Roshe, abyste se obratil k Temne Strane."
+
+REFERENCE           MISSIONCOMPLETION
+LANG_ENGLISH        "LEVEL STATS"
+LANG_CZECH        "STATISTIKY MISE"
+
+REFERENCE           SECRETAREAS
+LANG_ENGLISH        "Secret Areas Found: "
+LANG_CZECH        "Nalezeno tajnych mist: "
+
+REFERENCE           ENEMIESKILLED
+LANG_ENGLISH        "Enemies Killed: "
+LANG_CZECH        "Zabito nepratel: "
+
+REFERENCE           FAVORITEWEAPON
+LANG_ENGLISH        "Favorite Weapon: "
+LANG_CZECH        "Oblibena zbran: "
+
+REFERENCE           SHOTSFIRED
+LANG_ENGLISH        "Shots Fired: "
+LANG_CZECH        "Pocet vystrelu: "
+
+REFERENCE           HITS
+LANG_ENGLISH        "Hits: "
+LANG_CZECH        "Zasahy: "
+
+REFERENCE           ACCURACY
+LANG_ENGLISH        "Accuracy: "
+LANG_CZECH        "Presnost: "
+
+REFERENCE           FORCEUSE
+LANG_ENGLISH        "Force Use"
+LANG_CZECH        "Pouziti Sily"
+
+REFERENCE           HEAL
+LANG_ENGLISH        "Heal: "
+LANG_CZECH        "Leceni: "
+
+REFERENCE           SPEED
+LANG_ENGLISH        "Speed: "
+LANG_CZECH        "Rychlost: "
+
+REFERENCE           ABSORB
+LANG_ENGLISH        "Absorb:"
+LANG_CZECH        "Pohlceni:"
+
+REFERENCE           PULL
+LANG_ENGLISH        "Pull: "
+LANG_CZECH        "Pritahnuti: "
+
+REFERENCE           PUSH
+LANG_ENGLISH        "Push: "
+LANG_CZECH        "Odstrceni: "
+
+REFERENCE           PROTECTION
+LANG_ENGLISH        "Protection:"
+LANG_CZECH        "Ochrana:"
+
+REFERENCE           MINDTRICK
+LANG_ENGLISH        "Mind Trick: "
+LANG_CZECH        "Oklam. smyslu: "
+
+REFERENCE           GRIP
+LANG_ENGLISH        "Grip: "
+LANG_CZECH        "Sevreni: "
+
+REFERENCE           LIGHTNING
+LANG_ENGLISH        "Lightning: "
+LANG_CZECH        "Blesk: "
+
+REFERENCE           LIGHTSABERUSE
+LANG_ENGLISH        "Lightsaber Use "
+LANG_CZECH        "Pouziti svetelneho mece "
+
+REFERENCE           THROWN
+LANG_ENGLISH        "Thrown: "
+LANG_CZECH        "Hody mecem: "
+
+REFERENCE           BLOCKS
+LANG_ENGLISH        "Blocks: "
+LANG_CZECH        "Zablokovani: "
+
+REFERENCE           LEGATTACKS
+LANG_ENGLISH        "Leg Attacks: "
+LANG_CZECH        "Utoky na nohy: "
+
+REFERENCE           ARMATTACKS
+LANG_CZECH        "Utoky na ruce: "
+
+REFERENCE           BODYATTACKS
+LANG_ENGLISH        "Body Attacks: "
+LANG_CZECH        "Utoky na telo: "
+
+REFERENCE           OTHERATTACKS
+LANG_CZECH        "Ostatni utoky: "
+
+REFERENCE           CURRENTFORCEPOWERS
+LANG_ENGLISH        "CURRENT FORCE POWER LEVELS"
+LANG_CZECH        "AKTUALNI UROVNE SILY"
+
+REFERENCE           HEAL2
+LANG_ENGLISH        "Heal"
+LANG_CZECH        "Leceni"
+
+REFERENCE           JUMP2
+LANG_ENGLISH        "Jump"
+LANG_CZECH        "Skok"
+
+REFERENCE           SPEED2
+LANG_ENGLISH        "Speed"
+LANG_CZECH        "Rychlost"
+
+REFERENCE           PUSH2
+LANG_ENGLISH        "Push"
+LANG_CZECH        "Odstrceni"
+
+REFERENCE           MINDTRICK2
+LANG_ENGLISH        "Mind Trick"
+LANG_CZECH        "Oklamani smyslu"
+
+REFERENCE           GRIP2
+LANG_ENGLISH        "Grip"
+LANG_CZECH        "Sevreni"
+
+REFERENCE           LIGHTNING2
+LANG_ENGLISH        "Lightning"
+LANG_CZECH        "Blesk"
+
+REFERENCE           SABER_THROW2
+LANG_ENGLISH        "Saber Throw"
+LANG_CZECH        "Hod mecem"
+
+REFERENCE           SABER_OFFENSE2
+LANG_ENGLISH        "Saber Offense"
+LANG_CZECH        "Utok mecem"
+
+REFERENCE           SABER_DEFENSE2
+LANG_ENGLISH        "Saber Defense"
+LANG_CZECH        "Obrana mecem"
+
+REFERENCE           PULL2
+LANG_ENGLISH        "Pull"
+LANG_CZECH        "Pritahnuti"
+
+REFERENCE           NONE
+LANG_ENGLISH        "NONE"
+LANG_CZECH        "ZADNY"
+
+REFERENCE           DATAPAD_UPDATED
+LANG_ENGLISH        "Datapad updated"
+LANG_CZECH        "Datapad aktualizovan"
+
+REFERENCE           PICKUPLINE
+NOTES               "Printed before item name when pick is obtained"
+LANG_ENGLISH        "Obtained"
+LANG_CZECH        "Sebral jste"
+
+REFERENCE           SABER_DESC
+LANG_ENGLISH        "Lightsaber\nAn elegant weapon for a more civilized age, the lightsaber is the preferred weapon of the Jedi Knight.  The lightsaber is an energy blade of great power that can be used by the wielder for both attack and defense.\nPrimary Fire - Slashing and swinging attacks\nSecondary Fire - Force powered saber throw\nDefensive Ability - Deflects blaster and energy weapon fire, parries enemy lightsaber attacks\nAmmo Type - N/A"
+LANG_CZECH        "Svetelny mec\nSvetelny mec je elegantni zbrani pro civilizovanejsi vek a je uprednostnovan rytiri Jedi. Svetelny mec je energetickou cepeli velke sily, ktera muze byt pouzita svym drzitelem jak k utoku, tak k obrane.\n\nPrimarni utok - Sekani a svihani\nSekundarni utok - Hod mecem za pomoci Sily\nObranna schopnost - Odrazi strelbu z blasteru a dalsich energetickych zbrani, odvraci utoky nepratelskeho svetelneho mece\nDruh naboju - Zadne"
+
+REFERENCE           NEW_BLASTER_PISTOL_DESC
+LANG_ENGLISH        "DL-44 Heavy Blaster Pistol \nOne of the most common firearms in the galaxy, the DL-44 Heavy Blaster Pistol is a hand-held energy weapon with a slow rate of fire and incredible accuracy.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CZECH        "Tezka blasterova pistole DL-44\nTezka blasterova pistole DL-44 je jednou z nejbeznejsich zbrani v galaxii. Ma nizkou kadenci, ale je vysoce presna.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a silou\nSekundarni utok - Vytrysk nahromadene nabite energie s vyssi silou\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE           ALONGTIME
+LANG_ENGLISH        "A long time ago in a galaxy far,\nfar away...."
+LANG_CZECH        "Pred davnymi casy v galaxii lezici\ndaleko, daleko odsud..."
+
+REFERENCE           BLASTER_PISTOL_DESC
+LANG_ENGLISH        "Bryar Blaster Pistol \nKyle Katarn's weapon of choice, the Bryar Blaster Pistol is a common hand-held energy weapon with a slow rate of fire and incredible accuracy.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CZECH        "Blasterova pistole Bryar\nBlasterova pistole Bryar je oblibenou zbrani Kyle Katarna a beznou rucni energetickou zbrani s nizkou kadenci a neuveritelnou presnosti.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a silou\nSekundardni utok - Vytrysk nahromadene nabite energie s vyssi silou\Druh naboju - Sada naboju pro blastery"
+
+REFERENCE           BLASTER_RIFLE_DESC
+LANG_ENGLISH        "E-11 Blaster Rifle \nThe primary weapon of the Imperial forces, the E-11 is a sturdy and deadly blaster rifle capable of inflicting great damage despite its small size.  The E-11's compact design makes it easy to carry and conceal.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CZECH        "Blasterova puska E-11\nE-11 je zakladni zbrani vojaku Imperia. Je to stabilni a smrtici blasterova puska schopna zpusobit velke skody navzdory sve male velikosti.  Kompaktni design E-11 umoznuje jeji snadne noseni a ukryti.\n\nPrimarni utok - Jeden pomaly vystrel se stredni presnosti a velkou silou\nSekundardni utok - Rychla salva s nizkou presnosti a vyssim palebnym dosahem\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE           DISRUPTOR_RIFLE_DESC
+LANG_ENGLISH        "Tenloss DXR-6 Disruptor rifle \nThis nefarious weapon affects matter at the molecular level, ripping apart living material with ease.   Because of the weapon's inhumane nature, the DXR-6 is outlawed throughout the galaxy and is generally only used by scattered droid and Remnant forces.\nPrimary Fire - Single shot with slow fire rate, fast projectile and small radius damage\nSecondary Fire - Scoped mode: Single shot with slow fire rate, increased damage and high weapon energy consumption\nAmmo Type - Power cell"
+LANG_CZECH        "Tenlosska disruptorova puska DXR-6\nTato ohavna zbran ovlivnuje hmotu na molekularni urovni a snadno trha na kusy zivy material. Vzhledem k nelidske povaze zbrane je DXR-6 zakazana v cele galaxii a obecne ji pouzivaji pouze roztrousene jednotky droidu a zbylych vojaku Imperia.\n\nPrimarni utok - Jeden vystrel s nizkou kadenci, rychlou strelou a malym okruhem poskozeni\nSekundarni utok - Odstrelovaci mod: Jeden vystrel s nizkou kadenci, vyssim poskozenim a vysokou energetickou spotrebou\nDruh naboju - Energeticky clanek"
+
+REFERENCE           BOWCASTER_DESC
+LANG_ENGLISH        "Wookiee Bowcaster\nThis archaic-looking weapon fires powerful bolts of metal enveloped in pockets of energy.  Capable of inflicting incredible damage, the bowcaster requires tremendous physical strength to fire.  Most bowcasters sold outside the Wookiee homeworld come equipped with self-cocking actions that allow physically weaker creatures to fire them.\nPrimary Fire - Slow, single shot with radius damage.  Hold FIRE to charge weapon for spread attack\nSecondary Fire - Unleashes a reflective shot that bounces off solid surfaces\nAmmo Type - Power cell"
+LANG_CZECH        "Wookijska kuse\nTato zastarale vyhlizejici zbran pali silne kovove strely zabalene do energetickych obalu, je schopna zpusobit neuveritelne skody a ke strelbe z ni je treba ohromne fyzicke sily. Vetsina kusi prodanych mimo wookijskou domovinu je vybavena samonatahovacim mechanismem, aby z nich mohly strilet i fyzicky slabsi bytosti.\n\nPrimarni utok - Jeden pomaly vystrel s kruhovym poskozenim. Abyste nabili zbran k sirsimu utoku, podrzte STRELBU\nSekundardni utok - Vypali strelu, ktera se odrazi od pevnych povrchu\nDruh naboju - Energeticky clanek"
+
+REFERENCE           HEAVYREPEATER_DESC
+LANG_ENGLISH        "Imperial Heavy Repeater with Concussion Launcher\nThis destructive projectile weapon is extremely deadly, firing rapid streams of metal bullets.  Imperial forces use the Heavy Repeater's deadly suppressive fire and concussion launcher for crowd control and to spread heavy fire over large areas.\nPrimary Fire - Fully automatic projectile fire \nSecondary Fire - Single shot, concussion explosive round\nAmmo type - Metallic bolts"
+LANG_CZECH        "Tezky imperialni opakovac s odpalovacem narazovych granatu\nTato niciva strelna zbran je vysoce smrtici a pali rychle davky kovovych kulek. Vojaci Imperia pouzivaji smrtici strelbu tezkeho opakovace a jeho odpalovac narazovych granatu k ovladnuti davu a k rozptyleni tezke palby po velkych oblastech.\n\nPrimarni utok - Plne automaticka projektilova palba\nSekundarni utok - Jedna explozivni strela s narazovym granatem\nDruh naboju - Kovove kulky"
+
+REFERENCE           DEMP2_DESC
+LANG_ENGLISH        "Destructive Electro-Magnetic Pulse 2 Gun\nCommonly referred to as the DEMP 2, this pulse rifle is primarily used against droids and electrical devices.  The DEMP 2 fires high-powered ion bursts that disrupt electrical systems.  Unlike previous incarnations of the weapon, the DEMP 2's ion charges are capable of damaging living material.\nPrimary Fire - Single shot, stuns humans, damages droids\nSecondary Fire - Charged energy attack that creates an expanding shell of electromagnetic energy on impact that damages humanoids, droids and turrets\nAmmo Type - Power cell"
+LANG_CZECH        "Niciva elektromagneticka pulsni puska typu 2\nTato puska se bezne nazyva DEMP 2 a pouziva se predevsim proti droidum\na elektrickym zarizenim. DEMP 2 strili vysokoenergeticke iontove paprsky, ktere narusuji elektricke systemy. Oproti predchozim verzim teto zbrane jsou iontove naboje DEMP2 schopne poranit zivy material.\n\nPrimarni utok - Jeden vystrel, ktery omraci lidi a poskodi droidy\nSekundarni utok - Nabita strela, ktera pri dopadu vytvori zvetsujici se vlnu elektromagneticke energie, ktera porani humanoidy a ponici droidy a veze\nDruh naboju - Energeticky clanek"
+
+REFERENCE           FLECHETTE_DESC
+LANG_ENGLISH        "Golan Arms FC1 Flechette Weapon \nWidely used by the Corporate Sector Authority's police squads, the FC1 fires shards of red-hot metal in a widespread pattern.   The weapon is designed to hit multiple targets in close proximity, but great care must be taken to avoid ricochet damage.\nPrimary Fire - Single shot, spread fire\nSecondary Fire - Fires two bouncing shield-protected proximity mines which explode after a short time\nAmmo Type - Metallic Bolts"
+LANG_CZECH        "Golanska rucni flechettova zbran FC1\nFC1 je siroce pouzivana policejnimi jednotkami uradu firemniho sektoru a strili kovove strepiny v rozprostrenem vzorci. Zbran je navrzena tak, aby zasahla nekolik cilu na malou vzdalenost, ale drzitel si musi davat pozor, aby se vyhnul nebezpeci odrazenych strel.\n\nPrimarni utok - Jeden rozprostreny vystrel\nSekundardni utok - Vypali dve odrazejici se miny reagujici na blizkost, ktere vybuchnou po kratke chvili\nDruh naboju - Kovove kulky"
+
+REFERENCE           CONCUSSION_DESC
+LANG_ENGLISH        "Stouker Concussion Rifle  \nThe Stouker fires a concussive blast creating an implosion that spreads about 4 meters in diameter.\nPrimary Fire - Single shot, large implosive effect that damages everything, slow firing rate\nSecondary Fire - Fires a smaller projectile shot that has a smaller explosive radius but does much more damage in that radius and has a more severe recoil\nAmmo Type - Metallic Bolts"
+LANG_CZECH        "Narazova puska Stouker\nStouker strili narazovy vyboj, ktery vytvori explozi, ktera se rozsiri priblizne do ctyr metru v prumeru.\n\nPrimarni utok - Jedna rana, velky vybusny ucinek, ktery poskodi vsechno, nizka kadence\nSekundarni utok - Strili mensi projektil, ktery ma mensi polomer vybuchu, ale v tomto okruhu nadela vice skod a ma silnejsi zpetny raz\nDruh naboju - Kovove kulky"
+
+REFERENCE           MERR_SONN_DESC
+LANG_ENGLISH        "Merr-Sonn PLX-2M Portable Missile System   \nThe PLX-2M is an extremely powerful weapon that fires Arakyd 3T3 missiles.  The sheer explosive power of the PLX-2M makes it dangerous to fire blindly in close quarters, but is extremely effective when used as a 'smart' tracking weapon.\nPrimary Fire - Fires a single, forward-firing explosive missile\nSecondary Fire - Fires a single 'smart' missile that tracks acquired and locked targets\nAmmo Type - Rockets"
+LANG_CZECH        "Prenosny raketovy system Merr-Sonn PLX-2M\nPLX-2M je extremne silnou zbrani, ktera strili rakety Arakyd 3T3. Pouha explozivni sila PLX-2M cini tuto zbran nebezpecnou pro strelbu naslepo v tesnych prostorach, ale je velice ucinna pouzije-li se jako 'chytra' navadeci zbran.\n\nPrimarni utok - Strili jednu explozivni raketu letici rovne kupredu \nSekundarni utok - Strili jednu 'chytrou' raketu, ktera sleduje zamerene cile\nDruh naboju - Rakety"
+
+REFERENCE           THERMAL_DETONATOR_DESC
+LANG_ENGLISH        "Thermal Detonator \nThe thermal detonator is a radius-damage grenade that releases a barrage of thermal energy capable of disintegrating all matter around it.\nPrimary Fire - Detonator explodes after a short time.  Press FIRE longer for longer throw\nSecondary Fire - Detonator explodes on impact.  Press ALT-FIRE longer for longer throw"
+LANG_CZECH        "Termalni detonator\nTermalni detonator je granatem, ktery v urcitem okruhu kolem sebe uvolni vlnu termalni energie, ktera je schopna rozlozit veskerou hmotu.\n\nPrimarni utok - Granat exploduje po kratkem case. Pro delsi hod podrzte dele STRELBU\nSekundarni utok - Granat exploduje pri kontaktu. Pro delsi hod podrzte dele ALTERNATIVNI STRELBU"
+
+REFERENCE           TRIP_MINE_DESC
+LANG_ENGLISH        "Trip Mines \nTrip mines consist of a beam projector affixed to a shaped explosive casing.  The laser activates when the mine is placed and extends a beam from the charge to the nearest surface that intersects its path.  If the beam is broken or the charge is fired upon, the mine detonates and causes radius damage to anything in range.\nPrimary Fire - Once placed, triggered by breaking the beam\nSecondary Fire - Once placed, the mine acts as a proximity device, waiting until an enemy comes within blast radius, then detonates, damaging any enemies in the area"
+LANG_CZECH        "Nastrazne miny\nNastrazne miny se skladaji z projektoru paprsku pripevneneho k vytvarovanemu vybusnemu obalu.  Laser se aktivuje pri polozeni miny a paprsek saha od naloze\nk nejblizsi prekazce, ktera krizuje jeho cestu. Je-li paprsek prerusen nebo nekdo na minu vystreli, mina detonuje a zpusobi skody na vsem v urcitem okruhu kolem sebe.\n\nPrimarni utok - Po polozeni vybuchne, je-li paprsek prerusen\nSekundarni utok - Po polozeni se mina chova jako zarizeni na zjistovani blizkeho pohybu a ceka, dokud nepritel neprijde do oblasti vybuchu. Pote vybuchne a porani vsechny nepratele v oblasti"
+
+REFERENCE           DET_PACK_DESC
+LANG_ENGLISH        "Detonation Packs \nA detonation pack is essentially a small explosive device with a remote detonation trigger.  The pack is placed or thrown and can be detonated at will by the user.  Detonation packs are commonly used to ambush enemies or open sealed doors.\nPrimary Fire - Sets charge at the user's feet\nSecondary Fire - Explodes all set charges"
+LANG_CZECH        "Vybusne naloze\nVybusna naloz je v podstate male explozivni zarizeni s dalkovym ovladanim. Majitel naloze ji muze polozit nebo hodit a pote ji odpalit podle vlastniho uvazeni. Vybusne naloze se bezne pouzivaji k vytvareni lecky na nepratele nebo k otevreni zamcenych dveri.\n\nPrimarni utok - Hodi naloz k noham majitele\nSekundarni utok - Vyhodi do vzduchu vsechny polozene naloze"
+
+REFERENCE           STUN_BATON_DESC
+LANG_ENGLISH        "Stun Baton \nCommonly used to subdue unruly prisoners, the stun baton was designed for use in melee combat where killing your opponent is not necessarily the desired outcome.\nPrimary Fire - Short range jabbing electrical stun attack\nSecondary Fire - None"
+LANG_CZECH        "Obusek na omraceni\nObusek na omraceni se bezne pouziva k podrobeni vzpurnych veznu a byl navrzen pro pouziti v sarvatkach, kde zabiti Vaseho protivnika nutne neni pozadovanym vysledkem.\n\nPrimarni utok - Omracujici bodavy elektricky vyboj na kratkou vzdalenost\nSekundarni utok - Zadne"
+
+REFERENCE           NEURO_SAAV_DESC
+LANG_ENGLISH        "Neuro-Saav Model TD2.3 Electrobinoculars\nElectrobinoculars operate in low-light and normal light conditions to magnify distant objects and provide a heads-up display that features detailed information on the area viewed.  The heads-up display measures distances and offers various telemetry readouts on the object or area in view. Powered by normal battery cells that drain power at a minimal rate."
+LANG_CZECH        "Elektrodalekohled Neuro-Saav model TD2.3\nElektrodalekohled funguje v prostredi s nizkym o normalnim osvetlenim, zvetsuje vzdalene objekty a obsahuje informacni displej, ktery obsahuje detailni informace o pozorovane oblasti. Informacni displej meri vzdalenost a nabizi ruzne telemetricke udaje o pozorovanem objektu nebo oblasti. Je napajen normalnimi bateriemi, ze kterych cerpa energii v minimalni mire."
+
+REFERENCE           BACTA_DESC
+LANG_ENGLISH        "BioTech Bacta Canister\nBacta canisters are portable, disposable packs of bacta ointments and emergency care tools.  Designed for use in the field, bacta canisters can be used to heal wounds and restore vitality during medical recovery.  No field medic should be without them."
+LANG_CZECH        "Kanistry biotechnicke bacty\nKanistry bacty jsou prenosna, jednorazova baleni masti bacta a nouzovych pecovatelskych nastroju. Kanistry bacty jsou navrzeny pro pouziti v poli a lze je pouzit k leceni zraneni a obnove zivotni sily behem zotaveni. Zadny polni medik by bez nich nemel byt."
+
+REFERENCE           INQUISITOR_DESC
+LANG_ENGLISH        "Seeker Drone\nAn attack drone similar to the training drones used by Jedi to practice their lightsaber skills, the Seeker hovers around its user and attacks any enemy the user fires upon.  The drone operates automatically for a limited time and then self-destructs\nwhen its power is depleted."
+LANG_CZECH        "Utocny droid\nUtocny droid je podobny vycvikovym droidum, ktere pouzivaji Jediove k procviceni svych dovednosti se svetelnym mecem. Vznasi se kolem sveho majitele a utoci na nepritele, na ktereho majitel strili. Droid funguje automaticky po omezenou dobu a pote se sam znici, kdyz se vycerpa jeho energie."
+
+REFERENCE           LA_GOGGLES_DESC
+LANG_ENGLISH        "Light Amplification Goggles\nAlso known as infra-goggles, this helpful device creates a balance of light levels that allows the user to see well in most situations. The resulting effect enhances the overall brightness but casts everything in a greenish hue. The goggles require batteries to function, draining them at roughly the same rate as Electrobinoculars.   Light Amplification Goggles can be worn during combat, but will not function without an available power source."
+LANG_CZECH        "Bryle zesilujici svetlo\nToto uzitecne zarizeni, zname rovnez jako infra-bryle, vykalibrovava urovne svetla, cimz umoznuje svemu majiteli videt dobre ve vetsine situaci. Vysledny efekt zvysuje celkovy jas, ale zobrazuje vse v nazelenalem odstinu. Ke svemu fungovani vyzaduji bryle baterie, ktere vycerpavaji zhruba stejnou rychlosti jako elektrodalekohled. Bryle zesilujici svetlo lze pouzit v bitve, ale nebudou fungovat bez dostupneho energetickeho zdroje."
+
+REFERENCE           PORTABLE_SENTRY_DESC
+LANG_ENGLISH        "Portable Assault Sentry  \nThis deadly weapon is roughly the size of a large backpack, but don't let its size fool you. Once activated, the weapon unfurls and is set to auto-target any enemy threat. The Sentry drains battery life at an accelerated rate and, once it's deployed, can't be restored to its original portable condition."
+LANG_CZECH        "Prenosna utocna hlidkova vez\nTato smrtici zbran je zhruba velikosti velkeho batohu, ale tim se nenechte oklamat. Po aktivaci se tato zbran roztahne a nastavi se na automaticke zamerovani jakekoliv nepratelske hrozby. Vez cerpa energii z baterie zvysenou rychlosti a je-li baterie vycerpana, nelze vez obnovit do jejiho puvodniho prenosneho stavu."
+
+REFERENCE           SECURITY_KEY_DESC
+LANG_ENGLISH        "Security Key"
+LANG_CZECH        "Bezpecnosti klic"
+
+REFERENCE           EMPTY_INV
+LANG_ENGLISH        "EMPTY INVENTORY"
+LANG_CZECH        "PRAZDNY INVENTAR"
+
+REFERENCE           FORCE_HEAL_DESC
+LANG_ENGLISH        "Force Heal\nDuration: Instantaneous effect\nArea Of Effect: Jedi only\nEffect: Jedi have the ability to heal themselves after injury\n\n"
+LANG_CZECH        "Leceni\nTrvani: Okamzity ucinek\nOblast ucinku: Pouze Jedi\nUcinek: Jedi se vyleci po zraneni.\n\n"
+
+REFERENCE           FORCE_JUMP_DESC
+LANG_ENGLISH        "Force Jump\nDuration: Immediate\nArea Of Effect: Jedi only\nEffect: Allows Jedi to make a tremendous vertical leap\n\n"
+LANG_CZECH        "Skok\nTrvani: Bezprostredni\nOblast ucinku: Pouze Jedi \nUcinek: Umozni Jedimu provest obrovsky skok do vysky.\n\n"
+
+REFERENCE           FORCE_SPEED_DESC
+LANG_ENGLISH        "Force Speed\nDuration: 10 seconds\nArea of Effect: Jedi and surroundings\nEffect:  A Jedi speeds up and the world appears to slow down around them\n\n"
+LANG_CZECH        "Rychlost\nTrvani: 10 sekund\nOblast ucinku: Jedi a jeho okoli\nUcinek: Jedi zrychli a diky tomu se zda, ze svet kolem nej se zpomalil.\n\n"
+
+REFERENCE           FORCE_PUSH_DESC
+LANG_ENGLISH        "Force Push\nDuration: Instantaneous effect\nArea Of Effect: Objects or Persons\nEffect: Allows Jedi to push objects away from themselves and defend from missile and Force Grip attacks\n\n"
+LANG_CZECH        "Odstrceni\nTrvani: Okamzity ucinek\nOblast ucinku: Predmety nebo osoby\nUcinek: Umoznuje Jedimu odsouvat od sebe predmety, odrazet strely a branit se proti Sevreni.\n\n"
+
+REFERENCE           FORCE_PULL_DESC
+LANG_ENGLISH        "Force Pull\nDuration: Instantaneous effect\nArea Of Effect: Objects or Persons\nEffect: Allows Jedi to pull specific world objects to themselves\n\n"
+LANG_CZECH        "Pritahnuti\nTrvani: Okamzity ucinek\nOblast ucinku: Predmety nebo osoby\nUcinek: Umoznuje Jedimu pritahnout k sobe urcite okolni objekty.\n\n"
+
+REFERENCE           FORCE_MIND_TRICK_DESC
+LANG_ENGLISH        "Force Mind Trick\nDuration: Variable\nArea Of Effect: Humanoids\nEffect: Allows Jedi to confuse and/or misdirect attention \n\n"
+LANG_CZECH        "Oklamani smyslu\nTrvani: Ruzne\nOblast ucinku: Humanoidi\nUcinek: Umoznuje Jedimu zmast a/nebo odlakat pozornost.\n\n"
+
+REFERENCE           FORCE_GRIP_DESC
+LANG_ENGLISH        "Force Grip\nDuration: Instantaneous\nArea Of Effect: Living persons only\nEffect: Allows Jedi to choke or constrict the organs of a living being\n\n"
+LANG_CZECH        "Sevreni\nTrvani: Okamzite\nOblast ucinku: Pouze zive osoby\nUcinek: Umoznuje Jedimu skrtit nebo stisknout organy zivych bytosti.\n\n"
+
+REFERENCE           FORCE_LIGHTNING_DESC
+LANG_ENGLISH        "Force Lightning\nDuration: Variable\nArea Of Effect: Living persons only\nEffect: Allows Jedi to hurl a devastating electrical attack against enemies\n\n"
+LANG_CZECH        "Blesk\nTrvani: Ruzne\nOblast ucinku: Pouze zive bytosti\nUcinek: Umoznuje Jedimu vyslat devastujici elektricky vyboj proti nepratelum.\n\n"
+
+REFERENCE           FORCE_SABER_DEFENSE_DESC
+LANG_ENGLISH        "Lightsaber Defense\nDuration: Always on\nArea Of Effect: N/A\nEffect: Jedi can block damage with a lightsaber  \n\n"
+LANG_CZECH        "Obrana svetelnym mecem\nTrvani: Vzdy aktivni\nOblast ucinku: Jediho okoli\nUcinek: Jedi muze odrazit nebezpeci svetelnym mecem.\n\n"
+
+REFERENCE           FORCE_SABER_OFFENSE_DESC
+LANG_ENGLISH        "Lightsaber Offense\nDuration: Always on\nArea Of Effect: N/A\nEffect: As a Jedi gains combat experience, their lightsaber attack effectiveness increases\n\n"
+LANG_CZECH        "Utok svetelnym mecem\nTrvani: Vzdy aktivni\nOblast ucinku: Jediho okoli\nUcinek: Jak Jedi ziskava bojove zkusenosti, zvysuje se ucinnost jeho utoku svetelnym mecem.\n\n"
+
+REFERENCE           FORCE_SABER_THROW_DESC
+LANG_ENGLISH        "Lightsaber Throw\nDuration: Instant\nArea Of Effect: Player arc\nEffect:  A Jedi can throw a lightsaber and use it as a missile weapon\n\n"
+LANG_CZECH        "Hod svetelnym mecem\nTrvani: Okamzity ucinek\nOblast ucinku: Vysec kolem hrace\nUcinek: Jedi muze hodit svetelny mec a pouzit ho jako vrhaci zbran.\n\n"
+
+REFERENCE           FORCE_ABSORB_DESC
+LANG_ENGLISH        "Force Absorption\nDuration: 20 seconds\nArea Of Effect: Jedi only\nEffect: Jedi can absorb dark Force power, Force Push and Force Pull directed at them\n\n"
+LANG_CZECH        "Pohlceni\nTrvani: 20 sekund\nOblast ucinku: Pouze Jedi\nUcinek: Jedi muze pohltit Temnou Silu, Odstrceni a Pritahnuti, ktere jsou na nej namireny.\n\n"
+
+REFERENCE           FORCE_PROTECT_DESC
+LANG_ENGLISH        "Force Protection\nDuration: Variable\nArea Of Effect: Jedi only\nEffect: Allows Jedi to decrease incoming damage from energy, physical, projectile, and explosive sources\n\n"
+LANG_CZECH        "Ochrana\nTrvani: Ruzne\nOblast ucinku: Pouze Jedi\nUcinek: Umoznuje Jedimu snizit utrpene poraneni z energetickych, fyzickych, strelnych a vybusnych zdroju.\n\n"
+
+REFERENCE           FORCE_SENSE_DESC
+LANG_ENGLISH        "Force Sense\nDuration: Variable\nArea Of Effect: Objects or persons\nEffect: Allows Jedi to see people and objects that are invisible or behind solids\n\n"
+LANG_CZECH        "Intuice\nTrvani: Ruzne\nOblast ucinku: Predmety nebo osoby\nUcinek: Umoznuje Jedimu videt lidi a predmety, ktere jsou neviditelne nebo za pevnymi plochami.\n\n"
+
+REFERENCE           FORCE_DRAIN_DESC
+LANG_ENGLISH        "Force Drain\nDuration: Variable\nArea Of Effect: Living persons only\nEffect: Allows Jedi to transfer the life essence of a person to themselves\n\n"
+LANG_CZECH        "Odcerpani\nTrvani: Ruzne\nOblast ucinku: Pouze zive osoby\nUcinek: Umoznuje Jedimu prenaset do sebe trest zivota jinych osob.\n\n"
+
+REFERENCE           FORCE_RAGE_DESC
+LANG_ENGLISH        "Force Rage\nDuration: 10 seconds\nArea Of Effect: Jedi only\nEffect: Affords Jedi protection against damage, an increase in speed, and an increase in damage potential, at the expense of health.  The Jedi needs some recovery time after a Rage ends\n\n"
+LANG_CZECH        "Temna zurivost\nTrvani: 10 sekund\nOblast ucinku: Pouze Jedi\nUcinek: Poskytuje Jedimu ochranu proti poraneni, vyssi rychlost a vyssi poskozujici potencial na ukor zdravi. Pote, co Temna zurivost skonci, potrebuje Jedi chvili na zotaveni.\n\n"
+
+REFERENCE           INCORRECT_KEY
+LANG_ENGLISH        "Incorrect security key"
+LANG_CZECH        "Nespravny bezpecnostni klic"
+
+REFERENCE           CANT_CARRY_SECURITY_KEY
+LANG_ENGLISH        "You can't carry any more security keys"
+LANG_CZECH        "Nemuzete uz nest vice bezpecnostnich klicu"
+
+REFERENCE           TOOK_IMPERIAL_SECURITY_KEY
+LANG_ENGLISH        "You took the security key"
+LANG_CZECH        "Sebral jste bezpecnostni klic"
+
+REFERENCE           CANT_CARRY_GOODIE_KEY
+LANG_ENGLISH        "You can't carry any more supply keys"
+LANG_CZECH        "Nemuzete uz nest vice klicu od skladu"
+
+REFERENCE           TOOK_IMPERIAL_GOODIE_KEY
+LANG_ENGLISH        "You took the supply key"
+LANG_CZECH        "Sebral jste klic od skladu"
+
+REFERENCE           SECURITY_KEY_UNLOCKEDDOOR
+LANG_ENGLISH        "Your security key unlocked the door"
+LANG_CZECH        "Vas bezpecnostni klic odemkl dvere"
+
+REFERENCE           NEED_SECURITY_KEY
+LANG_ENGLISH        "You need a security key!"
+LANG_CZECH        "Potrebujete bezpecnostni klic!"
+
+REFERENCE           WEAPON_MELEE
+LANG_ENGLISH        "Melee"
+LANG_CZECH        "Boj na blizko"
+
+REFERENCE           WEAPON_STUN_BATON
+LANG_ENGLISH        "Stun Baton"
+LANG_CZECH        "Obusek na omraceni"
+
+REFERENCE           WEAPON_SABER
+LANG_ENGLISH        "Lightsaber"
+LANG_CZECH        "Svetelny mec"
+
+REFERENCE           WEAPON_BRYAR_PISTOL
+LANG_ENGLISH        "Bryar Blaster Pistol"
+LANG_CZECH        "Blasterova pistole Bryar"
+
+REFERENCE           WEAPON_BLASTER
+LANG_ENGLISH        "E11-Blaster Rifle"
+LANG_CZECH        "Blasterova puska E-11"
+
+REFERENCE           WEAPON_DISRUPTOR
+LANG_ENGLISH        "Tenloss DXR-6 Disruptor rifle"
+LANG_CZECH        "Tenlosska disruptorova puska DXR-6"
+
+REFERENCE           WEAPON_BOWCASTER
+LANG_ENGLISH        "Wookiee Bowcaster"
+LANG_CZECH        "Wookijska kuse"
+
+REFERENCE           WEAPON_REPEATER
+LANG_ENGLISH	    "Imperial Heavy Repeater"
+LANG_CZECH        "Tezky imperialni opakovac"
+
+REFERENCE           WEAPON_DEMP2
+LANG_ENGLISH        "Destructive Electro-Magnetic Pulse 2 Gun"
+LANG_CZECH        "Niciva elektromagneticka pulsni puska typu 2"
+
+REFERENCE           WEAPON_FLECHETTE
+LANG_ENGLISH        "Golan Arms FC1 Flechette Weapon"
+LANG_CZECH        "Golanska rucni flechettova zbran FC1"
+
+REFERENCE           WEAPON_ROCKET_LAUNCHER
+LANG_ENGLISH        "Merr-Sonn PLX-2M Portable Missile System"
+LANG_CZECH        "Prenosny raketovy system Merr-Sonn PLX-2M"
+
+REFERENCE           WEAPON_THERMAL
+LANG_ENGLISH        "Thermal Detonator"
+LANG_CZECH        "Termalni detonator"
+
+REFERENCE           WEAPON_TRIP_MINE
+LANG_ENGLISH        "Trip Mines"
+LANG_CZECH        "Nastrazne miny"
+
+REFERENCE           WEAPON_DET_PACK
+LANG_ENGLISH        "Detonation Packs"
+LANG_CZECH        "Vybusne naloze"
+
+REFERENCE           ITEM_BINOCULARS
+LANG_ENGLISH        "Neuro-Saav Model TD2.3 Electrobinoculars"
+LANG_CZECH        "Elektrodalekohled Neuro-Saav model TD2.3"
+
+REFERENCE           ITEM_BACTA
+LANG_ENGLISH        "BioTech Bacta Canister"
+LANG_CZECH        "Kanistr biotechnicke bacty"
+
+REFERENCE           ITEM_SEEKER
+LANG_ENGLISH        "Seeker Drone"
+LANG_CZECH        "Utocny droid"
+
+REFERENCE           ITEM_LA_GOGGLES
+LANG_ENGLISH        "Light Amplification Goggles"
+LANG_CZECH        "Bryle zesilujici svetlo"
+
+REFERENCE           ITEM_SENTRY_GUN
+LANG_ENGLISH        "Portable Assault Sentry"
+LANG_CZECH        "Prenosna utocna hlidkova vez"
+
+REFERENCE           WEAPON_ATST_MAIN
+LANG_ENGLISH        "ATST Main Cannon"
+LANG_CZECH        "Hlavni kanon ATST"
+
+REFERENCE           WEAPON_ATST_SIDE
+LANG_ENGLISH        "ATST Side Cannons"
+LANG_CZECH        "Postranni kanony ATST"
+
+REFERENCE           ATST_SIDE_DESC
+LANG_ENGLISH        "ATST Side Cannons"
+LANG_CZECH        "Postranni kanony ATST"
+
+REFERENCE           AMMO_FORCE
+LANG_ENGLISH        "Force Crystal"
+LANG_CZECH        "Krystal Sily"
+
+REFERENCE           AMMO_BLASTER
+LANG_ENGLISH        "Blaster Pack Ammo"
+LANG_CZECH        "Sada naboju pro blastery"
+
+REFERENCE           AMMO_POWERCELL
+LANG_ENGLISH        "Power Cell Ammo"
+LANG_CZECH        "Energeticky clanek"
+
+REFERENCE           AMMO_METALLIC_BOLTS
+LANG_ENGLISH        "Metallic Bolt Ammo"
+LANG_CZECH        "Kovove kulky"
+
+REFERENCE           AMMO_ROCKETS
+LANG_ENGLISH        "Rocket Ammo"
+LANG_CZECH        "Rakety"
+
+REFERENCE           AMMO_THERMAL
+LANG_ENGLISH        "Belt of Thermal Detonators"
+LANG_CZECH        "Pas termalnich detonatoru"
+
+REFERENCE           AMMO_TRIPMINE
+LANG_ENGLISH        "Pack of Trip Mines"
+LANG_CZECH        "Balik nastraznych min"
+
+REFERENCE           ITEM_BATTERY
+LANG_ENGLISH        "Batteries"
+LANG_CZECH        "Baterie"
+
+REFERENCE           ITEM_MEDPAK_INSTANT
+LANG_ENGLISH        "Instant use Medpack"
+LANG_CZECH        "Pohotovostni lekarnicka"
+
+REFERENCE           ITEM_SHIELD_SM_INSTANT
+LANG_ENGLISH        "Small Shield Booster"
+LANG_CZECH        "Maly posilovac stitu"
+
+REFERENCE           ITM_SHIELD_LRG_PICKUP
+LANG_ENGLISH        "Large Shield Booster"
+LANG_CZECH        "Velky posilovac stitu"
+
+REFERENCE           AMMO_DETPACK
+LANG_ENGLISH        "Pack of Detonation Packs"
+LANG_CZECH        "Balik vybusnych nalozi"
+
+REFERENCE           FORCE_HEAL_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi goes into a meditative stance for a short time and must remain stationary.  Any movement or attack will prevent healing.  Healing rate depends on game difficulty.\n"
+LANG_CZECH        "Stupen 1 - Jedi zaujme meditativni postoj na kratky okamzik a nesmi se hybat. Jakykoliv pohyb nebo utok leceni zabrani. Rychlost leceni zavisi na obtiznosti hry.\n"
+
+REFERENCE           FORCE_HEAL_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi no longer needs to be stationary.  The Jedi will heal over a short period of time.  Healing rate depends on game difficulty.\n"
+LANG_CZECH        "Stupen 2 - Jedi uz nemusi zustat v klidu. Jedi se bude lecit po kratkou dobu. Rychlost leceni zavisi na obtiznosti hry.\n"
+
+REFERENCE           FORCE_HEAL_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi heals more rapidly than rank 2.  Healing rate depends on game difficulty."
+LANG_CZECH        "Stupen 3 - Jedi se leci rychleji nez na druhem stupni. Rychlost leceni zavisi na obtiznosti hry."
+
+REFERENCE           FORCE_JUMP_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can leap up to three times their normal jump height."
+LANG_CZECH        "Stupen 1 - Jedi muze vyskocit az do trojnasobku vysky sveho normalniho skoku."
+
+REFERENCE           FORCE_JUMP_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can leap up to six times their normal jump height."
+LANG_CZECH        "Stupen 2 - Jedi muze vyskocit az do sestinasobku vysky sveho normalniho skoku."
+
+REFERENCE           FORCE_JUMP_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can leap up to twelve times their normal jump height."
+LANG_CZECH        "Stupen 3 - Jedi muze vyskocit az do dvanactinasobku vysky sveho normalniho skoku."
+
+REFERENCE           FORCE_SPEED_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi moves 33% faster than normal"
+LANG_CZECH        "Stupen 1 - Jedi se pohybuje o 33% rychleji nez normalne."
+
+REFERENCE           FORCE_SPEED_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi moves 100% faster than normal"
+LANG_CZECH        "Stupen 2 - Jedi se pohybuje o 100% rychleji nez normalne."
+
+REFERENCE           FORCE_SPEED_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi moves 400% faster than normal"
+LANG_CZECH        "Stupen 3 - Jedi se pohybuje o 400% rychleji nez normalne."
+
+REFERENCE           FORCE_PUSH_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi uses the Force to push a specific enemy or object focused on.  They can also use it to get out of a Force Grip or Drain."
+LANG_CZECH        "Stupen 1 - Jedi pouziva Silu k odstrceni urciteho nepritele nebo predmetu, na ktery se zameruje. Take ji muze pouzit, aby se vyprostil ze Sevreni nebo Odcerpani."
+
+REFERENCE           FORCE_PUSH_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi uses the Force to push back multiple enemies or objects in a limited arc."
+LANG_CZECH        "Stupen 2 - Jedi pouziva Silu k odstrceni nekolika nepratel nebo predmetu v omezene vyseci."
+
+REFERENCE           FORCE_PUSH_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can push back multiple enemies with enough force to do damage by pushing the enemies into solid surfaces or off ledges. They can also use it to attempt to break saber locks."
+LANG_CZECH        "Stupen 3 - Jedi muze odstrcit nekolik nepratel s dostatecnou silou, aby je zranit tim, ze je odstrci na prekazky nebo dolu z okraju. Take se s ni muze pokusit rozlomit zamek mece."
+
+REFERENCE           FORCE_PULL_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can pull certain levers and objects in the targeting reticle; can also pull one enemy.\n"
+LANG_CZECH        "Stupen 1 - Jedi muze zatahnout za urcite paky a pritahnout predmety\nv zamerovaci; take muze pritahnout jednoho nepritele.\n"
+
+REFERENCE           FORCE_PULL_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can pull the weapon out of the hands of an enemy, providing the enemy is facing them."
+LANG_CZECH        "Stupen 2 - Jedi muze vytrhnout zbran z rukou nepritele za predpokladu, ze je k nemu otocen celem."
+
+REFERENCE           FORCE_PULL_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can pull multiple enemies and their weapons."
+LANG_CZECH        "Stupen 3 - Jedi muze pritahnout vice nepratel a vytrhnout jim zbrane."
+
+REFERENCE           FORCE_MIND_TRICK_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can confuse one enemy for 10 seconds by directly targeting that enemy.\nNote:  A direct attack made by the Jedi on a confused enemy will cancel the effect.  Mind trick does not work on some, more powerful enemies such as Cultists and Reborn."
+LANG_CZECH        "Stupen 1 - Jedi muze zmatnout jednoho nepritele na 10 sekund tim, ze primo zameri daneho nepritele.\nPoznamka: Primy utok Jedie na zmateneho nepritele tento ucinek zrusi. Oklamani smyslu nefunguje na nektere, silnejsi nepratele jako jsou kultisti a Znovuzrozenci."
+
+REFERENCE           FORCE_MIND_TRICK_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can confuse one enemy for 15 seconds by directly targeting that enemy or distract multiple enemies that have not noticed them by using mind trick on a nearby surface."
+LANG_CZECH        "Stupen 2 - Jedi muze zmatnout jednoho nepritele na 15 sekund tim, ze primo zameri daneho nepritele nebo rozptylit vice nepratel, kteri si ho nevsimli tim, ze pouzije Oklamani smyslu na povrch kolem nich."
+
+REFERENCE           FORCE_MIND_TRICK_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can turn one enemy into an ally for 30 seconds by directly targeting that enemy or distract multiple enemies that have not noticed them by using mind trick on a nearby surface.  An ally will not respond to direct attacks by the Jedi."
+LANG_CZECH        "Stupen 3 - Jedi muze premenit jednoho nepritele na spojence na 30 sekund tim, ze primo zameri daneho nepritele nebo rozptylit vice nepratel, kteri si ho nevsimli tim, ze pouzije Oklamani smyslu na povrch kolem nich. Spojenec nebude reagovat na prime utoky Jediho."
+
+REFERENCE           FORCE_GRIP_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can grip and hold one enemy immobile, but undamaged for 5 seconds."
+LANG_CZECH        "Stupen 1 - Jedi muze na 5 sekund stisknout a podrzet na miste jednoho nepritele, ale nezrani ho."
+
+REFERENCE           FORCE_GRIP_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can lift one enemy off the ground and do damage, with the effect lasting as long as there is Force power."
+LANG_CZECH        "Stupen 2 - Jedi muze vyzdvihnout jednoho nepritele ze zeme a poranit ho. Tento ucinek trva tak dlouho, dokud ma Jedi k dispozici Silu."
+
+REFERENCE           FORCE_GRIP_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can lift one enemy off the ground and do damage as with rank 2, but can also smash the enemy into surfaces or use the enemy as a shield."
+LANG_CZECH        "Stupen 3 - Jedi muze vyzdvihnout jednoho nepritele ze zeme a poranit ho stejne jako na druhem stupni, ale muze take prastit s nepritelem o stenu nebo pouzit nepritele jako stit."
+
+REFERENCE           FORCE_LIGHTNING_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches a single bolt that fires forward, doing instant damage.\n"
+LANG_CZECH        "Stupen 1 - Jedi vypusti pred sebe jeden blesk a zpusobi okamzite poraneni.\n"
+
+REFERENCE           FORCE_LIGHTNING_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can maintain the Force Lightning for a sustained forward attack.\n"
+LANG_CZECH        "Stupen 2 - Jedi muze udrzet Blesk pro trvaly utok smerem kupredu.\n"
+
+REFERENCE           FORCE_LIGHTNING_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi emanates a sustained fan of electricity in a large forward arc, damaging anything in front of them."
+LANG_CZECH        "Stupen 3 - Jedi vyzaruje pred sebe nepretrzity kuzel elektriny ve velke vyseci\na zranuje vsechno pred sebou."
+
+REFERENCE           FORCE_SABER_DEFENSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can deflect projectiles and melee attacks in a small arc directly in front of them.  Deflected projectiles go in a random direction.\n"
+LANG_CZECH        "Stupen 1 - Jedi muze odrazet strely a osobni utoky v male vyseci primo pred sebou. Odrazene strely odletaji v nahodnych smerech.\n"
+
+REFERENCE           FORCE_SABER_DEFENSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can deflect projectiles and melee attacks in a larger arc directly in front of them.  Increased deflection speed.  Deflected projectiles go in the general direction of their origin.\n"
+LANG_CZECH        "Stupen 2 - Jedi muze odrazet strely a osobni utoky ve vetsi vyseci primot pred sebou. Vyssi rychlost odrazeni. Odrazene strely leti priblizne ve smeru, odkud priletly.\n"
+
+REFERENCE           FORCE_SABER_DEFENSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi has a larger defense area and can deflect projectiles back at the attacker. Increased deflection speed."
+LANG_CZECH        "Stupen 3 - Jedi ma vetsi obrannou oblast a muze odrazet strely zpatky na utocnika. Vyssi rychlost odrazeni."
+
+REFERENCE           FORCE_ABSORB_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can absorb minor amounts of Force power directed at them with no ill effects and gain some Force power back as a result."
+LANG_CZECH        "Stupen 1 - Jedi muze pohltit mensi mnozstvi Sily na nej namirene bez neblaheho ucinku na jeho zdravi a nasledkem toho ziska nazpet urcitou Silu."
+
+REFERENCE           FORCE_ABSORB_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can absorb moderate amounts of Force power directed at them with no ill effects and gain a modest amount of Force power back as a result."
+LANG_CZECH        "Stupen 2 - Jedi muze pohltit stredne velke mnozstvi Sily na nej namirene bez neblaheho ucinku na jeho zdravi a nasledkem toho ziska nazpet slusne mnozstvi Sily."
+
+REFERENCE           FORCE_ABSORB_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can absorb a great amount of Force power directed at them with no ill effects and gain a large amount of Force power back as a result."
+LANG_CZECH        "Stupen 3 - Jedi muze pohltit velke mnozstvi Sily na nej namirene bez neblaheho ucinku na jeho zdravi a nasledkem toho ziska zpet velke mnozstvi Sily."
+
+REFERENCE           FORCE_PROTECT_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi is protected against 25% of the damage from physical and energy and projectile based attacks, but not from Force based attacks."
+LANG_CZECH        "Stupen 1 - Jedi je chranen proti 25% poraneni zpusobenych fyzickymi\na energetickymi utoky a projektily, ale ne pred utoky Silou."
+
+REFERENCE           FORCE_PROTECT_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi is protected against 50% of the damage from physical and energy and projectile based attacks, but not from Force based attacks."
+LANG_CZECH        "Stupen 2 - Jedi je chranen proti 50% poraneni zpusobenych fyzickymi\na energetickymi utoky a projektily, ale ne pred utoky Silou."
+
+REFERENCE           FORCE_PROTECT_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi is protected against 75% of the damage from physical and energy and projectile based attacks, but not from Force based attacks."
+LANG_CZECH        "Stupen 3 - Jedi je chranen proti 75% poraneni zpusobenych fyzickymi\na energetickymi utoky a projektily, ale ne pred utoky Silou."
+
+REFERENCE           FORCE_SENSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can sense people and invisible markers at short range for 5 seconds."
+LANG_CZECH        "Stupen 1 - Jedi dokaze vycitit lidi a neviditelne znacky na kratkou vzdalenost po 5 vterin."
+
+REFERENCE           FORCE_SENSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can sense people, objects, and invisible markers at medium range for 10 seconds."
+LANG_CZECH        "Stupen 2 - Jedi dokaze vycitit lidi, predmety a neviditelne znacky na stredni vzdalenost po 10 vterin."
+
+REFERENCE           FORCE_SENSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can sense people, objects, invisible markers, and the health of living beings at long range for 20 seconds."
+LANG_CZECH        "Stupen 3 - Jedi muze vycitit lidi, predmety, neviditelne znacky a zdravi zivych bytosti na velkou vzdalenost po 20 sekund."
+
+REFERENCE           FORCE_DRAIN_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi can drain life essence from another person and transfer it to themselves by making direct physical contact with that person."
+LANG_CZECH        "Stupen 1 - Jedi muze odcerpat trest zivota z jine osoby a prenest ji do sebe tim, ze provede primy fyzicky kontakt s danou osobou."
+
+REFERENCE           FORCE_DRAIN_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can drain life essence from another person and transfer it to themselves by making direct physical contact with them or from a short distance away."
+LANG_CZECH        "Stupen 2 - Jedi muze odcerpat trest zivota z jine osoby a prenest ji do sebe tim, ze s ni provede primy fyzicky kontakt nebo kontakt na malou vzdalenost."
+
+REFERENCE           FORCE_DRAIN_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can drain life essence from another person and transfer it to themselves by making direct physical contact with them or from a safe distance away.  From a distance, multiple people can be drained at one time."
+LANG_CZECH        "Stupen 3 - Jedi muze odcerpat trest zivota z jine osoby a prenest ji do sebe tim, ze s ni provede primy fyzicky kontakt nebo kontakt z bezpecne vzdalenosti. Na vetsi vzdalenost muze byt soucasne vysavano vice lidi."
+
+REFERENCE           FORCE_RAGE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi is protected against 50% of all damage, has stronger attacks, and cannot die.  However, the Jedi loses health rapidly and must wait for 10 seconds after the rage before it can be used again.  The Jedi must have at least 25 health to use this power."
+LANG_CZECH        "Stupen 1 - Jedi je chranen proti 50% veskereho poraneni, ma silnejsi utoky\na nemuze zemrit. Avsak ztraci rychle zdravi a musi po Temne zurivosti pockat 10 sekund, nez ji lze opet pouzit. Jedi musi mit minimalne zdravi 25 bodu, aby mohl pouzit tuto Silu."
+
+REFERENCE           FORCE_RAGE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi is protected against 75% of all damage, is 25% faster, has stronger attacks, and cannot die.  However, the Jedi loses health and must wait for 10 seconds after the rage before it can be used again.  The Jedi must have at least 25 health to use this power."
+LANG_CZECH        "Stupen 2 - Jedi je chranen proti 75% veskereho poraneni, je o 25% rychlejsi, ma silnejsi utoky a nemuze zemrit. Avsak ztraci zdravi a musi po Temne zurivosti pockat 10 sekund, nez ji lze opet pouzit. Jedi musi mit minimalne zdravi 25 bodu, aby mohl pouzit tuto Silu."
+
+REFERENCE           FORCE_RAGE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi is protected against 90% of all damage, is 50% faster, has stronger attacks, and cannot die.  The Jedi loses only a small amount of health but still must wait for 10 seconds after the rage before it can be used again.  The Jedi must have at least 25 health to use this power."
+LANG_CZECH        "Stupen 3 - Jedi je chranen proti 90% veskereho poraneni, je o 50% rychlejsi, ma silnejsi utoky a nemuze zemrit. Ztraci pouze male mnozstvi zdravi, ale porad musi po Temne zurivosti pockat 10 sekund, nez ji lze opet pouzit. Jedi musi mit minimalne zdravi 25 bodu, aby mohl pouzit tuto Silu."
+
+REFERENCE           FORCE_SABER_OFFENSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi is proficient in the use of a lightsaber and has a chance to break saber locks and parrys against other Jedi of similar proficiency."
+LANG_CZECH        "Stupen 1 - Jedi je velmi zdatny v pouziti svetelneho mece a muze rozlomit zamek mece a odrazet utoky jineho podobne zdatneho Jediho."
+
+REFERENCE           FORCE_SABER_OFFENSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi is proficient in the use of a lightsaber and has a chance to break saber locks and parrys against other Jedi of similar proficiency and will break saber locks and parrys against weaker opponents."
+LANG_CZECH        "Stupen 2 - Jedi je velmi zdatny v pouziti svetelneho mece a muze rozlomit zamek mece a odrazet utoky jineho podobne zdatneho Jediho a rozlomi zamek mece a prolomi obranu slabsiho protivnika."
+
+REFERENCE           FORCE_SABER_OFFENSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi is proficient in the use of a lightsaber and has a chance to break saber locks and parrys against other Jedi of similar proficiency and will break saber locks and parrys against weaker opponents."
+LANG_CZECH        "Stupen 3 - Jedi je velmi zdatny v pouziti svetelneho mece a muze rozlomit zamek mece a odrazet utoky jineho podobne zdatneho Jediho a rozlomi zamek mece a prolomi obranu slabsiho protivnika."
+
+REFERENCE           FORCE_SABER_THROW_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Lightsaber flies straight from the player and returns.\n"
+LANG_CZECH        "Stupen 1 - Svetelny mec leti rovne od hrace a vrati se.\n"
+
+REFERENCE           FORCE_SABER_THROW_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi can exert control over the flying lightsaber as it arcs out, but the lightsaber still returns directly to the player.  "
+LANG_CZECH        "Stupen 2 - Jedi muze behem obloukoviteho letu ovladat svetelny mec, ale ten se presto vrati primo k hraci."
+
+REFERENCE           FORCE_SABER_THROW_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi will automatically steer the saber into nearby enemies."
+LANG_CZECH        "Stupen 3 - Jedi automaticky namiri mec na nejblizsi nepratele."
+
+REFERENCE           ITEM_GOODIE_KEY
+LANG_ENGLISH        "Supply Key"
+LANG_CZECH        "Klic od skladu"
+
+REFERENCE           GOODIE_KEY_DESC
+LANG_ENGLISH        "Supply Key\nAn electronic security pass used by Imperial officers to access secure cargo shipment containers"
+LANG_CZECH        "Klic od skladu\nElektronicky bezpecnosti prukaz pouzivany dustojniky Imperia k otevirani zabezpecenych nakladnich kontejneru."
+
+REFERENCE           YOU_TOOK_SUPPLY_KEY
+LANG_ENGLISH        "You took the supply key"
+LANG_CZECH        "Sebral jste klic od skladu"
+
+REFERENCE           SECURITY_KEY_DP_DESC
+LANG_ENGLISH        "Security Key\nAn electronic Level 2 clearance security pass used to access secure areas\n"
+LANG_CZECH        "Bezpecnosti klic\nElektronicy bezpecnostni prukaz druheho stupne pouzivany k otevirani bezpecnostnich oblasti.\n"
+
+REFERENCE           ITEM_SECURITY_KEY
+LANG_ENGLISH        "Security Key"
+LANG_CZECH        "Bezpecnostni klic"
+
+REFERENCE           YOU_TOOK_SECURITY_KEY
+LANG_ENGLISH        "You took the security key"
+LANG_CZECH        "Sebral jste bezpecnostni klic"
+
+REFERENCE           NEW_FORCE_POWER_INFO
+LANG_ENGLISH        "New Force Power Information"
+LANG_CZECH        "Informace o nove Sile"
+
+REFERENCE           NEW_OBJECTIVE_INFO
+LANG_ENGLISH        "New Objective Information"
+LANG_CZECH        "Informace o novem cili"
+
+REFERENCE           SECRET_AREA
+LANG_ENGLISH        "Secret Area!"
+LANG_CZECH        "Tajna oblast!"
+
+REFERENCE           NEED_KEY_TO_OPEN
+LANG_ENGLISH        "You need a key to open this."
+LANG_CZECH        "K otevreni potrebujete klic."
+
+REFERENCE           ONE_KILL_PER_5_SECONDS
+LANG_ENGLISH        "Only one kill per 5 seconds!"
+LANG_CZECH        "Pouze jedno zabiti za 5 sekund!"
+
+REFERENCE           CHECKPOINT
+LANG_ENGLISH        "Checkpoint!"
+LANG_CZECH        "Kontrolni bod!"
+
+REFERENCE           SECRETAREAS_OF
+NOTES               "used to display "0 of 3" secret-areas-found string."
+LANG_ENGLISH        "of"
+LANG_CZECH        "z"
+
+REFERENCE           EXIT_VIEW
+LANG_ENGLISH        "Press 'JUMP' to exit."
+LANG_CZECH        "Stisknete 'SKOK' pro ukonceni."
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_FAST
+LANG_ENGLISH        "Lightsaber Combat Style: Fast"
+LANG_CZECH        "Bojovy styl svetelneho mece: Rychly"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_MEDIUM
+LANG_ENGLISH        "Lightsaber Combat Style: Medium"
+LANG_CZECH        "Bojovy styl svetelneho mece: Stredni"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_STRONG
+LANG_ENGLISH        "Lightsaber Combat Style: Strong"
+LANG_CZECH        "Bojovy styl svetelneho mece: Silovy"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_DESANN
+LANG_ENGLISH        "Lightsaber Combat Style: Desann"
+LANG_CZECH        "Bojovy styl svetelneho mece: Desann"
+
+REFERENCE           LIGHTSABERCOMBATSTYLE_TAVION
+LANG_ENGLISH        "Lightsaber Combat Style: Tavion"
+LANG_CZECH        "Bojovy styl svetelneho mece: Tavion"
+
+REFERENCE           ITEM_MEDPAC
+NOTES               "MP version of ITEM_BACTA"
+LANG_ENGLISH        "BioTech Bacta Canister"
+LANG_CZECH        "Kanistr biotechnicke bacty"
+
+REFERENCE           ITEM_SHIELD
+NOTES               "MP force field item"
+LANG_ENGLISH        "Forcefield"
+LANG_CZECH        "Silove pole"
+
+REFERENCE           ITEM_SHIELD_LRG_INSTANT
+NOTES               "MP item"
+LANG_ENGLISH        "Large Shield Booster"
+LANG_CZECH        "Velky posilovac stitu"
+
+REFERENCE           ITEM_FORCE_ENLIGHTEN_LIGHT
+LANG_ENGLISH        "Light Force Enlightenment"
+LANG_CZECH        "Osviceni Svetlou Silou"
+
+REFERENCE           ITEM_FORCE_ENLIGHTEN_DARK
+LANG_ENGLISH        "Dark Force Enlightenment"
+LANG_CZECH        "Osviceni Temnou Silou"
+
+REFERENCE           ITEM_FORCE_BOON
+LANG_ENGLISH        "Force Boon"
+LANG_CZECH        "Sila Boon"
+
+REFERENCE           ITEM_YSALIMARI
+LANG_ENGLISH        "Ysalamiri"
+LANG_CZECH	    "#same"
+
+REFERENCE           WEAPON_EMPLACED
+LANG_ENGLISH        "Emplaced Gun"
+LANG_CZECH        "Umistena zbran"
+
+REFERENCE           WEAPON_TURRETWP
+LANG_ENGLISH        "Turret Gun"
+LANG_CZECH        "Vez"
+
+REFERENCE           DARK_RAGE2
+LANG_ENGLISH        "Dark Rage"
+LANG_CZECH        "Temna zurivost"
+
+REFERENCE           TEAM_CTF_REDFLAG
+LANG_ENGLISH        "Red Flag"
+LANG_CZECH        "Cervena vlajka"
+
+REFERENCE           TEAM_CTF_BLUEFLAG
+LANG_ENGLISH        "Blue Flag"
+LANG_CZECH        "Modra vlajka"
+
+REFERENCE           TEAM_CTF_NEUTRALFLAG
+LANG_ENGLISH        "Neutral Flag"
+LANG_CZECH        "Neutralni vlajka"
+
+REFERENCE           ITEM_REDCUBE
+LANG_ENGLISH        "Red Cube"
+LANG_CZECH        "Cervena krychle"
+
+REFERENCE           ITEM_BLUECUBE
+LANG_ENGLISH        "Blue Cube"
+LANG_CZECH        "Modra krychle"
+
+REFERENCE           ITEM_DATAPAD
+LANG_ENGLISH        "Datapad"
+LANG_CZECH	    "#same"
+
+REFERENCE           PROTECT2
+LANG_ENGLISH        "Protect"
+LANG_CZECH        "Ochrana"
+
+REFERENCE           ABSORB2
+LANG_ENGLISH        "Absorb"
+LANG_CZECH        "Pohlceni"
+
+REFERENCE           TEAM_HEAL2
+LANG_ENGLISH        "Team Heal"
+LANG_CZECH        "Leceni druhych"
+
+REFERENCE           SEEING2
+LANG_ENGLISH        "Sense"
+LANG_CZECH        "Intuice"
+
+REFERENCE           DRAIN2
+LANG_ENGLISH        "Drain"
+LANG_CZECH        "Odcerpani"
+
+REFERENCE           TEAM_REPLENISH2
+LANG_ENGLISH        "Team Energize"
+LANG_CZECH        "Posileni tymu"
+
+REFERENCE           DOOR_OPENED_ELSEWHERE
+LANG_ENGLISH        "This door is opened elsewhere."
+LANG_CZECH        "Tyto dvere se oteviraji jinde."
+
+REFERENCE           WEAPON_BLASTER_PISTOL
+LANG_ENGLISH        "DL-44 Heavy Blaster Pistol"
+LANG_CZECH        "Tezka blasterova pistole DL-44"
+
+REFERENCE           WEAPON_CONCUSSION_RIFLE
+LANG_ENGLISH        "Stouker Concussion Rifle"
+LANG_CZECH        "Narazova puska Stouker"
+
+REFERENCE           AMMO_ALL
+LANG_ENGLISH        "Ammo Dispenser"
+LANG_CZECH        "Vydavatel naboju"
+
+REFERENCE           ITEM_MEDPAC_BIG
+LANG_ENGLISH        "Big Bacta"
+LANG_CZECH        "Velka bacta"
+
+REFERENCE           ITEM_EWEB_HOLDABLE
+LANG_ENGLISH        "E-Web"
+LANG_CZECH          "#same"
+
+REFERENCE           ITEM_CLOAK
+LANG_ENGLISH        "Cloak"
+LANG_CZECH        "Maskovaci stit"
+
+REFERENCE           FAST_STYLE
+LANG_ENGLISH        "Fast and efficient, but with limited range. Short, quick motions allow for multiple attacks but with minimum damage. This style can be chained indefinitely. It utilizes a defensive stance in which the Jedi holds his saber across his front in a ready position to fend off attacks or make quick jabs. Represented by a blue bar on the right side of the HUD."
+LANG_CZECH        "Rychly styl\nRychly a efektivni, ale s omezenym dosahem. Kratke, rychle pohyby umoznuji vice utoku ale s minimalnim poranenim. Tento styl lze menit donekonecna. Vyuziva obranny postoj, ve kterem Jedi drzi svuj mec pred tvari v pohotovostni pozici, aby odrazil utoky nebo provedl rychle vypady. Je predstavovan modrym pruhem na prave strane HUDu."
+
+REFERENCE           STRONG_STYLE
+LANG_ENGLISH        "Uses powerful strikes to batter through defenses. This style incorporates great range and power, but often leaves the Jedi open for counter attack. It utilizes a powerful, aggressive stance in which the Jedi holds his saber high and back, ready to go into a heavy swing. Represented by a red bar  on the right side of the HUD."
+LANG_CZECH        "Silovy styl\nVyuziva silne udery k probiti se skrz obranu. Tento styl zahrnuje velky dosah i silu, ale casto nechava Jediho nechraneneho pred protiutokem. Vyuziva silneho, agresivniho postoje, ve kterem drzi Jedi svuj mec vysoko a naprazeny dozadu, pripraveny prejit do silneho svihu. Je predstavovan cervenym pruhem na prave strane HUDu."
+
+REFERENCE           CANT_SAVE_DEAD
+LANG_ENGLISH        "Can't save game while dead!"
+LANG_CZECH        "Po smrti nelze hru ulozit!"
+
+
+//----------------------------------------------------------
+//     Movie Duels NEW REFERENCES
+//----------------------------------------------------------
+
+REFERENCE	    BATTLEDROID_DESC
+LANG_ENGLISH        "Baktoid Armor E-5 Blaster Rifle\nThe E-5 blaster rifle was the standard issue blaster of the OOM and B1 battle droids and the elite BX-series droid commando during the Clone Wars. The E-5 blaster rifle was a powerful, light, but somewhat inaccurate weapon.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack" 
+LANG_CZECH        "Baktoid Armor E-5 blasterova puska\nE-5 blasterova puska byla standardni blasterova zbran OOM a B1 bitevnich droidu a elitnich droidich komand BX-serie behem Klonovych valek. E-5 blasterova puska byla silna, lehka, ale ponekud nepresna zbran.\n\nPrimarni utok - Jeden pomaly vystrel se stredni presnosti a velkou silou\nSekundardni utok - Rychla salva s nizkou presnosti a vyssim palebnym dosahem\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    THEFIRSTORDER_DESC
+LANG_ENGLISH        "Sonn-Blas F-11D Blaster Rifle\nThe F-11D Blaster Rifle was the standard issue blaster of the First Order Stormtroopers during the First Order-Resistance Conflict. As the successor to the E-11, the F-11D came equipped with an adjustable J19 electroscope, magnatomic adhesion grip, and foregrip.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CZECH        "Sonn-Blas F-11D blasterova puska\nF-11D blasterova puska byla standardni blasterova zbran Stormtrooperu Prvniho Radu behem konfliktu mezi Odbojem a Prvnim Radem. Jako nastupce E-11 byla F-11D vybavena nastavitelnym J19 elektrodalekohledem, magmatomickou prilnavou rukojeti a pazbou.\n\nPrimarni utok - Jeden pomaly vystrel se stredni presnosti a velkou silou\nSekundardni utok - Rychla salva s nizkou presnosti a vyssim palebnym dosahem\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    CLONECARBINE_DESC
+LANG_ENGLISH        "BlasTech DC-15S Blaster Carbine\nThe DC-15S Blaster Carbine was a standard issue weapon of the Clone Troopers of the Grand Army of the Republic during the Clone Wars. Smaller in scale than the DC-15A rifle, the DC-15S was considered easier to handle with a potentially higher rate of fire.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech DC-15S blasterova karabina\nDC-15S blasterova karabina byla standardni blasterova zbran klonovych vojaku Velke armady Republiky behem Klonovych valek. Mela mensi rozmery nez puska DC-15A a byla povazovana za jednodussi na manipulaci s pripadnou vyssi rychlosti palby.\n\nPrimarni utok - Jeden pomaly vystrel se stredni presnosti a velkou silou\nSekundardni utok - Rychla salva s nizkou presnosti a vyssim palebnym dosahem\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    REBELBLASTER_DESC
+LANG_ENGLISH        "BlasTech DH-17 Blaster Pistol\nThe DH-17 Blaster Pistol was a close-quarter automatic blaster pistol popularly used during the Galactic Civil War. Often favored by starship personnel in both the Rebel Alliance and Galactic Empire, the DH-17 was designed solely for close quarter combat, delivering lethal blasts with every shot, but suffered from poor accuracy at long range. Users of the blaster had to be careful, as prolonged use would drain its energy supply quickly, leaving the user defenseless.\nPrimary Fire - Slow, single shot with low accuracy and significant damage\nSecondary Fire - Rapid, automatic fire with poor accuracy and significant damage.\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech DH-17 blasterova pistole\nDH-17 blasterova pistole byla automaticka zbran pro boj na blizke vzdalenosti, ktera byla popularni behem Galakticke obcanske valky. Casto vyuzivana posadkou lodi jak v Povstalecke Alianci, tak v Galaktickem Imperiu. DH-17 byla s kazdym vystrelem smrtelna, ale trpela spatnou presnosti na delsi vzdalenost. Uzivatele teto zbrane museli byt opatrni, protoze delsi pouzivani odcerpavalo zasoby energie a tim cinilo uzivatele bezbrannymi.\n\nPrimarni utok - Jeden pomaly vystrel s malou presnosti a velkym poskozenim\nSekundardni utok - Rychla salva s nizkou presnosti a velkym poskozenim\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    CLONERIFLE_DESC
+LANG_ENGLISH        "BlasTech DC-15A Blaster Rifle\nThe DC-15A Blaster Rifle was a standard issue rifle of the Clone Troopers of the Grand Army of the Republic during the Clone Wars. Most prominently seen during the First Battle of Geonosis, the DC-15A was a long range rifle designed for open field combat, featuring a greater accuracy than the DC-15S, its carbine counterpart. \nPrimary Fire - Slow, single shot with good accuracy and great damage\nSecondary Fire - Rapid fire with reduced accuracy and slightly expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech DC-15A blasterova puska\nDC-15A blasterova puska byla standardni blasterova zbran klonovych vojaku Velke armady Republiky behem Klonovych valek. Poprve byla videna behem Prvni bitvy o Geonosis. DC15-A byla puska v velkym dosahem vyrobena pro boj na bitevnim poli a poskytovala vetsi presnost nez DC-15S, jeji karabinovy protejsek.\n\nPrimarni utok - Jeden pomaly vystrel se dobrou presnosti a velkym poskozenim\nSekundardni utok - Rychla salva s nizkou presnosti a vyssim palebnym dosahem\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    CLONECOMMANDO_DESC
+LANG_ENGLISH        "BlasTech DC-17m Interchangeable Weapon System\nThe DC-17m Interchangeable Weapon System was the standard issue weapon for the Clone Commandos of the Grand Army of the Republic during the Clone Wars. A versatile weapon, the DC-17m was a highly accurate weapon, with two other separate weapon configurations; sniper and anti-armor. In rifle mode, the weapon was incredibly accurate at most ranges, but was noticeably weak.\nPrimary Fire - Fast, single shot with perfect accuracy, yet weak damage\nSecondary Fire - Rapid, burst fire with near-perfect accuracy\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech DC-17m vymenitelny zbranovy system\nDC-17m vymenitelny zbranovy system byla standardni blasterova zbran klonovych komand Velke armady Republiky behem Klonovych valek. DC-17m byla vsestranna a velmi presna zbran se dvema odlisnymi zbranovymi konfiguracemi; odstrelovac a anti-brneni. V odstrelovacim rezimu byla zbran neuveritelne presna ve vsech vzdalenostech, ale znatelne slabsi.\n\nPrimarni utok - Jeden rychly vystrel s perfektni presnosti, ale malym poskozenim\nSekundardni utok - Rychla salva se skoro perfektni presnosti\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    REBELRIFLE_DESC
+LANG_ENGLISH        "BlasTech A280 Blaster Rifle\nThe A280 Blaster Rifle was a weapon mostly used by the commandos of the Rebel Alliance during the Galactic Civil War. The A280 was well known for its armor piercing capabilities, with pinpoint accuracy and fair damage, but suffered from a slower rate of fire.\nPrimary Fire - Slow, single shot with pinpoint accuracy and great damage\nSecondary Fire - Slow automatic fire with pinpoint accuracy\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech A280 blasterova puska\nA280 blasterova puska byla zbran nejvice pouzivana komandy Povstalecke Aliance behem Galakticke obcanske valky. A280 byla dobre znama pro svoji schopnost prostrelit brneni s velkou presnosti a poskozenim, ale trpela na pomalejsi vystrely.\n\nPrimarni utok - Jeden pomaly vystrel s perfektni presnosti a velkym poskozenim\nSekundardni utok - Pomala automaticka salva se skoro perfektni presnosti\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    Z6_ROTARY_CANNON_DESC
+LANG_ENGLISH        "Z6 Rotary Cannon\nThe Z6 Rotary Cannon was a powerful, high-caliber heavy blaster used by the Clone Troopers during the Clone Wars and later in the Galactic Civil War. Known for its devastating rate of fire and ability to mow down enemy infantry in seconds, the Z6 featured a rotating barrel that allowed for sustained fire without overheating. While the cannon’s sheer power and rapid fire made it effective against large groups of enemies, its weight and slow handling made it less suited for mobility.\nPrimary Fire - Continuous, high-rate of fire with moderate accuracy\nAmmo Type - Blaster Pack"
+LANG_CZECH        "Z6 rotacni kanon\nZ6 rotacni kanon byl vykonny tezky blaster velkeho kalibru, ktery pouzivali klonovi vojaci behem Klonovych valek a pozdeji behem Galakticke obcanske valky. Kanon Z6, znamy svou nicivou kadenci a schopnosti behem nekolika sekund zlikvidovat nepratelskou pechotu, byl vybaven rotujici hlavni, ktera umoznovala nepretrzitou palbu bez prehrati. Zatimco diky sve obrovske sile a rychle palbe bylo delo ucinne proti velkym skupinam nepratel, jeho hmotnost a pomala ovladatelnost ho cinily mene vhodnym pro mobilitu.\n\nPrimarni utok - Nepretrzita, vysoka kadence s prumernou presnosti\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    REY_DESC
+LANG_ENGLISH        "LPA NN-14 Blaster Pistol\nThe NN-14 Blaster Pistol was a blaster pistol gifted to Rey by Han Solo during the First-Order Resistance Conflict. The NN-14 featured a compact grip, enlarged power core, and flash stabilizing muzzle. In combat, the NN-14 was favored for its near-pinpoint accuracy and great damage.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CZECH        "LPA NN-14 blasterova pistole\nNN-14 blasterova pistole byla darem Rey od Hana Sola behem konfliktu Odboje s Prvnim Radem. NN-14 se skladala z kompaktni rukojete, zvetseneho napajeciho jadra a usti stabilizujici zablesk po vystrelu. V boji byla NN-14 oblibena pro svoji temer dokonalou presnost a poskozeni.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a silou\nSekundarni utok - Vytrysk nahromadene nabite energie s vyssi silou\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    JANGO_DESC
+LANG_ENGLISH        "WESTAR-34 Blaster Pistol\nThe WESTAR-34 Blaster Pistol was the weapon of choice by bounty hunter Jango Fett prior to the Clone Wars. The WESTAR-34 fired powerful bolts that were very effective at close range, utilizing its dallorian construction to absorb more heat than a standard blaster.\nPrimary Fire - Single shot with great accuracy and low damage\nSecondary Fire - Rapid fire with near-perfect accuracy, but low damage.\nAmmo Type - Blaster Pack"
+LANG_CZECH        "WESTAR-34 blasterova pistole\nWESTAR-34 blasterova pistole byla oblibenou zbrani lovce odmen Jango Fetta v obdobi pred Klonovymi valkami. WESTAR-34 strilela silne projektily, ktere byly velmi efektivni na blizkou vzdalenost. Zbran take vyuzivala dallorianskou konstrukci, ktera pohlcovala vice tepla, nez obvykly blaster.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a malym poskozenim\nSekundarni utok - Rychla strelba se skoro perfektni presnosti, ale s malym poskozenim\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    SBD_DESC
+LANG_ENGLISH        "Super Battle Droid Weapon\nThe Player should never get this weapon \n If you have it then something is wrong"
+LANG_CZECH        "Zbran Super bitevniho droida\nHrac by nikdy nemel obdrzet tuto zbran. Pokud ji mate, neco je spatne"
+
+REFERENCE	    DUAL_PISTOL_DESC
+LANG_ENGLISH        "WESTAR-34 Dual Blaster Pistol\nThe WESTAR-34 Blaster Pistol was the weapon of choice by bounty hunter Jango Fett prior to the Clone Wars. The WESTAR-34 fired powerful bolts that were very effective at close range, utilizing its dallorian construction to absorb more heat than a standard blaster.\nPrimary Fire - Single shot with great accuracy and low damage\nSecondary Fire - Rapid fire with near-perfect accuracy, but low damage.\nAmmo Type - Blaster Pack"
+LANG_CZECH        "WESTAR-34 blasterova pistole\nWESTAR-34 blasterova pistole byla oblibenou zbrani lovce odmen Jango Fetta v obdobi pred Klonovymi valkami. WESTAR-34 strilela silne projektily, ktere byly velmi efektivni na blizkou vzdalenost. Zbran take vyuzivala dallorianskou konstrukci, ktera pohlcovala vice tepla, nez obvykly blaster.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a malym poskozenim\nSekundarni utok - Rychla strelba se skoro perfektni presnosti, ale s malym poskozenim\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    BOBA_DESC
+LANG_ENGLISH        "BlasTech EE-3 Carbine Rifle\nThe EE-3 Carbine Rifle was the weapon of choice by bounty hunter Boba Fett prior to and during the Galactic Civil War. Modeled after the E-11 Blaster Rifle, used by the infamous Stormtroopers of the Galactic Empire, the EE-3 featured a three shot burst that was highly effective at close range, but suffered at a longer range.\nPrimary Fire - Single shot with great accuracy and low damage\nSecondary Fire - Three shot burst fire with high accuracy, low damage, and minor fire delay.\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech EE-3 karabinova puska\nEE-3 karabinova puska byla oblibena zbran lovce odmen Boba Fetta pred a behem Galakticke obcanske valky. Byla vytvorena podle vzoru E-11 blasterove pusky, ktera byla pouzivana Stormtroopery Galaktickeho Imperia a umela strilet trojity vystrel, ktery byl vysoce efektivni na blizkou vzdalenost, ale trpel na delsi vzdalenosti.\n\nPrimarni utok - Jeden vystrel s velkou presnosti a malym poskozenim\nSekundarni utok - Trojity vystrel s velkou presnosti, malym poskozenim a mensim spozdenim strelby.\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE	    CLONEPISTOL_DESC
+LANG_ENGLISH        "BlasTech DC-17 Hand Pistol\nThe DC-17 Hand Pistol was the standard issue pistol to the Clone Troopers of the Grand Army of the Republic during the Clone Wars. An advanced firearm, the DC-17 was generally issued to the more elite and high ranking Clone Troopers such as ARC Troopers, Commanders, Captains, and Jet Troopers.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech DC-17 rucni pistole\nDC-17 rucni pistole byla standardni pistoli klonovych vojaku Velke Armady Republiky behem Klonovych valek. Byla to pokrocila strelna zbran, obvykle pouzivana elitnimi a vyse postavenymi klonovymi vojaky, jako ARC vojaky, komandery, kapitany a Tryskovymi vojaky.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a silou\nSekundarni utok - Vytrysk nahromadene nabite energie s vyssi silou\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE           MELEE_DESC
+LANG_ENGLISH        "Melee\nCommonly used as a last line of defence, melee combat is second skill of Jedi Knights. Many years of training in the art of unarmed combat ensure that Jedi is highly skilled without his lightsaber.\nPrimary Fire - Short range punch\nSecondary Fire - Kicks and Grab Katas"
+LANG_CZECH        "Boj na blizko\nBezne pouzivana posledni linie obrany, boj na blizko je druha schopnost Jedie. Mnoho let treninku v umeni neozbrojeneho boje zajistuje, ze Jedi je vysoce zdatny i bez sveho svetelneho mece.\n\nPrimarni utok - Pestni udery na kratkou vzdalenost\nSekundarni utok - Kopy a specialni uchopeni"
+
+REFERENCE           CLOAK_DESC
+LANG_ENGLISH        "Cloaking Shield\nThe cloaking shield renders the wearer invisible to others, allowing for stealthy movement.  However, due to the immense energy necessary to power the device, the cloak last for a short duration.  \n\nA direct hit from a DEMP 2 gun will temporarily disable the shield.  Additionally, a hit from the secondary fire of the DEMP 2 will permanently disable the shield."
+LANG_CZECH        "Maskovaci stit\nMaskovaci stit skryje sveho nositele pred zraky ostatnich a umozni mu pohybovat se nepozorovane.  Nicmene, diky velke spotrebe energie, ktera pristroj napaji, maskovani trva pouze po kratkou dobu.\n\nPrimy zasah ze zbrane DEMP2 docasne zneaktivni stit.\nStrela ze sekundarniho utoku DEMP2 stit natrvalo vypne."  
+
+REFERENCE	    BARRIER_DESC
+LANG_ENGLISH        "Gunners Personal Shield\nThis bubble energy field can be used by non saber wielders at any location, at which time it deploys a round shield that can block enemy fire.  The shield protects the body for a period of time.  The shield will disappear after expending its power supply or after enduring a certain amount of damage."
+LANG_CZECH        "Osobni protizbranovy stit\nToto energeticke pole ve tvaru bubliny muze by pouzito temi, kteri nevlastni svetelny mec. Vytvori se kruhovy stit, ktery chrani pred nepratelskou palbou po urcity casovy interval. Stit zmizi po spotrebe sveho energetickeho zdroje nebo po vystaveni se urcite urovni poskozeni."
+
+REFERENCE           JETPACK_DESC
+LANG_ENGLISH        "Jetpack\nThe jetpack allows the wearer to fly for short durations, giving them a tactical advantage over others.  If the user does not fire the rockets, they will slowly lose altitude.\n\nThe jetpack is only usable in the Siege gametype.\n\n(Note:  To activate the jetpack, jump, then press 'use' while in the air.  Holding 'jump' will allow the user to gain altitude, while holding 'crouch' will decrease altitude.)"
+LANG_CZECH        "Raketovy batoh\nRaketovy batoh umoznuje nositeli po kratkou dobu letat a tim mu ziskat taktickou vyhodu nad neprateli. Pokud uzivatel nezazehne trysky, tak postupne ztraci vysku.\n\n(Poznamka: K aktivaci raketoveho batohu vyskocte a pote stisknete klavesu 'pouzit', zatimco jste ve vzduchu.  Podrzeni 'skoku' umozni uzivateli ziskat vysku, zatimco podrzeni 'skrcit se' vysku snizi.)"
+
+REFERENCE           WEAPON_BLASTER
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "BlasTech E-11 Blaster Rifle"
+LANG_CZECH        "BlasTech E-11 blasterova puska"
+
+REFERENCE           BLASTER_RIFLE_DESC
+NOTES		    "Edited description of original weapon"
+LANG_ENGLISH        "BlasTech E-11 Blaster Rifle \nThe primary weapon of the Imperial forces, the E-11 is a sturdy and deadly blaster rifle capable of inflicting great damage despite its small size.  The E-11's compact design makes it easy to carry and conceal.\nPrimary Fire - Slow, single shot with moderate accuracy and great damage\nSecondary Fire - Rapid, burst fire with low accuracy and expanded firing area\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech E-11 blasterova puska\nE-11 je zakladni zbrani vojaku Imperia. Je to stabilni a smrtici blasterova puska schopna zpusobit velke skody navzdory sve male velikosti. Kompaktni design E-11 umoznuje jeji snadne noseni a ukryti.\n\nPrimarni utok - Jeden pomaly vystrel se stredni presnosti a velkou silou\nSekundardni utok - Rychla salva s nizkou presnosti a vyssim palebnym dosahem\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE           WEAPON_THERMAL
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "Baradium-core Thermal Detonator"
+LANG_CZECH        "Termalni detonator s baradiovym jadrem"
+
+REFERENCE           THERMAL_DETONATOR_DESC
+NOTES		    "Edited description of original weapon"
+LANG_ENGLISH        "Baradium-core Thermal Detonator \nThe thermal detonator is a radius-damage grenade that creates an expanding particle field, vaporizing anything within its blast radius before it collapses after a small amount of time.\nPrimary Fire - Detonator explodes after about three seconds.  Press FIRE longer for longer throw\nSecondary Fire - Detonator explodes on impact.  Press ALT-FIRE longer for longer throw"
+LANG_CZECH        "Termalni detonator s baradiovym jadrem\nTermalni detonator je granatem, ktery v urcitem okruhu kolem sebe uvolni vlnu termalni energie, ktera je schopna rozlozit veskerou hmotu.\n\nPrimarni utok - Granat exploduje po kratkem case. Pro delsi hod podrzte dele STRELBU\nSekundarni utok - Granat exploduje pri kontaktu. Pro delsi hod podrzte dele ALTERNATIVNI STRELBU"
+
+REFERENCE	    WEAPON_BATTLEDROID
+LANG_ENGLISH        "Baktoid Armor E-5 Blaster Rifle"
+LANG_CZECH        "Baktoid Armor E-5 blasterova puska"
+
+REFERENCE	    WEAPON_THEFIRSTORDER
+LANG_ENGLISH	    "Sonn-Blas F-11D Blaster Rifle"
+LANG_CZECH        "Sonn-Blas F-11D blasterova puska"
+
+REFERENCE	    WEAPON_REBELBLASTER
+LANG_ENGLISH	    "BlasTech DH-17 Blaster Pistol"
+LANG_CZECH        "BlasTech DH-17 blasterova pistole"
+
+REFERENCE	    WEAPON_CLONECARBINE
+LANG_ENGLISH	    "BlasTech DC-15S Blaster Carbine"
+LANG_CZECH        "BlasTech DC-15S blasterova karabina"
+
+REFERENCE	    WEAPON_CLONERIFLE
+LANG_ENGLISH	    "BlasTech DC-15A Blaster Rifle"
+LANG_CZECH        "BlasTech DC-15A blasterova puska"
+
+REFERENCE	    WEAPON_CLONECOMMANDO
+LANG_ENGLISH	    "BlasTech DC-17m Interchangeable Weapon System"
+LANG_CZECH        "BlasTech DC-17m vymenitelny zbranovy system"
+
+REFERENCE        WEAPON_Z6ROTARYCANNON
+LANG_ENGLISH        "Z6 Rotary Cannon"
+LANG_CZECH        "Z6 rotacni kanon"
+
+REFERENCE	    WEAPON_REBELRIFLE
+LANG_ENGLISH	    "BlasTech A280 Blaster Rifle"
+LANG_CZECH        "BlasTech A280 blasterova puska"
+
+REFERENCE	    WEAPON_REY
+LANG_ENGLISH	    "LPA NN-14 Blaster Pistol"
+LANG_CZECH        "LPA NN-14 blasterova pistole"
+
+REFERENCE	    WEAPON_JANGO
+LANG_ENGLISH	    "WESTAR-34 Blaster Pistol"
+LANG_CZECH        "WESTAR-34 blasterova pistole"
+
+REFERENCE	    WEAPON_DUAL_PISTOL
+LANG_ENGLISH	    "WESTAR-34 Dual Blaster Pistol"
+LANG_CZECH        "WESTAR-34 dve blasterove pistole"
+
+REFERENCE	    WEAPON_BOBA
+LANG_ENGLISH	    "BlasTech EE-3 Carbine Rifle"
+LANG_CZECH        "BlasTech EE-3 karabinova puska"
+
+REFERENCE	    WEAPON_CLONEPISTOL
+LANG_ENGLISH	    "BlasTech DC-17 Hand Pistol"
+LANG_CZECH        "BlasTech DC-17 rucni pistole"
+
+REFERENCE           ATST_MAIN_DESC
+LANG_ENGLISH        "ATST Main Cannon"
+LANG_CZECH        "Hlavni kanon ATST"
+
+REFERENCE           TUSKEN_RIFLE_DESC
+LANG_ENGLISH        "Tusken Rifle \nThe standard projectile weapon used by the Tusken Raiders of Tatooine in ranged combat.   The long range weapon has impressive range and stopping power.\nPrimary Fire - Short range swing\nSecondary Fire - Single shot with slow fire rate\nAmmo Type - Power cell"
+LANG_CZECH        "Tuskenska puska\nStandardni projektilova zbran pouzivana Tuskenskymi najezdniky na Tatooine pro boj na dalku. Zbran ma pozoruhodny dostrel a silu.\n\nPrimarny utok - Uder na blizko\nSekundarni utok - Jeden vystrel s pomalou rychlosti strelby\nDruh naboju - Energeticky clanek"
+
+REFERENCE           NOGHRI_STICK_DESC
+LANG_ENGLISH        "Noghri Stick \nThe traditional melee weapon of the Tusken Raiders of Tatooine.   The weapon serves as a useful multipurpose tool and melee weapon.\nPrimary Fire - Overhead swing\nSecondary Fire - Uppercut swing\nAmmo Type - None"
+LANG_CZECH        "Noghrijska hul\nTradicni soubojova zbran rasy Noghri. Zbran slouzi jako uzitecny nastroj pro mnoho veci a take jako zbran pro souboj na blizko.\n\nPrimarni utok - Svih pres hlavu\nSekundarni utok - Horni svih\nDruh naboju - Zadne"
+
+REFERENCE           WEAPON_BLASTER_PISTOL
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "BlasTech DL-44 Heavy Blaster Pistol"
+LANG_CZECH        "BlasTech DL-44 tezka blasterova pistole"
+
+REFERENCE           NEW_BLASTER_PISTOL_DESC
+NOTES		    "Edited name of original weapon"
+LANG_ENGLISH        "BlasTech DL-44 Heavy Blaster Pistol \nOne of the most common firearms in the galaxy, the BlasTech DL-44 Heavy Blaster Pistol is a hand-held energy weapon with a slow rate of fire and incredible accuracy.\nPrimary Fire - Slow, single shot with great accuracy and damage\nSecondary Fire - Charged energy buildup for increased damage blast attack\nAmmo Type - Blaster Pack"
+LANG_CZECH        "BlasTech DL-44 tezka blasterova pistole\nTezka blasterova pistole DL-44 je jednou z nejbeznejsich zbrani v galaxii. Ma nizkou kadenci, ale je vysoce presna.\n\nPrimarni utok - Jeden pomaly vystrel s velkou presnosti a silou\nSekundarni utok - Vytrysk nahromadene nabite energie s vyssi silou\nDruh naboju - Sada naboju pro blastery"
+
+REFERENCE           ITEM_BARRIER
+LANG_ENGLISH        "Gunners Personal Shield"
+LANG_CZECH        "Osobni protizbranovy stit"
+
+REFERENCE           DD_LSDS_CHOICE
+LANG_ENGLISH        "Deactivate your lightsaber to come back to the light.\n\nKill Obi-Wan to remain on the dark side."
+LANG_CZECH        "Vypnete svuj svetelny mec, abyste se vratil na cestu svetle Sily.\n\n Zabijte Obi-Wana, abyste zustal na Temne strane."
+
+REFERENCE	    WEAPON_NOGHRI_STICK
+LANG_ENGLISH	    "Noghri Stick"
+LANG_CZECH        "Noghrijska hul"
+
+REFERENCE	    WEAPON_TUSKEN_RIFLE
+LANG_ENGLISH	    "Tusken Rifle"
+LANG_CZECH        "Tuskenska puska"
+
+REFERENCE	    WEAPON_WRIST
+LANG_ENGLISH	    "Mandalorian Wrist Blaster"
+LANG_CZECH        "Mandaloriansky zapestni Blaster"
+
+REFERENCE           WRIST_DESC
+LANG_ENGLISH        "Mandalorian Armour Wrist Blaster\nThe Mandalorian Rocket Gauntlet is a wrist-mounted blaster based on the titular Mandalorian's gauntlets."
+LANG_CZECH        "Mandaloriansky zapestni Blaster\nMandalorianska raketova rukavice je zapestni blaster vytvoreny na zaklade podoby Mandalorianovych rukavic."
+
+REFERENCE	    GRAPPLE_DESC
+LANG_ENGLISH        "Grapple Hook \nGrappling Hook is a device with multiple hooks attached to a rope; it is thrown, dropped, sunk, projected, or fastened directly by hand to where at least one hook may catch and hold. Generally, grappling hooks are used to temporarily secure one end of a rope."
+LANG_CZECH        "Zachytny hak \nZachytny hak je zarizeni s nekolika haky pripojenymi k lanu; je hozen, upusten, potopen nebo pripevnen primo tam, kde se alespon jeden hak prichyti a drzi. Obvykle jsou zachytne haky pouzivany k docasnemu zabezpeceni konce lana."
+
+REFERENCE           ITEM_GRAPPLEHOOK
+LANG_ENGLISH        "Grappling Hook"
+LANG_CZECH        "Zachytny hak"
+
+REFERENCE	    STASIS2
+LANG_ENGLISH	    "Stasis"
+LANG_CZECH        "Znehybneni"
+
+REFERENCE	    STASIS
+LANG_ENGLISH	    "Stasis:"
+LANG_CZECH        "Znehybneni:"
+
+REFERENCE	    USES_STASIS_FORCE_ABILITY
+LANG_ENGLISH	    "Uses Force Stasis ability."
+LANG_CZECH        "Pouzije Silu Znehybneni."
+
+REFERENCE	    FORCE_STASIS_DESC
+LANG_ENGLISH	    "Force Stasis\nDuration: Variable\nArea of Effect: Living persons or objects\nEffect: Allows Jedi to paralyse a living being or droid.\n\n"
+LANG_CZECH        "Znehybneni\nTrvani: Ruzne\nOblast ucinku: Zive osoby nebo predmety\nUcinek: Umoznuje Jedimu paralyzovat zivou bytost nebo droida.\n\n"
+
+REFERENCE           FORCE_STASIS_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi paralyses a single enemy for 5 seconds."
+LANG_CZECH        "Stupen 1 - Jedi paralyzuje nepritele na 5 sekund."
+
+REFERENCE           FORCE_STASIS_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi paralyses a single enemy for 10 seconds."
+LANG_CZECH        "Stupen 2 - Jedi paralyzuje nepritele na 10 sekund."
+
+REFERENCE           FORCE_STASIS_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi paralyses a single enemy for 15 seconds."
+LANG_CZECH        "Stupen 3 - Jedi paralyzuje nepritele na 15 sekund."
+
+REFERENCE	    DESTRUCTION2
+LANG_ENGLISH	    "Destruction"
+LANG_CZECH        "Zniceni"
+
+REFERENCE	    DESTRUCTION
+LANG_ENGLISH	    "Destruction:"
+LANG_CZECH        "Zniceni:"
+
+REFERENCE           USES_DESTRUCTION_FORCE_ABILITY
+LANG_ENGLISH	    "Uses Force Destruction ability."
+LANG_CZECH        "Pouzije Silu Destrukce."
+
+REFERENCE	    FORCE_DESTRUCTION_DESC
+LANG_ENGLISH	    "Force Destruction\nDuration: Instant\nArea of Effect: Projectile\nEffect: Allows Jedi to launch a projectile of force energy.\n\n"
+LANG_CZECH        "Zniceni\nTrvani: Okamzity ucinek\nOblast ucinku: Projektil\nUcinek: Umoznuje Jedimu vypustit projektil silove energie.\n\n"
+
+REFERENCE           FORCE_DESTRUCTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi launches an orb of force energy."
+LANG_CZECH        "Stupen 1 - Jedi vypusti kouli silove energie."
+
+REFERENCE           FORCE_DESTRUCTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi launches a more powerful orb of force energy."
+LANG_CZECH        "Stupen 2 - Jedi vypusti silnejsi kouli silove energie."
+
+REFERENCE           FORCE_DESTRUCTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi launches an extremely dangerous orb of force energy."
+LANG_CZECH        "Stupen 3 - Jedi vypusti extremne nebezpecnou kouli silove energie."
+
+REFERENCE	    INGAME_GRASP2
+LANG_ENGLISH	    "Grasp"
+LANG_CZECH	   "Uchopeni"
+
+REFERENCE	    GRASP2
+LANG_ENGLISH	    "Grasp"
+LANG_CZECH	   "Uchopeni"
+
+REFERENCE           GRASP
+LANG_ENGLISH	    "Grasp:"
+LANG_CZECH	   "Uchopeni:"
+
+REFERENCE           FORCE_GRASP_DESC
+LANG_ENGLISH        "Force Grasp\nDuration: Instantaneous\nArea Of Effect: Living persons or objects\nEffect: Allows Jedi to hold an enemy or an object with the Force.\n\n"
+LANG_CZECH	   "Uchopeni\nTrvani: Okamzite\nOblast ucinku: Zive osoby nebo predmety\nUcinek: Umoznuje Jedimu drzet nepritele nebo predmet ve vzduchu za pomoci Sily.\n\n"	
+
+REFERENCE           FORCE_GRASP_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Enemy is startled and knocked off balance for 5 seconds."
+LANG_CZECH	   "Stupen 1 - Nepritel je zaskocen a vyveden z rovnovahy na 5 sekund."
+
+REFERENCE           FORCE_GRASP_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi lifts their enemy straight off the ground, rendering them defenseless."
+LANG_CZECH	   "Stupen 2 - Jedi zvedne sveho nepritele primo ze zeme a ucini ho bezbrannym."
+
+REFERENCE           FORCE_GRASP_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi can freely lift up their enemy and move them around."
+LANG_CZECH	   "Stupen 3 - Jedi muze volne zvednout svednout sveho nepritele a pohybovat s nim."
+
+REFERENCE	    REPULSE
+LANG_ENGLISH	    "Repulse:"
+LANG_CZECH	   "Odpuzeni:"
+
+REFERENCE	    REPULSE2
+LANG_ENGLISH	    "Repulse"
+LANG_CZECH	   "Odpuzeni"
+
+REFERENCE	    INGAME_REPULSE2
+LANG_ENGLISH	    "Repulse"
+LANG_CZECH	   "Odpuzeni"
+
+REFERENCE	    USES_REPULSE_FORCE_ABILITY
+LANG_ENGLISH	    "Uses Force Repulse ability."
+LANG_CZECH        "Pouzije Silu Odpuzeni."
+
+REFERENCE	    FORCE_REPULSE_DESC
+LANG_ENGLISH	    "Force Repulse\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Allows Jedi to push and damage nearby enemies\n\n"
+LANG_CZECH	   "Odpuzeni\nTrvani: Okamzite\nOblast ucinku: Blizko Jediho\nUcinek: Umoznuje Jedimu odhodit a zranit blizke nepratele.\n\n"
+
+REFERENCE           FORCE_REPULSE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi pushes enemies within a small radius. If power is charged, enemies take damage depending on charge time."
+LANG_CZECH	   "Stupen 1 - Jedi odhodi nepritele v male vzdalenosti. Pokud je energie nabita, nepratele utrpi poskozeni v zavislosti na dobe dobijeni."
+
+REFERENCE           FORCE_REPULSE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi pushes enemies within a medium radius. If power is charged, enemies take damage depending on charge time."
+LANG_CZECH	   "Stupen 2 - Jedi odhodi nepritele ve stredni vzdalenosti. Pokud je energie nabita, nepratele utrpi poskozeni v zavislosti na dobe dobijeni."
+
+REFERENCE           FORCE_REPULSE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi pushes enemies within a large radius. If power is charged, enemies take damage depending on charge time."
+LANG_CZECH	   "Stupen 3 - Jedi odhodi nepritele ve velke vzdalenosti. Pokud je energie nabita, nepratele utrpi poskozeni v zavislosti na dobe dobijeni."
+
+REFERENCE	    INGAME_LIGHTNING_STRIKE2
+LANG_ENGLISH	    "Electric Judgement"
+LANG_CZECH	   "Elektricky rozsudek"
+
+REFERENCE	    STRIKE2
+LANG_ENGLISH	    "Electric Judgement"
+LANG_CZECH	   "Elektricky rozsudek"
+
+REFERENCE           STRIKE
+LANG_ENGLISH	    "Electric Judgement:"
+LANG_CZECH	   "Elektricky rozsudek:"
+
+REFERENCE           LIGHTNING_STRIKE2
+LANG_ENGLISH        "Electric Judgement"
+LANG_CZECH	   "Elektricky rozsudek"
+
+REFERENCE           LIGHTNING_STRIKE
+LANG_ENGLISH        "Electric Judgement: "
+LANG_CZECH	   "Elektricky rozsudek: "
+
+REFERENCE           FORCE_LIGHTNINGSTRIKE_DESC
+LANG_ENGLISH        "Force Electric Judgement\nDuration: Instant\nArea Of Effect: Entire Environment\nEffect: Electric Judgment is a Force technique used by the Jedi to spray yellow electric bolts of variable intensity from the hands and fingers.\n\n"
+LANG_CZECH         "Elektricky rozsudek\nTrvani: Okamzity ucinek\nOblast ucinku: Veskere okoli\nUcinek: Elektricky rozsudek je technika Sily pouzivana Jedim k vypusteni zlutych vyboju elektriny z rukou a prstu promenlive intenzity.\n\n"
+
+REFERENCE           FORCE_LIGHTNING_STRIKE_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi fires a burst of lightning able to travel a significant distance, causing very little damage."
+LANG_CZECH         "Stupen 1 - Jedi vypusti vyboj blesku, ktery je schopny cestovat na vetsi vzdalenost a zpusobi velmi male poskozeni."
+
+REFERENCE           FORCE_LIGHTNING_STRIKE_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi fires a burst of lightning able to travel a significant distance, causing minor damage and requires less concentration."
+LANG_CZECH         "Stupen 2 - Jedi vypusti vyboj blesku, ktery je schopny cestovat na vetsi vzdalenost, zpusobi male poskozeni a vyzaduje mene soustredeni."
+
+REFERENCE           FORCE_LIGHTNING_STRIKE_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi fires a burst of lightning able to travel a significant distance, causing moderate damage and requiring much less concentration."
+LANG_CZECH         "Stupen 3 - Jedi vypusti vyboj blesku, ktery je schopny cestovat na vetsi vzdalenost, zpusobi vetsi poskozeni a vyzaduje male soustredeni."
+
+REFERENCE	    FEAR
+LANG_ENGLISH	    "Fear:"
+LANG_CZECH	   "Strach:"
+
+REFERENCE	    FEAR2
+LANG_ENGLISH	    "Fear"
+LANG_CZECH	   "Strach"
+
+REFERENCE	    INGAME_FEAR2
+LANG_ENGLISH	    "Fear"
+LANG_CZECH	   "Strach"
+
+REFERENCE           FORCE_FEAR_DESC
+LANG_ENGLISH        "Force Fear\nDuration: Indefinite\nArea Of Effect: Living persons only\nEffect: Jedi infects the victim's mind with the Dark Side of the Force, causing them to lash out in fear against allies and enemies alike.\n\n"
+LANG_CZECH        "Strach\nTrvani: Neurcite\nOblast ucinku: Pouze zive osoby\nUcinek: Jedi nakazi mysl obeti Temnou stranou Sily a zpusobi, ze obet zacne utocit na spojence i nepratele.\n\n"
+
+REFERENCE           FORCE_FEAR_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Victim permanently lashes out against allies and enemies alike. Common enemies have a 50% chance to be affected, while Force Sensitives are almost impossible to affect."
+LANG_CZECH        "Stupen 1 - Obet trvale utoci na spojence i nepratele zaroven. Bezni nepratele maji 50% sanci byt ovlivneny, zatimco osoby citlive na Silu je temer nemozne ovlivnit."
+
+REFERENCE           FORCE_FEAR_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Victim permanently lashes out against allies and enemies alike. Common enemies will be affected, while most force sensitives have a 5% chance of being affected. More powerful Jedi and Sith have a 1% chance of being affected."
+LANG_CZECH        "Stupen 2 - Obet trvale utoci na spojence i nepratele zaroven. Bezni nepratele budou ovlivneni, zatimco vetsina osob citlivych na Silu ma 5% sanci, ze budou ovlivneni. Silnejsi Jediove a Sithove maji 1% sanci na ovlivneni."
+
+REFERENCE           FORCE_FEAR_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Victim permanently lashes out against allies and enemies alike. Common enemies will be affected, while most force sensitives have a 50% chance of being affected. More powerful Jedi and Sith have a 2% chance of being affected."
+LANG_CZECH        "Stupen 3 - Obet trvale utoci na spojence i nepratele zaroven. Bezni nepratele budou ovlivneni, zatimco vetsina osob citlivych na Silu ma 50% sanci, ze budou ovlivneni. Silnejsi Jediove a Sithove maji 2% sanci na ovlivneni."
+
+REFERENCE	    DEADLYSIGHT
+LANG_ENGLISH	    "Deadly Sight:"
+LANG_CZECH	   "Smrtici pohled:"
+
+REFERENCE	    DEADLYSIGHT2
+LANG_ENGLISH	    "Deadly Sight"
+LANG_CZECH	   "Smrtici pohled"
+
+REFERENCE	    FORCE_DEADLYSIGHT_DESC
+LANG_ENGLISH	    "Force Deadly Sight\nDuration: Instant\nArea of Effect: Near Jedi\nEffect: Force Deadly Sight is a power of the dark side of the Force, focusing the user's hatred into deadly energy.\n\n"
+LANG_CZECH        "Smrtici pohled\nTrvani: Okamzity ucinek\nOblast ucinku: Blizko Jediho\nUcinek: Smrtici pohled je Sila Temne strany, ktera soustreduje nenavist uzivatele do smrtici energie.\n\n"
+
+REFERENCE           FORCE_DEADLYSIGHT_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - By channeling this ability, a Force-user harnessed fury and hatred and then projected them through an intense glare onto the victim.The Deadly Sight will blister the skin and vaporize extremities."
+LANG_CZECH        "Stupen 1 - Po napojeni na tuto schopnost uzivatel vyuzije zurivost a nenavist a pak je promitne skrze intenzivni pohled na svou obet. Smrtici pohled vytvori puchyre na kuzi a odpari koncetiny."
+
+REFERENCE           FORCE_DEADLYSIGHT_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - By channeling this ability, a Force-user harnessed fury and hatred and then projected them through an intense glare onto the victim.The Deadly Sight will blister the skin and vaporize extremities."
+LANG_CZECH        "Stupen 2 - Po napojeni na tuto schopnost uzivatel vyuzije zurivost a nenavist a pak je promitne skrze intenzivni pohled na svou obet. Smrtici pohled vytvori puchyre na kuzi a odpari koncetiny."
+
+REFERENCE           FORCE_DEADLYSIGHT_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - By channeling this ability, a Force-user harnessed fury and hatred and then projected them through an intense glare onto the victim.The Deadly Sight will blister the skin and vaporize extremities."
+LANG_CZECH        "Stupen 3 - Po napojeni na tuto schopnost uzivatel vyuzije zurivost a nenavist a pak je promitne skrze intenzivni pohled na svou obet. Smrtici pohled vytvori puchyre na kuzi a odpari koncetiny."
+
+REFERENCE           BLAST
+LANG_ENGLISH        "Blast: "
+LANG_CZECH	   "Vybuch:"
+
+REFERENCE           BLAST2
+LANG_ENGLISH        "Blast"
+LANG_CZECH	   "Vybuch"
+
+REFERENCE           FORCE_BLAST_DESC
+LANG_ENGLISH        "Force Blast\nDuration: Instant\nArea Of Effect: Entire Environment\nEffect: Jedi unleashes a concentrated telekinetic burst against their enemies, causing damage.\n\n"
+LANG_CZECH        "Vybuch\nTrvani: Okamzity ucinek\nOblast ucinku: Veskere okoli\nUcinek: Jedi proti svym nepratelum vypusti soustredeny telekineticky vybuch, ktery zpusobi poskozeni.\n\n"
+
+REFERENCE           FORCE_BLAST_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi detonates a concentrated burst of force energy, causing little damage."
+LANG_CZECH        "Stupen 1 - Jedi vypusti soustredeny vybuch energie, ktery zpusobi drobne poskozeni.\n\n"
+
+REFERENCE           FORCE_BLAST_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi detonates a concentrated burst of force energy, causing minor damage."
+LANG_CZECH        "Stupen 2 - Jedi vypusti soustredeny vybuch energie, ktery zpusobi male poskozeni.\n\n"
+
+REFERENCE           FORCE_BLAST_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi detonates a concentrated burst of force energy, causing moderate damage."
+LANG_CZECH        "Stupen 3 - Jedi vypusti soustredeny vybuch energie, ktery zpusobi vetsi poskozeni.\n\n"
+
+REFERENCE	    INSANITY
+LANG_ENGLISH	    "Insanity:"
+
+REFERENCE	    INSANITY2
+LANG_ENGLISH	    "Insanity"
+
+REFERENCE	    FORCE_INSANITY_DESC
+LANG_ENGLISH	    "Force Insanity\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Allows Jedi to wrack mind of an enemy\n\n"
+
+REFERENCE           FORCE_INSANITY_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - Jedi wracks the mind of a single enemy for 5 seconds."
+
+REFERENCE           FORCE_INSANITY_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - Jedi wracks the mind of a single enemy for 10 seconds."
+
+REFERENCE           FORCE_INSANITY_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - Jedi wracks the mind of a single enemy for 15 seconds. The enemy then dies."
+
+REFERENCE	    BLINDING
+LANG_ENGLISH	    "Blinding:"
+
+REFERENCE	    BLINDING2
+LANG_ENGLISH	    "Blinding"
+
+REFERENCE	    FORCE_BLINDING_DESC
+LANG_ENGLISH	    "Force Blinding\nDuration: Variable\nArea of Effect: Living persons only\nEffect: Force blinding was a telekinetic light side Force power. Upon use of this technique, a blinding flash of energy emanated from a user's hand, manifesting as a flash of light that overloaded a target's vision, causing temporary blindness.\n\n"
+
+REFERENCE           FORCE_BLINDING_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - A powerful tool of the light side, a Jedi could obfuscate an opponent's sight, making it difficult for the adversary to spot and attack the Jedi or anyone else."
+
+REFERENCE           FORCE_BLINDING_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - A powerful tool of the light side, a Jedi could obfuscate an opponent's sight, making it difficult for the adversary to spot and attack the Jedi or anyone else."
+
+REFERENCE           FORCE_BLINDING_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - A powerful tool of the light side, a Jedi could obfuscate an opponent's sight, making it difficult for the adversary to spot and attack the Jedi or anyone else."
+
+REFERENCE	    PROJECTION
+LANG_ENGLISH	    "Projection:"
+LANG_CZECH	   "Projekce:"
+
+REFERENCE	    PROJECTION2
+LANG_ENGLISH	    "Projection"
+LANG_CZECH	   "Projekce"
+
+REFERENCE	    FORCE_PROJECTION_DESC
+LANG_ENGLISH	    "Force Projection\nDuration: Variable\nArea of Effect: Jedi only\nEffect: Force projection, also known as Similfuturus, was a Fallanassi Force technique recorded in the sacred Jedi texts and utilized by Jedi Master Luke Skywalker during the Battle of Crait.\n\n"
+LANG_CZECH        "Projekce\nTrvani: Ruzne\nOblast ucinku: Pouze Jedi\nUcinek: Sila projekce, take znama jako Similfuturus, byla Fallanasska technika Sily zaznamenana v posvatnych textech radu Jedi a pouzita Mistrem Jedi Lukem Skywalkerem behem Bitvy o Crait.\n\n"
+
+REFERENCE           FORCE_PROJECTION_LVL1_DESC
+LANG_ENGLISH        "Rank 1 - The technique allows a Jedi to create an illusory doppelganger of themselves that could be transmitted through the Force across vast distances."
+LANG_CZECH        "Stupen 1 - Tato technika umoznuje Jedimu vytvorit iluzivniho dvojnika sebe sameho, ktery muze byt prenasen skrze Silu na velmi vzdalena mista."
+
+REFERENCE           FORCE_PROJECTION_LVL2_DESC
+LANG_ENGLISH        "Rank 2 - The technique allows a Jedi to create an illusory doppelganger of themselves that could be transmitted through the Force across vast distances."
+LANG_CZECH        "Stupen 2 - Tato technika umoznuje Jedimu vytvorit iluzivniho dvojnika sebe sameho, ktery muze byt prenasen skrze Silu na velmi vzdalena mista."
+
+REFERENCE           FORCE_PROJECTION_LVL3_DESC
+LANG_ENGLISH        "Rank 3 - The technique allows a Jedi to create an illusory doppelganger of themselves that could be transmitted through the Force across vast distances."
+LANG_CZECH        "Stupen 3 - Tato technika umoznuje Jedimu vytvorit iluzivniho dvojnika sebe sameho, ktery muze byt prenasen skrze Silu na velmi vzdalena mista."
+
+ENDMARKER
+
+

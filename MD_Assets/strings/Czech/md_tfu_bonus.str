@@ -1,0 +1,76 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           KOT1
+LANG_ENGLISH        "He's beaten. Let it go!"
+LANG_CZECH        "Je porazen. Nech to byt!"
+
+REFERENCE           KOT2
+LANG_ENGLISH        "Maybe so. But if you strike him down in anger, you'll be right back where you began."
+LANG_CZECH        "Mozna ano. Ale pokud ho zabijes v hnevu, budes zpatky tam, kde jsi zacal."
+
+REFERENCE           PAL1
+LANG_ENGLISH        "Yes! Kill him! He was weak, broken! Kill him and you take your rightful place at my side!"
+LANG_CZECH        "Vyborne! Zabij ho! On byl slaby a zlomeny! Zabij ho a zaujmi sve pravoplatne misto po mem boku!"
+
+REFERENCE           PAL2
+LANG_ENGLISH        "You have restored peace and justice to the Galaxy."
+LANG_CZECH        "Obnovil jsi mir a spravedlnost v galaxii."
+
+REFERENCE           PAL3
+LANG_ENGLISH        "You were destined to destroy me. Do it! Give in to your hatred!"
+LANG_CZECH        "Byl jsi predurcen, abys me znicil. Udelej to! Poddej se sve nenavisti!"
+
+REFERENCE           PAL4
+LANG_ENGLISH        "Then he is now more powerful than ever."
+LANG_CZECH        "Pak je nyni silnejsi, nez kdy predtim."
+
+REFERENCE           STA1
+LANG_ENGLISH        "You have nothing left to teach me!"
+LANG_CZECH        "Uz nemas nic, co bys me naucil!"
+
+REFERENCE           STA2
+LANG_ENGLISH        "What is thy bidding, my Master?"
+LANG_CZECH        "Co poroucite, muj Mistre?"
+
+REFERENCE           STA3
+LANG_ENGLISH        "It's a trick. He's stronger than you know. And he deserves to die for what he's done to me."
+LANG_CZECH        "Je to trik. On je silnejsi, nez si myslis. A pro to, co udelal mne, si zasluhuje zemrit."
+
+REFERENCE           STA4
+LANG_ENGLISH        "Get Bail and the others out of here. I'll be right behind you."
+LANG_CZECH        "Dostan odsud Baila a ostatni. Budu hned za vami."
+
+REFERENCE           STA5
+LANG_ENGLISH        "Go! Hurry! Protect the Senators!"
+LANG_CZECH        "Jdi! Rychle! Ochranuj Senatory!"
+
+REFERENCE           VAD1
+LANG_ENGLISH        "I've trained you well, but you still have much to learn."
+LANG_CZECH        "Cvicil jsem te dobre, ale porad se mas jeste hodne co ucit."
+
+REFERENCE           VAD2
+LANG_ENGLISH        "This was your destiny. To bring the Emperor's enemies together. And die here alone."
+LANG_CZECH        "Tohle byl tvuj osud. Privest sem Imperatorovi nepratele a zemrit zde opusten."
+
+REFERENCE           VAD4
+LANG_ENGLISH        "There will be another."
+LANG_CZECH        "Bude tu dalsi."
+
+REFERENCE           VAD5
+LANG_ENGLISH        "He is dead."
+LANG_CZECH        "On je mrtvy."
+
+ENDMARKER

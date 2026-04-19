@@ -1,0 +1,43 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           13
+LANG_ENGLISH        "Now that you're a Jedi Knight, Luke and I have decided to give you some more challenging missions.  You still need to be careful though, trouble can crop up anywhere."
+LANG_CZECH        "Nyni, kdyz jsi rytirem Jedi, rozhodli jsme se s Lukem dat ti trochu obtiznejsi mise.  Stale ale musis byt opatrny. Problemy se mohou vyskytnout kdykoliv."
+
+REFERENCE           14
+LANG_ENGLISH        "I've been tracing Tavion's movements over the past few months.  It looks like she acquired the scepter from a collector on Commenor.  Then she killed him."
+LANG_CZECH        "Stopoval jsem Tavionin pohyb behem nekolika poslednich mesicu. Vypada to, ze zezlo ziskala od sberatele na Commeronu. Potom ho zabila."
+
+REFERENCE           15
+LANG_ENGLISH        "Luke and I have been trying to find out what Tavion could be hoping to do with Ragnos' scepter, but so far no luck.   Keep your ears open for any rumors."
+LANG_CZECH        "Snazili jsme se s Lukem zjistit, co se Tavion snazi s Ragnosovym zezlem udelat, ale nemeli jsme stesti. Peclive naslouchej vsem historkam."
+
+REFERENCE           16
+LANG_ENGLISH        "We haven't received any new reports about cult activity in the last few days, but I don't think they've decided to go into hiding. They must be close to completing their plan."
+LANG_CZECH        "V nekolika poslednich dnech jsme nemeli zadna hlaseni o aktivite kultu, ale nemyslim si, ze se rozhodli stahnout do ukrytu. Musi byt blizko dokonceni sveho planu."
+
+REFERENCE           17
+LANG_ENGLISH        "We've been getting reports of Imperial ships moving through Republic space.  They may be mobilizing to assist the Disciples of Ragnos.  You probably have time for one more mission, but keep yourself available.  Something big is going to happen...soon."
+LANG_CZECH        "Dostavame zpravy o imperialnich lodich pohybujicich se v prostoru Republiky. Mozna se pripravuji na podporu Stoupencu Ragnose. Pravdepodobne budes mit cas jeste na jednu misi, ale zustan stale\nv kontaktu. Neco velkeho se chysta... brzy." 
+
+REFERENCE           18
+LANG_ENGLISH        "We need you back at the Academy right away!"
+LANG_CZECH        "Okamzite te potrebujeme zpatky na Akademii!"
+
+
+ENDMARKER
+
+

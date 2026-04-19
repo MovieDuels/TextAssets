@@ -1,0 +1,60 @@
+VERSION             "1"
+CONFIG              "W:\bin\striped.cfg"
+
+REFERENCE           05MOK001
+LANG_ENGLISH        "What are you doing, Kyle?"
+LANG_CZECH        "Co to delas, Kyle?"
+
+REFERENCE           05KJO013
+LANG_ENGLISH        "Don't try to talk me out of this, father.  I need the power of the Valley of the Jedi, and I need it now."
+LANG_CZECH        "Nesnaz se mi to vymluvit, otce. Potrebuji silu Udoli Jediu a potrebuji ji hned ted."
+
+REFERENCE           05MOK002
+LANG_ENGLISH        "Do you believe that this stream of power will ease your pain?  Or that you can safely wield the Force with anger in your heart?"
+LANG_CZECH        "Veris, ze tok sily zlehci tvoji bolest? Nebo ze muzes bezpecne nosit Silu spolecne s hnevem ve svem srdci?"
+
+REFERENCE           05KJO014
+LANG_ENGLISH        "Jan is dead; my anger is all I have left.  Anger and revenge."
+LANG_CZECH        "Jan je mrtva; muj hnev je vsechno, co mi zbylo. Hnev a pomsta."
+
+REFERENCE           05MOK003
+LANG_ENGLISH        "Is that how she would want to be remembered, with acts of anger and revenge?"
+LANG_CZECH        "Chtela by, aby se na ni takhle vzpominalo, s projevy hnevu a pomsty?"
+
+REFERENCE           05KJO015
+LANG_ENGLISH        "...No..."
+LANG_CZECH        "...Ne..."
+
+REFERENCE           05MOK004
+LANG_ENGLISH        "Then remember her as she was, and may the Force Be With You..."
+LANG_CZECH        "Potom si ji pamatuj, jaka byla. At te provazi Sila..."
+
+REFERENCE           05KJO017
+LANG_ENGLISH        "It hasn't been so far."
+LANG_CZECH        "Zatim tomu tak nebylo."
+
+REFERENCE           05MOK005
+LANG_ENGLISH        "Are you all right?"
+LANG_CZECH        "Jsi v poradku?"
+
+REFERENCE           05KJO018
+LANG_ENGLISH        "I'd...forgotten...what it was like..."
+LANG_CZECH        "Ja...zapomnel jsem...jake to bylo..."
+
+REFERENCE           05MOK006
+LANG_ENGLISH        "It will become familiar to you again in time.  What will you do now?"
+LANG_CZECH        "Po case ti to znovu prijde povedome. Co ted udelas?"
+
+REFERENCE           05KJO019
+LANG_ENGLISH        "Find Desann.  But first, I need to get something I left behind."
+LANG_CZECH        "Najdu Desanna. Ale nejdrive si potrebuji vzit neco, na co jsem zapomnel."
+
+REFERENCE           05TAA003
+LANG_ENGLISH        "Your plan worked, Master Desann."
+LANG_CZECH        "Vas plan fungoval, Mistre Desanne."
+
+REFERENCE           05DES008
+LANG_ENGLISH        "Yes, Tavion, the death of Katarn's woman has driven him mad, and delivered the Valley of the Jedi into our hands.  Contact Admiral Fyyar, and prepare the troops!"
+LANG_CZECH        "Ano, Tavion. Smrt Katarnovy zeny ho dohnala k silenstvi a vydala Udoli Jediu do nasich rukou. Kontaktuj Admirala Fyyara a priprav vojaky!"
+
+ENDMARKER

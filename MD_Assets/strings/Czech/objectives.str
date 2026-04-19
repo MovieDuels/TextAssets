@@ -1,0 +1,967 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "the objectives... duh..."
+
+REFERENCE           LIGHTSIDE_OBJ
+LANG_ENGLISH        "This is set to 2 (failed) if the player has turned Dark Side."
+LANG_CZECH        "Toto je nastaveno na 2 (neuspesne), jestlize se hrac priklonil k Temne strane."
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ1
+LANG_ENGLISH        "Make your way to the bridge and confront the Viceroy of the Trade Federation, Nute Gunray."
+LANG_CZECH        "Najdete cestu k mustku a konfrontujte Mistokrale Obchodni Federace, Nuta Gunraye."
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ2
+LANG_ENGLISH        "Turn off the Forcefield."
+LANG_CZECH        "Vypnete silove pole."
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ3
+LANG_ENGLISH        "Find a way to open the blast door."
+LANG_CZECH        "Najdete cestu skrze vzduchotesne dvere."
+
+REFERENCE           EP1_NEGOTIATIONS_OBJ4
+LANG_ENGLISH        "Defeat the mysterious Dark Jedi."
+LANG_CZECH        "Porazte tajemneho Temneho Jedie."
+
+REFERENCE           EP1_ENCOUNTER_OBJ1
+LANG_ENGLISH        "Escort Anakin back to the ship."
+LANG_CZECH        "Privedte Anakina zpet do lodi."
+
+REFERENCE           EP1_ENCOUNTER_OBJ2
+LANG_ENGLISH        "Track down the boy and the Jedi. Move on the Jedi first."
+LANG_CZECH        "Vysledujte chlapce a Jedie. Zautocte nejdrive na Jedie."
+
+REFERENCE           EP1_DOTF_OBJ1
+LANG_ENGLISH        "Defeat the Sith Warrior."
+LANG_CZECH        "Porazte Sithskeho valecnika."
+
+REFERENCE           EP1_DOTF_OBJ2
+LANG_ENGLISH        "Defeat the Jedi Master and his Padawan. Take out the Jedi Master first."
+LANG_CZECH        "Porazte Mistra Jedi a jeho Padawana. Zabijte nejdrive mistra Jedi."
+
+REFERENCE           EP2_KAMINO_OBJ1
+LANG_ENGLISH        "Track down the Bounty Hunter known as Jango Fett and take him into custody."
+LANG_CZECH        "Vysledujte lovce odmen znameho jako Jango Fett a vezmete ho do vazby."
+
+REFERENCE           EP2_KAMINO_OBJ2
+LANG_ENGLISH        "Jedi Knight Obi-Wan Kenobi is after you. You can't let him capture you. Eliminate him!"
+LANG_CZECH        "Rytir Jedi Obi-Wan Kenobi jde po Vas. Nemuzete mu dovolit, aby Vas zajal. Eliminujte ho!"
+
+REFERENCE           EP2_CAMP_OBJ1
+LANG_ENGLISH        "Locate your mother in one of the huts, without being detected by the Sandpeople."
+LANG_CZECH        "Najdete svou matku v jedne z chatrci, aniz byste byli spatreni Pisecnymi lidmi."
+
+REFERENCE           EP2_CAMP_OBJ2
+LANG_ENGLISH        "Avenge your mother's death by slaughtering the entire Tusken Camp. Leave none alive!"
+LANG_CZECH        "Pomstete smrt Vasi matky tim, ze vyvrazdite cely tabor Tuskenu. Nenechte nikoho nazivu!"
+
+REFERENCE           EP2_ARENA_OBJ1
+LANG_ENGLISH        "Jump down from the balcony, and bring Obi-Wan and Anakin a lightsaber."
+LANG_CZECH        "Seskocte dolu z balkonu a prineste Obi-Wanovi a Anakinovi svetelne mece."
+
+REFERENCE           EP2_ARENA_OBJ2
+LANG_ENGLISH        "Take out the Snipers."
+LANG_CZECH        "Znicte droidi odstrelovace."
+
+REFERENCE           EP2_ARENA_OBJ3
+LANG_ENGLISH        "Jedi Master Shaak Ti has been kidnapped. Make your way to the Catacombs of the Arena and save her."
+LANG_CZECH        "Mistryne Jedi Shaak Ti byla polapena. Najdete cestu do katakomb pod arenou a zachrante ji."
+
+REFERENCE           EP2_ARENA_OBJ4
+LANG_ENGLISH        "Defeat the Magnaguard."
+LANG_CZECH        "Porazte Magnaguarda."
+
+REFERENCE           EP2_ARENA_OBJ5
+LANG_ENGLISH        "Defeat the Jedi Hunter Droid."
+LANG_CZECH        "Porazte droida-lovce Jediu."
+
+REFERENCE           EP2_ARENA_OBJ6
+LANG_ENGLISH        "Escort Shaak Ti back to the Arena."
+LANG_CZECH        "Doprovodte Shaak Ti zpet do areny."
+
+REFERENCE           EP2_ARENA_OBJ7
+LANG_ENGLISH        "Defeat Jango Fett."
+LANG_CZECH        "Porazte Jango Fetta."
+
+REFERENCE           EP2_ARENA_JANGO_OBJ1
+LANG_ENGLISH        "Eliminate as many Jedi as you can."
+LANG_CZECH        "Eliminujte tolik Jediu, kolik budete moci."
+
+REFERENCE           EP2_ARENA_JANGO_OBJ2
+LANG_ENGLISH        "A Jedi is threatening Count Dooku. Get up there and eliminate him."
+LANG_CZECH        "Jedi ohrozuje hrabete Dooku. Dostante se nahoru a zabijte ho."
+
+REFERENCE           EP2_ARENA_JANGO_OBJ3
+LANG_ENGLISH        "Defeat Jedi Master Mace Windu."
+LANG_CZECH        "Porazte mistra Jedi Mace Windua."
+
+REFERENCE           EP2_ARENA_JANGO_OBJ4
+LANG_ENGLISH        "Your work here is finished. Make your way to the balcony."
+LANG_CZECH        "Vase prace je zde ukonce. Najdete cestu na balkon."
+
+REFERENCE           EP2_GEONOSIS_OBJ1
+LANG_ENGLISH        "Destroy the Battledroids."
+LANG_CZECH        "Znicte bitevni droidy."
+
+REFERENCE           EP2_GEONOSIS_OBJ2
+LANG_ENGLISH        "Battledroids are firing rockets from the top of the mountain. Find a way up there and take them out."
+LANG_CZECH        "Bitevni droidi strileji rakety z vrcholu kopce. Najdete cestu nahoru a znicte je."
+
+REFERENCE           EP2_GEONOSIS_OBJ3
+LANG_ENGLISH        "Destroy the Separatists Power Cells."
+LANG_CZECH        "Znicte separatisticke energeticke clanky."
+
+REFERENCE           EP2_GEONOSIS_OBJ4
+LANG_ENGLISH        "Return to the Command Center."
+LANG_CZECH        "Vratte se do ridiciho strediska."
+
+REFERENCE           EP2_GEONOSIS_OBJ5
+LANG_ENGLISH        "Destroy the Techno Union Ship before it escapes into space. Get closer to increase the damage!"
+LANG_CZECH        "Znicte lod Techno Unie nez unikne do vesmiru. Dostante se bliz, abyste zvetsili poskozeni!"
+
+REFERENCE           EP2_GEONOSIS_DOOKU_OBJ1
+LANG_ENGLISH        "Eliminate as many Clones and Jedi as you can."
+LANG_CZECH        "Eliminujte tolik klonu a Jediu, kolik budete moci."
+
+REFERENCE           EP2_GEONOSIS_DOOKU_OBJ2
+LANG_ENGLISH        "Your work here is finished. Return to the Speeder bike under the mountain."
+LANG_CZECH        "Vase prace je zde u konce. Vratte se ke speederu pod horou."
+
+REFERENCE           EP2_RETREAT_OBJ1
+LANG_ENGLISH        "Defeat Count Dooku."
+LANG_CZECH        "Porazte hrabete Dooku."
+
+REFERENCE           EP2_RETREAT_OBJ2
+LANG_ENGLISH        "Defeat the Jedi."
+LANG_CZECH        "Porazte Jedie."
+
+REFERENCE           EP3_ROC_HANGAR_OBJ1
+LANG_ENGLISH        "Destroy all the Battledroids so R2 can locate the chancellor."
+LANG_CZECH        "Znicte vsechny bitevni droidy, aby mohl R2 najit Kanclere."
+
+REFERENCE           EP3_ROC_HANGAR_OBJ2
+LANG_ENGLISH        "Reach the elevators."
+LANG_CZECH        "Dostante se k vytahum."
+
+REFERENCE           EP3_ROC_HANGAR_OBJ3
+LANG_ENGLISH        "Find a way to activate the elevators."
+LANG_CZECH        "Najdete cestu, jak aktivovat vytahy."
+
+REFERENCE           EP3_ROC_OBJ2
+LANG_ENGLISH        "Defeat Jedi Knight, Anakin Skywalker and his master, Obi-Wan Kenobi."
+LANG_CZECH        "Porazte rytire Jedi Anakina Skywalkera a jeho mistra Obi-Wana Kenobiho."
+
+REFERENCE           EP3_GRIEVOUS_OBJ1
+LANG_ENGLISH        "Defeat the Leader of the Droid army, General Grievous."
+LANG_CZECH        "Porazte velitele armady droidu, Generala Grievouse."
+
+REFERENCE           EP3_GRIEVOUS_OBJ2
+LANG_ENGLISH        "Eliminate the Magnaguards."
+LANG_CZECH        "Porazte Magnaguardy."
+
+REFERENCE           EP3_GRIEVOUS_OBJ3
+LANG_ENGLISH        "Destroy Obi-Wan Kenobi."
+LANG_CZECH        "Znicte Obi-Wana Kenobiho."
+
+REFERENCE           EP3_ARREST_OBJ1
+LANG_ENGLISH        "Arrest Chancellor Palpatine and bring him to justice."
+LANG_CZECH        "Zatknete Kanclere Palpatina a privedte ho ke spravedlnosti."
+
+REFERENCE           EP3_ARREST_OBJ2
+LANG_ENGLISH        "Eliminate the traitorous Jedi Masters."
+LANG_CZECH        "Eliminujte zdradne mistry Jedi."
+
+REFERENCE           EP3_JT_OBJ1
+LANG_ENGLISH        "Order 66 is in full effect. Enact Operation: Knightfall and kill all the Jedi in the Temple. Do not hesitate, show no mercy."
+LANG_CZECH        "Rozkaz 66 je plne v platnosti. Zahajte Operaci: Padly rytir a zabijte vsechny Jedie v Chramu. Nevahejte a nemejte slitovani."
+
+REFERENCE           EP3_JT_OBJ2
+LANG_ENGLISH        "Locate the Jedi Beacon, in the center of the Temple."
+LANG_CZECH        "Najdete majak v centru Chramu."
+
+REFERENCE           EP3_JT_OBJ3
+LANG_ENGLISH        "There are two computers controlling the Force Field. Locate and deactivate them to disable the Force field."
+LANG_CZECH        "Jsou zde dva pocitace, ktere kontroluji silove pole. Najdete a deaktivujte je, abyste vypnuli silove pole."
+
+REFERENCE           EP3_JT_OBJ4
+LANG_ENGLISH        "Defeat Jedi Master Cin Drallig."
+LANG_CZECH        "Porazte mistra Jedi Cina Dralliga."
+
+REFERENCE           EP3_ASSASSINATION_OBJ1
+LANG_ENGLISH        "The Separatists have gathered in the Central Control Room. Take "care" of them."
+LANG_CZECH        "Separatisti se shromazdili v centralni kontrolni mistnosti. "Postarejte" se o ne."
+
+REFERENCE           EP3_ASSASSINATION_OBJ2
+LANG_ENGLISH        "Leave none alive!"
+LANG_CZECH        "Nikoho nenechejte na zivu."
+
+REFERENCE           EP3_AFTERMATH_OBJ1
+LANG_ENGLISH        "Defeat any Clones trying to halt your advancement."
+LANG_CZECH        "Porazte kazdeho klonoveho vojaka, ktery Vam bude branit v postupu."
+
+REFERENCE           EP3_AFTERMATH_OBJ2
+LANG_ENGLISH        "There are four computers sending signals for Republic reinforcements in the Library, find and destroy them."
+LANG_CZECH        "Jsou zde ctyri pocitace, ktere posilaji signal Republikovym posilam v knihovne. Najdete je a znicte je."
+
+REFERENCE           EP3_MOTF_OBJ1
+LANG_ENGLISH        "Put an end to the Emperor's tyranny by defeating him once and for all."
+LANG_CZECH        "Ukoncete Cisarovu tyranii tim, ze ho porazite jednou provzdy."
+
+REFERENCE           EP3_MOTF_OBJ2
+LANG_ENGLISH        "Jump to the top and confront the Emperor."
+LANG_CZECH        "Vyskocte nahoru a utkejte se s Cisarem."
+
+REFERENCE           EP3_MOTF_SIDIOUS_OBJ1
+LANG_ENGLISH        "Eradicate the Jedi Order once and for all, by defeating Grandmaster Yoda."
+LANG_CZECH        "Znicte Rad Jedi jednou provzdy tim, ze porazite Nejvyssiho mistra Yodu."
+
+REFERENCE           EP3_MOTF_SIDIOUS_OBJ2
+LANG_ENGLISH        "Jump your way to the top and gain the upper hand."
+LANG_CZECH        "Vyskakejte nahoru, abyste ziskali vyhodu."
+
+REFERENCE           EP3_BOTH_OBJ1
+LANG_ENGLISH        "Defeat your former Padawan, Anakin Skywalker."
+LANG_CZECH        "Porazte Vaseho byvaleho Padawana, Anakina Skywalkera."
+
+REFERENCE           EP3_BOTH_OBJ2
+LANG_ENGLISH        "Defeat your former Master, Obi-Wan Kenobi."
+LANG_CZECH        "Porazte Vaseho byvaleho mistra, Obi-Wana Kenobiho."
+
+REFERENCE           EP4_TA_SITH_OBJ1
+LANG_ENGLISH        "Destroy the Rebel Scum, and retrieve the plans to the Death Star."
+LANG_CZECH        "Znicte Povstaleckou chatru a ziskejte plany Hvezdy Smrti."
+
+REFERENCE           EP6_TGPOC_JEDI_OBJ1
+LANG_ENGLISH        "Board Jabba's Sail Barge and rescue Leia."
+LANG_CZECH        "Dostante se na Jabbuv vyletni clun a zachrante Leiu."
+
+REFERENCE           EP6_TGPOC_JEDI_OBJ2
+LANG_ENGLISH        "Kill all of Jabba's guards to give Leia time to activate the cannon."
+LANG_CZECH        "Zabijte vsechny Jabbovi strazce, abyste poskytli cas Leie k aktivaci kanonu."
+
+REFERENCE           EP6_FAS_JEDI_OBJ1
+LANG_ENGLISH        "Turn your father, formerly known as Anakin Skywalker, back to the light side."
+LANG_CZECH        "Obratte sveho otce, drive znameho jako Anakin Skywalker, zpatky na svetlou stranu."
+
+REFERENCE           EP6_FAS_SITH_OBJ1
+LANG_ENGLISH        "Resist the call of the light side of the Force and weaken Luke to expose his darker side."
+LANG_CZECH        "Odolejte volani svetle strany Sily a oslabte Luka, aby odhalil svou temnou stranu."
+
+REFERENCE           EP7_ACC_JEDI_OBJ1
+LANG_ENGLISH        "Defeat the wounded Kylo Ren."
+LANG_CZECH        "Porazte zraneneho Kylo Rena."
+
+REFERENCE           EP7_ACC_SITH_OBJ1
+LANG_ENGLISH        "Defeat Finn and Rey to claim your grandfathers' lightsaber."
+LANG_CZECH        "Porazte Finna a Rey, abyste ziskali svetelny mec Vaseho dedecka."
+
+REFERENCE           EP8_FT_JEDI_OBJ1
+LANG_ENGLISH        "Defeat your old student, Kylo Ren."
+LANG_CZECH        "Porazte Vaseho byvaleho studenta, Kylo Rena."
+
+REFERENCE           EP8_FT_SITH_OBJ1
+LANG_ENGLISH        "Defeat your old master, Luke Skywalker."
+LANG_CZECH        "Porazte Vaseho byvaleho mistra, Luka Skywalkera."
+
+REFERENCE           ROTE_OLDENEMY_OBJ1
+LANG_ENGLISH        "Your old enemy, Darth Maul has returned. Defeat him once and for all."
+LANG_CZECH        "Vas stary nepritel Darth Maul se vratil. Porazte ho jednou provzdy."
+
+REFERENCE           ROTE_OLDENEMY_OBJ2
+LANG_ENGLISH        "After years of searching, you have finally found him. Kill Obi-Wan Kenobi once and for all."
+LANG_CZECH        "Po letech hledani jste ho konecne nasel. Zabijte Obi-Wana Kenobiho jednou provzdy."
+
+REFERENCE           TFU_FH_OBJ1
+LANG_ENGLISH        "Make your way to the center of the Temple, to unlock the truth about your past."
+LANG_CZECH        "Najdete cestu do stredu Chramu, abyste odemkli pravdu o Vasi minulosti."
+
+REFERENCE           TFU_FH_OBJ2
+LANG_ENGLISH        "Eliminate all imperials trying to stop you."
+LANG_CZECH        "Eliminujte vsechny jednotky Imperia, ktere se Vas pokousi zastavit."
+
+REFERENCE           TFU_FH_OBJ3
+LANG_ENGLISH        "Defeat the illusion of the Sith Lord Darth Phobos."
+LANG_CZECH        "Porazte iluzi Sithske Lady Darth Phobos."
+
+REFERENCE           EP3_BONUS_JUMP_OBJ1
+LANG_ENGLISH        "Jump your way to the other side of the canyon."
+LANG_CZECH        "Vyskakejte na druhou stranu kanonu."
+
+REFERENCE           DF2_DARKJEDI_OBJ1
+LANG_ENGLISH        "Fend off Jerec's deadly Dark Jedi."
+LANG_CZECH        "Odrazte Jerecovi smrtici Temne Jedie."
+
+REFERENCE           DF2_YUN_OBJ1
+LANG_ENGLISH        "Exercise the Force and defeat Yun. This is the test of a true Jedi."
+LANG_CZECH        "Procvicte Silu a porazte Yuna. Tohle je test praveho Jedie."
+
+REFERENCE           DF2_BROTHERS_OBJ1
+LANG_ENGLISH        "Defeat the deadly Gorc and Pic."
+LANG_CZECH        "Porazte smrticiho Gorca a Pica."
+
+REFERENCE           DF2_MAW_OBJ1
+LANG_ENGLISH        "Destroy Maw or perish."
+LANG_CZECH        "Znicte Mawa nebo zahynete."
+
+REFERENCE           DF2_SARISS_OBJ1
+LANG_ENGLISH        "Defeat Sariss so you can find another route into the Valley."
+LANG_CZECH        "Porazte Sariss, abyste mohli najit jinou cestu do Udoli."
+
+REFERENCE           DF2_BOC_OBJ1
+LANG_ENGLISH        "Boc is Jerec's last line of defense. You must destroy him to confront Jerec himself."
+LANG_CZECH        "Boc je Jerecovou posledni obrannou linii. Musite ho znicit, abyste se mohli postavit samotnemu Jerecovi."
+
+REFERENCE           DF2_JEREC_OBJ1
+LANG_ENGLISH        "As Jerec revives in the core, he pulls at the Jedi monuments. Stop his rejuvination by destroying the monuments at precise spots, and defeat the Dark Jedi."
+LANG_CZECH        "Jerec se leci v jadru tim, ze pusobi na monumenty Jediu. Zastavte jeho omlazovani znicenim techto monumentu na presne urcenych mistech a porazte Temneho Jediho."
+
+REFERENCE           MOTS_KYLE_OBJ1
+LANG_ENGLISH        "The Dark side of the Force has corrupted your Master and friend Kyle Katarn. Save him from the path of the Sith."
+LANG_CZECH        "Temna strana Sily zkazila tveho mistra a pritele Kyla Katarna. Zachrante ho z cesty Sithu."
+
+REFERENCE           HOTH2_OBJ1
+LANG_ENGLISH        "Investigate the site where Luke had his force vision."
+LANG_CZECH        "Prozkoumejte misto, kde mel Luke svoji vizi Sily."
+
+REFERENCE           HOTH2_OBJ2
+LANG_ENGLISH        "Find a way into Echo Base."
+LANG_CZECH        "Najdete cestu do zakladny Echo."
+
+REFERENCE           HOTH2_OBJ3
+LANG_ENGLISH        "Find an alternate entrance to Echo Base."
+LANG_CZECH        "Najdete nahradni vchod do zakladny Echo."
+
+REFERENCE           HOTH3_OBJ1
+LANG_ENGLISH        "Discover what the Imperials are doing in Echo Base"
+LANG_CZECH        "Zjistete, co delaji vojaci Imperia v zakladne Echo."
+
+REFERENCE           HOTH3_OBJ2
+LANG_ENGLISH        "Make your way to the Hanger Bay to confront Alora."
+LANG_CZECH        "Najdete cestu do hangaru a postavte se Alore."
+
+REFERENCE           HOTH3_OBJ3
+LANG_ENGLISH        "Defeat Alora."
+LANG_CZECH        "Porazte Aloru."
+
+REFERENCE           T2_DPREDICAMENT_OBJ1
+LANG_ENGLISH        "Escape the Prison!"
+LANG_CZECH        "Utecte z vezeni!"
+
+REFERENCE           T2_DPREDICAMENT_OBJ2
+LANG_ENGLISH        "Disable security locks from Commander's Office."
+LANG_CZECH        "Vypnete bezpecnostni zamky v kancelari velitele."
+
+REFERENCE           T2_DPREDICAMENT_OBJ3
+LANG_ENGLISH        "Gain access to the Docking Bay."
+LANG_CZECH        "Ziskejte vstup do doku."
+
+REFERENCE           T2_DPREDICAMENT_OBJ4
+LANG_ENGLISH        "Defeat Rax Joris to get your lightsaber back."
+LANG_CZECH        "Porazte Raxe Jorise, abyste ziskal zpet svuj svetelny mec."
+
+REFERENCE           T2_RANCOR_OBJ1
+LANG_ENGLISH        "Infiltrate the Hutt's stronghold and locate the prisoners."
+LANG_CZECH        "Infiltrujte pevnost Hutta a najdete vezne."
+
+REFERENCE           T2_RANCOR_OBJ2
+LANG_ENGLISH        "Release the prisoners from their cells and guide them to the ventilation pipe for pickup by Kyle."
+LANG_CZECH        "Pustte vezne z jejich cel a odvedte je k ventilacnimu potrubi, kde je vyzvedne Kyle."
+
+REFERENCE           T2_RANCOR_OBJ3
+LANG_ENGLISH        "Clear the way to the exit."
+LANG_CZECH        "Vycistete cestu k vychodu."
+
+REFERENCE           T2_RANCOR_OBJ4
+LANG_ENGLISH        "Get back to the access tunnel for extraction."
+LANG_CZECH        "Vratte se zpatky k pristupovemu tunelu pro vyzdvizeni."
+
+REFERENCE           T2_RANCOR_OBJ6
+LANG_ENGLISH        "Avoid the rancor."
+LANG_CZECH        "Vyhnete se Rancorovi."
+
+REFERENCE           T2_RANCOR_OBJ5
+LANG_ENGLISH        "You have saved %d of %d prisoners."
+LANG_CZECH        "Zachranil jste %d z %d veznu."
+
+REFERENCE           T2_RANCOR_OBJ5_2
+NOTES               "This is called in code if the current number saved is greater than the amount that had to be saved to complete the objective."
+LANG_ENGLISH        "You have saved %d of %d prisoners."
+LANG_CZECH        "Zachranil jste %d z %d veznu a %d dalsich."
+
+REFERENCE           T2_WEDGE_OBJ1
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Shield Generator building."
+LANG_CZECH        "Umistete zamerovaci majak na strechu budovy s generatorem stitu."
+
+REFERENCE           T2_WEDGE_OBJ2
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Hangar."
+LANG_CZECH        "Umistete zamerovaci majak na strechu hangaru."
+
+REFERENCE           T2_WEDGE_OBJ3
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Barracks."
+LANG_CZECH        "Umistete zamerovaci majak na strechu kasaren."
+
+REFERENCE           T2_WEDGE_OBJ4
+LANG_ENGLISH        "Place a targeting beacon on the roof of the Communications Array."
+LANG_CZECH        "Umistete zamerovaci majak na strechu komunikacniho pole."
+
+REFERENCE           T2_WEDGE_OBJ5
+LANG_ENGLISH        "Place a targeting beacon on the Power Generator."
+LANG_CZECH        "Umistete zamerovaci majak na generator energie."
+
+REFERENCE           T2_WEDGE_OBJ6
+LANG_ENGLISH        "Place a targeting beacon inside the Command Tower."
+LANG_CZECH        "Umistete zamerovaci majak do vnitrku velici veze."
+
+REFERENCE           T2_WEDGE_OBJ7
+LANG_ENGLISH        "Stop the Imperials from detonating the Tibanna Gas Tanks."
+LANG_CZECH        "Zabrante vojakum Imperia vyhodit do vzduchu plynove nadrze s tibanniem."
+
+REFERENCE           T2_WEDGE_OBJ8
+LANG_ENGLISH        "Return to your Ship."
+LANG_CZECH        "Vratte se na svoji lod."
+
+REFERENCE           T2_WEDGE_OBJ9
+LANG_ENGLISH        "Disarm the four remaining Bombs on the Tibanna Gas Tanks."
+LANG_CZECH        "Deaktivujte ctyri zbyvajici bomby na plynovych nadrzich s tibanniem."
+
+REFERENCE           T2_WEDGE_OBJ10
+LANG_ENGLISH        "Disarm the three remaining Bombs on the Tibanna Gas Tanks."
+LANG_CZECH        "Deaktivujte tri zbyvajici bomby na plynovych nadrzich s tibanniem."
+
+REFERENCE           T2_WEDGE_OBJ11
+LANG_ENGLISH        "Disarm the two remaining Bombs on the Tibanna Gas Tanks."
+LANG_CZECH        "Deaktivujte dve zbyvajici bomby na plynovych nadrzich s tibanniem."
+
+REFERENCE           T2_WEDGE_OBJ12
+LANG_ENGLISH        "Disarm the one remaining Bomb on the Tibanna Gas Tanks."
+LANG_CZECH        "Deaktivujte posledni zbyvajici bombu na plynovych nadrzich s tibanniem."
+
+REFERENCE           T3_RIFT_OBJ1
+LANG_ENGLISH        "Tavion's minions are preparing for her arrival. Stop them from desecrating the Jedi Tomb."
+LANG_CZECH        "Tavionini nohsledi se pripravuji na jeji prichod. Zabrante jim v znesveceni Jediho hrobky."
+
+REFERENCE           T3_RIFT_OBJ2
+LANG_ENGLISH        "Defeat the Jedi and find a way to protect the Jedi Master's coffin."
+LANG_CZECH        "Porazte Jedie a najdete zpusob jak ochranit rakev Mistra Jedi."
+
+REFERENCE           T3_RIFT_OBJ3
+LANG_ENGLISH        "Escape from the tomb."
+LANG_CZECH        "Utecte z hrobky."
+
+REFERENCE           T1_DANGER_OBJ1
+LANG_ENGLISH        "Find and bring back to your ship an Energy Cell."
+LANG_CZECH        "Najdete a prineste zpatky na svoji lod energeticky clanek."
+
+REFERENCE           T1_DANGER_OBJ2
+LANG_ENGLISH        "Find and bring back to your ship a Power Coupling."
+LANG_CZECH        "Najdete a prineste zpatky na svoji lod energetickou spojku."
+
+REFERENCE           T1_DANGER_OBJ3
+LANG_ENGLISH        "Find and bring back to your ship a Damper."
+LANG_CZECH        "Najdete a prineste zpatky na svoji lod tlumic."
+
+REFERENCE           T1_DANGER_OBJ4
+LANG_ENGLISH        "Find and bring back to your ship a Power Converter."
+LANG_CZECH        "Najdete a prineste zpatky na svoji lod energeticky konvertor."
+
+REFERENCE           T1_DANGER_OBJ5
+LANG_ENGLISH        "Only one ship part may be carried at a time.  Return a part to the ship in order to retrieve another."
+LANG_CZECH        "Unesete vsak pouze jednu lodni soucastku. Vratte soucastku na lod, abyste mohl ziskat dalsi."
+
+REFERENCE           T3_BOUNTY_OBJ1
+LANG_ENGLISH        "Destroy all Weapon Caches."
+LANG_CZECH        "Znicte vsechna skladiste zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ2
+LANG_ENGLISH        "Return to your Ship."
+LANG_CZECH        "Vratte se na svoji lod."
+
+REFERENCE           T3_BOUNTY_OBJ3
+LANG_ENGLISH        "Six Weapon Caches left."
+LANG_CZECH        "Zbyva sest skladist zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ4
+LANG_ENGLISH        "Five Weapon Caches left."
+LANG_CZECH        "Zbyva pet skladist zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ5
+LANG_ENGLISH        "Four Weapon Caches left."
+LANG_CZECH        "Zbyvaji ctyri skladiste zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ6
+LANG_ENGLISH        "Three Weapon Caches left."
+LANG_CZECH        "Zbyvaji tri skladiste zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ7
+LANG_ENGLISH        "Two Weapon Caches left."
+LANG_CZECH        "Zbyvaji dve skladiste zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ8
+LANG_ENGLISH        "One Weapon Cache left."
+LANG_CZECH        "Zbyva jedno skladiste zbrani."
+
+REFERENCE           T3_BOUNTY_OBJ9
+LANG_ENGLISH        "Defeat Boba Fett to get out of this\none alive."
+LANG_CZECH        "Porazte Boba Fetta, abyste se\nz tohohle dostal zivy."
+
+REFERENCE           T2_ROGUE_OBJ1
+LANG_ENGLISH        "Capture Lannik Racto."
+LANG_CZECH        "Zajmete Lannika Racta."
+
+REFERENCE           T2_ROGUE_OBJ2
+LANG_ENGLISH        "Gain access to Racto's office building."
+LANG_CZECH        "Ziskejte pristup do Ractoovy kancelarske budovy."
+
+REFERENCE           T2_TRIP_OBJ1
+LANG_ENGLISH        "Meet the contact at his outpost."
+LANG_CZECH        "Setkejte se s informatorem na jeho pozici."
+
+REFERENCE           T2_TRIP_OBJ2
+LANG_ENGLISH        "Escape from the mercenaries and make your way to the far city gate."
+LANG_CZECH        "Utecte pred zoldaky a najdete cestu ke vzdalene mestske brane."
+
+REFERENCE           T3_BYSS_OBJ1
+LANG_ENGLISH        "Disable the tractor beam holding the Raven's Claw in place."
+LANG_CZECH        "Vyradte vlecny paprsek, ktery blokuje Raven's Claw."
+
+REFERENCE           T3_BYSS_OBJ2
+LANG_ENGLISH        "Use the laser turrets at the top of the ship to hold off the attacking TIE fighters"
+LANG_CZECH        "Pouzijte laserove veze na vrcholu lodi, abyste pozdrzel utocici TIE fightery."
+
+REFERENCE           T3_BYSS_OBJ3
+LANG_ENGLISH        "Get back to your Ship."
+LANG_CZECH        "Vratte se ke sve lodi."
+
+REFERENCE           T3_HEVIL_OBJ1
+LANG_ENGLISH        "Reach the top of the tower where the cloaking emitter is located."
+LANG_CZECH        "Dostante se na vrsek veze, kde se nachazi emitor maskovaciho pole."
+
+REFERENCE           T3_HEVIL_OBJ2
+LANG_ENGLISH        "Set the detonator charges to destroy the Cloak Generator."
+LANG_CZECH        "Nastavte vybusniny ke zniceni generatoru maskovani."
+
+REFERENCE           T3_HEVIL_OBJ3
+LANG_ENGLISH        "Defeat the Noghri guardians."
+LANG_CZECH        "Porazte noghrijske strazce."
+
+REFERENCE           T3_STAMP_OBJ1
+LANG_ENGLISH        "Defeat the cultists."
+LANG_CZECH        "Porazte kultisty."
+
+REFERENCE           T3_STAMP_OBJ2
+LANG_ENGLISH        "Find a way to stop the mutated rancor.  Weapons are useless against it."
+LANG_CZECH        "Najdete zpusob, jak zastavit zmutovaneho Rancora. Zbrane jsou proti nemu neucinne."
+
+REFERENCE           T3_STAMP_OBJ3
+LANG_ENGLISH        "Place a new crate over the conveyor belt to trap the mutant rancor."
+LANG_CZECH        "Polozte novou bednu na dopravnik, abyste uveznil zmutovaneho Rancora."
+
+REFERENCE           T3_STAMP_OBJ4
+LANG_ENGLISH        "Trap the mutant rancor on the conveyor belt by using the hanging crate."
+LANG_CZECH        "Uveznete zmutovaneho Rancora na dopravniku pomoci vysici bedny."
+
+REFERENCE           TASPIR1_OBJ1
+LANG_ENGLISH        "Gain access to the Imperial Power facility."
+LANG_CZECH        "Ziskejte pristup do imperialniho energetickeho zarizeni."
+
+REFERENCE           TASPIR1_OBJ2
+LANG_ENGLISH        "Extend the bridge and heat shields leading to the Security Override controls."
+LANG_CZECH        "Vysunte most a tepelne stity vedouci k hlavnimu ovladani bezpecnosti."
+
+REFERENCE           TASPIR1_OBJ3
+LANG_ENGLISH        "Enable power to the main walkway by using the Security Override controls."
+LANG_CZECH        "Pustte energii do hlavni lavky pomoci hlavniho ovladani bezpecnosti."
+
+REFERENCE           TASPIR1_OBJ4
+LANG_ENGLISH        "Extend the main walkway to the Imperial Power facility."
+LANG_CZECH        "Vysunte hlavni lavku do imperialniho energetickeho zarizeni."
+
+REFERENCE           TASPIR2_OBJ1
+LANG_ENGLISH        "Find Rosh Penin."
+LANG_CZECH        "Najdete Roshe Penina."
+
+REFERENCE           TASPIR2_OBJ2
+LANG_ENGLISH        "Defeat Alora."
+LANG_CZECH        "Porazte Aloru."
+
+REFERENCE           VJUN1_OBJ1
+LANG_ENGLISH        "Make your way to Bast Castle through the acidic rain."
+LANG_CZECH        "Najdete cestu do pevnosti Bast skrz kysely dest."
+
+REFERENCE           VJUN1_OBJ2
+LANG_ENGLISH        "Find a way to the emplaced gun and use it to destroy the Tie-Bombers."
+LANG_CZECH        "Najdete cestu k palebnemu delu a pouzijte ho ke zniceni Tie-Bomberu."
+
+REFERENCE           VJUN2_OBJ1
+LANG_ENGLISH        "Find a way into the upper parts of the Castle."
+LANG_CZECH        "Najdete cestu do hornich podlazi pevnosti."
+
+REFERENCE           VJUN3_OBJ1
+LANG_ENGLISH        "Investigate Cult activities."
+LANG_CZECH        "Prosetrete cinnosti kultu."
+
+REFERENCE           YAVIN1_OBJ1
+LANG_ENGLISH        "Make your way to the Massassi Temple with Rosh."
+LANG_CZECH        "Najdete cestu s Roshem do chramu Massassi."
+
+REFERENCE           YAVIN1_OBJ2
+LANG_ENGLISH        "Find a way to rescue Rosh from the ledge he is on."
+LANG_CZECH        "Najdete zpusob, jak zachranit Roshe z vybezku, na kterem je."
+
+REFERENCE           YAVIN2_OBJ1
+LANG_ENGLISH        "Complete the Training Course."
+LANG_CZECH        "Dokoncete vycvikovy kurz."
+
+REFERENCE           T1_FATAL_OBJ1
+LANG_ENGLISH        "Disarm the 5 bombs the Imperials have placed."
+LANG_CZECH        "Deaktivujte pet bomb, ktere polozili vojaci Imperia."
+
+REFERENCE           T1_FATAL_OBJ2
+LANG_ENGLISH        "Disarm the last 4 bombs."
+LANG_CZECH        "Deaktivujte zbyvajici ctyri bomby."
+
+REFERENCE           T1_FATAL_OBJ3
+LANG_ENGLISH        "Disarm the last 3 bombs."
+LANG_CZECH        "Deaktivujte zbyvajici tri bomby."
+
+REFERENCE           T1_FATAL_OBJ4
+LANG_ENGLISH        "Disarm the last 2 bombs."
+LANG_CZECH        "Deaktivujte zbyvajici dve bomby."
+
+REFERENCE           T1_FATAL_OBJ5
+LANG_ENGLISH        "Disarm the last bomb."
+LANG_CZECH        "Deaktivujte posledni bombu."
+
+REFERENCE           T1_FATAL_OBJ6
+LANG_ENGLISH        "Get back to your ship."
+LANG_CZECH        "Vratte se zpatky k Vasi lodi."
+
+REFERENCE           KOR1_OBJ1
+LANG_ENGLISH        "Find a way through the Sith Catacombs to the Valley floor."
+LANG_CZECH        "Najdete cestu skrz Sithske katakomby na dno udoli."
+
+REFERENCE           KOR1_OBJ2
+LANG_ENGLISH        "Find a way to open the door to the valley."
+LANG_CZECH        "Najdete zpusob, jak otevrit dvere do udoli."
+
+REFERENCE           KOR2_OBJ1
+LANG_ENGLISH        "Navigate the ancient ruins and enter the Tomb of Ragnos."
+LANG_CZECH        "Projdete starovekymi ruinami a vstupte do Ragnosovy hrobky."
+
+REFERENCE           KOR2_OBJ2
+LANG_ENGLISH        "Stop Tavion from resurrecting Marka Ragnos."
+LANG_CZECH        "Zabrante Tavion ozivit Marku Ragnose."
+
+REFERENCE           KOR2_OBJ3
+LANG_ENGLISH        "Defeat Tavion/Ragnos."
+LANG_CZECH        "Porazte Tavion/Ragnose."
+
+REFERENCE           KOR2_OBJ4
+LANG_ENGLISH        "Defeat Kyle Katarn."
+LANG_CZECH        "Porazte Kyla Katarna."
+
+REFERENCE           T1_RAIL_OBJ1
+LANG_ENGLISH        "Make your way to the front of the tram."
+LANG_CZECH        "Najdete cestu do predni casti transporteru."
+
+REFERENCE           T1_RAIL_OBJ2
+LANG_ENGLISH        "Disarm the bomb."
+LANG_CZECH        "Deaktivujte bombu."
+
+REFERENCE           T1_RAIL_OBJ3
+LANG_ENGLISH        "Stop the tram from reaching the station."
+LANG_CZECH        "Zabrante transporteru dostat se do stanice."
+
+REFERENCE           T1_SOUR_OBJ1
+LANG_ENGLISH        "Eliminate the mercenary threat."
+LANG_CZECH        "Eliminujte zoldackou hrozbu."
+
+REFERENCE           T1_SOUR_OBJ2
+LANG_ENGLISH        "Disable the tractor beams holding the Raven's Claw."
+LANG_CZECH        "Vyradte vlecny paprsek drzici Raven's Claw."
+
+REFERENCE           T1_SOUR_OBJ3
+LANG_ENGLISH        "Disable the tractor beams holding the Millennium Falcon."
+LANG_CZECH        "Vyradte vlecny paprsek drzici Millennium Falcon."
+
+REFERENCE           T1_SOUR_OBJ4
+LANG_ENGLISH        "Get back to the Millenium Falcon."
+LANG_CZECH        "Vratte se k Millenium Falconu."
+
+REFERENCE           T1_SURPRISE_OBJ1
+LANG_ENGLISH        "Locate the missing Sandcrawler."
+LANG_CZECH        "Najdete ztraceny Sandcrawler."
+
+REFERENCE           T1_SURPRISE_OBJ2
+LANG_ENGLISH        "Eliminate the Tusken Raiders."
+LANG_CZECH        "Eliminujte tuskenske najezdniky."
+
+REFERENCE           T1_SURPRISE_OBJ3
+LANG_ENGLISH        "Retrieve the droid from the Sandcrawler."
+LANG_CZECH        "Ziskejte droida ze Sandcrawleru."
+
+REFERENCE           T1_SURPRISE_OBJ4
+LANG_ENGLISH        "Prevent the droid from being destroyed."
+LANG_CZECH        "Zabrante zniceni droida."
+
+REFERENCE           KEJIM_POST_OBJ1
+LANG_ENGLISH        "Investigate the abandoned Imperial outpost."
+LANG_CZECH        "Prozkoumejte opustenou Imperialni zakladnu."
+
+REFERENCE           KEJIM_POST_OBJ2
+LANG_ENGLISH        "Engage Remnant forces in the area."
+LANG_CZECH        "Stretnete se se zbytky imperialnich jednotek v teto oblasti."
+
+REFERENCE           KEJIM_BASE_OBJ1
+LANG_ENGLISH        "Investigate the hidden section of the outpost."
+LANG_CZECH        "Prozkoumejte skrytou cast zakladny."
+
+REFERENCE           KEJIM_BASE_OBJ2
+LANG_ENGLISH        "Engage Remnant forces in the area."
+LANG_CZECH        "Stretnete se se zbytky imperialnich jednotek v teto oblasti."
+
+REFERENCE           KEJIM_BASE_OBJ3
+LANG_ENGLISH        "Rendezvous with Jan and the Raven's Claw."
+LANG_CZECH        "Setkejte se s Jan u Raven's Claw."
+
+REFERENCE           ARTUS_MINE_OBJ1
+LANG_ENGLISH        "Infiltrate the mining facility."
+LANG_CZECH        "Infiltrujte tezebni zarizeni."
+
+REFERENCE           ARTUS_MINE_OBJ2
+LANG_ENGLISH        "Cripple the mining operation."
+LANG_CZECH        "Zamezte tezebnim operacim."
+
+REFERENCE           ARTUS_MINE_OBJ3
+LANG_ENGLISH        "Proceed to the detention facility."
+LANG_CZECH        "Postupujte do detencniho zarizeni."
+
+REFERENCE           ARTUS_DETENTION_OBJ1
+LANG_ENGLISH        "Rescue the miners from the prison. Release the prisoners."
+LANG_CZECH        "Zachrante tezare z vezeni. Osvobodte vezne."
+
+REFERENCE           ARTUS_DETENTION_OBJ2
+LANG_ENGLISH        "Make your way to the surface."
+LANG_CZECH        "Najdete cestu na povrch."
+
+REFERENCE           ARTUS_TOPSIDE_OBJ1
+LANG_ENGLISH        "Disable the external defenses to allow evacuation of the prisoners."
+LANG_CZECH        "Vypnete externi obranu, aby se mohli vezni evakuovat."
+
+REFERENCE           ARTUS_TOPSIDE_OBJ2
+LANG_ENGLISH        "Rendezvous with Jan and the Raven's Claw."
+LANG_CZECH        "Setkejte se s Jan u Raven's Claw."
+
+REFERENCE           YAVIN_TEMPLE_OBJ1
+LANG_ENGLISH        "Meet with Luke Skywalker."
+LANG_CZECH        "Setkejte se s Lukem Skywalkerem."
+
+REFERENCE           YAVIN_TRIAL_OBJ1
+LANG_ENGLISH        "Complete each trial to regain your Force abilities."
+LANG_CZECH        "Dokoncete kazdou zkousku, abyste ziskali nove schopnosti Sily."
+
+REFERENCE           YAVIN_TRIAL_OBJ2
+LANG_ENGLISH        "Search the trial grounds for your lightsaber."
+LANG_CZECH        "Prozkoumejte vycvikovy areal a najdete svuj svetelny mec."
+
+REFERENCE           NS_STREETS_OBJ1
+LANG_ENGLISH        "Track down the gangster, Reelo Baruk."
+LANG_CZECH        "Vysledujte gangstera Reelo Baruka."
+
+REFERENCE           NS_STREETS_OBJ2
+LANG_ENGLISH        "Escape the bar alive."
+LANG_CZECH        "Utecte z baru zivy."
+
+REFERENCE           NS_STREETS_OBJ3
+LANG_ENGLISH        "Find the entrance to Reelo's hideout."
+LANG_CZECH        "Najdete vchod do Reelova ukrytu."
+
+REFERENCE           NS_HIDEOUT_OBJ1
+LANG_ENGLISH        "Track down Reelo Baruk."
+LANG_CZECH        "Vysledujte Reelo Baruka."
+
+REFERENCE           NS_HIDEOUT_OBJ2
+LANG_ENGLISH        "Release Lando."
+LANG_CZECH        "Propustte Landa."
+
+REFERENCE           NS_STARPAD_OBJ1
+LANG_ENGLISH        "Find Lando's ship, the Lady Luck."
+LANG_CZECH        "Najdete Landovu lod, Lady Luck."
+
+REFERENCE           NS_STARPAD_OBJ2
+LANG_ENGLISH        "Help Lando prep Lady Luck for takeoff."
+LANG_CZECH        "Pomozte Landovi pripravit Lady Luck ke vzletnuti."
+
+REFERENCE           NS_STARPAD_OBJ3
+LANG_ENGLISH        "Open the roof sections."
+LANG_CZECH        "Otevrete stresni sekce."
+
+REFERENCE           NS_STARPAD_OBJ4
+LANG_ENGLISH        "Pump the fuel to the ship."
+LANG_CZECH        "Docerpejte palivo do lodi."
+
+REFERENCE           NS_STARPAD_OBJ5
+LANG_ENGLISH        "Use the ship's gun to defend the ship."
+LANG_CZECH        "Pouzijte lodni zbrane k obrane lodi."
+
+REFERENCE           BESPIN_UNDERCITY_OBJ1
+LANG_ENGLISH        "Infiltrate Bespin City through the lower levels."
+LANG_CZECH        "Infiltrujte mesto Bespin skrze nizsi urovne."
+
+REFERENCE           BESPIN_UNDERCITY_OBJ2
+LANG_ENGLISH        "Find Lando's R5 unit near Carbonite Chamber #17."
+LANG_CZECH        "Najdete Landovu R5 jednotku blizko karbonitove komory #17."
+
+REFERENCE           BESPIN_STREETS_OBJ1
+LANG_ENGLISH        "Search for Desann."
+LANG_CZECH        "Najdete Desanna."
+
+REFERENCE           BESPIN_STREETS_OBJ2
+LANG_ENGLISH        "Engage hostile forces in the area."
+LANG_CZECH        "Stretnete se s nepratelskymi silami v teto oblasti."
+
+REFERENCE           BESPIN_PLATFORM_OBJ1
+LANG_ENGLISH        "Search for Desann."
+LANG_CZECH        "Najdete Desanna."
+
+REFERENCE           BESPIN_PLATFORM_OBJ2
+LANG_ENGLISH        "Engage hostile forces in the area."
+LANG_CZECH        "Stretnete se s nepratelskymi silami v teto oblasti."
+
+REFERENCE           CAIRN_BAY_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CZECH        "Najdete Galakovu lod, Doomgiver."
+
+REFERENCE           CAIRN_BAY_OBJ2
+LANG_ENGLISH        "Find a way out of the hangar bays."
+LANG_CZECH        "Najdete cestu pryc z hangaru."
+
+REFERENCE           CAIRN_ASSEMBLY_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CZECH        "Najdete Galakovu lod, Doomgiver."
+
+REFERENCE           CAIRN_REACTOR_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CZECH        "Najdete Galakovu lod, Doomgiver."
+
+REFERENCE           CAIRN_REACTOR_OBJ2
+LANG_ENGLISH        "Navigate the hazards of the installation's reactor assembly."
+LANG_CZECH        "Dostante se skrze nebezpeci pri instalaci reaktoru."
+
+REFERENCE           CAIRN_DOCK1_OBJ1
+LANG_ENGLISH        "Search for Galak's ship, Doomgiver."
+LANG_CZECH        "Najdete Galakovu lod, Doomgiver."
+
+REFERENCE           CAIRN_DOCK1_OBJ2
+LANG_ENGLISH        "Avoid detection by Remnant troops."
+LANG_CZECH        "Vyhnete se odhaleni vojaky zbytku imperialnich jednotek."
+
+REFERENCE           DOOM_COMM_OBJ1
+LANG_ENGLISH        "Search for Jan."
+LANG_CZECH        "Najdete Jan."
+
+REFERENCE           DOOM_COMM_OBJ2
+LANG_ENGLISH        "Find Doomgiver's communications array."
+LANG_CZECH        "Najdete ovladani komunikace na Doomgiveru."
+
+REFERENCE           DOOM_COMM_OBJ3
+LANG_ENGLISH        "Contact Rogue Squadron using the communications array."
+LANG_CZECH        "Kontaktujte letku Rogue Squadron za pouziti ovladani komunikace."
+
+REFERENCE           DOOM_DETENTION_OBJ1
+LANG_ENGLISH        "Search for Jan."
+LANG_CZECH        "Najdete Jan."
+
+REFERENCE           DOOM_DETENTION_OBJ2
+LANG_ENGLISH        "Locate Doomgiver's shield array."
+LANG_CZECH        "Najdete ovladani stitu Doomgiveru."
+
+REFERENCE           DOOM_SHIELDS_OBJ1
+LANG_ENGLISH        "Locate and disable Doomgiver's shield array."
+LANG_CZECH        "Najdete a vypnete ovladani stitu Doomgiveru."
+
+REFERENCE           DOOM_SHIELDS_OBJ2
+LANG_ENGLISH        "Escape Doomgiver before it is destroyed by Rogue Squadron."
+LANG_CZECH        "Utecte z Doomgiveru nez bude znicen letkou Rogue Squadron."
+
+REFERENCE           YAVIN_SWAMP_OBJ1
+LANG_ENGLISH        "Make your way to the Jedi Academy."
+LANG_CZECH        "Najdete cestu cestu k Akademii Jediu."
+
+REFERENCE           YAVIN_SWAMP_OBJ2
+LANG_ENGLISH        "Engage Remnant troops in the area."
+LANG_CZECH        "Stretnete se se zbytky imperialnich jednotek v teto oblasti."
+
+REFERENCE           YAVIN_CANYON_OBJ1
+LANG_ENGLISH        "Make your way to the Jedi Academy."
+LANG_CZECH        "Najdete cestu cestu k Akademii Jediu."
+
+REFERENCE           YAVIN_CANYON_OBJ2
+LANG_ENGLISH        "Engage Remnant troops in the area."
+LANG_CZECH        "Stretnete se se zbytky imperialnich jednotek v teto oblasti."
+
+REFERENCE           YAVIN_COURTYARD_OBJ1
+LANG_ENGLISH        "Clear the Jedi Academy grounds of Remnant troops."
+LANG_CZECH        "Vycistete areal Akademie Jediu od vojaku zbytku imperialnich jednotek."
+
+REFERENCE           YAVIN_COURTYARD_OBJ2
+LANG_ENGLISH        "Locate Desann."
+LANG_CZECH        "Najdete Desanna."
+
+REFERENCE           YAVIN_FINAL_OBJ1
+LANG_ENGLISH        "Defeat the dark Jedi Desann."
+LANG_CZECH        "Porazte temneho Jedie Desanna."
+
+REFERENCE           KEJIM_POST_OBJ3
+LANG_ENGLISH        "Input the red clearance code at the main array:"
+LANG_CZECH        "Vlozte cerveny odbavovaci kod do hlavniho pocitace:"
+
+REFERENCE           KEJIM_POST_OBJ4
+LANG_ENGLISH        "Input the green clearance code at the main array:"
+LANG_CZECH        "Vlozte zeleny odbavovaci kod do hlavniho pocitace:"
+
+REFERENCE           KEJIM_POST_OBJ5
+LANG_ENGLISH        "Input the blue clearance code at the main array:"
+LANG_CZECH        "Vlozte modry odbavovaci kod do hlavniho pocitace:"
+
+REFERENCE           ARTUS_DETENTION_OBJ3
+LANG_ENGLISH        "Capture the Base Commander and force him to open the main hangar doors."
+LANG_CZECH        "Zajmete velitele zakladny a prinutte ho, aby otevrel hlavni dvere hangaru."
+
+REFERENCE           DOOM_COMM_OBJ4
+LANG_ENGLISH        "Set Doomgiver's sensor array to Rogue Squadron's communicator frequency."
+LANG_CZECH        "Nastavte senzory Doomgiveru na frekvenci komunikace letky Rogue Squadron."
+
+REFERENCE           DOOM_SHIELDS_OBJ3
+LANG_ENGLISH        "Make your way to the escape pods before Rogue squadron destroys the Doomgiver."
+LANG_CZECH        "Najdete cestu k unikovym modulum nez letka Rogue Squadron znici Doomgiver."
+
+REFERENCE           DEMO_OBJ1
+LANG_ENGLISH        "Make your way through the remnant base to reach Jan and the Raven's Claw. \n"
+LANG_CZECH        "Najdete cestu skrze zakladnu zbytku imperialnich jednotek, abyste nasli Jan a Raven's Claw."
+
+REFERENCE           DEMO_OBJ2
+LANG_ENGLISH        "Engage remnant forces in the area.\n"
+LANG_CZECH        "Stretnete se se zbytky imperialnich jednotek v teto oblasti."
+
+REFERENCE           DEMO_OBJ3
+LANG_ENGLISH        "Lower the forcefield that is holding the Raven's Claw in hangar bay two\n"
+LANG_CZECH        "Vypnete silove pole, ktere drzi Raven's Claw v hangaru 2."
+
+REFERENCE           DEMO_OBJ4
+LANG_ENGLISH        "Rendezvous with Jan at the Raven's Claw.\n"
+LANG_CZECH        "Setkejte se s Jan u Raven's Claw."
+
+ENDMARKER
+
+

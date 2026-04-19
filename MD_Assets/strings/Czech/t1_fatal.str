@@ -1,0 +1,111 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_CZECH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           08LUK001
+LANG_ENGLISH        "Kyle is currently away from the Academy, but he will meet you on Bakura. Then the two of you can investigate the station. Be sure to wait for him before you do anything."
+LANG_CZECH        "Kyle je momentalne mimo Akademii, ale setka se s tebou na Bakure. Pak muzete prozkoumat elektrarnu. Driv nez neco udelas, pockej na nej."
+
+REFERENCE           08JAK001
+LANG_ENGLISH        "Where are you, Kyle? I've been waiting here forever."
+LANG_CZECH        "Kde jsi, Kyle? Uz tu cekam vecnost."
+
+REFERENCE           08JAK002
+LANG_ENGLISH        "Well, I can't wait around. I've got to do something."
+LANG_CZECH        "No, nemuzu jen tak cekat. Musim neco udelat."
+
+REFERENCE           08JAK003
+LANG_ENGLISH        "No wonder I was supposed to wait for Kyle, it's the Empire!"
+LANG_CZECH        "Neni divu, ze jsem mel cekat na Kylea, to jsou imperialni vojaci!"
+
+REFERENCE           08IS1001
+LANG_ENGLISH        "Get the Jedi!"
+LANG_CZECH        "Dostante toho Jediho!"
+
+REFERENCE           08IS2001
+LANG_ENGLISH        "Retreat!"
+LANG_CZECH        "Ustup!"
+
+REFERENCE           MR_08IS3001
+LANG_ENGLISH        "Don't let him get to the control room!"
+LANG_CZECH        "Nedovolte mu dostat se do ridici mistnosti!"
+
+REFERENCE           MS_08IS3001
+LANG_ENGLISH        "Don't let her get to the control room!"
+LANG_CZECH        "Nedovolte ji dostat se do ridici mistnosti!"
+
+REFERENCE           08JAK004
+LANG_ENGLISH        "Blast it Kyle, where are you? I could use some help here."
+LANG_CZECH        "Kruci, Kyle, kde jsi? Hodila by se mi tu pomoc."
+
+REFERENCE           08IS2002
+LANG_ENGLISH        "The charges are set, Sir."
+LANG_CZECH        "Naloze jsou nastaveny, pane."
+
+REFERENCE           08IS1002
+LANG_ENGLISH        "Good.  The Republic is getting complacent. They underestimate us."
+LANG_CZECH        "Vyborne.  Republika usnula na vavrinech. Podcenuji nas."
+
+REFERENCE           08IS1003
+LANG_ENGLISH        "This will remind them what happens to traitors."
+LANG_CZECH        "To jim pripomene, co se stane zradcum."
+
+REFERENCE           08IS3002
+LANG_ENGLISH        "Sir, the countdown has begun, we need to get out of here!"
+LANG_CZECH        "Pane, odpocitavani zacalo, musime odsud zmizet!"
+
+REFERENCE           08IS1004
+LANG_ENGLISH        "Right, move out."
+LANG_CZECH        "Ano, jdeme."
+
+REFERENCE           08JAK005
+LANG_ENGLISH        "They're going to blow the whole installation!  I have to stop that countdown."
+LANG_CZECH        "Chystaji se odpalit cele zarizeni!  Musim zastavit to odpocitavani."
+
+REFERENCE           08IS1005
+LANG_ENGLISH        "We have an intruder!  Take positions!"
+LANG_CZECH        "Mame tu vetrelce!  Kazdy na sve stanoviste!"
+
+REFERENCE           08IS3001
+LANG_ENGLISH        "Ready!"
+LANG_CZECH        "Pripraven!"
+
+REFERENCE           08JAK006
+LANG_ENGLISH        "One down, Five more to go."
+LANG_CZECH        "Jedna za mnou, pet zbyva."
+
+REFERENCE           08JAK007
+LANG_ENGLISH        "Okay... four more to go."
+LANG_CZECH        "Dobre... zbyvaji ctyri."
+
+REFERENCE           08JAK008
+LANG_ENGLISH        "Three more."
+LANG_CZECH        "Zbyvaji tri."
+
+REFERENCE           08JAK009
+LANG_ENGLISH        "Just two more left."
+LANG_CZECH        "Uz jen dve."
+
+REFERENCE           08JAK010
+LANG_ENGLISH        "Only one more..."
+LANG_CZECH        "Zbyva posledni..."
+
+REFERENCE           08JAK011
+LANG_ENGLISH        "That does it.  Better get back to my ship."
+LANG_CZECH        "A je to.  Radsi se vratim na lod."
+
+
+ENDMARKER
+
+

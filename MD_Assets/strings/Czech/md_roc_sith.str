@@ -1,0 +1,84 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           OD_ANI1
+LANG_ENGLISH        "You all right?"
+LANG_CZECH        "Neni Vam nic?"
+
+REFERENCE           OD_ANI2
+LANG_ENGLISH        "I was about to say that."
+LANG_CZECH        "To jsem chtel rict ja."
+
+REFERENCE           OD_ANI3
+LANG_ENGLISH        "My powers have doubled since the last time we met, Count."
+LANG_CZECH        "Jsem dvakrat silnejsi, nez pri nasem poslednim setkani."
+
+REFERENCE           OD_DOK1
+LANG_ENGLISH        "Your swords, please. We don't want to make a mess of things, in front of the Chancellor."
+LANG_CZECH        "Vase mece, prosim. Nechceme prece, aby se Kancler musel divat na masakr."
+
+REFERENCE           OD_DOK2
+LANG_ENGLISH        "I've been looking forward to this."
+LANG_CZECH        "Na tohle jsem se tesil."
+
+REFERENCE           OD_DOK3
+LANG_ENGLISH        "Good. Twice the pride, double the fall."
+LANG_CZECH        "Skvele. Velka pycha, velky pad."
+
+REFERENCE           OD_DOK4
+LANG_ENGLISH        "I sense great fear in you, Skywalker."
+LANG_CZECH        "Citim v tobe velky strach, Skywalkere."
+
+REFERENCE           OD_DOK5
+LANG_ENGLISH        "You have hate! You have anger! But you don't use them."
+LANG_CZECH        "Je v tobe nenavist! Je v tobe hnev! Ale nepouzivas je."
+
+REFERENCE           OD_DOK6B
+LANG_ENGLISH        "The Force is with us, Master Sidious!"
+LANG_CZECH        "Sila je s nami, Mistre Sidiousi!"
+
+REFERENCE           OD_DOK7
+LANG_ENGLISH        "Just because there are two of you do not assume that you have the advantage."
+LANG_CZECH        "Jen proto, ze jste dva, nepredpokladejte, ze mate vyhodu."
+
+REFERENCE           OD_OBI1
+LANG_ENGLISH        "Chancellor."
+LANG_CZECH        "Kancleri."
+
+REFERENCE           OD_OBI2
+LANG_ENGLISH        "This time we will do it together."
+LANG_CZECH        "Tentokrat to udelame spolecne."
+
+REFERENCE           OD_OBI3
+LANG_ENGLISH        "Chancellor Palpatine, Sith Lords are our speciality."
+LANG_CZECH        "Kancleri Palpatine, Sithsti Lordi, jsou nase specialita."
+
+REFERENCE           OD_OBI4
+LANG_ENGLISH        "You won't get away this time, Dooku."
+LANG_CZECH        "Tentokrat nam neuniknes, Dooku."
+
+REFERENCE           OD_PAL1
+LANG_ENGLISH        "Count Dooku."
+LANG_CZECH        "Hrabe Dooku."
+
+REFERENCE           OD_PAL2
+LANG_ENGLISH        "Get help. You're no match for him. He's a Sith Lord!"
+LANG_CZECH        "Sezente posily. Na neho nestacite. Je to Sithsky Lord!"
+
+REFERENCE           OD_PAL12
+LANG_ENGLISH        "Lord Tyranus, you have done well."
+LANG_CZECH        "Vedl sis dobre, Lorde Tyranusi."
+
+ENDMARKER

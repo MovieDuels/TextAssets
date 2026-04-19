@@ -1,0 +1,72 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "W:\bin\stringed.cfg"
+FILENOTES           "XMAKE-auto-generated from "w:\documents\script\jedi academy script2.txt""
+
+REFERENCE           MAUL1
+LANG_ENGLISH        "[ Sighs ] Look what has become of you.\nA rat in the desert."
+LANG_CZECH        "[ Povzdechnuti ] Podivej se, co se z tebe stalo.\nKrysa v pousti."
+
+REFERENCE           MAUL2
+LANG_ENGLISH        "I've come to kill you, but perhaps it's worse to leave you here, festering in your squalor."
+LANG_CZECH        "Prisel jsem te zabit, ale mozna je horsi te tu nechat hnit v te spine."
+
+REFERENCE           MAUL3
+LANG_ENGLISH        "[ Grunts ]\nAnd what do you have?"
+LANG_CZECH        "[ Zamruceni ]\nA co mas ty?"
+
+REFERENCE           MAUL4
+LANG_ENGLISH        "Why come to this place?\nNot simply to hide."
+LANG_CZECH        "Proc jsi prisel na toto misto?\nNe jenom se schovat."
+
+REFERENCE           MAUL5
+LANG_ENGLISH        "Oh, you have a purpose here.\nPerhaps you are protecting something."
+LANG_CZECH        "Aha, jsi tu za nejakym ucelem.\nMozna neco chranis."
+
+REFERENCE           MAUL5B
+LANG_ENGLISH        "No."
+LANG_CZECH        "Ne."
+
+REFERENCE           MAUL5C
+LANG_ENGLISH        "Protecting someone."
+LANG_CZECH        "Chranis nekoho."
+
+REFERENCE           MAUL6
+LANG_ENGLISH        "[ Grunts ]"
+LANG_CZECH        "[ Zamruceni ]"
+
+REFERENCE           MAUL7
+LANG_ENGLISH        "Tell me. Is it the Chosen One?"
+LANG_CZECH        "Rekni mi. Je to Vyvoleny?"
+
+REFERENCE           MAUL8
+LANG_ENGLISH        "He.. will avenge us."
+LANG_CZECH        "On.. nas pomsti."
+
+REFERENCE           MAUL9
+LANG_ENGLISH        "[ Grunts ] You disappoint me!"
+LANG_CZECH        "[ Zamruceni ] Zklamal jsi me!"
+
+REFERENCE          	BEN1
+LANG_ENGLISH       	"Look what I have risen above."
+LANG_CZECH        "Podivej se, nad co jsem se povysil."
+
+REFERENCE          	BEN2
+LANG_ENGLISH       	"If you define yourself by your power to take life,\na desire to dominate, to possess, then you have nothing."
+LANG_CZECH        "Pokud se definujes podle toho, ze umis brat zivot,\ntouhou ovladat, vlastnit, potom nemas nic."
+
+REFERENCE          	BEN3
+LANG_ENGLISH       	"He is."
+LANG_CZECH        "Je."
+
+ENDMARKER
